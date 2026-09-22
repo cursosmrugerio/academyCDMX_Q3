@@ -1,5 +1,9 @@
 package primitivos;
 
+//boolean 
+//byte, short, char, int, long
+//float, double
+
 public class Principal {
 
 	public static void main(String[] args) {
