@@ -61,6 +61,3 @@ proyectosWeb/springWebFlux/Conceptos/notebook/
 # didactico generado para la practica (no protegen nada real) y sin ellas
 # 02-security-jwt no arranca al clonar.
 !**/src/main/resources/certs/*.pem
-
-# Material APX (140 MB, interno BBVA): repo git propio en materialApx/, no se sube a GitHub
-materialApx/
