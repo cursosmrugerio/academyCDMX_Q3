@@ -1,0 +1,82 @@
+[
+ {
+  "archivo": "01 - Java E.docx",
+  "titulo": "Java E",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5tBJnebiCm9qi_R0lOHV_K8sQLVKImWe5kM0L6OJszEsuIQ/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx",
+  "preguntas": 24,
+  "imagenes": 15,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ },
+ {
+  "archivo": "02 - Java DE.docx",
+  "titulo": "JAVA DE",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSdacbJSexsLyC-fCKHhBG5FH2mAkAEICvTIfHLTA57NCS9rRA/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx",
+  "preguntas": 25,
+  "imagenes": 18,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ },
+ {
+  "archivo": "03 - Java D.docx",
+  "titulo": "Examen Java - D",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSdXsOBHRoBzgpPzfPvlAzri9hCls9YcJ296eJLLiYVxOUmRkA/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx",
+  "preguntas": 24,
+  "imagenes": 17,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ },
+ {
+  "archivo": "04 - Java Sesiones.docx",
+  "titulo": "Java Examen",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfwDGuVs7Tt_poz2VLjAZiBR201ORAWjIDWG1o7zt5Dr-jTfQ/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx y Formularios/Formularios APX.docx",
+  "preguntas": 53,
+  "imagenes": 46,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ },
+ {
+  "archivo": "05 - Diagnóstico APX.docx",
+  "titulo": "Diagnóstico APX",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSe2fm1UfLU_l_T4D4XGFO0wy7cH_MnIkYFdIZ2RKPlvAPjcEw/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx",
+  "preguntas": 81,
+  "imagenes": 0,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ },
+ {
+  "archivo": "06 - Diagnóstico APX 3.docx",
+  "titulo": "Examen Diagnóstico APX 3",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfQuRlgpRYH7mXYv_4i4z2n5o0UBPuull_C6d0gLayi8GLF9g/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx y Formularios/Formularios APX.docx",
+  "preguntas": 94,
+  "imagenes": 0,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ },
+ {
+  "archivo": "07 - Diagnóstico APX 5.docx",
+  "titulo": "Diagnóstico APX 5",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScAVxlZWzjiIpDjZOG9j0mgMG5neo1_AFWwJSmVwLg9plKBEA/viewform",
+  "origen": "Exámenes de apoyo/LINKS.docx",
+  "preguntas": 85,
+  "imagenes": 0,
+  "imagenes_faltantes": 19,
+  "secciones": 3
+ },
+ {
+  "archivo": "08 - Teoría APX.docx",
+  "titulo": "Teoría APX",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScTSLRC0D5XJIRJET2un9AVWt7D6TPyq5jDqogyPe8daahrWg/viewform",
+  "origen": "Formularios/Formularios APX.docx",
+  "preguntas": 34,
+  "imagenes": 0,
+  "imagenes_faltantes": 0,
+  "secciones": 1
+ }
+]
