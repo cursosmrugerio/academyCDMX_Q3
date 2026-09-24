@@ -1,0 +1,4445 @@
+FILE	APX_On_image1.png	0
+FILE	APX_On_image10.png	19
+L	LibA
+L	LibB
+L	LibA
+L	LibB
+L	executeA
+L	executeB
+L	Librería "The Blob"
+L	executeA
+L	executeC1
+L	executeC2
+L	executeB executeD
+L	Librería "The Blob®
+L	LibC
+L	LibD
+L	LibC
+L	LibD
+L	executeC1
+L	executeC2
+L	executeD
+FILE	APX_On_image11.png	11
+L	1. Un método "execute" que contiene múltiples funcionalidades sobre la misma entidad.
+L	En este caso la solución parte por exponer varios métodos "executeXXX", cada uno con
+L	la lógica exclusiva de su operativa.
+L	Librería Contenedor Mágico
+L	Clase
+L	+ execute(filtros, param1...paramn)
+L	Librería refactorizada
+L	Clase
+L	+ execute Func1 (param1)
+L	+ executeFunc2(param2)
+L	+ executeFuncN(paramn)
+FILE	APX_On_image12.png	69
+L	mlI Online Transactional Processing
+L	ABatch Processing
+L	Online Transactional Processing /Components
+L	Components
+L	• Transactions
+L	Transactions
+L	QWPUI
+L	a
+L	Name ÷
+L	QWPUT000-01-ES
+L	QWPUT021-01-ES
+L	QWPUT092-01-ES
+L	QWPUT096-01-ES
+L	QWPUT151-01-ES
+L	QWPUT238-01-ES
+L	QWPUT292-01-ES
+L	Last Modification ÷
+L	2019-08-01 22:36:21.0
+L	2020-02-03 16:31:46.0
+L	2018-10-02 15:42:26.0
+L	2018-08-01 13:34:48.0
+L	2017-10-16 15:56:08.0
+L	2018-10-02 15:48:50.0
+L	2018-04-13 01:18:08.0
+L	Configuration
+L	• DTOs
+L	• Libraries
+L	Details
+L	Details
+L	Details
+L	Details
+L	Details
+L	Details
+L	Details
+L	Details
+L	Filter
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Credentials
+L	Activated ÷
+L	true
+L	true
+L	true
+L	true
+L	true
+L	true
+L	true
+L	Action
+L	Deactivate
+L	Deactivate
+L	Deactivate
+L	Deactivate
+L	Deactivate
+L	Deactivate
+L	Deactivate
+L	Spans
+L	Activate
+L	Activate
+L	Activate
+L	Activate
+L	Activate
+L	Activate
+L	Activate
+FILE	APX_On_image13.png	6
+L	APX Utilities
+L	TRX
+L	DB
+L	Rules Engine
+L	Others
+L	PUBLIC LIB
+FILE	APX_On_image14.png	42
+L	BBV^
+L	APX Operation Console (Predesarrollo)
+L	Hello, APPLI
+L	Logout
+L	llIl Online Transactional Processing
+L	Batch Processing
+L	Configuration
+L	Home
+L	Welcome to APX Operation Console
+L	Online Transactional
+L	Processing
+L	Online transaction processing facilitate
+L	and manage BBVA transaction-oriented
+L	applications, typically for data entry and
+L	retrieval transaction processing. The
+L	Transaction Processing Performance
+L	Council defines a TRANSACTION in
+L	terms of business or commercial
+L	transactions.
+L	Batch Processing
+L	Configuration
+L	Batch Processing is execution of a
+L	series of programs (jobs) onAPX
+L	Platform without manual intervention.
+L	Batch jobs are set up so they can be
+L	run to completion without manual
+L	intervention, so all input data is
+L	preselected through scripts or
+L	command-line parameters. A program
+L	takes a set of data, and produces a set
+L	of output data files. This operating
+L	environment is termed as batch
+L	processing because the input data are
+L	collected into batches of files and are
+L	processed in batches by the program.
+L	The configuration of the Architecture and
+L	Applications is hosted in a centralized
+L	DB. There is no files that contains
+L	configurations keys in APX. With this
+L	option you can manage the configuration
+L	and active a new version in the
+L	enviroment.
+FILE	APX_On_image15.png	0
+FILE	APX_On_image16.png	13
+L	Librería Contenedor Mágico
+L	Clase
+L	+ execute(filtros, param1...paramn)
+L	Librería refactorizada
+L	Clase
+L	+ executeFunc1 (param1)
+L	+ executeFunc2(param2)
+L	Librería Entidad 3
+L	Clase
+L	+ executeFunc3(param3)
+L	Librería Entidad n
+L	Clase
+L	+ executeFuncN(paramn)
+FILE	APX_On_image17.png	12
+L	Transacción
+L	АРХ
+L	Librería
+L	АРХ
+L	execute
+L	DTO
+L	Rellena atributos
+L	Devuelve DTO
+L	Crea
+L	Rellena atributos
+L	execute(DTO)
+L	DTO
+FILE	APX_On_image18.png	69
+L	Online Transactional Processing /Components
+L	Components
+L	Libraries
+L	EBEX
+L	a
+L	Name =
+L	EBEXROOO
+L	EBEXROO0IMPL
+L	EBEXR003
+L	EBEXR003IMPL
+L	EBEXR004
+L	EBEXR004IMPL
+L	EBEXR006
+L	EBEXR006IMPL
+L	EBEXR007
+L	EBEXR007IMPL
+L	2
+L	• Transactions
+L	Last Modification +
+L	2018-10-23 15:59:33.0ł
+L	2018-11-14 15:00:10.0
+L	2018-11-08 16:29:26.0
+L	2018-11-15 11:56:17.0
+L	2018-11-15 12:29:47.0
+L	2018-11-15 12:29:47.0
+L	2018-10-23 15:59:33.0
+L	2018-10-23 15:59:33.0
+L	2018-10-23 15:59:33.0
+L	2018-10-23 15:59:33.0
+L	O DTOs
+L	• Libraries
+L	Filter
+L	Provided Dependencies
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Required Dependencies
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	Show Graph
+L	10
+L	a
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	Status
+L	25
+L	50
+FILE	APX_On_image19.png	15
+L	ullil Online Transactional Processing
+L	Л Batch Processing
+L	* Configuration
+L	Credentials / Applications / Online
+L	Credentials Online UUAA
+L	UUAA
+L	+ Add new
+L	Key *
+L	Value :
+L	Description =
+L	No data available
+L	Credentials
+L	Filter
+L	a
+L	Tools
+FILE	APX_On_image2.png	2
+L	BBVЛ
+L	Creando Oportunidades
+FILE	APX_On_image20.png	29
+L	BBV^
+L	• APX Operation Console (Pralecarralla)
+L	Add Configuration
+L	fillil Online Transactional Processing
+L	Batch Proces
+L	Configuration / Applications / Online
+L	Configuration (Online) UUAA
+L	Key
+L	Prueba
+L	Value
+L	Import
+L	Export
+L	Family
+L	UUAA
+L	Description
+L	Key *
+L	Value $
+L	+ Add new
+L	Env D = Observation e
+L	Observation
+L	UUAA
+L	UUAAI
+L	• Environment Dependent
+L	Ok
+L	Cancel
+L	Hello, APPLI
+L	Logout
+L	Filter
+L	UUAA : Profile +Tools
+FILE	APX_On_image3.png	0
+FILE	APX_On_image4.png	2
+L	BBVЛ
+L	Creando Oportunidades
+FILE	APX_On_image5.png	0
+FILE	APX_On_image6.png	1
+L	АРХ
+FILE	APX_On_image7.png	6
+L	QWPUT000-01-ES
+L	Node
+L	cvm2rco01.apxonline.work.mx.nextgen.igrupobbva:7050
+L	Status Last Modified Date
+L	ACTIVE Tue Dec 15 10:14:23 CST 2020
+L	Ok
+FILE	APX_On_image8.png	7
+L	EBEXROOO dependencies tree. (Provided)
+L	L Export as CSV file
+L	OEBEXT015-01-ES
+L	OEBEXTO15-02-ES
+L	EBEXRO00 4
+L	OEBExT017-02-Es
+L	OEBExT017-01-Es
+FILE	APX_On_image9.png	7
+L	2. Un método "execute" que contiene múltiples funcionalidades sobre varias entidades.
+L	Este caso es más complejo, y su solución pasa por realizar lo siguiente:
+L	a. Enumerar las diferentes operativas y agruparlas por entidad.
+L	b. Realizar los pasos del apartado 1 para la entidad sobre las que la libreria debería
+L	trabajar.
+L	c. Extraer las funcionalidades pertenecientes a otras entidades a una o varias
+L	librerías especiíficas por cada entidad.
+FILE	Curse__image1.png	1
+L	АРХ
+FILE	Curse__image10.png	0
+FILE	Curse__image11.png	2
+L	String account = this.getAccountnumber();
+L	this getExpand ();
+FILE	Curse__image12.png	11
+L	Orden
+L	> 1
+L	Nombre
+L	accounts
+L	Tipo
+L	List
+L	Tamaño Obligatorio Paqueteria
+L	N/A
+L	true
+L	Artifactl…
+L	N/A
+FILE	Curse__image13.png	1
+L	this. setAccounts (outputA);
+FILE	Curse__image14.png	57
+L	Orden
+L	~ 1
+L	Nombre
+L	Type
+L	1 accountNumber
+L	~ 2 currencies
+L	~ Тype
+L	currency
+L	isMajor
+L	› 3 blocks
+L	› 4 numberType
+L	› 5 accountType
+L	Tipo
+L	DTO
+L	String
+L	List
+L	DTO
+L	String
+L	String
+L	List
+L	DTO
+L	DTO
+L	Tamaño
+L	N/A
+L	10
+L	N/A
+L	N/A
+L	З
+L	N/A
+L	N/A
+L	N/A
+L	Obligatorio Paqueteria
+L	Artifactl...
+L	N/A
+L	com.bbva.mbgd.dto.block.Accounts
+L	MBGDC...
+L	true
+L	N/A
+L	N/A
+L	false
+L	N/A
+L	N/A
+L	N/A
+L	com.bbva.mbgd.dto.block.Currenci... MBGDC...
+L	true
+L	N/A
+L	N/A
+L	true
+L	N/A
+L	N/A
+L	false
+L	N/A
+L	N/A
+L	true
+L	com.bbva.mbgd.dto.block.Number... MBGDC...
+L	true
+L	com.bbva.mbgd.dto.block.Account... MBGDC...
+FILE	Curse__image15.png	30
+L	Configuration / Applications / Online
+L	Configuration (Online) MBGD
+L	Import
+L	Export
+L	MBGD
+L	Key *
+L	Value +
+L	Family +
+L	visibility.MBGDR001
+L	visibility.MBGDRINV
+L	MМТP
+L	ММТP
+L	Visibility
+L	Visibility
+L	Description ‡
+L	Visibility
+L	Visibility
+L	+ Add new
+L	Env D ÷ Observation +
+L	Visibility
+L	Visibility
+L	Filter
+L	a
+L	UUAA ÷ Profile ÷ Tools
+L	MBGD
+L	MBGD
+L	DE
+L	DE
+L	/ i
+L	/ i
+FILE	Curse__image16.png	16
+L	v g5 mbgdt017-01-mx
+L	› P Spring Elements
+L	src/main/java
+L	a com.bbva.mbgd
+L	v * AbstractMBGDT01701MXTransactic
+L	> © AbstractMBGDT01701MXTransa‹
+L	› D MBGDT01701MXTransaction.java
+L	› • src/main/resources
+L	› ¿ src/test/java
+L	› • src/test/resources
+L	› • JRE System Library [JavaSE-1.8]|
+L	› a Maven Dependencies
+L	> ₴ src
+L	> target|
+L	M pom.xmi
+L	w README.md
+FILE	Curse__image17.png	20
+L	public abstract class AbstractMBGDT01701MXTransaction extends AbstractTransaction {
+L	public AbstractMBGDT01701MXTransaction () (
+L	/ * *
+L	* Return value for input parameter accountNumber
+L	protected String getAccountnumber()
+L	return (String)getParameter('accountNumber");
+L	/**
+L	*/
+L	* Return value for input parameter expand
+L	protected String getExpand()
+L	return (String) getParameter ('expand");
+L	* Return value for input parameter currencies
+L	*/
+L	protected List‹Currencies› getCurrencies () {
+L	return (List<Currencies>)getParameter("currencies");
+L	/**
+L	*/
+L	* Return value for input parameter numberType
+L	protected NumberType getNumbertype () (
+L	return (NumberType) getParameter ("numberType");
+FILE	Curse__image18.png	30
+L	Cloud as a BACKEND
+L	(services/data provider)
+L	Cloud
+L	Interbackend Service
+L	Technical
+L	Service
+L	HOST
+L	HOST DB
+L	TRX1
+L	АPХ
+L	LIBRARIES
+L	Infra
+L	Digitalizacion
+L	TRX2
+L	АРХ
+L	TRX3
+L	АРХ
+L	LIBRARIES
+L	TRX4
+L	АPХ
+L	АРХ
+L	Technic
+L	Service
+L	IText Livelink
+L	APX DB
+L	ВPМ
+L	Application DB
+L	Infraestructure DB
+L	Architecture DB
+L	REPLICATION
+FILE	Curse__image2.png	54
+L	Orden
+L	1
+L	2
+L	Nombre
+L	v 1
+L	accountNumber
+L	expand
+L	numberType
+L	id
+L	currencies
+L	Type
+L	1 currency
+L	2 isMajor
+L	Tipo
+L	String
+L	String
+L	DTO
+L	String
+L	List
+L	DTO
+L	String
+L	String
+L	Tamaño
+L	10
+L	20
+L	N/A
+L	5
+L	N/A
+L	N/A
+L	Obligatorio
+L	Paqueteria
+L	true
+L	N/A
+L	false
+L	N/A
+L	false
+L	true
+L	false
+L	N/A
+L	N/A
+L	N/A
+L	true
+L	true
+L	N/A
+L	N/A
+L	Artifactl...
+L	N/A
+L	N/A
+L	com.bbva.mbgd.dto.block.Number... MBGDC...
+L	N/A
+L	N/A
+L	com.bbva.mbgd.dto.block.Currenci... MBGDC...
+L	N/A
+L	N/A
+FILE	Curse__image3.png	7
+L	APX Utilities
+L	TRX
+L	DB
+L	LIB
+L	Rules Engine
+L	Others
+L	PUBLIC LIB
+FILE	Curse__image4.png	0
+FILE	Curse__image5.png	0
+FILE	Curse__image6.png	0
+FILE	Curse__image7.png	2
+L	BBVЛ
+L	Creando Oportunidades
+FILE	Curse__image8.png	2
+L	BBVЛ
+L	Creando Oportunidades
+FILE	Curse__image9.png	4
+L	/ **
+L	* Set value for output parameter accounts
+L	protected void setAccounts (final List<Accounts› field) {
+L	this.addParameter('accounts", field);
+FILE	ether_p042_0.png	26
+L	E APPUICATION
+L	ETHER
+L	DEVELOPMENTI
+L	EXPERIENCE
+L	=*Х
+L	APP RESOURCE
+L	@ Fonusitouts s
+L	® Fehiuro Pent 9. P41.9
+L	Fotue TDeRst S
+L	MONTORRESOURCES &
+L	+ o8s .
+L	- BUSNSS PROCESS п
+L	E Loenchutomation 24
+L	Compnent for peconal mnansagret esoiées.
+L	E GOOGLE CLOUO SERICESśął
+L	© AMAZON CLOUD SERVICES 1
+L	E ALURE CLOUDSERICES O
+L	Atfivation Jd
+L	a inige Cuesit cant acircalion eect
+L	ETHERCONSOLE
+L	Thay 24,2650
+L	0590.12 0H 082838
+L	ETHER •
+L	PRODUCT
+L	APICATALOG
+L	CELSCARIAOC
+FILE	ether_p042_1.png	1
+L	ETHERCONSOLE
+FILE	mapa_APX_BATCH_PT1.jpg	118
+L	¿QUE ES APХ? La arquitectura APX o Arquitectura Backend Java Extendida fue creada
+L	con el objetivo de ser una extensión de la Arquitectura Backend proporcionando las
+L	mismas capacidades del mundo distribuido.
+L	• Basado en tecnologías de código abierto
+L	• Ofrece una alternativa confiable para el desarrollo de transacciones que
+L	no está acoplada al canal
+L	Actúa como una extensión de la plataforma Mainframe
+L	Soporta la lógica de las aplicaciones que se adaptan a esta plataforma
+L	Ayuda a reducir el uso de Mainframe
+L	Las operaciones de misión critica para el banco se ejecutan bajo APХ
+L	JOBS Y STEPS
+L	• El job: es el contenedor de steps
+L	• Un step: es un objeto de dominio que encapsula una fase secuencial
+L	• Chunk: los conjuntos de datos de entrada se procesan en la misma transacción
+L	• Task: Se realiza una operación dentro del paso
+L	ItemReader
+L	JobLauncher
+L	Job
+L	Step
+L	ItemProcessor
+L	JobRepository
+L	ItemWriter
+L	FLUJOS DE EJECUCION
+L	La ejecución de los steps de un job no tiene porque ser secuencial
+L	• Según el estado completado del paso actual, ya no es necesario ejecutarlo más tarde
+L	• La ejecución del job debe completarse / detenerse
+L	• Algunos pasos se pueden ejecutar en paralelo para mejorar la eficiencia
+L	Run Tier
+L	Scheduler
+L	Job Script
+L	Config
+L	JobRunner
+L	JobLauncher
+L	Request
+L	(http, ws)
+L	JobLocator
+L	Custom Applications Artifacts
+L	Application Architecture Services
+L	Applications, App, Servers, VMs
+L	Job
+L	Configuration
+L	App Context)
+L	¿QUE ES APX BATCH?
+L	BATCH Es un patrón de ejecución con un alcance mayor que otros patrones conocidos
+L	PROCESOS BATCH
+L	Applications
+L	• Estrategias de procesamiento
+L	1. Procesamiento normal
+L	2. Simultáneo
+L	3. Procesamiento paralelo
+L	Architecture APX Batch
+L	4. Particionamiento de datos
+L	Spring Batch
+L	→ Job
+L	Un Batch(job) es un proceso de información
+L	masivo que se ejecuta en un modo
+L	programado
+L	Task / Step
+L	Job
+L	Input
+L	Processing
+L	Output
+L	ACCESO A LIBRERIAS
+L	Al igual que con una biblioteca de la arquitectura PAX en línea, un proceso por lotes puede
+L	recuperar sus propias bibliotecas de aplicaciones.
+L	• Una biblioteca de aplicaciones debe exponer un servicio a través de OSGI
+L	<<osgi:service id="miServicio" ref="miClase"' interface="com.bbva. …...MiServicio"/>
+L	• El proceso por lotes recupera el servicio OSGI
+L	<<osgi:reference id="miServicio" interface="com.bbva. ….. .MiServicio"/>
+L	• El proceso por lotes utilizará el servicio recuperado dentro de un vean
+L	<bean id="miClase" class="com.bbva. ….. .MiClaseImpl">
+L	< property name="niServicioProperty" ref="miServicio"/>
+L	</bean>
+L	Job Tier
+L	Application Tier
+L	Read
+L	ItemReader
+L	Step
+L	Business
+L	Logic
+L	Write
+L	ItemWriter
+L	JobRepository
+L	ACCESO A LIBRERIAS. UTILS JDBC
+L	Cuando se haya generado una biblioteca con soporte
+L	a la base de datos vía JDBC, el asistente habrá puesto
+L	a disposición de la clase que implementa la biblioteca
+L	un miembro llamado jabcUtils
+L	Para ejecutar consultas en la base de datos hay una
+L	serie de operaciones conocidas como queryForValue
+L	donde Value indica el tipo de retorno.
+L	***Hay dos métodos para cada tipo de retorno
+L	según los argumentos recibidos por la consulta***
+L	• Método que recibe argumentos de consulta como
+L	Map«String, Object>
+L	• Métodos que reciben argumentos de consulta como
+L	Map <String, Object> y paginante
+L	ACCESO A LIBRERIAS.UTILS MONGODB
+L	Cuando se hayan generado una biblioteca con soporte
+L	para el acceso a la base de datos vía MONGODB, el
+L	asistente habrá puesto a disposición de la clase el
+L	conector DATIO necesario para realizar la conexión
+L	hacía mongo.
+L	Acceso a MongoDB: Para poder conectarse a la base
+L	de datos utilizando el conector MongoDB, solo
+L	necesita saber el nombre de la base de datos lógica y
+L	la colección a la que se desea conectarla. El conector
+L	agregará el resto de la configuración necesaria
+L	Data Tier
+L	Message
+L	Queuē
+L	Data Access
+L	Config
+L	DataBase
+L	Data
+L	Files
+L	Print
+L	Queue
+FILE	mapa_APX_BATCH_PT2.jpg	60
+L	UTILIDADES
+L	SHELL SCRIPT LAUNCHER SE UTILIZA PARA EJECUTAR SCRIPTS DE APLICACIONES DE ACCESO
+L	A ORACLE, MONGO DB Y ELASTICSEARCH.
+L	• SE PUEDE INVOCAR UN SCRIPT DE LA APLICAIÓN DESDE LA ARQUITECTURA АРХ BATCH,
+L	INVOCANDO A SU VEZ LAS UTILIDADES DE LA BASE DE DATOS.
+L	PARA EJECUTARLO, SE INVOCA:
+L	ShellScriptLauncher.sh UUAA ejemplo.sh JNDIXXX param1 param2
+L	O EL SCRIPT DE LA APLICACIÓN ES UN SCRIPT KSH QUE UTILIZA LAS UTILIDADES ORACLE,
+L	MONGODB O ELASTICSEARCH PROPORCIONADAS POR LOS GRUPOS DE BASES DE DATOS
+L	PARA CARGAR O PROCESAR DATOS. - DEBE CUMPLIR CON LAS SIGUIENTES REGLAS:
+L	© Se almacenará en las instancias del repositorio APX en la ruta:
+L	/app/{UUAA}/batch/scrt
+L	©Cualquier documento utilizado (.dIl, txt, etc.) se almacenará en el sistema de archivos
+L	compartido del nodo Batch (generalmente /fichtemcomp /dante y luego se eliminará
+L	periódicamente
+L	OLOS PARÁMETROS DE ENTRADA DEL SCRIPT DE LA APLICACIÓN DEBEN CUMPLIR CON LOS
+L	SIGUIENTES ESTÁNDARES:
+L	© 1. El archivo de credenciales lo proporciona la arquitectura y es el primer parámetros del
+L	script, $ 1
+L	©2. El segundo párametro siempre será el tipo de base de datos
+L	(DB_TYPE_ORACLE, DB_TYPE_MONGODB, DB_TYPE_ELASTICSEARCH)
+L	©3. Además de los parámetros requeridos para cada base de datos específica utilizada.
+L	Estos otros parámetros se pasaran como argumentos del script de la aplicación
+L	UTILIDADES. MONGODB
+L	PARA EJECUTAR UNA APLICACIÓN DE SCRIPT SIEMPRE SE DEBE AGREGAR UNA EJECUCIÓN DE FLUJO EN CONTROL-M. ESTA EJECUCIÓN
+L	DE FLUJO DEBE DEFINIR LA LLAMADA.
+L	AL SHELLSCRIPTLAUNCHER.SH CON LOS PARÁMETROS DE ENTRADA EN EL SIGUIENTE FORMATO:
+L	ShellScriptLauncher.sh {UUAA} {SH_FILE_NAME} DB_TYPE_MONGODB [MONGODB_DESCRIPTOR] [-QueryType: {Value}] [PARAMS_EXTRA]
+L	Parámetros:
+L	© Obligatorio:
+L	© UUAA: primer parámetro del script y es la aplicación uuaa.
+L	© SH_FILE_NAME: segundo parámetro del script, es el nombre del archivo a ejecutar (se
+L	almacenará en /app/uuaa/batch/scrt/example.sh).
+L	© DB_TYPE_MONGODB: 3er parámetro del script. Se utiliza para obtener las credenciales de
+L	MongoDB con PhysicalDB especifico
+L	@Opcional:
+L	©MONGODB_DESCRIPTOR: PhysicalDB usado para obtener las credenciales y conectarse a la
+L	base de datos
+L	• -QueryType: {valor} :cuarto parámetro del script. Dónde {valor} puede tomar los siguientes
+L	valores I, C o TODOS:
+L	• I: Se obtienen los índices existentes en las colecciones que tienen una UUAA especifica.
+L	• C: Se obtienen las colecciones que tienen una UUAA específica
+L	• TODOS: se obtienen tanto índices como colecciones que tienen una UUAA especificada
+L	© PARAMS_EXTRA: Todos aquellos parámetros que la aplicación para al script
+L	UTILIDADES. ORACLE
+L	Invocación ShellScriptLauncher.sh
+L	Para ejecutar una aplicación de Script siempre se debe agregar una ejecución de fluko en Control-M. Esta ejecución
+L	de flujo debe definir la llamada al ShellScriptLauncher.sh con los parámetros de entrada en el siguiente formato:
+L	ShellScriptLauncher.sh {UUAA} {SH_FILE_NAME} DB_TYPE_ORACLE {JDNI} [-RemoteSQL:file.sql] [PARAMS_EXTRA]
+L	Parámetros:
+L	D Obligatorio:
+L	• UUAA: primer parámetro del script y es la aplicación uuaa
+L	©SH_FILE_NAME: segundo parámetro del script, es el nombre del archivo a ejecutar (se almacenará en
+L	/app/{uuaa}/batch/scrt/example.sh)
+L	© DB_TYPE_ORACLE: tercer parámetro del script. Se usa para obtener las credenciales de Oracle
+L	OJDNI: Nombre del recurso JNDI si la utilidad de Oracle lo requier
+L	ĐOpcional:
+L	• -RemoteSQL: archivo SQL recuperado de Bundlor. Este archivo está permitido en la ruta
+L	/app/{uuaa}/batch/sql
+L	© PARAMS_EXTRA: Todos aquellos parámetros que la aplicación pasa al script
+FILE	mapa_APX_ONLINE_PT1.jpg	207
+L	APХ ONLINE
+L	TRANSACCIÓN
+L	LIBRERIAS
+L	Arquitectura Backend Java Extendida, fue
+L	creada con el objetivo de ser una extensión
+L	de la Arquitectura Backend ayudando a
+L	reducir el uso del Mainframe
+L	APX está diseñado para optimizar, simplificar o descargar
+L	parte del procesamiento que tradicionalmente se
+L	realizaba en los mainframes. Esto permite reducir la
+L	dependencia directa de estos sistemas y, en muchos
+L	casos, disminuir los costos asociados.
+L	TRANSACCIÓN
+L	Es la unidad de aplicación que se ejecutará,
+L	definiendo la unidad transaccional a nivel
+L	lógica de aplicación
+L	LIB
+L	DTO
+L	LIBRERIA
+L	Encapsula la lógica empresarial y el acceso a los
+L	datos, Pública su interfaz para que pueda ser
+L	utilizada por terceros
+L	→ todo el acceso a los datos debe
+L	estrategia de desarrollo estar encapsulado en una librería
+L	para facilitar la reutilización y
+L	control de acceso
+L	Utilidades proporcionadas por bibliotecas:
+L	cuya utilidad puede ser recuperada por el
+L	usuario de la propia biblioteca
+L	DTO
+L	Representación de una Entidad
+L	Comercial en forma de Bean
+L	(agrupación de datos) ...
+L	Representar los campos a usar o
+L	mapear desde BD (Campos de
+L	entrada, campos Salida
+L	PUBLIC LIB
+L	Mejores prácticas: Acceso a los datos en APX Orcale
+L	- Uso exclusivo de bibliotecas APX: Acceda a los datos únicamente
+L	mediante las herramientas que APX proporciona.
+L	• Acceso restringido: Cada UUAA (Unidad de Usuario Aplicativo) solo
+L	puede manejar sus propios datos.
+L	Utilización de utilidades aprobadas: Para bases de datos relacionales,
+L	use JDBC a través del asistente de biblioteca de APX.
+L	- Precaución con caché JPA: Evite problemas de sincronización si sistemas
+L	externos modifican tablas, ya que la caché podría no reflejar los cambios.
+L	No manipular conexiones directamente: No cree, abra ni cierre
+L	conexiones a la base de datos manualmente.
+L	- Incluir esquema en consultas: Especifique siempre el nombre del
+L	esquema en las tablas usadas.
+L	- Uso de variables BIND: Integre variables BIND en las consultas para
+L	mejorar el rendimiento de la base de datos.
+L	Uso de DTO
+L	El uso de este patrón es obligatorio cuando: Se requiere una
+L	agrupación simple de base de datos basada en una funcionalidad
+L	asociada, dónde se intercambia información de forma coherente,
+L	organizada y agrupada.
+L	Transacción + → Biblioteca Librería + →LibreríaJob< → Biblioteca
+L	Utilidades comunes
+L	Errores y advertencias
+L	Manejo de trazas
+L	Información de entrada/salida
+L	Recuperación de datos de encabezado
+L	APX UTILIDADES
+L	Utilidades Especificas:
+L	bibliotecas de bases de datos relacionales
+L	bibliotecas del motor de reglas
+L	bibliotecas MongoDB
+L	REGLAS DE NEGOCIO
+L	bibliotecas de conectores
+L	Interbackend
+L	OTROS
+L	Gestor de documentos
+L	Creador de documentos
+L	Conector API
+L	Manejo de excepciones:
+L	- El código de la aplicación no puede manejar las excepciones lanzadas
+L	por los conectores proporcionados por APX, ni ninguna excepción que
+L	herede de RuntimeException
+L	- try ... catch no está permitido
+L	- Si ocurre una excepción, La arquitectura la capturará y habilitará la
+L	gestión de errores.
+L	Excepciones de la arquitectura APX:
+L	- com.bbva.apx.exception.business.BusinessException
+L	- com.bbva.apx.exception.io.network.TimeoutException
+L	- com.bbva.apx.exception.db.DuplicateKeyException
+L	- com.bbva.apx.axception.db.IncorrectResultSizeException
+L	- com.bbva.apx.exception.db.NoResultException
+L	- com.bbva.apx.exception.db.TimeoutException
+L	- com.bbva.elara.utility.interbackend.cics.exceptions.BusinessException
+L	Dependencias circulares
+L	Las dependencias circulares entre los componentes de
+L	la biblioteca y DTO dentro del ecosistema APX están
+L	absolutamente prohibidas, ya que pueden hacer que
+L	OSgi no carque estas dependencias correctamente
+L	Ejemplo: LIB1 --depends -> LIB2 --depends -> LIB3 --
+L	depends -> LIB1
+L	Comunicacióin de APX a servicios NO APX
+L	Agrupación de datos: Los DTO (Data Transfer Objects) organizan
+L	datos simples o complejos y evitan repetir código, permitiendo
+L	reutilización en una misma aplicación o entre diferentes UUAAs.
+L	- La comunicación de APX a otros servicios NO APX se
+L	realizará ÚNICAMENTE a trvés de la utilidad APX del
+L	Conector API genérico (APIConector). Los conectores no
+L	se pueden implementar en aplicaciones para este tipo de
+L	Separación obligatoria: Los DTO deben estar en un paquete
+L	acceso.
+L	independiente (Bundle DTO) separado de los componentes
+L	principales de APX, como transacciones, bibliotecas y procesos
+L	batch, para mantener el propósito del patrón.
+L	- No debe incluirse en ningún caso de código
+L	funcional en la interfaz de la biblioteca. El código
+L	funcional debe estar siempre en la implementación de la
+L	Biblioteca
+L	→Las organizaciones buscan formas
+L	de minimizar este uso sin sacrificar
+L	rendimiento o confiabilidad
+L	Procesos de ejecución de una TX
+L	• Identificador único para la transacción
+L	• Se valida ( si los encabezados de la solicitud
+L	están bien formateados de acuerdo con el
+L	protocolo lógico de la arquitectura)
+L	• La arquitectura APX ejecuta las acciones previas
+L	(escribe el log de ejecución)
+L	• Una vez finaliza la transacción de la aplicación,
+L	las ejecuciones de la pila vuelven a la capa de
+L	Arquitectura de control para ejecutar las acciones
+L	posteriores
+L	Validación del código de salida: Verifica si una
+L	ejecución terminó con éxito o error, obteniendo un
+L	mensaje relacionado si hubo problema.
+L	Control de compromiso: Decide si guarda o
+L	revierte los cambios en la base de datos según el
+L	resultado de la transacción.
+L	Escritura ROP: Registra cada transacción en un
+L	archivo interno para auditoría, detección de fraude
+L	o información, de forma asíncrona.
+L	Notificación de evento comercial: Envía datos
+L	relevantes al completar una transacción, si está
+L	configurado, también de manera asíncrona.
+L	Monitorización: Recoge y envía datos sobre cada
+L	paso de la ejecución a un sistema de monitoreo en
+L	tiempo real y de forma asíncrona.
+L	Excepciones de Java:
+L	java.lang.NumberFormatException
+L	Excepciones de spring:
+L	org.springframework.web.client.RestClienException
+L	Invocaciones a transacciones MainFrame
+L	Es deseable que el código APX de la transacción
+L	NO invoque ninguna transacción Mainframe
+L	para evitar acoplamientos y dependencias
+L	entre ellos. Siempre que sea posible, debe
+L	'replicar/copiar' los datos de lectura en la base de
+L	datos de la aplicación APX.
+L	Si la transacción APX invoca MainFrame, debe
+L	invocar un máximo de dos veces y si debe
+L	hacerlo más de una vez debe tener validación del
+L	Arquitecto/Soluciones que está involucrando en
+L	el proyecto
+L	Capa de acceso a datos desacoplada
+L	La Arquitectura APX proporciona a las aplicaciones las
+L	utilidades para ejecutar una consulta a través de los diferentes
+L	tipos de bases de datos que BBVA soporta
+L	Las bases de datos SQL y NOSQL están disponibles para
+L	ser utilizadas por aplicaciones en su diseño lógico
+L	En el caso de Oracle, se accede a los datos a través de JDBC.
+L	La arquitectura gestiona la ejecución del Commit o Rollback
+L	para garantizar la transaccionalidad
+L	Integración con los servicios de seguridad corporativos
+L	La ejecución de una transacción activa un proceso de
+L	autorización gestionado por las bibliotecas de seguridad
+L	lógica. Estos componentes no están directamente integrados
+L	en la arquitectura, lo que asegura una separación y flexibilidad
+L	en su uso. La arquitectura es independiente de la
+L	implementación de la biblioteca
+L	Maven: Apache Maven es una herramienta de gestión y
+L	comprensión de proyectos de software. Basado en el
+L	concepto de un modelo de objetos de proyecto POM.
+L	JDK: OpenJDK (Open Java Develoment Kit) es una
+L	implementación gratuita y de código abierto de la
+L	plataforma Java
+L	Artefacto: Gestión de artefactos construidos disponibles
+L	para el proceso de desarrollo de software
+L	Entorno de ejecución local
+L	Es una imagen cercana de la arquitectura monolítica en
+L	entornos productivos y no productivos El entorno de
+L	ejecución APX Local se proporciona con fines de prueba.
+L	Contiene una instancia de JBoss y los paquetes de
+L	arquitectura APX
+L	LOGGER
+L	LOGGER. trace (String msg, Object ... args): imprime
+L	información con el máximo nivel de detalle. Recibe un
+L	mensaje y/o argumentos (opcional) para complementar el
+L	mensaje a imprimir
+L	LOGGER.debug (String msg, Object ... args): Le permite
+L	imprimir datos informativos con detalle finos que son útiles
+L	para depurar la aplicación.
+L	LOGGER.info (String msg, Object ... args): Imprime
+L	información útil que le permite ver el progreso de la
+L	aplicación.
+L	LOGGER.warn (String msg, Object ... args): Imprime
+L	advertencias o fallas no criticas de la aplicación, que no
+L	impide que la aplicación continúe su flujo.
+L	LOGGER.error (String msg, Object ... args): Imprime
+L	mensajes de error críticos que impide que la aplicación
+L	funcione correctamente. Estos son los registros habilitados
+L	en Producción.
+FILE	mapa_APX_ONLINE_PT2.jpg	133
+L	Errores
+L	Consideraciones a tener en cuenta, el manejo de errores se
+L	lleva a cabo a través de la consola de operación APX actual.
+L	Cada UUAA tiene un rango de código de error asignado.
+L	Se permiten las siguientes operaciones:
+L	* Registrar un error
+L	* Modificar un error
+L	* Consultar un error
+L	* UUAA000001 - Descripción
+L	* UUAA001000 - Descripción
+L	* UUAA001001 - NO hay datos en BBDD
+L	Visibilidad
+L	Visibilidad de bibliotecas: Las bibliotecas pueden definir su
+L	propia visibilidad para determinar qué UUAA externas
+L	pueden usar sus bibliotecas
+L	Ejecución de transacciones asíncronas:
+L	Permiten realizar operaciones en segundo plano.
+L	No recomendado por la arquitectura, ya que no se garantiza
+L	el control del estado de la ejecución (commit OK o retrasado).
+L	Solo se deben usar si la operación no es crítica para el negocio.
+L	Transacción de solicitud de consumo asíncrono:
+L	Registrar invocaciones de transacciones asíncronas requiere
+L	informar al equipo de Gobernanza Local.
+L	Completar/modificar plantillas de servicio ASO y solicitar su
+L	recatalogación y perfilado.
+L	El consumo debe ser supervisado por el responsable del proyecto
+L	del equipo de Arquitectura.
+L	Realizar la solicitud de registro a través de Solicitud APX.
+L	Perfilado: Todas las transacciones deben perfilarse, Se asocian a un
+L	Usuario el cual debe asociarse a los Perfiles que podrán ejecutarla
+L	Estandarización de código
+L	Se requiere que todo desarrollo (clases, métodos,
+L	variables y comentarios) en APX esté definido en
+L	inglés, ya que los componentes se pueden reutilizar
+L	en todo el grupo BBVA
+L	Reutilización de Código
+L	El código reutilizable debe empaquetarse en bibliotecas
+L	APX. La escritura de registros y el seguimiento de
+L	errores deben realizarse mediante las utilidades de
+L	Architecture. No se permiten archivos propios para
+L	registros ni escribir en sysout; la Arquitectura debe
+L	manejarlo.
+L	Antipatrones:
+L	Es un patrón de diseño que invariablemente conduce a una mala solución a un
+L	problema. Antipatrones que se ha detectado dentro de APX:
+L	Blob: Este patrón suele representarse como una única librería (The blob) que
+L	contiene la mayoría de la funcionalidad y que otras librerías utilizan
+L	incorrectamente de apoyo.
+L	Características:
+L	- Compuesta de una sola clase con métodos execute
+L	Complicada de reutilizar y probar.
+L	- Puede ser costosa de cargar en memoria, usando recursos excesivos incluso
+L	para operaciones imples.
+L	- Una modificación "The Blob" causa que todas las librerías relacionadas deban
+L	reinstalarse, creando un problema de indisponibilidad temporal del servicio y
+L	una carga adicional al sistema.
+L	Causas:
+L	- Reparto de responsabilidades incorrecto: Es conveniente que se realice un
+L	diseño correcto para las nuevas librerías
+L	- Falta de cumplimiento de la Arquitectura: A veces este anti patrón crece
+L	accidentalmente esto es resultado de una inadecuada revisión del diseño de
+L	las librerías antes de su desarrollo
+L	- Intervención demasiado limitada: En proyectos iterativos, los
+L	desarrolladores tienden a agregar pequeñas piezas de funcionalidad a clases
+L	existentes que ya están funcionando
+L	Soluciones:
+L	- La solución pasa por realizar un 'reafactoring" del rediseño entre las librerías
+L	involucradas.
+L	- La clave es mover comportamientos de "The Blob" a sus librerías
+L	relacionadas, diferenciado por las entidades con las que trabajan, reduciendo
+L	el acoplamiento entre librerías y simplificando los mantenimientos.
+L	Patrones de Diseño
+L	Los patrones de diseño proporciona una solución a un problema de
+L	diseño, siendo efectivo a la hora de revolver problemas y es
+L	reutilizable para poder ser aplicable a diferentes problemas en
+L	diferentes circunstancias.
+L	Paginación en transacciones
+L	Paginación en bibliotecas
+L	CRUD en bibliotecas
+L	DTO en componentes APX
+L	OIndicador de si hay o no más datos por recuperar(hasMoreData).
+L	• Clave de reposicionamiento con la que deben volver a invocar la
+L	librerías para recuperar más filas (paginationKey)
+L	• El área de entrada es particular y conocida por cada aplicación y
+L	APX no posee ningún dato relativo a paginación
+L	• La librería deberá componer las consultas utilizando las librerías
+L	proporcionadas en APХ y acceder a los diferentes Origenes de
+L	Datos para obtener la información solicitada
+L	Contenedor mágico en Bibliotecas: Suele representarse en una librería
+L	que contiene un solo método "execute" con parámetros que actúan como
+L	filtros y que engloba diversas funcionalidades dispares en función de sus
+L	parámetros de entrada.
+L	Características:
+L	- Es muy complicada de probar por contener multiples funcionalidades
+L	- Alta complejidad ciclomática, ya que son necesarias muchas sentencias
+L	de control para realizar correctamente el filtrado.
+L	- Una modificación del método "execute" puede ser critica para
+L	multiples operativas para librerías dependientes.
+L	- El volumen de pruebas de regresión puede ser muy alto
+L	Causas
+L	- Reparto de responsabilidades incorrecto
+L	- Falta de cumplimiento de la arquitectura
+L	- Intervención de masiado limitada
+L	- Alto acoplamiento entre librerías: El uso creciente de esta librería
+L	causa un único punto de error para múltiples librerías.
+L	Soluciones:
+L	- La solución para por realizar un 'reafactoring" de la librería y una
+L	disgregación por entidades
+L	Paginación de transacciones / paginación de librerías
+L	• Se utiliza siempre que se requiera dividir un conjunto de datos en varios
+L	subconjuntos o páginas y adicionalmente se necesite acceder a ellas de
+L	forma aislada.
+L	• Su uso es conveniente siempre para mejorar la eficiencia, obteniendo
+L	únicamente lo que se necesita.
+L	• Es el que establece Arquitectura y Calidad como el más eficiente, tanto en
+L	el consumo de recursos y tiempo de proceso, reduciendo el tiempo de
+L	espera del usuario final.
+L	• Las aplicaciones deben calcular el tamaño óptimo que debe contener el
+L	bloque del mensaje de respuesta basándose en los siguiente:
+L	- Número de filas presentadas por página
+L	- Número máximo de páginas que pueden ser enviadas dentro del
+L	mensaje de envió
+L	- El mensaje de entrada que se recibe desde la aplicación debe incluir un
+L	tipo DTO con los siguientes atributos:
+L	• Clave de paginación (paginationKey)
+L	• Únicamente se informa en posteriores llamadas
+L	• El tamaño máximo de este campo para la transacción será el
+L	que defina el propio aplicativo
+L	O Tamaño de página (pageSize)
+L	..... Paginación en librerías APX
+L	- El mensaje de salida, además de la información propia del servicio
+L	solicitado, debe incluir el DTO de la clase PaginacionOutDTO con los
+L	siguientes atributos
+FILE	mapa_APX_ONLINE_PT3.jpg	59
+L	•PATRÓN CRUD EN LIBRERÍAS APX
+L	Se utiliza
+L	Siempre que se requieran algunas de las
+L	operaciones básicas ( Create, Read, Update
+L	y Delete) sobre una entidad -
+L	ayuda a
+L	Otra
+L	caracteristica
+L	Es la centralización en una librería de todas
+L	las operaciones básicas sobre una entidad.
+L	aplica
+L	> Cualquier medio de almacenamiento
+L	(BBDD, archivos, etc.)
+L	Tener un mejor mantenimiento de las
+L	operativas por entidades y sobre todo
+L	para mejorar la reutilización de librerías
+L	EXISTEN DOS PROXIMIDADES
+L	PARCIAL: Solo se implementan algunas de las
+L	operaciones básicas (lecturas de tablas
+L	maestras de BBDD, siempre que se añadan
+L	nuevas entradas mediante scripts DML).
+L	COMPLETA: Se implementan todas las operaciones básicas
+L	Como contradicción, no se deben tener varias librerías parciales para una única entidad, ya que estaríamos
+L	desvirtualizando el patrón. Si es posible mantener todas las operaciones sobre la entidad encapsuladas en la
+L	librería, como lecturas avanzadas, etc.
+L	DTO
+L	La arquitectura APX soporta el patrón Data Transfer Object, tanto para entorno Online, como para
+L	entorno Batch
+L	Es obligatorio
+L	siempre que:
+L	Se necesite una agrupación de datos simples
+L	en una clase con cierta funcionalidad asociada
+L	→ Se requiera intercambiar información entre
+L	diferentes componentes en APX de forma
+L	coherente, organizada y agrupada
+L	• Implementar un Servicio Backend
+L	Aplicable para las siguientes combinaciones:
+L	Transacción
+L	Librería
+L	Job
+L	Librería
+L	Librería
+L	Librería
+L	• Se pueden generar jerarquías de clases DTO,
+L	con la única restricción de que las clases no
+L	tengan dependencias circulares entre ellas.
+L	• Las transacciones y las librerías pueden recibir
+L	como parámetros de entrada y salida DTOs
+L	• El uso de este patrón ayuda a identificar las
+L	agrupaciones de datos simples y/o complejos
+L	evitando la dupicidad de código, ya que las
+L	diferentes clases creadas, pueden ser
+L	potencialmente utilizables dentro de la misma
+L	aplicación o UUAA (o por otras UUAAS)
+L	Es obligatorio que los DTOs se implementan dentro de
+L	un empaquetado independiente (Bundle DTO) de los
+L	componentes de APX de más alto nivel (Transacciones,
+L	Librerías y Batch). Esta directriz es de obligado
+L	cumplimiento, ya que si no el patrón carece de sentido
+FILE	pdf00_p002_0.png	19
+L	АРХ
+L	Recursos
+L	Hay seis tipos de recurso disponibles para crear en APX: Unidad de despliegue online, unidad de
+L	despliegue batch, librería, DTO, shell script y estáticos.
+L	Antes de seguir hay que aclarar que a lo largo de esta guía mencionaremos Recurso para referirnos a
+L	los elementos que nos aparecen listados en la Consola Ether al entrar en una UUAA. Cada recurso
+L	tiene un (solamente uno) repositorio de código asociado. Diremos Componente para referirnos a los
+L	binarios (*jar) o ficheros *sh *sql que forman los recursos. Por ejemplo, diremos que un recurso de
+L	tipo Unidad de despliegue Online llamado 'mi_recurso' contiene cuatro componentes, dos
+L	transacciones, una librería y un DTO.
+L	Unidad de despliegue
+L	Una unidad de despliegue es una agrupación de componentes APХ (transacción, librería, dto) que
+L	siguen el mismo ciclo de vida y se despliegan en bloque. Puede contener de uno a muchos
+L	componentes APX. Cada aplicación puede tener las UD que quiera. Se puede tener una UD por
+L	componente АPХ. Una UD se puede desplegar tanto en máquinas virtuales como contenedores con
+L	el mismo código (siempre que los componentes puedan constituir un contenedor funcional).
+L	La unidad de despliegue sirve para dar una solución de agrupación de componentes APХ en un mismo
+L	repo. No es obligatorio juntar ninguno de nuestros componentes. De hecho, perfectamente podemos
+L	tener una UD por cada una de nuestras transacciones, sin más componentes dentro.
+FILE	pdf00_p003_0.png	7
+L	Existen dos tipos de unidades de despliegue, las de online y las de batch. Las de online pueden
+L	contener transacciones, dtos y librerías, y las de batch jobs, dtos y librerías. Una particularidad de las
+L	de Batch es que solo vamos a poder tener un job por unidad de despliegue.
+L	¿Cómo va a afectar a los repositorios estas agrupaciones? Donde antes (Stash) teníamos un repo que
+L	albergaba una transacción, ahora nos encontraremos una UD con esa transacción dentro. Donde
+L	antes teníamos un repo con un job, ahora nos encontraremos una UD con ese job dentro. En el caso
+L	que queramos, podremos añadir más artefactos APX a nuestras UD.
+FILE	pdf00_p004_0.png	24
+L	Estructura
+L	La estructura de una unidad de despliegue es la siguiente:
+L	Source
+L	Description
+L	• artifact
+L	• doc
+L	D gitignore
+L	G Jenkinsfile
+L	D pom.xml
+L	G README.md
+L	Initial scaffolding
+L	Initial scaffolding
+L	Initial scaffolding
+L	Initial scaffolding
+L	En la raíz tenemos dos carpetas y cuatro archivos. La carpeta artifact, que va a contener todos los
+L	artefactos de APX de nuestra UD. La carpeta doc, que va a tener dentro un archivo para que los
+L	desarrolladores puedan documentar con detalle sus componentes. El fichero gitignore, que usa git
+L	para poder ignorar cualquier fichero innecesario que se nos genere en local y no queramos subir (por
+L	ejemplo los ficheros temporales que pueda generar un IDE). El Jenkinsfile, que se usa para configurar
+L	tos jobs de jenkins que ejecutará nuestro recurso (el desarrollador no tiene que tocar nada de este
+L	fichero) A partir de enero de 2021, los recursos se crearán con un fichero llamado 'apx.json' que
+L	sustituye al Jenkinsfile y cumple su misma funcionalidad. El pom.xmi, pom padre del proyecto. Y por
+L	último un fichero README para cualquier uso que le quieran dar los dueños del repositorio.
+L	Dentro de la carpeta artifact veremos una serie de carpetas según componentes:
+FILE	pdf00_p005_0.png	6
+L	Dentro de la carpeta artifact veremos una serie de carpetas según componentes:
+L	Source
+L	Description
+L	• dtos
+L	• libraries
+L	• transactions
+FILE	pdf00_p005_1.png	1
+L	Y dentro de cada una de estas ya estarán nuestros componentes:
+FILE	pdf00_p005_2.png	7
+L	89 develop ~ ...
+L	test_prod_marzo / artifact / transactions /
+L	Source
+L	Description
+L	HRCHT111-01-ES
+L	• pom.xml
+L	[jenkinsfile re
+FILE	pdf00_p006_0.png	15
+L	Librería
+L	El recurso tipo librería es una agrupación de los componentes APX que forman la propia librería:
+L	interfaz e implementación. Antes, en Stash, teníamos dos repositorios separados con dos ciclos de
+L	vida para las interfaces e implementaciones. A partir de ahora van a compartir repositorio y ciclo de
+L	vida, y se desplegarán los dos a la vez. En el caso de la migración se juntarán en un mismo repo lo que
+L	haya en master de la interfaz y lo que haya en master de la implementación y ambas tendrán la
+L	versión de la interfaz.
+L	Librería como recurso VS Librería en la UD
+L	Como hemos visto anteriormente, podemos tener una librería tanto en una unidad de despliegue
+L	como en un recurso independiente. Esto nos da la ventaja de poder compartir una librería entre
+L	varias UD, o en caso que sea una librería compartida o 'de infraestructura, poder tener un ciclo de
+L	vida independiente para ella. Cuando una librería sólo va a ser usada dentro del contexto de una
+L	unidad de despliegue, recomendamos ponerla dentro, pero en caso de que sea susceptible de ser
+L	usada por más componentes, debería ir independiente. También tener en cuenta que una librería
+L	concreta (o cualquier otro componente de APX) solo puede existir en un único recurso
+FILE	pdf00_p007_0.png	2
+L	Estructura
+L	Una librería va a tener una estructura como esta:
+FILE	pdf00_p007_1.png	16
+L	Source
+L	• dod
+L	HRCHR087
+L	• HRCHR087IMPL
+L	D gitignore
+L	D Jenkinsfile
+L	D pom.xml
+L	D README.md
+L	Description
+L	Initial scaffolding
+L	Initial scaffolding
+L	Initial scaffolding
+L	Initial scaffolding
+L	La mayor diferencia con la de la UD es que en vez de la carpeta artifact, tiene directamente en la raíz
+L	las carpetas de la interfaz e implementación. El resto de componentes son iguales a los ya
+L	mencionados salvo el pom.xml que tiene algunos cambios para adaptarse a esta estructura.
+FILE	pdf00_p008_0.png	5
+L	Librerías multipaís
+L	Existe otra posibilidad para este tipo de repositorios: las librerías multipaís. Este tipo de recurso es
+L	como una librería pero con varias implementaciones, una por cada país que se necesite. En caso de un
+L	recurso global con una interfaz global pero implementaciones específicas por país se puede usar esta
+L	solución. Más info aquí.
+FILE	pdf00_p008_1.png	15
+L	Librerías multiruntime
+L	Los recursos de tipo librería pueden ser utilizados indistintamente en APХ Online o АPХ Batch, por
+L	este motivo, a partir del día 14/12/2022, se dará la posibilidad de desplegar estos recursos de forma
+L	dual, es decir, en ambos runtimes simultáneamente. De esta manera, se facilita la operativa de
+L	despliegue para estos casos y se garantiza la alineación de versiones entre Online y Batch.
+L	Con esta nueva funcionalidad, es importante tener en cuenta algunas consideraciones:
+L	• El tipo de runtime (Online, Batch o Dual) deberá ser seleccionado en el primer despliegue en
+L	DEV que se realice de la librería, quedando establecido para los siguientes despliegues y sin
+L	posibilidad de editar.
+L	• Con el despliegue multiruntime no se permitirá desplegar versiones diferentes de una misma
+L	librería en Online y Batch.
+L	• Aunque el despliegue multiruntime implica intrínsecamente desplegar en dos runtimes
+L	diferentes, a nivel de Consola y Techstack, computará como un único despliegue y cualquier
+L	acción que se realice sobre el mismo: redeploy, rollback, etc,... aplicará, por tanto, en ambos
+L	runtimes.
+FILE	pdf00_p009_0.png	14
+L	Regularización de librerías antiguas
+L	Aquellas librerías que fueron desplegadas antes de estar operativa esta nueva funcionalidad, deberán
+L	ser regularizadas por el developer cuando realice el siguiente despliegue en DEV seleccionando el
+L	modo de despliegue requerido. Pueden darse varios casos:
+L	• Si nuestra librería estaba desplegada en un único runtime (Online o Batch) y queremos que así
+L	continúe, cuando se realice el siguiente despliegue en DEV, deberá seleccionarse la opción
+L	Online o Batch según corresponda.
+L	• Si nuestra librería estaba desplegada en un único runtime (Online o Batch) y queremos que a
+L	partir de ahora se despliegue en modo multiruntime, cuando se realice el siguiente despliegue
+L	en DEV, deberá seleccionarse la opción Dual (Online + Batch)
+L	• Si nuestra librería tenía versiones desplegadas tanto en Online como en Batch, cuando se
+L	realice el siguiente despliegue en DEV, deberá seleccionarse la opción Dual (Online + Batch).
+L	IMPORTANTE: a partir de este momento, tanto en Online como en Batch quedará
+L	desplegada la misma versión de la librería.
+FILE	pdf00_p010_0.png	12
+L	Shell Script
+L	El recurso de tipo Shell Script es simplemente una agrupación de ficheros.shy/o.sql. Al no tratarse de
+L	componentes APX como tal (transacción, librería, job o DTO), como ocurre en el caso de una UD,
+L	tanto el versionado como el modelo de ramas que usaremos para este tipo de recursos será bastante
+L	más sencillo prescindiendo de las ramas RC y Release (veremos el detalle en el apartado Modelo de
+L	ramas en Shell Script).
+L	Otros aspectos a tener en cuenta a la hora de trabajar con este tipo de recursos:
+L	• Los ficheros agrupados en un mismo recurso compartirán ciclo de vida y por tanto
+L	desplegarán a la vez por los entornos.
+L	• No pueden existir ficheros con el mismo nombre dentro de una misma aplicación
+L	• Este tipo de recurso no pasa validación de Gobierno por lo que no será necesario indicar un
+L	ticket JIRA en el asistente de despliegue.
+FILE	pdf00_p011_0.png	11
+L	Estructura
+L	Al crear un recurso de tipo Shell Script, se genera un repositorio en Bitbucket prácticamente vacío
+L	con la siguiente estructura:
+L	Source
+L	• apx.json]
+L	• README.md
+L	Description
+L	Initial scaffolding
+L	Initial scaffolding
+L	El desarrollador podrá subir a este repositorio los ficheros sh y/o sql que necesite teniendo en cuenta
+L	las siguientes consideraciones:
+FILE	pdf00_p011_1.png	5
+L	• No se permiten repositorios con ficheros con extensiones diferentes a .sql y .sh
+L	• No pueden existir ficheros con el mismo nombre dentro de una misma aplicación ya que
+L	desplegarán en la misma ruta
+L	• Si se organizan los ficheros en carpetas dentro del repositorio, esta organización no aplicará a
+L	la hora del despliegue ya que se todos los ficheros se copian en la misma ruta.
+FILE	pdf00_p012_0.png	17
+L	Estáticos
+L	El recurso de tipo Statics es simplemente una agrupación de ficheros estáticos: plantillas, imágenes,
+L	hojas de estilo, etc,... Este tipo de ficheros son utilizados por los aplicativos que necesitan generar
+L	documentos con la utilidad Document Creator de APX.
+L	Al no tratarse de un componente APX como tal (transacción, librería, job o DTO), como ocurre en el
+L	caso de una UD, tanto el versionado como el modelo de ramas que usaremos para este tipo de
+L	recursos será bastante más sencillo prescindiendo de las ramas RC y Release (veremos el detalle en
+L	el apartado Modelo de ramas en Shell Script y Estáticos).
+L	Otros aspectos a tener en cuenta a la hora de trabajar con este tipo de recursos:
+L	• Solo estará permitido el uso de un recurso de tipo Statics por aplicación. Todos los ficheros
+L	estáticos (css, plantillas, etc,...) de la aplicación deberán estar agrupados en el mismo recurso.
+L	• Los ficheros agrupados en el recurso de tipo Statics compartirán ciclo de vida y por tanto
+L	desplegarán a la vez por los entornos.
+L	• No pueden existir ficheros con el mismo nombre dentro de un mismo recurso
+L	• Para los despliegues en Producción será necesario generar el tag a mano o desde Bitbucket.
+L	• Este tipo de recurso no pasa validación de Gobierno por lo que no será necesario indicar un
+L	ticket JIRA en el asistente de despliegue.
+FILE	pdf00_p013_0.png	3
+L	Estructura
+L	Al crear un recurso de tipo Statics, se genera un repositorio en Bitbucket con nombre uuaa-statics
+L	con la siguiente estructura:
+FILE	pdf00_p013_1.png	16
+L	Source
+L	89 master • ***
+L	qwpu-statics /
+L	Source
+L	•statics-commons
+L	• apx.json
+L	D README.md
+L	Description
+L	Migration to Bitbucket from Stash
+L	Migration to Bitbucket from Stash
+L	O README.md
+L	El desarrollador podrá subir a este repositorio los ficheros estáticos que necesite teniendo en cuenta
+L	las siguientes consideraciones:
+L	• Existirá una carpeta obligatoria statics-commons donde se alojarán los estáticos de forma
+L	genérica. Esta carpeta se creará automáticamente en el repositorio al crear el recurso y
+L	contendrá las subcarpetas: images, css, templates
+FILE	pdf00_p014_0.png	11
+L	Source
+L	29 master • •..
+L	qwpu-statics / statics-commons /
+L	Source
+L	•css
+L	•images
+L	• templates
+L	• Se permitirá la creación de carpetas adicionales dentro del repositorio y al mismo nivel que la
+L	anterior, para dar la posibilidad a los aplicativos de ordenar o estructurar los estáticos
+L	funcionalmente en función de sus necesidades. Cada una de estas carpetas deberá nombrarse
+L	con el prefijo "statics-" y deberá contener las subcarpetas: images, css, templates. Ejemplo:
+FILE	pdf00_p015_0.png	42
+L	apx.json
+L	README.md
+L	atatics-commons
+L	— C3s
+L	template2.cgs
+L	template4.cgg
+L	images
+L	• BBVA.g11
+L	- BBVA_noStripe.png
+L	BMP .bmp
+L	- firma.jpg
+L	- qwput640.gif
+L	templates
+L	- pieTemplate.html
+L	plantillal.rtf
+L	template2.html
+L	template_landecape.html
+L	template_QWPUT020.html
+L	template_QWPUI640.html
+L	• teat
+L	- PDF333T2.pdf
+L	- untitled.html
+L	statics-excel
+L	- images
+L	L planet.jpg
+L	- templates
+L	PruebaA1.xlsx
+L	Prueban2.xlax
+L	- PruebaA3.xlsx
+L	• En el despliegue de un recurso de tipo Statics, los ficheros se copiarán en las siguientes rutas
+L	destino dentro de la UUAA:
+L	• Templates: uuaa/templates/
+L	• Images: uuaa/images/
+L	• CSS: uuaa/css/
+L	NOTA: En el despliegue, no aplicará la organización funcional de ficheros en carpetas dentro
+L	del repositorio comentada en el punto anterior. Es decir, siguiendo con el ejemplo, si
+L	tuviéramos dos carpetas: statics-commons y statics-excel, todos los ficheros contenidos en
+L	estas dos carpetas desplegarían en las mismas rutas: qwpu/templates/, qwpu/images/ y
+L	qwpu/css/.
+L	• No se permiten ficheros con las siguientes extensiones: jar, sh o sql
+L	• No pueden existir ficheros con el mismo nombre dentro del repositorio ya que desplegarán en
+L	la misma ruta.
+FILE	pdf00_p016_0.png	5
+L	Ciclo de vida de un recurso
+L	Para terminar con la definición de los recursos, vamos a ver algunas claves sobre su ciclo de vida. Más
+L	adelante en este documento, revisaremos el modelo de branching que vamos a seguir y entraremos
+L	en detalle con cómo va a evolucionar la versión de un recurso y todos sus componentes APX. Para
+L	empezar, vamos a ver lo fundamental para nuestro recurso:
+FILE	pdf00_p016_1.png	13
+L	Todos nuestros componentes APX, estén en el recurso que estén, tienen una versión. Y esa versión es
+L	del tipo [major].[minor].[patch]-[RELEASE|SNAPSHOT], prescindiendo del sufijo cuando sea una
+L	versión final.
+L	Dentro de un recurso todos sus componentes tienen la misma versión y evolucionan a la par. También
+L	en las agrupaciones como la Unidad de Despliegue.
+L	Todos los componentes APX que forman un recurso se despliegan a la vez.
+L	Vamos a verlo con un ejemplo. Tengo un recurso tipo librería. El parent tiene la versión 1.2.0, al igual
+L	que la interfaz y la implementación. Encuentro un error en mi implementación y hago un hotfix (más
+L	info de qué se considera un hotfix en la sección de modelo de branching), lo cual sube la versión de
+L	todo el recurso a la 1.2.1. Redespliego mis componentes, interfaz e implementación, con esta nueva
+L	versión para que se corrija el error.
+L	En resumen, cuando pensamos en un recurso tenemos que verlo como una unidad, con todo lo que
+L	implica, aunque pueda tener más de un componente APX.
+FILE	pdf00_p017_0.png	29
+L	Creación de un recurso
+L	Para crear un recurso de APX tenemos que navegar hasta nuestra aplicación y clicar en 'add resource!
+L	ecesario no dejar la Business
+L	CREATE NEW RESOURCE
+L	as para la Ar...
+L	la aqr. Extendida.
+L	An Ether Application Resource is a technical component
+L	based on any of the services that offer the ETHER Platform
+L	that you can add to your Aplications or Sandboxes.
+L	S DEPLOY...
+L	Select the new resource type
+L	LRA.V1
+L	FRONTEND
+L	COMPONENT
+L	CELLS
+L	B BALESFOR.
+L	r APX architecture.
+L	BANKING
+L	RUNTIMES
+L	ВPM
+L	APХ
+L	LRA
+L	BATCH JOB
+L	DATA•PROC
+L	DATA STORE
+L	STREAM
+L	En el asistente seleccionamos 'APX' y en la siguiente pantalla nos pedirá los datos de nuestro recurso.
+L	Una vez indicado el nombre y la descripción de nuestro recurso tenemos que seleccionar el 'kind' o
+L	tipo de recurso:
+FILE	pdf00_p018_0.png	34
+L	Д1HONTHвAGO Мсеaцалие
+L	+ APPLICATION
+L	Aplicación de Pruebas Unitarías para la Ar.
+L	CREATE NEW APX.R2R3 RESOURCE
+L	An Ether Application Resource is a technical component
+L	based on any of the services that offer the ETHER Platform
+L	that you can add to your Aplications or Sandboxes.
+L	ETHER CLOUD SERVICES 1
+L	11] BANKHG MUCTIMES 29
+L	E) prueba_despllegue_ira_python
+L	(C] ap/ conete
+L	((E] prueba fra LRAVS
+L	UE] regression-test-oni
+L	(L prueba,despllegue_ira,go LeAvs
+L	([] pythondepileguedev LEAUS
+L	(] qepul0s3-01-e5 NPxAJes
+L	aploque de plantilos ee 53
+L	Resource configuration (APX Online)
+L	qupu_pruebas
+L	Recurso de pruebas
+L	DTO
+L	DU_ONLINE
+L	SHELL_SCRIPTS
+L	En el asistente podremos observar que en caso de librerías y DTOs nos aparecen campos adicionales.
+L	Estos campos son 'code' (en ambos casos) y 'domain' (solo en el caso del DTO):
+L	• Code: Código de tres números o letras mayúsculas. Define el código que va a tener nuestro
+L	componente APX (por ej. QWPUR0O0). Necesario tanto para librerías como para DTOS.
+L	• Domain: el dominio que va a tener nuestro DTO.
+L	Cuando ya tenemos todo listo clicamos en finalizar y empezará la creación del componente. Durante
+L	este proceso se van a realizar varias acciones. Para empezar se creará nuestro repositorio de
+L	Bitbucket. También se vinculará este repo con Jenkins para poder pasar nuestros pipelines. Una vez
+L	hecho esto el TechStack de APX subirá el scaffold de nuestro recurso al repositorio. Nos dejará dos
+L	ramas, master, con versión O.O.0, y develop, con versión O.1.0-SNAPSHOT. La única diferencia entre
+L	estas dos ramas será la versión. Con esto terminamos la creación de nuestro recurso.
+FILE	pdf00_p019_0.png	10
+L	Gobierno de componentes APX
+L	Los procesos Globales de Gobierno que se han definido para el alta, la modificación y la modificación
+L	express de los recursos APX pueden consultarse en el siguiente diagrama o guía de procesos.
+L	El detalle de cada uno de estos procesos y su navegación en JIRA Global, se encuentra en los
+L	siguientes documentos:
+L	• Detalle del Proceso de Alta de Componentes APX.
+L	• Detalle del Proceso de Modificación de Componentes APX.
+L	• Detalle del Proceso de Modificación Express de Componentes APX.
+L	A continuación se facilitan los documentos de soporte a los procesos con foco en el rol de Developer:
+L	• Alta Servicio APX (visión Developer)
+FILE	pdf00_p019_1.png	3
+L	• Modificación Servicio APX (visión Developer)
+L	• Modificación Express Servicio APX (visión Developer
+L	NOTA: los recursos de tipo Shell Script no pasan por los procesos de Gobierno.
+FILE	pdf00_p020_0.png	14
+L	Modelo de ramas
+L	A partir del 10/08/2022 se implantará en APX un nuevo modelo de ramas unificado para
+L	Arquitecturas que aplicará a cualquier tipo de recurso APX (UD, Librería, DTO, Shell Script y
+L	Estáticos), quedando deprecados los actuales: modelo de APX y modelo para recursos de tipo Shell
+L	Script y Estáticos. Este nuevo modelo, también basado en gitflow y con soporte a múltiples releases,
+L	presenta algunos cambios respecto a los anteriores que es importante tener en cuenta:
+L	• Se elimina la rama master pasando a ser develop la rama origen del código
+L	• Para solucionar bugs sobre una rama release se usarán ramas bugfix (si la release que
+L	queremos arreglar no está desplegada en Producción) o ramas hotfix (si la release que
+L	queremos arreglar está desplegada en Producción)
+L	• La creación de una rama release o el merge de un hotfix sobre la rama release desencadenará
+L	automáticamente la creación de una release version en Consola Ether
+L	• Para recursos de tipo Shell Script o Estáticos aplicará el mismo modelo que para el resto de
+L	recursos y por tanto, será necesario trabajar con ramas release, bugfix y hotfix.
+FILE	pdf00_p021_0.png	20
+L	Los proyectos que ya estuvieran trabajando en sus repositorios con el modelo de ramas deprecado
+L	no sufrirán gran impacto, sólo deberán tener en cuenta las siguientes consideraciones:
+L	• La rama master quedará discontinuada, a efectos prácticos no genera ningún impacto, sólo
+L	dejará de actualizarse con futuros cambios.
+L	• La rama RC se mantiene deprecada y no tiene cabida en el nuevo modelo. Se recomienda que
+L	las ramas RC a día de hoy abiertas y en desuso sean cerradas.
+L	• Para recursos de tipo Shell Script y Estáticos:
+L	• No se podrán integrar nuevos cambios en la rama master ni realizar despliegues desde
+L	ésta.
+L	• Para desplegar cualquier cambio en Producción, será necesario abrir una rama release
+L	desde develop desplegar desde ésta.
+L	Para los proyectos cuyos repositorios fueron migrados a la Developer Experience con el antiguo modelo de
+L	ramas, que aún no hayan realizado ningún despliegue en Producción desde Consola Ether y que necesiten
+L	implementar algún cambio, se recomienda seguir los siguientes pasos:
+L	• Primero, abrir una rama release desde develop antes de implementar ningún cambio. De esta forma,
+L	mantendremos una rama release con el código que tenemos en Producción intacto.
+L	• Segundo:
+L	Si el cambio que queremos implementar es una nueva funcionalidad:
+L	• Abriremos una rama feature desde develop y trabajaremos con normalidad siguiendo
+L	el nuevo modelo de ramas
+FILE	pdf00_p022_0.png	16
+L	La automatización del modelo
+L	АPХ proporciona algunos procesos de automatización a través de Jenkins que aplican principalmente
+L	en la creación de la rama release, modificación de versiones y propagación de cambios. En adelante
+L	iremos comentando cuáles de los procesos están automatizados y qué papel tiene el desarrollador en
+L	ellos.
+L	Nombrado de las versiones
+L	El versionado semántico que se establece dentro del modelo de ramas de APX es 'X.Y.Z", añadiendo el
+L	sufijo '-[SNAPSHOT]' si se trata de una versión provisional.
+L	• Major version X (X.y.z | X > O) Se incrementará cuando se produzcan cambios incompatibles
+L	con la versión anterior. Patch y minor son reiniciadas a O cuando una versión mayor es
+L	incrementada. Ejemplo: 2.0.0
+L	• Minor version Y (x.Y.z | Y > O) Se incrementará cuando se introduzca funcionalidad nueva y
+L	compatible con la versión anterior, puede incluir cambios a nivel de parches. Patch es
+L	reiniciada a 0 cuando una versión menor se incrementa. Ejemplo: 1.3.0
+L	• Patch version Z (x.y.Z | Z > O) Se incrementará cuando se introduzcan correcciones de errores
+L	(un cambio interno que corrige un comportamiento incorrecto). Ejemplo: 1.3.1
+FILE	pdf00_p023_0.png	6
+L	Rama develop
+L	La rama develop es el origen del código de nuestro repositorio y rama principal de desarrollo. En esta
+L	rama es donde se aplica el scaffold de APX al crear un nuevo recurso.
+L	develop 0.1.0-SNAPSHOT
+L	feature1 0.1.0-SNAPSHOT
+L	feature2 0.1.0-SNAPSHOT
+FILE	pdf00_p024_0.png	15
+L	Nomenclatura
+L	Origen
+L	Integración vía pull request
+L	Versionado de artefactos
+L	Tipo de rama
+L	Creación
+L	Despliegue
+L	'develop'
+L	N/A, es la rama origen de nuestro código
+L	N/A
+L	Los artefactos generados de esta rama tienen versión '-SNAPSHOT' y son subidos a
+L	Artifactory
+L	Permanente
+L	N/A, se crea automáticamente con la creación de nuestro recurso
+L	Los artefactos pueden ser desplegados en entornos DE o El
+FILE	pdf00_p025_0.png	28
+L	Rama feature
+L	Las ramas feature son las ramas donde se implementarán los evolutivos de nuestra versión
+L	develop 0.1.0-SNAPSHOT
+L	feature1 0.1.0-SNAPSHOT
+L	feature2 0.1.0-SNAPSHOT
+L	Para implementar un nuevo
+L	evolutivo abrimos una rama feature
+L	desde develop. Para crear la rama
+L	feature debemos ir a Bitbucket,
+L	seleccionar la rama develop como
+L	origen y crear la rama con
+L	nomenclatura feature/*. Una vez
+L	finalizamos el desarollo integramos
+L	los cambios en develop via pull
+L	request.
+L	Nomenclatura
+L	Origen
+L	Integración vía pull request
+L	Versionado de artefactos
+L	Tipo de rama
+L	"feature/"
+L	develop
+L	Sí
+L	Los artefactos generados a partir de esta rama tienen versión '-SNAPSHOT' y
+L	NO son subidos a Artifactory. Es decir, no genera dependencias que puedan ser
+L	consumidas desde otros recursos (puede consultarse más información sobre)
+L	cómo trabajar con ramas feature en la nota al final de este apartado)
+L	Efímera (se borra después de mergear)
+FILE	pdf00_p026_0.png	7
+L	Creación
+L	Despliegue
+L	La creación de una nueva rama feature puede realizarse bien desde Bitbucket o
+L	bien construyendo desde el job Jenkins de la rama develop, 'build with
+L	parameters' y rellenando el parámetro 'generateFeature' con el nombre de la
+L	rama
+L	Los artefactos pueden ser desplegados en entornos DE o EI
+FILE	pdf00_p027_0.png	14
+L	NOTA ¿Cómo trabajar con ramas features?
+L	A la hora de desarrollar con ramas features, hay que tener en cuenta que estas ramas, en tiempo de
+L	compilación, no suben artefactos a Artifactory, la rama develop, por el contrario, sí.
+L	Por este motivo, si se necesita implementar dos componentes APX que dependan entre sí, por
+L	ejemplo una librería y su DTO, es necesario implementarlos en ramas feature independientes y
+L	mergear a develop para disponibilizar las dependencias en Artifactory. En el ejemplo de la librería y
+L	DTO, habría que proceder de la siguiente forma:
+L	1. Implementamos el DTO en la rama feature 1, compilamos a través del pipeline y mergeamos
+L	feature 1 a develop. En este momento el DTO ya se encuentra disponible en Artifactory para
+L	ser utilizado como dependencia.
+L	2. Implementamos la librería en la rama feature2 haciendo uso de la dependencia de nuestro
+L	DTO, compilamos a través del pipeline y mergeamos feature2 a develop. En este momento
+L	nuestra librería ya se encuentra disponible en Artifactory para ser utilizada como
+L	dependencia.
+FILE	pdf00_p028_0.png	4
+L	Rama release
+L	Las ramas release contienen versiones finales de software. Pueden ser versiones ya desplegadas en
+L	producción o versiones desplegadas en entornos pre-productivos que necesitamos terminar de
+L	poner a punto pasando pruebas de certificación por ejemplo.
+FILE	pdf00_p028_1.png	30
+L	Las versiones de la rama release
+L	son versiones cerradas y
+L	productivas. Pueden desplegarse en
+L	producción siempre y cuando hayan
+L	sido validadas y certificadas en los
+L	entornos de certificación y/o de
+L	aceptación de usuarios.
+L	release/0.1
+L	0.1.0
+L	develop 0.2.0-SNAPSHOT
+L	feature2 0.1.0-SNAPSHOT
+L	Cuando las features de una versión
+L	estén todas mergeadas en develop,
+L	hayamos pasado pruebas en
+L	entornos previos y tengamos una
+L	versión estable, podemos sacar
+L	desde develop una rama release
+L	que podremos terminar de poner a
+L	punto mientras develop sigue
+L	evolucionando. Para crear la rama
+L	release desde develop, ejecutamos
+L	el pipeline desde build with
+L	parameters' seleccionando la
+L	opción release.
+L	Cuando se saca una rama release,
+L	automáticamente se sube un minor
+L	a la versión en develop. Así todos
+L	los evolutivos que se mergeen a
+L	partir de ahora pertenecerán a una
+L	nueva versión.
+FILE	pdf00_p029_0.png	18
+L	Nomenclatura
+L	Origen
+L	Integración vía pull request
+L	Versionado de artefactos
+L	Tipo de rama
+L	Creación
+L	Despliegue
+L	trelease/x.y
+L	develop
+L	N/A
+L	Los artefactos generados a partir de esta rama tienen versión final y son subidos
+L	a Artifactory, donde son únicos y no pueden ser reemplazados.
+L	Semi-permanent. The development team decides when a release is no longer
+L	needed (because newer releases have replaced it). In case it is no longer needed,
+L	it can be deleted through Bitbucket.
+L	Para crear una nueva rama release desde develop, hay que ejecutar el job de
+L	Jenkins, 'build with parameters' y seleccionar la opción 'release'
+L	Los artefactos pueden ser desplegados en todos los entornos incluído PR
+FILE	pdf00_p030_0.png	6
+L	Rama bugfix
+L	Es la rama donde se solucionan los bugs que afectan a una release que aún no ha sido desplegada en
+L	producción. La integración de un bugfix en la rama release desencadena la propagación automática*
+L	del cambio hacia develop y releases superiores.
+L	NOTA*: en el apartado Propagaciones automáticas y resolución de conflictos se explica el detalle del
+L	proceso y cómo actuar en caso de producirse conflictos
+FILE	pdf00_p031_0.png	24
+L	release/0.1
+L	0.1.0
+L	develop 0.2.0-SNAPSHOT
+L	Si detectamos un bug en una
+L	release en un entono preproductivo
+L	(certificación o aceptación de
+L	usuarios) abriremos un bugfix para
+L	solucionario. Para crear la rama
+L	bugfix debemos ir a Bitbucket,
+L	seleccionar la rama release origen
+L	y crear la rama con nomenclatura
+L	bugfix/*
+L	bugfix1 0.1.0
+L	release/0.1
+L	:0.1.1
+L	Cuando mergeamos un bugfix o
+L	hotfix en una rama release, se
+L	aumenta automáticamente el patch
+L	de la versión de la rama release y
+L	se realiza una propagación
+L	automática hacia develop.
+L	Además, si hay ramas release con
+L	versiones superiores, el cambio
+L	también se propagará hacia ellas.
+FILE	pdf00_p032_0.png	9
+L	Nomenclatura
+L	Origen
+L	Integración vía pull request
+L	Versionado de artefactos
+L	bugfix/*
+L	release
+L	Sí
+L	Los artefactos generados a partir de esta rama tienen versión final y NO son
+L	disponibilizados en Artifactory para su dependencia desde otros recursos.
+FILE	pdf00_p032_1.png	8
+L	Tipo de rama
+L	Creación
+L	Despliegue
+L	Efímera (se borra después de mergear)
+L	La creación de una nueva rama bugfix puede realizarse bien desde Bitbucket o bien
+L	construyendo desde el job Jenkins de la rama release, 'build with parameters' y
+L	rellenando el parámetro 'generateBugfix' con el nombre de la rama.
+L	Los artefactos pueden ser desplegados en entornos DE o EI
+FILE	pdf00_p033_0.png	6
+L	Rama hotfıx
+L	Es la rama donde se solucionan los bugs que afectan a una release desplegada en producción y
+L	necesitan arreglarse de forma urgente. La integración de un hotfix en la rama release desencadena la
+L	propagación automática* del cambio hacia develop y releases superiores.
+L	NOTA*: en el apartado Propagaciones automáticas y resolución de conflictos se explica el detalle del
+L	proceso y cómo actuar en caso de producirse conflictos
+FILE	pdf00_p034_0.png	14
+L	Si detectamos un bug en una
+L	release que ya tenemos
+L	desplegada en Producción
+L	abriremos un hotfix para
+L	solucionarlo. Para crear la rama
+L	hotfix debemos ir a Bitbucket,
+L	seleccionar la rama release origen
+L	y crear la rama con nomenclatura
+L	hotfix/"
+L	hotfix1 0.1.1
+L	release/0.1
+L	0.1.2
+L	develop 0.3.
+L	feature3 0.2.0-SNAPSHOT
+FILE	pdf00_p035_0.png	29
+L	Nomenclatura
+L	Origen
+L	Integración vía pull request
+L	Versionado de artefactos
+L	Tipo de rama
+L	Creación
+L	Despliegue
+L	hotfix/*
+L	release
+L	Si
+L	Los artefactos generados a partir de esta rama tienen versión final y NO son
+L	disponibilizados en Artifactory para su dependencia desde otros recursos.
+L	Efímera (se borra después de mergear)
+L	La creación de una nueva rama hotfix puede realizarse bien desde Bitbucket o bien
+L	construyendo desde el job Jenkins de la rama release, 'build with parameters' y
+L	rellenando el parámetro 'generateHotfix' con el nombre de la rama
+L	Los artefactos pueden ser desplegados en entornos DE o El
+L	A la hora de corregir un bug de una versión en Producción es importante tener en cuenta las
+L	siguientes consideraciones:
+L	• Tendrá que abrirse una rama hotfix desde la release, implementar la corrección y mergear vía
+L	pull request sobre la misma release. En estos casos, es fundamental identificar en qué release
+L	se introdujo el bug. Veámoslo con un ejemplo:
+L	• Tenemos tres ramas release: release/1.0, release/1.1 y release/1.2
+L	• Detectamos un bug en la versión 1.2.
+L	• Tras analizar el código identificamos que el bug se introdujo en la versión 1.1
+L	• Sacamos un hotfix desde la release/1.1, corregimos el código, y hacemos pull request
+L	sobre esa misma release.
+L	• Al mergearse, el pipeline automáticamente propagará el cambio a develop (para no
+L	sacar más versiones con ese fallo) y a las releases superiores, en este caso release/1.2.
+FILE	pdf00_p036_0.png	14
+L	Pull request
+L	El mergeo de cambios entre ramas se realizará siempre desde Bitbucket vía pull request. Existirán
+L	dos tipos de pull requests:
+L	• Pull request manuales: son las que tienen abrir los desarrolladores para solicitar la integración
+L	de los cambios implementados:
+L	Rama origen
+L	feature
+L	bugfix
+L	hotfix
+L	Rama destino
+L	develop
+L	release
+L	release
+L	Desde Bitbucket, iríamos a Create pull request:
+FILE	pdf00_p037_0.png	27
+L	=
+L	• Bitbucket
+L	Your work Projects
+L	Repositories • People • GRaaS v
+L	Create pull request
+L	qwpu-stat... 89 develop
+L	qwpu-stat... 89 master
+L	Change
+L	TitleạẠạồạỊ
+L	Description
+L	Develop
+L	Preview
+L	ф
+L	Reviewers
+L	a.garcia •
+L	s.fernandez •
+L	Locate individual users or reviewer groups who can approve this pull request.
+L	Create
+L	Cancel
+L	En el campo reviewers el desarrollador podrá introducir los usuarios que desee para revisar el
+L	pull request. Se requiere mínimo un approve para poder mergear
+L	Pull request automáticas que son las que se gestionan de forma transparente para los
+L	usuarios en la propagación de cambios que realiza el pipeline automáticamente. En estas pull
+L	request también están configurados por defecto como reviewers los usuarios con rol Release
+L	Manager. En este caso, estos usuarios podrán revisar los cambios pero el merge lo hará
+L	automáticamente el pipeline en ausencia de conflictos. Más información en el siguiente
+L	apartado Propagaciones automáticas y resolución de conflictos.
+FILE	pdf00_p038_0.png	10
+L	Propagaciones automáticas y resolución de conflictos
+L	Cuando se mergea un pull request desde un bugfix o hotfix a una rama release, este merge se propaga
+L	automáticamente a la rama develop y ramas releases superiores (versiones superiores a la release
+L	sobre la que se ha hecho el hotfix)
+L	Se pueden producir 2 escenarios al hacer estas propagaciones automáticas.
+L	Escenario 1: Propagación automática, no requiere atención del developer.
+L	En este caso, la fusión de una rama en otra es limpia y no se requiere ninguna acción manual.
+L	Veamos un ejemplo, se ha mergeado un hotfix sobre la release/0.4, esto además del propio merge del
+L	hotfix, lanzará la propagación de este código a la rama develop (en este ejemplo al no existir una
+L	release superior a la 0.4, no se propaga nada más) y enviará por email las notificaciones de Bitbucket
+FILE	pdf00_p038_1.png	4
+L	de la propagación a los default reviewers establecidos en el repositorio. Por defecto, los default.
+L	reviewers son los usuarios con rol Release Manager (incluídos Release Manager Global y Release
+L	Manager Local en el caso de UAs multicountry )
+L	Como se ve en la siguiente imagen, el proceso ha ido bien por lo que no hace falta hacer nada más.
+FILE	pdf00_p039_0.png	54
+L	CloudBees
+L	CI
+L	Jenkins
+L	Up
+L	Status
+L	Changes
+L	Build with Parameters
+L	Re Ver Contiguración
+L	• Support
+L	Q Full Stage View
+L	) Open Blue Ocean
+L	Bitbucket
+L	Managed Master
+L	Q búsqueda
+L	* APX
+L	• BBVA_GL_Apps_APX •gl.qwpu.app-id-8700.dsg
+L	ud-online-regresion • release/0.4
+L	Branch release/0.4
+L	Full project name: gl.qwpu.app-id-8700.dsg/ud-online-regresion/release2F0.4
+L	Recent Changes
+L	Stage View
+L	Checkout
+L	Global Library
+L	25s
+L	Checkout
+L	SCM
+L	689ms
+L	Update Patch
+L	415
+L	Propagate
+L	merge to
+L	develop
+L	345
+L	Average stage times:
+L	(Average full run time: ~2min
+L	165)
+L	Pipeline Syntax
+L	Historia de tareas
+L	Tendencia -
+L	N15
+L	25-)(1-2021 11:04
+L	• #14
+L	#13
+L	25-jun-20219:00
+L	$374
+L	25s
+L	26s
+L	652ms
+L	726ms
+L	41s
+L	34s
+L	Además en la vista de tareas de jenkins aparecerá un pipeline creado para realizar esta propagación,
+L	aparece como eliminado ya que una vez efectuada la fusión se borra automáticamente. Con el paso
+L	del tiempo desaparecerán también de esta vista
+FILE	pdf00_p040_0.png	57
+L	Managed Master
+L	Q búsqueda
+L	• m.munoz.cabanillas.next
+L	Desconectar
+L	* APX
+L	° Status
+L	Contigure
+L	• Scan Multioranch Pipeline Now
+L	a Scan Multibranch Pipeline Log
+L	* Multibranch Pipeline Events
+L	BBVA_GL_Apps_APX gl.qwpu.app-id-8700.dsg + ud-online-regresion
+L	ud-online-regresion
+L	¡Novedades Octubre 2020!
+L	- Jenkins 2.249.2.3 disponible. Info aquí
+L	auto-generated by stacker
+L	Disable Multibranch Pipeline
+L	Branches (9)
+L	Pull requests (0)
+L	Name +
+L	Tags (21)
+L	ofg / Contig Files
+L	olesse/0 2
+L	Icono: S ML
+L	Último Éxito
+L	3 dias 19 Hor • 02
+L	23 Hor - 8G
+L	ND
+L	2 018S 2H0 - .2
+L	7 dias 18 Hor - 82
+L	5 Min 5 Seg - #14
+L	Último Fallo
+L	N/D
+L	ND
+L	NJD
+L	NJD
+L	NID
+L	NID
+L	N/D
+L	NJD
+L	N/D
+L	Ultima Duración
+L	9 Min 25 Seg
+L	7 Min 25 Seg
+L	4 Min 37 Seg
+L	ND
+L	NJD
+L	ND
+L	7 Min 47 Seg
+L	2 Min 58 Seg
+L	Fav
+L	D *
+L	• *
+L	• *
+L	• *
+L	• *
+L	Sula de iconos B) Atom feed nara todos
+L	• Atom feed iara falas Atom feed nara los más recientes
+FILE	pdf00_p041_0.png	8
+L	Escenario 2: Conflictos en la propagación automática, requiere atención del developer.
+L	En este caso, la fusión no ha podido realizarse por encontrarse un conflicto en el código.
+L	Veamos un ejemplo, se ha mergeado un hotfix sobre la release/0.4, pero anteriormente se mergeo
+L	una feature sobre la rama develop tocando el mismo código que en el hotfix, esto provocará un
+L	conflicto que debe ser resuelto por el developer.
+L	Como en el escenario 1, se lanzará la propagación automática a la rama develop, pero esta vez la
+L	propagación hacía la rama develop fallará, quedando dicho stage en estado unstable, lo que se aprecia
+L	en la siguiente imagen:
+FILE	pdf00_p042_0.png	64
+L	CloudBees
+L	CI
+L	Managed Master
+L	Q búsqueda
+L	Jenkins
+L	APX
+L	• BBVA_GL_Apps_APX gl.qwpu.app-id-8700.dsg ud-online-regresion release/0.4
+L	Status
+L	• Changes
+L	Build with Parameters
+L	Or Ver Configuración
+L	Support
+L	Full Stage View
+L	Open Blue Ocean
+L	1 Bitbucket
+L	M Samuel
+L	af Groups
+L	Roles
+L	• Pipeline Syntax
+L	Branch release/0.4
+L	Full project name: gl.qwpu.app-id-8700.dsg/ud-online-regresion/release%2F0.4
+L	Recent Changes
+L	Stage View
+L	Checkout
+L	Global Library
+L	Checkout
+L	SCM
+L	Update Patch
+L	Average stage times:
+L	(Average full run time:¿Amin
+L	536ms
+L	31s
+L	Aun 28 Chicc
+L	13:58
+L	2min 39s
+L	* Historia de tareas
+L	Tendencia -
+L	Propagate
+L	merge to
+L	develop
+L	#18
+L	Q #1Z
+L	25-(Un-2021 11:59
+L	25-|un-2021 11:57
+L	Error propagating merge, auxiliar branches have
+L	been created
+L	• #16
+L	25-jun-2021 11:29
+L	Create hotfix
+L	• #15
+L	25-jun-2021 11:04
+L	532ms
+L	541ms
+L	315
+L	26s
+L	Jun 25
+L	13:29
+L	24s
+L	Enlaces permanentes
+L	• XUltima e ecución (#18) hace 1 Min 2 Sea
+L	• "Ulitima eiecución estable (#16) hace 30 Min"
+L	Siguiendo con el ejemplo, en la siguiente imagen vemos la vista de tareas de Jenkins, en ella aparecerá
+L	el pipeline creado para realizar la propagación a develop como activo para que el developer pueda
+L	trabajar sobre esa rama auxiliar y corregir el conflicto.
+FILE	pdf00_p043_0.png	44
+L	Managed Master
+L	Q búsqueda
+L	BBVA_GL_Apps_APXł
+L	gl.qwpu.app-id-8700.dsg
+L	ad-online-regresion
+L	Status
+L	Contigure
+L	Scan Multibranch Pipeline Now
+L	ud-online-regresion
+L	¡Novedades Octubre 2020!
+L	- Jenkins 2.249.2.3 disponible. Info aquí
+L	A 1
+L	• m.munoz.cabanillas.next • Desconectar
+L	Disable Multerasch Pipeline
+L	deveico_12
+L	Contig Files
+L	alessei 4
+L	20 Min - 815
+L	7 Min 28 Seg - RB
+L	8 Min 11 Seg - #1
+L	2 días 3 Hor - #1
+L	7 dias 19 Hor - B2
+L	9 Min 59 Seg - #12
+L	Ultimo Fallo
+L	N/D
+L	ND
+L	ND
+L	7 Min 46 Seg - #1
+L	ND
+L	N/D
+L	ND
+L	ND
+L	Ultima Duración
+L	8 Min 11 Seg
+L	5 Min 55 Seg
+L	7 Min 12 Seg
+L	2 Min 35 Seg
+L	10 Min
+L	7 Min 47 Seg
+L	2 Min 34 Seg
+L	Fav
+L	D *
+L	D *
+L	Gula de iconos • Atom feed para todos • Atom feed para fallas E Atom feed nara los más reckentes
+FILE	pdf00_p044_0.png	17
+L	Asi mismo en bitbucket aparecerá el pull request de la rama auxiliar creada durante la propagación,
+L	en estado CONFLICT y se habrá notificado este pull request vía email de Bitbucket a los default
+L	reviewers establecidos en el repositorio:
+L	• Bitbucket Your work Projects Repositories • People • GRaas •
+L	gl.qwpu.app-id-8700.dsg / ud-online-regresion
+L	Pull requests
+L	Open • Author • Target branch v Reviewer •
+L	Q, Filter pull requests by
+L	Summary
+L	• Propagate merge from merges
+L	‹/merge_release_0.4_into_develop_17 to develop → develop
+L	bot-apx-stacker - #46, last updated 19 minutes ago
+L	Q. Search for code, commits or repositories_
+L	•IAA
+L	A partir de aquí este pull request debe tratarse de la misma forma que otros pull request. La no
+L	resolución del conflicto y por consiguiente no mergeo de este pull request puede ocasionar
+L	importantes errores en las siguientes propagaciones así como divergencias en las ramas.
+FILE	pdf00_p045_0.png	8
+L	Controles en ramas
+L	continuación:
+L	Actualmente, se hacen una serie de validaciones sobre el modelo de ramas, se detallan a
+L	Nombrado de ramas:
+L	• develop
+L	• feature/*
+L	• release/X.Y
+L	• bugfix/*
+FILE	pdf00_p046_0.png	24
+L	• hotfix/*
+L	Rama develop no se pueden borrar porque es permanente
+L	Interacción con develop y release/* solo mediante pull request
+L	Para mergear un pull request se requiere:
+L	• Mínimo un approve
+L	• Mínimo una build exitosa
+L	• Ningún "Needs to Work" pendiente de solucionar
+L	Rol Developer:
+L	• desarrolla sobre ramas efímeras feature/* bugfix/* hotfix/*
+L	• realiza pull request sobre develop y release
+L	• puede revisar y mergear pull request sobre ramas develop o release
+L	• despliega recursos en work
+L	Rol Release Manager:
+L	• puede revisar y mergear pull request sobre ramas develop o release
+L	• despliega recursos en live
+L	• puede crear versiones de un recurso desde la Consola
+L	Rol Release Manager Local:
+L	• puede crear versiones de un recurso desde la Consola sobre branch de tipo hotfix (solo aplica para
+L	UAs Multicountry) y solo desplegables en su geografía
+L	Nombrado de las versiones:
+L	• Se valida que el nombre de las ver siones tenga la nomenclatura correcta: X.Y.Z. En ramas develop y
+L	feature, las versiones deben contener sufijo -SNAPSHOT'
+L	• Dentro de un recurso Unidad de Despliegue todos los componentes agrupados deben tener la
+L	misma versión
+FILE	pdf00_p047_0.png	10
+L	Permisos de despliegue por rol en el modelo de ramas
+L	DEV
+L	INT
+L	ОСT
+L	release
+L	(RM)
+L	develop
+L	(RM)
+L	AUS
+L	PRO
+FILE	pdf00_p047_1.png	7
+L	feature
+L	bugfix
+L	hotfix
+L	X - No permitido
+L	V - Permitido
+L	V - Sólo RM
+L	* - En proceso para ser permitido
+FILE	pdf00_p048_0.png	9
+L	Modificación y construcción del recurso
+L	Una vez creado nuestro recurso ya podemos empezar a modificarlo. Para ello, desde la pantalla de
+L	información de nuestro recurso podemos acceder al repositorio de Bitbucket que se nos ha creado.
+L	Lo clonamos a nuestro local y ya podemos empezar a implementar los cambios en nuestro recurso.
+L	Arquitectura APX provee a los desarrolladores de herramientas para el desarrollo de componentes,
+L	como APX CLI que nos permitirá crear y añadir componentes de tipo librería, transacción, job o DTO a
+L	nuestros recursos o el Entorno Local de APX para realizar pruebas de nuestros componentes. Estos
+L	son algunos enlaces de interés para desarrolladores de APX que puede consultar en Platform: Stack
+L	to develop with АРХ, АРХ CLI Codelabs
+FILE	pdf00_p049_0.png	20
+L	Integración contínua
+L	Los cambios que hagamos en el repositorio los iremos registrando en la rama develop mediante
+L	commits Al hacer push de esos commits, automáticamente se disparará una ejecución del pipeline de
+L	Jenkins de la rama que acabamos de pushear.
+L	El pipeline de Jenkins, a través de sus distintos steps, se encargará de realizar tareas de integración
+L	continua como construir el recurso, ejecutar tests unitarios, ejecutar controles de calidad y
+L	seguridad, etc, así como registrar y disponibilizar el recurso para su futuro despliegue.
+L	Branch develop
+L	Rocent Changes
+L	Stage View
+L	Average stage times:
+L	(Average fult run timer - 22min
+L	105
+L	Sonar Des
+L	2min 252
+L	cies Arsifactory
+L	fracin
+L	vfrack
+L	15min 195 44
+L	Veamos algunos de los principales steps con más detalle:
+FILE	pdf00_p050_0.png	16
+L	• APX Prerequirements: Ejecuta enforcements a través de Samuel que validan distintos aspectos
+L	como:
+L	• La versión de Arquitectura APX utilizada es una de las tres últimas.
+L	• Los componentes dentro de un recurso comparten la misma versión.
+L	• Cumplimiento de la convención establecida respecto al naming en el modelo de ramas.
+L	• Detección de vulnerabilidades en código a través de Chimera.
+L	• Etc... Puede consultar en Samuel el catálogo completo de comportamientos APX.
+L	• Build: Compila el código fuente de nuestro recurso.
+L	• Test: Ejecuta los tests unitarios. Puede consultar para más información en Testing en APX.
+L	• Sonar: Realiza el control de calidad a través de SonarQube. Enlaces de interés: Quality Gate
+L	definido para APX y listado de reglas Sonar APX que se ejecutan para asegurar que se cumple
+L	con las buenas prácticas definidas por la Arquitectura.
+L	• Deploy Artifactory: Subida de los artefactos al repositorio de binarios. Solo para ramas develop
+L	y release (Las ramas efímeras feature, bugfix y hotfix solo suben artefactos al repositorio de
+L	efímeros y no pueden ser usados como dependencias)
+L	• Tracing in vTrack: Registro de la build en vtrack.
+FILE	pdf00_p051_0.png	25
+L	El registro en V-Track y Artifactory es especialmente importante porque nos permitirá más adelante
+L	hacer nuestro despliegue. Vamos a ver un poco más en detalle el papel de estas herramientas en el
+L	despliegue de nuestro recurso.
+L	Lo que tenemos que saber sobre esto es: el pipeline construye los componentes, los disponibiliza en
+L	Artifactory y los registra en V-Track, como vemos más abajo:
+L	PIPELINE
+L	DESPLIEGUE
+L	Bitubucket
+L	¿Existen los componentes?
+L	Unidad de despliegue
+L	TRX1.java (v1.0)
+L	TRX2.java (v1.0)
+L	LIB1.java (v1.0)
+L	DTO1.java (v1.0)
+L	Artifactory
+L	V-Track
+L	Registro
+L	¿Están registrados?
+L	Deployer APX
+L	TRX1-1.0.jar
+L	TRX2-1.0.jar
+L	LIB1-1.0.jar
+L	DTO1-1.0.jar
+L	Build
+L	Pipeline de APX
+FILE	pdf00_p052_0.png	5
+L	Visto esto sabemos que para que podamos pasar al despliegue es necesario que se complete el
+L	pipeline. Una vez hayamos hecho nuestros cambios, hayamos hecho push y comprobado que todo se
+L	pasa correctamente, tendremos el feedback correspondiente en la sección de nuestro recurso en la
+L	consola. Si entramos en la pestaña 'audits' podremos ver que dentro de 'builds' está registrada la
+L	nuestra, y a partir de ahí podremos seguir con el despliegue.
+FILE	pdf00_p053_0.png	14
+L	Testing en APX
+L	Como ya se ha comentado, una de las tareas que realiza nuestro pipeline en el proceso de
+L	construcción de un recurso es la ejecución de Test Unitarios. Si en la ejecución alguno de los tests
+L	fallara, el pipeline terminaría con error en este punto. Si desea consultar información sobre cómo
+L	implementar tests unitarios en APX puede consultar en Platform los siguientes enlaces: Lesting in
+L	АРХ Online , Testing Codelab, Testing in АРХ Batch.
+L	La norma establecida en APX en cuanto a Test Unitarios es tener una cobertura de al menos el 80%
+L	sobre el nuevo código. Esto lo valida también el pipeline a través de Sonar, en caso de no llegar a la
+L	cobertura exigida, el pipeline terminará con error. (Puede consultar en detalle el Quality Gate
+L	definido para APX así como las reglas Sonar aplicadas en APX en los siguientes enlaces: Quality Gate,
+L	reglas Sonar APX).
+L	Para la ejecución de pruebas integradas, la Arquitectura ofrece un Entorno Local APX para el
+L	despliegue y pruebas en local de nuestros componentes. Puede descargarlo y consultar más
+L	información en Platform: Entorno Local APX. Local Deploy Codelab
+FILE	pdf00_p054_0.png	6
+L	Despliegue de un recurso
+L	Una vez hecha nuestra build y con nuestros componentes registrados en Artifactory es hora de hacer
+L	el despliegue. En la Consola, dentro de la pantalla de nuestro recurso, iremos a la pestaña 'release
+L	versions'. En esta pestaña vamos a controlar todos los despliegues de nuestro recurso. Los
+L	despliegues se organizan en release versions. Una release version es una encapsulación de un tag o
+L	una rama que se va a desplegar por los entornos.
+FILE	pdf00_p054_1.png	35
+L	APPLICATION
+L	Aplicación de Pruebas Unitarias para la Ar...
+L	Aplicación de pruebas unitarías para la aqr. Extendida.
+L	ADD RESOURCE...
+L	ETHER CLOUD SERVICES 1
+L	BANKING-RUNTIMES 22
+L	prueba_despllegue_fra_python
+L	LRAVE
+L	api-connector-batch
+L	Pruebas para el API Connector en Batch
+L	prueba_lra LRAVI
+L	12 days ago
+L	regression-test-online
+L	APXR2R3
+L	Basic regrssion test from QWPU for APX architecture
+L	t RESOURCE
+L	regression-test-online
+L	Basic regrssion test from QWPU for APX architecture.
+L	INFO
+L	RELEASE VERSIONS
+L	AUDITS
+L	POLICIES
+L	PCREATE RELEASE VERSION
+L	test_release_version
+L	L3.O-RELEASE
+L	test-colombia-consola
+L	0.3.0-RELEASE
+L	release0.3
+L	release/0.3
+L	DEV
+L	DEPLOVED
+L	D DEPLOY...
+L	INT
+L	S DEPLOYED
+L	IDATI
+FILE	pdf00_p055_0.png	22
+L	Para crear una release version, hacemos clic en el botón 'Create release version". En el asistente que
+L	se muestra a continuación, deberemos seleccionar el branch o tag que vamos a añadir en la release
+L	version e indicar un nombre para la release version. (NOTA: Solo los usuarios con rol Release
+L	Manager podrán crear release versions de un recurso. En el caso de UAs multicountry, el rol Release
+L	Manager Local podrá crear release versions sobre brach de tipo hotfix y release)
+L	VERSIONING RESOURCE REGRESSION-TEST-ONLINE
+L	Release Versions can be created from an specific tag, commit or branch
+L	SUMMARY
+L	Select the origin code for this new release version
+L	regression-test-online
+L	1> BRANCH
+L	LAST UPDATE
+L	• 0.1.0-RELEASE
+L	0.2.0-RELEASE
+L	0.3.0-RELEASE
+L	$ 2ceaeb71110...
+L	• 7d80c6f2808...
+L	• a2492d30ff2...
+L	bot-globaldevops
+L	7 months ago
+L	X CANCEL
+L	NEXT →
+FILE	pdf00_p056_0.png	37
+L	VERSIONING RESOURCE REGRESSION-TEST-ONLINE
+L	Release Versions can be created from an specific tag, commit or branch
+L	SOURCE ORIGIN
+L	Resource Release Version configuration
+L	• RELEASE VERSION NAME
+L	ALIAS
+L	Demo-2020-03-04 (Optional)
+L	TAGS
+L	Tags (Optional)
+L	X CANCEL
+L	SUMMARY
+L	{ PREV
+L	Una vez creada la release version, se nos abrirá una fila con un botón de 'deploy' en cada uno de los
+L	entornos.
+L	L RESOURCE
+L	regression-test-online
+L	Basic regrssion test from QWPU for APX architecture.
+L	RELERSE VERSIONS
+L	POLICIES
+L	CREATE RELEASE VERSION...
+L	S DEPLOY...
+L	DATA OBTAINED 20 SECS. AGO C REFRESH IN 10 SECS.
+L	VERSION
+L	DEV
+L	INT
+L	AUS
+L	ОСт
+L	PRO
+L	TAG
+L	test_release_version
+L	0.3.0-RELEASE
+L	S DEPLOY
+L	DEPLOY
+L	DEPLOY
+L	DEPLOY
+L	DEPLOY REQUEST
+L	Si le damos al botón de 'dev' se nos abrirá un asistente para el despliegue:
+FILE	pdf00_p057_0.png	47
+L	DEPLOY RESOURCE VERSION...
+L	• TransactionRules | APX
+L	An Ether Application Resource is a technica
+L	offer the ETHER Platform.
+L	DEPLOYMENT CONFIGURATION
+L	O ENVIRONMENT
+L	• ESP
+L	WORK
+L	GRE
+L	NS es.hrch.app-id-6349.pro
+L	O VERSION TO DEPLOY
+L	FO O SCHEDULING DATE
+L	v2.0 (RC branch)
+L	20/07/2020
+L	WINDOW: 10:00 AM
+L	• GOVERNANCE INFO
+L	O JIRA TICKET
+L	O CRQ COD Ồ
+L	* ENGINE PARAMS
+L	O DEPLOY MODE
+L	APXGP- 12
+L	APXGP-12345 Modificación de transacción de movimientos de c
+L	APXGP-12045 Actuallzación bugfix
+L	APXGP-12675 Actualización bugfix transacción
+L	Physics Online
+L	DEPLOYMENT CONFIG PARAMS
+L	DAnlDAsam
+L	the services that
+L	+ more info
+L	ntas de ciiente
+L	1] Se selecciona (o vendrá preseleccionada la
+L	geografía de la aplicación en la que se va a
+L	desplegar el recurso.
+L	2] Se selecciona en qué entorno se quiere realizar
+L	el despliegue.
+L	3] Se indica cuál de las versiones del recurso,
+L	definidas y configuradas previamente, es la que se
+L	quiere desplegar.
+L	4] En función del entorno y del tipo de engine, se
+L	solicita al usuario que introduzca unos datos u
+L	otros. Una política de gobierno, que aplica a APX,
+L	es que de cara a tener trazabilidad de los
+L	despliegues de un recurso, el Developer debe
+L	indicar el ticket Jira asociado al recurso APX que
+L	se va a desplegar (este ticket es opcional para los
+L	recursos de tipo SH/SOL o Estáticos) . Este ticket
+L	debe encontrarse en el estado correcto
+FILE	pdf00_p058_0.png	7
+L	dependiendo del tipo de entorno en el que se va a desplegar.
+L	Disclaimer: Para la geografía México no es requerido ingresar un ticket JIRA, es opcional, pero si se cuenta con uno se puede ingresar aún siendo de tipo MP-
+L	5] Se selecciona el modo de despliegue o tipo de runtime: Physics Online, Physics Batch, R3 o Dual (este último solo en caso de
+L	recursos de tipo librería para poder desplegar simultáneamente en Physics
+L	Online y Physics Batch, disponible a partir del 14/12/2022)
+L	6] Como se ha comentado en los puntos anteriores, esta sección ya es
+L	opcional y no es necesario seleccionar un Deployment Config.
+FILE	pdf00_p059_0.png	29
+L	Durante el deployment se seguirán una serie de pasos que variarán en función de dónde vayamos a
+L	desplegar. Si queremos más información, podemos dar dos clics en la casilla de ese entorno (que
+L	ahora mismo estará con un icono de carga y el step por el que vaya del despliegue) y se nos mostrarán
+L	enlaces a los logs, y en caso de que hubiera habido un error nos daría el detalle de cual es. En caso de
+L	que todo vaya bien, se debería de quedar en 'deployed, indicando que nuestro componente ya está
+L	disponible.
+L	DEPLOY RESOURCE REGRESSION-TEST-ONLINE
+L	Resources can be deployed from an specific tag, commit or branch
+L	Resource deploy processing
+L	APF DEPLOYING RESOURCE REGRE:
+L	DEPLOYING RESOURCE
+L	CHECK_REQUEST
+L	START_DEPLOY_JOB
+L	EVALUATE SAMUEL ENFORCEMENTS
+L	CONFIGDEPLOYMENT
+L	GET_ARTIFACTS
+L	SELECT_PROMOTION_SERVICE
+L	SCHEDULED
+L	DEPLOYED
+L	IN PROGRESS: C
+L	IN PROGRESS C
+L	COMPLETED
+L	IN PROGRESS C
+L	PENDING
+L	PENDINGA
+L	PENDING
+L	PENDING
+L	PENDING
+L	X CLOSE
+FILE	pdf00_p060_0.png	13
+L	Despliegue en Producción
+L	Una vez creada la release version y desplegada por todos los entornos previos, el siguiente paso sería
+L	el despliegue en Producción. Hay que tener en cuenta, antes de llevar a cabo este despliegue en
+L	Producción, que la release version debe haber sido creada a partir de un tag y no desde un commit o
+L	branch como se permite en entornos previos para poder realizar pruebas, de lo contrario, no se
+L	permitirá el despliegue.
+L	Para desplegar en Producción una release version, haremos 'clic' en el botón 'deploy request' que
+L	aparece en el entorno de 'pro' en la fila correspondiente a esa release version y se abrirá un asistente
+L	de despliegue muy similar al de entornos previos comentado en el apartado anterior:
+L	test_release_version
+L	2.3,0 RELEASE
+L	PRO
+L	DEPLOY REQUEST
+FILE	pdf00_p061_0.png	37
+L	Al pulsar en "Deploy Request..." aparecerá el siguiente cuadro de diálogo donde se configura la
+L	solicitud del despliegue en Producción.
+L	REQUEST DEPLOY FOR RESOURCE REGRESSION-TEST-ONLI...
+L	Resources can be deployed from an specific tag, commit or branch
+L	DEPLOYMENT CONFIGURATION
+L	WORK
+L	• ENVIRONMENT
+L	GLO
+L	DEV
+L	INT
+L	gl.qwpu.app-id-10662.pro
+L	AUS
+L	OСт
+L	LIVE
+L	PRO
+L	• VERSION TO DEPLOY
+L	0.3.0-RELEASE
+L	• DEPLOYMENT TYPE
+L	SCHEDULING DATE
+L	• SCHEDULED
+L	Dd-Mm-Yyyy
+L	Select a date to schedule deployment.
+L	JIRA TICKET
+L	APXGP-10
+L	Transacción
+L	• CRQ
+L	CRO000001
+L	O AS SOON AS POSSIBLE
+L	• WINDOW
+L	APX Component Requ... Under Constructi..
+L	• ENGINE PARAMS
+L	• DEPLOY MODE
+L	• DEPLOYMENT CONFIG PARAMS
+L	TAGS
+L	prueba
+L	Disclaimer: Para la geografía México no es requerido ingresar un ticket JIRA, es opcional, pero si se cuenta con uno se puede ingresar aún siendo
+L	de tipo MP-.
+FILE	pdf00_p062_0.png	20
+L	Una de las diferencias que presenta el asistente de despliegue de Producción frente al de entornos
+L	previos es que ofrece dos tipos de despliegue:
+L	• DEPLOYMENT TYPE
+L	• SCHEDULING DATE -
+L	• SCHEDULED
+L	• AS SOON AS POSSIBLE
+L	Dd-Mm-Yyyy
+L	• WINDOW
+L	•iScheduled": para realizar despliegues planificados. Deberá seleccionarse la fecha y un horario
+L	dentro de las ventanas planificadas. La ejecución de este tipo de despliegues se realizará
+L	automáticamente en base a la fecha y ventana indicada y no será necesario que sea ejecutado
+L	manualmente por ningún usuario.
+L	• 'As soon as possible': para realizar despliegues bajo demanda. Deberá seleccionarse solamente
+L	la fecha de despliegue. NOTA: Al finalizar la solicitud de un despliegue de esta tipología deberá
+L	recuperarse el request ID de la petición y posteriormente ejecutar manualmente el
+L	despliegue por la herramienta:
+L	o Cronos, según se indica en la secciónạẠ¿Ejecución de despliegues en producción por
+L	Cronos" al final de este apartado (activo en Colombia, España, Perú y Argentina)
+L	Jenkins de LCM. según se indica en la sección "Ejecución de despliegues en producción
+L	por Jenkins LCM" al final de este apartado (activo en México)
+FILE	pdf00_p063_0.png	9
+L	Una vez informados datos para el tipo de despliegue, será necesario indicar el código CRQ
+L	relacionado a la release version que se va a desplegar y a continuación ya podríamos hacer la solicitud
+L	de despliegue.
+L	Desde el punto de vista del Developer, en este momento la solicitud de despliegue que acaba de
+L	configurar se habrá enviado al Inbox de Autorizaciones, ya que todo despliegue en Producción
+L	requiere de la aprobación por parte de un usuario autorizador (Release Manager/Tech Lead de la
+L	UA).
+L	Desde la pestaña de versiones del recurso, podrá ver que se encuentra en estado Pendiente de
+L	Autorización.
+FILE	pdf00_p063_1.png	13
+L	view: running versions
+L	ОСТА
+L	VE
+L	ACTIVE
+L	YED
+L	DEPLOYED
+L	environment: all
+L	PRO
+L	000
+L	8
+L	AUTHORIZ.
+L	PENDING
+L	DEPLOY...
+FILE	pdf00_p064_0.png	12
+L	Autorización de la solicitud de despliegue por parte del Technical Lead/Release Manager
+L	Éste deberá acceder al Inbox de Autorización de la Consola para autorizar el despliegue. Las
+L	solicitudes, tanto "scheduled" como "as soon as possible" no se desplegarán si no están autorizadas.
+L	El Technical Lead puede encontrar información más detallada de la herramienta Inbox en la
+L	presentación relativa a su rol dentro de la Development Experience
+L	[ETHER UX] Journeys Ether Development Experience - Rol TechLead
+L	Y en esta otra más específica con la transición de estados desde Consola.
+L	ETHER UX| Ether Console Inbox Autorización despliegues a Producción
+L	Volviendo al usuario Developer/Release Manager, una vez autorizada su solicitud de despliegue, en
+L	función de si el despliegue era de tipo Programado, podrá ver que el despliegue está ya a la espera de
+L	que llegue la fecha y ventana(hora) especificadas.
+L	A) Ejemplo de despliegue programado
+FILE	pdf00_p065_0.png	12
+L	view: running versions
+L	ОСТА
+L	VE
+L	ACTIVE
+L	OYED
+L	DEPLOYED
+L	environment: all
+L	PRO
+L	000
+L	SCHEDULED
+L	20/07/2020 | 10:00h
+L	DEPLOY...
+FILE	pdf00_p066_0.png	31
+L	B) En el caso de un despliegue de tipo 'As soon as possible, nos faltaría por realizar un último paso:
+L	recuperar el request ID y ejecutar proactivamente el despliegue en Cronos.
+L	L RESOURCE
+L	APX.R2R3
+L	regression-test-online
+L	Basic regrssion test from QWPU for APX architecture.
+L	INFO
+L	RELEASE VERSIONS
+L	AUDITS
+L	POLICIES
+L	CREATE RELEASE VERSION...
+L	E DEPLOY...
+L	DATA OBTAINED 02 SECS. AGO
+L	C REFRESH IN 28 SECS.
+L	ERSION
+L	DEV
+L	ОСт
+L	PRO
+L	• test_release_version
+L	0.3.0-RELEASE
+L	DEPLOYED
+L	•DEPLOYED
+L	DEPLOVED
+L	DEPLOYED
+L	S REL OPERATOR
+L	PENDING
+L	• test-colombla-consola
+L	Para obtener el request ID, hacemos clic en el estado de despliegue REL. OPERATOR PENDING y
+L	podremos obtener el Request ID de la ventana de detalle del proceso de despliegue.
+L	(NOTA: Existen otras formas de recuperar el Request ID del deployment en Consola, para más
+L	detalle consultar el siguiente link).
+FILE	pdf00_p067_0.png	132
+L	Inbox de Autorización (Despliegues de Release Versions en Producción)
+L	El Inbox de autorizaciones es una herramienta integrada en Consola accesible desde su menú
+L	lateral izquierdo.
+L	Desde aquí se gestionan las solicitudes que envían los Developers a los Release Managers de sus
+L	UUAA, para que estos puedan autorizar o no el despliegue en producción de una release version de
+L	alguno de los recursos técnicos de una Ether Application.
+L	DEPLOY AUTHORIZATION REQUESTS
+L	DEPLOY REQUEST
+L	AUTHORIZATION INBOX
+L	PENDING REQUESTS 14
+L	EP 14/06/2020 Window 1
+L	_EOMEJ004_batch_joab-master-pro
+L	-FOME3004, batch_bb-muaster-pro
+L	• Pending
+L	• Approved
+L	Authorione
+L	.EOME3D04, batch job-mster pro
+L	_EOMEJ004_batch_job-naster-pro
+L	_EOMEJ004_batch_job-master-pro
+L	-EOMEJ004_batch.jab-muxter-pro
+L	• Error
+L	EOMEJ004_batch_job-naster-pro
+L	D Cancelled
+L	ADVANCED SEARCH
+L	REQUEST:
+L	01.01.2020 - Today
+L	IMPLANTATIN 0106.2020 • 31.12.2020
+L	José Garcia Gômez
+L	GEOGRAPHSES
+L	• Global
+L	MEX México
+L	COL ComIEN
+L	• CHL ChiC
+L	ESP. Pero
+L	000
+L	uRe Uugur
+L	PRY Parogun
+L	VEN Venezuala
+L	SEARCH
+L	TNMPCNNNT
+L	B9 14/06/2020 Wndow 3
+L	29 14/06/2020 Wndow 4
+L	EP 14/06/2020 Window 2
+L	19 14/06/2020 Window 2
+L	EP 14/06/2020 Window 3
+L	© 14/00/2020 Window 1
+L	-FOMEJ004,batch_job-maviar-pro
+L	-EOMEJ004_tstch._jab-ruster-pro
+L	SFD4313
+L	_EOMEJ004_batch._job-master-pro
+L	SF34512
+L	_EOMEJ004_batch.job master pro
+L	-EOMEJ004_batch.jab-ruxster-.pro
+L	_EOMEJ004_batch_job-raster-pro
+L	PDCO
+L	POCO
+L	ОСТА
+L	NOCO
+L	PDCO
+L	NOCO
+L	POCO
+L	PDCO
+L	PRO
+L	PRO
+L	OCTA
+L	PRO
+L	PDCO
+L	POCO
+L	ESP PRO
+L	NDCO
+L	ESP PRO
+L	NECO
+L	ESP PRO
+L	NOCO
+L	ESP PRO
+L	NOCO
+L	ESP OCTA
+L	MDCO
+L	ESP PRO
+L	8 javiestorataneingtbva.com
+L	& ana.rodriguez.next@tbva.com
+L	& juan.perengbova.com
+L	& jalme.gomez@teva.com
+L	8 carlos.lopez@obva.com
+L	8 manuelciao@bova.com
+L	& ASgNCEO CEVACCE
+L	3 lose femanden@ibova.com
+L	& argelmarin@bbra.com
+L	& aberta.ferrangtova.com
+L	& mamueldeargbova.com
+L	8 lusgarcia@tbva.com
+L	& jose.femandez@biova.com
+L	& angeLmartin@lsbva.com
+L	AUTHORIZE
+L	X DENNY..
+L	• CRQ CODE:
+L	Remedy authorization..
+L	Red
+L	TRE & REQUISTER
+L	Tesi
+L	Tesi
+L	onos oaoc orem
+L	MOCO
+L	TECH STACK:
+L	APX Onlne
+L	ENVIRONMENT:
+L	Teat
+L	RESCURCE:
+L	Test DO IMPLANT. DATE:
+L	..EOME/004_batch_job-master-job
+L	14/06/2020 - Window 3
+L	UA AUTHORIZER/S
+L	NOTIY
+L	T PrOAUE MEVLAE
+L	OFF CD
+L	Mbointerasco Manage
+L	ván Fernández Rodrigue
+L	STATUS HISTORY
+L	ee Denicd
+L	Juas Ferránder Rodriguez
+L	• Authorization registered
+L	BOT JOLARON
+L	10:30 - Todey
+L	Juan Fernánder Rodriguez
+L	• Deploy Request
+L	Carlos López
+L	10:36 - Vesterdwyłął
+L	PRODUCT
+L	API CATALOG CELLS CATALOG
+L	PLATFORM STATUS •
+L	Esta herramienta tiene dos puntos de vista y, en función del rol del usuario autenticado, le aparecerán
+L	la/s que le aplican a dicho usuario:
+FILE	pdf00_p068_0.png	11
+L	Esta herramienta tiene dos puntos de vista y, en función del rol del usuario autenticado, le aparecerán
+L	la/s que le aplican a dicho usuario:
+L	• INBOX (Solicitudes que puedo autorizar si tengo el rol RM, TL)
+L	Si se navega a esta opción, quiere decir que el usuario ejerce el rol de autorizador respecto a
+L	una o varias UUAA y es desde donde podrá ver y Autorizar/Denegar las solicitudes de
+L	despliegue que le han llegado (en calidad de Autorizador de la UA a la que pertenezca el
+L	recurso que se quiere desplegar en Producción).
+L	• My Requests (Solicitudes que ha enviado)
+L	Desde esta otra opción, un usuario con rol Developer/Release Manager puede ver las
+L	solicitudes que él/ella ha enviado y así poder consultar en qué estado de Autorización se
+L	encuentran.
+FILE	pdf00_p069_0.png	12
+L	DOBLE AUTORIZACIÓN
+L	De manera estándar, la autorización para el despliegue en
+L	Producción sólo requiere que sea autorizado por alguno de los
+L	Release Managers de la UA (o del Technical Lead) pero, en
+L	algunas geografías, y para recursos de determinados
+L	engines/arquitecturas, la autorización desde el Inbox de
+L	Autorizaciones para que pueda ser desplegado un recurso en
+L	Producción requerirá que esta deba ser autorizada no sólo por
+L	alguno de los responsables de la UA (RM o TL de la geografía
+L	de despliegue), sino que también debe tener una segunda
+L	autorización por parte de alguna persona del grupo de
+L	Gobierno de la geografía de despliegue.
+FILE	pdf00_p069_1.png	38
+L	DEPLOY REQUEST
+L	AUTHORIZE
+L	X DENNY...
+L	CRQ CODE:
+L	RSABCD
+L	& REQUESTER:
+L	REQUEST ID
+L	carlos.lopez@bbva.com
+L	MDCO
+L	APX Online
+L	TECH STACK:
+L	ENVIRONMENT:
+L	RESOURCE:
+L	BO IMPLANT. DATE
+L	...EOMEJ004_batch_job-master-job
+L	14/06/2020 - Window 3
+L	UA AUTHORIZER/S
+L	Project Manager
+L	Ana Gómez López
+L	Maintenance Manager
+L	Juán Fernández Rodríguez
+L	MEX APX COMMITTEE AUTHORIZER/S
+L	Mex Committee Member
+L	• Ana Gómez López
+L	Juán Fernández Rodríguez
+L	Mex Committee Member
+L	Mario Fernández Gómez
+L	HISTORY
+L	Authorized by Committee [1/2] 15:32 - Today
+L	Mario Fernández Gómez
+L	• Registered Authorization...
+L	8:24 • Todsy
+L	• Send Authorization
+L	Juan Ferández Rodriguez
+L	Sended Deploy Request
+L	Carlos López
+L	B:23 - Today
+L	10:36 • Yesterday
+FILE	pdf00_p070_0.png	19
+L	Este requisito de doble autorización, de cara a recursos
+L	APX, está activado para los despliegues en México (desde
+L	Q4'2021)
+L	Las personas de este grupo de Gobierno local tendrá unos o
+L	varios administradores que se encargarán de gestionar qué
+L	personas quieren incluir en él, y los miembros de este grupo
+L	deberán entrar en el Inbox de Autorizaciones de la Consola.
+L	En el panel de detalle de la solicitud seleccionada, en los casos
+L	donde esté activada la doble autorización, aparecerán dos
+L	grupos de autorizadores. En un primer grupo aparecen los de
+L	la geografía de la UA (Tech Lead y/o Release Managers locales)
+L	y en un segundo grupo las personas que formen parte del
+L	grupo autorizador (gobierno de la geografía).
+L	En estos casos, el estado global de la Solicitud de Autorización
+L	aparecerá como Pendiente mientras falte alguno de los dos
+L	checks por validar.
+L	Una vez que la solicitud está autorizada, es cuando
+L	técnicamente comienza el proceso de despliegue de la manera
+L	usual y la petición queda registrada en Kharon.
+FILE	pdf00_p071_0.png	3
+L	Consideraciones a tener en cuental
+L	De cara a las solicitudes de despliegue en Producción y relacionado con el modo en que se pueden
+L	autorizar las solicitudes, se deben considerar los dos siguientes aspectos:
+FILE	pdf00_p071_1.png	13
+L	1. Esta solución de la doble autorización actualmente disponible no es una solución estratégica
+L	ya que en un futuro, cuando estén integradas piezas como el Remedy y/o JIRA con la Consola,
+L	se desea que el CRQ asociado a una solicitud de despliegue sea el mecanismo por el cual la
+L	Consola Ether automáticamente conozca si el despliegue está autorizado o no por parte de
+L	ese comité o panel de gestión del cambio de una geografía.
+L	2. Por causas técnicas, a día de hoy la Consola Ether actualmente no puede enviar notificaciones
+L	vía correo electrónico a los responsables de autorizar un despliegue, por lo que el Developer
+L	(o el Release Manager de la UA) deberá comunicar manualmente a dichos responsables la
+L	necesidad de que deban entrar en el inbox para autorizar solicitudes pendientes que tengan.
+L	En el panel de detalle aparecerá una sección con los nombres de los miembros del grupo de
+L	Autorizadores de gobierno de su geografía.
+L	Para entrar en el Inbox de Autorizaciones se puede hacer desde el siguiente link:
+L	https://console.platform.bbva.com/inbox/list
+FILE	pdf00_p072_0.png	5
+L	El día de la implantación se procederá al despliegue de forma manual y hasta entonces el despliegue
+L	reflejará que está en estado Requested.
+L	Para ver información más detallada sobre el Inbox de Autorización se puede ir a la sección del Inbox de
+L	Autorización del journey de la TechU del Overview de la Development Experience.
+L	• [ETHER UX] Development Experience
+FILE	pdf00_p073_0.png	34
+L	Ejecución de despliegues en Producción por Jenkins LCM
+L	Los despliegues productivos de tipo "As soon as Possible", también conocidos como "manuales" o
+L	"on-demand", se deberán ejecutar hasta final de Enero para España según se indica en el apartado
+L	"¡mplantaciones Correctivas" de la Guía del Desarrollador LCM para APX de España.
+L	Para Colombia, seguir el apartado siguiente de despliegues por Cronos.
+L	Ejecución de despliegues en Producción por Cronos
+L	REQUEST DEPLOY FOR RESOURCE REGRESSION-TEST-ONLI...
+L	B ~
+L	Resources can be deployed from an specific tag, commit or branch
+L	Resource deploy processing
+L	X CANCEL DEPLOY...
+L	AP+ DEPLOVING RESOURCE REGRESSION-TEST-ONLINE@TEST_RELEASE_VERSION
+L	• DEPLOYING RESOURCE
+L	CHECK_REQUEST
+L	START_DEPLOY_JOB
+L	EVALUATE SAMUEL ENFORCEMENTS
+L	CONFIG_DEPLOYMENT
+L	GET_ARTIFACTS
+L	SELECT_PROMOTION_SERVICE
+L	REQUESTED (REQUEST ID: KH02122020151109796633)
+L	Deployment requested to a productive environment
+L	IN PROGRESS >
+L	IN PROGRESS J
+L	COMPLETED
+L	COMPLETED
+L	COMPLETED
+L	COMPLETED
+L	COMPLETED
+L	COMPLETED
+L	COMPLETED
+L	PERDING
+L	NOTA: El proceso de despliegue por Cronos descrito en este apartado se aplicará para España a
+L	partir de Enero de 2021. Los jobs de Cronos de esta sección estarán deshabilitados hasta dicho
+L	momento.
+FILE	pdf00_p074_0.png	7
+L	La herramienta que se va a utilizar para la ejecución de los despliegues productivos de APX es
+L	Cronos, herramienta a la que se accede a través de la URL https://bbva-cronos.appspot.com/. Cronos
+L	es un servicio Ether que sirve para la orquestación, planificación y ejecución de tareas. Para soportar
+L	la operación de despliegue se utilizará el elemento "Job" existente en Cronos.
+L	- El job de Despliegue estará disponible en los siguientes namespaces y regiones en función de
+L	la geografía de despliegue:
+L	- España (ESP) → NS: es.qe56.apx-app-deployments Región: live-01
+FILE	pdf00_p074_1.png	12
+L	- Global (GLO) → NS: gl.qe56.apx-app-deployments Región: live-01
+L	- Colombia (COL) → NS: co.qe56.apx-app-deployments Región: live-02
+L	- México (MEX) → NS: mx.qe56.apx-app-deployments Región: live-02
+L	- Perú (PER) → NS: pe.qe56.apx-app-deployments Región: live-02
+L	Actualmente, los jobs de Despliegue estarán disponibles para los Release managers de las
+L	Aplicaciones con recursos APX, únicamente para las geografías de ESP y GLO. Para el resto de
+L	geografías, esta labor queda restringida y debe ser solicitada al rol centralizado para cada una
+L	de esas geografías.
+L	Ejemplo para el caso de España, accediendo a través de la siguiente URL
+L	https://bbva-cronos.appspot.com/#/live-01/ns/es.ge56.apx-app-deployments/jobs/.
+L	El Namespace y Región se puede seleccionar en Cronos en los desplegables que aparecen en
+L	la esquina superior derecha.
+FILE	pdf00_p075_0.png	8
+L	Actualmente, los jobs de Despliegue estarán disponibles para los Release managers de las
+L	Aplicaciones con recursos APX, únicamente para las geografías de ESP y GLO. Para el resto de
+L	geografías, esta labor queda restringida y debe ser solicitada al rol centralizado para cada una
+L	de esas geografías.
+L	Ejemplo para el caso de España, accediendo a través de la siguiente URL
+L	https://bbva-cronos.appspot.com/#/live-01/ns/es.ge56.apx-app-deployments/jobs/.
+L	El Namespace y Región se puede seleccionar en Cronos en los desplegables que aparecen en
+L	la esquina superior derecha.
+FILE	pdf00_p075_1.png	52
+L	o Cronos
+L	• bbva-cronos.appspot.com/#/live-01/ns/es.qe56.apx-app-deplovments/jobs
+L	• All day
+L	• BGDTS
+L	CGPIPE
+L	# Sp
+L	BeBoardo
+L	Cronos
+L	Plan
+L	ce Dashboard.
+L	* Jobs
+L	uJoumal
+L	Cronos Services
+L	Namesoacol
+L	es.gebb.арх-арp-deploym w
+L	Region:
+L	live-01
+L	n cronosi
+L	Jobs
+L	Total Jobs
+L	None
+L	RD of 0 (0%))
+L	Jab More Lffectve
+L	None
+L	(0 of 0 (0%)
+L	Job Most Unstable
+L	None
+L	Job More Lxecuted
+L	Hide filters T
+L	+ New Joc
+L	Search ov name
+L	JOB LIST
+L	deploy-es-apx-app-by-request-id
+L	tFilter bv execution
+L	Filter bv state
+L	NS
+L	es.qe56.apx-
+L	capp-
+L	deployments
+L	Version
+L	Timezonel
+L	UTC
+L	Last Execution
+L	Last Status
+L	Job State
+L	13:31:32
+L	24/09/2020
+L	11:31:32
+L	UTC
+L	Showing 1 to 1 of 1 entries
+L	Nese
+L	Showa
+FILE	pdf00_p076_0.png	3
+L	Ejecución de Despliegue para Peticiones "as soon as Possible"
+L	Utilizando el job deploy-es-apx-app-pro-by-request-id, especificando como parámetro uno o varios
+L	request IDs obtenidos de la solicitud de despliegue.
+FILE	pdf00_p076_1.png	10
+L	JOB #1
+L	Job Name
+L	deploy-es-apx-app-pro-by-request-id
+L	Current version
+L	Start Date
+L	UTC 21/09/2020 11:28:00
+L	G Edit Jot
+L	Execute
+L	End Date
+L	Schedule
+FILE	pdf00_p077_0.png	41
+L	En caso de quererse desplegar más de uno, los requests IDs se especificarán como una cadena
+L	con cada uno de ellos separados por comas y sin espacios entre ellos. Ejemplo:
+L	KH123456789,KH987654321.
+L	Se desplegarán todas las peticiones que tengan asociado los IDs indicados.
+L	No es necesario indicar la fecha, ya que los Request IDs son identificadores únicos de una
+L	solicitud de despliegue.
+L	• Cronos
+L	•00
+L	AA SEE
+L	Cronos
+L	bbva-cronos.appspot.com/#/live-01/ns/es.qe56.apx-app-deployments/jobs/executions/job/Sf688eeb62172a4ae08fb695/
+L	*••*.:
+L	• All day
+L	• BGDTS
+L	ECS
+L	• Deploy GPIPE D LCM MR # +OF +OS + Sp Boards »
+L	Namespace:
+L	es.qe56.apx-app-deploym =
+L	Region: live-01
+L	Plan
+L	Dashboard
+L	• Jobs
+L	El Joumal
+L	Cronos Services
+L	Namespace
+L	Execute job deploy-es-apx-app-pro-by-request-id
+L	Do you want to execute this job manually?
+L	request id
+L	<empty>
+L	• Execute
+L	Schedule
+L	• Execute
+L	Total Executions
+L	Total Success
+L	Total Failed
+L	Total Running
+L	19:16:28
+L	21/09/2020
+L	17:16:28
+L	UTC
+L	There isn't any execution for this job yet or them do not match the selected fiter.
+FILE	pdf00_p078_0.png	12
+L	El log de salida del despliegue se verá de la siguiente forma:
+L	Task Response - Check_exec_deploy_job success
+L	NS: gl.ether.devops Job Name: deploy-gl-apx-app-by-request-id
+L	deploy
+L	Exit Status: 0
+L	Starting deployment by request ID KH09102020114620995943
+L	- a2s3-deploy execution started.
+L	INFO - Logging deploy action with "b154f030-4608-4ced-bf59-6ae0edd2f138 trace 1d
+L	INFO - Notifing start deploy to Kharon
+L	Type: Service
+L	% Go
+L	light v
+FILE	pdf00_p079_0.png	10
+L	Procedimiento de Contingencia al frontal de Cronos para despliegues
+L	Ante una caída o indisponibilidad puntual del propio frontal de la herramienta, se detalla un proceso
+L	de contingencia para que los equipos que necesiten realizar algún despliegue puedan seguir
+L	haciéndolo de forma autónoma y sin necesidad de recurrir al soporte 24x7 vía SALA.
+L	• Documentación base de Cronos para uso por CLI
+L	• https://platform.bbva.com/en-us/disciplines-governance/disciplines/iaas/documentati
+L	on/cronos/plan-contingencia/front-indisponible
+L	• Documentación específica para ejecución de jobs Cronos de despliegue por CLI
+L	• https://docs.google.com/document/d/1OR-UHsqCmaFIMTM7UYdR-P7aDsxg s KrB
+L	YgWrk|Gj4/edit?usp=sharing
+FILE	pdf00_p080_0.png	26
+L	Rollback de un despliegue en Producción
+L	La funcionalidad de rollback nos permite dar marcha atrás la release version activa de un recurso en
+L	Producción. Para ejecutar el rollback de un despliegue, se debe seleccionar "Deployment rollback"
+L	desde la Consola y automáticamente se realizará el despliegue de la anterior versión activa.
+L	CREATE RELEASE VERSION...
+L	CREATE BUGFIX... Y
+L	VERSION
+L	desp_hotfix-SNAPSHOT
+L	hotfix/test_deploy¿‚hotfx
+L	0.4.1-RELEASE
+L	0.4.1-RELEASE
+L	0.4.0-RELEASE
+L	0.4.0-RELEASE
+L	BRANCH
+L	prueba-qwput850-SNAPSHOT
+L	feature/APX1-2731-revlsar-transaccion-de-prueba-qwput850
+L	DEV
+L	• DEPLOY... DATA OBTAINED OE SECS. AGO | C REFRESHIN 22 SECS.
+L	AUS
+L	PRO
+L	S Redeploy
+L	& Deployment Rollback
+L	@ See deployment audits
+L	Antes de hacer rollback, es importante tener en cuenta algunas consideraciones si se trata de un
+L	primer despliegue en Consola o si se trata de un recurso de tipo librería. Veremos el detalle en los
+L	siguientes apartados:
+FILE	pdf00_p081_0.png	5
+L	Rollback del primer despliegue en Consola Ether
+L	Para poder ejecutar el rollback de forma satisfactoria, debe existir un despliegue anterior de nuestro
+L	recurso que poder restaurar, de lo contrario el rollback fallará. En el caso de que exista un despliegue
+L	anterior realizado desde el Jenkins de LCM, el rollback automáticamente restaurará este despliegue
+L	de forma transparente para el usuario.
+FILE	pdf00_p082_0.png	17
+L	Rollback del despliegue de un recurso tipo librería
+L	Los recursos de tipo librería tienen una particularidad frente al resto de recursos en АPХ: pueden ser
+L	desplegados en modo Online, Batch o Multiruntime (Online+ Batch). A la hora de realizar el rollback
+L	de una librería, es fundamental que exista correspondencia en el modo de despliegue (Online. Batch o
+L	Multiruntime) con el despliegue anterior. Solo en caso de darse esta correspondencia funcionará
+L	correctamente el rollback automático. En caso contrario, al hacer rollback se producirá un error y se
+L	mostrará un mensaje informativo indicando que no es posible hacer un rollback automático y deberá
+L	ser el developer quien restaure el entorno manualmente realizando rollforward, bien
+L	redesplegando alguna versión anterior o bien generando una nueva versión y desplegando por
+L	entornos previos hasta Producción. Veamos algunos casos concretos:
+L	1. Rollback de librería desplegada en modo multiruntime
+L	Este caso aplica a librerías desplegadas en Online y Batch con la nueva solución de despliegue
+L	multiruntime (en Producción desde el 14/12/2022) . Al hacer un rollback de este tipo de
+L	despliegue, se restaurará automáticamente el despliegue anterior de forma simultánea en
+L	Online y Batch siempre que haya correspondencia en el modo de despliegue, es decir, el
+L	despliegue anterior también debe ser multiruntime (Online&Batch). Veámos un par de
+L	ejemplos:
+FILE	pdf00_p083_0.png	22
+L	Ejemplo 1: Tenemos la versión V2 de una librería desplegada hasta producción en modo
+L	multiruntime (Online&Batch) y una versión anterior V1 también desplegada en modo
+L	multiruntime:
+L	VERSIÓN
+L	V2
+L	DEV
+L	Online&Batch (ACTIVA)
+L	INT
+L	Online&Batch (ACTIVA)
+L	PRO
+L	Online&Batch (ACTIVA)
+L	V1
+L	Online&Batch (Superseded)
+L	Online&Batch (Superseded)
+L	Online&Batch (Superseded)
+L	Si hacemos rollback en Producción de la versión V2, se restaurará correctamente la versión
+L	V1 en Online y Batch ya que, en este caso, existe correspondencia de runtimes con el
+L	despliegue anterior:
+L	VERSIÓN
+L	DEV
+L	INT
+L	PRO
+FILE	pdf00_p083_1.png	8
+L	V2
+L	V1
+L	Online&Batch (ACTIVA)
+L	Online&Batch (Superseded)
+L	Online&Batch (ACTIVA)
+L	Online&Batch (Superseded)
+L	Online&Batch (Superseded)
+L	Online&Batch (ACTIVA)
+FILE	pdf00_p084_0.png	44
+L	Ejemplo 2: Tenemos la versión V2 de una librería desplegada hasta producción en modo
+L	multiruntime (Online&Batch) y una versión anterior V1 solo desplegada en modo online:
+L	VERSIÓN
+L	DEV
+L	INT
+L	PRO
+L	V2
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+L	V1
+L	Online (Superseded)
+L	Online (Superseded)
+L	Online (Superseded)
+L	Si hacemos rollback en Producción de la versión V2, fallará porque no existe correspondencia
+L	de runtimes, es decir, la versión V1 solo está desplegada en Online y no en modo multiruntime.
+L	VERSIÓN
+L	DEV
+L	INT
+L	PRO
+L	V2
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+L	V1
+L	Online (Superseded)
+L	Online (Superseded)
+L	Online (Superseded)
+L	En este caso, la forma de proceder para restaurar el entorno, es hacer rollforward. Una
+L	posibilidad sería redesplegar la versión V1 desde el primer entorno hasta PR, teniendo en
+L	cuenta que al tratarse ahora de un despliegue multiruntime, la versión V1 desplegaría tanto en
+L	Online como en Batch
+L	VERSIÓN
+L	V2
+L	DEV
+L	Online&Batch (Superseded)
+L	INT
+L	Online&Batch (Superseded)
+L	PRO
+L	Online&Batch (Superseded)
+L	V1
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+FILE	pdf00_p085_0.png	5
+L	2. Rollback de librería desplegada en modo monoruntime (Online o Batch)
+L	Este caso aplica a librerías desplegadas en un único runtime: Online o Batch. Al hacer un
+L	rollback de este tipo de despliegue, se restaurará automáticamente el despliegue anterior
+L	siempre que haya correspondencia en el modo de despliegue, es decir, el despliegue anterior
+L	también debe ser Online o Batch según corresponda. Veámos un par de ejemplos:
+FILE	pdf00_p086_0.png	29
+L	Ejemplo 1: Tenemos la versión V2 de una librería desplegada hasta producción en modo
+L	Online y una versión anterior de la librería V1 desplegada también en Online:
+L	VERSIÓN
+L	V2
+L	DEV
+L	Online (ACTIVA)
+L	INT
+L	Online (ACTIVA)
+L	Online (Superseded)
+L	PRO
+L	Online (ACTIVA)
+L	V1
+L	Online (Superseded)
+L	Online (Superseded)
+L	Si hacemos rollback en Producción de la versión V2, se restaurará correctamente la versión
+L	V1 ya que, en este caso, existe correspondencia de runtimes con el despliegue anterior
+L	(Online):
+L	VERSIÓN
+L	V2
+L	V1
+L	DEV
+L	Online (ACTIVA)
+L	Online (Superseded)
+L	INT
+L	Online (ACTIVA)
+L	Online (Superseded)
+L	PRO
+L	Online (Superseded)
+L	Online (ACTIVA)
+FILE	pdf00_p087_0.png	32
+L	Ejemplo 2: Tenemos la versión V2 de una librería desplegada hasta producción en modo
+L	Online y una versión anterior de la librería V2 desplegada en Batch:
+L	VERSIÓN
+L	V2
+L	V1
+L	DEV
+L	Online (ACTIVA)
+L	Batch (Superseded)
+L	INT
+L	Online (ACTIVA)
+L	Batch (Superseded)
+L	PRO
+L	Online (ACTIVA)
+L	Batch (Superseded)
+L	Si hacemos rollback en Producción de la versión V2, fallará porque no existe correspondencia
+L	de runtimes, es decir, la versión V1 está desplegada en modo Batch y no en modo Online.
+L	VERSIÓN
+L	V2
+L	V1
+L	DEV
+L	Online (ACTIVA)
+L	Batch (Superseded)
+L	INT
+L	Online (ACTIVA)
+L	Batch (Superseded)
+L	PRO
+L	Online (ACTIVA)
+L	Batch (Superseded)
+L	En este caso, la forma de proceder para restaurar el entorno, es hacer rollforward. Una
+L	posibilidad sería redesplegar la versión V1 desde el primer entorno hasta PR. Hay que tener
+L	en cuenta que al tratarse ahora de un despliegue de tipo Online, la versión V1 desplegará en
+L	Online y no en Batch:
+FILE	pdf00_p088_0.png	12
+L	VERSIÓN
+L	V2
+L	V1
+L	DEV
+L	Online (Superseded)
+L	Online (ACTIVA)
+L	INT
+L	Online (Superseded)
+L	Online (ACTIVA)
+L	PRO
+L	Online (Superseded)
+L	Online (ACTIVA)
+FILE	pdf00_p089_0.png	20
+L	3. Rollback de librería desplegada por primera vez en Consola
+L	Este caso aplica a librerías desplegadas por primera vez en Consola y cuyo despliegue anterior
+L	fue realizado con el modelo legacy LCM. Al hacer un rollback de este tipo de despliegue, se
+L	restaurará automáticamente el despliegue anterior siempre que haya correspondencia en el
+L	modo de despliegue, es decir, el despliegue anterior realizado con el modelo LCM también
+L	debe ser Online, Batch u Online&Batch según corresponda. Veámos un par de ejemplos:
+L	Ejemplo 1: Tenemos la versión V1 de una librería desplegada hasta producción en modo
+L	multiruntime (Online&Batch) y una versión VO desplegada con el modelo Legacy tanto en
+L	Online como en Batch:
+L	VERSIÓN
+L	DEV
+L	INT
+L	V1
+L	Online&Batch (ACTIVA)
+L	Online&Batch (ACTIVA)
+L	PRO
+L	Online&Batch (ACTIVA)
+L	Si hacemos rollback en Producción de la versión V1, se restaurará correctamente la versión
+L	VO en Online y Batch ya que, en este caso, existe correspondencia de runtimes con los
+L	despliegues anteriores.
+FILE	pdf00_p090_0.png	15
+L	Ejemplo 2: Tenemos la versión V1 de una librería desplegada hasta producción en modo
+L	multiruntime (Online&Batch) y una versión VO desplegada con el modelo Legacy solo en
+L	Online:
+L	VERSIÓN
+L	V1
+L	DEV
+L	Online&Batch (ACTIVA)
+L	INT
+L	Online&Batch (ACTIVA)
+L	PRO
+L	Online&Batch (ACTIVA)
+L	Si hacemos rollback en Producción de la versión V1, el rollback automático fallará ya que no se
+L	da correspondencia de runtimes con la versión VO y la única forma de restaurar el entorno es
+L	hacer rollforward. En este caso, como el despliegue de la VO se realizó con el sistema legacy,
+L	no tenemos forma en Consola de hacer un rollforward directo. Una forma de actuar sería
+FILE	pdf00_p091_0.png	34
+L	generar una nueva versión a partir del commit que fue desplegado en Producción con el
+L	sistema Legacy. Para ello, habría que seguir los siguientes pasos:
+L	• Nos situamos en el primer commit de la migración de nuestro componente:
+L	bot-apx-stacker
+L	bot-apx-stacker
+L	f8d9ce9b658
+L	***Migration commit*** - created develop branch Este NO
+L	5ffd03d3fa2 ***Migration commit***from Stash* Este commit
+L	• Entramos en el pom.xml de la raíz del repositorio e identificamos la versión que tiene nuestr
+L	componente en ese commit:
+L	Source
+L	89 master v
+L	kyfec001 / pom.xml
+L	Source view
+L	Diff to previous
+L	History • 3.2 KB Contributors •
+L	1 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.
+L	‹modelVersion>4.0.0</modelVersion>
+L	‹parent>
+L	<artifactId>elara-project</artifactId>
+L	<groupId>com.bbva.elara</groupId>
+L	‹version»7.1.7</version>
+L	</parent>
+L	<groupId>com.bbva.kyfe.dto.template</groupId>
+L	<artifactId>KYFEC001</artifactId>
+L	‹version>0.0.1</version»
+L	<packaging>bundle</packaging>
+L	<description»Contiene BBVATemplate</description»
+L	‹properties»
+L	• En este caso sería la versión O.0.1. Con el major y el minor de la versión, en este caso 'O.O,
+L	creamos una rama llamada 'release/[major].[minor ]. En este caso se crearía la rama
+L	release/O.O.
+L	• Esperamos a que pase el pipeline de la nueva rama release y cuando termine nos creará la
+L	Release Version en consola y ya estará listo para desplegar.
+FILE	pdf00_p092_0.png	9
+L	Rollback del primer despliegue de un recurso Shell Script migrado a GitHub
+L	Para los recursos de tipo Shell Script cuyos repositorios hayan sido migrados a Github es importante
+L	tener en cuenta que una vez hecha la migración, no será posible desplegar versiones anteriores
+L	generadas con el pipeline legacy de Jenkins. Al intentar hacer un despliegue de este tipo se pintará un
+L	error en Consola con esta información y la manera de proceder. La solución pasa por generar una
+L	nueva versión en Github a partir del commit que se necesite desplegar.
+L	De la misma forma, si se intenta hacer un rollback automático en Producción de una versión legacy,
+L	se obtendrá el mismo error y habrá que proceder de la misma manera, generando una nueva versión
+L	en Github y desplegando por todos los entornos hasta Producción.
+FILE	pdf00_p093_0.png	21
+L	Políticas de Gobierno en versiones de un componente
+L	Como parte del ciclo de vida estándar de los recursos técnicos que forma parte de una Ether
+L	Application (como es el caso de los recursos de tipo APX), se encuentra la fase de declarar y
+L	configurar versiones de los mismos, para poder desplegarlas por los distintos entornos.
+L	TECHNICAL RESOURCE LIFECYCLE
+L	CREATE
+L	CODE
+L	VERSION
+L	DEPLOY
+L	OPERATE
+L	MyApplication [UA]
+L	MyAPХResource [АPХ]
+L	REPO
+L	GOVERNED VERSIONS
+L	VERSION 1
+L	VERSION 2
+L	VERSION 4
+L	UA GEOGRAPHY
+L	UA/GEOGRAPHY ENVIRONMENTS
+L	UAT
+L	PRO
+FILE	pdf00_p094_0.png	12
+L	1] Creación del recurso. En este punto se asocia el nuevo recurso a la UA en la Consola, y se crea y configura el nuevo repositorio
+L	donde se implementará el código del componente.
+L	2] En la segunda etapa, el equipo de desarrollo implementa (por fuera de la Consola), el código que requiera el componente. Realizando
+L	los commits, merges, PRs, etc. siguiendo las directrices y el Branching Model a aplicar.
+L	3] Antes de poder desplegar el recurso en cualquier de los entornos de la aplicación, se debe crear desde la Consola una versión del
+L	componente. Parte de la configuración de esta versión que deberá indicar el usuario, será: darle un nombre a la versión, indicar el
+L	origen del código fuente: Tag, commit, rama (siendo en este último caso una versión de tipo snapshot que en cada despliegue de la
+L	versión desplegará el commit al que esté apuntando la rama en ese momento).
+L	Como parte de la información o metadatos que se almacenarán en la Consola como parte de la versión, serán los tickets JIRA que las.
+L	políticas de Gobierno han mandado como requeridos de cara a tener trazabilidad sobre el componente implementado y sus
+L	despliegues.
+L	4] En el momento del despliegue, de una versión del componente, y en concreto en alguno de los entornos/namespaces de una
+FILE	pdf00_p095_0.png	23
+L	Seguridad
+L	Como parte del ciclo de desarrollo de software (SDLC, Software Development Life Cycle), la
+L	seguridad, al igual que la calidad, es uno de los fundamentos a tener presente desde los primeros
+L	estadios del desarrollo (SSDLC, Secure Software Development Life Cycle).
+L	Para poder conocer el nivel de seguridad de los desarrollos en los que cualquier usuario trabaja, se
+L	cuenta con una herramienta en la casa llamada Chimera.
+L	Chimera ofrece feedback de seguridad en cualquier estado del ciclo de vida del desarrollo, incluso en
+L	estados tempranos o iniciales del mismo. Es el concepto o lo que se conoce como "shift left" security y
+L	que persigue "mover" la seguridad al estado del desarrollo lo más temprano posible para reducir los
+L	posibles riesgos de seguridad y mitigar y resolver los existentes lo antes posible.
+L	Chimera ofrece a día de hoy 3 funcionalidades en cuanto a feedback de seguridad:
+L	• Code Review o SAST (Static Application Security Testing). Revisión del estado de seguridad de
+L	código o búsqueda de vulnerabilidades conocidas en código.
+L	• Image Review. Revisión del estado de seguridad de imágenes docker o búsqueda de
+L	vulnerabilidades conocidas en imágenes. NOTA: esta funcionalidad no está aún
+L	industrializada.
+L	• Secrets Review. Búsqueda de secretos en repositorios. NOTA: esta funcionalidad no está aún
+L	industrializada.
+L	Para conocer estas funcionalidades en mayor profundidad, por favor, acudir al documento propio de
+L	Chimera. NOTA: este documento está aún en fase de construcción.
+L	Al igual que con Sonar un proyecto puede ver el resultado o informe del análisis ejecutado, un
+L	proyecto puede ver el resultado o informe del análisis de seguridad del mismo llevado a cabo por
+L	Chimera.
+FILE	pdf00_p096_0.png	15
+L	El resultado del análisis o informe, también conocido como review, está disponible desde la propia
+L	herramienta (Chimera) así como desde el correspondiente comportamiento de SAMUEL que
+L	chequea el resultado de la valoración del análisis de seguridad.
+L	El comportamiento se llama chimera-code-review y con él se chequea si el repositorio cumple o no con
+L	los criterios de seguridad establecidos en Chimera y evaluados por Chimera. Esos criterios de
+L	seguridad son lo que se conoce en Chimera como política y la definición de la misma puede variar en
+L	base a 6 parámetros de catalogación de los repositorios:
+L	Product. Producto de la aplicación al que corresponde el repositorio. P.ej: 'tarjetasempresa' de
+L	la aplicación NetCash España
+L	Area. Área, departamento o estructura organizativa a la que pertenece el repositorio. P.ej:
+L	Enterprise Client Systems
+L	Country. Geografía de implementación (que no despliegue). P.ej: españa
+L	Architecture. Arquitectura o tecnología del repositorio. P.ej: spring
+L	Language. Lenguaje de programación del repositorio. P.ej: java
+L	- UUAA. Unidad aplicativa a la que pertenece el repositorio. P.ej: ebcf
+FILE	pdf00_p097_0.png	15
+L	En el caso de que el proyecto cumpla con la política, el estado del comportamiento será "passed"
+L	(verde), mientras que si el proyecto no cumple, el estado será "not passed" (rojo) cuando el
+L	enforcement esté activo. Si el enforcement no está activo, el estado será "not passed but not
+L	blockingi
+L	Dado que el análisis de seguridad es asíncrono a la ejecución de los pipelines, aunque el análisis se
+L	haya solicitado ya a Chimera, el estado del comportamiento será "not-evaluated yet" (PENDING)
+L	(naranja) mientras que el análisis no se complete por parte de Chimera. SAM[uel] y Chimera tienen
+L	una integración en la que Chimera notifica del identificador único del análisis (scan id) de forma que
+L	SAM[uel] pueda acudir a chequear el resultado de dicho análisis (scan) cuando éste sea notificado por
+L	Chimera. Una vez el scan/análisis se haya completado, el resultado del mismo (la review) estará
+L	disponible como para ser chequeado por el comportamiento de SAM[uel] y el estado del
+L	comportamiento se actualizará en consonancia.
+L	Todo esto se explica a través de un diagrama ilustrativo y descripción textual en el apartado "Chimera
+L	pipeline integration via SamuelỊạidel propio documento de Chimera. NOTA: este documento está aún
+L	en fase de construcción.
+FILE	pdf01_p001_0.png	17
+L	Trabajo
+L	Un trabajo es una entidad que encapsula un proceso por lotes completo y es solo la parte superior de una jerarquía general.
+L	The EndOfDay Job
+L	Job
+L	Jobinstance
+L	The EndOfDay Job
+L	for 2007/05/05
+L	JobExecution
+L	The first attempt at
+L	- EndOfDay Job
+L	for 2007/05/05
+L	En Spring Batch, un trabajo es simplemente un contenedor de pasos. Combina varios pasos que pertenecen lógicamente juntos en un
+L	flujo y permite la configuración de propiedades globales para todos los pasos, como la reiniciabilidad. La configuración del trabajo
+L	contiene:
+L	• El nombre simple del trabajo.
+L	• Definición y ordenación de Pasos.
+L	• Si el trabajo se puede reiniciar o no.
+FILE	pdf01_p002_0.png	6
+L	Instancia de trabajo
+L	Una Joblnstance se refiere al concepto de ejecución de un trabajo lógico. Por lo tanto, cada Joblnstance puede tener múltiples
+L	ejecuciones y solo se puede ejecutar un Joblnstance correspondiente a un Job particular e identificando JobParameters en un momento
+L	dado.
+L	La definición de Joblnstance no tiene absolutamente ninguna relación con los datos que se cargarán. Depende completamente de la
+L	implementación de ItemReader utilizada para determinar cómo se cargarán los datos.
+FILE	pdf01_p003_0.png	14
+L	Parámetros del trabajo
+L	JobParameters es un conjunto de parámetros que se utilizan para iniciar un trabajo por lotes. Se pueden utilizar para identificación o
+L	incluso como datos de referencia durante la ejecución.
+L	The EndOfDay Job
+L	Job
+L	• schedule.date = 2007/05/05
+L	JobParameters
+L	Jobinstance
+L	The EndOfDay Job
+L	for 2007/05/05
+L	JobExecution
+L	The first attempt at
+L	EndOfDay Job
+L	for 2007/05/05
+FILE	pdf01_p004_0.png	8
+L	Ejecución del trabajo
+L	Una JobExecution se refiere al concepto técnico de un único intento de ejecutar un Job. Una ejecución puede finalizar con éxito o
+L	fracaso, pero la Joblnstance correspondiente a una ejecución determinada no se considerará completa a menos que la ejecución se
+L	complete con éxito.
+L	Un trabajo define qué es un trabajo y cómo se ejecutará, y Joblnstance es un objeto puramente organizativo para agrupar ejecuciones,
+L	principalmente para permitir una semántica de reinicio correcta. Sin embargo, una JobExecution es el mecanismo de almacenamiento
+L	principal de lo que realmente sucedió durante una ejecución y, como tal, contiene muchas más propiedades que deben controlarse y
+L	persistir:
+FILE	pdf01_p005_0.png	32
+L	Propiedad
+L	estado
+L	hora de inicio
+L	hora de finalización
+L	estado de salida
+L	creartiempo
+L	última actualización
+L	contexto de ejecución
+L	fracasoExcepciones
+L	Descripción
+L	Un objeto BatchStatus que indica el estado de la ejecución. Mientras se
+L	ejecuta, es BatchStatus.STARTED, si falla, es BatchStatus.FAILED, y si
+L	finaliza exitosamente, es BatchStatus.COMPLETED
+L	Un java.util.Date que representa la hora actual del sistema cuando se
+L	inició la ejecución.
+L	Un java.util.Date que representa la hora actual del sistema cuando
+L	finalizó la ejecución, independientemente de si fue exitosa o no.
+L	El ExitStatus que indica el resultado de la ejecución. Es muy importante
+L	porque contiene un código de salida que se devolverá a la persona que
+L	llama.
+L	Un java.util.Date que representa la hora actual del sistema cuando
+L	JobExecution persistio por primera vez. Es posible que el trabajo aún no
+L	se haya iniciado (y por lo tanto no tenga hora de inicio), pero siempre
+L	tendrá un createTime, que es requerido por el marco para administrar
+L	ExecutionContexts a nivel de trabajo.
+L	Un java.util.Date que representa la última vez que persistió una
+L	JobExecution.
+L	La 'bolsa de propiedades' que contiene los datos del usuario que deben
+L	conservarse entre ejecuciones.
+L	La lista de excepciones encontradas durante la ejecución de un trabajo.
+L	Estos pueden resultar útiles si se encuentra más de una excepción
+L	durante el error de un trabajo.
+FILE	pdf01_p006_0.png	11
+L	Step
+L	A Step is a domain object that encapsulates an independent, sequential phase of a batch job. Therefore, every Job is composed entirely of one or more steps. A Step contains all of the
+L	information necessary to define and control the actual batch processing. This is a necessarily vague description because the contents of any given Step are at the discretion of the
+L	developer writing a Job. A Step can be as simple or complex as the developer desires. A simple Step might load data from a file into the database, requiring little or no code.
+L	(depending upon the implementations used) A more complex Step may have complicated business rules that are applied as part of the processing. As with Job, a Step has an
+L	individual StepExecution that corresponds with a unique JobExecution.
+L	Job
+L	Step
+L	Jobinstance
+L	JobExecution
+L	StepExecution
+FILE	pdf01_p007_0.png	30
+L	Step Execution
+L	The following is a listing of the properties for StepExecution:
+L	Description
+L	Property
+L	status
+L	startTime
+L	endTime
+L	exitStatus
+L	and if it finishes successfully, the status is BatchStatus.COMPLETED
+L	A java.util.Date representing the current system time when the execution was started.
+L	A java.util.Date representing the current system time when the execution finished, regardless of whether or not it was successful.
+L	executionContext
+L	readCount
+L	writeCount
+L	commitCount
+L	rollbackCount
+L	readSkipCount
+L	processSkipCount
+L	filterCount
+L	writeSkipCount
+L	more details.
+L	The 'property bag' containing any user data that needs to be persisted between executions.
+L	The number of items that have been successfully read
+L	The number of items that have been successfully written
+L	The number transactions that have been committed for this execution
+L	The number of times the business transaction controlled by the Step has been rolled back.
+L	The number of times read has failed, resulting in a skipped item.
+L	The number of times process has failed, resulting in a skipped item.
+L	The number of items that have been 'filtered'by the ItemProcessor.
+L	The number of times write has failed, resulting in a skipped item.
+FILE	pdf01_p008_0.png	7
+L	Steps type
+L	• Reader: Read input data of step.
+L	o Processor: Process the data obtained by the Reader
+L	o Writer: Write the processed data by the Processor.
+L	• Reader : ItemReader.
+L	• Processor: ItemProcessor.
+L	• Writer: ItemWriter.
+FILE	pdf02_p001_0.png	26
+L	Introduction
+L	Batch Execution Banking Architecture in APX is based on Spring Batch, providing the following characteristics:
+L	• Integration with schedulers: Control-M.
+L	• Option for partial commits.
+L	• Batch process restart in case of error.
+L	• Multi-DB support using configurable Datasources.
+L	• Customizable Readers and Writers.
+L	• Access to system utilities and resources.
+L	• Reading/Writing of multiple file formats (TXT, CSV, etc.).
+L	• Execution Segment Control.
+L	• Readers access the Databases in "read only" mode.
+L	• Does not allow execution of certain system delete commands.
+L	• Restricted invocation of:
+L	• Invocation WebServices, Rest services.
+L	• Access to external resources via HTTP.
+L	• Utilities inherent to the APX Architecture.
+L	• Compression/Decompression.
+L	• Data application (Transformations, Transmission and Division).
+L	• Process application and its parts (Logical processing and Business processing).
+L	• Orchestration over this process and other differents process (Jobs planification).
+L	• Usually Processing large volumes of information.
+L	• No user interaction (direct).
+L	• Normal processing in a batch window during off-line.
+L	• Complex non-functional requirements:
+L	• Traceability of information and execution.
+L	• High speed performance / processing.
+FILE	pdf02_p002_0.png	5
+L	Applications
+L	Architecture АРХ Batch
+L	Spring Batch
+L	Spring Batch is a lightweight, comprehensive batch framework designed to enable the development of robust batch applications vital for the daily operations. Spring Batch builds
+L	upon the characteristics of the Spring Framework that people have come to expect. Spring Batch is not a scheduling framework.
+FILE	pdf02_p003_0.png	12
+L	Processing strategies
+L	1. Normal processing in a batch window during off-line.
+L	2. Concurrent batch / on-line processing (multithreading).
+L	3. Parallel processing of many different batch runs or jobs at the same time.
+L	4. Data Partitioning (i.e. processing of many instances of the same job at the same time).
+L	5. A combination of these.
+L	Types of Batch
+L	For the Data input source the batch can be categorized by:
+L	1. Database-driven applications: Led retrieved values of a BD.
+L	2. File-driven applications: From Remote file transfer values.
+L	3. Message-driven applications: Event model.
+L	4. Workflow-driven applications: Launch from Process model.
+FILE	pdf03_p001_0.png	15
+L	АРХ Batch Components
+L	• Job: It is an entity that encapsulates an entire batch process and it is just the top of an overall hierarchy.
+L	• Library: Encapsulates the business logic. It publishes its interface so that it can be used by third parties.
+L	• DTO: Representation of a Business Entity in the form of a Bean.
+L	The Architecture provides utilities that facilitate access to data sources.
+L	RECOMMENDATION: Whenever possible, use the Readers and Writers provided by Spring Batch.
+L	Utilities
+L	List of utilities that can be used in APX Batch:
+L	• Jdbc
+L	• Document Creator
+L	• Rules
+L	• Shell
+L	• API Connector
+L	• Merge/sort
+L	• MongoDB
+FILE	pdf04_p001_0.png	12
+L	Creación de empleos
+L	Iniciar trabajo
+L	Se puede crear un trabajo con APX-CLI ejecutando el siguiente comando:
+L	$ apx init job -u=<Application> -c=<Job code> -d=<Description> --job-version=<Version> --jo
+L	Todos los campos son obligatorios y tienen sus respectivas restricciones.
+L	• Código de solicitud (UUAA) : debe tener 4 caracteres.
+L	• Código de trabajo : debe tener 3 caracteres (Ji + tres números).
+L	• Descripción : debe especificarse y debe tener un significado funcional.
+L	• Versión : debe contener dos caracteres numéricos.
+L	• Pais : debe tener 2 caracteres.
+L	Ejemplo:
+L	$ apx init job -u=TEST -c=001 -d="New Job" --job-version=01 --job-country=ES
+FILE	pdf05_p001_0.png	26
+L	Init DTO
+L	A DTO is a Java representation of a Business Entity.
+L	A DTO entity can be created running the following command with the APX CLI:
+L	apx init dto -u=TEST -c=001 -d="New DTO" --domain=domain
+L	The output should look something like this:
+L	A new project is about to be created with this settings:
+L	APX Architecture
+L	- Group: com.bbva.elara
+L	- Artifact: elara-project
+L	- Version: 7.12.9
+L	Artifact (dto)
+L	- Application (UUAA) : TEST
+L	- DTO code "C[code]": 001
+L	- Project name: TESTC001
+L	- Dto domain "com.bbva.test.dto.[domain]": domain
+L	- Description: New DTO
+L	- Version: 0.0.0
+L	- OutPut Directory: /home/user/code/test/TESTC001
+L	Add Class to Artifact
+L	If you are creating a class at the domain level, leave the subpackage blank,
+L	otherwise enter the values separated by ".", for example:
+L	- Domain = "com.bbva.test.dto.domain"
+L	- Subpackage = "sub1.sub2"
+L	- Package = "com.bbva.test.dto.domain.sub1.sub2"
+L	- Subpackage "com.bbva.test.dto.domain.[subpackage(s)]":
+L	- dlass name. Fuamnlanmo
+FILE	pdf06_p001_0.png	21
+L	Libraries creation
+L	Init Library
+L	A Library can be created running the following command with the APX CLI:
+L	apx init lib -y -u=TEST -c=001 -d="New Library"
+L	All fields are mandatory and have their respective restrictions:
+L	• Application code (UUAA): It must be 4 characters.
+L	• Library code: It must be 3 characters ('R' + three alphanumerals).
+L	• Description.
+L	The output should look something like this:
+L	APX Architecture
+L	- Group: com.bbva.elara
+L	- Artifact: elara-project
+L	- Version: 7.12.9
+L	Artifact (lib)
+L	- Application (UUAA): TEST
+L	- Library code "R[code]": 001
+L	- Project interface: TESTR001
+L	- Project implementation: TESTR001IMPL
+L	- Description: New Library
+L	- Version: 0.0.0
+L	- OutPut Directory: /home/user/code/test
+FILE	pdf07_p001_0.png	9
+L	Transaction creation
+L	Init Transaction
+L	A Transaction can be created running the following command with the APX CLI:
+L	All parameters are mandatory and have their respective restrictions.
+L	• Application (UUAA) code: must be 4 characters.
+L	• Transaction code: must have 3 characters ('T + three alphanumerals).
+L	• Description: must be specified and must have a functional meaning.
+L	• Version: must contain two numerical characters.
+L	• Country: must have 2 characters. In case of Transactions multi-country, the value is ZZ.
+FILE	pdf08_p001_0.png	10
+L	¿Qué es APX?
+L	La Arquitectura APX o Arquitectura Backend Java Extendida fue creada con el objetivo de ser una
+L	extensión de la Arquitectura Backend proporcionando las mismas capacidades en el mundo distribuido
+L	• Basado en tecnologías de código abierto .
+L	• Ofrece una alternativa confiable para el desarrollo de transacciones no acopladas al canal.
+L	• Actúa como una extensión de la plataforma Mainframe .
+L	• Admite la lógica de las aplicaciones que se adaptan a esta plataforma .
+L	• Ayuda a reducir el uso del Mainframe.
+L	• Las operaciones críticas para la misión del banco se ejecutan bajo APX.
+L	АРХ
+FILE	pdf09_p001_0.png	5
+L	¿Qué acción realiza el archivo de dependencia pom.xml?
+L	Revisa que versiones de dependencias se tienen con otros proyectos.
+L	Elimina las dependencias con otros proyectos.
+L	v Recupera todas las dependencias con otros proyectos.
+L	Modifica las dependencias que se tienen con otros proyectos.
+FILE	pdf09_p001_1.png	5
+L	¿Qué causas no corresponde al antipatron Contenedor Mágico?
+L	• Reparto de responsabilidades incorrecto.
+L	• Falta de cumplimiento de la arquitectura.
+L	• Intervención demasiado limitada.
+L	Desacoplamiento entre librerias.
+FILE	pdf09_p002_0.png	4
+L	ote e ea ared ceeee ced ceole e dequoes en daende den de coates
+L	En el caso de procesos Batch no deben existir cesiones de ficheros entre UUAAs.
+L	Una UUAA puede acceder a datos de terceros a través de librerías APX que el dueño del dato
+L	proporcione.
+FILE	pdf09_p002_1.png	9
+L	Las partes de un campo variable definidos por la cadena NMM son:
+L	N es el orden de la variable literal (1 o 4), MM la longitud máxima del campo informado en la
+L	variable (15 es el máximo).
+L	N es el orden de la variable literal (1 y 4), MM la longitud máxima del campo informado en la
+L	variable (15 es el máximo).
+L	N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la
+L	variable (15 es el máximo).
+L	N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la
+L	variable (20 es el máximo).
+FILE	pdf09_p003_0.png	7
+L	El objeto _
+L	_ no debe manejarse directamente. No debe crear instancias, abrir o cerrar explicitamente
+L	conexiones a la base de datos.
+L	O Datasource.
+L	O UPA.
+L	• JDвС
+L	ODaibee
+FILE	pdf09_p003_1.png	5
+L	En un Batch cual es el step donde el desarrollador introducirá la lógica empresarial necesaria:
+L	O itemWriter.
+L	Task.
+L	O chunk
+L	• JobLauncher.
+FILE	pdf09_p004_0.png	5
+L	El identificador único para la ejecución de transacciones/Job se genera automáticamente como ultimo paso cuando
+L	se invoca las transacciones en linea/Batch. El resultado de la transacción se puede propagar para la correlación en
+L	las otras capas.
+L	• Falso:
+L	Verdadero.
+FILE	pdf09_p004_1.png	8
+L	Unl
+L	proporciona una solución a un problema de diseño. Debe cumplir con diferentes características,
+L	omo la efectividad al resolver problemas similares en ocasiones anteriores. Por lo tanto, debe ser reutilizable, es
+L	decir, aplicable a diferentes problemas en diferentes circunstancias.
+L	Reutilización de código.
+L	Patrón de diseno.
+L	Metodología.
+L	Antipatron.
+FILE	pdf09_p005_0.png	16
+L	Given:
+L	import java.utiliẠi
+L	public class App (
+L	public static void main(String[] args) (
+L	List p = new ArrayList():
+L	p.add(7);
+L	p.add(1);
+L	p.add(5);
+L	p.add(1);
+L	p.remove(1);
+L	System.out.printin(p):
+L	What is the result?
+L	O1.5I
+L	O17.1
+L	O 17.1.5. 11
+L	(7. 5, 1]
+FILE	pdf09_p005_1.png	4
+L	Para enviar un aviso desde una biblioteca o desde la transacción, cualquiera que sea el tipo, el método utilizado es
+L	• addAdvice
+L	OaddEnor.
+L	OaddWaming
+FILE	pdf09_p006_0.png	7
+L	Cualquier documento utilizado (.dll, .txt, etc.) se almacenará en el sistema de archivos compartido del nodo Batch
+L	(generalmente
+L	.) y luego se eliminará periódicamente:
+L	/temporalFiles/datent.
+L	/fichtemporal/datent.
+L	/fichtemcomp/datent.
+L	/datentJobs/datent.
+FILE	pdf09_p006_1.png	15
+L	Givens
+L	1. public class Blip (
+L	protected int blipvert(int x) ( retur 0; )
+L	class Vert extends Blip (
+L	// insert code here
+L	5.
+L	6. }
+L	Which five methods, inserted independently at line 5, will compile? (Choose five.)
+L	Protected int blipvert(long x) { return 0; ).
+L	Protected long blipvert(long x) { return 0; ).
+L	Private int blipvert(int x) { retum 0; ).
+L	Public int blipvert(int x) {retum 0:.).
+L	Protected long blipvert(int x, int y) ( return 0;).
+L	Protected long blipvert(int x) { return 0; }.
+L	Private int blipvert(long x) { retur 0; ).
+FILE	pdf09_p007_0.png	3
+L	Los componentes de seguridad lógica que dan servicio a la arquitectura no están acoplados a la Arquitectura APX.
+L	Verdadero.
+L	Falso
+FILE	pdf09_p007_1.png	5
+L	La información utilizada en la lógica de negocio de la transacción debe incluirse en.
+L	O Los archivos locales.
+L	• Los parámetros de entrada.
+L	O Las variables locales.
+L	• Las variables globales.
+FILE	pdf09_p008_0.png	8
+L	¿Cuáles son las acciones posteriores a la ejecución de la lógica de negocio en la capa de Arquitectura de control?
+L	Validation of Exit Code, Commit Control, Electronic Journal, Business Event Notification,
+L	Monitorization.
+L	Validation of Exit Code, Commit Control, ROP Writing, Business Event Notification,
+L	Monitorization.
+L	Validation of Exit Code, Commit Control, ROP Writing, Operations Registry, Monitorization.
+L	) Validation of Exit Code, Commit Control, ROP Writing, Business Event Notification, Unique
+L	identifier.
+FILE	pdf09_p008_1.png	15
+L	• Validation of Exit Code: Architecture retrieves the exit code of the executio
+L	and if and error has occurred gets the literal associated.
+L	• Commit Control: Architecture controls the commit or Rollback with DB
+L	depending of the transaction exit code.
+L	• ROP Writing. For each transaction executed, APX register it in an internal
+L	LOG used with Audit, Fraud or Informational purpose indicating that
+L	transaction has finished. It is named ROP (Registy Of Operations). This write
+L	is invoked asynchronously.
+L	• Business Event Notification: An event with business data is sent when the
+L	transaction ends if it is marked for do it. Also this point is executed
+L	asynchronously.
+L	• Monitorization: During the transaction execution APX is gathered all
+L	monitoring information in each steps of the logic implemented by
+L	application. In this point the Architecture send it to our Monitoring
+L	acvnchronolisu
+FILE	pdf09_p009_0.png	12
+L	1. class Super
+L	protected superunt a thstaacp
+L	class Sub extends Super (
+L	12
+L	public Sub(int a) (super(a):)
+L	H KNESO/BH
+L	Which two, independently, will allow sub to compile/ (Cnoose two.)
+L	Change line 2 to: public int a:
+L	Change line 13 to; public Sub) ( super(5); )[
+L	Change line 2 to: protected int a;
+L	Change line 13 to: public Sub() ( this(5); )
+L	Change line 13 to: public Sub() (super(a):)
+FILE	pdf09_p010_0.png	6
+L	Selecciona las únicas excepciones que pueden ser capturadas y administradas por las aplicaciones, típicas de
+L	АРХ:
+L	com.bbva.apx.exception.business.NullPointerException.
+L	com.bbva.apx.exception.business.IOException.
+L	com.bbva.apx.exception.io.network.TimeoutException.
+L	com.bbva.apx.exception.business.BusinessException.
+FILE	pdf09_p010_1.png	12
+L	Given
+L	public static void main(String[] args) {
+L	int [l] array2D = {{0, 1,2), {3,4, 5, 6l .
+L	System.out.print(array2D[0].length + *** );
+L	System.out.print(array2D[1].getClass().isArray() +***);
+L	System.out.printIn(array2D[0][1]);
+L	What is the result?
+L	O ЗКaвeЗ
+L	Ostaset
+L	Oztasot
+L	• 3true1
+L	O2103
+FILE	pdf09_p011_0.png	7
+L	Which two statements are true?
+L	An interface CANNOT be extended by another interface.
+L	An abstract class can be extended by a concrete class.
+L	An abstract class CANNOT be extended by an abstract class.
+L	An interface can be extended by an abstract class.
+L	An abstract class can implement an interface.
+L	An abstract class can be extended by an interface.
+FILE	pdf09_p011_1.png	13
+L	Given:
+L	class Alpha ( String getType() { return "alpha"; } )
+L	class Beta extends Alpha { String getType() { return "beta"; })
+L	public class Gamma extends Beta ( String getType() { return "gamma"; )
+L	public static void main(String[] args) {
+L	Gamma g1 = new Alpha():
+L	Gamma g2 = new Beta();
+L	System.out.println(g1.getType() + "" + g2.getType());
+L	What is the result?
+L	• Gamma gamma.
+L	O Beta bela.
+L	O Alpha beta.
+L	• Compilation fails.
+FILE	pdf09_p012_0.png	9
+L	Which three are bad practices?
+L	Checking for an IOException and ensuring that the program can recover if one occurs.
+L	Checking for ArraylndexOutOfBoundsException and ensuring that the program can recover if one
+L	occurs.
+L	Checking for FileNotFoundException to inform a user that a filename entered is not valid.
+L	Checking for Error and, if necessary, restarting the program to ensure that users are unaware
+L	problems.
+L	Checking for ArraylndexOutOfBoundsException when iterating through an array to determine when all
+L	elements .- have been visited.
+FILE	pdf10_p002_0.png	12
+L	public class Bees (
+L	public static void main(String[] args) {
+L	try {
+L	new Bees().go():
+L	) catch (Exception e) {
+L	System.out.printin(®thrown to maint);
+L	synchronized void go() throws InterruptedException (
+L	Thread t1 = new Thread():
+L	t1.start();
+L	System.out.print(1i);
+L	t1.wait(5000);
+L	System.out.print(t2);
+FILE	pdf10_p003_0.png	7
+L	public class Main {
+L	public static void main(String[] args) throws Exception {
+L	doSomething():
+L	private static void doSomething() throws Exception (
+L	System.out.printin(Before if clause");
+L	if (Math.random() > 0.5) ( throw new Exception():}
+L	System.out.println("After if clauset);
+FILE	pdf10_p004_0.png	5
+L	public class Test {
+L	public static void main(String[] args) {
+L	int[][] array = { {0}, {0,1), {0,2,4), {0,3,6,9), {0,4,8,12,16) };
+L	System.out.println(array[4][1]);
+L	System.out.printIn(array[1][4]):
+FILE	pdf10_p004_1.png	3
+L	public static void main(String[] args) {
+L	System.out.printin(Result:* + 3 + 5);
+L	System.out.printin(*Result:* + (3 + 5));
+FILE	pdf10_p005_0.png	8
+L	class MySort implements Comparator<Integer> {
+L	public int compare(Integer x, Integer y) (
+L	retur y.compareTo(x);
+L	And the code fragment:
+L	Integer]] primes = {2, 7,5, 3};
+L	MySort ms = new MySort():
+L	Arrays.sort(primes, ms);
+L	for (Integer p2 : primes) ( System.out.print(p2 + "); )
+FILE	pdf10_p006_0.png	13
+L	public static void main(String[] args) {
+L	// insert code here
+L	int j = 0, k = 0;
+L	for (int i = 0; i < x; i ++) {
+L	do {
+L	k = 0;
+L	while (k < z) {
+L	k++;
+L	System.out.print(k +iạồi);
+L	System.out.printin(ạại);
+L	j++;
+L	} while (j < y);
+L	System.out.printIn("-);
+FILE	pdf10_p007_0.png	6
+L	public class Test {
+L	public static void main(String[] args) (
+L	int b = 4;
+L	b--;
+L	System.out.print(--b);
+L	System.out.printin(b):
+FILE	pdf10_p007_1.png	6
+L	int a = 10;
+L	int b = 37;
+L	int z = 0;
+L	int w = 0;
+L	if (a == b) {z = 3; } else if (a > b) {z = 6; )
+L	W = 10 * z;
+FILE	pdf10_p008_0.png	5
+L	public static void main(String[] args) {
+L	int[] array = (1, 2, 3, 4, 5);
+L	System.arraycopy(array, 2, array, 1, 2);
+L	System.out.print(array[1]);
+L	System.out.print(array[4]);
+FILE	pdf10_p009_0.png	12
+L	class Feline {
+L	public String type = "f";
+L	public Feline() (
+L	System.out.print("feline);
+L	public class Cougar extends Feline (
+L	public Cougar() (
+L	System.out.print("cougar ");
+L	void go() {
+L	type = "c ":
+L	System.out.print(this.type + super.type);
+L	public static void main(String[] args) (
+L	new Cougar().go():
+FILE	pdf10_p010_0.png	10
+L	class ClassA (
+L	public int numberOfinstances;
+L	protected ClassA(int numberOflnstances) {
+L	this.numberOflnstances = numberOfInstances;
+L	public class ExtendedA extends ClassA (
+L	private ExtendedA(int numberOfInstances) (
+L	super(numberOfInstances);
+L	public static void main(String[] args) {
+L	ExtendedA ext = new ExtendedA(420);
+L	System.out.print(ext.numberOfinstances);
+FILE	pdf10_p011_0.png	7
+L	class X {
+L	static void m(int i)
+L	i += 7;
+L	public static void main(String)] args) (
+L	int i = 12;
+L	m(ї):
+L	System.out.printin(i):
+FILE	pdf10_p012_0.png	9
+L	class X {
+L	x0‹}
+L	private void one() ()
+L	public class Y extends X (
+L	YO(}
+L	private void two() (
+L	one();
+L	public static void main(String[] args) {
+L	new Y().two():
+FILE	pdf10_p013_0.png	5
+L	public abstract class Wow {
+L	private int wow;
+L	public Wow(int wow) ( this.wow = wow; )
+L	public void wow() {)
+L	private void wowza() { )
+FILE	pdf10_p014_0.png	7
+L	public static void main(String[] args) {
+L	String[] table = ("aa", "bb", "cc"};
+L	іnt ii = O;
+L	for (String ss : table)
+L	while (ii < table.length) f
+L	System.out.println(ii); ii++;
+L	break;
+FILE	pdf10_p015_0.png	9
+L	public class MainMethod (
+L	void main() {
+L	System.out.printIn(*one*);
+L	static void main(String args)
+L	System.out.printin(twot);
+L	public static final void main(String[] args) {
+L	System.out.println(*three);
+L	void mina(Object[] args) {
+L	System.out.println(*fourt);
+FILE	pdf10_p016_0.png	12
+L	public static void main(String[] args) {
+L	String color = &Red;
+L	switch (color) {
+L	case Red®:
+L	System.out.printin("Found Red");
+L	case "Blue*:
+L	System.out.println(*Found Blue");
+L	case Whitet:
+L	System.out.printin("Found White);
+L	break;
+L	Default:
+L	System.out.printin("Found Default);
+FILE	pdf10_p017_0.png	5
+L	class X {
+L	String str = ®default®:
+L	x(String s) { str = s; )
+L	void print() ( System.out.printin(str): )
+L	public static void main(String[] args) ( new X(thellot).print(): }
+FILE	pdf10_p018_0.png	7
+L	import java.text.ồ:
+L	public class Align {
+L	public static void main(String[] args) throws ParseException {
+L	String[] sa = ("111.234", "222.5678");
+L	NumberFormat nf = NumberFormat.getinstance():
+L	nf.setMaximumFractionDigits(3);
+L	for (String s : sa) ( System.out.println(nf.parse(s)); }
+FILE	pdf10_p019_0.png	22
+L	11. class Person {
+L	12. String name = "No name";
+L	13. public Person (String nm) { name = nm}
+L	14. }
+L	15.
+L	17 .
+L	16. class Employee extends Person {
+L	String empID = "0000;
+L	public Employee (String id) { empID "
+L	18.
+L	id; }
+L	19. }
+L	20.
+L	22.
+L	21. public class EmployeeTest {
+L	public static void main(String[] args)
+L	23.
+L	24.
+L	25.
+L	26. }
+L	Employee e = new Employee(*4321*);
+L	System.out.printiln(e.empID);
+FILE	pdf10_p021_0.png	10
+L	10.
+L	11.
+L	12.
+L	13.
+L	14.
+L	15.
+L	class One {
+L	void foo() { )
+L	class Two extends One (
+L	//insert method here
+FILE	pdf10_p022_0.png	11
+L	public class MyStuff {
+L	String name;
+L	MyStuff (String n) { name = n; )
+L	public static void main (String)] args) (
+L	MyStuff m1 = new MyStuff (*guitar);
+L	MyStuff m2 = new MyStuff ("tvi);
+L	System.out.println (m2.equals(m1));
+L	public boolean equals (Object o)
+L	MyStuff m = (MyStuff) o;
+L	if (m.name != null) { return true; )
+L	return false;
+FILE	pdf10_p024_0.png	26
+L	13.
+L	16.
+L	17.
+L	18.
+L	19.
+L	20.
+L	21.
+L	22.
+L	23.
+L	24.
+L	public class Speak (
+L	public static void main(Stringl] args) (
+L	Speak speakIT = new Tell():
+L	Tell telllt = new Tell():
+L	speakIT.tellltLikeltls();
+L	(Truth) speakIT.tellltLikeltls():
+L	((Truth) speakIT).tellltLikeltis():
+L	telllt.tellltLikeltls():
+L	(Truth) telllt.tellitLikeltls():
+L	((Truth) telllt).tellitLikeltis():
+L	class Tell extends Speak implements Truth {
+L	@Override
+L	public void tellltLikeltls() (
+L	System.out.println("Right on!");
+L	interface Truth (
+L	public void tellltLikeltls():
+FILE	pdf10_p025_0.png	3
+L	public static void main(String[] args) (
+L	System.out.println(*Result: " + 2 + 3 + 5);
+L	System.out.println(®Result: " + 2 + 3 * 5);
+FILE	pdf10_p026_0.png	5
+L	class Class1 ( String v1;)
+L	class Class2 {
+L	Class1 c1;
+L	String v2;
+L	class Class3 ( Class2 c1; String v3;)
+FILE	pdf10_p027_0.png	20
+L	5.
+L	6.
+L	class Building ()
+L	public class Barn extends Building (
+L	public static void main(String[] args) (
+L	8.
+L	9.
+L	Building build1 = new Building():
+L	Barn barn1 = new Bam();
+L	10
+L	Barn bam2 = (Bamn) build1;
+L	11.
+L	12.
+L	Object obj1 = (Object) build1;
+L	13.
+L	String str1 = (String) build1;
+L	Building build2 = (Building) barn1;
+L	14.
+L	15.
+L	Which is true?
+FILE	pdf10_p028_0.png	7
+L	class Alpha ( String getType() ( return alpha*; ) )
+L	class Beta extends Alpha ( String getType() { retum 'beta": ))
+L	public class Gamma extends Beta ( String getType() { return 'gamma"; )
+L	public static void main(String[] args) {
+L	Gamma g1 = new Alpha();
+L	Gamma g2 = new Beta();
+L	System.out.println(g1.getType() + ii + g2.getType());
+FILE	pdf10_p029_0.png	9
+L	import java.util.*;
+L	public class MyScan (
+L	public static void main(String[] args) {
+L	String in = "1 a 10 . 100 1000;
+L	Scanner s = new Scanner(in);
+L	int accum = 0;
+L	for (int x = 0; x < 4; x++) {
+L	accum += s.nextint();
+L	System.out.println(accum);
+FILE	pdf10_p030_0.png	6
+L	public class SampleClass (
+L	public static void main(String[] args) {
+L	AnotherSampleClass asc = new AnotherSampleClass():
+L	SampleClass sc = new SampleClass();
+L	// TODO code application logic here
+L	class AnotherSampleClass extends SampleClass ( )
+FILE	pdf10_p031_0.png	9
+L	class X {
+L	x0(}
+L	private void one() ()
+L	public class Y extends X {
+L	YO()
+L	private void two() (
+L	one():
+L	public static void main(String[] args) {
+L	new Y().two();
+FILE	pdf10_p032_0.png	11
+L	try {
+L	// assume "conn" is a valid Connection object
+L	// assume a valid Statement object is created
+L	// assume rollback invocations will be valid
+L	// use SQL to add 10 to a checking account
+L	Savepoint s1 = conn.setSavePoint();
+L	// use SQL to add 100 to the same checking account
+L	Savepoint s2 = conn.setSavePoint();
+L	// use SQL to add 1000 to the same checking account
+L	// insert valid rollback method invocation here
+L	) catch (Exception e) { }
+FILE	pdf10_p033_0.png	16
+L	class MyKeys (
+L	Integer key;
+L	MyKeys(Integer k) { key = k; )
+L	public boolean equals(Object o) {
+L	retur ((MyKeys) o).key == this.key;
+L	And this code snippet:
+L	Map m = new HashMap();
+L	MyKeys m1 = new MyKeys(1);
+L	MyKeys m2 = new MyKeys(2);
+L	MyKeys m3 = new MyKeys(1);
+L	MyKeys m4 = new MyKeys(new Integer(2));
+L	m.put(m1, "car");
+L	m.put(m2, boat*);
+L	m.put(m3, "plane*);
+L	m.put(m4, 'bus");
+L	System.out.print(m.size());
+FILE	pdf10_p034_0.png	13
+L	14.
+L	15.
+L	16.
+L	17.
+L	18.
+L	19.
+L	20.
+L	public static void main(String[] args) {
+L	Int a, b, c = 0;
+L	int a, b, c;
+L	int g, int h, int i = 0;
+L	int d, e, f;
+L	Int k, I, m, = 0;
+FILE	pdf10_p036_0.png	5
+L	public static void main(String[] args) {
+L	Boolean b1 = true;
+L	Boolean b2 = false;
+L	int i = 0;
+L	while (foo) { }
+FILE	pdf10_p037_0.png	10
+L	import java.util.*;
+L	public class App {
+L	public static void main(String[] args) {
+L	List p = new ArrayList();
+L	p.add(7);
+L	p.add(1);
+L	p.add(5);
+L	p.add(1);
+L	p.remove(1);
+L	System.out.printin(p);
+FILE	pdf10_p038_0.png	24
+L	Given
+L	public class SuperTest {
+L	public static void main(String[] args) (
+L	//statement1
+L	//statement2
+L	//statement3
+L	class Shape (
+L	public Shape() (
+L	System.out.printin("Shape: constructor"):
+L	public void foo() (
+L	System.out.printin("Shape: foot);
+L	class Square extends Shape (
+L	public Square() (
+L	super():
+L	public Square(String label) {
+L	System.out.printin("Square: constructor*);
+L	public void foo() (
+L	super.foo():
+L	pusic valy en ute het Squae 0 %.
+L	What should statement1, statement2, and statement3, be respectively, in order to
+L	produce the result?
+L	Shape: constructor
+L	Shape: foo
+L	Square: foo
+FILE	pdf10_p039_0.png	5
+L	public static void main(String args) {
+L	int DD array2D = ( {0, 1, 2), (3, 4, 5, 6});
+L	System.out.print(array2D[0].length +i);
+L	System.out.print(array2D[1].getClass().isArray() + ** );
+L	System.out.println(array2D[0][1]):
+FILE	pdf10_p040_0.png	8
+L	public class SampleClass {
+L	public static void main(String[] args) {
+L	AnotherSampleClass asc = new AnotherSampleClass();
+L	SampleClass sc = new SampleClass();
+L	sc = asc;
+L	System.out.printin("sc: " + sc.getClass());
+L	System.out.printin('asc:" + asc.getClass());
+L	class AnotherSampleClass extends SampleClass ()
+FILE	pdf10_p041_0.png	13
+L	01. public class Simple {
+L	02.
+L	03.
+L	04.
+L	05.
+L	06.
+L	07.
+L	08.
+L	09. }
+L	public float price;
+L	public static void main(String[] args) {
+L	Simple price = new Simple();
+L	price = 4;
+FILE	pdf10_p042_0.png	13
+L	interface Rideable {
+L	String getGait();
+L	public class Camel implements Rideable {
+L	int weight = 2;
+L	String getGait() (
+L	return t mph, lopet;
+L	void go(int speed) (
+L	++speed;
+L	Weight++;
+L	int walkrate = speed * weight;
+L	System.out.print(walkrate + getGait());
+L	public static void main(String[] args) {
+L	new Camel() go(8);
+FILE	pdf10_p043_0.png	9
+L	class Atom {
+L	Atom() ( System.out.print(atom ); )
+L	class Rock extends Atom {
+L	Rock(String type) { System.out.print(type); )
+L	public class Mountain extends Rock {
+L	Mountain() (
+L	super(*granite t);
+L	new Rock(tgranitet);
+L	public static void main(String[] a) ( new Mountain(); }
+FILE	pdf10_p044_0.png	9
+L	class ClassA (
+L	class ClassB extends ClassA ()
+L	class ClassC extends ClassA 0
+L	And:
+L	ClassA p0 = new ClassA();
+L	ClassB p1 = new ClassB():
+L	ClassC p2 = new ClassC():
+L	ClassA p3 = new ClassB();
+L	ClassA p4 = new ClassC():
+FILE	pdf10_p045_0.png	6
+L	public class DoWhile {
+L	public static void main(String[] args) {
+L	int ii = 2;
+L	do {
+L	System.out.println(ii);
+L	} while (--ii);
+FILE	pdf10_p046_0.png	21
+L	public static void main(String[] args) (
+L	if (value >= 0) 1
+L	if (value != 0) {
+L	System.out.print(the ");
+L	) else {
+L	System.out.print(*quick t);
+L	f (value < 10) l
+L	System.out.print(*brown *);
+L	if (value > 30) f
+L	System.out.print(*fox ):
+L	) else if (value < 50) {
+L	System.out.print(*jumps ®);
+L	) else if (value < 10) (
+L	System.out.print(tover t);
+L	) else (
+L	System.out.print("the ®);
+L	if (value > 10) (
+L	System.out.print(lazy t);
+L	) else {
+L	System.out.print(®dog *);
+L	System.out.print(...t);
+FILE	pdf10_p047_0.png	4
+L	public class X {
+L	public static void main(String[] args) {
+L	String theString = "Hello World:
+L	System.out.printin(theString.charAt(11));
+FILE	pdf10_p047_6.png	1
+L	Google Formularios

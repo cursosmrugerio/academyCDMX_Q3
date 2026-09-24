@@ -1,0 +1,42 @@
+[
+ {
+  "archivo": "01 - Simulación APX V1.docx",
+  "titulo": "Simulación APX-V1",
+  "url": "https://forms.office.com/r/tFbJ4Wwp3y",
+  "preguntas": 45,
+  "campos_de_datos": 1,
+  "imagenes": 0,
+  "imagenes_esperadas": 0,
+  "sin_texto_ni_imagen": 0
+ },
+ {
+  "archivo": "02 - Simulación APX V2.docx",
+  "titulo": "Simulación APX V2",
+  "url": "https://forms.office.com/r/pTA8BgUx6Z",
+  "preguntas": 45,
+  "campos_de_datos": 1,
+  "imagenes": 0,
+  "imagenes_esperadas": 0,
+  "sin_texto_ni_imagen": 0
+ },
+ {
+  "archivo": "03 - Cuestionario APX V3.docx",
+  "titulo": "Cuestionario APX - V3",
+  "url": "https://forms.office.com/r/NdJL1Kjx5r",
+  "preguntas": 32,
+  "campos_de_datos": 0,
+  "imagenes": 26,
+  "imagenes_esperadas": 26,
+  "sin_texto_ni_imagen": 0
+ },
+ {
+  "archivo": "04 - Simulación APX V4.docx",
+  "titulo": "APX - Simulación V4",
+  "url": "https://forms.office.com/r/f2uezELfV9",
+  "preguntas": 41,
+  "campos_de_datos": 0,
+  "imagenes": 36,
+  "imagenes_esperadas": 36,
+  "sin_texto_ni_imagen": 0
+ }
+]

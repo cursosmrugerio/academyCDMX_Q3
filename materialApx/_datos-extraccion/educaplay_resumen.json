@@ -1,0 +1,23 @@
+[
+ {
+  "archivo": "01 - Quiz APX.docx",
+  "titulo": "Quiz APX",
+  "url": "https://www.educaplay.com/learning-resources/25151714-desafio_java_fundamentos.html",
+  "preguntas": 22,
+  "imagenes": 6
+ },
+ {
+  "archivo": "02 - Quiz Desarrollo APX 1.docx",
+  "titulo": "Quiz Desarrollo APX 1",
+  "url": "https://www.educaplay.com/learning-resources/21896295-quiz_desarrollo_apx.html",
+  "preguntas": 25,
+  "imagenes": 8
+ },
+ {
+  "archivo": "03 - Quiz Desarrollo APX 2.docx",
+  "titulo": "Quiz Desarrollo APX 2",
+  "url": "https://www.educaplay.com/learning-resources/21909314-quiz_desarrollo_apx_2.html",
+  "preguntas": 24,
+  "imagenes": 14
+ }
+]

@@ -1,0 +1,480 @@
+examen	n	tema	confianza	nota
+Java.pdf	1	Java	alta	
+Java.pdf	2	Herramientas/general	alta	
+Java.pdf	3	Herramientas/general	alta	
+Java.pdf	4	Herramientas/general	alta	
+Java.pdf	5	Herramientas/general	alta	
+Java.pdf	6	Java	alta	
+Java.pdf	7	Herramientas/general	alta	
+Java.pdf	8	APX	alta	menciona JDBC Utility (APX) aunque la respuesta sea pom.xml
+Java.pdf	9	Java	alta	
+Java.pdf	10	Java	alta	
+Java.pdf	11	Herramientas/general	alta	
+Java.pdf	12	Java	alta	
+Java.pdf	13	APX	alta	
+Java.pdf	14	Java	alta	
+Java.pdf	15	Java	alta	
+Java.pdf	16	APX	alta	
+Java.pdf	17	Java	alta	
+Java.pdf	18	APX	alta	
+Java.pdf	19	Java	alta	
+Java.pdf	20	Java	alta	
+Java.pdf	21	Java	alta	
+Java.pdf	22	Java	alta	
+Java.pdf	23	Java	alta	
+Java.pdf	24	Herramientas/general	alta	
+Java.pdf	25	Java	alta	
+Java.pdf	26	Java	alta	
+Java.pdf	27	Herramientas/general	alta	
+Java.pdf	28	Java	alta	JDBC java.sql
+Java.pdf	29	Java	alta	
+Java.pdf	30	Java	alta	
+Java.pdf	31	APX	alta	JDBC APX (utilidad APX), no java.sql
+Java.pdf	32	Java	alta	
+Java.pdf	33	Herramientas/general	alta	
+Java.pdf	34	APX	alta	
+Java.pdf	35	Java	alta	
+Java.pdf	36	Herramientas/general	alta	
+Java.pdf	37	Java	alta	herramienta jar del JDK
+Java.pdf	38	Java	alta	
+Java.pdf	39	Java	alta	
+Java.pdf	40	Java	alta	
+Java.pdf	41	Java	alta	
+Java.pdf	42	APX	alta	
+Java.pdf	43	Herramientas/general	alta	
+Java.pdf	44	APX	alta	
+Java.pdf	45	Herramientas/general	alta	
+Java.pdf	46	APX	alta	
+Java.pdf	47	Herramientas/general	alta	
+Java.pdf	48	Herramientas/general	alta	
+Java.pdf	49	Java	alta	
+Java.pdf	50	Herramientas/general	alta	
+Java.pdf	51	Java	alta	
+Java.pdf	52	Java	alta	
+Java.pdf	53	Java	alta	
+Java.pdf	54	Java	alta	
+Java.pdf	55	Java	alta	
+Java.pdf	56	Java	alta	
+Java.pdf	57	Java	alta	
+Java.pdf	58	Java	alta	
+Java.pdf	59	Java	alta	
+Java.pdf	60	Java	alta	
+Java.pdf	61	Java	alta	
+Java.pdf	62	Java	alta	
+Java.pdf	63	Java	alta	
+Java.pdf	64	Java	alta	
+Java.pdf	65	Java	alta	
+Java.pdf	66	APX	alta	
+Java.pdf	67	Java	alta	
+Java.pdf	68	Herramientas/general	alta	
+Java.pdf	69	Herramientas/general	baja	DUDOSO: paginación genérica en apps web (igual que V2#4)
+Java.pdf	70	Java	alta	
+Java.pdf	71	Java	alta	
+Java.pdf	72	Java	alta	
+Java.pdf	73	Java	alta	
+Java.pdf	74	APX	alta	
+Java.pdf	75	Java	media	no es pregunta de opción múltiple: «Resultado de la operacion 9 | 4» con su respuesta (13)
+Java.pdf	76	Java	alta	
+Java.pdf	77	Herramientas/general	alta	
+Java.pdf	78	Java	alta	
+Java.pdf	79	Java	alta	
+Java.pdf	80	APX	alta	Spring Batch
+Java.pdf	81	Java	alta	
+Java.pdf	82	APX	alta	
+Java.pdf	83	Java	alta	
+Java.pdf	84	Java	alta	
+Java.pdf	85	Herramientas/general	alta	
+Java.pdf	86	Java	alta	
+Java.pdf	87	Java	alta	
+Java.pdf	88	Java	alta	
+Java.pdf	89	Java	alta	
+Java.pdf	90	Java	alta	JDBC java.sql
+Java.pdf	91	APX	media	herramientas genéricas pero pregunta sobre componentes APX
+Java.pdf	92	Java	alta	
+Java.pdf	93	Java	alta	paquetes java.sql
+Java.pdf	94	Java	alta	
+Java.pdf	95	Java	alta	
+Java.pdf	96	Herramientas/general	alta	
+Java.pdf	97	Java	alta	
+Java.pdf	98	APX	media	norma APX de acceso a datos; el enunciado no dice APX
+Java.pdf	99	Java	alta	
+Java.pdf	100	Herramientas/general	alta	
+Java.pdf	101	Java	alta	
+Java.pdf	102	Java	alta	
+Java.pdf	103	Java	alta	
+Java.pdf	104	APX	alta	
+Java.pdf	105	Java	alta	JDK
+Java.pdf	106	APX	alta	
+Java.pdf	107	Java	alta	
+Java.pdf	108	Java	alta	
+Java.pdf	109	Java	alta	
+Java.pdf	110	Java	alta	
+Java.pdf	111	Java	alta	
+Java.pdf	112	Java	alta	
+Java.pdf	113	Java	alta	
+Java.pdf	114	Java	alta	
+Java.pdf	115	Java	alta	
+Java.pdf	116	Java	alta	
+Java.pdf	117	Java	alta	
+Java.pdf	118	Java	alta	
+Java.pdf	119	APX	alta	
+Java.pdf	120	Java	alta	
+Java.pdf	121	Herramientas/general	alta	
+Java.pdf	122	Herramientas/general	media	retrocompatibilidad genérica de software
+Java.pdf	123	Java	alta	
+Java.pdf	124	Java	alta	
+Java.pdf	125	APX	alta	
+Java.pdf	126	APX	alta	OJO extracción: el bloque #126 contiene además una pregunta SIN NUMERAR sobre Step de Spring Batch (APX)
+Java.pdf	127	Java	alta	
+Java.pdf	128	Java	alta	
+Java.pdf	129	Java	alta	
+Java.pdf	130	Java	alta	
+Java.pdf	131	Java	alta	
+Java.pdf	132	Herramientas/general	alta	
+Java.pdf	133	Java	alta	
+Java.pdf	134	Java	alta	
+Java.pdf	135	Java	alta	
+Java.pdf	136	Java	alta	
+Java.pdf	137	APX	alta	Spring Batch
+Java.pdf	138	Java	alta	
+Java.pdf	139	Java	alta	
+Java.pdf	140	Java	alta	
+Java.pdf	141	Java	alta	
+Java.pdf	142	APX	media	antipatrón Blob del curso
+Java.pdf	143	Java	alta	
+Java.pdf	144	Java	alta	
+Java.pdf	145	Java	alta	
+Java.pdf	146	Java	alta	
+Java.pdf	147	APX	media	norma APX de acceso a datos; el enunciado no dice APX
+Java.pdf	148	Java	alta	
+Java.pdf	149	Java	alta	
+Java.pdf	150	Java	alta	
+Java.pdf	151	Herramientas/general	alta	
+Java.pdf	152	Java	alta	
+Java.pdf	153	Java	alta	
+Java.pdf	154	Herramientas/general	alta	
+Java.pdf	155	Java	alta	
+Java.pdf	156	Java	alta	
+Java.pdf	157	Java	alta	
+Java.pdf	158	Java	alta	
+Java.pdf	159	APX	alta	
+Java.pdf	160	APX	alta	
+Java.pdf	161	Java	alta	
+Java.pdf	162	Java	alta	
+Java.pdf	163	Java	alta	
+Java.pdf	164	Java	alta	
+Java.pdf	165	APX	alta	
+Java.pdf	166	Java	alta	
+Java.pdf	167	APX	alta	
+Java.pdf	168	APX	alta	
+Java.pdf	169	APX	alta	
+Java.pdf	170	APX	alta	
+Java.pdf	171	Herramientas/general	media	retrocompatibilidad genérica de software
+Java.pdf	172	Herramientas/general	alta	
+Java.pdf	173	Herramientas/general	baja	DUDOSO: DTO como patrón genérico «en el diseño de software»; DTO también es componente APX
+Java.pdf	174	APX	alta	JobRepository Spring Batch
+Java.pdf	175	Java	alta	
+Java.pdf	176	APX	alta	
+Java.pdf	177	APX	alta	
+Java.pdf	178	Java	alta	
+Java.pdf	179	APX	alta	
+Java.pdf	180	Java	alta	
+Java.pdf	181	Java	alta	
+Java.pdf	182	APX	alta	
+Java.pdf	183	Java	alta	
+Java.pdf	184	Herramientas/general	alta	
+Java.pdf	185	Java	alta	jconsole herramienta del JDK
+Java.pdf	186	Herramientas/general	alta	
+Java.pdf	187	Java	alta	
+Java.pdf	188	Java	alta	
+Java.pdf	189	Java	alta	
+Java.pdf	190	Java	alta	
+Java.pdf	191	Java	media	enunciado es paráfrasis de una imagen («The image shows...»); tema java -jar
+Java.pdf	192	Java	alta	
+Java.pdf	193	Java	alta	
+Java.pdf	194	Herramientas/general	baja	DUDOSO: transacción ACID genérica de BD; «transacción» también es componente APX
+Java.pdf	195	Herramientas/general	alta	
+Java.pdf	196	Herramientas/general	alta	
+Java.pdf	197	Herramientas/general	alta	
+Java.pdf	198	Herramientas/general	media	CRUD genérico; el curso tiene «CRUD en librerías» APX pero el enunciado es genérico
+Java.pdf	199	Java	alta	
+Java.pdf	200	Herramientas/general	alta	
+Java.pdf	201	Java	alta	
+Java.pdf	202	Java	alta	
+Java.pdf	203	Java	alta	
+Java.pdf	204	APX	alta	
+Java.pdf	205	Herramientas/general	alta	
+Java.pdf	206	Java	alta	
+Java.pdf	207	Herramientas/general	alta	
+Java.pdf	208	APX	alta	
+Java.pdf	209	Herramientas/general	media	maven-surefire-plugin: Maven
+Java.pdf	210	Herramientas/general	alta	OSGi
+Java.pdf	211	Java	alta	
+Java.pdf	212	Java	alta	
+01 - Simulación APX V1.docx	1	APX	alta	
+01 - Simulación APX V1.docx	2	Java	alta	
+01 - Simulación APX V1.docx	3	Herramientas/general	alta	
+01 - Simulación APX V1.docx	4	APX	alta	
+01 - Simulación APX V1.docx	5	Java	alta	
+01 - Simulación APX V1.docx	6	Java	alta	herramienta jar del JDK
+01 - Simulación APX V1.docx	7	APX	alta	
+01 - Simulación APX V1.docx	8	Herramientas/general	alta	
+01 - Simulación APX V1.docx	9	Java	media	sin código en el docx; pregunta de tipos de retorno Java (en Java.pdf #52 aparece con el código doMath)
+01 - Simulación APX V1.docx	10	Herramientas/general	alta	
+01 - Simulación APX V1.docx	11	Java	alta	
+01 - Simulación APX V1.docx	12	Java	alta	
+01 - Simulación APX V1.docx	13	Java	alta	
+01 - Simulación APX V1.docx	14	APX	alta	
+01 - Simulación APX V1.docx	15	Java	alta	
+01 - Simulación APX V1.docx	16	APX	alta	JDBC APX (utilidad APX), no java.sql
+01 - Simulación APX V1.docx	17	Herramientas/general	alta	
+01 - Simulación APX V1.docx	18	Herramientas/general	alta	
+01 - Simulación APX V1.docx	19	Herramientas/general	alta	
+01 - Simulación APX V1.docx	20	Java	alta	
+01 - Simulación APX V1.docx	21	APX	alta	
+01 - Simulación APX V1.docx	22	Java	alta	
+01 - Simulación APX V1.docx	23	APX	alta	
+01 - Simulación APX V1.docx	24	Herramientas/general	alta	
+01 - Simulación APX V1.docx	25	Herramientas/general	alta	
+01 - Simulación APX V1.docx	26	Java	alta	
+01 - Simulación APX V1.docx	27	Java	alta	
+01 - Simulación APX V1.docx	28	Java	alta	
+01 - Simulación APX V1.docx	29	Java	alta	
+01 - Simulación APX V1.docx	30	Java	alta	
+01 - Simulación APX V1.docx	31	Java	alta	
+01 - Simulación APX V1.docx	32	Herramientas/general	alta	
+01 - Simulación APX V1.docx	33	Java	alta	
+01 - Simulación APX V1.docx	34	Java	alta	
+01 - Simulación APX V1.docx	35	Herramientas/general	alta	
+01 - Simulación APX V1.docx	36	Java	alta	
+01 - Simulación APX V1.docx	37	Herramientas/general	alta	
+01 - Simulación APX V1.docx	38	Java	alta	
+01 - Simulación APX V1.docx	39	Java	alta	
+01 - Simulación APX V1.docx	40	Herramientas/general	alta	
+01 - Simulación APX V1.docx	41	APX	alta	
+01 - Simulación APX V1.docx	42	Herramientas/general	alta	
+01 - Simulación APX V1.docx	43	Java	alta	
+01 - Simulación APX V1.docx	44	Java	alta	
+01 - Simulación APX V1.docx	45	APX	alta	menciona JDBC Utility (APX) aunque la respuesta sea pom.xml
+02 - Simulación APX V2.docx	1	Java	alta	
+02 - Simulación APX V2.docx	2	APX	alta	
+02 - Simulación APX V2.docx	3	Herramientas/general	alta	
+02 - Simulación APX V2.docx	4	Herramientas/general	baja	DUDOSO: paginación genérica en apps web; el curso APX enseña paginación como patrón APX pero el enunciado no lo menciona
+02 - Simulación APX V2.docx	5	Java	alta	
+02 - Simulación APX V2.docx	6	Java	alta	
+02 - Simulación APX V2.docx	7	APX	alta	
+02 - Simulación APX V2.docx	8	Java	alta	
+02 - Simulación APX V2.docx	9	Herramientas/general	alta	
+02 - Simulación APX V2.docx	10	APX	alta	Spring Batch
+02 - Simulación APX V2.docx	11	Java	alta	
+02 - Simulación APX V2.docx	12	APX	alta	
+02 - Simulación APX V2.docx	13	Java	alta	
+02 - Simulación APX V2.docx	14	Herramientas/general	alta	
+02 - Simulación APX V2.docx	15	Java	alta	
+02 - Simulación APX V2.docx	16	APX	media	herramientas genéricas (Git, Maven, JDK...) pero la pregunta es sobre desarrollar componentes APX
+02 - Simulación APX V2.docx	17	Herramientas/general	alta	
+02 - Simulación APX V2.docx	18	APX	media	norma APX de acceso a datos (encapsular en librería); el enunciado no dice APX
+02 - Simulación APX V2.docx	19	Herramientas/general	alta	
+02 - Simulación APX V2.docx	20	APX	alta	
+02 - Simulación APX V2.docx	21	Java	alta	JDK
+02 - Simulación APX V2.docx	22	APX	alta	
+02 - Simulación APX V2.docx	23	Java	alta	
+02 - Simulación APX V2.docx	24	Java	alta	
+02 - Simulación APX V2.docx	25	Java	alta	
+02 - Simulación APX V2.docx	26	Java	alta	
+02 - Simulación APX V2.docx	27	APX	alta	
+02 - Simulación APX V2.docx	28	Herramientas/general	alta	
+02 - Simulación APX V2.docx	29	Herramientas/general	media	retrocompatibilidad genérica de software
+02 - Simulación APX V2.docx	30	Java	alta	
+02 - Simulación APX V2.docx	31	APX	alta	
+02 - Simulación APX V2.docx	32	APX	alta	Spring Batch Step
+02 - Simulación APX V2.docx	33	APX	alta	
+02 - Simulación APX V2.docx	34	Java	alta	
+02 - Simulación APX V2.docx	35	Java	alta	
+02 - Simulación APX V2.docx	36	Herramientas/general	alta	
+02 - Simulación APX V2.docx	37	Java	alta	
+02 - Simulación APX V2.docx	38	Java	alta	
+02 - Simulación APX V2.docx	39	APX	alta	Spring Batch
+02 - Simulación APX V2.docx	40	APX	media	habla de «BLOB» pero la opción esperada es el antipatrón Blob del curso (librería de una sola clase)
+02 - Simulación APX V2.docx	41	APX	media	norma APX de acceso a datos; el enunciado no dice APX
+02 - Simulación APX V2.docx	42	Java	alta	
+02 - Simulación APX V2.docx	43	Herramientas/general	alta	
+02 - Simulación APX V2.docx	44	Herramientas/general	alta	
+02 - Simulación APX V2.docx	45	Java	alta	
+07 - Diagnóstico APX 5.docx	1	APX	alta	
+07 - Diagnóstico APX 5.docx	2	APX	alta	JobLauncher: Spring Batch (base de APX Batch)
+07 - Diagnóstico APX 5.docx	3	APX	alta	
+07 - Diagnóstico APX 5.docx	4	APX	alta	
+07 - Diagnóstico APX 5.docx	5	APX	alta	
+07 - Diagnóstico APX 5.docx	6	APX	alta	
+07 - Diagnóstico APX 5.docx	7	APX	alta	
+07 - Diagnóstico APX 5.docx	8	APX	media	variables bind: norma APX de acceso a BBDD (sección APX), concepto genérico de BD
+07 - Diagnóstico APX 5.docx	9	APX	alta	
+07 - Diagnóstico APX 5.docx	10	APX	alta	
+07 - Diagnóstico APX 5.docx	11	Herramientas/general	baja	DUDOSO: definición genérica de patrón de diseño; está en sección APX y el curso lo da en módulo de patrones APX
+07 - Diagnóstico APX 5.docx	12	APX	alta	
+07 - Diagnóstico APX 5.docx	13	APX	alta	
+07 - Diagnóstico APX 5.docx	14	APX	alta	
+07 - Diagnóstico APX 5.docx	15	APX	alta	
+07 - Diagnóstico APX 5.docx	16	APX	alta	
+07 - Diagnóstico APX 5.docx	17	APX	alta	
+07 - Diagnóstico APX 5.docx	18	APX	alta	
+07 - Diagnóstico APX 5.docx	19	APX	alta	
+07 - Diagnóstico APX 5.docx	20	APX	alta	
+07 - Diagnóstico APX 5.docx	21	APX	alta	
+07 - Diagnóstico APX 5.docx	22	APX	alta	
+07 - Diagnóstico APX 5.docx	23	APX	alta	
+07 - Diagnóstico APX 5.docx	24	APX	alta	
+07 - Diagnóstico APX 5.docx	25	APX	alta	
+07 - Diagnóstico APX 5.docx	26	APX	alta	
+07 - Diagnóstico APX 5.docx	27	APX	alta	
+07 - Diagnóstico APX 5.docx	28	APX	alta	
+07 - Diagnóstico APX 5.docx	29	APX	alta	
+07 - Diagnóstico APX 5.docx	30	APX	alta	
+07 - Diagnóstico APX 5.docx	31	APX	alta	
+07 - Diagnóstico APX 5.docx	32	APX	alta	
+07 - Diagnóstico APX 5.docx	33	APX	media	@SuppressWarnings: norma APX de librerías (sección APX), anotación Java estándar
+07 - Diagnóstico APX 5.docx	34	APX	alta	
+07 - Diagnóstico APX 5.docx	35	APX	alta	
+07 - Diagnóstico APX 5.docx	36	APX	media	nivel de log: normas APX de logs (sección APX)
+07 - Diagnóstico APX 5.docx	37	APX	alta	
+07 - Diagnóstico APX 5.docx	38	APX	media	nivel de log: normas APX de logs (sección APX)
+07 - Diagnóstico APX 5.docx	39	APX	media	nivel de log: normas APX de logs (sección APX)
+07 - Diagnóstico APX 5.docx	40	APX	media	nivel de log: normas APX de logs (sección APX)
+07 - Diagnóstico APX 5.docx	41	APX	media	nivel de log: normas APX de logs (sección APX)
+07 - Diagnóstico APX 5.docx	42	APX	alta	
+07 - Diagnóstico APX 5.docx	43	APX	alta	
+07 - Diagnóstico APX 5.docx	44	APX	alta	
+07 - Diagnóstico APX 5.docx	45	APX	alta	
+07 - Diagnóstico APX 5.docx	46	APX	alta	
+07 - Diagnóstico APX 5.docx	47	APX	alta	
+07 - Diagnóstico APX 5.docx	48	APX	alta	
+07 - Diagnóstico APX 5.docx	49	APX	alta	
+07 - Diagnóstico APX 5.docx	50	APX	media	retrocompatibilidad de campos de entrada/salida de transacción APX (sección APX)
+07 - Diagnóstico APX 5.docx	51	APX	alta	
+07 - Diagnóstico APX 5.docx	52	APX	alta	
+07 - Diagnóstico APX 5.docx	53	APX	alta	
+07 - Diagnóstico APX 5.docx	54	APX	alta	
+07 - Diagnóstico APX 5.docx	55	APX	alta	
+07 - Diagnóstico APX 5.docx	56	APX	alta	
+07 - Diagnóstico APX 5.docx	57	APX	alta	
+07 - Diagnóstico APX 5.docx	58	APX	alta	
+07 - Diagnóstico APX 5.docx	59	APX	media	característica de Batch en sección APX (APX Batch)
+07 - Diagnóstico APX 5.docx	60	APX	media	API de código de barras: utilidad APX
+07 - Diagnóstico APX 5.docx	61	APX	media	ROWNUM: norma APX de acceso a datos (SQL específico de gestor)
+07 - Diagnóstico APX 5.docx	62	APX	alta	Chunk: Spring Batch/APX Batch
+07 - Diagnóstico APX 5.docx	63	Java	alta	
+07 - Diagnóstico APX 5.docx	64	Java	alta	@Mock de Mockito
+07 - Diagnóstico APX 5.docx	65	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	66	Java	alta	
+07 - Diagnóstico APX 5.docx	67	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	68	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	69	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	70	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	71	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	72	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	73	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	74	Java	alta	código en imagen (Alpha/Beta/Gamma), idéntico a #67; código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	75	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	76	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	77	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	78	Herramientas/general	alta	Singleton: patrón genérico aunque esté en sección JAVA
+07 - Diagnóstico APX 5.docx	79	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	80	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	81	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	82	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	83	Java	alta	código en imagen, imagen REVISADA
+07 - Diagnóstico APX 5.docx	84	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+07 - Diagnóstico APX 5.docx	85	Java	alta	código en imagen, imagen REVISADA
+01 - Quiz APX.docx	1	Herramientas/general	alta	
+01 - Quiz APX.docx	2	Java	alta	
+01 - Quiz APX.docx	3	Java	alta	
+01 - Quiz APX.docx	4	Java	alta	código en imagen, imagen REVISADA
+01 - Quiz APX.docx	5	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+01 - Quiz APX.docx	6	Java	alta	código en imagen, imagen REVISADA
+01 - Quiz APX.docx	7	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+01 - Quiz APX.docx	8	Java	alta	código en imagen, imagen REVISADA
+01 - Quiz APX.docx	9	Java	alta	código en imagen, imagen REVISADA
+01 - Quiz APX.docx	10	Herramientas/general	alta	
+01 - Quiz APX.docx	11	Herramientas/general	alta	
+01 - Quiz APX.docx	12	Herramientas/general	alta	
+01 - Quiz APX.docx	13	Herramientas/general	alta	
+01 - Quiz APX.docx	14	APX	alta	Spring Batch
+01 - Quiz APX.docx	15	Herramientas/general	alta	
+01 - Quiz APX.docx	16	Herramientas/general	alta	
+01 - Quiz APX.docx	17	Herramientas/general	alta	
+01 - Quiz APX.docx	18	APX	alta	
+01 - Quiz APX.docx	19	APX	alta	
+01 - Quiz APX.docx	20	APX	alta	
+01 - Quiz APX.docx	21	APX	alta	
+01 - Quiz APX.docx	22	APX	media	retrocompatibilidad pero de una transacción (componente APX)
+02 - Quiz Desarrollo APX 1.docx	1	Java	alta	código en imagen, imagen REVISADA
+02 - Quiz Desarrollo APX 1.docx	2	Java	alta	JDBC java.sql = API estándar
+02 - Quiz Desarrollo APX 1.docx	3	Java	alta	
+02 - Quiz Desarrollo APX 1.docx	4	Java	alta	código en imagen, imagen REVISADA
+02 - Quiz Desarrollo APX 1.docx	5	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+02 - Quiz Desarrollo APX 1.docx	6	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+02 - Quiz Desarrollo APX 1.docx	7	Java	alta	código en imagen, imagen REVISADA
+02 - Quiz Desarrollo APX 1.docx	8	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+02 - Quiz Desarrollo APX 1.docx	9	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	10	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	11	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	12	Java	alta	
+02 - Quiz Desarrollo APX 1.docx	13	Java	alta	código en imagen, imagen REVISADA
+02 - Quiz Desarrollo APX 1.docx	14	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+02 - Quiz Desarrollo APX 1.docx	15	Herramientas/general	media	pom.xml es de Maven (una opción es APX)
+02 - Quiz Desarrollo APX 1.docx	16	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	17	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	18	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	19	Herramientas/general	baja	DUDOSO: definición genérica de patrón de diseño (mismo enunciado que APX5#11)
+02 - Quiz Desarrollo APX 1.docx	20	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	21	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	22	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	23	APX	alta	
+02 - Quiz Desarrollo APX 1.docx	24	Java	alta	@Mock de Mockito
+02 - Quiz Desarrollo APX 1.docx	25	APX	alta	
+03 - Quiz Desarrollo APX 2.docx	1	Herramientas/general	alta	
+03 - Quiz Desarrollo APX 2.docx	2	Herramientas/general	alta	
+03 - Quiz Desarrollo APX 2.docx	3	Herramientas/general	alta	
+03 - Quiz Desarrollo APX 2.docx	4	Herramientas/general	alta	
+03 - Quiz Desarrollo APX 2.docx	5	Herramientas/general	alta	
+03 - Quiz Desarrollo APX 2.docx	6	Herramientas/general	alta	
+03 - Quiz Desarrollo APX 2.docx	7	Java	alta	código en imagen, imagen REVISADA
+03 - Quiz Desarrollo APX 2.docx	8	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	9	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	10	Java	alta	código en imagen, imagen REVISADA
+03 - Quiz Desarrollo APX 2.docx	11	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	12	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	13	Java	alta	código en imagen, imagen REVISADA
+03 - Quiz Desarrollo APX 2.docx	14	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	15	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	16	Java	alta	código en imagen, imagen REVISADA
+03 - Quiz Desarrollo APX 2.docx	17	Java	alta	código en imagen, imagen REVISADA
+03 - Quiz Desarrollo APX 2.docx	18	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	19	Java	alta	código en imagen, no revisada (opciones/enunciado son Java)
+03 - Quiz Desarrollo APX 2.docx	20	Java	alta	código en imagen, imagen REVISADA
+03 - Quiz Desarrollo APX 2.docx	21	APX	alta	
+03 - Quiz Desarrollo APX 2.docx	22	APX	alta	
+03 - Quiz Desarrollo APX 2.docx	23	APX	alta	
+03 - Quiz Desarrollo APX 2.docx	24	APX	alta	
+Examen Diagnóstico APX 4.pdf	1	Herramientas/general	media	pom.xml genérico de Maven, sin concepto APX; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	2	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	3	APX	alta	enunciado legible en la imagen: «Selecciona las tres respuestas que describen las mejores prácticas establecidas para acceder a Datos»; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	4	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	5	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	6	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	7	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	8	Herramientas/general	baja	DUDOSO: definición genérica de patrón de diseño (mismo enunciado que APX5#11); página escaneada revisada
+Examen Diagnóstico APX 4.pdf	9	Java	alta	código en imagen, imagen REVISADA; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	10	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	11	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	12	Java	alta	código en imagen, imagen REVISADA; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	13	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	14	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	15	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	16	Java	alta	código en imagen, imagen REVISADA; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	17	APX	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	18	Java	alta	código en imagen, imagen REVISADA; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	19	Java	alta	página escaneada revisada
+Examen Diagnóstico APX 4.pdf	20	Java	alta	código en imagen, imagen REVISADA; página escaneada revisada
+Examen Diagnóstico APX 4.pdf	21	Java	alta	página escaneada revisada

@@ -1,0 +1,443 @@
+[
+ {
+  "id": "1D5vDUAVW6bF2zWmZ0s1_cQwHHKa3sjGs",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-04-21",
+  "path": "Material de apoyo"
+ },
+ {
+  "id": "1e2fNOb-14xk_oBhjDxFGRcVYmpNp5UhBYWkyKq5Sj0o",
+  "mime": "g.document",
+  "size": 1024,
+  "modified": "2026-04-21",
+  "path": "Material de apoyo/Banco de preguntas - Temas variados"
+ },
+ {
+  "id": "1HCRFDfLxWSPZmKkT-rJAyAnEafVoi_sS",
+  "mime": "application/pdf",
+  "size": 2538180,
+  "modified": "2026-04-21",
+  "path": "Material de apoyo/Java.pdf"
+ },
+ {
+  "id": "1gjg0D7xbytEjyAdvJ9Jf1tjUm-_CGGSj",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Exámenes de apoyo"
+ },
+ {
+  "id": "1bKcHDr4zjOmxpf8sY5MYy4xfbgEnYaxl",
+  "mime": "application/pdf",
+  "size": 3189171,
+  "modified": "2026-03-18",
+  "path": "Exámenes de apoyo/Exámen Diagnóstico Java.pdf"
+ },
+ {
+  "id": "1Qxb-AKaw34-VABAprmNhX9ziFez50eEn",
+  "mime": "application/pdf",
+  "size": 90124,
+  "modified": "2026-03-18",
+  "path": "Exámenes de apoyo/Exámen Diagnóstico APX 3 (1).pdf"
+ },
+ {
+  "id": "1GBF-JW6ZY3SBqrrQOhg5VkmvCNkKih15",
+  "mime": "application/pdf",
+  "size": 569055,
+  "modified": "2026-03-18",
+  "path": "Exámenes de apoyo/Examen Diagnóstico APX 4.pdf"
+ },
+ {
+  "id": "1h_eKdq0eX6oOoVAc6ldeE-RuDC_MhArL",
+  "mime": "ooxml.wordprocessingml.document",
+  "size": 197547,
+  "modified": "2026-03-18",
+  "path": "Exámenes de apoyo/LINKS.docx"
+ },
+ {
+  "id": "14jnSUKsnLZSwyiE6ONLmZTTvKJHIrphL",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Documentación APX"
+ },
+ {
+  "id": "174NtEN7lVfvmhC-ue3O3OhSNtjfU7Fv_",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE"
+ },
+ {
+  "id": "1H0owcDBwE-Q9logdKqpYjuLq23SeReCM",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/Transacción"
+ },
+ {
+  "id": "1T1-uGfwmcNKHQyBqlqpeza0JI9SVRLoo",
+  "mime": "application/pdf",
+  "size": 80694,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX ONLINE/Transacción/Ejemplo de Creación de Transacción.pdf"
+ },
+ {
+  "id": "1FPJ9wv3nBeCxAHjaljWhaouRmYNZveIa",
+  "mime": "application/pdf",
+  "size": 562762,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/Transacción/APX Online - Creación de Transacciones.pdf"
+ },
+ {
+  "id": "1IL00a6T0PQei_l6p2UJbhAtYTDp12FgU",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/Librerías"
+ },
+ {
+  "id": "1dDXZ8vB9XWb0YUADWU8GPzVX0mKlKbAK",
+  "mime": "application/pdf",
+  "size": 100545,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX ONLINE/Librerías/Creación de librería.pdf"
+ },
+ {
+  "id": "12MfObS5efFntihLLWtQlb9d6wP1mvZWp",
+  "mime": "application/pdf",
+  "size": 355831,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/Librerías/APX Online - Librerías MongoDB.pdf"
+ },
+ {
+  "id": "1hPZyAb0tkcMfQ9_GvfKw3f85ZknHM0rL",
+  "mime": "application/pdf",
+  "size": 240844,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/Librerías/APX Online - Librerías simples.pdf"
+ },
+ {
+  "id": "1p_Pi4qcXY_9hxbYUOtJtj30sWPqpEO0o",
+  "mime": "application/pdf",
+  "size": 622778,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/Librerías/APX Online - Trabajar con el componente Librería.pdf"
+ },
+ {
+  "id": "12K629bs2_kv7-TX-mmLQIEVvsQblcSCb",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/DTO"
+ },
+ {
+  "id": "1HmW9rmdIgC8V0q8sxhdzsVTrGu4uLr9m",
+  "mime": "application/pdf",
+  "size": 120577,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX ONLINE/DTO/Ejemplo de DTO.pdf"
+ },
+ {
+  "id": "1WShQ0Lenj8LnNPRJsDnOB2lbq7PxkpV7",
+  "mime": "application/pdf",
+  "size": 725407,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/DTO/APX Online - Extraer un DTO.pdf"
+ },
+ {
+  "id": "11yq507UwVB8qKiKlDGweGxBSIPUBBGh1",
+  "mime": "application/pdf",
+  "size": 180557,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/DTO/APX Online - Creación DTO.pdf"
+ },
+ {
+  "id": "1X5h44EwwufUwtuRV_u7zmv8MnV3V5LdK",
+  "mime": "application/pdf",
+  "size": 1605047,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX ONLINE/APX Online Capabilities.pdf"
+ },
+ {
+  "id": "11k5LGMzJcXuToqTxr45254KQbxlwYVf_",
+  "mime": "application/pdf",
+  "size": 98597,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX ONLINE/2 - APX Online Components.pdf"
+ },
+ {
+  "id": "1wbz8FRoRQPaI2MEjoSq7Rf9IbcUf4U6j",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX BATCH"
+ },
+ {
+  "id": "1C61p0c84Xf-DwKStgG47j8A6zDbIP79X",
+  "mime": "application/pdf",
+  "size": 777383,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX BATCH/Conceptos APX Batch.pdf"
+ },
+ {
+  "id": "1-Zt0AAhfAOUHg34SySqJXK1q1acjIHKa",
+  "mime": "application/pdf",
+  "size": 78337,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX BATCH/Creación JOB en APX BATCH.pdf"
+ },
+ {
+  "id": "1ifNLXFlJruG3MlvGhp274LBqZKXNlnFx",
+  "mime": "application/pdf",
+  "size": 80921,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX BATCH/Componentes APX BATCH.pdf"
+ },
+ {
+  "id": "1jDaKoNSHD9mOeC4workqYlRcV3ZfKba5",
+  "mime": "application/pdf",
+  "size": 309558,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX BATCH/Introducción APX Batch.pdf"
+ },
+ {
+  "id": "115QFvJ1iUmmpJTfonGWA0dOZYYloUTyi",
+  "mime": "application/pdf",
+  "size": 244136,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX BATCH/APX Batch - Documentación.pdf"
+ },
+ {
+  "id": "1LCx0_Uh5YuYchti25wiKYLJogHiAVpyr",
+  "mime": "application/pdf",
+  "size": 406370,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX BATCH/APX Batch - Conceptos por Lotes.pdf"
+ },
+ {
+  "id": "1t6FOqo4OEtljd6GWy1Scf_ydkKrJwcYR",
+  "mime": "application/pdf",
+  "size": 183127,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/APX BATCH/APX Batch - Componentes del lote APX.pdf"
+ },
+ {
+  "id": "1_30OzwJHaecCTQiYzSexiocDIkELXwuE",
+  "mime": "application/pdf",
+  "size": 25557348,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/Ether.pdf"
+ },
+ {
+  "id": "1AQqB-7LU-HxCecaGXlc5zjIT77B2TA7m",
+  "mime": "application/pdf",
+  "size": 76145,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/APX Qué es.pdf"
+ },
+ {
+  "id": "1H4gg9mAEd6dG3ecC7iKuEnv2D3t3geC6",
+  "mime": "application/pdf",
+  "size": 2342648,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/Manual de Ether.pdf"
+ },
+ {
+  "id": "1kzSQCJCc6i3QDN1dhugTIhQe5EGUh-_O",
+  "mime": "application/pdf",
+  "size": 8985486,
+  "modified": "2026-03-20",
+  "path": "Documentación APX/AcademicosAPX.pdf"
+ },
+ {
+  "id": "1jaCN0VJx3ni-ttu5Aike-bNrWr9BgWl0",
+  "mime": "application/pdf",
+  "size": 1585227,
+  "modified": "2026-03-18",
+  "path": "Documentación APX/1 - APX Capabilities.pdf"
+ },
+ {
+  "id": "1LjBXFbJpL9KbTvdijo1_W4EsHV2zbuLJ",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Teoría APX"
+ },
+ {
+  "id": "1lhO9eY8i-ikNMki3s4rU83lgwyf9xEa9",
+  "mime": "application/pdf",
+  "size": 757726,
+  "modified": "2026-03-18",
+  "path": "Teoría APX/APX_BATCH.pptx.pdf"
+ },
+ {
+  "id": "1mu9beTuetMqHqHHpLvUvLtLuzfFAyxk9",
+  "mime": "ooxml.presentationml.presentation",
+  "size": 2772816,
+  "modified": "2026-03-18",
+  "path": "Teoría APX/APX_Online.pptx"
+ },
+ {
+  "id": "1EVqRFCRc89tCwCFbToI_EzPmTU2RDJRd",
+  "mime": "ooxml.presentationml.presentation",
+  "size": 1613827,
+  "modified": "2026-03-18",
+  "path": "Teoría APX/Curse_APX_Online.pptx"
+ },
+ {
+  "id": "1Dm7jXVn4HcRsXNhlb_2Z2JH7E81--kJx",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX"
+ },
+ {
+  "id": "1HfpJ1ORu4HCZYz24KIxoBCxUs86wCeby",
+  "mime": "video/mp4",
+  "size": 199623986,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-30 at 17_07 GMT-7).mp4"
+ },
+ {
+  "id": "1Oixfsw9b8pKHiZy-T_qid302AoibN21S",
+  "mime": "video/mp4",
+  "size": 194322601,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-29 at 17_05 GMT-7).mp4"
+ },
+ {
+  "id": "1huUQ0o6OVDoZqWCseMbl9xtgpqjRk3NW",
+  "mime": "video/mp4",
+  "size": 169202817,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-25 at 17_07 GMT-7).mp4"
+ },
+ {
+  "id": "12NTUnN5Xv4_8wWTjF-KKKhwQVVTTHN_y",
+  "mime": "video/mp4",
+  "size": 198565759,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-07-02 at 17_05 GMT-7).mp4"
+ },
+ {
+  "id": "1CV1u4K0QEkaIl-WA2naBvwj9EfqsUG8E",
+  "mime": "video/mp4",
+  "size": 154939050,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-14 at 17_02 GMT-7).mp4"
+ },
+ {
+  "id": "1jZl2bA_R4tFSZtktyjXQ5oagGjdXdWe6",
+  "mime": "video/mp4",
+  "size": 170190880,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-07-01 at 17_07 GMT-7).mp4"
+ },
+ {
+  "id": "1zJ5fskb1XT9UriZL_rYrgGoV5-iGmorE",
+  "mime": "video/mp4",
+  "size": 173891787,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-21 at 17_05 GMT-7).mp4"
+ },
+ {
+  "id": "16ncBxhcp7EoXJ1k0T62xJiPvL4alYhr1",
+  "mime": "video/mp4",
+  "size": 95674799,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-17 at 17_07 GMT-7).mp4"
+ },
+ {
+  "id": "1jlquL1SkcsmPTJrqIUoKgYDUq9v-BN45",
+  "mime": "video/mp4",
+  "size": 225412950,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-16 at 17_07 GMT-7).mp4"
+ },
+ {
+  "id": "1Bcg9Od_wu0sfAs7HDEt4pgFN0cGVwROX",
+  "mime": "video/mp4",
+  "size": 242081997,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-18 at 17_07 GMT-7).mp4"
+ },
+ {
+  "id": "1oTN8_IeuzXhCezS-8Dodjt1ltbAx6QcB",
+  "mime": "video/mp4",
+  "size": 214829897,
+  "modified": "2026-03-18",
+  "path": "Videos cursos APX/Capacitación APX Grupo 1 - Entrenador Pedro Alarcón (2021-06-23 at 17_05 GMT-7).mp4"
+ },
+ {
+  "id": "1WtKorrbL-O2JAF6ugvzlR1j6YDfHLdPQ",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Formularios"
+ },
+ {
+  "id": "1IfIf_GiUNvrm4qIgE3KyeNpYV49cdAlo",
+  "mime": "ooxml.wordprocessingml.document",
+  "size": 8880,
+  "modified": "2026-03-19",
+  "path": "Formularios/Formularios APX.docx"
+ },
+ {
+  "id": "1-5lgmki8HF-FfUIJUnz5orMn8bLlphIx",
+  "mime": "ooxml.wordprocessingml.document",
+  "size": 7039,
+  "modified": "2026-03-18",
+  "path": "Formularios/Material extra - ASO.docx"
+ },
+ {
+  "id": "160sBclQwQszmdsAY-yMkSJcTJpge0eaL",
+  "mime": "g.folder",
+  "size": null,
+  "modified": "2026-03-18",
+  "path": "Mapas Mentales"
+ },
+ {
+  "id": "1h3XPsX4yHahj4Z45Jhb1NyXzeGZdFFoX",
+  "mime": "image/jpeg",
+  "size": 8529759,
+  "modified": "2026-03-18",
+  "path": "Mapas Mentales/APX ONLINE PT1.jpg"
+ },
+ {
+  "id": "1H6r9d3nK-g0ui2OzUT_6LLrC4eR7Mpzo",
+  "mime": "image/jpeg",
+  "size": 4979354,
+  "modified": "2026-03-18",
+  "path": "Mapas Mentales/APX BATCH PT1.jpg"
+ },
+ {
+  "id": "1feRi4_qDsQDXkANWbU_rLKvQ0IKzPb7n",
+  "mime": "image/jpeg",
+  "size": 3112931,
+  "modified": "2026-03-18",
+  "path": "Mapas Mentales/APX ONLINE PT3.jpg"
+ },
+ {
+  "id": "1t6zMfVeu-q03oYn-bdq98LMdRb8t25-V",
+  "mime": "image/jpeg",
+  "size": 6786110,
+  "modified": "2026-03-18",
+  "path": "Mapas Mentales/APX ONLINE PT2.jpg"
+ },
+ {
+  "id": "1oaWQ-YuEORHIfZxbBrLb9mncSY6JOC0D",
+  "mime": "image/jpeg",
+  "size": 4556798,
+  "modified": "2026-03-18",
+  "path": "Mapas Mentales/APX BATCH PT2.jpg"
+ },
+ {
+  "id": "1Mg1_m5NIoAQ9JPTbkj0u2zQryz7yZrX_bdYdVVBW7vk",
+  "mime": "g.document",
+  "size": 1024,
+  "modified": "2026-04-16",
+  "path": "Material Extraído"
+ }
+]

@@ -1,0 +1,778 @@
+{
+ "generado": "2026-09-24",
+ "raiz_drive": "https://drive.google.com/drive/folders/1WfToURb6X-jndXXUtduBLMKnD7FKTuzP",
+ "archivos": [
+  {
+   "ruta": "1 - Material de estudio - APX/Material de apoyo/Banco de preguntas - Temas variados.docx",
+   "drive_id": "1e2fNOb-14xk_oBhjDxFGRcVYmpNp5UhBYWkyKq5Sj0o",
+   "origen": "Material de estudio - APX",
+   "tipo": "Google Doc exportado a .docx",
+   "bytes": 6530,
+   "bytes_drive": null,
+   "sha256": "e83e49f9748c953d27fa526575ecb503cbf046bfab01b94de5c5c2635a44625a",
+   "url": "https://docs.google.com/document/d/1e2fNOb-14xk_oBhjDxFGRcVYmpNp5UhBYWkyKq5Sj0o/edit"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Material de apoyo/Java.pdf",
+   "drive_id": "1HCRFDfLxWSPZmKkT-rJAyAnEafVoi_sS",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 2538180,
+   "bytes_drive": 2538180,
+   "sha256": "f2837c3ae1ce6a72148b4ddfba39e700b9b8f04ecc6466e29a4d6e335d28852a",
+   "url": "https://drive.google.com/file/d/1HCRFDfLxWSPZmKkT-rJAyAnEafVoi_sS/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Exámenes de apoyo/Exámen Diagnóstico Java.pdf",
+   "drive_id": "1bKcHDr4zjOmxpf8sY5MYy4xfbgEnYaxl",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 3189171,
+   "bytes_drive": 3189171,
+   "sha256": "f68050687f9655d8a0f6f74f4c109120e4bcb57c55b14eb68c12a8effe8d4767",
+   "url": "https://drive.google.com/file/d/1bKcHDr4zjOmxpf8sY5MYy4xfbgEnYaxl/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Exámenes de apoyo/Exámen Diagnóstico APX 3 (1).pdf",
+   "drive_id": "1Qxb-AKaw34-VABAprmNhX9ziFez50eEn",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 90124,
+   "bytes_drive": 90124,
+   "sha256": "de941dba8050b4d498375ad4f40b07abba37e9eb9fb004f364373002a231cdf5",
+   "url": "https://drive.google.com/file/d/1Qxb-AKaw34-VABAprmNhX9ziFez50eEn/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Exámenes de apoyo/Examen Diagnóstico APX 4.pdf",
+   "drive_id": "1GBF-JW6ZY3SBqrrQOhg5VkmvCNkKih15",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 569055,
+   "bytes_drive": 569055,
+   "sha256": "3b507fe5c91d034e828465ca1976b9dc961fd09dd82c115637bcd9cd1de2e6a0",
+   "url": "https://drive.google.com/file/d/1GBF-JW6ZY3SBqrrQOhg5VkmvCNkKih15/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Exámenes de apoyo/LINKS.docx",
+   "drive_id": "1h_eKdq0eX6oOoVAc6ldeE-RuDC_MhArL",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 197547,
+   "bytes_drive": 197547,
+   "sha256": "c3ebe89dba38e85165b5af639b0715f3f65cafe5d76033cf65f0e8d68e04eeb3",
+   "url": "https://drive.google.com/file/d/1h_eKdq0eX6oOoVAc6ldeE-RuDC_MhArL/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Transacción/Ejemplo de Creación de Transacción.pdf",
+   "drive_id": "1T1-uGfwmcNKHQyBqlqpeza0JI9SVRLoo",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 80694,
+   "bytes_drive": 80694,
+   "sha256": "fdbd6c43e53266bf906e19ce92be77ce8dc718d921f49f155d5da5527b6088d4",
+   "url": "https://drive.google.com/file/d/1T1-uGfwmcNKHQyBqlqpeza0JI9SVRLoo/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Ejemplo de Creación de Transacción.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Transacción/APX Online - Creación de Transacciones.pdf",
+   "drive_id": "1FPJ9wv3nBeCxAHjaljWhaouRmYNZveIa",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 562762,
+   "bytes_drive": 562762,
+   "sha256": "c34bb41ed11c8d3806a9d19adae8067ef78b72cc949eef24814fede56632389f",
+   "url": "https://drive.google.com/file/d/1FPJ9wv3nBeCxAHjaljWhaouRmYNZveIa/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Librerías/Creación de librería.pdf",
+   "drive_id": "1dDXZ8vB9XWb0YUADWU8GPzVX0mKlKbAK",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 100545,
+   "bytes_drive": 100545,
+   "sha256": "018163bf318e762c1c1cf1eda06f6a9973f973940f75f28b9ae272d8d17625f5",
+   "url": "https://drive.google.com/file/d/1dDXZ8vB9XWb0YUADWU8GPzVX0mKlKbAK/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Creación de librería.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Librerías/APX Online - Librerías MongoDB.pdf",
+   "drive_id": "12MfObS5efFntihLLWtQlb9d6wP1mvZWp",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 355831,
+   "bytes_drive": 355831,
+   "sha256": "61cdeda223c76db19ee055e8768d8c97b76a5b2174b8f8864dd97f78c94bd262",
+   "url": "https://drive.google.com/file/d/12MfObS5efFntihLLWtQlb9d6wP1mvZWp/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Librerías/APX Online - Librerías simples.pdf",
+   "drive_id": "1hPZyAb0tkcMfQ9_GvfKw3f85ZknHM0rL",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 240844,
+   "bytes_drive": 240844,
+   "sha256": "aeff314d611bbaa84962eb01b00a900cc55fa9afcb490d3b47ce19cf92a28ebb",
+   "url": "https://drive.google.com/file/d/1hPZyAb0tkcMfQ9_GvfKw3f85ZknHM0rL/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Librerías/APX Online - Trabajar con el componente Librería.pdf",
+   "drive_id": "1p_Pi4qcXY_9hxbYUOtJtj30sWPqpEO0o",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 622778,
+   "bytes_drive": 622778,
+   "sha256": "6be72b769ebce6025f9d9e641676329c3ea118370eeb4001a086b8624bcbe8ac",
+   "url": "https://drive.google.com/file/d/1p_Pi4qcXY_9hxbYUOtJtj30sWPqpEO0o/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/DTO/Ejemplo de DTO.pdf",
+   "drive_id": "1HmW9rmdIgC8V0q8sxhdzsVTrGu4uLr9m",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 120577,
+   "bytes_drive": 120577,
+   "sha256": "2ce249813a583f42ec7490f41f37179659c28edce54d305a55fc86bd5566407d",
+   "url": "https://drive.google.com/file/d/1HmW9rmdIgC8V0q8sxhdzsVTrGu4uLr9m/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Ejemplo de DTO.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/DTO/APX Online - Extraer un DTO.pdf",
+   "drive_id": "1WShQ0Lenj8LnNPRJsDnOB2lbq7PxkpV7",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 725407,
+   "bytes_drive": 725407,
+   "sha256": "94a85f9103692e15958d2a1540b82789278c36e4556174754f3aee2011e4a060",
+   "url": "https://drive.google.com/file/d/1WShQ0Lenj8LnNPRJsDnOB2lbq7PxkpV7/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/DTO/APX Online - Creación DTO.pdf",
+   "drive_id": "11yq507UwVB8qKiKlDGweGxBSIPUBBGh1",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 180557,
+   "bytes_drive": 180557,
+   "sha256": "a6a2e55c79cfc510598e14329335a7272e04d4959f32e0580e6819c9e9a4932c",
+   "url": "https://drive.google.com/file/d/11yq507UwVB8qKiKlDGweGxBSIPUBBGh1/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/APX Online Capabilities.pdf",
+   "drive_id": "1X5h44EwwufUwtuRV_u7zmv8MnV3V5LdK",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 1605047,
+   "bytes_drive": 1605047,
+   "sha256": "9f7661ec8d46696e4b94d6dfccf790a5ff613e8fa9641afa33868a3bf25faea3",
+   "url": "https://drive.google.com/file/d/1X5h44EwwufUwtuRV_u7zmv8MnV3V5LdK/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/APX Online Capabilities.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX ONLINE/2 - APX Online Components.pdf",
+   "drive_id": "11k5LGMzJcXuToqTxr45254KQbxlwYVf_",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 98597,
+   "bytes_drive": 98597,
+   "sha256": "b5de0e0f66efed969beb0b2b845572aadd9bd65f86b20d345330722a1453ea4b",
+   "url": "https://drive.google.com/file/d/11k5LGMzJcXuToqTxr45254KQbxlwYVf_/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/Conceptos APX Batch.pdf",
+   "drive_id": "1C61p0c84Xf-DwKStgG47j8A6zDbIP79X",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 777383,
+   "bytes_drive": 777383,
+   "sha256": "bda75fbe240cbc980082eb43fc20efc5f9663181a756297eb9c278ba28b89b9f",
+   "url": "https://drive.google.com/file/d/1C61p0c84Xf-DwKStgG47j8A6zDbIP79X/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Conceptos APX Batch.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/Creación JOB en APX BATCH.pdf",
+   "drive_id": "1-Zt0AAhfAOUHg34SySqJXK1q1acjIHKa",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 78337,
+   "bytes_drive": 78337,
+   "sha256": "e4740f7b45f779c942708152a4b15d43aeef011e9bff8f274d2184bdb7fa53d1",
+   "url": "https://drive.google.com/file/d/1-Zt0AAhfAOUHg34SySqJXK1q1acjIHKa/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Creación JOB en APX BATCH.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/Componentes APX BATCH.pdf",
+   "drive_id": "1ifNLXFlJruG3MlvGhp274LBqZKXNlnFx",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 80921,
+   "bytes_drive": 80921,
+   "sha256": "89dcef81c089fdab1a1af5e0f35b42692f362ce8450616243e02a4a1ecc0b5b5",
+   "url": "https://drive.google.com/file/d/1ifNLXFlJruG3MlvGhp274LBqZKXNlnFx/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Componentes APX BATCH.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/Introducción APX Batch.pdf",
+   "drive_id": "1jDaKoNSHD9mOeC4workqYlRcV3ZfKba5",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 309558,
+   "bytes_drive": 309558,
+   "sha256": "ebd64ef79e08e19ff1ff1a3d28fb0b43833c6242f6b06f4347296af65b5b8978",
+   "url": "https://drive.google.com/file/d/1jDaKoNSHD9mOeC4workqYlRcV3ZfKba5/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Introducción APX Batch.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/APX Batch - Documentación.pdf",
+   "drive_id": "115QFvJ1iUmmpJTfonGWA0dOZYYloUTyi",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 244136,
+   "bytes_drive": 244136,
+   "sha256": "6d2ea52bdacf8d7df1a92fdfc3235e147f7db83feb1df752e67e112c6f7d5d16",
+   "url": "https://drive.google.com/file/d/115QFvJ1iUmmpJTfonGWA0dOZYYloUTyi/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/APX Batch - Conceptos por Lotes.pdf",
+   "drive_id": "1LCx0_Uh5YuYchti25wiKYLJogHiAVpyr",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 406370,
+   "bytes_drive": 406370,
+   "sha256": "4538a89e0d499d524c1d59524ba7f573f1103594e5387662db8662989df49907",
+   "url": "https://drive.google.com/file/d/1LCx0_Uh5YuYchti25wiKYLJogHiAVpyr/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX BATCH/APX Batch - Componentes del lote APX.pdf",
+   "drive_id": "1t6FOqo4OEtljd6GWy1Scf_ydkKrJwcYR",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 183127,
+   "bytes_drive": 183127,
+   "sha256": "a23fda35123e41e4a5d4e29312d1d16333c516c1d922bf59299c366cd7697644",
+   "url": "https://drive.google.com/file/d/1t6FOqo4OEtljd6GWy1Scf_ydkKrJwcYR/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/Ether.pdf",
+   "drive_id": "1_30OzwJHaecCTQiYzSexiocDIkELXwuE",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 25557348,
+   "bytes_drive": 25557348,
+   "sha256": "4e7287bb639b1815a2eaada57156b0808f9664ad4c4c75691a2605c817beedfe",
+   "url": "https://drive.google.com/file/d/1_30OzwJHaecCTQiYzSexiocDIkELXwuE/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Ether.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/APX Qué es.pdf",
+   "drive_id": "1AQqB-7LU-HxCecaGXlc5zjIT77B2TA7m",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 76145,
+   "bytes_drive": 76145,
+   "sha256": "ae723620b01edbbb424b7c8376ac34c5a0ec5504ae3490c82b857eb7ff73d092",
+   "url": "https://drive.google.com/file/d/1AQqB-7LU-HxCecaGXlc5zjIT77B2TA7m/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/APX Qué es.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/Manual de Ether.pdf",
+   "drive_id": "1H4gg9mAEd6dG3ecC7iKuEnv2D3t3geC6",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 2342648,
+   "bytes_drive": 2342648,
+   "sha256": "970e24eb59142f23f38cfae350f7885f0c87cab9508588686f87d17d00a39ac9",
+   "url": "https://drive.google.com/file/d/1H4gg9mAEd6dG3ecC7iKuEnv2D3t3geC6/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/Manual de Ether.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/AcademicosAPX.pdf",
+   "drive_id": "1kzSQCJCc6i3QDN1dhugTIhQe5EGUh-_O",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 8985486,
+   "bytes_drive": 8985486,
+   "sha256": "142aa58be8f36d031c07d853facd960972d1e7037f0bacdd781bc1b0bac8fb5d",
+   "url": "https://drive.google.com/file/d/1kzSQCJCc6i3QDN1dhugTIhQe5EGUh-_O/view",
+   "duplicado_de": [
+    "2 - Material APX - parte 1/AcademicosAPX.pdf"
+   ]
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Documentación APX/1 - APX Capabilities.pdf",
+   "drive_id": "1jaCN0VJx3ni-ttu5Aike-bNrWr9BgWl0",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 1585227,
+   "bytes_drive": 1585227,
+   "sha256": "cc7e7f5470b07655e2aeb71bbae85e3f4cce66b829f7dd9caf64ffa8b9f86c50",
+   "url": "https://drive.google.com/file/d/1jaCN0VJx3ni-ttu5Aike-bNrWr9BgWl0/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Teoría APX/APX_BATCH.pptx.pdf",
+   "drive_id": "1lhO9eY8i-ikNMki3s4rU83lgwyf9xEa9",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 757726,
+   "bytes_drive": 757726,
+   "sha256": "42379fa8d2ea1880057d584e8e54ed8b315a5ae7aef77b77e1bc24562e1c521f",
+   "url": "https://drive.google.com/file/d/1lhO9eY8i-ikNMki3s4rU83lgwyf9xEa9/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Teoría APX/APX_Online.pptx",
+   "drive_id": "1mu9beTuetMqHqHHpLvUvLtLuzfFAyxk9",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 2772816,
+   "bytes_drive": 2772816,
+   "sha256": "aab5de60d836b8d078aebc2402caf205008eb409f1f472e7903c88a1991d9a12",
+   "url": "https://drive.google.com/file/d/1mu9beTuetMqHqHHpLvUvLtLuzfFAyxk9/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Teoría APX/Curse_APX_Online.pptx",
+   "drive_id": "1EVqRFCRc89tCwCFbToI_EzPmTU2RDJRd",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 1613827,
+   "bytes_drive": 1613827,
+   "sha256": "28ce009387daedbeb69bd04f831d356a9a2757e3066c44bd5ab50b40abcc7c86",
+   "url": "https://drive.google.com/file/d/1EVqRFCRc89tCwCFbToI_EzPmTU2RDJRd/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Formularios/Formularios APX.docx",
+   "drive_id": "1IfIf_GiUNvrm4qIgE3KyeNpYV49cdAlo",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 8880,
+   "bytes_drive": 8880,
+   "sha256": "1a00be632fe81b44017bf0d8b5bcdffa223475183a24b1bc3aedc91737df7680",
+   "url": "https://drive.google.com/file/d/1IfIf_GiUNvrm4qIgE3KyeNpYV49cdAlo/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Mapas Mentales/APX ONLINE PT1.jpg",
+   "drive_id": "1h3XPsX4yHahj4Z45Jhb1NyXzeGZdFFoX",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 8529759,
+   "bytes_drive": 8529759,
+   "sha256": "b3401bd094c40bd35cd15892bec1a03c87525f97287eb3631efebfb474429084",
+   "url": "https://drive.google.com/file/d/1h3XPsX4yHahj4Z45Jhb1NyXzeGZdFFoX/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Mapas Mentales/APX BATCH PT1.jpg",
+   "drive_id": "1H6r9d3nK-g0ui2OzUT_6LLrC4eR7Mpzo",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 4979354,
+   "bytes_drive": 4979354,
+   "sha256": "c1c9c68e2ab0f9159195107128c4b479fb115b6be0c260ae096c19ee67d889f0",
+   "url": "https://drive.google.com/file/d/1H6r9d3nK-g0ui2OzUT_6LLrC4eR7Mpzo/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Mapas Mentales/APX ONLINE PT3.jpg",
+   "drive_id": "1feRi4_qDsQDXkANWbU_rLKvQ0IKzPb7n",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 3112931,
+   "bytes_drive": 3112931,
+   "sha256": "06e8f1a1b89a84bcf1f5c3e4ed05e4006e653427930ce118523b1510faacd413",
+   "url": "https://drive.google.com/file/d/1feRi4_qDsQDXkANWbU_rLKvQ0IKzPb7n/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Mapas Mentales/APX ONLINE PT2.jpg",
+   "drive_id": "1t6zMfVeu-q03oYn-bdq98LMdRb8t25-V",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 6786110,
+   "bytes_drive": 6786110,
+   "sha256": "aeca102d4ec6415d5d3c824a8eabea986cea80d9b1cd72e51cd927c647cf7bf6",
+   "url": "https://drive.google.com/file/d/1t6zMfVeu-q03oYn-bdq98LMdRb8t25-V/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Mapas Mentales/APX BATCH PT2.jpg",
+   "drive_id": "1oaWQ-YuEORHIfZxbBrLb9mncSY6JOC0D",
+   "origen": "Material de estudio - APX",
+   "tipo": "original de Drive",
+   "bytes": 4556798,
+   "bytes_drive": 4556798,
+   "sha256": "552620a29fc4abbfd93f3b86685ed6e186551d42f46218310b46fb2f3d611301",
+   "url": "https://drive.google.com/file/d/1oaWQ-YuEORHIfZxbBrLb9mncSY6JOC0D/view"
+  },
+  {
+   "ruta": "1 - Material de estudio - APX/Material Extraído.docx",
+   "drive_id": "1Mg1_m5NIoAQ9JPTbkj0u2zQryz7yZrX_bdYdVVBW7vk",
+   "origen": "Material de estudio - APX",
+   "tipo": "Google Doc exportado a .docx",
+   "bytes": 6851,
+   "bytes_drive": null,
+   "sha256": "f5b7784761578d1bd5ae28e9f6081890a7989996a9cf3c6cd9959c9499a42392",
+   "url": "https://docs.google.com/document/d/1Mg1_m5NIoAQ9JPTbkj0u2zQryz7yZrX_bdYdVVBW7vk/edit"
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Ether.pdf",
+   "drive_id": "1UfJTH0AzbmDxAafFLtZi2o0HZ-l4pM4H",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 25557348,
+   "bytes_drive": 25557348,
+   "sha256": "4e7287bb639b1815a2eaada57156b0808f9664ad4c4c75691a2605c817beedfe",
+   "url": "https://drive.google.com/file/d/1UfJTH0AzbmDxAafFLtZi2o0HZ-l4pM4H/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/Ether.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/APX Online Capabilities.pdf",
+   "drive_id": "1-K-ohZL8Op637npN-2ISY0eOIRJvzqlZ",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 1605047,
+   "bytes_drive": 1605047,
+   "sha256": "9f7661ec8d46696e4b94d6dfccf790a5ff613e8fa9641afa33868a3bf25faea3",
+   "url": "https://drive.google.com/file/d/1-K-ohZL8Op637npN-2ISY0eOIRJvzqlZ/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX ONLINE/APX Online Capabilities.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Introducción APX Batch.pdf",
+   "drive_id": "1yrCwZQq3qpvgBSZ-GzGl_iYHZyayy3AP",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 309558,
+   "bytes_drive": 309558,
+   "sha256": "ebd64ef79e08e19ff1ff1a3d28fb0b43833c6242f6b06f4347296af65b5b8978",
+   "url": "https://drive.google.com/file/d/1yrCwZQq3qpvgBSZ-GzGl_iYHZyayy3AP/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX BATCH/Introducción APX Batch.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Manual de Ether.pdf",
+   "drive_id": "1Sz9O130HmwzwPUHWwbegwt68yKoCfksJ",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 2342648,
+   "bytes_drive": 2342648,
+   "sha256": "970e24eb59142f23f38cfae350f7885f0c87cab9508588686f87d17d00a39ac9",
+   "url": "https://drive.google.com/file/d/1Sz9O130HmwzwPUHWwbegwt68yKoCfksJ/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/Manual de Ether.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Componentes APX Online.pdf",
+   "drive_id": "1Sr4uGNZlKHRDUb6vqbTjQfFfiSHS6ReI",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 93423,
+   "bytes_drive": 93423,
+   "sha256": "8965de723aa9b5840817a26567576ea342001fcb10da40d88615daf700627f44",
+   "url": "https://drive.google.com/file/d/1Sr4uGNZlKHRDUb6vqbTjQfFfiSHS6ReI/view"
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Ejemplo de DTO.pdf",
+   "drive_id": "1uPvKeiDs7GhwwBubxkfLM9g9NSzmRPDg",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 120577,
+   "bytes_drive": 120577,
+   "sha256": "2ce249813a583f42ec7490f41f37179659c28edce54d305a55fc86bd5566407d",
+   "url": "https://drive.google.com/file/d/1uPvKeiDs7GhwwBubxkfLM9g9NSzmRPDg/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX ONLINE/DTO/Ejemplo de DTO.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Creación JOB en APX BATCH.pdf",
+   "drive_id": "151oTzi6ZpukULcnAg-9MSKBQu4G1-oZE",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 78337,
+   "bytes_drive": 78337,
+   "sha256": "e4740f7b45f779c942708152a4b15d43aeef011e9bff8f274d2184bdb7fa53d1",
+   "url": "https://drive.google.com/file/d/151oTzi6ZpukULcnAg-9MSKBQu4G1-oZE/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX BATCH/Creación JOB en APX BATCH.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Ejemplo de Creación de Transacción.pdf",
+   "drive_id": "1fDYwVqDdOnUQbBbjXEMNNTEjxQraQTja",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 80694,
+   "bytes_drive": 80694,
+   "sha256": "fdbd6c43e53266bf906e19ce92be77ce8dc718d921f49f155d5da5527b6088d4",
+   "url": "https://drive.google.com/file/d/1fDYwVqDdOnUQbBbjXEMNNTEjxQraQTja/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Transacción/Ejemplo de Creación de Transacción.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/AcademicosAPX.pdf",
+   "drive_id": "1RMQq1F1xYe-KSfgt7C1Lvh9g0YDAc-ZB",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 8985486,
+   "bytes_drive": 8985486,
+   "sha256": "142aa58be8f36d031c07d853facd960972d1e7037f0bacdd781bc1b0bac8fb5d",
+   "url": "https://drive.google.com/file/d/1RMQq1F1xYe-KSfgt7C1Lvh9g0YDAc-ZB/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/AcademicosAPX.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Creación de librería.pdf",
+   "drive_id": "1RmW5iscvxhw5NDDDdmSOxFmhqa-6cbs8",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 100545,
+   "bytes_drive": 100545,
+   "sha256": "018163bf318e762c1c1cf1eda06f6a9973f973940f75f28b9ae272d8d17625f5",
+   "url": "https://drive.google.com/file/d/1RmW5iscvxhw5NDDDdmSOxFmhqa-6cbs8/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX ONLINE/Librerías/Creación de librería.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Conceptos APX Batch.pdf",
+   "drive_id": "1cCfoqcNIFwOdGAxi6FlNLl7mtXIilAij",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 777383,
+   "bytes_drive": 777383,
+   "sha256": "bda75fbe240cbc980082eb43fc20efc5f9663181a756297eb9c278ba28b89b9f",
+   "url": "https://drive.google.com/file/d/1cCfoqcNIFwOdGAxi6FlNLl7mtXIilAij/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX BATCH/Conceptos APX Batch.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/APX Qué es.pdf",
+   "drive_id": "18GRIP-TgPHl9kAv_jya-TWS4yR1QO7E7",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 76145,
+   "bytes_drive": 76145,
+   "sha256": "ae723620b01edbbb424b7c8376ac34c5a0ec5504ae3490c82b857eb7ff73d092",
+   "url": "https://drive.google.com/file/d/18GRIP-TgPHl9kAv_jya-TWS4yR1QO7E7/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX Qué es.pdf"
+   ]
+  },
+  {
+   "ruta": "2 - Material APX - parte 1/Componentes APX BATCH.pdf",
+   "drive_id": "1AhuGp16DvW6CFUAK78HIGAi4E5J1NsqM",
+   "origen": "Material APX - parte 1",
+   "tipo": "original de Drive",
+   "bytes": 80921,
+   "bytes_drive": 80921,
+   "sha256": "89dcef81c089fdab1a1af5e0f35b42692f362ce8450616243e02a4a1ecc0b5b5",
+   "url": "https://drive.google.com/file/d/1AhuGp16DvW6CFUAK78HIGAi4E5J1NsqM/view",
+   "duplicado_de": [
+    "1 - Material de estudio - APX/Documentación APX/APX BATCH/Componentes APX BATCH.pdf"
+   ]
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/01 - Java E.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 498398,
+   "bytes_drive": null,
+   "sha256": "3ae452c9da8d1c61deb86647fcdc1169ca32631a49f026441da1078464b09a7f",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5tBJnebiCm9qi_R0lOHV_K8sQLVKImWe5kM0L6OJszEsuIQ/viewform",
+   "preguntas": 24,
+   "imagenes": 15
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/02 - Java DE.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 1906168,
+   "bytes_drive": null,
+   "sha256": "468cbcb55851829959f634777d9f21a986a8549f2740e233ab1491da547afc80",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSdacbJSexsLyC-fCKHhBG5FH2mAkAEICvTIfHLTA57NCS9rRA/viewform",
+   "preguntas": 25,
+   "imagenes": 18
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/03 - Java D.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 292614,
+   "bytes_drive": null,
+   "sha256": "f6cf3507442cdf1acfcc7238147a28e25c40a9e13c40827ae7b1d9a14f9921c6",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSdXsOBHRoBzgpPzfPvlAzri9hCls9YcJ296eJLLiYVxOUmRkA/viewform",
+   "preguntas": 24,
+   "imagenes": 17
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/04 - Java Sesiones.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 5235727,
+   "bytes_drive": null,
+   "sha256": "3e6ab558e4dc99dcd406172c395f974c52596e0fd703bcec58e7e5f4d59d0216",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfwDGuVs7Tt_poz2VLjAZiBR201ORAWjIDWG1o7zt5Dr-jTfQ/viewform",
+   "preguntas": 53,
+   "imagenes": 46
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/05 - Diagnóstico APX.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 45100,
+   "bytes_drive": null,
+   "sha256": "2af0a342d499ba7cda9a95d547ecff048bda3aa57d5fb724ee303e57567d9c38",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSe2fm1UfLU_l_T4D4XGFO0wy7cH_MnIkYFdIZ2RKPlvAPjcEw/viewform",
+   "preguntas": 81,
+   "imagenes": 0
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/06 - Diagnóstico APX 3.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 47374,
+   "bytes_drive": null,
+   "sha256": "e856b6ea43c78b6b374296eed668de144c220071735a5dface8e2432047bbee1",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfQuRlgpRYH7mXYv_4i4z2n5o0UBPuull_C6d0gLayi8GLF9g/viewform",
+   "preguntas": 94,
+   "imagenes": 0
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/07 - Diagnóstico APX 5.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 2176062,
+   "bytes_drive": null,
+   "sha256": "d4d2693dcdac05192c8887f4405828cf54c157ec04c10b65870481c79927a702",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScAVxlZWzjiIpDjZOG9j0mgMG5neo1_AFWwJSmVwLg9plKBEA/viewform",
+   "preguntas": 85,
+   "imagenes": 19
+  },
+  {
+   "ruta": "3 - Cuestionarios (Google Forms)/08 - Teoría APX.docx",
+   "drive_id": null,
+   "origen": "generado desde Google Forms",
+   "tipo": "generado desde Google Forms",
+   "bytes": 41738,
+   "bytes_drive": null,
+   "sha256": "754b8162984129af1129a3bdeb5709ff9133e7e67dd2f0238812cb910d2ea0b4",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScTSLRC0D5XJIRJET2un9AVWt7D6TPyq5jDqogyPe8daahrWg/viewform",
+   "preguntas": 34,
+   "imagenes": 0
+  },
+  {
+   "ruta": "4 - Simulaciones (Microsoft Forms)/01 - Simulación APX V1.docx",
+   "drive_id": null,
+   "origen": "generado desde Microsoft Forms",
+   "tipo": "generado desde Microsoft Forms",
+   "bytes": 42918,
+   "bytes_drive": null,
+   "sha256": "d95a3744d76f95d1518b94aaea038cfc827d8acf4dcd59dafbfbe55e54e48c7e",
+   "url": "https://forms.office.com/r/tFbJ4Wwp3y",
+   "preguntas": 45,
+   "imagenes": 0
+  },
+  {
+   "ruta": "4 - Simulaciones (Microsoft Forms)/02 - Simulación APX V2.docx",
+   "drive_id": null,
+   "origen": "generado desde Microsoft Forms",
+   "tipo": "generado desde Microsoft Forms",
+   "bytes": 42516,
+   "bytes_drive": null,
+   "sha256": "3c626679cc9f18851d747a8a83075a53c7a89f33efe108e9a35281ffa2d5108d",
+   "url": "https://forms.office.com/r/pTA8BgUx6Z",
+   "preguntas": 45,
+   "imagenes": 0
+  },
+  {
+   "ruta": "4 - Simulaciones (Microsoft Forms)/03 - Cuestionario APX V3.docx",
+   "drive_id": null,
+   "origen": "generado desde Microsoft Forms",
+   "tipo": "generado desde Microsoft Forms",
+   "bytes": 684996,
+   "bytes_drive": null,
+   "sha256": "7996800e5e0f4ca124fdfd6024f0bf3d848889fa6903be14d0e0ba3fe089af16",
+   "url": "https://forms.office.com/r/NdJL1Kjx5r",
+   "preguntas": 32,
+   "imagenes": 26
+  },
+  {
+   "ruta": "4 - Simulaciones (Microsoft Forms)/04 - Simulación APX V4.docx",
+   "drive_id": null,
+   "origen": "generado desde Microsoft Forms",
+   "tipo": "generado desde Microsoft Forms",
+   "bytes": 1461903,
+   "bytes_drive": null,
+   "sha256": "fd12a05a9a203ba9017376a3e1aa1b3cd84de39db812b5490be6aae884e84124",
+   "url": "https://forms.office.com/r/f2uezELfV9",
+   "preguntas": 41,
+   "imagenes": 36
+  },
+  {
+   "ruta": "5 - Quizzes Educaplay (APX)/01 - Quiz APX.docx",
+   "drive_id": null,
+   "origen": "generado desde la versión imprimible de Educaplay",
+   "tipo": "generado desde la versión imprimible de Educaplay",
+   "bytes": 66057,
+   "bytes_drive": null,
+   "sha256": "60d47c3585c6855f14bf6f26e191d5d690e7ac479c7259abb19a14f86dacc8ba",
+   "url": "https://www.educaplay.com/learning-resources/25151714-desafio_java_fundamentos.html",
+   "preguntas": 22,
+   "imagenes": 6
+  },
+  {
+   "ruta": "5 - Quizzes Educaplay (APX)/02 - Quiz Desarrollo APX 1.docx",
+   "drive_id": null,
+   "origen": "generado desde la versión imprimible de Educaplay",
+   "tipo": "generado desde la versión imprimible de Educaplay",
+   "bytes": 179613,
+   "bytes_drive": null,
+   "sha256": "8f21fd31801bc41c4a975793c5b29c61d1b86510844c1e76a15713774717635b",
+   "url": "https://www.educaplay.com/learning-resources/21896295-quiz_desarrollo_apx.html",
+   "preguntas": 25,
+   "imagenes": 8
+  },
+  {
+   "ruta": "5 - Quizzes Educaplay (APX)/03 - Quiz Desarrollo APX 2.docx",
+   "drive_id": null,
+   "origen": "generado desde la versión imprimible de Educaplay",
+   "tipo": "generado desde la versión imprimible de Educaplay",
+   "bytes": 152680,
+   "bytes_drive": null,
+   "sha256": "89e038d520ab52c2c013ed3c389734a29770423f921c288c8dae7c3e44dd1012",
+   "url": "https://www.educaplay.com/learning-resources/21909314-quiz_desarrollo_apx_2.html",
+   "preguntas": 24,
+   "imagenes": 14
+  }
+ ]
+}
