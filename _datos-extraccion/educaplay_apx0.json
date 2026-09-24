@@ -1,0 +1,603 @@
+{
+ "title": "Quiz APX",
+ "url": "https://www.educaplay.com/learning-resources/25151714-desafio_java_fundamentos.html",
+ "heading": "Quiz APXOnline version\n                                    \n                                        Quiz APX\n                                    \n                                                                            by HR Mexico",
+ "questions": [
+  {
+   "num": "1",
+   "title": "¿Para qué sirve el patrón de diseño Command?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Separar presentación de persistencia.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Garantizar una única instancia de una clase.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Encapsular una petición como un objeto para parametrizar, encolar o deshacer.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Recorrer colecciones sin exponer detalles internos.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "title": "¿Para qué sirve la palabra clave throw en Java?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Declarar excepciones en la firma de un método.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Definir una clase personalizada de excepción.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Capturar excepciones en un bloque try-catch.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Crear y lanzar explícitamente una excepción.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "title": "¿Qué paquete está importado por defecto en Java?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "java.net",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "java.lang",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "java.util",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "java.io",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "title": "¿Qué imprime este bucle?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "0",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "3",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "5",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "-3",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "title": "¿Qué imprime este código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "false",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Excepción",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "true",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "null",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "title": "¿Qué imprime este código de matriz?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "0",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "9",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "18",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "15",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "title": "¿Qué imprime este código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "1",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "0",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "2",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "-1",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "title": "¿Qué imprime este programa de herencia?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Error de compilación",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Clase Hija",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Clase Hija Clase Padre",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Clase Padre Clase Hija",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "9",
+   "title": "Dado el siguiente código ¿cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Error de compilación",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Lanza StackOverflowError",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Imprime Numerico y luego Default",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Imprime Default y luego Numerico",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "title": "¿Cuál es el comando Maven que compila el proyecto pero no instala?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "mvn compile",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "mvn package",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "mvn install",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "mvn deploy",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "title": "¿Cuál es el comando Bash para copiar archivos?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "cp",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "mv",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "scp",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "copy",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "title": "¿Cuál es la rama principal en GitFlow para subir cambios a producción?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "release",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "master",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "feature",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "develop",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "title": "¿Qué patrón asegura una única instancia de una clase?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Factory",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Singleton",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Builder",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Prototype",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "14",
+   "title": "14. ¿Cuál de las siguientes describe a Spring Batch?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Librería de testing.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Marco de trabajo por lotes diseñado para aplicaciones batch.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Framework para microservicios REST.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Motor de persistencia ORM.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "15",
+   "title": "¿Cuál es la utilidad de las bases de datos relacionales?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Desplegar jobs batch.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Guardar información en tablas, filas y columnas.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Gestionar dependencias Maven.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Ejecutar microservicios en contenedores.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "16",
+   "title": "¿Qué herramienta analiza vulnerabilidades en código?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Docker",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "SonarQube",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Jenkins",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Maven",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "17",
+   "title": "¿Qué herramienta sirve para seguimiento ágil de proyectos?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Azure DevOps",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "GitHub",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "IntelliJ IDEA",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Jira",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "18",
+   "title": "¿Un componente UUAAT000-00-MX.xml en que carpeta se genera?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "src/main/java",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "src/config",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "src/main/resources",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "src/test/resources",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "19",
+   "title": "Una transacción APX es la unidad aplicativa que se ejecutará en APX Batch.",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Verdadero",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Falso",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "20",
+   "title": "Fue creada para dar a desarrolladores y administradores una herramienta para gestionar operaciones en la plataforma:",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Atenea",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "API Catalog",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Consola de operaciones APX",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Jenkins",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "21",
+   "title": "¿Cuál es la afirmación correcta sobre APX Operation Console?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Herramienta de testing.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Herramienta web que permite gestionar configuración, verificar componentes y consultar jobs.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Consola SQL.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Framework batch.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "22",
+   "title": "¿Cuándo un cambio en una transacción no es retrocompatible?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Al incrementar la versión minor.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Al actualizar documentación.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Cuando cambia el tipo de dato de un parámetro de entrada o salida.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Al agregar un parámetro opcional.",
+     "multi": false
+    }
+   ]
+  }
+ ]
+}

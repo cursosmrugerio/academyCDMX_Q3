@@ -1,0 +1,643 @@
+{
+ "title": "Quiz Desarrollo APX 2",
+ "url": "https://www.educaplay.com/learning-resources/21909314-quiz_desarrollo_apx_2.html",
+ "heading": "Quiz Desarrollo APX 2Online version\n                                    \n                                        Desarrollo APX\n                                    \n                                                                            by HR Mexico",
+ "questions": [
+  {
+   "num": "1",
+   "title": "En Git, ¿cuál es el comando para crear una rama?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "git checkout miRama",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "git branch miRama",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "git stash miRama",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "git create miRama",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "title": "En Git, ¿cuál es el comando para crear un commit?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "git add, git commit -m \"comentario\"",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "git log, git commit",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "git commit -a \"comentario\"",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "git stash, git commit",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "title": "En Git, ¿cuál es el comando para cambiar de rama?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "git merge nuevaRama",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "git checkout nuevaRama",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "git branch nuevaRama",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "git switch nuevaRama",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "title": "¿Cuál es el comando para compilar un proyecto Maven?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "mvn install",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "mvn compile",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "mvn build",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "mvn package",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "title": "¿Qué comando se utiliza para instalar el paquete en el repositorio local de Maven?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "mvn deploy",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "mvn package",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "mvn install",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "mvn compile",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "title": "¿Cuál es el comando para ejecutar las pruebas en un proyecto Maven?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "mvn test",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "mvn run-tests",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "mvn verify",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "mvn check",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Compilation error.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Andrea, Josias, Kevin, Laila",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Laila, Kevin, Josias, Andrea",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Kevin, Andrea, Laila, Josias",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "9, 8, 3, 1",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "3, 1, 9, 8",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Compilation error",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "1,3,8,9",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "9",
+   "title": "¿Cuál será la salida del siguiente fragmento de código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Error: División por cero.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Error genérico.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Ejecución finalizada.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Resultado:  1",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "title": "¿Qué ocurrirá si ejecutas el siguiente código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Se imprime \"Edad válida.\"",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Lanza una excepción no controlada.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Se imprime \"Excepción capturada: Edad no válida para votar.\"",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "No se imprime nada.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "title": "¿Cuál será la salida del siguiente código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Sonido genérico de animal.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Ladrido.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Error de compilación.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "No se imprime nada.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "title": "¿Qué ocurre cuando ejecutas este fragmento de código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Error de compilación porque sumar es estático.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Imprime \"Resultado: 15\".",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Error de ejecución.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "No se imprime nada.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Nadia, Mariel, Elo, Alejandro",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Compilation error",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Mariel, Alejandro, Elo, Nadia",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Alejandro, Elo, Mariel, Nadia",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "14",
+   "title": "Dado el siguiente código, ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "8, 5, 3, 6",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "3, 5, 6, 8",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Compilation error",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "8, 6, 5, 3",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "15",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "4,8,1,6",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "RuntimeException",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "8,6,4,1",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "1,4,6,8",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "16",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Cafe Azul Rojo",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Amarillo Rosa Rojo",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Verde Azul Rojo",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Runtime exception",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "17",
+   "title": "Dado el siguiente código. Con que se necesita remplazar línea 1, línea 2 y línea 3 para que la salida sea Shape: Constructor, Square: foo y Shape: foo",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Square square = new Square (\"bar\"); square.foo (\"bar\"); square.foo();",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Square square = new Square (\"bar\"); square.foo (\"bar\"); square.foo (\"bar\");",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Square square = new Square (); square.foo (); square.foo(bar);",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Square square = new Square(); square.foo(\"bar\"); square.foo();",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "18",
+   "title": "Dado el siguiente código. ¿Cual será el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Java Jeve ve",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Java Java Java",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Java Jeve va",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Compilation fails",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "19",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Valor de la clase A 30",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Valor de la clase B 36",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Valor de la clase C 28",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Valor de la clase C 44",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "20",
+   "title": "Dado el siguiente código. ¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Constructor Variable",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "static default Constructor Variable",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "static constructor default Variable",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Constructor static Variable",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "21",
+   "title": "¿Cuál es el comando para agregar un DTO en una Deployment Unit?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "apx init dto --uuaa=\"FFUN\" -c=\"001\" --class-name=\"Employe\"",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "apx add dto -y -c=\"001\" --domain=\"customers\" --class-name=\"CustomerDTO\" -d=\"Customer DTO\"",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "22",
+   "title": "Si un DTO cambia es necesario cambiar el serial versión",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Verdadero",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Falso",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "23",
+   "title": "¿Cuál es el comando para agregar una libreria en una Deployment Unit?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "apx init -uuaa=\"FFUN\" -y -c=\"001\" -d=\"Creacion de libreria\"",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "apx add lib -y -c=\"001\" -d=\"Library for Codelab - Customer\"",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "24",
+   "title": "¿Como se agrega jdbc en una librería apx?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "cd artifact/libraries/QWAIR001IMPL apx add util -y -n=\"jdbc\"",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "cd artifact/libraries/QWAIR001IMPL apx add util -n=\"JDBC\"",
+     "multi": false
+    }
+   ]
+  }
+ ]
+}

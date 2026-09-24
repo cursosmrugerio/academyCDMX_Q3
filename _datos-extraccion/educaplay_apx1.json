@@ -1,0 +1,703 @@
+{
+ "title": "Quiz Desarrollo APX 1",
+ "url": "https://www.educaplay.com/learning-resources/21896295-quiz_desarrollo_apx.html",
+ "heading": "Quiz Desarrollo APX 1Online version\n\nDesarrollo APX\n\nby HR Mexico",
+ "questions": [
+  {
+   "num": "1",
+   "title": "¿Cuál es el resultado del siguiente código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "banana apple pears grapes",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "apple banana grapes pears",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "pears grapes apple banana",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Lanza una excepción en tiempo de ejecución",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "title": "El API estándar para acceder a bases de datos en Java es:",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "JDBC.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "JPA/Hibernate.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "ODBC.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "title": "En Java, la diferencia entre throws y throw es:",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Throws se usa en métodos y throw en constructores.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Throws indica el tipo de excepción que el método no maneja, y throw lanza una excepción.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Throws lanza una excepción y throw indica el tipo de excepción que maneja el método.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "title": "¿Cuál es la mejor manera de comprobar que los valores de h1 y h2 son iguales?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "if (h1 == h2)",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "if (h1.equals(h2))",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "if (h1.toString() == h2.toString())",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "if (h1.same(h2))",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "title": "¿Cuál es el resultado del siguiente código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "sc: class Object asc: class AnotherSampleClass",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "sc: class SampleClass asc: class AnotherSampleClass",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "sc: class AnotherSampleClass asc: class SampleClass.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "sc: class AnotherSampleClass asc: class AnotherSampleClass",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "title": "¿Cuál es el resultado del siguiente código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "La compilación falla.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Se lanza una excepción en tiempo de ejecución.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Hash is: 111111, 44444444, 999999999",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "No hay resultado porque este no es el método correcto para determinar el hash.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "title": "¿Cuántos de los fragmentos de código, si compilan?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "2",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "3",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Todos",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Ninguno",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "title": "¿Qué afirmación es correcta?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Si se elimina la línea 10, la compilación tiene éxito.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Si se elimina la línea 11, la compilación tiene éxito.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Si se elimina la línea 12, la compilación tiene éxito.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Si se elimina la línea 13, la compilación tiene éxito.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "9",
+   "title": ". ¿Cuál es la ubicación de archivos temporales utilizados en Batch?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "/fichtemporal/datent.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "/fichtemcomp/datent.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "/datentJobs/datent.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "/temporalFiles/datent.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "title": "Los archivos objeto del procesamiento Batch de APX son de naturaleza estrictamente ____________ y este archivo no es, en ningún caso, un mecanismo de persistencia de información a largo plazo:",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Temporal.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Local.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Permanente.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Parcial.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "title": "¿Cuáles son los campos que definen a una transacción en APX?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Aplicación, Dominio, Descripción, Versión, País.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Aplicación, Transacción, Descripción, Versión.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Aplicación, Transacción, Descripción, Versión, País.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Aplicación, Descripción, Versión, País.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "title": "¿Cuáles son tres malas prácticas?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Comprobación de ArrayIndexOutOfBoundsException al iterar a través de una matriz para determinar cuándo se han visitado todos los elementos.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Verificar errores y, si es necesario, reiniciar el programa para garantizar que los usuarios no se den cuenta de los problemas.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Verificar FileNotFoundException para informar a un usuario que un nombre de archivo ingresado no es válido.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Comprobar si hay ArrayIndexOutOfBoundsException y garantizar que el programa pueda recuperarse si ocurre alguna.",
+     "multi": false
+    },
+    {
+     "letter": "e",
+     "body": "Comprobar si hay una IOException y garantizar que el programa pueda recuperarse si ocurre alguna.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "title": "¿Cuál es el resultado del siguiente código?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "6564",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "6554",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "6566",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "6565",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "14",
+   "title": "¿Cuál es el resultado?",
+   "imgs": [
+    "<imagen 1 en el .docx>"
+   ],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "hello",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "default",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "La compilación falla.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "El programa no imprime nada.",
+     "multi": false
+    },
+    {
+     "letter": "e",
+     "body": "Se lanza una excepción en tiempo de ejecución.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "15",
+   "title": "El archivo pom.xml es el archivo de configuración para:",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Ant.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Gradle.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Maven.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "APX.",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "16",
+   "title": "¿Cuál definición de APX es incorrecta?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Extended Platform Architecture",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Extended Programming Architecture",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Backend Extended Platform",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Extended Java Backend Architecture",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "17",
+   "title": "Son dos de los protocolos físicos que APX admite en una solicitud.",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "JMS y REST",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "MQ y TCP",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "QP05 y MQ",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "AQPG y PS9",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "18",
+   "title": "¿Cuáles son los protocolos físicos disponibles en APX? Selecciona 2",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "HTTP/ SOAP",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "HTTP/ REST / RESTFul (A través de Servicios Backend)",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "PS9",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "19",
+   "title": "Un ________ proporciona una solución a un problema de diseño. Debe cumplir con diferentes características, como la efectividad al resolver problemas similares en ocasiones anteriores. Por lo tanto, debe ser reutilizable, es decir, aplicable a diferentes problemas en diferentes circunstancias",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Metodología",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Patrón de Diseño",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Antipatrón",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Reutilización de código",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "20",
+   "title": "¿Cuáles son ejemplos de Patrones de diseño para APX?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Paginación en transacciones, paginación en librerías, paginación en componentes APX",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Paginación en librerías, CRUD en librerías, DTOs en componentes APX",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Paginación en transacciones, CRUD en librerías, CRUD en componentes APX, DTOs en componentes APX",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Paginación en componentes APX. CRUD en librerías, DTOs en componentes APX",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "21",
+   "title": "¿Qué patrones de la siguiente lista son obligatorios del Data Transfer Object (DTO) en APX?",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Se necesite una agrupación de datos simples en una clase con cierta funcionalidad asociada.",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Se requiera intercambiar información entre diferentes componentes en APX de forma coherente, organizada y agrupada.",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Implementar un Servicio Backend.",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Todas las anteriores",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "22",
+   "title": "Selecciona dos aplicaciones que justifican el uso del patrón Data Transfer Object (DTO) es obligatorio cuando",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Se necesitan mapear demasiadas variables",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Se necesita una agrupación simple de datos basada en una funcionalidad asociada",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Desea intercambiar información entre diferentes componentes en APX de manera coherente, organizada y agrupada",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Se hace conexión a Bases de datos relacionales",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "23",
+   "title": "Encapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "DTO",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Transacción APX",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Unidad funcional",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Librería APX",
+     "multi": false
+    },
+    {
+     "letter": "e",
+     "body": "Capa de Acceso a Datos",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "24",
+   "title": "Indica a JUnit que la propiedad que usa esta anotación es una simulación y, por lo tanto, se inicializa como tal y es susceptible de ser inyectada por @InjectMocks.",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Mockito",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "Mock",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "Inject",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "InjectMock",
+     "multi": false
+    }
+   ]
+  },
+  {
+   "num": "25",
+   "title": "En un Batch cuál es el step donde el desarrollador introducirá la lógica empresarial necesaria",
+   "imgs": [],
+   "answers": [
+    {
+     "letter": "a",
+     "body": "Chunk",
+     "multi": false
+    },
+    {
+     "letter": "b",
+     "body": "JobLauncher",
+     "multi": false
+    },
+    {
+     "letter": "c",
+     "body": "ItemWriter",
+     "multi": false
+    },
+    {
+     "letter": "d",
+     "body": "Task",
+     "multi": false
+    }
+   ]
+  }
+ ]
+}

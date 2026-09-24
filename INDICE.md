@@ -1,18 +1,22 @@
 # Material de estudio APX
 
-Descargado el 24-sep-2026 desde la carpeta compartida de Google Drive **«Material de estudio - APX»** (dueño: capacitacion.accn)  
+Descargado el 24-sep-2026 desde la carpeta compartida de Google Drive **«Material de estudio - APX»** (dueño: capacitacion.accn), siguiendo todos sus enlaces hacia material de APX.  
 https://drive.google.com/drive/folders/1WfToURb6X-jndXXUtduBLMKnD7FKTuzP
 
 ## Cómo está organizado
 
-| Carpeta | Qué contiene |
+| Carpeta / archivo | Qué contiene |
 |---|---|
-| `1 - Material de estudio - APX/` | Espejo exacto de la carpeta de Drive (sin los videos ni el material de ASO). Los 2 Google Docs se exportaron a `.docx`. |
-| `2 - Material APX - parte 1/` | Carpeta de Drive enlazada desde «Material Extraído». 12 de sus 13 PDFs son idénticos (mismo SHA-256) a los de `Documentación APX`; el único nuevo es **Componentes APX Online.pdf**. |
-| `3 - Cuestionarios (Google Forms)/` | Los 8 exámenes de Google Forms enlazados desde `LINKS.docx` y `Formularios APX.docx`, pasados a `.docx` con preguntas, opciones e imágenes de código. Sin clave de respuestas (el formulario no la expone). |
-| `VIDEOS-Y-ENLACES.md` | URLs de los 11 videos, las 4 simulaciones de Microsoft Forms y los recursos sin acceso. |
-| `manifest.json` | Cada archivo con su ID de Drive, bytes (verificados contra Drive) y SHA-256. |
-| `_datos-extraccion/` | Datos crudos de la extracción: inventario de Drive, datos de los Google Forms y enlaces hallados en los documentos. |
+| `1 - Material de estudio - APX/` | Espejo exacto de la carpeta de Drive (sin videos ni material de ASO). Los 2 Google Docs se exportaron a `.docx`. |
+| `2 - Material APX - parte 1/` | Carpeta de Drive enlazada desde «Material Extraído». 12 de sus 13 PDFs son idénticos byte a byte (mismo SHA-256) a los de `Documentación APX`. El 13.º, **Componentes APX Online.pdf**, tiene el **mismo contenido** que `Documentación APX/APX ONLINE/2 - APX Online Components.pdf` (mismo texto, mismas 2 páginas, mismo título interno); solo cambian los bytes porque se volvió a exportar. **Esta carpeta no aporta contenido nuevo.** |
+| `3 - Cuestionarios (Google Forms)/` | Los 8 exámenes de Google Forms enlazados desde `LINKS.docx` y `Formularios APX.docx`, con preguntas, opciones e imágenes de código. |
+| `4 - Simulaciones (Microsoft Forms)/` | Las 4 simulaciones de Microsoft Forms enlazadas desde `Formularios APX.docx`, con preguntas, opciones e imágenes. |
+| `5 - Quizzes Educaplay (APX)/` | Los 3 quizzes de APX del perfil de Educaplay enlazado desde «Banco de preguntas», tomados de su versión imprimible oficial. |
+| Nota | Dentro de `1 - …`, `Documentación APX/1 - APX Capabilities.pdf` y `APX ONLINE/APX Online Capabilities.pdf` también tienen el mismo texto (copias del mismo documento). `Material de apoyo/Banco de preguntas - Temas variados.docx` no trae preguntas: solo contiene el enlace al perfil de Educaplay, cuyos 3 quizzes de APX están en `5 - …`. |
+| `RECURSOS-SIN-ACCESO.md` | **Lo que no se pudo descargar y el motivo de cada cosa.** |
+| `VIDEOS-Y-ENLACES.md` | URLs de los 11 videos y tabla de los cuestionarios extraídos. |
+| `manifest.json` | Cada archivo con su origen, bytes (los de Drive verificados contra Drive) y SHA-256. |
+| `_datos-extraccion/` | Datos crudos de la extracción (inventario de Drive, datos de formularios, enlaces hallados). |
 
 ## Archivos
 
@@ -137,23 +141,40 @@ https://drive.google.com/drive/folders/1WfToURb6X-jndXXUtduBLMKnD7FKTuzP
 
 | Archivo | Tamaño | Nota |
 |---|---|---|
-| [01 - Java E.docx](https://docs.google.com/forms/d/e/1FAIpQLSe5tBJnebiCm9qi_R0lOHV_K8sQLVKImWe5kM0L6OJszEsuIQ/viewform) | 486.7 KB | generado desde el formulario público; 24 preguntas, 15 imágenes |
-| [02 - Java DE.docx](https://docs.google.com/forms/d/e/1FAIpQLSdacbJSexsLyC-fCKHhBG5FH2mAkAEICvTIfHLTA57NCS9rRA/viewform) | 1.8 MB | generado desde el formulario público; 25 preguntas, 18 imágenes |
-| [03 - Java D.docx](https://docs.google.com/forms/d/e/1FAIpQLSdXsOBHRoBzgpPzfPvlAzri9hCls9YcJ296eJLLiYVxOUmRkA/viewform) | 285.8 KB | generado desde el formulario público; 24 preguntas, 17 imágenes |
-| [04 - Java Sesiones.docx](https://docs.google.com/forms/d/e/1FAIpQLSfwDGuVs7Tt_poz2VLjAZiBR201ORAWjIDWG1o7zt5Dr-jTfQ/viewform) | 5.0 MB | generado desde el formulario público; 53 preguntas, 46 imágenes |
-| [05 - Diagnóstico APX.docx](https://docs.google.com/forms/d/e/1FAIpQLSe2fm1UfLU_l_T4D4XGFO0wy7cH_MnIkYFdIZ2RKPlvAPjcEw/viewform) | 44.1 KB | generado desde el formulario público; 81 preguntas |
-| [06 - Diagnóstico APX 3.docx](https://docs.google.com/forms/d/e/1FAIpQLSfQuRlgpRYH7mXYv_4i4z2n5o0UBPuull_C6d0gLayi8GLF9g/viewform) | 46.3 KB | generado desde el formulario público; 94 preguntas |
-| [07 - Diagnóstico APX 5.docx](https://docs.google.com/forms/d/e/1FAIpQLScAVxlZWzjiIpDjZOG9j0mgMG5neo1_AFWwJSmVwLg9plKBEA/viewform) | 44.7 KB | generado desde el formulario público; 85 preguntas, **19 imágenes pendientes** (ver nota) |
-| [08 - Teoría APX.docx](https://docs.google.com/forms/d/e/1FAIpQLScTSLRC0D5XJIRJET2un9AVWt7D6TPyq5jDqogyPe8daahrWg/viewform) | 40.8 KB | generado desde el formulario público; 34 preguntas |
+| [01 - Java E.docx](https://docs.google.com/forms/d/e/1FAIpQLSe5tBJnebiCm9qi_R0lOHV_K8sQLVKImWe5kM0L6OJszEsuIQ/viewform) | 486.7 KB | generado desde Google Forms; 24 preguntas, 15 imágenes |
+| [02 - Java DE.docx](https://docs.google.com/forms/d/e/1FAIpQLSdacbJSexsLyC-fCKHhBG5FH2mAkAEICvTIfHLTA57NCS9rRA/viewform) | 1.8 MB | generado desde Google Forms; 25 preguntas, 18 imágenes |
+| [03 - Java D.docx](https://docs.google.com/forms/d/e/1FAIpQLSdXsOBHRoBzgpPzfPvlAzri9hCls9YcJ296eJLLiYVxOUmRkA/viewform) | 285.8 KB | generado desde Google Forms; 24 preguntas, 17 imágenes |
+| [04 - Java Sesiones.docx](https://docs.google.com/forms/d/e/1FAIpQLSfwDGuVs7Tt_poz2VLjAZiBR201ORAWjIDWG1o7zt5Dr-jTfQ/viewform) | 5.0 MB | generado desde Google Forms; 53 preguntas, 46 imágenes |
+| [05 - Diagnóstico APX.docx](https://docs.google.com/forms/d/e/1FAIpQLSe2fm1UfLU_l_T4D4XGFO0wy7cH_MnIkYFdIZ2RKPlvAPjcEw/viewform) | 44.0 KB | generado desde Google Forms; 81 preguntas |
+| [06 - Diagnóstico APX 3.docx](https://docs.google.com/forms/d/e/1FAIpQLSfQuRlgpRYH7mXYv_4i4z2n5o0UBPuull_C6d0gLayi8GLF9g/viewform) | 46.3 KB | generado desde Google Forms; 94 preguntas |
+| [07 - Diagnóstico APX 5.docx](https://docs.google.com/forms/d/e/1FAIpQLScAVxlZWzjiIpDjZOG9j0mgMG5neo1_AFWwJSmVwLg9plKBEA/viewform) | 2.1 MB | generado desde Google Forms; 85 preguntas, 19 imágenes |
+| [08 - Teoría APX.docx](https://docs.google.com/forms/d/e/1FAIpQLScTSLRC0D5XJIRJET2un9AVWt7D6TPyq5jDqogyPe8daahrWg/viewform) | 40.8 KB | generado desde Google Forms; 34 preguntas |
+
+### `4 - Simulaciones (Microsoft Forms)/`
+
+| Archivo | Tamaño | Nota |
+|---|---|---|
+| [01 - Simulación APX V1.docx](https://forms.office.com/r/tFbJ4Wwp3y) | 41.9 KB | generado desde Microsoft Forms; 45 preguntas |
+| [02 - Simulación APX V2.docx](https://forms.office.com/r/pTA8BgUx6Z) | 41.5 KB | generado desde Microsoft Forms; 45 preguntas |
+| [03 - Cuestionario APX V3.docx](https://forms.office.com/r/NdJL1Kjx5r) | 668.9 KB | generado desde Microsoft Forms; 32 preguntas, 26 imágenes |
+| [04 - Simulación APX V4.docx](https://forms.office.com/r/f2uezELfV9) | 1.4 MB | generado desde Microsoft Forms; 41 preguntas, 36 imágenes |
+
+### `5 - Quizzes Educaplay (APX)/`
+
+| Archivo | Tamaño | Nota |
+|---|---|---|
+| [01 - Quiz APX.docx](https://www.educaplay.com/learning-resources/25151714-desafio_java_fundamentos.html) | 64.5 KB | generado desde la versión imprimible de Educaplay; 22 preguntas, 6 imágenes |
+| [02 - Quiz Desarrollo APX 1.docx](https://www.educaplay.com/learning-resources/21896295-quiz_desarrollo_apx.html) | 175.4 KB | generado desde la versión imprimible de Educaplay; 25 preguntas, 8 imágenes |
+| [03 - Quiz Desarrollo APX 2.docx](https://www.educaplay.com/learning-resources/21909314-quiz_desarrollo_apx_2.html) | 149.1 KB | generado desde la versión imprimible de Educaplay; 24 preguntas, 14 imágenes |
 
 ## Números
 
-- Archivos en esta carpeta: **60** (127.2 MB), sin contar este índice ni el manifest.
-- Descargados de Drive: 52 — todos con el mismo número de bytes que reporta Drive.
-- Cuestionarios generados: 8 (420 preguntas).
+- Archivos: **67** (131.7 MB), sin contar índices, manifest ni `_datos-extraccion/`.
+- Descargados de Drive: 52: 50 archivos originales con el número exacto de bytes que reporta Drive, y 2 Google Docs exportados a .docx (Drive no da tamaño para documentos nativos; se verificó que el .docx abre). El inventario se cotejó carpeta por carpeta contra la vista de Drive (14 carpetas, mismos conteos).
+- Cuestionarios convertidos a .docx: 15 (654 preguntas de examen, 205 imágenes). En los de Google Forms, las opciones «Otro» aparecen como «Otro: ____ (respuesta libre)»; el campo «Ingresa tu nombre completo» de las simulaciones de Microsoft Forms no se cuenta como pregunta.
 - Videos (solo URL): 11.
 
-## Pendientes
+## Acciones hechas en tu nombre (autorizadas el 24-sep-2026)
 
-- **`07 - Diagnóstico APX 5.docx`**: las 19 imágenes de sus páginas 2 y 3 no se extrajeron — el formulario pide un correo obligatorio antes de «Siguiente». El texto de las 85 preguntas sí está completo.
-- Carpeta «Material APX» y los Docs/Slides enlazados en los PDFs de Ether: sin acceso (ver `VIDEOS-Y-ENLACES.md`).
+- **Google Forms «Diagnóstico APX 5»:** para llegar a la página 3 se escribió tu correo y se contestaron las 62 preguntas de la página 2 con la primera opción. **No se pulsó «Enviar»**, y al terminar se usó «Clear form»; al reabrir, el formulario aparece vacío.
+- **Microsoft Forms (Simulación V1–V4):** se iniciaron los 4 cuestionarios con tiempo (90 min). **No se contestó ninguna pregunta ni se pulsó «Enviar»**, pero Microsoft **envía la respuesta sola al acabarse el tiempo**: V1, V2 y V3 llegarán en blanco y anónimas; V4 llegará con el nombre «Miguel Angel Rugerio Flores» (la página 1 lo pedía como obligatorio).
