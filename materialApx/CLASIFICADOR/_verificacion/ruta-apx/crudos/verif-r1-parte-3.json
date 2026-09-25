@@ -1,0 +1,408 @@
+[
+ {
+  "grupo": "G160",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G161",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "El enunciado presupone que el Blob es un antipatrón de Binary Large Object (falso según el curso); la retro ya lo corrige. Cita literal en diap. 45.",
+    "propuesta": "Ninguna obligatoria; se puede dejar como está."
+   }
+  ]
+ },
+ {
+  "grupo": "G162",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G163",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "media",
+    "detalle": "La cita (diap. 46: «refactoring del rediseño entre las librerías involucradas») no respalda literalmente «dividir la clase en varias clases más pequeñas»; a solo se elige por descarte (b y c son absurdas). Además choca con G162 (APX3 #24), donde «Moviendo la lógica a diferentes métodos y clases dentro de la misma librería» es el distractor incorrecto: un alumno que haga ambas preguntas recibe mensajes aparentemente opuestos. Aun así a es la única opción defendible, así que puede quedarse en cuestionario.",
+    "propuesta": "Mantener a y destino cuestionario, pero anotar el respaldo como «doc (por descarte)» y reescribir la retro, p. ej.: «a es la única opción que reparte responsabilidades. Ojo: en APX la solución del curso no es partir la clase dentro de la misma librería, sino un refactoring que mueva los comportamientos del Blob a sus librerías relacionadas, separadas por entidad (Curse_APX_Online.pptx, diap. 46). b y c agravan el Blob.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G164",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G165",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G166",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G167",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G168",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G169",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G170",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G171",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G172",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G173",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G174",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G175",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G176",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G177",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G178",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G179",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G180",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La opción e («A, B y C») es una afirmación verdadera pero incompleta; f es la más completa y la que marca la clave APX3 #29. Correcto, pero la retro no explica por qué no e.",
+    "propuesta": "Añadir a la retro: «e es cierta pero incompleta: también el DTO en componentes APX es patrón»."
+   }
+  ]
+ },
+ {
+  "grupo": "G181",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G186",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "Revisado en el PDF renderizado (APX Batch - Documentación.pdf, págs. 1–2) y en Introducción APX Batch.pdf: la lista de características incluye «Generalmente procesa grandes volúmenes», «Sin interacción del usuario (directa)», «Procesamiento normal en una ventana por lotes fuera de línea» y «Requisitos complejos no funcionales» con las subviñetas «Trazabilidad…» y «Rendimiento/procesamiento de alta velocidad» (b, c, e, f, g, i). «Estrategias de procesamiento» es un encabezado de sección aparte (con su propia lista), no una viñeta de características, y «Aplicación por lotes» no aparece. La exclusión de a es defendible; la retro es correcta.",
+    "propuesta": "Mantener. Si se quiere reducir la discusión, añadir a la retro que «Estrategias de procesamiento» es la sección siguiente del documento (pág. 2), fuera de la lista de características."
+   }
+  ]
+ },
+ {
+  "grupo": "G187",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G188",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G189",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Destino instructor justificado por i (la doc solo nombra Control-M). Además l dice «listos para usar y personalizables» y la doc solo dice «Lectores y escritores personalizables» (Customizable Readers and Writers en Introducción APX Batch.pdf); el matiz es menor (la doc recomienda usar los lectores/escritores que trae Spring Batch), pero la retro solo menciona i.",
+    "propuesta": "Añadir a la retro: «l también añade “listos para usar”, que la lista no dice literalmente (solo “personalizables”), aunque la doc recomienda usar los lectores y escritores de Spring Batch»."
+   }
+  ]
+ },
+ {
+  "grupo": "G190",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G191",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G192",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G193",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Solo respaldo de clave (APX3 #58 = Falso, verificado). La retro lleva el aviso, pero no puede decir qué parte del enunciado es falsa; el alumno no aprende el porqué.",
+    "propuesta": "Aceptable tal cual; opcionalmente valorar con el instructor si merece estar en cuestionario."
+   }
+  ]
+ },
+ {
+  "grupo": "G194",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G195",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "La retro dice que la doc «al contrario» lista el multithreading como estrategia. Es engañoso: esas estrategias son de la arquitectura/planificación, no de hilos creados por la aplicación, y la clave APX3 #40 («La creación de hilos o su gestión por las aplicaciones está permitida» → Falso) respalda la premisa. Además, la estrategia 3 de la doc («Procesamiento paralelo de muchos trabajos o ejecuciones por lotes diferentes al mismo tiempo», pág. 2) respalda bastante la opción d, que el constructor señala como intención probable.",
+    "propuesta": "Quitar «al contrario» y reescribir: «La doc no enuncia la prohibición del multiproceso, pero la clave APX3 #40 indica que las aplicaciones no pueden crear ni gestionar hilos; como alternativa, la doc lista el procesamiento paralelo de varios trabajos por lotes a la vez (APX Batch - Documentación.pdf, pág. 2), que corresponde a d». Mantener instructor (o pasar a cuestionario con d si el instructor lo confirma)."
+   }
+  ]
+ },
+ {
+  "grupo": "G196",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "baja",
+    "detalle": "Las cuatro opciones son correctas (f es la compuesta): la pregunta no tiene distractores. Coincide con la doc (Conceptos APX Batch.pdf, pág. 8).",
+    "propuesta": "Aceptable; opcionalmente avisar en la retro de que todas eran correctas."
+   }
+  ]
+ },
+ {
+  "grupo": "G197",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "Comprobado en el PDF original (APX Batch - Documentación.pdf, pág. 1, renderizado) y en Introducción APX Batch.pdf, pág. 1: «Invocación restringida de:» tiene solo dos subviñetas (WebServices/servicios REST y acceso HTTP a recursos externos); «Utilidades inherentes a la Arquitectura APX» es una viñeta aparte con «Compresión/Descompresión» como subviñeta. La corrección del constructor (doc = a y c; clave análoga APX3 #66 añade h) es correcta y el destino instructor es adecuado.",
+    "propuesta": "Ninguna; mantener."
+   }
+  ]
+ },
+ {
+  "grupo": "G198",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G199",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G200",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G201",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G202",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G203",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "Misma objeción que G195: «de hecho lista el multithreading entre las estrategias» sugiere que la premisa es falsa, pero la clave APX3 #40 (creación/gestión de hilos por las aplicaciones: Falso) la respalda. El porqué (opción c) no está en el corpus, así que el destino instructor sí es correcto.",
+    "propuesta": "Reescribir la retro: «La doc no explica por qué; la clave APX3 #40 indica que las aplicaciones no pueden crear ni gestionar hilos. Las estrategias de la doc (pág. 2) son de la arquitectura/planificación, no hilos de la aplicación»."
+   }
+  ]
+ },
+ {
+  "grupo": "G204",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "El respaldo es un diagrama (mapa PT1: «Task / Step … Input Processing Output» son etiquetas sueltas unidas en la cita) más la descripción del chunk; lo confirman las claves APX3 #61/#93 (verificado). Las tres opciones son correctas (sin distractores).",
+    "propuesta": "Ninguna obligatoria."
+   }
+  ]
+ },
+ {
+  "grupo": "G205",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G206",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G207",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G208",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G209",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Correcta según la cita literal del Tasklet (Conceptos por Lotes, pág. 6) y APX3 #75. Pero la misma doc (pág. 5) dice que el chunk implica «procesarla según la lógica empresarial»: un alumno puede dudar de a.",
+    "propuesta": "Añadir a la retro: «En un chunk la lógica de negocio va en el processor, pero la frase “el desarrollador introducirá la lógica de negocio necesaria” la doc la dice del Tasklet»."
+   }
+  ]
+ },
+ {
+  "grupo": "G210",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G211",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G212",
+  "veredicto": "dudoso",
+  "hallazgos": [
+   {
+    "aspecto": "fidelidad",
+    "gravedad": "media",
+    "detalle": "Original (V2-2 y JPDF-66): «b. AP Connector». El constructor lo cambió a «API Connector» y así b pasa a ser correcta. Las instrucciones consideran error una «corrección» de errata que cambie qué opción es correcta. Es muy probable que sea una errata (en otro examen aparece «Conector APO genérico»), pero no hay clave (Java.pdf #66 no trae respuesta) que lo confirme.",
+    "propuesta": "Que el instructor confirme que «AP Connector» es errata de «API Connector» antes de publicarla, o dejar la opción literal y aceptar b explicándolo en la retro."
+   },
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "d (Neo4J) se marca incorrecta según la lista de utilidades de Componentes APX BATCH.pdf, pág. 1 (correcto con la doc), pero la clave APX3 #57 (G187) marca como correcta una opción que incluye Neo4J en Batch. La tensión ya está en la nota del constructor, pero no en la retro.",
+    "propuesta": "Mantener a, b, c según la doc y coordinar con la decisión del instructor sobre G187."
+   }
+  ]
+ },
+ {
+  "grupo": "G213",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G214",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G215",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "grupo",
+    "gravedad": "media",
+    "detalle": "QZ1-14 («¿Cuál de las siguientes describe a Spring Batch?»: librería de testing / marco de trabajo por lotes / framework REST / ORM) tiene otras opciones y una única respuesta inequívoca (b), respaldada por APX Batch - Documentación.pdf, pág. 2. Al ir en este grupo, que se manda a instructor por ambigüedad entre a y e, se pierde una pregunta válida para el cuestionario. Destino instructor correcto para V2-39/T08-34/JPDF-137.",
+    "propuesta": "Sacar QZ1-14 a un grupo propio: single, correcta b, respaldo doc, fuente APX Batch - Documentación.pdf pág. 2, destino cuestionario."
+   }
+  ]
+ },
+ {
+  "grupo": "G216",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "«Temporal» se deduce de «se eliminará periódicamente» (APX_BATCH.pptx.pdf, pág. 16); la frase del enunciado no está en el corpus. La deducción es razonable y las demás opciones no encajan.",
+    "propuesta": "Ninguna obligatoria."
+   }
+  ]
+ },
+ {
+  "grupo": "G217",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G218",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G219",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G220",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G221",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G222",
+  "veredicto": "ok",
+  "hallazgos": []
+ }
+]

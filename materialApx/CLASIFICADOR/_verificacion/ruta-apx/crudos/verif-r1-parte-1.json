@@ -1,0 +1,447 @@
+[
+ {
+  "grupo": "G001",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G002",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G003",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "La cita solo respalda la opción a («alternativa confiable…»). La b se apoya en la primera frase de APX Qué es.pdf, pág. 1, que no se cita.",
+    "propuesta": "Añadir a la cita: «La Arquitectura APX o Arquitectura Backend Java Extendida fue creada con el objetivo de ser una extensión de la Arquitectura Backend proporcionando las mismas capacidades en el mundo distribuido»."
+   }
+  ]
+ },
+ {
+  "grupo": "G004",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro afirma que APX «no … depende» del Mainframe. Ninguna fuente lo dice: APX Qué es.pdf solo dice que «actúa como una extensión de la plataforma Mainframe» y que ayuda a reducir su uso. La respuesta e sí es literal y correcta.",
+    "propuesta": "Cambiar el final por: «Actúa como una extensión de la plataforma Mainframe y ayuda a reducir su uso; no la sustituye.» Quitar «ni depende de él»."
+   }
+  ]
+ },
+ {
+  "grupo": "G005",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G006",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G007",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G008",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G009",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G010",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G011",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G012",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G013",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G014",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G015",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G016",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G017",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro dice que el Electronic Journal es un servicio bancario (cierto), pero APX Online Capabilities.pdf, pág. 6, también dice que el diario electrónico hace que «the architecture executes a post action after the execution of the transaction». Un alumno que lea la pág. 6 puede pensar que la opción a es válida. La b es la lista literal de la pág. 2, y es correcta.",
+    "propuesta": "Añadir a la retro: «La lista de post-acciones de la capa de control es la de la pág. 2. El diario electrónico se configura aparte, por transacción o UUAA, como servicio bancario (pág. 6).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G018",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G019",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G020",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G021",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G022",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G023",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G024",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G025",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G026",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "La retro dice que «el diario y el registro de operaciones admiten modo autónomo o delegado (pág. 6)». En la pág. 6, el modo delegado del Electronic Journal figura como «(NOT IMPLEMENTED)»; solo el Operations Registry admite «autonomous or delegated mode» sin esa salvedad. Tal como está, la retro afirma algo que la fuente matiza.",
+    "propuesta": "Reescribir: «…el ROP se escribe de forma asíncrona (pág. 2). El registro de operaciones admite modo autónomo o delegado, y el diario electrónico, modo standalone o delegado, aunque este último figura como NOT IMPLEMENTED (pág. 6).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G027",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G028",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "media",
+    "detalle": "No hay contradicción explícita. La documentación no clasifica servicios «Core», y lo que cita el constructor no contradice la clave. Curse_APX_Online.pptx, diap. 41, dice que las transacciones deben perfilarse: es una norma, no una capacidad del core. APX Online Capabilities.pdf, pág. 4, dice que la autorización está «delegated in Logical Security libraries» que «are not coupled to the architecture», lo que encaja con que la clave descarte f. Las reglas de negocio son librerías específicas (Curse diap. 7), lo que encaja con que descarte b.",
+    "propuesta": "respaldo = «clave». Mantener destino = «instructor» por el casi duplicado a («Soporte transaccional») / e («Soporte Transaccional JTA/XA»), que sí es ambiguo."
+   },
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "La retro dice que la documentación presenta la autorización y el perfilado como capacidades que «la clave descarta». Eso sugiere una contradicción que no existe (ver arriba) y cita la diap. 41 como capacidad cuando es una norma.",
+    "propuesta": "Retro: «Respuesta tomada de la clave del examen (no la explica la documentación del curso). La documentación no clasifica servicios “Core”. La autorización se delega en librerías de seguridad lógica no acopladas a la arquitectura (APX Online Capabilities.pdf, pág. 4). Ojo: “Soporte transaccional” (a) y “Soporte Transaccional JTA/XA” (e) son casi iguales.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G029",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro dice que Two-Phase Commit no aparece. Es cierto en el texto, pero la imagen de APX Online Capabilities.pdf, pág. 3 (sin OCR en corpus/; la abrí en el PDF), muestra un «XA Driver» dentro de «Conectores» sobre ORACLE, lo que respalda indirectamente el commit en dos fases (XA).",
+    "propuesta": "Opcional: añadir «La imagen de la pág. 3 muestra un XA Driver para Oracle (las transacciones XA usan commit en dos fases).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G030",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La imagen de APX Online Capabilities.pdf, pág. 3 (sin OCR; la vi en el PDF), muestra «XA Driver» en los conectores de Oracle. Concuerda con que «los recursos… deben ser del tipo XA». La retro dice que la documentación solo habla de commit/rollback.",
+    "propuesta": "Opcional: añadir «La imagen de APX Online Capabilities.pdf, pág. 3, muestra un XA Driver para Oracle.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G031",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G032",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "Marcar a–e es lógicamente coherente: los cuatro tipos existen (AcademicosAPX.pdf, págs. 3 y 48) y, por tanto, «Todas» también es verdadera. Pero con la puntuación parcial de Moodle, quien marque solo e (la respuesta de la clave de Java.pdf #170, que es de opción única) sacará el 20 %.",
+    "propuesta": "Decisión de diseño: o se deja multi a–e y la retro avisa de que hay que marcar también «Todas», o se pasa a single con correcta e (como la clave de Java.pdf). No es un error de contenido."
+   }
+  ]
+ },
+ {
+  "grupo": "G033",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Hay respaldo indirecto adicional que la retro no menciona. La imagen de APX Online Capabilities.pdf, pág. 5 (sin OCR; la vi en el PDF), muestra «Interbackend Service» invocando una TRX del HOST, y la de la pág. 3 sitúa IMS/CICS en el lado Host. Junto con la excepción «interbackend.cics» (Curse diap. 24), eso apunta a e (invocar una transacción de mainframe). Sigue siendo inferencia: el destino instructor es correcto.",
+    "propuesta": "Añadir a la retro/nota: «Indicio a favor de e: Capabilities págs. 3 y 5 (imágenes): Interbackend → TRX del HOST; IMS/CICS = Host.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G034",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Igual que en G033: la imagen de APX Online Capabilities.pdf, pág. 3, muestra «IMS/CICS» como sistema Host y la de la pág. 5 muestra Interbackend invocando TRX del HOST. Es respaldo indirecto adicional para e. La afirmación de que la documentación no menciona «IMSConnect» es correcta.",
+    "propuesta": "Añadir a la nota: «Indicio adicional para e: Capabilities págs. 3 y 5 (imágenes).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G035",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G036",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G037",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G038",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G039",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G040",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G041",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G042",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G043",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G044",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G045",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G046",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G047",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "media",
+    "detalle": "Tampoco aquí hay una contradicción explícita. «2 - APX Online Components.pdf», pág. 2, enumera las utilidades Online con «…» (lista no exhaustiva), así que la ausencia de Compresión/Descompresión en Online no contradice la clave. La contradicción real está en la pareja G048 (Communication Manager en un ejemplo Batch). Lo que dice la retro sí es correcto: la compresión solo aparece en Batch (APX Batch - Documentación.pdf, pág. 1), el Document Creator en ambas (Curse diap. 7; Componentes APX BATCH.pdf) y Communication Manager en el ejemplo Batch de la pág. 3.",
+    "propuesta": "respaldo = «clave». La retro debe empezar con «Respuesta tomada de la clave del examen…». Destino: puede quedarse en «instructor» por coherencia con G048, pero hay que anotar que el motivo es la pareja, no una contradicción propia."
+   }
+  ]
+ },
+ {
+  "grupo": "G048",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G049",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G050",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G051",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G052",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G053",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G054",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "«Docker no aparece» es inexacto: AcademicosAPX.pdf lo menciona solo en Chimera («Image Review… imágenes docker»), no como herramienta de desarrollo. Git tiene más respaldo del que dice la retro: además del clonado de Bitbucket (pág. 48), AcademicosAPX describe el fichero .gitignore «que usa git» y todo el modelo de ramas, commits y push.",
+    "propuesta": "Cambiar a: «Docker solo aparece en AcademicosAPX.pdf como imágenes revisadas por Chimera, no como herramienta de desarrollo. Git se usa en todo el ciclo (repositorio Bitbucket, ramas, commits: AcademicosAPX.pdf).» Mantener destino instructor."
+   }
+  ]
+ },
+ {
+  "grupo": "G055",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G056",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G057",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G058",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G059",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G060",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G061",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G062",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G063",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G064",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G065",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G066",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G067",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G182",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G183",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G184",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G185",
+  "veredicto": "ok",
+  "hallazgos": []
+ }
+]

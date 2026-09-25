@@ -1,0 +1,2801 @@
+[
+ {
+  "grupo": "G001",
+  "representante": "V2-7",
+  "miembros": [
+   "V2-7",
+   "JPDF-74"
+  ],
+  "etapa": "E1",
+  "motivo": "misma afirmación V/F; JPDF sin letras y con justificación",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G002",
+  "representante": "V3-13",
+  "miembros": [
+   "V3-13",
+   "JPDF-165"
+  ],
+  "etapa": "E1",
+  "motivo": "misma pregunta y opciones; JPDF con justificación",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G003",
+  "representante": "T08-31",
+  "miembros": [
+   "T08-31",
+   "JPDF-159"
+  ],
+  "etapa": "E1",
+  "motivo": "misma pregunta y opciones reordenadas; T08 omite «no acopladas al canal»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G004",
+  "representante": "D05-48",
+  "miembros": [
+   "D05-48"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G005",
+  "representante": "D06-19",
+  "miembros": [
+   "D06-19",
+   "D07-16",
+   "QZ2-16"
+  ],
+  "etapa": "E1",
+  "motivo": "misma pregunta; opciones reordenadas en D07",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G006",
+  "representante": "D06-21",
+  "miembros": [
+   "D06-21"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G007",
+  "representante": "T08-15",
+  "miembros": [
+   "T08-15"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G008",
+  "representante": "D06-20",
+  "miembros": [
+   "D06-20"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G009",
+  "representante": "D06-22",
+  "miembros": [
+   "D06-22"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G010",
+  "representante": "D06-25",
+  "miembros": [
+   "D06-25"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G011",
+  "representante": "D07-58",
+  "miembros": [
+   "D07-58",
+   "D05-52"
+  ],
+  "etapa": "E1",
+  "motivo": "mismo enunciado y opciones; D05 añade «No conozco» y reordena",
+  "respuestas_consistentes": true,
+  "nota": "Relacionada, no duplicada: V3-13/JPDF-165 (mismo enunciado, otras opciones: Procesamiento Batch, Cold Deployment).",
+  "paso": 1
+ },
+ {
+  "grupo": "G012",
+  "representante": "D05-35",
+  "miembros": [
+   "D05-35"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G013",
+  "representante": "D06-80",
+  "miembros": [
+   "D06-80"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G014",
+  "representante": "D07-10",
+  "miembros": [
+   "D07-10",
+   "A4-7"
+  ],
+  "etapa": "E1",
+  "motivo": "misma afirmación V/F; A4 de OCR",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G015",
+  "representante": "D05-42",
+  "miembros": [
+   "D05-42"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G016",
+  "representante": "D06-30",
+  "miembros": [
+   "D06-30",
+   "D07-21"
+  ],
+  "etapa": "E1",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G017",
+  "representante": "D07-47",
+  "miembros": [
+   "D07-47",
+   "A4-15"
+  ],
+  "etapa": "E1",
+  "motivo": "misma pregunta y opciones; A4 de OCR",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G018",
+  "representante": "D07-56",
+  "miembros": [
+   "D07-56",
+   "D05-18"
+  ],
+  "etapa": "E1",
+  "motivo": "misma pregunta; opciones reordenadas, D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G019",
+  "representante": "D06-77",
+  "miembros": [
+   "D06-77"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G020",
+  "representante": "D05-75",
+  "miembros": [
+   "D05-75"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Relacionada, no duplicada: JPDF-182 (multirrespuesta con las mismas tres).",
+  "paso": 1
+ },
+ {
+  "grupo": "G021",
+  "representante": "D06-32",
+  "miembros": [
+   "D06-32",
+   "QZ2-17"
+  ],
+  "etapa": "E1",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G022",
+  "representante": "D06-33",
+  "miembros": [
+   "D06-33",
+   "D07-23",
+   "QZ2-18"
+  ],
+  "etapa": "E1",
+  "motivo": "misma pregunta (QZ2 dice «en APX» en vez de «APX Online»), mismas opciones",
+  "respuestas_consistentes": true,
+  "nota": "Doc marca a/b como parcial (SOAP no aparece en el corpus); no contradice la clave.",
+  "paso": 1
+ },
+ {
+  "grupo": "G023",
+  "representante": "JPDF-182",
+  "miembros": [
+   "JPDF-182"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Relacionada, no duplicada: D05-75 (opción única).",
+  "paso": 1
+ },
+ {
+  "grupo": "G024",
+  "representante": "D06-34",
+  "miembros": [
+   "D06-34",
+   "D07-46"
+  ],
+  "etapa": "E1",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G025",
+  "representante": "D07-14",
+  "miembros": [
+   "D07-14",
+   "A4-13"
+  ],
+  "etapa": "E1",
+  "motivo": "misma afirmación V/F; A4 de OCR",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G026",
+  "representante": "D06-26",
+  "miembros": [
+   "D06-26"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G027",
+  "representante": "D06-28",
+  "miembros": [
+   "D06-28",
+   "D07-19"
+  ],
+  "etapa": "E1",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G028",
+  "representante": "D06-29",
+  "miembros": [
+   "D06-29"
+  ],
+  "etapa": "E1",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G029",
+  "representante": "D06-27",
+  "miembros": [
+   "D06-27",
+   "D07-18"
+  ],
+  "etapa": "E1",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "Doc solo respalda c (JDBC) como parcial; la clave es c y e. No es contradicción.",
+  "paso": 1
+ },
+ {
+  "grupo": "G030",
+  "representante": "D06-13",
+  "miembros": [
+   "D06-13",
+   "D07-7"
+  ],
+  "etapa": "E1",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 1
+ },
+ {
+  "grupo": "G031",
+  "representante": "JPDF-204",
+  "miembros": [
+   "JPDF-204"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G032",
+  "representante": "T08-32",
+  "miembros": [
+   "T08-32",
+   "JPDF-170"
+  ],
+  "etapa": "E2",
+  "motivo": "misma pregunta y opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "No es duplicada de JPDF-204 (APX Online, sin Jobs) ni de JPDF-160 (APX Batch).",
+  "paso": 2
+ },
+ {
+  "grupo": "G033",
+  "representante": "D05-22",
+  "miembros": [
+   "D05-22"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G034",
+  "representante": "D05-73",
+  "miembros": [
+   "D05-73"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G035",
+  "representante": "D05-70",
+  "miembros": [
+   "D05-70"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G036",
+  "representante": "V1-4",
+  "miembros": [
+   "V1-4",
+   "JPDF-34"
+  ],
+  "etapa": "E2",
+  "motivo": "misma pregunta; opciones d/e intercambiadas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G037",
+  "representante": "V2-18",
+  "miembros": [
+   "V2-18",
+   "JPDF-98"
+  ],
+  "etapa": "E2",
+  "motivo": "misma afirmación V/F («encapsulado en una transacción» → Falso)",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G038",
+  "representante": "V2-41",
+  "miembros": [
+   "V2-41",
+   "JPDF-147"
+  ],
+  "etapa": "E2",
+  "motivo": "misma afirmación V/F («encapsulado en una biblioteca» → Verdadero)",
+  "respuestas_consistentes": true,
+  "nota": "No confundir con V2-18/JPDF-98 («en una transacción» → Falso).",
+  "paso": 2
+ },
+ {
+  "grupo": "G039",
+  "representante": "D05-72",
+  "miembros": [
+   "D05-72"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G040",
+  "representante": "D07-55",
+  "miembros": [
+   "D07-55",
+   "D05-16"
+  ],
+  "etapa": "E2",
+  "motivo": "misma pregunta; D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "D05-16 estaba en E2 y D07-55 en E10; se deja E2 (invocaciones Interbackend). Ninguna tiene respuesta.",
+  "paso": 2
+ },
+ {
+  "grupo": "G041",
+  "representante": "D06-12",
+  "miembros": [
+   "D06-12",
+   "QZ2-23",
+   "T08-2",
+   "V2-12",
+   "V4-27",
+   "JPDF-82"
+  ],
+  "etapa": "E2",
+  "motivo": "misma definición → Librería; D06/QZ2 como definición suelta, T08-2 como hueco, V2/V4/JPDF como «¿qué componente…?»; distractores distintos",
+  "respuestas_consistentes": true,
+  "nota": "Decisión difícil: se unen porque evalúan lo mismo con la misma respuesta aunque cambien los distractores. D05-6 queda aparte (pregunta inversa: nombre → definición).",
+  "paso": 2
+ },
+ {
+  "grupo": "G042",
+  "representante": "D05-6",
+  "miembros": [
+   "D05-6"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Pregunta inversa del grupo de D06-12 (definición de librería).",
+  "paso": 2
+ },
+ {
+  "grupo": "G043",
+  "representante": "D05-61",
+  "miembros": [
+   "D05-61"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G044",
+  "representante": "V2-20",
+  "miembros": [
+   "V2-20",
+   "QZ1-19",
+   "JPDF-104"
+  ],
+  "etapa": "E2",
+  "motivo": "misma afirmación V/F",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G045",
+  "representante": "D05-64",
+  "miembros": [
+   "D05-64",
+   "T08-1"
+  ],
+  "etapa": "E2",
+  "motivo": "misma pregunta «¿Qué es una transacción (APX)?» con la misma respuesta; distractores distintos",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G046",
+  "representante": "D07-60",
+  "miembros": [
+   "D07-60",
+   "D05-66"
+  ],
+  "etapa": "E2",
+  "motivo": "misma pregunta; D05 añade «No conozco» y «Tal vez»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G047",
+  "representante": "D06-23",
+  "miembros": [
+   "D06-23",
+   "D07-17"
+  ],
+  "etapa": "E2",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "D06-24 (solo Online) es otra pregunta.",
+  "paso": 2
+ },
+ {
+  "grupo": "G048",
+  "representante": "D06-24",
+  "miembros": [
+   "D06-24"
+  ],
+  "etapa": "E2",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 2
+ },
+ {
+  "grupo": "G049",
+  "representante": "JPDF-176",
+  "miembros": [
+   "JPDF-176"
+  ],
+  "etapa": "E3",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G050",
+  "representante": "D05-41",
+  "miembros": [
+   "D05-41"
+  ],
+  "etapa": "E3",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Otra respuesta que el grupo de V1-1 (¿Qué es APX CLI?).",
+  "paso": 3
+ },
+ {
+  "grupo": "G051",
+  "representante": "V1-1",
+  "miembros": [
+   "V1-1",
+   "JPDF-42"
+  ],
+  "etapa": "E3",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "D05-41 queda aparte: su respuesta («software para crear proyectos y administrar dependencias») es distinta y en V1-1 «administrar dependencias» es distractor.",
+  "paso": 3
+ },
+ {
+  "grupo": "G052",
+  "representante": "V1-23",
+  "miembros": [
+   "V1-23",
+   "JPDF-44"
+  ],
+  "etapa": "E3",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G053",
+  "representante": "V1-41",
+  "miembros": [
+   "V1-41",
+   "JPDF-13"
+  ],
+  "etapa": "E3",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G054",
+  "representante": "V2-16",
+  "miembros": [
+   "V2-16",
+   "JPDF-91"
+  ],
+  "etapa": "E3",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G055",
+  "representante": "JPDF-126",
+  "miembros": [
+   "JPDF-126",
+   "V2-33"
+  ],
+  "etapa": "E3",
+  "motivo": "misma pregunta; V2-33 tiene la opción correcta truncada y sin «Herramienta de línea de comandos»",
+  "respuestas_consistentes": true,
+  "nota": "Representante JPDF-126 porque V2-33 está truncado. T08-18 (propósito en arquitectura monolítica) es otra pregunta.",
+  "paso": 3
+ },
+ {
+  "grupo": "G056",
+  "representante": "T08-18",
+  "miembros": [
+   "T08-18"
+  ],
+  "etapa": "E3",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G057",
+  "representante": "D06-17",
+  "miembros": [
+   "D06-17"
+  ],
+  "etapa": "E3",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G058",
+  "representante": "QZ3-21",
+  "miembros": [
+   "QZ3-21"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G059",
+  "representante": "D05-49",
+  "miembros": [
+   "D05-49"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G060",
+  "representante": "D07-51",
+  "miembros": [
+   "D07-51",
+   "D05-8"
+  ],
+  "etapa": "E4",
+  "motivo": "misma pregunta; D05 añade «No conozco», opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G061",
+  "representante": "T08-23",
+  "miembros": [
+   "T08-23"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G062",
+  "representante": "D06-46",
+  "miembros": [
+   "D06-46"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G063",
+  "representante": "T08-7",
+  "miembros": [
+   "T08-7"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G064",
+  "representante": "QZ3-22",
+  "miembros": [
+   "QZ3-22"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G065",
+  "representante": "D05-27",
+  "miembros": [
+   "D05-27"
+  ],
+  "etapa": "E4",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G066",
+  "representante": "D06-44",
+  "miembros": [
+   "D06-44",
+   "QZ2-21"
+  ],
+  "etapa": "E4",
+  "motivo": "misma pregunta; QZ2 no trae «Ninguna de las anteriores»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G067",
+  "representante": "D06-45",
+  "miembros": [
+   "D06-45",
+   "D07-27",
+   "QZ2-22"
+  ],
+  "etapa": "E4",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 4
+ },
+ {
+  "grupo": "G068",
+  "representante": "D05-28",
+  "miembros": [
+   "D05-28"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G069",
+  "representante": "D05-43",
+  "miembros": [
+   "D05-43"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G070",
+  "representante": "D05-56",
+  "miembros": [
+   "D05-56",
+   "D05-37"
+  ],
+  "etapa": "E5",
+  "motivo": "mismo enunciado y mismos distractores; la opción correcta está parafraseada («no sabrá si concluyó con commit OK» / «se pierde el control de la ejecución»)",
+  "respuestas_consistentes": true,
+  "nota": "Decisión difícil: se unen porque la respuesta correcta es la misma idea.",
+  "paso": 5
+ },
+ {
+  "grupo": "G071",
+  "representante": "D07-50",
+  "miembros": [
+   "D07-50",
+   "D05-5"
+  ],
+  "etapa": "E5",
+  "motivo": "misma pregunta; D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "D05-5 estaba en E12; se deja E5 (cambios de contrato de una transacción). D05-25 (retrocompatibles) y QZ1-22 son otras preguntas.",
+  "paso": 5
+ },
+ {
+  "grupo": "G072",
+  "representante": "D06-31",
+  "miembros": [
+   "D06-31",
+   "D07-22",
+   "QZ2-11"
+  ],
+  "etapa": "E5",
+  "motivo": "misma pregunta; QZ2 con opciones redactadas distinto",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G073",
+  "representante": "JPDF-208",
+  "miembros": [
+   "JPDF-208",
+   "V3-14"
+  ],
+  "etapa": "E5",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G074",
+  "representante": "T08-26",
+  "miembros": [
+   "T08-26"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G075",
+  "representante": "D06-82",
+  "miembros": [
+   "D06-82"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G076",
+  "representante": "D06-89",
+  "miembros": [
+   "D06-89"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G077",
+  "representante": "D06-35",
+  "miembros": [
+   "D06-35"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G078",
+  "representante": "D06-36",
+  "miembros": [
+   "D06-36"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G079",
+  "representante": "D07-57",
+  "miembros": [
+   "D07-57",
+   "D05-34"
+  ],
+  "etapa": "E5",
+  "motivo": "misma pregunta; D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "D06-35 (V/F) y D05-28 («¿está permitida la invocación síncrona?») quedan aparte.",
+  "paso": 5
+ },
+ {
+  "grupo": "G080",
+  "representante": "D07-15",
+  "miembros": [
+   "D07-15",
+   "A4-14"
+  ],
+  "etapa": "E5",
+  "motivo": "misma pregunta; opciones reordenadas, A4 de OCR",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G081",
+  "representante": "JPDF-177",
+  "miembros": [
+   "JPDF-177"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G082",
+  "representante": "QZ1-22",
+  "miembros": [
+   "QZ1-22"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G083",
+  "representante": "JPDF-179",
+  "miembros": [
+   "JPDF-179",
+   "T08-29"
+  ],
+  "etapa": "E5",
+  "motivo": "misma pregunta; T08 con el formato mal transcrito en el enunciado y opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "QZ1-18 (solo la carpeta) es otra pregunta.",
+  "paso": 5
+ },
+ {
+  "grupo": "G084",
+  "representante": "QZ1-18",
+  "miembros": [
+   "QZ1-18"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G085",
+  "representante": "D06-85",
+  "miembros": [
+   "D06-85"
+  ],
+  "etapa": "E5",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 5
+ },
+ {
+  "grupo": "G086",
+  "representante": "D05-2",
+  "miembros": [
+   "D05-2"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G087",
+  "representante": "QZ3-23",
+  "miembros": [
+   "QZ3-23"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G088",
+  "representante": "QZ3-24",
+  "miembros": [
+   "QZ3-24"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G089",
+  "representante": "V2-31",
+  "miembros": [
+   "V2-31",
+   "JPDF-125",
+   "T08-25"
+  ],
+  "etapa": "E6",
+  "motivo": "mismo comando → apx init du-lib; T08-25 con otros distractores; en V2-31 c y d son idénticas",
+  "respuestas_consistentes": true,
+  "nota": "Etapas mezcladas (V2-31 E12; JPDF-125 y T08-25 E6): se deja E6.",
+  "paso": 6
+ },
+ {
+  "grupo": "G090",
+  "representante": "D07-44",
+  "miembros": [
+   "D07-44",
+   "D06-81",
+   "D05-30"
+  ],
+  "etapa": "E6",
+  "motivo": "mismo hueco → APIConnector; D05-30 con otros distractores",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G091",
+  "representante": "D05-46",
+  "miembros": [
+   "D05-46"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G092",
+  "representante": "D05-69",
+  "miembros": [
+   "D05-69"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G093",
+  "representante": "D05-55",
+  "miembros": [
+   "D05-55"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G094",
+  "representante": "D07-52",
+  "miembros": [
+   "D07-52",
+   "D05-10"
+  ],
+  "etapa": "E6",
+  "motivo": "misma pregunta; D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "D05-55 (qué ocasionan) es otra pregunta.",
+  "paso": 6
+ },
+ {
+  "grupo": "G095",
+  "representante": "JPDF-167",
+  "miembros": [
+   "JPDF-167"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G096",
+  "representante": "D06-59",
+  "miembros": [
+   "D06-59",
+   "D07-34"
+  ],
+  "etapa": "E6",
+  "motivo": "mismas opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "D06-59 estaba en E7 y D07-34 en E6; se deja E6 (clases de implementación de librerías). D05-2 (qué efecto causan) es otra pregunta.",
+  "paso": 6
+ },
+ {
+  "grupo": "G097",
+  "representante": "D06-86",
+  "miembros": [
+   "D06-86"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G098",
+  "representante": "D06-91",
+  "miembros": [
+   "D06-91"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G099",
+  "representante": "D06-56",
+  "miembros": [
+   "D06-56",
+   "D07-32",
+   "D06-55",
+   "D05-65"
+  ],
+  "etapa": "E6",
+  "motivo": "mismo dato (máximo 9 librerías); D06-55 y D05-65 como hueco con otros números",
+  "respuestas_consistentes": true,
+  "nota": "Decisión difícil: se unen aunque los números distractores cambian.",
+  "paso": 6
+ },
+ {
+  "grupo": "G100",
+  "representante": "D06-54",
+  "miembros": [
+   "D06-54",
+   "D07-31",
+   "D05-20"
+  ],
+  "etapa": "E6",
+  "motivo": "mismo dato (profundidad 3); D05-20 como hueco con números",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G101",
+  "representante": "D06-10",
+  "miembros": [
+   "D06-10",
+   "D07-6"
+  ],
+  "etapa": "E6",
+  "motivo": "mismas opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G102",
+  "representante": "V2-27",
+  "miembros": [
+   "V2-27",
+   "V4-41",
+   "JPDF-119"
+  ],
+  "etapa": "E6",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G103",
+  "representante": "D06-11",
+  "miembros": [
+   "D06-11"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G104",
+  "representante": "D05-51",
+  "miembros": [
+   "D05-51"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G105",
+  "representante": "D05-50",
+  "miembros": [
+   "D05-50"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G106",
+  "representante": "D05-32",
+  "miembros": [
+   "D05-32"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G107",
+  "representante": "D05-23",
+  "miembros": [
+   "D05-23"
+  ],
+  "etapa": "E6",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G108",
+  "representante": "V1-45",
+  "miembros": [
+   "V1-45",
+   "JPDF-8"
+  ],
+  "etapa": "E6",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 6
+ },
+ {
+  "grupo": "G109",
+  "representante": "D06-53",
+  "miembros": [
+   "D06-53"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G110",
+  "representante": "D07-3",
+  "miembros": [
+   "D07-3",
+   "A4-3"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta de tres respuestas; A4 de OCR incompleto",
+  "respuestas_consistentes": true,
+  "nota": "D06-53 queda aparte: seis opciones y cuatro correctas.",
+  "paso": 7
+ },
+ {
+  "grupo": "G111",
+  "representante": "D05-9",
+  "miembros": [
+   "D05-9"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G112",
+  "representante": "D05-15",
+  "miembros": [
+   "D05-15"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G113",
+  "representante": "D05-26",
+  "miembros": [
+   "D05-26"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G114",
+  "representante": "D05-67",
+  "miembros": [
+   "D05-67"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G115",
+  "representante": "D05-45",
+  "miembros": [
+   "D05-45"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G116",
+  "representante": "D07-5",
+  "miembros": [
+   "D07-5",
+   "D06-14",
+   "A4-5"
+  ],
+  "etapa": "E7",
+  "motivo": "mismo hueco → Datasource; distractores varían",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G117",
+  "representante": "D06-78",
+  "miembros": [
+   "D06-78",
+   "D06-63",
+   "D07-12",
+   "A4-10",
+   "D05-17"
+  ],
+  "etapa": "E7",
+  "motivo": "mismo hueco/pregunta → addAdvice; distractores varían",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G118",
+  "representante": "D05-7",
+  "miembros": [
+   "D05-7"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G119",
+  "representante": "D06-73",
+  "miembros": [
+   "D06-73"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G120",
+  "representante": "D06-64",
+  "miembros": [
+   "D06-64",
+   "D05-4"
+  ],
+  "etapa": "E7",
+  "motivo": "mismo método para fijar la severidad → setSeverity",
+  "respuestas_consistentes": true,
+  "nota": "V2-22/JPDF-106 (propósito de setSeverity) es la pregunta inversa.",
+  "paso": 8
+ },
+ {
+  "grupo": "G121",
+  "representante": "V2-22",
+  "miembros": [
+   "V2-22",
+   "JPDF-106"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G122",
+  "representante": "T08-5",
+  "miembros": [
+   "T08-5"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G123",
+  "representante": "D06-61",
+  "miembros": [
+   "D06-61",
+   "D07-48",
+   "A4-17"
+  ],
+  "etapa": "E7",
+  "motivo": "mismas cuatro opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "D05-47 queda aparte (otras opciones).",
+  "paso": 7
+ },
+ {
+  "grupo": "G124",
+  "representante": "D06-62",
+  "miembros": [
+   "D06-62"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G125",
+  "representante": "D05-47",
+  "miembros": [
+   "D05-47"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": false,
+  "nota": "La documentación da las siete excepciones de arquitectura; la clave solo g y h (BusinessException, io.network.TimeoutException).",
+  "paso": 7
+ },
+ {
+  "grupo": "G126",
+  "representante": "D06-79",
+  "miembros": [
+   "D06-79"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G127",
+  "representante": "T08-6",
+  "miembros": [
+   "T08-6",
+   "D05-59"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta (excepción de Java permitida → NumberFormatException); distractores distintos",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G128",
+  "representante": "T08-4",
+  "miembros": [
+   "T08-4"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G129",
+  "representante": "D07-54",
+  "miembros": [
+   "D07-54",
+   "D05-14"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta (excepción de Spring permitida); distractores varían",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G130",
+  "representante": "D05-11",
+  "miembros": [
+   "D05-11"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G131",
+  "representante": "D06-58",
+  "miembros": [
+   "D06-58",
+   "D06-87"
+  ],
+  "etapa": "E7",
+  "motivo": "misma afirmación V/F (creación de hilos permitida → Falso)",
+  "respuestas_consistentes": true,
+  "nota": "D05-11 (opción múltiple) queda aparte.",
+  "paso": 7
+ },
+ {
+  "grupo": "G132",
+  "representante": "D05-74",
+  "miembros": [
+   "D05-74"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G133",
+  "representante": "D05-24",
+  "miembros": [
+   "D05-24"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G134",
+  "representante": "D06-90",
+  "miembros": [
+   "D06-90"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G135",
+  "representante": "D06-67",
+  "miembros": [
+   "D06-67",
+   "D07-36"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta; D07 sin «Low-Level»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G136",
+  "representante": "D06-69",
+  "miembros": [
+   "D06-69",
+   "D07-38"
+  ],
+  "etapa": "E7",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G137",
+  "representante": "D06-71",
+  "miembros": [
+   "D06-71",
+   "D07-40"
+  ],
+  "etapa": "E7",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G138",
+  "representante": "D06-68",
+  "miembros": [
+   "D06-68",
+   "D07-37"
+  ],
+  "etapa": "E7",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G139",
+  "representante": "D06-72",
+  "miembros": [
+   "D06-72",
+   "D07-41"
+  ],
+  "etapa": "E7",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "D06-84 (hueco con opciones) queda aparte.",
+  "paso": 8
+ },
+ {
+  "grupo": "G140",
+  "representante": "D06-84",
+  "miembros": [
+   "D06-84"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G141",
+  "representante": "D06-70",
+  "miembros": [
+   "D06-70",
+   "D07-39"
+  ],
+  "etapa": "E7",
+  "motivo": "idénticas",
+  "respuestas_consistentes": false,
+  "nota": "La documentación da Falso y la clave Verdadero en ambas.",
+  "paso": 8
+ },
+ {
+  "grupo": "G142",
+  "representante": "D06-65",
+  "miembros": [
+   "D06-65"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": false,
+  "nota": "La documentación da b (TRACE, DEBUG, INFO, WARNING & ERROR) y la clave d (DEBUG, INFO, WARNING & ERROR).",
+  "paso": 8
+ },
+ {
+  "grupo": "G143",
+  "representante": "D07-35",
+  "miembros": [
+   "D07-35",
+   "D05-40"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta (niveles MÁS COMUNES); D05 con otras combinaciones",
+  "respuestas_consistentes": false,
+  "nota": "D07-35: la documentación da TRACE, DEBUG, INFO, WARNING & ERROR y la clave DEBUG, INFO, WARNING & ERROR; D05-40 clave DEBUG, INFO, WARNING y ERROR. D06-65 («¿qué niveles existen?») queda aparte.",
+  "paso": 8
+ },
+ {
+  "grupo": "G144",
+  "representante": "D06-66",
+  "miembros": [
+   "D06-66"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G145",
+  "representante": "D05-21",
+  "miembros": [
+   "D05-21"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G146",
+  "representante": "D05-36",
+  "miembros": [
+   "D05-36"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G147",
+  "representante": "D05-44",
+  "miembros": [
+   "D05-44"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G148",
+  "representante": "D05-63",
+  "miembros": [
+   "D05-63"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G149",
+  "representante": "D05-81",
+  "miembros": [
+   "D05-81"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G150",
+  "representante": "D06-93",
+  "miembros": [
+   "D06-93",
+   "D07-45"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta; D06 añade «sysin»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G151",
+  "representante": "D05-71",
+  "miembros": [
+   "D05-71"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G152",
+  "representante": "D07-4",
+  "miembros": [
+   "D07-4",
+   "A4-4",
+   "D06-74",
+   "D07-42"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta; D06-74/D07-42 con tres opciones y «1 a 4»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 8
+ },
+ {
+  "grupo": "G153",
+  "representante": "D06-60",
+  "miembros": [
+   "D06-60"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G154",
+  "representante": "D07-61",
+  "miembros": [
+   "D07-61",
+   "D05-68"
+  ],
+  "etapa": "E7",
+  "motivo": "misma pregunta; D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G155",
+  "representante": "D05-80",
+  "miembros": [
+   "D05-80"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G156",
+  "representante": "D06-57",
+  "miembros": [
+   "D06-57",
+   "D07-33"
+  ],
+  "etapa": "E7",
+  "motivo": "mismas opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "D05-80 (opción múltiple sí/no) queda aparte.",
+  "paso": 7
+ },
+ {
+  "grupo": "G157",
+  "representante": "D05-77",
+  "miembros": [
+   "D05-77"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G158",
+  "representante": "D05-53",
+  "miembros": [
+   "D05-53"
+  ],
+  "etapa": "E7",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 7
+ },
+ {
+  "grupo": "G159",
+  "representante": "D07-8",
+  "miembros": [
+   "D07-8",
+   "D06-15"
+  ],
+  "etapa": "E7",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "D05-53 (por qué usar BIND) es la pregunta inversa.",
+  "paso": 7
+ },
+ {
+  "grupo": "G160",
+  "representante": "D06-41",
+  "miembros": [
+   "D06-41",
+   "D07-25",
+   "JPDF-18",
+   "V1-21"
+  ],
+  "etapa": "E8",
+  "motivo": "misma pregunta; D07/JPDF/V1 cambian opciones (sin Lava Flow, con Librería)",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G161",
+  "representante": "V2-40",
+  "miembros": [
+   "V2-40",
+   "JPDF-142"
+  ],
+  "etapa": "E8",
+  "motivo": "misma pregunta; JPDF sin opciones incorrectas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G162",
+  "representante": "D06-42",
+  "miembros": [
+   "D06-42",
+   "D07-26",
+   "V1-14",
+   "JPDF-46"
+  ],
+  "etapa": "E8",
+  "motivo": "misma pregunta y misma respuesta (mover el comportamiento a las librerías relacionadas); V1/JPDF con otros distractores",
+  "respuestas_consistentes": true,
+  "nota": "Decisión difícil: T08-13 queda aparte porque su respuesta («dividir la clase en clases más pequeñas») es distinta y en D06-42 algo parecido es distractor.",
+  "paso": 9
+ },
+ {
+  "grupo": "G163",
+  "representante": "T08-13",
+  "miembros": [
+   "T08-13"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Otra respuesta que el grupo de D06-42 (solución al Blob).",
+  "paso": 9
+ },
+ {
+  "grupo": "G164",
+  "representante": "D05-31",
+  "miembros": [
+   "D05-31"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G165",
+  "representante": "D06-50",
+  "miembros": [
+   "D06-50",
+   "D07-28"
+  ],
+  "etapa": "E8",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "T08-14 (V/F de la misma definición) queda aparte.",
+  "paso": 9
+ },
+ {
+  "grupo": "G166",
+  "representante": "D06-52",
+  "miembros": [
+   "D06-52",
+   "D07-30"
+  ],
+  "etapa": "E8",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G167",
+  "representante": "T08-14",
+  "miembros": [
+   "T08-14"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G168",
+  "representante": "D06-51",
+  "miembros": [
+   "D06-51",
+   "D07-1",
+   "D07-29",
+   "A4-2"
+  ],
+  "etapa": "E8",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G169",
+  "representante": "D06-38",
+  "miembros": [
+   "D06-38"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G170",
+  "representante": "D06-94",
+  "miembros": [
+   "D06-94"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G171",
+  "representante": "D06-39",
+  "miembros": [
+   "D06-39"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G172",
+  "representante": "D06-40",
+  "miembros": [
+   "D06-40",
+   "D07-24"
+  ],
+  "etapa": "E8",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "La documentación de D07-24 es ambigua entre a y b; no contradice la clave.",
+  "paso": 9
+ },
+ {
+  "grupo": "G173",
+  "representante": "D05-3",
+  "miembros": [
+   "D05-3"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G174",
+  "representante": "D06-83",
+  "miembros": [
+   "D06-83"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G175",
+  "representante": "T08-8",
+  "miembros": [
+   "T08-8"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G176",
+  "representante": "D06-48",
+  "miembros": [
+   "D06-48"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G177",
+  "representante": "T08-10",
+  "miembros": [
+   "T08-10"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G178",
+  "representante": "T08-9",
+  "miembros": [
+   "T08-9"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 9
+ },
+ {
+  "grupo": "G179",
+  "representante": "D06-43",
+  "miembros": [
+   "D06-43",
+   "QZ2-20"
+  ],
+  "etapa": "E8",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "Choca con D06-47/D05-29 y con D07-20, que cuentan también la paginación en transacciones como patrón.",
+  "paso": 9
+ },
+ {
+  "grupo": "G180",
+  "representante": "D06-47",
+  "miembros": [
+   "D06-47",
+   "D05-29"
+  ],
+  "etapa": "E8",
+  "motivo": "misma pregunta con respuesta «Todas»; opciones distintas",
+  "respuestas_consistentes": true,
+  "nota": "D07-20 (multirrespuesta sin «Todas») queda aparte. Contradice a D06-43/QZ2-20.",
+  "paso": 9
+ },
+ {
+  "grupo": "G181",
+  "representante": "D07-20",
+  "miembros": [
+   "D07-20"
+  ],
+  "etapa": "E8",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Relacionada: D06-47/D05-29 (misma idea con «Todas»).",
+  "paso": 9
+ },
+ {
+  "grupo": "G182",
+  "representante": "JPDF-168",
+  "miembros": [
+   "JPDF-168",
+   "T08-27"
+  ],
+  "etapa": "E9",
+  "motivo": "misma afirmación V/F",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G183",
+  "representante": "D06-76",
+  "miembros": [
+   "D06-76",
+   "D07-43",
+   "QZ1-20"
+  ],
+  "etapa": "E9",
+  "motivo": "mismo hueco → Consola de Operaciones APX; QZ1 con otros distractores",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G184",
+  "representante": "JPDF-169",
+  "miembros": [
+   "JPDF-169",
+   "T08-30",
+   "QZ1-21"
+  ],
+  "etapa": "E9",
+  "motivo": "misma pregunta; QZ1 con otros distractores",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G185",
+  "representante": "V1-7",
+  "miembros": [
+   "V1-7",
+   "JPDF-16"
+  ],
+  "etapa": "E9",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 3
+ },
+ {
+  "grupo": "G186",
+  "representante": "D05-62",
+  "miembros": [
+   "D05-62"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G187",
+  "representante": "D06-75",
+  "miembros": [
+   "D06-75"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G188",
+  "representante": "D06-7",
+  "miembros": [
+   "D06-7",
+   "D07-59",
+   "D06-88"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta; D06-88 cambia un distractor",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G189",
+  "representante": "D05-60",
+  "miembros": [
+   "D05-60"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G190",
+  "representante": "D07-62",
+  "miembros": [
+   "D07-62",
+   "D05-78"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta y opciones; D05 añade «No conozco»",
+  "respuestas_consistentes": true,
+  "nota": "T08-21 (hueco → Chunk) es la pregunta inversa.",
+  "paso": 10
+ },
+ {
+  "grupo": "G191",
+  "representante": "D06-5",
+  "miembros": [
+   "D06-5"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G192",
+  "representante": "D06-8",
+  "miembros": [
+   "D06-8"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G193",
+  "representante": "D06-1",
+  "miembros": [
+   "D06-1"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G194",
+  "representante": "D05-13",
+  "miembros": [
+   "D05-13"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G195",
+  "representante": "D07-53",
+  "miembros": [
+   "D07-53",
+   "D05-12"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta; D05 añade opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G196",
+  "representante": "D05-58",
+  "miembros": [
+   "D05-58"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G197",
+  "representante": "D05-19",
+  "miembros": [
+   "D05-19"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": false,
+  "nota": "La documentación da a, c, d, g; la clave a, c, h.",
+  "paso": 10
+ },
+ {
+  "grupo": "G198",
+  "representante": "D06-9",
+  "miembros": [
+   "D06-9"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "Doc solo respalda a y b (parcial); la clave es f (a, b y c). Relacionada con D05-19 (otras opciones).",
+  "paso": 10
+ },
+ {
+  "grupo": "G199",
+  "representante": "T08-19",
+  "miembros": [
+   "T08-19"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G200",
+  "representante": "V2-10",
+  "miembros": [
+   "V2-10",
+   "JPDF-80"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "T08-19 (definición → Job) es la inversa.",
+  "paso": 10
+ },
+ {
+  "grupo": "G201",
+  "representante": "D06-2",
+  "miembros": [
+   "D06-2",
+   "D07-2"
+  ],
+  "etapa": "E10",
+  "motivo": "mismas opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G202",
+  "representante": "JPDF-174",
+  "miembros": [
+   "JPDF-174"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G203",
+  "representante": "D05-57",
+  "miembros": [
+   "D05-57"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G204",
+  "representante": "D05-38",
+  "miembros": [
+   "D05-38"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G205",
+  "representante": "T08-21",
+  "miembros": [
+   "T08-21"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G206",
+  "representante": "V2-32",
+  "miembros": [
+   "V2-32",
+   "JPDF-126b",
+   "T08-20"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta; T08-20 con otros distractores",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G207",
+  "representante": "T08-22",
+  "miembros": [
+   "T08-22"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G208",
+  "representante": "D06-4",
+  "miembros": [
+   "D06-4",
+   "D06-92"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta (tres partes de un task); D06-92 con contexto y otro distractor",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G209",
+  "representante": "D06-18",
+  "miembros": [
+   "D06-18",
+   "D07-9",
+   "QZ2-25",
+   "A4-6"
+  ],
+  "etapa": "E10",
+  "motivo": "mismas opciones reordenadas",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G210",
+  "representante": "D05-79",
+  "miembros": [
+   "D05-79"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G211",
+  "representante": "D06-3",
+  "miembros": [
+   "D06-3",
+   "D07-49"
+  ],
+  "etapa": "E10",
+  "motivo": "idénticas",
+  "respuestas_consistentes": true,
+  "nota": "D05-79 (multirrespuesta) queda aparte.",
+  "paso": 10
+ },
+ {
+  "grupo": "G212",
+  "representante": "V2-2",
+  "miembros": [
+   "V2-2",
+   "JPDF-66"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G213",
+  "representante": "D05-33",
+  "miembros": [
+   "D05-33"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G214",
+  "representante": "JPDF-160",
+  "miembros": [
+   "JPDF-160"
+  ],
+  "etapa": "E10",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G215",
+  "representante": "V2-39",
+  "miembros": [
+   "V2-39",
+   "T08-34",
+   "JPDF-137",
+   "QZ1-14"
+  ],
+  "etapa": "E10",
+  "motivo": "misma pregunta; QZ1 con otros distractores",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G216",
+  "representante": "QZ2-10",
+  "miembros": [
+   "QZ2-10"
+  ],
+  "etapa": "E11",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G217",
+  "representante": "D05-39",
+  "miembros": [
+   "D05-39"
+  ],
+  "etapa": "E11",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G218",
+  "representante": "D06-6",
+  "miembros": [
+   "D06-6",
+   "QZ2-9",
+   "D07-13",
+   "A4-11"
+  ],
+  "etapa": "E11",
+  "motivo": "misma respuesta (/fichtemcomp/datent) y mismas cuatro opciones; D07-13 y A4-11 como hueco",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G219",
+  "representante": "V1-16",
+  "miembros": [
+   "V1-16",
+   "JPDF-31"
+  ],
+  "etapa": "E11",
+  "motivo": "misma pregunta y opciones",
+  "respuestas_consistentes": true,
+  "nota": "D05-3 (máximo por paginación) queda aparte.",
+  "paso": 10
+ },
+ {
+  "grupo": "G220",
+  "representante": "T08-24",
+  "miembros": [
+   "T08-24"
+  ],
+  "etapa": "E11",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 10
+ },
+ {
+  "grupo": "G221",
+  "representante": "D05-1",
+  "miembros": [
+   "D05-1"
+  ],
+  "etapa": "E12",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 11
+ },
+ {
+  "grupo": "G222",
+  "representante": "D05-25",
+  "miembros": [
+   "D05-25"
+  ],
+  "etapa": "E12",
+  "motivo": "pregunta única",
+  "respuestas_consistentes": true,
+  "nota": "",
+  "paso": 11
+ }
+]

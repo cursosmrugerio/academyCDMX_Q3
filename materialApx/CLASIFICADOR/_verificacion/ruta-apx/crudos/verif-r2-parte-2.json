@@ -1,0 +1,544 @@
+[
+ {
+  "grupo": "G068",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G069",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G070",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G071",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G072",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G073",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G074",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G075",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G076",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G077",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G078",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G079",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G080",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G081",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G082",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G083",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G084",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G085",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G086",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G087",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G088",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G089",
+  "veredicto": "dudoso",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "media",
+    "detalle": "La «clave» de Java.pdf #125 no es una clave del tipo «La respuesta correcta es: …»: es un texto explicativo con marcas ❌ que deduce la respuesta del propio nombre de la opción («se utiliza la opción que indica explícitamente du-lib»). Además, AcademicosAPX.pdf, pág. 3 dice literalmente «Existen dos tipos de unidades de despliegue, las de online y las de batch», lo que choca con la premisa «unidad de despliegue de tipo librería»; ningún documento del curso muestra el comando «apx init du-lib». c es la única opción plausible, pero si el comando no existe se enseña un comando falso.",
+    "propuesta": "Que el instructor confirme que «apx init du-lib» existe en APX CLI; hasta entonces, dejar la nota. Si se mantiene en cuestionario, añadir a la retro que la «clave» de Java.pdf es una explicación, no una clave oficial."
+   },
+   {
+    "aspecto": "fidelidad",
+    "gravedad": "baja",
+    "detalle": "Se eliminó la opción d de V2-31 por ser idéntica a c. Quitar una opción duplicada no está entre los arreglos permitidos (solo extracción y «Otro:»/«No conozco»), aunque aquí es inocuo. Es la versión de Java.pdf #125 (5 opciones distintas, respuesta d) la que respalda la clave.",
+    "propuesta": "Dejar constancia en la nota o usar como representante el juego de opciones de JPDF-125 (a–e), cuya letra correcta es d."
+   }
+  ]
+ },
+ {
+  "grupo": "G090",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G091",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G092",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G093",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G094",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G095",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "Multi a, b, e. La cita («…se modificarán los siguientes archivos pom.xml : Aquí agregas las dependencias…») solo respalda e. a y b (Spring Architecture OSGi / Spring Architecture Beans = *-arc-osgi.xml / *-arc.xml) se apoyan en las págs. 6–8 y en el andamio de la pág. 2, pero no están en la cita. La respuesta es correcta.",
+    "propuesta": "Ampliar la cita con «Spring Architecture OSGi : Aquí agregaremos la referencia de la interfaz de la utilidad…» (pág. 6) y «Spring Architecture Beans : Aquí agregaremos el bean…» (pág. 7)."
+   }
+  ]
+ },
+ {
+  "grupo": "G096",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G097",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G098",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G099",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G100",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G101",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G102",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G103",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G104",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G105",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G106",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro remite a «APX_BATCH, pág. 11», nombre incompleto; el archivo que verá el alumno es «APX_BATCH.pptx.pdf» (la normalización de nombres de R1 no llegó a esta pregunta). La cita sí está en la pág. 11.",
+    "propuesta": "Cambiar «Ver APX_BATCH, pág. 11» por «Ver APX_BATCH.pptx.pdf, pág. 11»."
+   }
+  ]
+ },
+ {
+  "grupo": "G107",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G108",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G109",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "media",
+    "detalle": "Decisión pedida: NO es seguro dejarla en un cuestionario calificado. Es de selección múltiple sin número fijo de respuestas, así que el alumno tiene que juzgar b («En el caso de procesos batch no deben existir cesiones de ficheros entre UUAAs») por sí sola. Ningún documento del curso la menciona (grep de «cesi», «ficheros entre», «entre UUAA» en todo corpus/: 0 resultados). Solo la excluye la clave APX3 #35, que no está validada. Además hay indicios de que b puede ser una norma real que la diapositiva omite: (1) la diap. 21 empieza «El acceso a los datos se realiza exclusivamente desde bibliotecas APX en el caso de online», y ese «en el caso de online» sugiere que el original tenía una contrapartida batch que la traducción recortó; (2) b sigue el registro de las normas oficiales («En el caso de …»); (3) el distractor c es una norma real manipulada (JDBC→JPA), mientras que b no tiene en la diapositiva ninguna frase de la que venir. Si b es una norma vigente, al alumno que la marque se le penaliza y aprende que no lo es. Que G110 también la excluya no es una confirmación independiente: viene de la misma clave (APX3 #35).",
+    "propuesta": "destino → instructor; correctas → [] (candidata a, d, e, f en nota_constructor); respaldo → «clave» (la inclusión de a, d, e, f tiene doc, pero la exclusión de b solo la da la clave). Solo vuelve a cuestionario si el instructor confirma que b no es una norma."
+   },
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "respaldo «doc» no es exacto: el conjunto de correctas depende de la clave para excluir b (lo reconoce la propia retro).",
+    "propuesta": "Ver la propuesta de destino: respaldo «clave»."
+   }
+  ]
+ },
+ {
+  "grupo": "G110",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "baja",
+    "detalle": "Puede quedarse en cuestionario: el enunciado pide exactamente tres, y b, c y d están literalmente en la diap. 21, así que la documentación basta. La retro es neutral sobre la opción de ficheros batch («no aparece en el curso»), y así debe seguir. Pero depende de G109: si el instructor confirma que la norma de cesiones de ficheros batch existe, habría cuatro correctas y la pregunta quedaría rota.",
+    "propuesta": "Añadir a nota_constructor: «Depende de la confirmación de G109 (opción de cesiones de ficheros batch); si es norma real, pasar a instructor». No afirmar en la retro que a sea falsa."
+   }
+  ]
+ },
+ {
+  "grupo": "G111",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G112",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G113",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G114",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G115",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "La respuesta (Arquitectura) es una deducción: la diap. 21 prohíbe que la aplicación cree, abra o cierre conexiones, pero no dice quién lo hace. Se apoya en «utilidades que Architecture proporciona» (diap. 21) y en «La Arquitectura gestiona la ejecución del Commit o Rollback» (diap. 30). «Bibliotecas» no es defendible, porque las librerías de la aplicación son justo las que no deben hacerlo. Aceptable.",
+    "propuesta": "Ninguna."
+   }
+  ]
+ },
+ {
+  "grupo": "G116",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G117",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G118",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G119",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G120",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G121",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro dice «Según APX3 #46, setSeverity fija la severidad (gravedad) de un error o aviso», pero APX3 #46 solo dice «Método para fijar la severidad de un error»; «o aviso» no está en la clave (viene del enunciado de D05-4, que es otra pregunta del examen). La respuesta b es correcta.",
+    "propuesta": "Cambiar a «Según APX3 #46, setSeverity es el método para fijar la severidad de un error»."
+   }
+  ]
+ },
+ {
+  "grupo": "G122",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "fidelidad",
+    "gravedad": "baja",
+    "detalle": "Revisado por ser justo el caso del ejemplo de las instrucciones (un paquete mal escrito que podría ser la trampa). La corrección «axception»→«exception» es legítima: la misma errata está en el mapa mental APX ONLINE PT1 («com.bbva.apx.axception.db.IncorrectResultSizeException»), de donde se copió, y no en la diap. 24. No parece una trampa intencionada.",
+    "propuesta": "Ninguna. Opcional: mencionar en la nota que la errata viene del mapa PT1 (ya lo dice)."
+   }
+  ]
+ },
+ {
+  "grupo": "G123",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G124",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G125",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G126",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G127",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G128",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G129",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G130",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "media",
+    "detalle": "El enunciado («Los hilos son permitidos…») es más amplio que la clave de la pregunta afín APX3 #40 («La creación de hilos o su gestión por las aplicaciones está permitida» → Falso). La documentación del curso sí habla de hilos: APX Batch - Documentación.pdf, pág. 2 lista entre sus estrategias el «Procesamiento simultáneo por lotes/en línea (multithreading)». Con eso, «e) Depende donde se usará» es defendible, y la retro («no están permitidos») afirma más que la clave. Es el mismo caso que G068, que R1 llevó a instructor porque el enunciado no decía «entre transacciones».",
+    "propuesta": "destino → instructor (candidata c por la clave afín APX3 #40), por coherencia con G068. Si se mantiene, cambiar la retro a «las aplicaciones no pueden crear ni gestionar hilos (APX3 #40); el multithreading de APX Batch es una estrategia de la arquitectura (APX Batch - Documentación.pdf, pág. 2)»."
+   }
+  ]
+ },
+ {
+  "grupo": "G131",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Correcta según APX3 #40/#88. Un alumno que haya leído APX Batch - Documentación.pdf, pág. 2 («multithreading» como estrategia) puede dudar, y la retro no lo aclara.",
+    "propuesta": "Opcional: añadir «El multithreading que lista APX Batch - Documentación.pdf, pág. 2 es una estrategia que gestiona la arquitectura, no la aplicación»."
+   }
+  ]
+ },
+ {
+  "grupo": "G132",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G133",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G134",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G135",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G136",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G137",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G138",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G139",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G140",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G141",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G142",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G143",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G144",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G145",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G146",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G147",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G148",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G149",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G150",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G151",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G152",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G153",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G154",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G155",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G156",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G157",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G158",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G159",
+  "veredicto": "ok",
+  "hallazgos": []
+ }
+]

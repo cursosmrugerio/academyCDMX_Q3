@@ -1,0 +1,553 @@
+[
+ {
+  "grupo": "G068",
+  "veredicto": "dudoso",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "media",
+    "detalle": "El enunciado aislado («¿Está permitida invocación sincrónica?») no dice «entre transacciones»; en el examen D05 ese contexto lo daban las preguntas vecinas. Sin él, un alumno puede pensar en invocaciones a librerías o a Mainframe, que son síncronas y están permitidas. Además la clave es prestada de preguntas afines (APX3 #17 y #18), no de esta misma, y el corpus no prohíbe la invocación síncrona.",
+    "propuesta": "Mandarla a instructor, o que el instructor autorice añadir el contexto como nota editorial visible (p. ej. «[entre transacciones]»). Si se queda en cuestionario, la retro ya avisa de que viene de la clave: mantener ese aviso."
+   }
+  ]
+ },
+ {
+  "grupo": "G069",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G070",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G071",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G072",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G073",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "baja",
+    "detalle": "Correcto mandarla a instructor: el corpus no enuncia el objetivo de la clase abstracta. Aviso para el instructor: la nota «Probable e» no es tan clara. Curse_APX_Online diap. 16 (OCR) muestra que la clase abstracta contiene setAccounts → this.addParameter(...) (≈ opción b, «Agregar parámetros del cuerpo de la respuesta»), y diap. 11 muestra que tiene los getParameter de entrada. Con tipo multi, b+e o incluso c pueden defenderse.",
+    "propuesta": "Añadir a nota_constructor que b tiene apoyo parcial en diap. 16, para que el instructor no parta de «e» como obvia."
+   }
+  ]
+ },
+ {
+  "grupo": "G074",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G075",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G076",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "fidelidad",
+    "gravedad": "baja",
+    "detalle": "Comprobado: se corrigió «scr»→«src» en a, c y d. Es legítimo: el mismo examen en PDF (APX3 #91) trae «src» en las cuatro opciones y marca src\\test\\java. La errata es de transcripción del .docx; no es una trampa (afecta también a la opción correcta).",
+    "propuesta": "Ninguna (mantener la corrección)."
+   }
+  ]
+ },
+ {
+  "grupo": "G077",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G078",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G079",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G080",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G081",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G082",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G083",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G084",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G085",
+  "veredicto": "dudoso",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "media",
+    "detalle": "Respaldo débil para ir a cuestionario. (1) El enunciado está truncado («…por el equipo de Arquitectura antes de.»). (2) La opción a (validar la comunicación con servicios NO APX) solo la respalda la clave: diap. 28 exige usar APIConnector, pero no dice que haya que validarla. (3) La d dice «más de dos veces», pero diap. 29 pide validación a partir de «más de una vez» y fija un máximo de dos. (4) La diap. 40 exige validación de Arquitectura para otra cosa, el consumo asíncrono, que no aparece entre las opciones. Quien estudie el curso marcaría solo d, o dudaría.",
+    "propuesta": "Mandarla a instructor. Si se mantiene, quitar el fragmento truncado «antes de.» y avisar en la retro de que a y la cifra de d vienen solo de la clave."
+   }
+  ]
+ },
+ {
+  "grupo": "G086",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G087",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G088",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "Campos incoherentes: respaldo «doc» con destino instructor y correctas []. Según las reglas de construcción, si las fuentes no permiten una única respuesta el respaldo es «contradictorio». Comprobado: la doc (Trabajar con el componente Librería, pág. 7) muestra literalmente `apx add util -n=\"jdbc\" -y`, que coincide con a. Que b falle (JDBC en mayúsculas, sin -y) no consta.",
+    "propuesta": "Cambiar respaldo a «contradictorio». Otra opción: si el instructor acepta que la forma documentada es la esperada, cuestionario con correctas [\"a\"]."
+   }
+  ]
+ },
+ {
+  "grupo": "G089",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro remite a AcademicosAPX págs. 2–3, pero allí dice que solo hay dos tipos de unidad de despliegue, online y batch (pág. 3), y que la librería es un tipo de recurso aparte (pág. 2). Eso puede hacer dudar al alumno entre b (du-online) y c. Además, la «clave» de Java.pdf #125 no es una línea «La respuesta correcta es»: es una explicación del mismo tipo que la de #119, que es errónea. La respuesta c queda reforzada porque T08-25 usa el mismo comando para crear una «unidad de implementación de Librería».",
+    "propuesta": "Retro: aclarar que «du-lib» crea el recurso de tipo librería (AcademicosAPX pág. 2: seis tipos de recurso) aunque las UD propiamente dichas sean online/batch (pág. 3)."
+   }
+  ]
+ },
+ {
+  "grupo": "G090",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G091",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G092",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G093",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G094",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G095",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G096",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G097",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G098",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G099",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G100",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G101",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G102",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Las opciones escriben «TESTRO01», con la letra O. La retro habla de «TESTR001», con cero, y no explica la diferencia. Un alumno atento puede pensar que c está mal escrita, o que la correcta no aparece entre las opciones. No cambia la respuesta.",
+    "propuesta": "Añadir a la retro: «(en las opciones aparece RO01 con letra O por errata; el nombre real es TESTR001)»."
+   }
+  ]
+ },
+ {
+  "grupo": "G103",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G104",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G105",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G106",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G107",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G108",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G109",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "media",
+    "detalle": "Comprobado: el corpus no dice nada de «cesiones de ficheros» (grep sin resultados en todo corpus/). La exclusión de b solo la sostienen la clave (APX3 #35 no la marca) y, de forma indirecta, D07-3 (G110: pide «tres» de cuatro y las otras tres sí están en diap. 21). La redacción parece una norma real de BBVA y no un distractor inventado. Si lo es, el alumno que marque b sería penalizado por algo cierto. El respaldo «doc» vale para a, d, e, f y para descartar c (JDBC, no JPA), pero no para b.",
+    "propuesta": "Retro: añadir «La opción b no aparece en el curso; se da por incorrecta porque la clave APX3 #35 no la marca». En nota_constructor, pedir al instructor que confirme b. Si no puede confirmarla, mandar a instructor."
+   }
+  ]
+ },
+ {
+  "grupo": "G110",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G111",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G112",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G113",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G114",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G115",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G116",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G117",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G118",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G119",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G120",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G121",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G122",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "fidelidad",
+    "gravedad": "baja",
+    "detalle": "No era la trampa: la corrección «axception»→«exception» es legítima. Pruebas: (1) la errata está en la imagen del mapa mental (CLASIFICADOR/apx/mapas-mentales/APX ONLINE PT1.jpg, comprobado visualmente, no es error de OCR), en el mismo ítem de la lista. (2) T08 copia el mapa, no la diapositiva: su opción b escribe «com.bbva.apx.exception.db.DuplicateKeyException» sin el espacio que tiene diap. 24, y su pregunta hermana T08-4 (G128, opción a) reproduce la redacción recortada del mapa («proporcionados por APX, ni ninguna excepción que herede de RuntimeException», sin «productos invocados por terceros»). La errata es heredada, no una opción trampa fabricada. Las siete están en diap. 24.",
+    "propuesta": "Ninguna. Opcional: mencionar en nota_constructor la prueba T08-4/mapa mental."
+   }
+  ]
+ },
+ {
+  "grupo": "G123",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro afirma que NullPointerException e IOException «no existen en el paquete business». La fuente solo permite decir que no figuran en la lista de diap. 24.",
+    "propuesta": "Cambiar a «no figuran en la lista de excepciones de la arquitectura APX»."
+   }
+  ]
+ },
+ {
+  "grupo": "G124",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G125",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G126",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G127",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "«(java.util.NumberFormatException no existe)» es conocimiento general y no está en la fuente (es cierto en Java). Lo que dice la diap. 25 es que la permitida es la de java.lang.",
+    "propuesta": "Cambiar a «(la permitida es la del paquete java.lang, no java.util)» o dejarlo, que es un dato cierto."
+   }
+  ]
+ },
+ {
+  "grupo": "G128",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G129",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G130",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G131",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G132",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "Campos incoherentes: respaldo «doc» con destino instructor y correctas []. Las reglas reservan «contradictorio» para cuando las fuentes no permiten una única respuesta. Es correcto mandarla a instructor: a y d son ciertas de JPA.",
+    "propuesta": "Cambiar respaldo a «contradictorio» (o «ninguno»)."
+   }
+  ]
+ },
+ {
+  "grupo": "G133",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G134",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G135",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G136",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G137",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G138",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G139",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G140",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G141",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G142",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G143",
+  "veredicto": "dudoso",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "media",
+    "detalle": "G143 y G142 tienen opciones idénticas, y la clasificación de su representante D07-35 apuntaba a APX3 #47. Parece una reformulación de la misma pregunta. La clave de #47 (d, sin TRACE) la contradice la diap. 36, que documenta LOGGER.trace. Eso sugiere que el autor de la clave no reconoce TRACE como nivel APX, y esa misma creencia puede estar detrás de #48 («los más comunes son DEBUG, INFO, WARNING y ERROR»). El corpus no dice qué niveles son los «más comunes». Un alumno que estudió la diap. 36 puede defender b. Técnicamente cumple la regla («clave», el corpus no lo trata), pero tratarla distinto que a su gemela G142 es incoherente.",
+    "propuesta": "Mandarla a instructor junto con G142 (y revisar G144 con el mismo criterio). Si se mantiene, está bien que la retro diga que TRACE existe."
+   }
+  ]
+ },
+ {
+  "grupo": "G144",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G145",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G146",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G147",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G148",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G149",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G150",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G151",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G152",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G153",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G154",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G155",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G156",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G157",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G158",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G159",
+  "veredicto": "ok",
+  "hallazgos": []
+ }
+]

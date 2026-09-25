@@ -1,0 +1,2635 @@
+[
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "1",
+  "tema_indice": null,
+  "texto": "Pregunta 1  (opción única)\n¿Qué se considera retro compatible?\na) No conozco la respuesta\nb) Agregar un nuevo método de ejecución a la biblioteca, Modificar la lógica\nc) Versionar el codigo\nd) Modificar el código para que sea compatible",
+  "id": "D05-1"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "2",
+  "tema_indice": null,
+  "texto": "Pregunta 2  (opción única)\n@Component, @Service, @Controller y @Repository, estas anotaciones ¿que causan en las clases de implementación de las bibliotecas APX?\na) No conozco la respuesta\nb) Mejorar la visibilidad a los métodos a usar\nc) Tienen el efecto de que la biblioteca no expone su servicio OSGi.\nd) Oculta los bundles donde se usan\ne) Tira la arquitectura",
+  "id": "D05-2"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "3",
+  "tema_indice": null,
+  "texto": "Pregunta 3  (opción única)\nMáximo de resultados por paginación\na) 1\nb) 2000\nc) 5000\nd) 10000\ne) 1000\nf) No conozco la respuesta",
+  "id": "D05-3"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "4",
+  "tema_indice": null,
+  "texto": "Pregunta 4  (opción única)\nLa severidad del aviso que ésta contextual a la transacción debe realizarse desde la misma mediante el método...\na) No conozco la respuesta\nb) setSeverity\nc) addAdvice\nd) setAdvice\ne) addSeverity",
+  "id": "D05-4"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "5",
+  "tema_indice": null,
+  "texto": "Pregunta 5  (opción única)\nAgrega un campo de entrada obligatorio. Agregue un campo de salida. Modifique el tipo de un campo de entrada o salida existente. Son características de un cambio…\na) Retrocompatibles\nb) Versionado\nc) No conozco la respuesta\nd) No retrocompatibles\ne) Cambio en desarrollo",
+  "id": "D05-5"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "6",
+  "tema_indice": null,
+  "texto": "Pregunta 6  (opción única)\n¿Qué es Biblioteca APX?\na) No conozco la respuesta\nb) Es un software diseñado para crear proyectos tipo APX\nc) Es un desarrollo que reemplaza a Mainframe\nd) Representación de una Entidad Comercial en forma de Bean.\ne) Una transacción es la unidad de aplicación que se ejecutará en APX Online. Define la Unidad Transaccional a nivel de lógica de aplicación.\nf) Encapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.",
+  "id": "D05-6"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "7",
+  "tema_indice": null,
+  "texto": "Pregunta 7  (selección múltiple)\nConsideraciones para tener en cuenta para la gestión de errores\na) Permite lanzar errores en un bloque try ... catch\nb) APX no permite la gestión de errores\nc) No conozco la respuesta\nd) Cada UUAA tiene un rango de código de error asignado.\ne) No hay consideraciones\nf) El manejo de errores se lleva a cabo a través de la consola de operación APX actual",
+  "id": "D05-7"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "8",
+  "tema_indice": null,
+  "texto": "Pregunta 8  (opción única)\nEs obligatorio que los DTOs se implementen dentro de un….\na) empaquetado independiente (Bundle TX)\nb) No conozco la respuesta\nc) empaquetado independiente (Bundle LIB)\nd) empaquetado independiente (Bundle Batch)\ne) empaquetado independiente (Bundle DTO)",
+  "id": "D05-8"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "9",
+  "tema_indice": null,
+  "texto": "Pregunta 9  (opción única)\nEl acceso a los datos debe realizarse utilizando las utilidades que Arquitectura proporciona desde el asistente de biblioteca. En el caso de bases de datos relacionales, ¿Qué utilidad se debe usar?\na) Datio\nb) No conozco la respuesta\nc) JDBC\nd) Elastic\ne) APIConcector",
+  "id": "D05-9"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "10",
+  "tema_indice": null,
+  "texto": "Pregunta 10  (opción única)\nLas dependencias circulares son permitidas…\na) Algunas son permitidas\nb) Depende de la necesidad del proyecto\nc) Son permitidas\nd) No conozco la respuesta\ne) Están absolutamente prohibidas",
+  "id": "D05-10"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "11",
+  "tema_indice": null,
+  "texto": "Pregunta 11  (opción única)\nLos hilos son permitidos…\na) Si\nb) Depende del JVM que se ejecute\nc) No\nd) No conozco la respuesta\ne) Depende donde se usará",
+  "id": "D05-11"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "12",
+  "tema_indice": null,
+  "texto": "Pregunta 12  (opción única)\nEl multiproceso no debe usarse en APX Batch ¿Que se puede hacer como opción?\na) Varios procesos por lotes en diferentes tiempos\nb) Otro: ____________ (respuesta libre)\nc) No es parte de Spring\nd) Varios procesos por lotes al mismo tiempo\ne) No ejecutar procesos\nf) No conozco la respuesta",
+  "id": "D05-12"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "13",
+  "tema_indice": null,
+  "texto": "Pregunta 13  (opción única)\n¿Qué es Batch?\na) Proceso que varía con respecto a sus dependencias\nb) Otro: ____________ (respuesta libre)\nc) Es un patrón de ejecución, ejecución de un programa sin el control o supervisión directa del usuario\nd) No conozco la respuesta\ne) Proceso idéntico a online\nf) Proceso que reemplaza al mainframe",
+  "id": "D05-13"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "14",
+  "tema_indice": null,
+  "texto": "Pregunta 14  (opción única)\nExcepción de Spring permitida\na) org.springframework.web.client.RestClientException\nb) com.bbva.apx.exception.db.NoResultException\nc) com.bbva.elara.utility.interbackend.cics.exceptions.BusinessException\nd) java.lang.NumberFormatException\ne) No conozco la respuesta",
+  "id": "D05-14"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "15",
+  "tema_indice": null,
+  "texto": "Pregunta 15  (opción única)\nEl acceso a datos se hace mediante ¿Qué componentes en online?\na) No conozco la respuesta\nb) Bibliotecas\nc) DTOs\nd) Jobs\ne) Transacciones",
+  "id": "D05-15"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "16",
+  "tema_indice": null,
+  "texto": "Pregunta 16  (opción única)\nDiferencias entre Las invocaciones de APX Batch e invocaciones de APX Online\na) Los encabezados del protocolo lógico a enviar\nb) Permitirá ejecutar transacciones de cics solo por protocolo ps10.\nc) Permite la posibilidad de invocar un batch de APX directamente\nd) Ninguno\ne) Horarios de ejecución\nf) No conozco la respuesta",
+  "id": "D05-16"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "17",
+  "tema_indice": null,
+  "texto": "Pregunta 17  (opción única)\n¿Qué método se usa para agregar avisos desde una Librería o transacción?\na) No conozco la respuesta\nb) setSeverity\nc) addAdvice\nd) addAvisosAPX\ne) addSeverity",
+  "id": "D05-17"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "18",
+  "tema_indice": null,
+  "texto": "Pregunta 18  (opción única)\nAPX, ¿Qué es Escritura ROP?\na) Escritura en Archivos\nb) Un LOG interno utilizado con fines de Auditoría, Fraude o Informativo que indica que la transacción ha finalizado\nc) Es un Protocolo JMS\nd) Es un Protocolo HTTP\ne) No conozco la respuesta\nf) Es un Protocolo REST",
+  "id": "D05-18"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "19",
+  "tema_indice": null,
+  "texto": "Pregunta 19  (selección múltiple)\nBatch Execution Banking basada en Spring Batch ¿qué Invocación son restringidas?\na) Acceso a recursos externos a través de HTTP.\nb) GUC\nc) Servicios web de invocación, servicios de descanso.\nd) Compresión / Descompresión.\ne) Otro: ____________ (respuesta libre)\nf) No conozco la respuesta\ng) Utilidades inherentes a la Arquitectura APX.\nh) Utilice acciones previas y posteriores.",
+  "id": "D05-19"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "20",
+  "tema_indice": null,
+  "texto": "Pregunta 20  (opción única)\nEl árbol de dependencia en la invocación a las bibliotecas debe ser finito, evitando profundidades superiores a\na) No conozco la respuesta\nb) 3\nc) 2\nd) 9\ne) 1",
+  "id": "D05-20"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "21",
+  "tema_indice": null,
+  "texto": "Pregunta 21  (opción única)\n¿Qué es el LOGGER.info?\na) No conozco la respuesta\nb) Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente. Estos son los registros habilitados en Producción\nc) Imprime información útil que le permite ver el progreso de la aplicación.\nd) Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo\ne) Le permite imprimir datos informativos con detalles finos que son útiles para depurar la aplicación.\nf) Imprime información con el máximo nivel de detalle.",
+  "id": "D05-21"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "22",
+  "tema_indice": null,
+  "texto": "Pregunta 22  (opción única)\n¿Qué es Conector CICS?\na) Permitirá ejecutar transacciones de cics solo por protocolo ps10.\nb) Permite la posibilidad de invocar un batch de APX directamente\nc) Permite la posibilidad de invocar una transacción de APX directamente\nd) Permite la posibilidad de invocar un servicio ASO directamente\ne) Permite la posibilidad de invocar una transacción de mainframe directamente\nf) No conozco la respuesta",
+  "id": "D05-22"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "23",
+  "tema_indice": null,
+  "texto": "Pregunta 23  (opción única)\nEn tiempo de ejecución, las dependencias con otras bibliotecas se resuelven en función de los paquetes declarados en la sección...\na) No conozco la respuesta\nb) Test\nc) Abstract\nd) dependency\ne) import-package",
+  "id": "D05-23"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "24",
+  "tema_indice": null,
+  "texto": "Pregunta 24  (opción única)\nJPA ¿es permitido usarlo en APX?\na) Tal vez\nb) No\nc) Si\nd) No conozco la respuesta",
+  "id": "D05-24"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "25",
+  "tema_indice": null,
+  "texto": "Pregunta 25  (opción única)\nAgregue un campo de entrada opcional. Modifique un campo de entrada obligatorio y configúrelo como opcional. Modifique un campo de salida opcional y hágalo obligatorio. Lógica interna. son características de un cambio…\na) No conozco la respuesta\nb) Versionado\nc) Retrocompatibles\nd) Cambio en desarrollo\ne) No retrocompatibles",
+  "id": "D05-25"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "26",
+  "tema_indice": null,
+  "texto": "Pregunta 26  (opción única)\nEl código try ... catch (Exception exc) ¿Es permitido en APX?\na) No conozco la respuesta\nb) Tal vez\nc) Si\nd) No",
+  "id": "D05-26"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "27",
+  "tema_indice": null,
+  "texto": "Pregunta 27  (selección múltiple)\nEn un DTO se desea intercambiar información de forma\na) Asociada\nb) No conozco la respuesta\nc) Coherente\nd) Agrupada\ne) Organizada",
+  "id": "D05-27"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "28",
+  "tema_indice": null,
+  "texto": "Pregunta 28  (opción única)\n¿Está permitida invocación sincrónica?\na) No conozco la respuesta\nb) Si\nc) Dependiendo el desarrollo\nd) No se permite la invocación sincrónica\ne) No se",
+  "id": "D05-28"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "29",
+  "tema_indice": null,
+  "texto": "Pregunta 29  (opción única)\nEjemplos de patrones de diseño\na) Todas\nb) No conozco la respuesta\nc) CRUD en bibliotecas.\nd) Paginación en bibliotecas.\ne) Paginación en transacciones.\nf) DTO en componentes APX.",
+  "id": "D05-29"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "30",
+  "tema_indice": null,
+  "texto": "Pregunta 30  (opción única)\nLa comunicación de APX a otros servicios NO APX se realizará ÚNICAMENTE a través de…\na) Librerias\nb) No conozco la respuesta\nc) Depende de su consumo\nd) DTOs\ne) APIConnector",
+  "id": "D05-30"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "31",
+  "tema_indice": null,
+  "texto": "Pregunta 31  (opción única)\nEjemplo de contenedor mágico\na) Un campo de entrada no debe usarse para que la transacción haga cosas funcionalmente diferentes\nb) Todas\nc) Contiene varios métodos en una sola librería\nd) No conozco la respuesta\ne) Un campo de entrada se devuelve a la salida\nf) Contiene diferentes variables",
+  "id": "D05-31"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "32",
+  "tema_indice": null,
+  "texto": "Pregunta 32  (opción única)\nPara mongo ¿qué utilidad debe utilizarse?\na) JPA\nb) Datio\nc) No conozco la respuesta\nd) JDBC\ne) APIConnector",
+  "id": "D05-32"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "33",
+  "tema_indice": null,
+  "texto": "Pregunta 33  (selección múltiple)\nChunk está formado por 3 componentes\na) No conozco la respuesta\nb) Escritor\nc) Otro: ____________ (respuesta libre)\nd) Step\ne) Lector\nf) Procesador\ng) Task",
+  "id": "D05-33"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "34",
+  "tema_indice": null,
+  "texto": "Pregunta 34  (opción única)\nEn caso de que una transacción deba invocar a otra, solo se puede realizar de forma...\na) Dependiendo el desarrollo\nb) No conozco la respuesta\nc) Con un conector\nd) Sincrónica\ne) Asincrónica",
+  "id": "D05-34"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "35",
+  "tema_indice": null,
+  "texto": "Pregunta 35  (opción única)\nLa Arquitectura es la encargada de realizar la gestión de commit para garantizar la transaccionalidad\na) Si\nb) Es posible desde la consola de configuracion\nc) Es posible desde las librerias\nd) No conozco la respuesta\ne) No",
+  "id": "D05-35"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "36",
+  "tema_indice": null,
+  "texto": "Pregunta 36  (opción única)\n¿Qué es el LOGGER.debug?\na) Imprime información con el máximo nivel de detalle.\nb) Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo\nc) Imprime información útil que le permite ver el progreso de la aplicación.\nd) No conozco la respuesta\ne) Le permite imprimir datos informativos con detalles finos que son útiles para depurar la aplicación.\nf) Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente. Estos son los registros habilitados en Producción",
+  "id": "D05-36"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "37",
+  "tema_indice": null,
+  "texto": "Pregunta 37  (opción única)\n¿Por qué no se recomiendan las transacciones asíncronas?\na) No hay implementación de transacciones asíncronas\nb) No se permite en México\nc) Su lentitud de ejecución\nd) OSGI no reconoce las transacciones como dependencias\ne) Se pierde el control de la ejecución\nf) No conozco la respuesta",
+  "id": "D05-37"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "38",
+  "tema_indice": null,
+  "texto": "Pregunta 38  (selección múltiple)\nBatch consta de 3 partes ¿Cuáles son?\na) Entrada: obtenga y lea la información de entrada al proceso.\nb) Salida: escribe o realiza alguna acción como resultado del procesamiento.\nc) Procesamiento: se realiza algún tipo de lógica empresarial sobre estos datos de entrada.\nd) No conozco la respuesta\ne) Otro: ____________ (respuesta libre)",
+  "id": "D05-38"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "39",
+  "tema_indice": null,
+  "texto": "Pregunta 39  (opción única)\nEjecución de procesos Monostep. ¿Se puede usar?\na) Tal vez\nb) No conozco la respuesta\nc) No se recomienda la ejecución de trabajos con un solo paso.\nd) Depende el desarrollo\ne) Si\nf) Otro: ____________ (respuesta libre)",
+  "id": "D05-39"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "40",
+  "tema_indice": null,
+  "texto": "Pregunta 40  (opción única)\nNiveles más comunes de LOG en APX\na) DEBUG, INFO\nb) DEBUG, INFO, WARNING y ERROR\nc) TRACE, DEBUG, INFO, WARNING y ERROR\nd) No conozco la respuesta\ne) DEBUG, INFO, WARNING",
+  "id": "D05-40"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "41",
+  "tema_indice": null,
+  "texto": "Pregunta 41  (opción única)\n¿Qué es APX CLI?\na) Representación de una Entidad Comercial en forma de Bean.\nb) No conozco la respuesta\nc) Es un desarrollo que reemplaza a Mainframe\nd) Es un software diseñado para crear proyectos tipo APX, así como administrar dependencias con otras bibliotecas APX y administrar utilidades\ne) Una transacción es la unidad de aplicación que se ejecutará en APX Online. Define la Unidad Transaccional a nivel de lógica de aplicación.\nf) Encapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.",
+  "id": "D05-41"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "42",
+  "tema_indice": null,
+  "texto": "Pregunta 42  (opción única)\n¿Qué es Identificador único (UID)?\na) Identifica de forma única una ejecución\nb) Identificador único de cada DTO\nc) Identificador único de cada transacción\nd) Identificador único de cada Batch\ne) No conozco la respuesta\nf) Identificador único de cada de cada componente en APX",
+  "id": "D05-42"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "43",
+  "tema_indice": null,
+  "texto": "Pregunta 43  (opción única)\n¿Cuántas veces es posible invocar Mainframe?\na) No es posible invocar Mainframe\nb) Sin restricción\nc) 2\nd) 1\ne) No conozco la respuesta",
+  "id": "D05-43"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "44",
+  "tema_indice": null,
+  "texto": "Pregunta 44  (opción única)\n¿Qué es el LOGGER.warn?\na) Imprime información con el máximo nivel de detalle.\nb) No conozco la respuesta\nc) Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo\nd) Imprime información útil que le permite ver el progreso de la aplicación.\ne) Le permite imprimir datos informativos con detalles finos que son útiles para depurar la aplicación.\nf) Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente. Estos son los registros habilitados en Producción",
+  "id": "D05-44"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "45",
+  "tema_indice": null,
+  "texto": "Pregunta 45  (opción única)\nLa creación de instancias, abrir o cerrar explícitamente conexiones a la base de datos, ¿de quién depende estas tareas?\na) Arquitectura\nb) Java\nc) ASO\nd) No conozco la respuesta\ne) Bibliotecas",
+  "id": "D05-45"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "46",
+  "tema_indice": null,
+  "texto": "Pregunta 46  (opción única)\nDeclarar una dependencia de compilación como opcional (true), ¿Qué efectos conlleva?\na) No conozco la respuesta\nb) Hace que los paquetes definidos en la sección import-package también se establezcan como opcionales\nc) Hace que busque todas las dependencias definidas\nd) Dependiendo el desarrollo\ne) Otro: ____________ (respuesta libre)\nf) No busca ninguna dependencia",
+  "id": "D05-46"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "47",
+  "tema_indice": null,
+  "texto": "Pregunta 47  (selección múltiple)\nÚnicas excepciones que pueden ser capturadas y administradas por las aplicaciones\na) com.bbva.apx.exception.db.NoResultException\nb) com.bbva.apx. exception.db.DuplicateKeyException\nc) com.bbva.apx.exception.db.IncorrectResultSizeException\nd) com.bbva.apx.exception.db.TimeoutException\ne) com.bbva.elara.utility.interbackend.cics.exceptions.BusinessException\nf) No conozco la respuesta\ng) com.bbva.apx.exception.io.network.TimeoutException\nh) com.bbva.apx.exception.business.BusinessException",
+  "id": "D05-47"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "48",
+  "tema_indice": null,
+  "texto": "Pregunta 48  (opción única)\n¿Qué es APX?\na) No conozco la respuesta\nb) Es una extensión de Mainframe sustituyéndola\nc) Es una forma de poder sustituir al Mainframe para ejecutar procesos más rápidos\nd) Ofrece una alternativa confiable para el desarrollo de transacciones que no está acoplada al canal pero depende del Mainframe\ne) La Arquitectura APX o Arquitectura Backend Java Extendida fue creada con el objetivo de ser una extensión de la Arquitectura Backend proporcionando las mismas capacidades en el mundo distribuido.",
+  "id": "D05-48"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "49",
+  "tema_indice": null,
+  "texto": "Pregunta 49  (opción única)\n¿En qué ayuda un DTO?\na) Ayuda a identificar los métodos que se repiten en componentes APX\nb) No conozco la respuesta\nc) El uso de este patrón ayuda a identificar las agrupaciones de datos simples y/o complejos, y evita duplicidad de código.\nd) Ayuda a agrupar métodos de un componente",
+  "id": "D05-49"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "50",
+  "tema_indice": null,
+  "texto": "Pregunta 50  (opción única)\nLas bibliotecas pueden definir su propia ______ para determinar qué UUAA externas pueden usar sus bibliotecas.\na) De quien serán dependencias\nb) De quien las consuma\nc) No conozco la respuesta\nd) Visibilidad\ne) Autoconsumo\nf) Gestión de errores",
+  "id": "D05-50"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "51",
+  "tema_indice": null,
+  "texto": "Pregunta 51  (opción única)\n¿Qué sucede cuando se implementa una nueva versión de una dependencia en una biblioteca?\na) No carga las dependencias correctas\nb) No encuentra las dependencias\nc) Errores en tiempo de ejecución\nd) No conozco la respuesta\ne) No tiene impacto en nuestra biblioteca en el momento de la ejecución",
+  "id": "D05-51"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "52",
+  "tema_indice": null,
+  "texto": "Pregunta 52  (selección múltiple)\nCapacidades de APX\na) No conozco la respuesta\nb) Implementaciones en caliente de acceso a datos\nc) Procesamiento transaccional\nd) Interoperatibilidad de backends\ne) Monitoreo de procesamiento por lotes de servicios bancarios\nf) Integración con servicios de seguridad",
+  "id": "D05-52"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "53",
+  "tema_indice": null,
+  "texto": "Pregunta 53  (opción única)\n¿Por qué se deben utilizar variables BIND?\na) Para mejorar las sentencias\nb) No conozco la respuesta\nc) Para una mejor vista\nd) Para no afectar el rendimiento de la base de datos.\ne) Para enviar muchos datos al mismo tiempo",
+  "id": "D05-53"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "54",
+  "tema_indice": null,
+  "texto": "Pregunta 54  (opción única)\n¿Qué es patrón de diseño?\na) Patron de identificación único de procesos\nb) Patrón de identificación de procesos\nc) Identificador de diseños\nd) Proporciona una solución a un problema de diseño\ne) No conozco la respuesta\nf) Proporciona información de la ejecución",
+  "id": "D05-54"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "55",
+  "tema_indice": null,
+  "texto": "Pregunta 55  (opción única)\nLas dependencias circulares que ocasionan...\na) Mejorar el acceso a los componentes\nb) Que OSGI no cargue estas dependencias correctamente\nc) No conozco la respuesta\nd) Emporar la comunicación de los Bundles\ne) Depende de la necesidad del proyecto",
+  "id": "D05-55"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "56",
+  "tema_indice": null,
+  "texto": "Pregunta 56  (opción única)\n¿Por qué no se recomiendan las transacciones asíncronas?\na) No sabrá si ha concluido con un commit OK o con un OK retroceso.\nb) No hay implementación de transacciones asíncronas\nc) OSGI no reconoce las transacciones como dependencias\nd) No se permite en Mexico\ne) Su lentitud de ejecución\nf) No conozco la respuesta",
+  "id": "D05-56"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "57",
+  "tema_indice": null,
+  "texto": "Pregunta 57  (opción única)\nEl multiproceso no debe usarse en APX Batch ¿por qué?\na) Por la incompatibilidad en la JVM\nb) No conozco la respuesta\nc) Fuente de consumo de recursos descontrolado y bloqueos de otros trabajos que se ejecutan al mismo tiempo.\nd) Es una etiqueta no permitida\ne) Otro: ____________ (respuesta libre)\nf) No es parte de Spring",
+  "id": "D05-57"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "58",
+  "tema_indice": null,
+  "texto": "Pregunta 58  (selección múltiple)\nBatch, se pueden implementar las siguientes interfaces ¿cuáles?\na) Otro: ____________ (respuesta libre)\nb) ItemWriter\nc) ItemProcessor\nd) No conozco la respuesta\ne) ItemReader\nf) ItemReader, ItemProcessor, ItemWriter",
+  "id": "D05-58"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "59",
+  "tema_indice": null,
+  "texto": "Pregunta 59  (opción única)\nExcepciones de Java permitida\na) com.bbva.elara.utility.interbackend.cics.exceptions.BusinessException\nb) java.lang.NumberFormatException\nc) No conozco la respuesta\nd) com.bbva.apx.exception.db.NoResultException\ne) org.springframework.web.client.RestClientException",
+  "id": "D05-59"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "60",
+  "tema_indice": null,
+  "texto": "Pregunta 60  (selección múltiple)\nBatch Execution Banking basada en Spring Batch ¿características que proporciona?\na) No conozco la respuesta\nb) Opción de compromisos parciales.\nc) Control del segmento de ejecución.\nd) Acceso a utilidades y recursos del sistema.\ne) No permite la ejecución de ciertos comandos de eliminación del sistema.\nf) Lectura / Escritura de múltiples formatos de archivo (TXT, CSV, etc.).\ng) El proceso por lotes se reinicia en caso de error.\nh) Los lectores acceden a las bases de datos en modo \"solo lectura\".\ni) Integración con planificadores: BMC Control-M, Tivoli OPC, Quartz.\nj) Soporte multi-DB usando fuentes de datos configurables\nk) Otro: ____________ (respuesta libre)\nl) Lectores y escritores listos para usar y personalizables.",
+  "id": "D05-60"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "61",
+  "tema_indice": null,
+  "texto": "Pregunta 61  (opción única)\nPropósito Bibliotecas del motor de reglas\na) El propósito de esta biblioteca es permitir que el desarrollador invoque las reglas comerciales que necesita a través del motor de reglas Drools\nb) Es un software diseñado para crear proyectos tipo APX, así como administrar dependencias con otras bibliotecas APX y administrar utilidades\nc) Es un desarrollo que reemplaza a Mainframe\nd) No conozco la respuesta\ne) Una transacción es la unidad de aplicación que se ejecutará en APX Online. Define la Unidad Transaccional a nivel de lógica de aplicación.\nf) Encapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.",
+  "id": "D05-61"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "62",
+  "tema_indice": null,
+  "texto": "Pregunta 62  (selección múltiple)\nCaracterísticas del Batch\na) Aplicación por lotes: estrategias de procesamiento\nb) Requisitos complejos no funcionales\nc) Rendimiento / procesamiento de alta velocidad.\nd) No conozco la respuesta\ne) Procesamiento normal en una ventana por lotes durante fuera de línea.\nf) Sin interacción (directa) del usuario.\ng) Trazabilidad de la información y ejecución.\nh) Otro: ____________ (respuesta libre)\ni) Generalmente procesa grandes volúmenes de información.",
+  "id": "D05-62"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "63",
+  "tema_indice": null,
+  "texto": "Pregunta 63  (opción única)\n¿Qué es el LOGGER.trace?\na) Imprime información útil que le permite ver el progreso de la aplicación.\nb) No conozco la respuesta\nc) Imprime información con el máximo nivel de detalle.\nd) Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo\ne) Le permite imprimir datos informativos con detalles finos que son útiles para depurar la aplicación.\nf) Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente. Estos son los registros habilitados en Producción",
+  "id": "D05-63"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "64",
+  "tema_indice": null,
+  "texto": "Pregunta 64  (opción única)\n¿Qué es Transacción APX?\na) Es un software diseñado para crear proyectos tipo APX\nb) Encapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.\nc) Representación de una Entidad Comercial en forma de Bean.\nd) No conozco la respuesta\ne) Una transacción es la unidad de aplicación que se ejecutará en APX Online. Define la Unidad Transaccional a nivel de lógica de aplicación.\nf) Es un desarrollo que reemplaza a Mainframe",
+  "id": "D05-64"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "65",
+  "tema_indice": null,
+  "texto": "Pregunta 65  (opción única)\nUna transacción o librería, dentro de su lógica, debe evitar invocar más de ___ librerías\na) 2\nb) 9\nc) 1\nd) 3\ne) No conozco la respuesta",
+  "id": "D05-65"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "66",
+  "tema_indice": null,
+  "texto": "Pregunta 66  (opción única)\nExiste un API de código de barras\na) Solo en España\nb) No\nc) Si\nd) No conozco la respuesta\ne) Tal vez\nf) Su uso es restringido",
+  "id": "D05-66"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "67",
+  "tema_indice": null,
+  "texto": "Pregunta 67  (opción única)\nComo es la estandarización del código en APX\na) Desarrollo se defina con respecto a las reglas de APX\nb) No conozco la respuesta\nc) Desarrollo definido en inglés, ya que los componentes se pueden reutilizar en todo el Grupo BBVA.\nd) Desarrollo pase por Bitbucket, jenkins, sonar\ne) Desarrollo se defina con respecto a las reglas de Sonar",
+  "id": "D05-67"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "68",
+  "tema_indice": null,
+  "texto": "Pregunta 68  (opción única)\nNO se deben utilizar sentencias que incluyan atributos o acciones específicas de un administrador de base de datos en particular, como lo es...\na) SELECT\nb) FROM\nc) No conozco la respuesta\nd) OR\ne) ROWNUM",
+  "id": "D05-68"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "69",
+  "tema_indice": null,
+  "texto": "Pregunta 69  (opción única)\nDeclarar una dependencia de compilación como opcional (true), ¿es correcto declararla?\na) No conozco la respuesta\nb) Tal vez\nc) No\nd) Dependiendo el desarrollo\ne) Otro: ____________ (respuesta libre)\nf) Si",
+  "id": "D05-69"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "70",
+  "tema_indice": null,
+  "texto": "Pregunta 70  (opción única)\n¿Qué es Document Manager?\na) Utilidad para crear Documentos\nb) Utilidad que está restringida para su uso\nc) Utilidad que proporciona acceso a los servicios de gestión de documentos externos a las aplicaciones\nd) Utilidad para organizar documentos\ne) No conozco la respuesta\nf) Utilidad para manejar Documentos",
+  "id": "D05-70"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "71",
+  "tema_indice": null,
+  "texto": "Pregunta 71  (selección múltiple)\nRestricciones para imprimir loggers en APX\na) Solo en España hay restricciones\nb) No se permite la generación de archivos propios para la escritura de logs.\nc) Le permite imprimir datos informativos\nd) No hay restricciones\ne) Tampoco está permitido escribir por sysout\nf) No conozco la respuesta",
+  "id": "D05-71"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "72",
+  "tema_indice": null,
+  "texto": "Pregunta 72  (opción única)\n¿Qué es El método getRequestHeader?\na) Recuperará los encabezados de ASO\nb) Utilidad para organizar documentos en cabezales\nc) Recuperará el valor de los parámetros del encabezado con el que se ejecutó la transacción\nd) No conozco la respuesta\ne) Utilidad que Accede a BBDD\nf) Utilidad para crear encabezados para la ejecución de transacciones",
+  "id": "D05-72"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "73",
+  "tema_indice": null,
+  "texto": "Pregunta 73  (opción única)\nPara que sirve IMSConnect\na) No conozco la respuesta\nb) Permite la posibilidad de invocar un DTO de APX directamente\nc) Permite la posibilidad de invocar un servicio ASO directamente\nd) Permite la posibilidad de invocar un batch de APX directamente\ne) Permite la posibilidad de invocar una transacción de mainframe directamente\nf) Permite la posibilidad de invocar una transacción de APX directamente",
+  "id": "D05-73"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "74",
+  "tema_indice": null,
+  "texto": "Pregunta 74  (opción única)\n¿Para qué se usa el JPA?\na) Permite insertar, actualiza y consultar en BBDD\nb) Permite manejar las utilidades de APX (Datio, JDBC,...)\nc) No conozco la respuesta\nd) Permite realizar un almacenamiento en caché de tablas de BBDD\ne) Permite usar componentes APX con cualquier BBDD",
+  "id": "D05-74"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "75",
+  "tema_indice": null,
+  "texto": "Pregunta 75  (opción única)\nAPX, ¿protocolos físicos que admite?\na) JMS\nb) SOAP\nc) HTTP, JMS, REST\nd) HTTP\ne) No conozco la respuesta\nf) REST",
+  "id": "D05-75"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "76",
+  "tema_indice": null,
+  "texto": "Pregunta 76  (opción única)\n¿Qué es un DTO?\na) Agrupa métodos de un componente\nb) Es un objeto de agrupación de componentes APX\nc) Un objeto de transferencia de datos es, transporta datos entre procesos\nd) No conozco la respuesta",
+  "id": "D05-76"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "77",
+  "tema_indice": null,
+  "texto": "Pregunta 77  (opción única)\nUna UUAA ¿puede acceder a los datos que posee y datos de terceros a través de bibliotecas APX?\na) No\nb) No conozco la respuesta\nc) Si\nd) Tal vez",
+  "id": "D05-77"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "78",
+  "tema_indice": null,
+  "texto": "Pregunta 78  (opción única)\n¿Qué es un Chunk?\na) No conozco la respuesta\nb) Conjuntos de datos de entrada se procesan en la misma transacción\nc) Otro: ____________ (respuesta libre)\nd) Conjunto de procesos\ne) Conjunto de readers\nf) Realiza una operación dentro del paso (por ejemplo, invocando utilidades de arquitectura)",
+  "id": "D05-78"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "79",
+  "tema_indice": null,
+  "texto": "Pregunta 79  (selección múltiple)\nTipos de pasos en un proceso Batch ¿Cuáles son?\na) No conozco la respuesta\nb) Write\nc) Chunk\nd) Read\ne) Process\nf) Otro: ____________ (respuesta libre)\ng) Task",
+  "id": "D05-79"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "80",
+  "tema_indice": null,
+  "texto": "Pregunta 80  (opción única)\nLas etiquetas @SuppressWarnings o etiquetas similares son permitidas…\na) No conozco la respuesta\nb) Si\nc) No\nd) Depende del JVM que se ejecute\ne) Algunas",
+  "id": "D05-80"
+ },
+ {
+  "archivo": "apx/examenes/05 - Diagnóstico APX.docx",
+  "n": "81",
+  "tema_indice": null,
+  "texto": "Pregunta 81  (opción única)\n¿Qué es el LOGGER.error?\na) Le permite imprimir datos informativos con detalles finos que son útiles para depurar la aplicación.\nb) No conozco la respuesta\nc) Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo\nd) Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente. Estos son los registros habilitados en producción\ne) Imprime información con el máximo nivel de detalle.\nf) Imprime información útil que le permite ver el progreso de la aplicación.",
+  "id": "D05-81"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "1",
+  "tema_indice": null,
+  "texto": "Pregunta 1  (opción única)\nLa arquitectura batch publica un conector WebService que no admite solicitudes para la ejecución de procesos batch ejecutadas a través del portal de desarrollo. Las aplicaciones que requieran la ejecución de procesos batch bajo demanda, también solicitan la ejecución a través de esta interfaz WebService. Este último escenario únicamente se está produciendo en entornos BBVA CIB.\na) Verdadero\nb) Falso",
+  "id": "D06-1"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "2",
+  "tema_indice": null,
+  "texto": "Pregunta 2  (opción única)\n¿Quién es el responsable de iniciar un Job?\na) JobExecution\nb) JobLauncher\nc) JobInstance\nd) JobBegginer",
+  "id": "D06-2"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "3",
+  "tema_indice": null,
+  "texto": "Pregunta 3  (opción única)\n¿Cuáles son los dos tipos de step que existen en Batch APX?\na) Creator, Processor\nb) Processor,Task\nc) Chunk, Reader\nd) Chunk,Task",
+  "id": "D06-3"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "4",
+  "tema_indice": null,
+  "texto": "Pregunta 4  (opción única)\nLas 3 principales partes de un task\na) Chunk, processing, output\nb) Input, processing, output\nc) Input, load, processing, Output\nd) Input, Load, Output",
+  "id": "D06-4"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "5",
+  "tema_indice": null,
+  "texto": "Pregunta 5  (opción única)\nEn batch , cada step tiene\na) itemInput, itemProcessor y itemWriter\nb) itemReader, itemProcessor y itemWriter\nc) itemReader, itemProcessor y item Output",
+  "id": "D06-5"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "6",
+  "tema_indice": null,
+  "texto": "Pregunta 6  (opción única)\n¿Cuál es la ubicación de archivos temporales utilizados en Batch?\na) /fichtemporal/datent\nb) /fichtemcomp/datent\nc) /temporalFiles/datent\nd) /datentJobs/datent",
+  "id": "D06-6"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "7",
+  "tema_indice": null,
+  "texto": "Pregunta 7  (opción única)\n¿Qué característica NO pertenece al BATCH?\na) Procesamiento generalmente grande volúmenes de información\nb) Interacción con usuario (directo)\nc) Procesamiento normal en una ventana de lote fuera de línea\nd) Requisitos no funcionales complejos",
+  "id": "D06-7"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "8",
+  "tema_indice": null,
+  "texto": "Pregunta 8  (opción única)\nDescribe las Clases que implementan la lógica de cada uno de los steps en un proceso Batch\na) OPC, Processors, Readers\nb) Readers, Writers, Processors\nc) Processors, UID, OPC",
+  "id": "D06-8"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "9",
+  "tema_indice": null,
+  "texto": "Pregunta 9  (selección múltiple)\nDe la lista siguiente, indique cuales son las invocaciones restringidas en la Arquitectura Batch:\na) Invocación WebServices, servicios REST\nb) Acceso a recursos externos vía HTTP\nc) Uso de Pre y Post Acciones\nd) Escritura en Registro de Operaciones\ne) Escritura en el Diario Electrónico.\nf) a, b y c\ng) a, c y d\nh) Todas las anteriores",
+  "id": "D06-9"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "10",
+  "tema_indice": null,
+  "texto": "Pregunta 10  (opción única)\n¿Cuál es el prefijo que debe utilizarse en la nomenclatura de los métodos que exponen las librerías para ser consumidos?\na) execute[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es opcional\nb) dependency[[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es opcional\nc) execute[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es obligatorio\nd) dependency[[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es obligatorio",
+  "id": "D06-10"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "11",
+  "tema_indice": null,
+  "texto": "Pregunta 11  (opción única)\nEstos tipos de librerías se pueden combinar entre sí para tener una librería con diferentes capacidades o no elegir ninguno de las opciones anteriores.\na) Online y Batch\nb) Shell y JDBC",
+  "id": "D06-11"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "12",
+  "tema_indice": null,
+  "texto": "Pregunta 12  (opción única)\nEncapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.\na) DTO\nb) Transacción APX\nc) Unidad funcional\nd) Librería APX\ne) Capa de Acceso a Datos",
+  "id": "D06-12"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "13",
+  "tema_indice": null,
+  "texto": "Pregunta 13  (opción única)\nPara garantizar el comportamiento transaccional de APX, la arquitectura se basa en el estándar ____, por lo que los recursos administrados dentro de la transacción deben ser del tipo XA.\na) JT3\nb) JTX\nc) JPA\nd) JTA",
+  "id": "D06-13"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "14",
+  "tema_indice": null,
+  "texto": "Pregunta 14  (opción única)\nEl objeto _______ no debe manejarse directamente. No debe crear instancias, abrir o cerrar explícitamente conexiones a la base de datos.\na) Database\nb) Conection\nc) Datasource\nd) JDBC",
+  "id": "D06-14"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "15",
+  "tema_indice": null,
+  "texto": "Pregunta 15  (opción única)\nEn las consultas a BBDD debe usar variables _______ para no afectar el rendimiento de la base de datos\na) Miembro\nb) Bind\nc) Locales\nd) Dynamic",
+  "id": "D06-15"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "16",
+  "tema_indice": null,
+  "texto": "Pregunta 16  (opción única)\nIndica a JUnit que la propiedad que usa esta anotación es una simulación y, por lo tanto, se inicializa como tal y es susceptible de ser inyectada por @InjectMocks.\na) Mockito\nb) Mock\nc) Inject\nd) InjectMock",
+  "id": "D06-16"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "17",
+  "tema_indice": null,
+  "texto": "Pregunta 17  (selección múltiple)\n¿Cuál de las siguientes opciones son las consideraciones para tener en cuenta en la instalación en Entorno de Ejecución Local?\na) Descomprimir la carpeta arquitectura en la ruta raíz /, es probable que se requieran permisos de administrador (sudo).\nb) Dar permisos de ejecución a la carpeta y archivos del ENTORNO_LOCAL_APX: sudo chmod -R 777 /ENTORNO_LOCAL_APX\nc) La instalación debe realizarse sobre un ordenador de sobremesa del BBVA con sistema operativo Windows o Linux.\nd) Las rutas y urls proporcionadas serán exclusivamente para un entorno local",
+  "id": "D06-17"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "18",
+  "tema_indice": null,
+  "texto": "Pregunta 18  (opción única)\nEn un Batch cual es el step donde el desarrollador introducira la logica empresarial necesaria\na) Chunk\nb) JobLauncher\nc) ItemWriter\nd) Task",
+  "id": "D06-18"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "19",
+  "tema_indice": null,
+  "texto": "Pregunta 19  (opción única)\n¿Cuál definición de APX es incorrecta?\na) Extended Platform Architecture\nb) Extended Programming Architecture\nc) Backend Extended Platform\nd) Extended Java Backend Architecture",
+  "id": "D06-19"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "20",
+  "tema_indice": null,
+  "texto": "Pregunta 20  (opción única)\n¿Qué es APX Online?\na) Basada en Java, diseñada y construida por BBVA con ámbito local para ser utilizada en el Banco.\nb) Esta plataforma contiene capacidades Front y está dirigida a aplicaciones que necesiten crear lógica de negocio sin acoplamiento con la presentación. Es un Sistema de alto rendimiento, con fácil escalabilidad y disponibilidad garantizada\nc) Ejecución en entornos normales tipo R2 es la misma que la arquitectura diseñada y planteada para entornos Cloud. Las versiones que se generan son no duales por lo que cambia el empaquetado de la Arquitectura y la estrategia de aprovisionamiento de componentes aplicativos.\nd) Habilita los servicios bancarios transaccionales fuera del entorno de mainframe, pero brinda las mismas capacidades en el mundo distribuido, reduce los costos generales del sistema, se basa en tecnologías de código abierto, permite a los desarrolladores aprovechar todos los servicios extendidos provistos en la plataforma para construir servicios lo más rápido posible",
+  "id": "D06-20"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "21",
+  "tema_indice": null,
+  "texto": "Pregunta 21  (opción única)\nLa Plataforma Extendida BackEnd Java APX nació con el requerimiento que pudiera funcionar en colaboración con el MainFrame o stand-alone (independientemente). Igualmente se pueden hacer uso de sus capacidades de Arquitectura Bancaría o no utilizarlas cuando las aplicaciones se salgan de este modelo\na) Verdadero\nb) Falso",
+  "id": "D06-21"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "22",
+  "tema_indice": null,
+  "texto": "Pregunta 22  (opción única)\nDentro de los casos de uso de la Arquitectura de APX y con el fin de estandarizar las aplicaciones del banco se plantearon dos paradigmas compatibles con BBVA:\n\n1. Backend Banca Tradicional\n 2. Servicios Distribuidos Backend\na) Verdadero\nb) Falso",
+  "id": "D06-22"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "23",
+  "tema_indice": null,
+  "texto": "Pregunta 23  (opción única)\nLas utilidades APX implementadas tanto para la arquitectura Online como para la arquitectura Batch son:\na) Communication Manager: Se crea una librería con la capacidad de invocar a G.U.C para el envío de notificaciones. Interbackend proxy: Se crea una librería con la capacidad de invocar a los conectores IMS (para acceso a Host).\nb) Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y descomprimir archivos en zip. Generador de documentos: Se crea una librería con la capacidad de generar documentos.",
+  "id": "D06-23"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "24",
+  "tema_indice": null,
+  "texto": "Pregunta 24  (opción única)\nLas utilidades APX implementadas únicamente para la arquitectura Online son:\na) Communication Manager: Se crea una librería con la capacidad de invocar a G.U.C para el envío de notificaciones. Interbackend proxy: Se crea una librería con la capacidad de invocar a los conectores IMS (para acceso a Host).\nb) Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y descomprimir archivos en zip. Generador de documentos: Se crea una librería con la capacidad de generar documentos.",
+  "id": "D06-24"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "25",
+  "tema_indice": null,
+  "texto": "Pregunta 25  (opción única)\nLa descripción de la Capa de Control es: Componente recibe la información necesaria para hacer el distpach de la ejecución de transacciones. Se crea a la vez que la sesión de contexto transaccional, para permitir que la arquitectura pueda ejecutar la lógica de Negocio. Proporciona el ámbito transaccional por lo que es capaz de confirmar (commit) o deshacer (rooll-back) ejecuciones. Este componente es el que gestiona la definición de transacción de acuerdo con la petición y ejecuta las pre y post acciones relacionadas con la lógica de negocio.\na) Verdadero\nb) Falso",
+  "id": "D06-25"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "26",
+  "tema_indice": null,
+  "texto": "Pregunta 26  (opción única)\nEstos módulos encapsulan toda la funcionalidad relacionada con las operaciones bancarias como el diario o registro de operaciones. Hay dos puntos claves en relación con estos servicios:\n\n 1. No deben afectar al rendimiento ejecución de la lógica de negocio por lo que el diario y el registro de las operaciones han de usar colas internas para desacoplar su propia ejecución de la ejecución de la lógica de negocio\n\n 2. Estos módulos son responsables de datos que pueden ser almacenados en el diario del MainFrame o en el propio de la arquitectura. Por lo tanto, el servicio de diario tiene que ser capaz de almacenar los datos del diario en ambos sitios.\na) Verdadero\nb) Falso",
+  "id": "D06-26"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "27",
+  "tema_indice": null,
+  "texto": "Pregunta 27  (selección múltiple)\nDe la lista siguiente marca 2 funcionalidades de servicios persistencia incluidas en APX\na) SFTP\nb) PS9\nc) JDBC\nd) JMS/RABBIT\ne) Two-Phase Commit\nf) JNDI",
+  "id": "D06-27"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "28",
+  "tema_indice": null,
+  "texto": "Pregunta 28  (selección múltiple)\nDe la lista siguiente marca 2 funcionalidades de servicios conectores incluidos en APX\na) Gestor de Eventos\nb) HTTP/HTTPs\nc) JDBC\nd) JMS/RABBIT\ne) Two-Phase Commit\nf) JNDI",
+  "id": "D06-28"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "29",
+  "tema_indice": null,
+  "texto": "Pregunta 29  (selección múltiple)\nDe la lista siguiente marca 2 funcionalidades de servicios Core incluidos en APX\na) Soporte transaccional\nb) Ejecución de reglas de negocio\nc) Casos restringidos\nd) Thread Affinity\ne) Soporte Transaccional JTA/XA\nf) Autorización y Perfilado",
+  "id": "D06-29"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "30",
+  "tema_indice": null,
+  "texto": "Pregunta 30  (opción única)\nEn primer lugar, APX recibe la solicitud en uno de los protocolos físicos que admite (HTTP, JMS, REST,). Luego, crea un identificador único para la ________ y valide si los encabezados de solicitud están bien formateados de acuerdo con el protocolo lógico definido por Arquitectura\na) Pila de ejecución\nb) Solicitud\nc) Transacción\nd) Ejecución",
+  "id": "D06-30"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "31",
+  "tema_indice": null,
+  "texto": "Pregunta 31  (opción única)\n¿Cuáles son los campos que definen a una transacción en APX?\na) Aplicación, versión, país, paquete descripción\nb) Aplicación, dominio, país, paquete descripción\nc) Aplicación, transacción, versión, país, descripción\nd) Aplicación, transacción, dominio, versión, país, descripción",
+  "id": "D06-31"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "32",
+  "tema_indice": null,
+  "texto": "Pregunta 32  (opción única)\nSon dos de los protocolos físicos que APX admite en una solicitud.\na) JMS y REST\nb) MQ y TCP\nc) QP05 y MQ\nd) AQPG y PS9",
+  "id": "D06-32"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "33",
+  "tema_indice": null,
+  "texto": "Pregunta 33  (selección múltiple)\n¿Cuáles son los protocolos físicos disponibles en APX Online?\n Selecciona 2\na) HTTP/ SOAP\nb) HTTP/ REST / RESTFul (A través de Servicios Backend)\nc) AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)\nd) PS9",
+  "id": "D06-33"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "34",
+  "tema_indice": null,
+  "texto": "Pregunta 34  (selección múltiple)\n¿Cuáles son los protocolos lógicos disponibles en APX? \nSelecciona 2\na) HTTP/ SOAP\nb) PS9\nc) HTTP/ REST / RESTFul (A través de Servicios Backend)\nd) AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)",
+  "id": "D06-34"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "35",
+  "tema_indice": null,
+  "texto": "Pregunta 35  (opción única)\nLa invocación síncrona no está permitida. En caso de que una transacción deba invocar a otra, solo se puede hacer de forma asíncrona\na) Verdadero\nb) Falso",
+  "id": "D06-35"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "36",
+  "tema_indice": null,
+  "texto": "Pregunta 36  (selección múltiple)\nSelecciona al menos dos restricciones que se tienen en APX en la invocación entre transacciones.\na) No se permite la invocación síncrona entre transacciones.\nb) No se permite la invocación asíncrona entre transacciones\nc) La invocación asíncrona entre transacciones es en casos de transacciones criticas\nd) La invocación asíncrona entre transacciones es casos de transacciones NO criticas\ne) Desde una transacción asíncrona no se puede invocar nuevamente a otra transacción asíncrona\nf) Desde una transacción asíncrona se puede invocar nuevamente a otra transacción asíncrona",
+  "id": "D06-36"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "37",
+  "tema_indice": null,
+  "texto": "Pregunta 37  (opción única)\nUn ________ proporciona una solución a un problema de diseño. Debe cumplir con diferentes características, como la efectividad al resolver problemas similares en ocasiones anteriores. Por lo tanto, debe ser reutilizable, es decir, aplicable a diferentes problemas en diferentes circunstancias\na) Metodología\nb) Patrón de Diseño\nc) Anti patrón\nd) Reutilización de código",
+  "id": "D06-37"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "38",
+  "tema_indice": null,
+  "texto": "Pregunta 38  (opción única)\nUn anti patrón es un diseño que conduce a una mala solución de un problema. Como lo son el Blob y el contenedor mágico en librerías.\na) Verdadero\nb) Falso",
+  "id": "D06-38"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "39",
+  "tema_indice": null,
+  "texto": "Pregunta 39  (opción única)\nSe utilizará este patrón siempre que se requiera dividir un conjunto de datos en varios subconjuntos y adicionalmente se necesite acceder a ellas de forma aislada. El uso de este patrón es conveniente siempre para mejorar la eficiencia de consultas a orígenes de datos variados, obteniendo únicamente lo que se necesita.\na) Blob\nb) Contenedor magico\nc) Paginacion de librerias\nd) CRUD",
+  "id": "D06-39"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "40",
+  "tema_indice": null,
+  "texto": "Pregunta 40  (opción única)\nEste tipo de paginación es el que establece Arquitectura y Calidad como el más eficiente, tanto en consumo de recursos como en el tiempo de proceso para la consecución de la información, lo que redunda en un menor tiempo de espera por parte del usuario final.\na) Paginación en Librería\nb) Paginación en Transaccion\nc) Paginación en Batch\nd) Paginación en DTO",
+  "id": "D06-40"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "41",
+  "tema_indice": null,
+  "texto": "Pregunta 41  (opción única)\nEste patrón suele representarse como una única librería que contiene la mayoría de la funcionalidad y que otras librerías utilizan incorrectamente de apoyo. La clave del problema es que puede contener un porcentaje muy elevado de responsabilidades dentro de la solución a diseñar\na) Contenedor Magico\nb) Blob\nc) Lava Flow\nd) CRUD",
+  "id": "D06-41"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "42",
+  "tema_indice": null,
+  "texto": "Pregunta 42  (opción única)\n¿Cómo solucionamos un Blob?\na) Mover la funcionalidad a la transacción reduciendo la carga en la librería.\nb) Mover el comportamiento a sus librerías relacionadas, reduciendo el acoplamiento entre librerías y simplificando los mantenimientos.\nc) Moviendo la lógica a diferentes métodos y clases dentro de la misma librería\nd) Mover el comportamiento a DTOs relacionados, reduciendo el acoplamiento entre los componentes y simplificando los mantenimientos",
+  "id": "D06-42"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "43",
+  "tema_indice": null,
+  "texto": "Pregunta 43  (opción única)\n¿Cuáles son ejemplos de Patrones de diseño para APX?\na) Paginación en transacciones, paginación en librerías, paginación en componentes APX\nb) Paginación en librerías, CRUD en librerías, DTOs en componentes APX\nc) Paginación en transacciones, CRUD en librerías, CRUD en componentes APX, DTOs en componentes APX\nd) Paginación en componentes APX. CRUD en librerías, DTOs en componentes APX",
+  "id": "D06-43"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "44",
+  "tema_indice": null,
+  "texto": "Pregunta 44  (opción única)\n¿Qué patrones de la siguiente lista son obligatorios del Data Transfer Object (DTO) en APX?\na) Se necesite una agrupación de datos simples en una clase con cierta funcionalidad asociada\nb) Se requiera intercambiar información entre diferentes componentes en APX de forma coherente, organizada y agrupada.\nc) Implementar un Servicio Backend\nd) Todas las anteriores\ne) Ninguna de las anteriores",
+  "id": "D06-44"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "45",
+  "tema_indice": null,
+  "texto": "Pregunta 45  (selección múltiple)\nSelecciona dos aplicaciones que justifican el uso del patrón Data Transfer Object (DTO) es obligatorio cuando:\na) Se necesitan mapear demasiadas variables\nb) Se necesita una agrupación simple de datos basada en una funcionalidad asociada\nc) Desea intercambiar información entre diferentes componentes en APX de manera coherente, organizada y agrupada\nd) Se hace conexión a Bases de datos relacionales",
+  "id": "D06-45"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "46",
+  "tema_indice": null,
+  "texto": "Pregunta 46  (opción única)\n¿Cuál es la restricción al generar una jerarquía de clases DTO?\na) Que las librerías solo tengan parámetros de entrada\nb) Que las clases no tengan dependencias circulares entre ellas.\nc) Que las agrupaciones no dependan entre ellas mismas\nd) Que los patrones sean simples",
+  "id": "D06-46"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "47",
+  "tema_indice": null,
+  "texto": "Pregunta 47  (opción única)\nLos patrones de diseño sirven de apoyo para la búsqueda de soluciones a problemas comunes a la hora del desarrollo de software. De la siguiente lista, ¿cuál de los siguientes es un patrón de diseño?\na) Paginación en transacciones\nb) Paginación en librerías\nc) CRUD en librerías\nd) DTOs en componentes APX\ne) A, B y C\nf) Todas las anteriores\ng) Ninguna de las anteriores",
+  "id": "D06-47"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "48",
+  "tema_indice": null,
+  "texto": "Pregunta 48  (opción única)\n¿Qué son los Patrones de diseño en APX?\na) Diseño que sirve de apoyo para la búsqueda de soluciones a problemas comunes a la hora del desarrollo de software.\nb) Patrón de diseño que invariablemente conduce a una mala solución para un problema\nc) Diseño de software que tiene como objetivo el desarrollo único de código, es decir, debe ser aplicable únicamente a una solución específica.",
+  "id": "D06-48"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "49",
+  "tema_indice": null,
+  "texto": "Pregunta 49  (opción única)\n¿Cuál es el objetivo de trabajar con Patrones?\na) Los patrones de diseño sirven de apoyo para la búsqueda de soluciones a problemas comunes a la hora del desarrollo de software.\nb) Brindar una solución a un problema de diseño. Para que una solución se pueda considerar un patrón debe cumplir con diferentes características, como la efectividad a la hora de resolver problemas similares en ocasiones anteriores. Por ende, debe ser reutilizable, es decir, aplicable a diferentes problemas en distintas circunstancias.\nc) Estos componentes contienen información necesaria para la ejecución de la Transacción en APX y cualquier modificación al respecto podría alterar su comportamiento\nd) a y b\ne) a y c",
+  "id": "D06-49"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "50",
+  "tema_indice": null,
+  "texto": "Pregunta 50  (opción única)\nEste patrón suele representarse en una librería que contiene un solo método “execute” con parámetros que actúan como filtros y que engloba diversas funcionalidades dispares en función de sus parámetros de entrada\na) Contenedor Mágico\nb) CRUD\nc) Paginacion\nd) Blob",
+  "id": "D06-50"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "51",
+  "tema_indice": null,
+  "texto": "Pregunta 51  (opción única)\n¿Qué causas no corresponden al patrón Contenedor Mágico?\na) Reparto de responsabilidades incorrecto\nb) Falta de cumplimiento de la arquitectura\nc) Intervención demasiado limitada\nd) Desacoplamiento entre librerías",
+  "id": "D06-51"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "52",
+  "tema_indice": null,
+  "texto": "Pregunta 52  (opción única)\nLa aplicación de este anti patrón de diseño en los desarrollos, causará la búsqueda y análisis de una mejor solución a un problema por medio de reingeniería\na) Paginación en transacciones\nb) Contenedor mágico\nc) Paginación Mágica\nd) Generador de Logs",
+  "id": "D06-52"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "53",
+  "tema_indice": null,
+  "texto": "Pregunta 53  (selección múltiple)\n¿Cuáles de las siguientes oraciones forman parte de las mejores prácticas establecidas para acceder a Datos?\na) Una UUAA puede acceder a datos de terceros a través de librerías APX que el dueño del dato proporcione.\nb) En el caso de procesos batch no deben existir cesiones de ficheros entre UUAAs.\nc) En el caso de bases de datos relacionales, deberá utilizarse JPA.\nd) No se debe manejar el objeto Datasource directamente.\ne) No se deben instanciar, ni abrir, ni cerrar explícitamente conexiones a Base de datos\nf) Una UUAA solo puede acceder a los datos que ella misma custodia",
+  "id": "D06-53"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "54",
+  "tema_indice": null,
+  "texto": "Pregunta 54  (opción única)\n¿Qué nivel de profundidad es permitido al realizar invocaciones de librería a librería?\na) Profundidades a 3 niveles: Transacción > Librería > Librería > Librería\nb) Profundidades a 5 niveles: Transacción > Librería > Librería > Librería> Librería > Librería\nc) Profundidades a 7 niveles: Transacción > Librería > Librería > Librería> Librería > Librería> Librería > Librería\nd) Profundidades a 9 niveles: Transacción > Librería > Librería > Librería> Librería > Librería> Librería > Librería> Librería > Librería",
+  "id": "D06-54"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "55",
+  "tema_indice": null,
+  "texto": "Pregunta 55  (opción única)\nSe debe evitar en una transacción o biblioteca, dentro de su lógica, invocar más de ____ librerías a la vez\na) 7\nb) 15\nc) 5\nd) 9\ne) 12",
+  "id": "D06-55"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "56",
+  "tema_indice": null,
+  "texto": "Pregunta 56  (opción única)\n¿Cuál es el número máximo de librerías a invocar desde una transacción o librería?\na) 7 librerías\nb) 3 librerías\nc) 9 librerías\nd) 12 librerías",
+  "id": "D06-56"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "57",
+  "tema_indice": null,
+  "texto": "Pregunta 57  (opción única)\nNo puede incluir _______ o etiquetas similares. Estas anotaciones no reciben errores ni advertencias en el compilador en el momento de la compilación.\na) @SuppressWarnings\nb) @BlockWarnings\nc) @LeaveWarnings\nd) @ForbbidenWarnings",
+  "id": "D06-57"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "58",
+  "tema_indice": null,
+  "texto": "Pregunta 58  (opción única)\nLa creación de hilos o su gestión por las aplicaciones está permitida.\na) Verdadero\nb) Falso",
+  "id": "D06-58"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "59",
+  "tema_indice": null,
+  "texto": "Pregunta 59  (opción única)\nEstá prohibido poner las siguientes anotaciones de primavera en las clases de implementación de las bibliotecas APX: @Component, @Service, @Controller y @Repository, porque estas anotaciones causan conflictos en la resolución de classpath del paquete de la biblioteca y tienen el efecto de que la biblioteca no expone su servicio OSGI.\na) @Component, @Service, @Controller & @Bean\nb) @Component, @Service @Controller & @Repository\nc) @Component, @Override, @Controller & @Repository\nd) @Component, @Override, @Controller & @Configuration",
+  "id": "D06-59"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "60",
+  "tema_indice": null,
+  "texto": "Pregunta 60  (opción única)\nEstá prohibido usar la propiedad \"resolution: = 'optional' \" en la definición de los paquetes en el paquete de importación, ya que puede causar errores en la implementación de la biblioteca y provocar fallas en otras bibliotecas que dependen de ella.\na) Verdadero\nb) Falso",
+  "id": "D06-60"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "61",
+  "tema_indice": null,
+  "texto": "Pregunta 61  (selección múltiple)\nLas únicas excepciones que las aplicaciones pueden capturar y administrar son las siguientes, típicas de APX:\na) com.bbva.apx.exception.business.BusinessException\nb) com.bbva.apx.exception.business.NullPointerException\nc) com.bbva.apx.exception.business.IOException\nd) com.bbva.apx.exception.io.network.TimeoutException",
+  "id": "D06-61"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "62",
+  "tema_indice": null,
+  "texto": "Pregunta 62  (opción única)\n¿Que excepción no está permitida en APX?\na) com.bbva.apx.exception.business.BusinessException\nb) com.bbva.apx.exception.io.network.TimeoutException\nc) com.bbva.apx.exception.db.NullPointerException\nd) com.bbva.apx.exception.db.IncorrectResultSizeException\ne) com.bbva.apx.exception.db.NoResultException\nf) com.bbva.apx.exception.db.TimeoutException",
+  "id": "D06-62"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "63",
+  "tema_indice": null,
+  "texto": "Pregunta 63  (opción única)\nLa gestión de errores debe seguir el modelo definido por la Arquitectura. En caso de querer mandar un aviso desde una librería o transacción, sea del tipo que sea, se usará el método____.\na) addAdvice\nb) addError\nc) addSeverity\nd) addWarning",
+  "id": "D06-63"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "64",
+  "tema_indice": null,
+  "texto": "Pregunta 64  (opción única)\nMétodo para fijar la severidad de un error.\na) setSeverity\nb) setLevel\nc) setAdvice\nd) setError",
+  "id": "D06-64"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "65",
+  "tema_indice": null,
+  "texto": "Pregunta 65  (opción única)\n¿Qué niveles de Logs existen dentro de APX?\na) INFO, WARNING & ERROR.\nb) TRACE, DEBUG, INFO, WARNING & ERROR.\nc) DEBUG, TRACE WARNING & ERROR\nd) DEBUG, INFO, WARNING & ERROR",
+  "id": "D06-65"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "66",
+  "tema_indice": null,
+  "texto": "Pregunta 66  (opción única)\n¿Los niveles más comunes son DEBUG, INFO, WARNING y ERROR?\na) Verdadero\nb) Falso",
+  "id": "D06-66"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "67",
+  "tema_indice": null,
+  "texto": "Pregunta 67  (opción única)\nPara información de muy bajo nivel, solo útil para depurar la aplicación tanto en el desarrollo como en el análisis de incidentes ¿A qué tipo de nivel de Log se refiere?\na) Trace\nb) Info\nc) Debug\nd) Low-Level",
+  "id": "D06-67"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "68",
+  "tema_indice": null,
+  "texto": "Pregunta 68  (opción única)\nEste nivel de Log tiene las siguientes características:\n\t-Paradas e inicios de servicios y sistemas.\n\t-Parámetros críticos o relevantes de configuración.\n\t-Inicio y fin de transacciones y operaciones completas.\n\t-Cambios del estado de las operaciones\na) Warning\nb) Error\nc) Info\nd) Trace",
+  "id": "D06-68"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "69",
+  "tema_indice": null,
+  "texto": "Pregunta 69  (opción única)\nDEBUG, sirve para información de muy bajo nivel solo útil para el debug de la aplicación, tanto en el desarrollo como en el análisis de incidencias\n\t-Paradas y arranques de servicios y sistemas\n\t-Parámetros críticos o relevantes de configuración\n\t-Comienzo y fin de transacciones y operaciones completas\n\t-Cambios de estado de operaciones\na) Verdadero\nb) Falso",
+  "id": "D06-69"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "70",
+  "tema_indice": null,
+  "texto": "Pregunta 70  (opción única)\nWARN, son situaciones que impiden la ejecución correcta de una operación o transacción, pero sin afectar a otras operaciones o transacciones (error aislado o contenido)\na) Verdadero\nb) Falso",
+  "id": "D06-70"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "71",
+  "tema_indice": null,
+  "texto": "Pregunta 71  (opción única)\nERROR, información de situaciones, que aún sin ser de error, si son anómalas o no previstas, aunque el aplicativo tiene alternativas para solventarlas\na) Verdadero\nb) Falso",
+  "id": "D06-71"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "72",
+  "tema_indice": null,
+  "texto": "Pregunta 72  (opción única)\nINFO, información de nivel superior que permita hacer un seguimiento de la ejecución\nnormal\na) Verdadero\nb) Falso",
+  "id": "D06-72"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "73",
+  "tema_indice": null,
+  "texto": "Pregunta 73  (opción única)\nLa arquitectura APX maneja mensajes de errores de tipo fijos y variables\na) Verdadero\nb) Falso",
+  "id": "D06-73"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "74",
+  "tema_indice": null,
+  "texto": "Pregunta 74  (opción única)\nLas partes de un campo variable definidos por la cadena _$NMM$ son:\na) (N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la variable (20 es el máximo)\nb) (N es el orden de la variable literal (1 a 4), MM la longitud máxima del campo informado en la variable (15 es el máximo)\nc) (N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la variable (15 es el máximo)",
+  "id": "D06-74"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "75",
+  "tema_indice": null,
+  "texto": "Pregunta 75  (selección múltiple)\n¿Qué características ofrece la Arquitectura Batch?\na) Soporte Multi-BBDD, usando fuentes de datos configurables\nb) Acceso a conectores y utilidades APX: acceso DB MongoDB, Elasticsearch, Neo4J, motor de reglas, creador de documentos, etc.\nc) Ejecución de múltiples transacciones\nd) Invocación a Servicios Web",
+  "id": "D06-75"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "76",
+  "tema_indice": null,
+  "texto": "Pregunta 76  (opción única)\n_________ fue creada para brindar una herramienta a los desarrolladores y administradores del entorno para gestionar las operaciones en la plataforma\na) Atenea\nb) Monitor APX\nc) Consola de Operaciones APX\nd) Kibana",
+  "id": "D06-76"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "77",
+  "tema_indice": null,
+  "texto": "Pregunta 77  (opción única)\nUna de las acciones que realiza la Arquitectura APX previo a la ejecución de la lógica de negocio es:\na) Validar errores\nb) Escribir ROP\nc) Escribe Log de ejecución\nd) Se envía un evento con datos comerciales",
+  "id": "D06-77"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "78",
+  "tema_indice": null,
+  "texto": "Pregunta 78  (opción única)\nPara mandar un aviso desde una librería o transacción, cualquiera que sea  el tipo, el método utilizado es ______.\na) addAdvice\nb) addError\nc) addSeverity\nd) addWarning",
+  "id": "D06-78"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "79",
+  "tema_indice": null,
+  "texto": "Pregunta 79  (opción única)\nEs una mala práctica capturar excepciones genéricas y totalmente prohibido sus tratamiento\na) Verdadero\nb) Falso",
+  "id": "D06-79"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "80",
+  "tema_indice": null,
+  "texto": "Pregunta 80  (opción única)\n¿Quién gestiona la ejecución del Commit o Rollback para garantizar la transaccionalidad?\na) La Base de Datos\nb) La Lógica Aplicativa\nc) La Arquitectura APX\nd) La Arquitectura OSGI",
+  "id": "D06-80"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "81",
+  "tema_indice": null,
+  "texto": "Pregunta 81  (opción única)\nLa comunicación de APX a otros servicios NO APX se realiza UNICAMENTE a través de la utilidad APX _______\na) Certificados\nb) Conector APO genérico (APIConnector)\nc) Conectores\nd) JDBC",
+  "id": "D06-81"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "82",
+  "tema_indice": null,
+  "texto": "Pregunta 82  (opción única)\nLa descripción de una transacción debe tener un significado técnico\na) Verdadero\nb) Falso",
+  "id": "D06-82"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "83",
+  "tema_indice": null,
+  "texto": "Pregunta 83  (opción única)\nEs una contradicción al usar el patrón CRUD\na) Mantener todas las operaciones sobre la entidad encapsuladas en la librería\nb) Tener varias librerías parciales para una única entidad\nc) Centralizar en una librería de todas las operaciones básicas sobre una entidad\nd) Tener una implementación ligera, evitando extender la lógica más allá del objetivo de la operación",
+  "id": "D06-83"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "84",
+  "tema_indice": null,
+  "texto": "Pregunta 84  (opción única)\n________________, información de nivel superior que permita hacer un seguimiento de la ejecución normal\na) WARNING\nb) INFO\nc) ERROR\nd) TRACE",
+  "id": "D06-84"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "85",
+  "tema_indice": null,
+  "texto": "Pregunta 85  (selección múltiple)\nSelecciona dos comunicaciones que deben ser validadas por el equipo de Arquitectura antes de.\na) Comunicación de APX a servicios NO APX\nb) Comunicación con Elastic Search\nc) Comunicación con Kibana\nd) Si la transacción APX debe invocar a Mainframe más de dos veces",
+  "id": "D06-85"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "86",
+  "tema_indice": null,
+  "texto": "Pregunta 86  (opción única)\nUna librería que no se despliega correctamente impide que los componentes que pueden consumirla se instalen correctamente. Cuando mayor sea el número de módulos dependientes, mayor será la probabilidad de falla\na) Verdadero\nb) Falso",
+  "id": "D06-86"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "87",
+  "tema_indice": null,
+  "texto": "Pregunta 87  (opción única)\nEn cualquier caso se permite la creación de hilos o su gestión por parte de las aplicaciones\na) Verdadero\nb) Falso",
+  "id": "D06-87"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "88",
+  "tema_indice": null,
+  "texto": "Pregunta 88  (selección múltiple)\n¿Qué características NO pertenecen al Batch?\na) Interacción (directa) con el usuario\nb) Generalmente procesa grandes volúmenes de información\nc) Requisitos complejos no funcionales\nd) Trazabilidad de la información y ejecución",
+  "id": "D06-88"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "89",
+  "tema_indice": null,
+  "texto": "Pregunta 89  (opción única)\n¿En una transacción cuál es la estructura que contiene los paquetes que definen las clases utilizadas para las pruebas unitarias de la transacción?\na) scr\\test\\java\nb) src\\main\\java\nc) scr\\main\\resources\nd) scr\\test\\resources",
+  "id": "D06-89"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "90",
+  "tema_indice": null,
+  "texto": "Pregunta 90  (opción única)\nEstá permitido que la aplicación modifique o informe una variable de entorno de la JVM\na) Verdadero\nb) Falso",
+  "id": "D06-90"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "91",
+  "tema_indice": null,
+  "texto": "Pregunta 91  (opción única)\nEn una librería, ¿Cuál es el archivo en donde se define la lógica del negocio?\na) UUAAR000Impl\nb) UUAAR001-app-osgi.xml y UUAAR001-app.xml\nc) UUAAR001-arq-osgi.xml y UUAAR001-arc.xml\nd) UUAAR000Abstract",
+  "id": "D06-91"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "92",
+  "tema_indice": null,
+  "texto": "Pregunta 92  (opción única)\nTomada de forma aislada, una aplicación Batch es una aplicación independiente que se ejecuta periódicamente para realizar una task/step (repitiendo n veces) y luego se cierra. Esta única tarea suele tener 3 partes.\na) Chunk, processing, output\nb) Input, processing, output\nc) Input, processing, writter\nd) Input, load, output",
+  "id": "D06-92"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "93",
+  "tema_indice": null,
+  "texto": "Pregunta 93  (opción única)\nNo está permitido generar _________ para escribir de Logs. Tampoco se permite la escritura por ______, debe ser la arquitectura quien los escriba.\na) Archivos propios / sysout\nb) Archivos de control / system\nc) Archivos propios / sysin\nd) Archivos de lectura / sysout",
+  "id": "D06-93"
+ },
+ {
+  "archivo": "apx/examenes/06 - Diagnóstico APX 3.docx",
+  "n": "94",
+  "tema_indice": null,
+  "texto": "Pregunta 94  (opción única)\nLos patrones de diseño apoyan la búsqueda de soluciones comunes en el desarrollo de software. Los patrones adoptados al ecosistema APX son Blob in libreries y Magic container in Librares\na) Verdadero\nb) Falso",
+  "id": "D06-94"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "1",
+  "tema_indice": "APX",
+  "texto": "Pregunta 1  (opción única)\n¿Que causa no corresponde al antipatron Contenedor Magico?\na) Reparto de responsabilidades incorrecto\nb) Falta de complimiento de la arquitectura\nc) Intervención demasiado limitada\nd) Desacoplamiento entre librerias",
+  "id": "D07-1"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "2",
+  "tema_indice": "APX",
+  "texto": "Pregunta 2  (opción única)\n¿Quién es el responsable de iniciar un Job?\na) JobLauncher\nb) JobInstance\nc) JobBegginer\nd) JobExecution",
+  "id": "D07-2"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "3",
+  "tema_indice": "APX",
+  "texto": "Pregunta 3  (selección múltiple)\nSelecciona las tres respuestas que describen las mejores practicas establecidas para acceder a Datos\na) En el caso de procesos Batch no deben existir cesiones de ficheros entre UUAAs\nb) Una UUAA puede acceder a datos de terceros a través de las librerias APX que el dueño del dato proporcione\nc) No se debe manejar el objeto Datasource directamente\nd) Una UUAA solo puede acceder a los datos que ella misma custodia",
+  "id": "D07-3"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "4",
+  "tema_indice": "APX",
+  "texto": "Pregunta 4  (opción única)\nLas partes de un campo variable definidos por la cadena NMM son:\na) N es el orden de la variable literal (1 o 4) , MM la longitud maxima del campo informado en la variable (15 es el maximo)\nb) N es el orden de la variable literal (1 y 4) , MM la longitud maxima del campo informado en la variable (15 es el maximo)\nc) N es el orden de la variable literal (1 o 2) , MM la longitud maxima del campo informado en la variable (15 es el maximo)\nd) N es el orden de la variable literal (1 o 2) , MM la longitud maxima del campo informado en la variable (20 es el maximo)",
+  "id": "D07-4"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "5",
+  "tema_indice": "APX",
+  "texto": "Pregunta 5  (opción única)\nEl objeto ______ no debe manejarse directamente. No debe crear instancias , abrir o cerrar explicitamente conexiones a la base de datos\na) Datasource\nb) JPA\nc) JDBC\nd) Database",
+  "id": "D07-5"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "6",
+  "tema_indice": "APX",
+  "texto": "Pregunta 6  (opción única)\n¿Cuál es el prefijo que debe utilizarse en la nomenclatura de los métodos que exponen las librerías para ser consumidos?\na) dependency[[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es opcional\nb) execute[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es opcional\nc) execute[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es obligatorio\nd) dependency[[Nombre_elegido_por_app] donde [Nombre_elegido_por_app] es obligatorio",
+  "id": "D07-6"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "7",
+  "tema_indice": "APX",
+  "texto": "Pregunta 7  (opción única)\nPara garantizar el comportamiento transaccional de APX, la arquitectura se basa en el estándar ____, por lo que los recursos administrados dentro de la transacción deben ser del tipo XA.\na) JT3\nb) JTX\nc) JPA\nd) JTA",
+  "id": "D07-7"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "8",
+  "tema_indice": "APX",
+  "texto": "Pregunta 8  (opción única)\nEn las consultas a BBDD debe usar variables _______ para no afectar el rendimiento de la base de datos\na) Miembro\nb) Bind\nc) Locales\nd) Dynamic",
+  "id": "D07-8"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "9",
+  "tema_indice": "APX",
+  "texto": "Pregunta 9  (opción única)\nEn un Batch, ¿Cual es el step donde el desarrollador introducirá la logica empresarial necesaria?\na) itemWriter\nb) Task\nc) Chunk\nd) JobLauncher",
+  "id": "D07-9"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "10",
+  "tema_indice": "APX",
+  "texto": "Pregunta 10  (opción única)\nEl identificador unico para la ejecución de transacciones/Job se genera automaticamente como ultimo paso cuando se invoca las transacciones en linea/Batch. El resultado de la transaccion se puede propagar para la correlación en las otras capas.\na) Falso\nb) Verdadero",
+  "id": "D07-10"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "12",
+  "tema_indice": "APX",
+  "texto": "Pregunta 12  (opción única)\nPara enviar un aviso desde una biblioteca o desde la transacción, cualquiera que sea el tipo, el método utilizado es ________.\na) addWarning\nb) addError\nc) addAdvice\nd) addSeverity",
+  "id": "D07-12"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "13",
+  "tema_indice": "APX",
+  "texto": "Pregunta 13  (opción única)\nCualquier documento utilizado (.dll, .txt, etc.) se almacenará en el sistema de archivos compartidos del nodo Batch (generalmente ____________ ) y luego se eliminará periódicamente.\na) /temporalFiles/datent.\nb) /fichtemporal/datent.\nc) /fichtemcomp/datent.\nd) /datentJobs/datent.",
+  "id": "D07-13"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "14",
+  "tema_indice": "APX",
+  "texto": "Pregunta 14  (opción única)\nLos componentes de seguridad lógica que dan servicio a la arquitectura no están acoplados a la Arquitectura APX.\na) Falso\nb) Verdadero",
+  "id": "D07-14"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "15",
+  "tema_indice": "APX",
+  "texto": "Pregunta 15  (opción única)\nLa información utilizada en la lógica de negocio de la transacción debe incluirse en ______.\na) Las variables locales.\nb) Los parámetros de entrada.\nc) Los archivos locales.\nd) Las variables globales.",
+  "id": "D07-15"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "16",
+  "tema_indice": "APX",
+  "texto": "Pregunta 16  (opción única)\n¿Cuál definición de APX es incorrecta?\na) Extended Programming Architecture\nb) Backend Extended Platform\nc) Extended Java Backend Architecture\nd) Extended Platform Architecture",
+  "id": "D07-16"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "17",
+  "tema_indice": "APX",
+  "texto": "Pregunta 17  (opción única)\nLas utilidades APX implementadas tanto para la arquitectura Online como para la arquitectura Batch son:\na) Communication Manager: Se crea una librería con la capacidad de invocar a G.U.C para el envío de notificaciones. Interbackend proxy: Se crea una librería con la capacidad de invocar a los conectores IMS (para acceso a Host).\nb) Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y descomprimir archivos en zip. Generador de documentos: Se crea una librería con la capacidad de generar documentos.",
+  "id": "D07-17"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "18",
+  "tema_indice": "APX",
+  "texto": "Pregunta 18  (selección múltiple)\nDe la lista siguiente marca 2 funcionalidades de servicios persistencia incluidas en APX\na) SFTP\nb) PS9\nc) JDBC\nd) JMS/RABBIT\ne) Two-Phase Commit\nf) JNDI",
+  "id": "D07-18"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "19",
+  "tema_indice": "APX",
+  "texto": "Pregunta 19  (selección múltiple)\nDe la lista siguiente marca 2 funcionalidades de servicios conectores incluidos en APX\na) Gestor de Eventos\nb) HTTP/HTTPs\nc) JDBC\nd) JMS/RABBIT\ne) Two-Phase Commit\nf) JNDI",
+  "id": "D07-19"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "20",
+  "tema_indice": "APX",
+  "texto": "Pregunta 20  (selección múltiple)\nPatrones de diseño en APX\na) Paginación en Librerías\nb) Paginación en Transacciones\nc) CRUD en Librerías\nd) DTO en componentes APX",
+  "id": "D07-20"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "21",
+  "tema_indice": "APX",
+  "texto": "Pregunta 21  (opción única)\nEn primer lugar, APX recibe la solicitud en uno de los protocolos físicos que admite (HTTP, JMS, REST,). Luego, crea un identificador único para la ________ y valide si los encabezados de solicitud están bien formateados de acuerdo con el protocolo lógico definido por Arquitectura\na) Pila de ejecución\nb) Solicitud\nc) Transacción\nd) Ejecución",
+  "id": "D07-21"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "22",
+  "tema_indice": "APX",
+  "texto": "Pregunta 22  (opción única)\n¿Cuáles son los campos que definen a una transacción en APX?\na) Aplicación, versión, país, paquete descripción\nb) Aplicación, dominio, país, paquete descripción\nc) Aplicación, transacción, versión, país, descripción\nd) Aplicación, transacción, dominio, versión, país, descripción",
+  "id": "D07-22"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "23",
+  "tema_indice": "APX",
+  "texto": "Pregunta 23  (selección múltiple)\n¿Cuáles son los protocolos físicos disponibles en APX Online?\n Selecciona 2\na) HTTP/ SOAP\nb) HTTP/ REST / RESTFul (A través de Servicios Backend)\nc) AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)\nd) PS9",
+  "id": "D07-23"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "24",
+  "tema_indice": "APX",
+  "texto": "Pregunta 24  (opción única)\nEste tipo de paginación es el que establece Arquitectura y Calidad como el más eficiente, tanto en consumo de recursos como en el tiempo de proceso para la consecución de la información, lo que redunda en un menor tiempo de espera por parte del usuario final.\na) Paginación en Librería\nb) Paginación en Transaccion\nc) Paginación en Batch\nd) Paginación en DTO",
+  "id": "D07-24"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "25",
+  "tema_indice": "APX",
+  "texto": "Pregunta 25  (opción única)\nEste patrón suele representarse como una única librería que contiene la mayoría de la funcionalidad y que otras librerías utilizan incorrectamente de apoyo. La clave del problema es que puede contener un porcentaje muy elevado de responsabilidades dentro de la solución a diseñar\na) Contenedor Magico\nb) Blob\nc) CRUD",
+  "id": "D07-25"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "26",
+  "tema_indice": "APX",
+  "texto": "Pregunta 26  (opción única)\n¿Cómo solucionamos un Blob?\na) Mover la funcionalidad a la transacción reduciendo la carga en la librería.\nb) Mover el comportamiento a sus librerías relacionadas, reduciendo el acoplamiento entre librerías y simplificando los mantenimientos.\nc) Moviendo la lógica a diferentes métodos y clases dentro de la misma librería\nd) Mover el comportamiento a DTOs relacionados, reduciendo el acoplamiento entre los componentes y simplificando los mantenimientos",
+  "id": "D07-26"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "27",
+  "tema_indice": "APX",
+  "texto": "Pregunta 27  (opción única)\nSelecciona dos aplicaciones que justifican el uso del patrón Data Transfer Object (DTO) es obligatorio cuando:\na) Se necesitan mapear demasiadas variables\nb) Se necesita una agrupación simple de datos basada en una funcionalidad asociada\nc) Desea intercambiar información entre diferentes componentes en APX de manera coherente, organizada y agrupada\nd) Se hace conexión a Bases de datos relacionales",
+  "id": "D07-27"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "28",
+  "tema_indice": "APX",
+  "texto": "Pregunta 28  (opción única)\nEste patrón suele representarse en una librería que contiene un solo método “execute” con parámetros que actúan como filtros y que engloba diversas funcionalidades dispares en función de sus parámetros de entrada\na) Contenedor Mágico\nb) CRUD\nc) Paginacion\nd) Blob",
+  "id": "D07-28"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "29",
+  "tema_indice": "APX",
+  "texto": "Pregunta 29  (opción única)\n¿Qué causas no corresponden al patrón Contenedor Mágico?\na) Reparto de responsabilidades incorrecto\nb) Falta de cumplimiento de la arquitectura\nc) Intervención demasiado limitada\nd) Desacoplamiento entre librerías",
+  "id": "D07-29"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "30",
+  "tema_indice": "APX",
+  "texto": "Pregunta 30  (opción única)\nLa aplicación de este anti patrón de diseño en los desarrollos, causará la búsqueda y análisis de una mejor solución a un problema por medio de reingeniería\na) Paginación en transacciones\nb) Contenedor mágico\nc) Paginación Mágica\nd) Generador de Logs",
+  "id": "D07-30"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "31",
+  "tema_indice": "APX",
+  "texto": "Pregunta 31  (opción única)\n¿Qué nivel de profundidad es permitido al realizar invocaciones de librería a librería?\na) Profundidades a 5 niveles: Transacción > Librería > Librería > Librería> Librería > Librería\nb) Profundidades a 7 niveles: Transacción > Librería > Librería > Librería> Librería > Librería> Librería > Librería\nc) Profundidades a 3 niveles: Transacción > Librería > Librería > Librería\nd) Profundidades a 9 niveles: Transacción > Librería > Librería > Librería> Librería > Librería> Librería > Librería> Librería > Librería",
+  "id": "D07-31"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "32",
+  "tema_indice": "APX",
+  "texto": "Pregunta 32  (opción única)\n¿Cuál es el número máximo de librerías a invocar desde una transacción o librería?\na) 3 librerías\nb) 7 librerías\nc) 9 librerías\nd) 12 librerías",
+  "id": "D07-32"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "33",
+  "tema_indice": "APX",
+  "texto": "Pregunta 33  (opción única)\nNo puede incluir _______ o etiquetas similares. Estas anotaciones no reciben errores ni advertencias en el compilador en el momento de la compilación.\na) @BlockWarnings\nb) @SuppressWarnings\nc) @LeaveWarnings\nd) @ForbbidenWarnings",
+  "id": "D07-33"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "34",
+  "tema_indice": "APX",
+  "texto": "Pregunta 34  (opción única)\nEstá prohibido poner las siguientes anotaciones de primavera en las clases de implementación de las bibliotecas APX: @Component, @Service, @Controller y @Repository, porque estas anotaciones causan conflictos en la resolución de classpath del paquete de la biblioteca y tienen el efecto de que la biblioteca no expone su servicio OSGI.\na) @Component, @Service, @Controller & @Bean\nb) @Component, @Override, @Controller & @Repository\nc) @Component, @Service @Controller & @Repository\nd) @Component, @Override, @Controller & @Configuration",
+  "id": "D07-34"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "35",
+  "tema_indice": "APX",
+  "texto": "Pregunta 35  (opción única)\nNiveles de Logs más comunes dentro de APX\na) INFO, WARNING & ERROR.\nb) TRACE, DEBUG, INFO, WARNING & ERROR.\nc) DEBUG, TRACE WARNING & ERROR\nd) DEBUG, INFO, WARNING & ERROR",
+  "id": "D07-35"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "36",
+  "tema_indice": "APX",
+  "texto": "Pregunta 36  (opción única)\nPara información de muy bajo nivel, solo útil para depurar la aplicación tanto en el desarrollo como en el análisis de incidentes ¿A qué tipo de nivel de Log se refiere?\na) Trace\nb) Info\nc) Debug",
+  "id": "D07-36"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "37",
+  "tema_indice": "APX",
+  "texto": "Pregunta 37  (opción única)\nEste nivel de Log tiene las siguientes características:\n\t-Paradas e inicios de servicios y sistemas.\n\t-Parámetros críticos o relevantes de configuración.\n\t-Inicio y fin de transacciones y operaciones completas.\n\t-Cambios del estado de las operaciones\na) Warning\nb) Error\nc) Info\nd) Trace",
+  "id": "D07-37"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "38",
+  "tema_indice": "APX",
+  "texto": "Pregunta 38  (opción única)\nDEBUG, sirve para información de muy bajo nivel solo útil para el debug de la aplicación, tanto en el desarrollo como en el análisis de incidencias\n\t-Paradas y arranques de servicios y sistemas\n\t-Parámetros críticos o relevantes de configuración\n\t-Comienzo y fin de transacciones y operaciones completas\n\t-Cambios de estado de operaciones\na) Verdadero\nb) Falso",
+  "id": "D07-38"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "39",
+  "tema_indice": "APX",
+  "texto": "Pregunta 39  (opción única)\nWARN, son situaciones que impiden la ejecución correcta de una operación o transacción, pero sin afectar a otras operaciones o transacciones (error aislado o contenido)\na) Verdadero\nb) Falso",
+  "id": "D07-39"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "40",
+  "tema_indice": "APX",
+  "texto": "Pregunta 40  (opción única)\nERROR, información de situaciones, que aún sin ser de error, si son anómalas o no previstas, aunque el aplicativo tiene alternativas para solventarlas\na) Verdadero\nb) Falso",
+  "id": "D07-40"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "41",
+  "tema_indice": "APX",
+  "texto": "Pregunta 41  (opción única)\nINFO, información de nivel superior que permita hacer un seguimiento de la ejecución\nnormal\na) Verdadero\nb) Falso",
+  "id": "D07-41"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "42",
+  "tema_indice": "APX",
+  "texto": "Pregunta 42  (opción única)\nLas partes de un campo variable definidos por la cadena _$NMM$ son:\na) (N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la variable (20 es el máximo)\nb) (N es el orden de la variable literal (1 a 4), MM la longitud máxima del campo informado en la variable (15 es el máximo)\nc) (N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la variable (15 es el máximo)",
+  "id": "D07-42"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "43",
+  "tema_indice": "APX",
+  "texto": "Pregunta 43  (opción única)\n_________ fue creada para brindar una herramienta a los desarrolladores y administradores del entorno para gestionar las operaciones en la plataforma\na) Consola de Operaciones APX\nb) Monitor APX\nc) Atenea\nd) Kibana",
+  "id": "D07-43"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "44",
+  "tema_indice": "APX",
+  "texto": "Pregunta 44  (opción única)\nLa comunicación de APX a otros servicios NO APX se realiza UNICAMENTE a través de la utilidad APX _______\na) Certificados\nb) Conector API genérico (APIConnector)\nc) Conectores\nd) JDBC",
+  "id": "D07-44"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "45",
+  "tema_indice": "APX",
+  "texto": "Pregunta 45  (opción única)\nNo está permitido generar _________ para escribir de Logs. Tampoco se permite la escritura por ______, debe ser la arquitectura quien los escriba.\na) Archivos propios / sysout\nb) Archivos de control / system\nc) Archivos de lectura / sysout",
+  "id": "D07-45"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "46",
+  "tema_indice": "APX",
+  "texto": "Pregunta 46  (selección múltiple)\n¿Cuáles son los protocolos lógicos disponibles en APX? \nSelecciona 2\na) HTTP/ SOAP\nb) PS9\nc) HTTP/ REST / RESTFul (A través de Servicios Backend)\nd) AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)",
+  "id": "D07-46"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "47",
+  "tema_indice": "APX",
+  "texto": "Pregunta 47  (opción única)\n¿Cuáles son las acciones posteriores a la ejecución de la lógica de negocio en la capa de Arquitectura de control?\na) Validation of Exit Code, Commit Control, Electronic Journal, Business Event Notification, Monitorization\nb) Validation of Exit Code, Commit Control, ROP Writing, Business Event Notification, Monitorization\nc) Validation of Exit Code, Commit Control, ROP Writing, Operations Registry, Monitorization\nd) Validation of Exit Code, Commit Control, ROP Writing, Business Event Notification, Unique Identifier.",
+  "id": "D07-47"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "48",
+  "tema_indice": "APX",
+  "texto": "Pregunta 48  (selección múltiple)\nSelecciona las únicas excepciones que pueden ser capturadas y administradas por las aplicaciones, típicas de APX:\na) com.bbva.apx.exception.business.NullPointerException\nb) com.bbva.apx.exception.business.IOException\nc) com.bbva.apx.exception.io.network.TimeoutException\nd) com.bbva.apx.exception.business.BusinessException",
+  "id": "D07-48"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "49",
+  "tema_indice": "APX",
+  "texto": "Pregunta 49  (opción única)\n¿Cuáles son los dos tipos de step que existen en Batch APX?\na) Creator, Processor\nb) Processor,Task\nc) Chunk, Reader\nd) Chunk,Task",
+  "id": "D07-49"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "50",
+  "tema_indice": "APX",
+  "texto": "Pregunta 50  (opción única)\nAgrega un campo de entrada obligatorio. Agregue un campo de salida. Modifique el tipo de un campo de entrada o salida existente. Son características de un cambio…\na) Cambio en desarrollo\nb) No retrocompatibles\nc) Retrocompatibles\nd) Versionado",
+  "id": "D07-50"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "51",
+  "tema_indice": "APX",
+  "texto": "Pregunta 51  (opción única)\nEs obligatorio que los DTOs se implementen dentro de un….\na) empaquetado independiente (Bundle Batch)\nb) empaquetado independiente (Bundle DTO)\nc) empaquetado independiente (Bundle TX)\nd) empaquetado independiente (Bundle LIB)",
+  "id": "D07-51"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "52",
+  "tema_indice": "APX",
+  "texto": "Pregunta 52  (opción única)\nLas dependencias circulares son permitidas…\na) Algunas son permitidas\nb) Depende de la necesidad del proyecto\nc) Son permitidas\nd) Están absolutamente prohibidas",
+  "id": "D07-52"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "53",
+  "tema_indice": "APX",
+  "texto": "Pregunta 53  (opción única)\nEl multiproceso no debe usarse en APX Batch ¿Que se puede hacer como opción?\na) Varios procesos por lotes en diferentes tiempos\nb) No conozco la respuesta\nc) No ejecutar procesos\nd) Varios procesos por lotes al mismo tiempo",
+  "id": "D07-53"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "54",
+  "tema_indice": "APX",
+  "texto": "Pregunta 54  (opción única)\nExcepción de Spring permitida\na) java.lang.NumberFormatException\nb) org.springframework.web.client.RestClientException\nc) com.bbva.elara.utility.interbackend.cics.exceptions.BusinessException\nd) org.springframework.web.client.NumberFormatException",
+  "id": "D07-54"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "55",
+  "tema_indice": "APX",
+  "texto": "Pregunta 55  (opción única)\nDiferencias entre Las invocaciones de APX Batch e invocaciones de APX Online\na) Los encabezados del protocolo lógico a enviar\nb) Ninguno\nc) Permitirá ejecutar transacciones de cics solo por protocolo ps10.\nd) Permite la posibilidad de invocar un batch de APX directamente\ne) Horarios de ejecución",
+  "id": "D07-55"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "56",
+  "tema_indice": "APX",
+  "texto": "Pregunta 56  (opción única)\nAPX, ¿Qué es Escritura ROP?\na) Es un Protocolo HTTP\nb) Es un Protocolo JMS\nc) Un LOG interno utilizado con fines de Auditoría, Fraude o Informativo que indica que la transacción ha finalizado\nd) Es un Protocolo REST\ne) Escritura en Archivos",
+  "id": "D07-56"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "57",
+  "tema_indice": "APX",
+  "texto": "Pregunta 57  (opción única)\nEn caso de que una transacción deba invocar a otra, solo se puede realizar de forma...\na) Dependiendo el desarrollo\nb) Sincrónica\nc) Con un conector\nd) Asincrónica",
+  "id": "D07-57"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "58",
+  "tema_indice": "APX",
+  "texto": "Pregunta 58  (selección múltiple)\nCapacidades de APX\na) Implementaciones en caliente de acceso a datos\nb) Procesamiento transaccional\nc) Integración con servicios de seguridad\nd) Monitoreo de procesamiento por lotes de servicios bancarios\ne) Interoperatibilidad de backends",
+  "id": "D07-58"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "59",
+  "tema_indice": "APX",
+  "texto": "Pregunta 59  (opción única)\n¿Qué característica NO pertenece al BATCH?\na) Procesamiento normal en una ventana de lote fuera de línea\nb) Interacción con usuario (directo)\nc) Procesamiento generalmente grande volúmenes de información\nd) Requisitos no funcionales complejos",
+  "id": "D07-59"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "60",
+  "tema_indice": "APX",
+  "texto": "Pregunta 60  (opción única)\nExiste un API de código de barras\na) Solo en España\nb) Su uso es restringido\nc) Si\nd) No",
+  "id": "D07-60"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "61",
+  "tema_indice": "APX",
+  "texto": "Pregunta 61  (opción única)\nNO se deben utilizar sentencias que incluyan atributos o acciones específicas de un administrador de base de datos en particular, como lo es...\na) OR\nb) SELECT\nc) FROM\nd) ROWNUM",
+  "id": "D07-61"
+ },
+ {
+  "archivo": "apx/examenes/07 - Diagnóstico APX 5.docx",
+  "n": "62",
+  "tema_indice": "APX",
+  "texto": "Pregunta 62  (opción única)\n¿Qué es un Chunk?\na) Realiza una operación dentro del paso (por ejemplo, invocando utilidades de arquitectura)\nb) Conjunto de procesos\nc) Conjuntos de datos de entrada se procesan en la misma transacción\nd) Conjunto de readers\n\nSección 3 — JAVA",
+  "id": "D07-62"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "1",
+  "tema_indice": null,
+  "texto": "Pregunta 1  (opción única)\n¿Qué es una transacción?\na) Una acción automática que la aplicación realiza sin intervención del usuario.\nb) Representación de una entidad comercial en forma de bean\nc) Una unidad de aplicación que se ejecutará definiendo la unidad transaccional a nivel lógica de la aplicación.\nd) Un archivo externo donde se guardan todos los cambios de la base de datos.",
+  "id": "T08-1"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "2",
+  "tema_indice": null,
+  "texto": "Pregunta 2  (opción única)\nUna _____ encapsula la lógica empresarial y el acceso a los datos, publica su interfaz para que pueda ser utilizada por terceros\na) Dependencia\nb) Interfaz\nc) Librería\nd) Utilidad",
+  "id": "T08-2"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "3",
+  "tema_indice": null,
+  "texto": "Pregunta 3  (opción única)\n¿Qué representa un DTO?\na) Una entidad comercial en forma de bean utilizada para transportar datos entre diferentes capas o procesos, sin incluir lógica de negocio.\nb) Una clase encargada de acceder directamente a la base de datos.\nc) Un objeto que contiene la lógica de negocio y las reglas de validación\nd) Un objeto que transforma datos entre diferentes formatos como XML o JSON.",
+  "id": "T08-3"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "4",
+  "tema_indice": null,
+  "texto": "Pregunta 4  (opción única)\n¿Cuál opción es verdadera acerca del manejo de excepciones en APX?\na) El código de la aplicación no puede manejar las excepciones lanzadas por los conectores proporcionados por APX, ni ninguna excepción que herede de RuntimeException\nb) Cualquier excepción, ya sea comprobada o no comprobada, generada por los conectores de APX, puede ser interceptada mediante un ExceptionMapper personalizado definido en el nivel de la API, siempre que esté registrado antes del despliegue\nc) Las excepciones lanzadas por conectores proporcionados por APX, o que extiendan de RuntimeException, pueden ser capturadas por bloques try-catch siempre que se utilice un manejador específico en la capa de integración",
+  "id": "T08-4"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "5",
+  "tema_indice": null,
+  "texto": "Pregunta 5  (selección múltiple)\n¿Cuáles son las excepciones de la Arquitectura APX?\na) com.bbva.apx.exception.business.BusinessException\nb) com.bbva.apx.exception.db.DuplicateKeyException\nc) com.bbva.apx.exception.io.network.TimeoutException\nd) com.bbva.apx.axception.db.IncorrectResultSizeException\ne) com.bbva.apx.exception.db.NoResultException\nf) com.bbva.apx.exception.db.TimeoutException\ng) com.bbva.elara.utility.interbackend.cics.exceptions.BusinessException",
+  "id": "T08-5"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "6",
+  "tema_indice": null,
+  "texto": "Pregunta 6  (opción única)\n¿Cuál de las siguientes excepciones de Java es permitido en APX?\na) java.lang.UnsupportedOperationException\nb) java.lang.NumberFormatException\nc) java.util.NumberFormatException\nd) java.text.ParseException",
+  "id": "T08-6"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "7",
+  "tema_indice": null,
+  "texto": "Pregunta 7  (opción única)\nLa arquitectura APX solo soporta el patrón Data Transfer Object, para el entorno Online.\na) Verdadero\nb) Falso",
+  "id": "T08-7"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "8",
+  "tema_indice": null,
+  "texto": "Pregunta 8  (opción única)\n¿Cuándo se utiliza el patrón CRUD en librerías APX?\na) No es posible implementarlo en librerías APX.\nb) Cuando se requiere realizar un \"refactoring\" de la librería.\nc) Para intercambiar información entre diferentes componentes de forma coherente, organizada y agrupada.\nd) Cuando se requieren algunas de las operaciones básicas.",
+  "id": "T08-8"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "9",
+  "tema_indice": null,
+  "texto": "Pregunta 9  (opción única)\n¿Qué patrón de diseño se utiliza cuando se requiera dividir un conjunto de datos en varios subconjuntos o páginas y acceder a ellas de forma aislada?\na) DTO en componentes APX\nb) Paginación de transacciones\nc) Builder\nd) Strategy",
+  "id": "T08-9"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "10",
+  "tema_indice": null,
+  "texto": "Pregunta 10  (opción única)\nSu uso es conveniente siempre para mejorar la eficiencia, obteniendo únicamente lo que se necesita\na) DTO en componentes APX\nb) Contenedor mágico\nc) Patrón de diseño\nd) Paginación en transacciones/librerías",
+  "id": "T08-10"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "11",
+  "tema_indice": null,
+  "texto": "Pregunta 11  (opción única)\n¿ Cuál de las opciones describe mejor un patrón de diseño?\na) Proporcionan una solución a un problema de diseño, siendo efectivos a la hora de resolver problemas y reutilizables para poder ser aplicables a diferentes problemas en diferentes circunstancias.\nb) Una metodología que detalla la implementación específica de un algoritmo en un lenguaje de programación, optimizando exclusivamente su rendimiento sin contemplar la reutilización.\nc) Un conjunto de reglas fijas que definen de forma inmutable la arquitectura completa de un software, impidiendo cambios posteriores para garantizar estabilidad estructural.",
+  "id": "T08-11"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "12",
+  "tema_indice": null,
+  "texto": "Pregunta 12  (opción única)\n¿Qué es un anti patón de diseño?\na) Es una técnica de optimización que rompe los principios de diseño para lograr mejoras temporales en el rendimiento sin comprometer la mantenibilidad.\nb) Es una solución a un problema recurrente que parece apropiada al inicio, pero que invariablemente lleva a resultados negativos\nc) Es un conjunto de buenas prácticas que, aplicadas de forma inapropiada, generan resultados subóptimos pero reversibles dentro de un ciclo de desarrollo ágil",
+  "id": "T08-12"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "13",
+  "tema_indice": null,
+  "texto": "Pregunta 13  (opción única)\n¿Cómo solucionamos el antipatrón BLOB?\na) Dividiendo la clase en varias clases más pequeñas, cada una con responsabilidades específicas\nb) Aumentando la cantidad de atributos y métodos en la clase principal para abarcar todos los casos posibles.\nc) Creando una única clase controladora que maneje directamente la lógica, el acceso a datos y la presentación.",
+  "id": "T08-13"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "14",
+  "tema_indice": null,
+  "texto": "Pregunta 14  (opción única)\nEl contenedor mágico se suele representar en una librería que contiene un solo método “execute” con parámetros que actúan como filtros y que engloba diversas funcionalidades dispares en función de sus parámetros de entrada.\na) Verdadero\nb) Falso",
+  "id": "T08-14"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "15",
+  "tema_indice": null,
+  "texto": "Pregunta 15  (opción única)\n¿Cuál es el objetivo de APX Online?\na) Habilitar los servicios transaccionales, siendo una extensión de la arquitectura backend, ayudando a reducir el uso del Mainframe\nb) Solucionar un problema de diseño, siendo reutilizable para diferentes problemas en diferentes circunstancias.\nc) Procesar grandes volúmenes de datos de manera eficiente para optimizar recursos, ejecutando tareas en horarios de baja carga.",
+  "id": "T08-15"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "16",
+  "tema_indice": null,
+  "texto": "Pregunta 16  (opción única)\n¿Qué es Maven?\na) Un lenguaje de programación alterno a Java.\nb) Una herramienta de gestión y automatización de proyectos Java.\nc) Un servidor de aplicaciones para desplegar aplicaciones Java.\nd) Un IDE especializado en Java.",
+  "id": "T08-16"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "17",
+  "tema_indice": null,
+  "texto": "Pregunta 17  (selección múltiple)\n¿Cuáles  son los comandos de Git para la gestión de ramas?\na) git checkout\nb) git merge\nc) git add\nd) git commit",
+  "id": "T08-17"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "18",
+  "tema_indice": null,
+  "texto": "Pregunta 18  (opción única)\n¿Cuál de las siguientes afirmaciones describe con mayor precisión el propósito y la composición del entorno de ejecución APX local en el contexto de una arquitectura monolítica?\na) Es un servidor de integración continua que sustituye al entorno de producción, utilizando JBoss únicamente como middleware para la comunicación entre microservicios y bases de datos distribuidas.\nb) Es un entorno de ejecución híbrido que integra microservicios y monolitos, desplegado exclusivamente en producción, incorporando múltiples instancias de JBoss para garantizar escalabilidad horizontal y redundancia\nc) Es un entorno destinado a pruebas, que incluye una única instancia de JBoss y paquetes específicos de la arquitectura APX, ofreciendo una vista cercana a la arquitectura monolítica presente en entornos productivos y no productivos.",
+  "id": "T08-18"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "19",
+  "tema_indice": null,
+  "texto": "Pregunta 19  (opción única)\nEs la representación de un proceso, es inicializado por el JobLauncher y contiene los steps.\na) Librería\nb) JobRepository\nc) Transacción\nd) Job",
+  "id": "T08-19"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "20",
+  "tema_indice": null,
+  "texto": "Pregunta 20  (opción única)\n¿Qué es un step?\na) Un objeto de dominio que encapsula una fase secuencial.\nb) Un objeto que almacena datos de ejecución entre jobs.\nc) La representación de todo el proceso batch inicializado por el JobLauncher.\nd) Ninguna opción es correcta.",
+  "id": "T08-20"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "21",
+  "tema_indice": null,
+  "texto": "Pregunta 21  (opción única)\nEn un _____ los conjuntos de datos de entrada se procesan en la misma transacción,\na) Task\nb) DTO\nc) Chunk\nd) Blob",
+  "id": "T08-21"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "22",
+  "tema_indice": null,
+  "texto": "Pregunta 22  (opción única)\n¿Qué hace un task?\na) Contener los steps.\nb) Realizar una operación dentro de un step.\nc) Dividir un conjunto de datos en varios subconjuntos o páginas.\nd) Actuar como una extensión de la plataforma Mainframe.",
+  "id": "T08-22"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "23",
+  "tema_indice": null,
+  "texto": "Pregunta 23  (opción única)\nUn DTO es una representación Java de una entidad de negocio. Se puede crear un componente DTO ejecutando el siguiente comando:\na) apx init job -u=\"TEST\" -c=\"001\" -d=\"New Job\" --job-version=\"01\" --job-country=\"ES\" -y\nb) apx init dto -u=TEST -c=001 -d=\"New DTO\" --domain=domain\nc) apx add dto -c=\"010\" --domain=\"customer\" -d=\"Test of DTO\" --subpackage=\"\" --class-name=\"ExampleDTO\" -y",
+  "id": "T08-23"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "24",
+  "tema_indice": null,
+  "texto": "Pregunta 24  (opción única)\nSe puede crear un job ejecutando el siguiente comando:\na) apx add job -c=\"010\" --job-version=\"01\" --job-country=\"ES\" -d=\"Test of Job\" -y\nb) apx init job -u=\"TEST\" -c=\"001\" -d=\"New Job\" --job-version=\"01\" --job-country=\"ES\" -y\nc) apx add job --lib-country \"ESP\" -y\nd) apx init job -u=\"TEST\" -c=\"001\" -d=\"New Job\" --job-version=\"01\" --job",
+  "id": "T08-24"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "25",
+  "tema_indice": null,
+  "texto": "Pregunta 25  (opción única)\nSe puede crear una unidad de implementación de Librería ejecutando el siguiente comando:\na) apx add lib -c=\"010\" -d=\"Test of Librería\" -y\nb) apx add lib -c=\"010\" -d=\"Test of Librería\"\nc) apx init du-lib -u=\"TEST\" -c=\"000\" -d=\"New Deployment Unit Librería\" -y\nd) apx add trx -c=\"010\" --trx-version=\"01\" --trx-country=\"ES\" -d=\"Test of Transaction\" -y",
+  "id": "T08-25"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "26",
+  "tema_indice": null,
+  "texto": "Pregunta 26  (opción única)\nSe puede crear una transacción ejecutando el siguiente comando:\na) apx init trx -u=\"TEST\" -c=\"001\" -d=\"New Transaction\" --trx-version=\"01\" --trx-country=\"ES\" -y\nb) apx add impl --lib-country \"ESP\" -y\nc) apx del impl -y -a=\"TESTR000IMPL-esp\"",
+  "id": "T08-26"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "27",
+  "tema_indice": null,
+  "texto": "Pregunta 27  (opción única)\nCon la \"APX Operation Console\", solo se pueden ver los grafos de dependencias para las librerías\na) Verdadero\nb) Falso",
+  "id": "T08-27"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "28",
+  "tema_indice": null,
+  "texto": "Pregunta 28  (opción única)\n¿Cuál es el propósito principal de OSGI (Open Service Gateway initiative) en el desarrollo modular?\na) Servir como un sistema de control de versiones para proyectos de software\nb) Proporcionar un entorno de desarrollo integrado (IDE) para aplicaciones Java\nc) Gestionar dependencias y permitir el despliegue dinámico de módulos en aplicaciones Java\nd) Actuar como un servidor de aplicaciones para ejecutar aplicaciones empresariales Java",
+  "id": "T08-28"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "29",
+  "tema_indice": null,
+  "texto": "Pregunta 29  (opción única)\n¿Cuál es la nomenclatura y la ruta de creación de un archivo que sigue el formato (UUID[CODE].VERSION[COUNTRY].xml en un proyecto?\na) [CODE]T[UUAA]-[VERSION]-[COUNTRY].xml y se crea en la ruta src/main/java/\nb) [COUNTRY]-[VERSION]-[CODE]T[UUAA].xml y se crea en la ruta src/test/resources/\nc) Ninguna opción es correcta\nd) [UUAA]T[CODE]-VERSION[COUNTRY].xml y se crea en la ruta src/main/resources\ne) [VERSION]-[UUAA]T[CODE]-[COUNTRY].xml y se crea en la ruta src/main/resources",
+  "id": "T08-29"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "30",
+  "tema_indice": null,
+  "texto": "Pregunta 30  (opción única)\n¿Cuál es la opción verdadera acerca de “APX Operation Console”?\na) Herramienta para administrar las dependencias de un proyecto APX\nb) Herramienta para agregar los parámetros de entrada y salida de una transacción o job APX\nc) Ninguna opción es correcta\nd) Herramienta web que proporciona a los desarrolladores y administradores gestionar la configuración, verificación de componentes de la aplicación\ne) Herramienta de línea de comandos para inicializar proyectos APX",
+  "id": "T08-30"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "31",
+  "tema_indice": null,
+  "texto": "Pregunta 31  (opción única)\n¿Cuál de las siguientes opciones son verdaderas acerca de APX?\na) Ofrece una alternativa confiable para el desarrollo de transacciones\nb) Extensión de la arquitectura Backend que brinda las mismas capacidades del modo distribuido\nc) Biblioteca de métodos que permite crear un punto de contacto entre las tecnologías FrontEnd y Backend\nd) Ayuda a aumentar el uso del MainFrame\ne) Ninguna opción es correcta",
+  "id": "T08-31"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "32",
+  "tema_indice": null,
+  "texto": "Pregunta 32  (selección múltiple)\n¿Cuáles son los tipos de componentes en APX?\na) Librerias\nb) DTO\nc) Jobs\nd) Transacciones\ne) Todas las opciones son correctas",
+  "id": "T08-32"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "33",
+  "tema_indice": null,
+  "texto": "Pregunta 33  (opción única)\nWhat is the primary purpose of the ‘javac’ command in Java?\na) To package Java aplications\nb) To execute Java aplications\nc) To compile java source files into bytecode",
+  "id": "T08-33"
+ },
+ {
+  "archivo": "apx/examenes/08 - Teoría APX.docx",
+  "n": "34",
+  "tema_indice": null,
+  "texto": "Pregunta 34  (opción única)\n¿Cuál de las siguientes opciones es verdadera acerca de Spring Batch?\na) Es una abstracción que representa la salida de un Step\nb) Marco de trabajo para lotes diseñado para permitir el desarrollo de aplicaciones por lotes\nc) Marco de trabajo basado en Jobs y steps\nd) Es una abstracción que representa la recuperación de la entrada de un Step\ne) Es una abstracción que representa el procesamiento comercial de un item",
+  "id": "T08-34"
+ },
+ {
+  "archivo": "java/01 - Quiz APX.docx",
+  "n": "14",
+  "tema_indice": "APX",
+  "texto": "Pregunta 14\n14. ¿Cuál de las siguientes describe a Spring Batch?\na) Librería de testing.\nb) Marco de trabajo por lotes diseñado para aplicaciones batch.\nc) Framework para microservicios REST.\nd) Motor de persistencia ORM.",
+  "id": "QZ1-14"
+ },
+ {
+  "archivo": "java/01 - Quiz APX.docx",
+  "n": "18",
+  "tema_indice": "APX",
+  "texto": "Pregunta 18\n¿Un componente UUAAT000-00-MX.xml en que carpeta se genera?\na) src/main/java\nb) src/config\nc) src/main/resources\nd) src/test/resources",
+  "id": "QZ1-18"
+ },
+ {
+  "archivo": "java/01 - Quiz APX.docx",
+  "n": "19",
+  "tema_indice": "APX",
+  "texto": "Pregunta 19\nUna transacción APX es la unidad aplicativa que se ejecutará en APX Batch.\na) Verdadero\nb) Falso",
+  "id": "QZ1-19"
+ },
+ {
+  "archivo": "java/01 - Quiz APX.docx",
+  "n": "20",
+  "tema_indice": "APX",
+  "texto": "Pregunta 20\nFue creada para dar a desarrolladores y administradores una herramienta para gestionar operaciones en la plataforma:\na) Atenea\nb) API Catalog\nc) Consola de operaciones APX\nd) Jenkins",
+  "id": "QZ1-20"
+ },
+ {
+  "archivo": "java/01 - Quiz APX.docx",
+  "n": "21",
+  "tema_indice": "APX",
+  "texto": "Pregunta 21\n¿Cuál es la afirmación correcta sobre APX Operation Console?\na) Herramienta de testing.\nb) Herramienta web que permite gestionar configuración, verificar componentes y consultar jobs.\nc) Consola SQL.\nd) Framework batch.",
+  "id": "QZ1-21"
+ },
+ {
+  "archivo": "java/01 - Quiz APX.docx",
+  "n": "22",
+  "tema_indice": "APX",
+  "texto": "Pregunta 22\n¿Cuándo un cambio en una transacción no es retrocompatible?\na) Al incrementar la versión minor.\nb) Al actualizar documentación.\nc) Cuando cambia el tipo de dato de un parámetro de entrada o salida.\nd) Al agregar un parámetro opcional.",
+  "id": "QZ1-22"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "1",
+  "tema_indice": "APX",
+  "texto": "Pregunta 1  (opción única)\n¿Qué es el APX CLI?\na) Herramienta Web que permite crear el andamio de un proyecto APX.\nb) Herramienta para administrar las dependencias de un proyecto APX.\nc) Herramienta web que proporciona a los desarrolladores y administradores gestionar la configuración.\nd) Es una interfaz de línea de comandos para realizar operaciones sobre componentes APX.",
+  "id": "V1-1"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "4",
+  "tema_indice": "APX",
+  "texto": "Pregunta 4  (opción única)\n¿Cuál de los siguientes componentes de APX representa una entidad comercial en forma de un Bean?\na) Transacciones\nb) Jobs\nc) Librerias\nd) DTOs\ne) Todas las opciones son correctas",
+  "id": "V1-4"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "7",
+  "tema_indice": "APX",
+  "texto": "Pregunta 7  (opción única)\n¿Cual es la consola para la configuración de la aplicación en APX Online?\na) Chrome Console\nb) APX Operation Console\nc) Apache Felix Online Console\nd) Builder Console\ne) JBoss Console",
+  "id": "V1-7"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "14",
+  "tema_indice": "APX",
+  "texto": "Pregunta 14  (opción única)\n¿Cómo solucionamos un Blob?\na) Realizar un refactoring del diseño entre las librerías involucradas. La clave es mover el comportamiento de este antipatrón a sus librerías relacionadas, diferenciándose por las entidades con las que trabajan, reduciendo el acoplamiento entre librerías y simplificando los mantenimientos.\nb) Normalmente es muy complicada de reutilizar y probar. Puede ser ineficiente o introducir excesiva complejidad si se reutiliza para pequeñas partes de su funcionalidad.\nc) Agregar una gran cantidad de métodos “execute”\nd) Realizar un refactoring del diseño sin las librerías involucradas.",
+  "id": "V1-14"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "16",
+  "tema_indice": "APX",
+  "texto": "Pregunta 16  (opción única)\nEn JDBC APX cual es la cantidad máxima de resultados que permite obtener la consulta antes de que se deba de paginar?\na) 1000\nb) 2000\nc) 5000\nd) 4000\ne) 3000\nf) Opción 2",
+  "id": "V1-16"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "21",
+  "tema_indice": "APX",
+  "texto": "Pregunta 21  (opción única)\nEste patrón suele representarse como una única librería que contiene la mayoría de la funcionalidad y que otras librerías utilizan incorrectamente de apoyo. La clave del problema es que puede contener un porcentaje muy elevado de responsabilidades dentro de las solución a diseñar:\na) Contenedor magico\nb) Blob\nc) CRUD\nd) Libreria\ne) Opción 2",
+  "id": "V1-21"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "23",
+  "tema_indice": "APX",
+  "texto": "Pregunta 23  (selección múltiple)\n¿Cuáles dos de las siguientes opciones son funciones de la siguiente instrucción? apx deploy local --runtime=online --country=ESP -y\na) Despliega el componente APX en el enfoque APX Online en el lenguaje Español.\nb) Compila, empaqueta y ejecuta pruebas del componente en el que está ubicado.\nc) Despliega el componente APX en el enfoque APX Online en la región de España.\nd) La instrucción tiene un error.",
+  "id": "V1-23"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "41",
+  "tema_indice": "APX",
+  "texto": "Pregunta 41  (opción única)\n¿Qué comando permite enviar una solicitud de transacción a un servidor APX?\na) apx show in --project path= ./TESTT001-01-ES\nb) apx add req --name=\"TESTT001-01-ES-test.json\" -y --details\nc) apx send req --name=\"TESTT001-01-ES-test.json\" -y --details\nd) apx check --repair",
+  "id": "V1-41"
+ },
+ {
+  "archivo": "java/01 - Simulación APX V1.docx",
+  "n": "45",
+  "tema_indice": "APX",
+  "texto": "Pregunta 45  (opción única)\n¿Cuál es el archivo utilizado para agregar la dependencia del JDBC Utility a una aplicación?\na) config.xml\nb) config.yaml\nc) pom.xml\nd) pom.yaml\ne) settings.xml",
+  "id": "V1-45"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "9",
+  "tema_indice": "APX",
+  "texto": "Pregunta 9\n. ¿Cuál es la ubicación de archivos temporales utilizados en Batch?\na) /fichtemporal/datent.\nb) /fichtemcomp/datent.\nc) /datentJobs/datent.\nd) /temporalFiles/datent.",
+  "id": "QZ2-9"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "10",
+  "tema_indice": "APX",
+  "texto": "Pregunta 10\nLos archivos objeto del procesamiento Batch de APX son de naturaleza estrictamente ____________ y este archivo no es, en ningún caso, un mecanismo de persistencia de información a largo plazo:\na) Temporal.\nb) Local.\nc) Permanente.\nd) Parcial.",
+  "id": "QZ2-10"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "11",
+  "tema_indice": "APX",
+  "texto": "Pregunta 11\n¿Cuáles son los campos que definen a una transacción en APX?\na) Aplicación, Dominio, Descripción, Versión, País.\nb) Aplicación, Transacción, Descripción, Versión.\nc) Aplicación, Transacción, Descripción, Versión, País.\nd) Aplicación, Descripción, Versión, País.",
+  "id": "QZ2-11"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "16",
+  "tema_indice": "APX",
+  "texto": "Pregunta 16\n¿Cuál definición de APX es incorrecta?\na) Extended Platform Architecture\nb) Extended Programming Architecture\nc) Backend Extended Platform\nd) Extended Java Backend Architecture",
+  "id": "QZ2-16"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "17",
+  "tema_indice": "APX",
+  "texto": "Pregunta 17\nSon dos de los protocolos físicos que APX admite en una solicitud.\na) JMS y REST\nb) MQ y TCP\nc) QP05 y MQ\nd) AQPG y PS9",
+  "id": "QZ2-17"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "18",
+  "tema_indice": "APX",
+  "texto": "Pregunta 18\n¿Cuáles son los protocolos físicos disponibles en APX? Selecciona 2\na) HTTP/ SOAP\nb) HTTP/ REST / RESTFul (A través de Servicios Backend)\nc) AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)\nd) PS9",
+  "id": "QZ2-18"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "20",
+  "tema_indice": "APX",
+  "texto": "Pregunta 20\n¿Cuáles son ejemplos de Patrones de diseño para APX?\na) Paginación en transacciones, paginación en librerías, paginación en componentes APX\nb) Paginación en librerías, CRUD en librerías, DTOs en componentes APX\nc) Paginación en transacciones, CRUD en librerías, CRUD en componentes APX, DTOs en componentes APX\nd) Paginación en componentes APX. CRUD en librerías, DTOs en componentes APX",
+  "id": "QZ2-20"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "21",
+  "tema_indice": "APX",
+  "texto": "Pregunta 21\n¿Qué patrones de la siguiente lista son obligatorios del Data Transfer Object (DTO) en APX?\na) Se necesite una agrupación de datos simples en una clase con cierta funcionalidad asociada.\nb) Se requiera intercambiar información entre diferentes componentes en APX de forma coherente, organizada y agrupada.\nc) Implementar un Servicio Backend.\nd) Todas las anteriores",
+  "id": "QZ2-21"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "22",
+  "tema_indice": "APX",
+  "texto": "Pregunta 22\nSelecciona dos aplicaciones que justifican el uso del patrón Data Transfer Object (DTO) es obligatorio cuando\na) Se necesitan mapear demasiadas variables\nb) Se necesita una agrupación simple de datos basada en una funcionalidad asociada\nc) Desea intercambiar información entre diferentes componentes en APX de manera coherente, organizada y agrupada\nd) Se hace conexión a Bases de datos relacionales",
+  "id": "QZ2-22"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "23",
+  "tema_indice": "APX",
+  "texto": "Pregunta 23\nEncapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda ser utilizada por terceros.\na) DTO\nb) Transacción APX\nc) Unidad funcional\nd) Librería APX\ne) Capa de Acceso a Datos",
+  "id": "QZ2-23"
+ },
+ {
+  "archivo": "java/02 - Quiz Desarrollo APX 1.docx",
+  "n": "25",
+  "tema_indice": "APX",
+  "texto": "Pregunta 25\nEn un Batch cuál es el step donde el desarrollador introducirá la lógica empresarial necesaria\na) Chunk\nb) JobLauncher\nc) ItemWriter\nd) Task",
+  "id": "QZ2-25"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "2",
+  "tema_indice": "APX",
+  "texto": "Pregunta 2  (selección múltiple)\n¿Cuáles son las utilerías que pueden ser usadas en APX Batch?\na) a. JDBC Utility\nb) b. AP Connector\nc) c. Merge/Sort\nd) d. Neo4J\ne) e. Document Manager",
+  "id": "V2-2"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "7",
+  "tema_indice": "APX",
+  "texto": "Pregunta 7  (opción única)\nAPX proporciona a las aplicaciones las utilidades para ejecutar una consulta solo a base de datos relacional. Seleccione una:\na) Verdadero\nb) Falso",
+  "id": "V2-7"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "10",
+  "tema_indice": "APX",
+  "texto": "Pregunta 10  (opción única)\n¿Qué es un Job en el contexto de Spring Batch?\na) Una clase que gestiona la persistencia de datos en la base de datos.\nb) Una entidad que encapsula todo el proceso por lotes, configurada a través de un archivo XML o una configuración basada en Java.\nc) Un componente que ejecuta tareas individuales dentro de un Step.\nd) Una interfaz que define métodos para realizar operaciones CRUD en los datos del JobRepository.",
+  "id": "V2-10"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "12",
+  "tema_indice": "APX",
+  "texto": "Pregunta 12  (opción única)\n¿Cuál de los siguientes componentes de APX encapsula la lógica empresarial y el acceso a los datos, además publica su interfaz para que pueda ser usada por terceros?\na) Librerías\nb) DTOs\nc) Jobs\nd) Transacciones\ne) Todas las opciones son correctas.",
+  "id": "V2-12"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "16",
+  "tema_indice": "APX",
+  "texto": "Pregunta 16  (selección múltiple)\n¿Cuales son las herramientas necesarias para desarrollar componentes en APX?\na) Git\nb) Docker\nc) Artifactory\nd) Maven\ne) JDK",
+  "id": "V2-16"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "18",
+  "tema_indice": "APX",
+  "texto": "Pregunta 18  (opción única)\nTodo el acceso a los datos debe estar encapsulado en una transacción para facilitar la reutilización y control de acceso\na) Verdadero\nb) Falso",
+  "id": "V2-18"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "20",
+  "tema_indice": "APX",
+  "texto": "Pregunta 20  (opción única)\nUna transacción APX es la unidad aplicativa que se ejecutará en APX Batch. Seleccione una:\na) Verdadero\nb) Falso",
+  "id": "V2-20"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "22",
+  "tema_indice": "APX",
+  "texto": "Pregunta 22  (opción única)\n¿Cuál es el propósito del método setSeverity() en el manejo de una transacción APX?\na) Validar los datos proporcionados por la transacción.\nb) Establecer la gravedad de la notificación generada por la transacción\nc) Determinar el tipo de transacción a ejecutar\nd) Configurar los parámetros de entrada de la transacción.",
+  "id": "V2-22"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "27",
+  "tema_indice": "APX",
+  "texto": "Pregunta 27  (opción única)\n¿Cuál es la nomenclatura correcta para un componente de tipo librería?\na) TESTCO01\nb) TESTRO01-MX-01\nc) TESTRO01\nd) TESTRO01-01-MX",
+  "id": "V2-27"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "31",
+  "tema_indice": "APX",
+  "texto": "Pregunta 31  (opción única)\nEn APX CLI, ¿cual opcion permite crear un proyecto Maven con una unidad de despliegue de tipo librería?\na) apx init dto -u=\"TEST\" -c=\"001\" -d=\"New DTO\" -domain=\"domain\" -subpackage=\"subpackage\" -class=\"Example010\" -y\nb) apx init du-online -u=\"TEST\" -n=\"online-test\" -d=\"New Deployment Unit Online\" -y\nc) apx init du-lib -u=\"TEST\" -c=\"000\" -d=\"New Deployment Unit Library\" -y\nd) apx init du-lib -u=\"TEST\" -c=\"000\" -d=\"New Deployment Unit Library\" -y",
+  "id": "V2-31"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "32",
+  "tema_indice": "APX",
+  "texto": "Pregunta 32  (opción única)\n¿Cuál de las siguientes afirmaciones describe mejor un Step en el contexto de Spring Batch?\na) Una clase que gestiona la configuración de la base de datos utilizada por un trabajo por lotes.\nb) Una interfaz que define los métodos para realizar operaciones CRUD en los datos del trabajo por lotes.\nc) Un objeto de dominio que encapsula una fase independiente y secuencial de un trabajo por lotes.\nd) Un componente que se encarga exclusivamente de la validación de datos en un trabajo por lotes.",
+  "id": "V2-32"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "33",
+  "tema_indice": "APX",
+  "texto": "Pregunta 33  (opción única)\n¿Qué es ENTORNO LOCAL APX?\na) Es un entorno productivo para desplegar los componentes APX.\nb) Herramienta para gestionar proyectos en Java.\nc) Es un entorno para que los desarrolladores prueben y depuren sus tra\nd) Ninguna opción es correcta.",
+  "id": "V2-33"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "39",
+  "tema_indice": "APX",
+  "texto": "Pregunta 39  (opción única)\n¿Cuál de las siguientes opciones es verdadera acerca de Spring Batch?\na) Marco de trabajo basado en jobs y steps.\nb) Es una abstracción que representa la salida de un Step.\nc) Es una abstracción que representa la recuperación de la entrada de un Step.\nd) Es una abstracción que representa el procesamiento comercial de un Item.\ne) Marco de trabajo para lotes diseñado para permitir el desarrollo de aplicaciones por lotes.",
+  "id": "V2-39"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "40",
+  "tema_indice": "APX",
+  "texto": "Pregunta 40  (opción única)\n¿Cuál de las siguientes opciones representa un antipatrón relacionado con el uso de Binary Large Object (BLOB) en el desarrollo de software?\na) Implementar interfaces claras para el acceso a datos binarios.\nb) Utilizar BLOBs para almacenar imágenes y documentos de manera estructurada.\nc) Una librería compuesta de sola clase con gran cantidad de funcionalidad.\nd) Dividir los datos binarios en múltiples tablas para facilitar la consulta.",
+  "id": "V2-40"
+ },
+ {
+  "archivo": "java/02 - Simulación APX V2.docx",
+  "n": "41",
+  "tema_indice": "APX",
+  "texto": "Pregunta 41  (opción única)\nTodo el acceso a los datos debe estar encapsulado en una biblioteca para facilitar la reutilización y el control de acceso\na) Verdadero\nb) Falso",
+  "id": "V2-41"
+ },
+ {
+  "archivo": "java/03 - Cuestionario APX V3.docx",
+  "n": "13",
+  "tema_indice": null,
+  "texto": "Pregunta 13  (opción única)\n¿Cuál de las siguientes opciones son capacidades ofrecidas en APX?\na) Todas las opciones son correctas.\nb) Procesamiento transaccional.\nc) Procesamiento Batch.\nd) Cold Deployment.\ne) Sin integración con servicios de seguridad",
+  "id": "V3-13"
+ },
+ {
+  "archivo": "java/03 - Cuestionario APX V3.docx",
+  "n": "14",
+  "tema_indice": null,
+  "texto": "Pregunta 14  (selección múltiple)\n¿Cuál es el objetivo de la clase abstracta de la transacción APX?\na) Recuperar información de solicitud HTTP.\nb) Agregar parámetros del cuerpo de la respuesta.\nc) Todas las opciones son correctas.\nd) Unir las operaciones relacionadas con los parámetros de entrada y salida de la lógica de la transacción.\ne) Separar las operaciones relacionadas con los parámetros de entrada y salida de la lógica de la transacción.",
+  "id": "V3-14"
+ },
+ {
+  "archivo": "java/03 - Quiz Desarrollo APX 2.docx",
+  "n": "21",
+  "tema_indice": "APX",
+  "texto": "Pregunta 21\n¿Cuál es el comando para agregar un DTO en una Deployment Unit?\na) apx init dto --uuaa=\"FFUN\" -c=\"001\" --class-name=\"Employe\"\nb) apx add dto -y -c=\"001\" --domain=\"customers\" --class-name=\"CustomerDTO\" -d=\"Customer DTO\"",
+  "id": "QZ3-21"
+ },
+ {
+  "archivo": "java/03 - Quiz Desarrollo APX 2.docx",
+  "n": "22",
+  "tema_indice": "APX",
+  "texto": "Pregunta 22\nSi un DTO cambia es necesario cambiar el serial versión\na) Verdadero\nb) Falso",
+  "id": "QZ3-22"
+ },
+ {
+  "archivo": "java/03 - Quiz Desarrollo APX 2.docx",
+  "n": "23",
+  "tema_indice": "APX",
+  "texto": "Pregunta 23\n¿Cuál es el comando para agregar una libreria en una Deployment Unit?\na) apx init -uuaa=\"FFUN\" -y -c=\"001\" -d=\"Creacion de libreria\"\nb) apx add lib -y -c=\"001\" -d=\"Library for Codelab - Customer\"",
+  "id": "QZ3-23"
+ },
+ {
+  "archivo": "java/03 - Quiz Desarrollo APX 2.docx",
+  "n": "24",
+  "tema_indice": "APX",
+  "texto": "Pregunta 24\n¿Como se agrega jdbc en una librería apx?\na) cd artifact/libraries/QWAIR001IMPL apx add util -y -n=\"jdbc\"\nb) cd artifact/libraries/QWAIR001IMPL apx add util -n=\"JDBC\"",
+  "id": "QZ3-24"
+ },
+ {
+  "archivo": "java/04 - Simulación APX V4.docx",
+  "n": "27",
+  "tema_indice": null,
+  "texto": "Pregunta 27  (opción única)\n¿Cuál de los siguientes componentes de APX encapsula la lógica empresarial y el acceso a los datos, además publica su interfaz para que pueda ser usada por terceros?\na) Librerías\nb) DTOs\nc) Jobs\nd) Todas las opciones son correctas.\ne) Transacciones",
+  "id": "V4-27"
+ },
+ {
+  "archivo": "java/04 - Simulación APX V4.docx",
+  "n": "41",
+  "tema_indice": null,
+  "texto": "Pregunta 41  (opción única)\n¿Cuál es la nomenclatura correcta para un componente de tipo librería?\na) TESTCO01\nb) TESTRO01-MX-01\nc) TESTRO01\nd) TESTRO01-01-MX",
+  "id": "V4-41"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "8",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es el archivo utilizado para agregar la dependencia del JDBC Utility a una aplicación? A. conﬁg.xml B. conﬁg.yaml C. pom.xml D. pom.yaml E. settings.xml La respuesta correcta es: C. pom.xml",
+  "ubicacion": "pág 8",
+  "id": "JPDF-8"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "13",
+  "tema_indice": "APX",
+  "texto": "¿Qué comando permite enviar una solicitud de transacción a un servidor APX? a. apx show in --project path=./TESTT001-01-ES b. apx add req --name=\"TESTT001-01-ES-test.json\" -y --details c. apx send req --name=\"TESTT001-01-ES-test.json\" -y --details d. apx check --repair La respuesta correcta es: c. apx send req --name=\"TESTT001-01-ES-test.json\" -y --details",
+  "ubicacion": "pág 16",
+  "id": "JPDF-13"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "16",
+  "tema_indice": "APX",
+  "texto": "¿Cual es la consola para la configuración de la aplicación en APX Online? a. Chrome Console b. APX Operation Console c. Apache Felix Online Console d. Builder Console e. JBoss Console La respuesta correcta es: b. APX Operation Console",
+  "ubicacion": "pág 21",
+  "id": "JPDF-16"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "18",
+  "tema_indice": "APX",
+  "texto": "Este patrón suele representarse como una única librería que contiene la mayoría de la funcionalidad y que otras librerías utilizan incorrectamente de apoyo. La clave del problema es que puede contener un porcentaje muy elevado de responsabilidades dentro de las solución a diseñar: Contenedor magico Blob CRUD Libreria La respuesta correcta es: Blob",
+  "ubicacion": "pág 25",
+  "id": "JPDF-18"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "31",
+  "tema_indice": "APX",
+  "texto": "En JDBC APX cual es la cantidad máxima de resultados que permite obtener la consulta antes de que se deba de paginar? 1000 2000 5000 4000 3000",
+  "ubicacion": "pág 46",
+  "id": "JPDF-31"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "34",
+  "tema_indice": "APX",
+  "texto": "¿Cuál de los siguientes componentes de APX representa una entidad comercial en forma de un Bean? a. Transacciones b. Jobs c. Librerias d. Todas las opciones son correctas e. DTOs La respuesta correcta es: e. DTOs",
+  "ubicacion": "pág 50",
+  "id": "JPDF-34"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "42",
+  "tema_indice": "APX",
+  "texto": "¿Qué es el APX CLI? a. Herramienta Web que permite crear el andamio de un proyecto APX. b. Herramienta para administrar las dependencias de un proyecto APX. c. Herramienta web que proporciona a los desarrolladores y administradores gestionar la conﬁguración. d. Es una interfaz de línea de comandos para realizar operaciones sobre componentes APX. La respuesta correcta es: d. Es una interfaz de línea de comandos para realizar operaciones sobre componentes APX.",
+  "ubicacion": "pág 63",
+  "id": "JPDF-42"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "44",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles dos de las siguientes opciones son funciones de la siguiente instrucción? apx deploy local --runtime=online --country=ESP -y a. Despliega el componente APX en el enfoque APX Online en el lenguaje Español. b. Compila, empaqueta y ejecuta pruebas del componente en el que está ubicado. c. Despliega el componente APX en el enfoque APX Online en la región de España. d. La instrucción tiene un error.",
+  "ubicacion": "pág 66",
+  "id": "JPDF-44"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "46",
+  "tema_indice": "APX",
+  "texto": "¿Cómo solucionamos un Blob? Realizar un refactoring del diseño entre las librerías involucradas. La clave es mover el comportamiento de este antipatrón a sus librerías relacionadas, diferenciándose por las entidades con las que trabajan, reduciendo el acoplamiento entre librerías y simpliﬁcando los mantenimientos. Normalmente es muy complicada de reutilizar y probar. Puede ser ineﬁciente o introducir excesiva complejidad si se reutiliza para pequeñas partes de su funcionalidad. Agregar una gran cantidad de métodos “execute”. Realizar un refactoring del diseño sin las librerías involucradas. La respuesta correcta es: Realizar un refactoring del diseño entre las librerías involucradas. La clave es mover el comportamiento de este antipatrón a sus librerías relacionadas, diferenciándose por las entidades con las que trabajan, reduciendo el acoplamiento entre librerías y simplificando lo",
+  "ubicacion": "pág 67",
+  "id": "JPDF-46"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "66",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles son las utilerías que pueden ser usadas en APX Batch? a. JDBC Utility b. AP Connector c. Merge/Sort d. Neo4J e. Document Manager",
+  "ubicacion": "pág 99",
+  "id": "JPDF-66"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "74",
+  "tema_indice": "APX",
+  "texto": "APX proporciona a las aplicaciones las utilidades para ejecutar una consulta solo a base de datos relacional. Seleccione una: Verdadero Falso La aﬁrmación es falsa . Justiﬁcación: ● APX no se limita únicamente a bases de datos relacionales. ● Proporciona utilidades que permiten interactuar con diferentes tipos de fuentes de datos , incluyendo bases relacionales, documentos, y otras fuentes. ● Por lo tanto, no es correcto decir que solo se ejecutan consultas a bases relacionales.",
+  "ubicacion": "pág 115",
+  "id": "JPDF-74"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "80",
+  "tema_indice": "APX",
+  "texto": "¿Qué es un Job en el contexto de Spring Batch? a. Una clase que gestiona la persistencia de datos en la base de datos. b. Una entidad que encapsula todo el proceso por lotes, conﬁgurada a través de un archivo XML o una conﬁguración basada en Java. c. Un componente que ejecuta tareas individuales dentro de un Step. d. Una interfaz que deﬁne métodos para realizar operaciones CRUD en los datos del JobRepository. En Spring Batch , los conceptos principales son Job y Step : ● Job ○",
+  "ubicacion": "pág 121",
+  "id": "JPDF-80"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "82",
+  "tema_indice": "APX",
+  "texto": "¿Cuál de los siguientes componentes de APX encapsula la lógica empresarial y el acceso a los datos, además publica su interfaz para que pueda ser usada por terceros? a. Librerías b. DTOs c. Jobs d. Todas las opciones son correctas. e. Transacciones Analicemos cada opción en el contexto de APX : ● Librerías → Contienen código reutilizable, pero no necesariamente exponen lógica empresarial para terceros. ● DTOs (Data Transfer Objects) → Solo transportan datos, no encapsulan lógica . ● Jobs → Ejecutan procesos batch, no necesariamente exponen interfaz para terceros . ● Transacciones → Gestionan la atomicidad de operaciones, no encapsulan lógica empresarial . El componente que sí encapsula la lógica empresarial, maneja acceso a datos y expone una interfaz para terceros son las librerías de APX que implementan los servicios o procesos reutilizables .",
+  "ubicacion": "pág 125",
+  "id": "JPDF-82"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "91",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles de las siguientes son herramientas necesarias para desarrollar componentes APX? a. Git b. Docker c. Artifactory d. Maven e. JDK",
+  "ubicacion": "pág 143",
+  "id": "JPDF-91"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "98",
+  "tema_indice": "APX",
+  "texto": "Todo el acceso a los datos debe estar encapsulado en una transacción para facilitar la reutilización y control de acceso Seleccione una: verdadero Falso",
+  "ubicacion": "pág 160",
+  "id": "JPDF-98"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "104",
+  "tema_indice": "APX",
+  "texto": "Una transacción APX es la unidad aplicativa que se ejecutará en APX Batch. Seleccione una: Verdadero Falso",
+  "ubicacion": "pág 170",
+  "id": "JPDF-104"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "106",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es el propósito del método setSeverity() en el manejo de una transacción APX? a. Validar los datos proporcionados por la transacción. b. Establecer la gravedad de la notiﬁcación generada por la transacción c. Determinar el tipo de transacción a ejecutar d. Conﬁgurar los parámetros de entrada de la transacción. El propósito del método setSeverity() en una transacción APX es:",
+  "ubicacion": "pág 171",
+  "id": "JPDF-106"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "119",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es la nomenclatura correcta para un componente de tipo librería? a. TESTCO01 b. TESTRO01-MX-01 c. TESTRO01 d. TESTRO01-01-MX En APX, la nomenclatura estándar para una librería sigue el patrón: TESTRO01 ● TEST → preﬁjo del proyecto ● RO → indica que es librería (RO = Reusable Object / Library) ● 01 → número secuencial del componente",
+  "ubicacion": "pág 192",
+  "id": "JPDF-119"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "125",
+  "tema_indice": "APX",
+  "texto": "En APX CLI, ¿cual opcion permite crear un proyecto Maven con una unidad de despliegue de tipo librería? a. apx init dto -u=\"TEST\" (c=\"001\") d=\"New DTO domain=\"domain subpackage class name=\"Example010\" -y b. apx init du-online-u=\"TEST\" -n=\"online-test\" d=\"New Deployment Unit Online\" -y c. apx add dto (-c=\"010\") -domain=\"customer\" -d=\"Test of DTO\" -subpackage=\"\" class name=\"ExampleDTO\" -y d. apx init du-lib-u=\"TEST\" (-c=\"000\") d=\"New Deployment Unit Library\" -y e. apx init du-batch-u=\"TEST\" (-n=) \"batch-test\" -d=\"New Deployment Unit Batch\" -y En APX CLI, para crear un proyecto Maven con una unidad de despliegue de tipo librería , se utiliza la opción que indica explícitamente du-lib (Deployment Unit Library). Analizando las opciones: ● a. Se usa para DTOs → ❌ ● b. du-online → unidad de despliegue online → ❌ ● c. Añadir DTO → ❌ ● d. apx init du-lib-u=\"TEST\" → correcto, crea un Deploym",
+  "ubicacion": "pág 197",
+  "id": "JPDF-125"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "126",
+  "tema_indice": "APX",
+  "texto": "¿Qué es ENTORNO LOCAL APX? a. Ninguna opción es correcta. b. Es un entorno productivo para desplegar los componentes APX. c. Herramienta para gestionar proyectos en Java. d. Es un entorno para que los desarrolladores prueben y depuren sus transacciones y job. e. Herramienta de línea de comandos para crear componentes APX. En APX, el ENTORNO LOCAL se reﬁere al entorno donde los desarrolladores pueden probar y depurar sus transacciones y jobs antes de desplegarlos a entornos de integración o producción.",
+  "ubicacion": "pág 198",
+  "id": "JPDF-126"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "126b",
+  "tema_indice": "APX",
+  "texto": "¿Cuál de las siguientes afirmaciones describe mejor un Step en el contexto de Spring Batch? a. Una clase que gestiona la configuración de la base de datos utilizada por un trabajo por lotes. b. Una interfaz que define los métodos para realizar operaciones CRUD en los datos del trabajo por lotes. c. Un objeto de dominio que encapsula una fase independiente y secuencial de un trabajo por lotes. d. Un componente que se encarga exclusivamente de la validación de datos en un trabajo por lotes.",
+  "ubicacion": "pág 199 (sin número propio: va tras la respuesta de la #126)",
+  "id": "JPDF-126b"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "137",
+  "tema_indice": "APX",
+  "texto": "¿Cuál de las siguientes opciones es verdadera acerca de Spring Batch? a. Marco de trabajo basado en jobs y steps. b. Es una abstracción que representa la salida de un Step. c. Es una abstracción que representa la recuperación de la entrada de un Step. d. Es una abstracción que representa el procesamiento comercial de un Item. e. Marco de trabajo para lotes diseñado para permitir el desarrollo de aplicaciones por lotes.",
+  "ubicacion": "pág 212",
+  "id": "JPDF-137"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "142",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es un antipatrón de Binary Large Object (BLOB)? Una librería compuesta de sola clase con gran cantidad de funcionalidad. “The Blob” normalmente es muy complicada de reutilizar y probar, por lo cual, la solución es realizar un “refactoring” del rediseño entre las librerías involucradas. La opción correcta es: Una librería compuesta de sola clase con gran cantidad de funcionalidad. Este es un antipatrón BLOB porque concentra demasiada responsabilidad en una sola clase, lo que la hace difícil de mantener, reutilizar y probar. La recomendación es refactorizar la clase, distribuyendo la funcionalidad en varias clases más cohesivas.",
+  "ubicacion": "pág 223",
+  "id": "JPDF-142"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "147",
+  "tema_indice": "APX",
+  "texto": "Todo el acceso a los datos debe estar encapsulado en una biblioteca para facilitar la reutilización y el control de acceso verdadero Falso La aﬁrmación es",
+  "ubicacion": "pág 231",
+  "id": "JPDF-147"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "159",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles de las siguientes opciones son verdaderas acerca de APX? a. Ayuda a aumentar el uso de Mainframe. b. Ninguna opción es correcta. c. Ofrece una alternativa conﬁable para el desarrollo de transacciones no acopladas al canal. d. Biblioteca de métodos para crear un punto de contacto entre las tecnologías Frontend y Backend. e. Extensión de la Arquitectura Backend que brinda las mismas capacidades en el mundo distribuido Analizando las opciones: ● a. Incorrecta. APX no tiene como objetivo principal aumentar el uso de Mainframe. ● b. Incorrecta. Sí existen opciones correctas. ● c.",
+  "ubicacion": "pág 254",
+  "id": "JPDF-159"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "160",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles son los tipos de componentes en APX batch? a. Librerías b. Jobs c. Todas las opciones son correctas d. DTOs e. Transacciones",
+  "ubicacion": "pág 254",
+  "id": "JPDF-160"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "165",
+  "tema_indice": "APX",
+  "texto": "¿Cuál de las siguientes opciones son capacidades ofrecidas en APX? a. Todas las opciones son correctas. b. Procesamiento transaccional. c. Procesamiento Batch. d. Cold Deployment. e. Sin integración con servicios de seguridad. La respuesta correcta es: b. Procesamiento transaccional y c. Procesamiento Batch . Justiﬁcación: ● APX ofrece procesamiento transaccional y procesamiento por lotes (Batch) para gestionar operaciones de manera eﬁciente tanto en línea como en procesos masivos. ● No todas las opciones listadas son capacidades de APX: ○ Cold Deployment no es una característica especíﬁca de APX. ○ Sin integración con servicios de seguridad no es una capacidad, sino más bien una limitación, y APX sí puede integrarse con mecanismos de seguridad según la implementación. Por lo tanto, la opción a. Todas las opciones son correctas sería incorrecta .",
+  "ubicacion": "pág 263",
+  "id": "JPDF-165"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "167",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles de las siguientes opciones son archivos configurados por APX CLI al agregar JDBC Utility? a. library-arc-osgi.xml b. library-arc.xml c. conﬁg.xml d. settings.xml e. pom.xml",
+  "ubicacion": "pág 265",
+  "id": "JPDF-167"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "168",
+  "tema_indice": "APX",
+  "texto": "Con la \"APX Operation Console\", sólo se pueden ver grafos de dependencias para las librerías. Seleccione una: Verdadero Falso Falso",
+  "ubicacion": "pág 265",
+  "id": "JPDF-168"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "169",
+  "tema_indice": "APX",
+  "texto": "¿Cual opción es verdadera acerca de \"APX Operation Console\"? a. Herramienta web que proporciona a los desarrolladores y administradores gestionar la conﬁguración, veriﬁcación de componentes de la aplicación o busqueda de jobs ejecutados o en ejecución b. Herramienta de línea de comandos para inicializar proyectos de tipo APX. c. Herramienta para administrar las dependencias de un proyecto APX. d. Herramienta para agregar los parámetros de entrada y salida de una transacción o job APX. e. Ninguna opción es correcta. La opción correcta es: a. Herramienta web que proporciona a los desarrolladores y administradores gestionar la conﬁguración, veriﬁcación de componentes de la aplicación o búsqueda de jobs ejecutados o en ejecución",
+  "ubicacion": "pág 266",
+  "id": "JPDF-169"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "170",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles son los tipos de componentes en APX? a. Librerías b. Jobs c. Todas las opciones son correctas d. DTOs e. Transacciones La respuesta correcta es: c. Todas las opciones son correctas",
+  "ubicacion": "pág 267",
+  "id": "JPDF-170"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "174",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es la función principal de JobRepository en Spring Batch? a. Conﬁgurar y gestionar los recursos necesarios para la ejecución de un trabajo. b. Proporcionar un mecanismo de persistencia para todas las operaciones CRUD relacionadas con JobLauncher, Job y Step. c. Ejecutar los trabajos (Jobs) en paralelo para mejorar el rendimiento. d. Realizar la validación de los datos antes de procesarlos en un trabajo. La respuesta correcta es: b. Proporcionar un mecanismo de persistencia para todas las operaciones CRUD relacionadas con JobLauncher, Job y Step.",
+  "ubicacion": "pág 269",
+  "id": "JPDF-174"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "176",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es el archivo generado por el comando 'apx config'? a. settings.yaml b. conﬁg.xml c. pom.xml d. settings.xml e. conﬁg.yaml",
+  "ubicacion": "pág 272",
+  "id": "JPDF-176"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "177",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es la nomenclatura correcta para un componente de tipo transacción? a. TESTT001-01-MX b. TESTT001-MX-01 c. TESTTT01-MX-01 d. TEST01-001-MX La respuesta correcta es: a. TESTT001-01-MX",
+  "ubicacion": "pág 272",
+  "id": "JPDF-177"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "179",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es la nomenclatura y la ruta de creación de un archivo que sigue el formato [UUAA]T[CODE]-[VERSION]-[COUNTRY].xml en un proyecto? a. Ninguna opción es correcta. b. [CODE]T[UUAA]-[VERSION]-[COUNTRY].xml y se crea en la ruta src/main/java/. c. [UUAA]T[CODE]-[VERSION]-[COUNTRY].xmly se crea en la ruta src/main/resources/. d. [VERSION]-[UUAA]T[CODE]-[COUNTRY].xml y se crea en la ruta src/main/resources/. e. [COUNTRY]-[VERSION]-[CODE]T[UUAA].xml y se crea en la ruta src/test/resources/. La respuesta correcta es: c. [UUAA]T[CODE]-[VERSION]-[COUNTRY].xml y se crea en la ruta src/main/resources/ .",
+  "ubicacion": "pág 274",
+  "id": "JPDF-179"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "182",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles son los protocolos físicos que admite en APX? a.SQL b.JMS c.Kermit d.REST e.HTTP",
+  "ubicacion": "pág 276",
+  "id": "JPDF-182"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "204",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles son los tipos de componentes en APX Online? a. Librerías b. Jobs c. Todas las opciones son correctas d. DTOs e. Transacciones",
+  "ubicacion": "pág 296",
+  "id": "JPDF-204"
+ },
+ {
+  "archivo": "java/Java.pdf",
+  "n": "208",
+  "tema_indice": "APX",
+  "texto": "¿Cuál es el objetivo de la clase abstracta de la transacción APX? a. Recuperar información de solicitud HTTP. b. Agregar parámetros del cuerpo de la respuesta. c. Todas las opciones son correctas. d. Unir las operaciones relacionadas con los parámetros de entrada y salida de la lógica de la transacción. e. Separar las operaciones relacionadas con los parámetros de entrada y salida de la lógica de la transacción.",
+  "ubicacion": "pág 299",
+  "id": "JPDF-208"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "2",
+  "tema_indice": "APX",
+  "texto": "¿Qué causas no corresponde al antipatron Contenedor Mágico? • Reparto de responsabilidades incorrecto. • Falta de cumplimiento de la arquitectura. • Intervención demasiado limitada. Desacoplamiento entre librerias.",
+  "ubicacion": "pág 1 der",
+  "id": "A4-2"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "3",
+  "tema_indice": "APX",
+  "texto": "Selecciona las tres respuestas que describen las mejores prácticas establecidas para acceder a Datos: En el caso de procesos Batch no deben existir cesiones de ficheros entre UUAAs. Una UUAA puede acceder a datos de terceros a través de librerías APX que el dueño del dato proporcione.",
+  "ubicacion": "pág 2 izq",
+  "id": "A4-3"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "4",
+  "tema_indice": "APX",
+  "texto": "Las partes de un campo variable definidos por la cadena NMM son: N es el orden de la variable literal (1 o 4), MM la longitud máxima del campo informado en la variable (15 es el máximo). N es el orden de la variable literal (1 y 4), MM la longitud máxima del campo informado en la variable (15 es el máximo). N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la variable (15 es el máximo). N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo informado en la variable (20 es el máximo).",
+  "ubicacion": "pág 2 der",
+  "id": "A4-4"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "5",
+  "tema_indice": "APX",
+  "texto": "El objeto _ _ no debe manejarse directamente. No debe crear instancias, abrir o cerrar explicitamente conexiones a la base de datos. O Datasource. O UPA. • JDвС ODaibee",
+  "ubicacion": "pág 3 izq",
+  "id": "A4-5"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "6",
+  "tema_indice": "APX",
+  "texto": "En un Batch cual es el step donde el desarrollador introducirá la lógica empresarial necesaria: O itemWriter. Task. O chunk • JobLauncher.",
+  "ubicacion": "pág 3 der",
+  "id": "A4-6"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "7",
+  "tema_indice": "APX",
+  "texto": "El identificador único para la ejecución de transacciones/Job se genera automáticamente como ultimo paso cuando se invoca las transacciones en linea/Batch. El resultado de la transacción se puede propagar para la correlación en las otras capas. • Falso: Verdadero.",
+  "ubicacion": "pág 4 izq",
+  "id": "A4-7"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "10",
+  "tema_indice": "APX",
+  "texto": "Para enviar un aviso desde una biblioteca o desde la transacción, cualquiera que sea el tipo, el método utilizado es • addAdvice OaddEnor. OaddWaming",
+  "ubicacion": "pág 5 der",
+  "id": "A4-10"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "11",
+  "tema_indice": "APX",
+  "texto": "Cualquier documento utilizado (.dll, .txt, etc.) se almacenará en el sistema de archivos compartido del nodo Batch (generalmente .) y luego se eliminará periódicamente: /temporalFiles/datent. /fichtemporal/datent. /fichtemcomp/datent. /datentJobs/datent.",
+  "ubicacion": "pág 6 izq",
+  "id": "A4-11"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "13",
+  "tema_indice": "APX",
+  "texto": "Los componentes de seguridad lógica que dan servicio a la arquitectura no están acoplados a la Arquitectura APX. Verdadero. Falso",
+  "ubicacion": "pág 7 izq",
+  "id": "A4-13"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "14",
+  "tema_indice": "APX",
+  "texto": "La información utilizada en la lógica de negocio de la transacción debe incluirse en. O Los archivos locales. • Los parámetros de entrada. O Las variables locales. • Las variables globales.",
+  "ubicacion": "pág 7 der",
+  "id": "A4-14"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "15",
+  "tema_indice": "APX",
+  "texto": "¿Cuáles son las acciones posteriores a la ejecución de la lógica de negocio en la capa de Arquitectura de control? Validation of Exit Code, Commit Control, Electronic Journal, Business Event Notification, Monitorization. Validation of Exit Code, Commit Control, ROP Writing, Business Event Notification, Monitorization. Validation of Exit Code, Commit Control, ROP Writing, Operations Registry, Monitorization. ) Validation of Exit Code, Commit Control, ROP Writing, Business Event Notification, Unique identifier.",
+  "ubicacion": "pág 8",
+  "id": "A4-15"
+ },
+ {
+  "archivo": "apx/examenes/Examen Diagnóstico APX 4.pdf",
+  "n": "17",
+  "tema_indice": "APX",
+  "texto": "Selecciona las únicas excepciones que pueden ser capturadas y administradas por las aplicaciones, típicas de АРХ: com.bbva.apx.exception.business.NullPointerException. com.bbva.apx.exception.business.IOException. com.bbva.apx.exception.io.network.TimeoutException. com.bbva.apx.exception.business.BusinessException.",
+  "ubicacion": "pág 10 izq",
+  "id": "A4-17"
+ }
+]

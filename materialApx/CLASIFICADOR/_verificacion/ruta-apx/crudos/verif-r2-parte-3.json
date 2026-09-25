@@ -1,0 +1,426 @@
+[
+ {
+  "grupo": "G160",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G161",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G162",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro afirma «No se resuelve dentro de la misma librería». La diap. 46 dice en qué consiste la solución (mover comportamientos a las librerías relacionadas), pero no excluye de forma explícita repartir la lógica dentro de la misma librería. Es una inferencia coherente con la clave APX3 #24, pero choca con G163, donde «dividir la clase en varias clases» se marca como correcta.",
+    "propuesta": "Suavizar: «La diap. 46 plantea la solución como mover comportamiento a otras librerías, no como reorganizar la lógica dentro de la misma librería ni como llevarla a transacciones o DTOs»."
+   }
+  ]
+ },
+ {
+  "grupo": "G163",
+  "veredicto": "dudoso",
+  "hallazgos": [
+   {
+    "aspecto": "destino",
+    "gravedad": "media",
+    "detalle": "La opción marcada como correcta (a, «Dividiendo la clase en varias clases más pequeñas…») es casi la misma idea que el distractor c de G162 («Moviendo la lógica a diferentes métodos y clases dentro de la misma librería»), que la clave APX3 #24 da por incorrecto. La propia retro dice «en APX la solución no es partir la clase dentro de la misma librería». Así, el alumno recibe por buena una opción que la retro describe como no ajustada a APX. En la diap. 46 no aparece «dividir la clase»: el respaldo es solo por descarte y no hay clave.",
+    "propuesta": "O bien pasarla a destino instructor (respaldo «doc por descarte»), o bien dejarla en cuestionario con una retro que no la desautorice. Por ejemplo: «a es la respuesta aceptada por descarte: es la única que reparte las responsabilidades del Blob (b y c lo agravan). En APX ese reparto se hace con un refactoring que mueve los comportamientos del Blob a sus librerías relacionadas, separadas por entidad (diap. 46)». Quitar «la solución no es partir la clase»."
+   }
+  ]
+ },
+ {
+  "grupo": "G164",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G165",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G166",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G167",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G168",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G169",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G170",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G171",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G172",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G173",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G174",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G175",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G176",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G177",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G178",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G179",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G180",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Es de opción única y cada una de las opciones a–d es por sí sola un patrón de diseño (diap. 43), así que quien marque, por ejemplo, a no estaría diciendo algo falso. La convención de «Todas las anteriores» y la clave APX3 #29 dan f. La retro no explica por qué no vale una sola opción.",
+    "propuesta": "Añadir a la retro: «Cada una de a–d es un patrón, pero la respuesta que las recoge todas es f; e deja fuera DTO en componentes APX»."
+   }
+  ]
+ },
+ {
+  "grupo": "G181",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G186",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "Queda clasificada como incorrecta la opción a («Aplicación por lotes: estrategias de procesamiento»). Comprobado con el texto con maquetación del PDF (pág. 1): en la misma lista de viñetas aparecen «Aplicación de datos…», «Aplicación de procesos…» y «Orquestación…», y «Estrategias de procesamiento» es un apartado aparte (pág. 2). Marcar a como incorrecta es defendible, pero no hay clave y el constructor la deja «algo dudosa».",
+    "propuesta": "Mantener. Si el instructor lo prefiere, la retro puede añadir que «Estrategias de procesamiento» es el título del apartado de la pág. 2 (normal, simultáneo, paralelo, partición), no una característica."
+   }
+  ]
+ },
+ {
+  "grupo": "G187",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro dice «La doc confirma…» y «su lista de utilidades Batch…» sin nombrar ningún documento ni página (la ubicación solo está en la nota). Además, Elasticsearch, que también figura en la opción b, falta en la lista de utilidades de APX Batch - Componentes del lote APX.pdf, pág. 1 (Jdbc, Creador de documentos, Normas, Caparazón, Conector API, Fusionar/ordenar, MongoDB). Elasticsearch solo aparece en el Shell Script Launcher (APX_BATCH.pptx.pdf, pág. 15).",
+    "propuesta": "Retro: «APX Batch - Documentación.pdf (pág. 1) confirma a (soporte multi-BD) y el acceso a utilidades y recursos del sistema; la lista de utilidades de APX Batch - Componentes del lote APX.pdf (pág. 1) no incluye Neo4J ni Elasticsearch (este solo aparece en el Shell Script Launcher, APX_BATCH.pptx.pdf pág. 15)…»."
+   }
+  ]
+ },
+ {
+  "grupo": "G188",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "grupo",
+    "gravedad": "baja",
+    "detalle": "El miembro D06-88 (APX3 #89) es otra pregunta: de selección múltiple, en plural («¿Qué características NO pertenecen…?») y con otras opciones (trazabilidad en lugar de ventana fuera de línea). La respuesta, eso sí, es la misma (solo la interacción directa con el usuario).",
+    "propuesta": "Aceptable. Si se quiere un grupo estricto, separar D06-88."
+   }
+  ]
+ },
+ {
+  "grupo": "G189",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G190",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G191",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "Comprobado: APX Batch - Conceptos por Lotes.pdf, pág. 6, dice «Lector: Lector de artículos. Procesador: Procesador de artículos. Escritor: ItemWriter.». La retro solo añade entre paréntesis «la traducción automática dice «Lector de artículos» y «Procesador de artículos»» y no dice de forma explícita que «Lector de artículos» = ItemReader, «Procesador de artículos» = ItemProcessor ni que «artículo» traduce «item». Un alumno que abra la pág. 6 buscando «ItemReader» no lo encuentra ahí y puede no reconocer el equivalente. Los nombres originales sí están en el PDF: ItemReader en la pág. 2 e ItemProcessor en la pág. 5. En el mapa PT1 están los tres (comprobado).",
+    "propuesta": "Reescribir el paréntesis así: «(el PDF es traducción automática: en la pág. 6 «Lector de artículos» = ItemReader y «Procesador de artículos» = ItemProcessor, porque «artículo» traduce «item»; ItemWriter aparece sin traducir; ItemReader e ItemProcessor aparecen con su nombre original en las págs. 2 y 5)»."
+   },
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro dice «(los tasklet no los usan)» mientras marca como correcta «cada step tiene itemReader, itemProcessor y itemWriter», y no dice abiertamente que el enunciado generaliza. El alumno puede dudar de si la b es correcta.",
+    "propuesta": "Añadir: «El enunciado simplifica: solo los steps de tipo chunk tienen lector, procesador y escritor; aun así b es la única opción con los nombres reales de las interfaces (a y c inventan itemInput/item Output)»."
+   }
+  ]
+ },
+ {
+  "grupo": "G192",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "La cita solo recoge Lector y Procesador (pág. 5). El Escritor, que forma parte de la respuesta b (Readers, Writers, Processors), está en la pág. 6: «Escritor: Escribe los datos procesados por el Procesador.».",
+    "propuesta": "Ampliar la cita con la frase del Escritor (pág. 6)."
+   }
+  ]
+ },
+ {
+  "grupo": "G193",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G194",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "«No sustituye al mainframe ni es igual a Online»: ningún documento del curso dice eso de Batch. APX_BATCH.pptx.pdf, pág. 2, dice de APX que «actúa como una extensión de la plataforma Mainframe» y que «ayuda a reducir el uso de Mainframe».",
+    "propuesta": "Cambiar por «APX actúa como extensión del Mainframe y ayuda a reducir su uso, no lo reemplaza (APX_BATCH.pptx.pdf, pág. 2)» o quitar la frase."
+   }
+  ]
+ },
+ {
+  "grupo": "G195",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G196",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "Mismo problema que G191: el paréntesis «la traducción automática dice «Lector de artículos» y «Procesador de artículos»» no dice a qué interfaz equivale cada uno. Precisamente esta pregunta pide reconocer los nombres ItemReader/ItemProcessor/ItemWriter, y en la pág. 6 solo ItemWriter aparece literal. Tampoco remite al mapa mental APX BATCH PT1, donde están los tres nombres (la nota sí lo dice).",
+    "propuesta": "Retro: «…Ver APX Batch - Conceptos por Lotes.pdf, pág. 6 (traducción automática: «Lector de artículos» = ItemReader, «Procesador de artículos» = ItemProcessor; ItemWriter sin traducir) y el mapa mental APX BATCH PT1, donde aparecen los tres nombres originales»."
+   },
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "La cita es solo la frase introductoria («…se pueden implementar las siguientes interfaces:») y no contiene ninguna interfaz, así que por sí sola no respalda b, c, e y f. Marcar las cuatro opciones es coherente: f agrupa las tres y todas son correctas.",
+    "propuesta": "Ampliar la cita: «…las siguientes interfaces: Lector: Lector de artículos. Procesador: Procesador de artículos. Escritor: ItemWriter.»."
+   }
+  ]
+ },
+ {
+  "grupo": "G197",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "El contenido es correcto. Comprobé la maquetación del PDF: «Utilidades inherentes a la Arquitectura APX.» está en el nivel superior de la lista y «Compresión/Descompresión.» va sangrado debajo, fuera de «Invocación restringida de:». Pero la retro dice «Según la documentación» sin nombrar el documento ni la página.",
+    "propuesta": "Añadir «(APX Batch - Documentación.pdf, pág. 1)» tras «Según la documentación»."
+   }
+  ]
+ },
+ {
+  "grupo": "G198",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro dice «La documentación solo lista…» sin nombrar el documento ni la página. Clave comprobada: APX3 #66 marca las tres primeras opciones sueltas y no «a, b y c».",
+    "propuesta": "Añadir «(APX Batch - Documentación.pdf, pág. 1)». Opcional: precisar que la clave marca a, b y c por separado, no la compuesta f."
+   }
+  ]
+ },
+ {
+  "grupo": "G199",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G200",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G201",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G202",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G203",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G204",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G205",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G206",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "grupo",
+    "gravedad": "baja",
+    "detalle": "El miembro T08-20 («¿Qué es un step?») tiene otro enunciado y otras opciones (allí la correcta es la a). Tiene la misma respuesta de contenido, pero no es la misma pregunta.",
+    "propuesta": "Aceptable; si se quiere un grupo estricto, separar T08-20."
+   }
+  ]
+ },
+ {
+  "grupo": "G207",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G208",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G209",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "La retro no explica por qué Chunk no es correcta. Conceptos por Lotes, pág. 5, dice del Fragmento (chunk) que «implica leer una entrada, procesarla según la lógica empresarial…», así que un alumno puede defender a (Chunk). La respuesta d (Task) está bien respaldada (la frase literal del Tasklet en la pág. 6 y la clave APX3 #75), pero la retro solo descarta JobLauncher e ItemWriter.",
+    "propuesta": "Añadir: «El chunk también procesa datos según la lógica empresarial (pág. 5), pero la frase «el desarrollador introducirá la lógica de negocio necesaria» la usa la documentación para el Tasklet, cuya clase implementa la interfaz Tasklet con un método de ejecución»."
+   }
+  ]
+ },
+ {
+  "grupo": "G210",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G211",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G212",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G213",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "respuesta",
+    "gravedad": "baja",
+    "detalle": "La cita solo recoge Lector y Procesador (pág. 5). La tercera correcta, Escritor, está en la pág. 6 («Escritor: Escribe los datos procesados por el Procesador.»).",
+    "propuesta": "Ampliar la cita con la frase del Escritor."
+   }
+  ]
+ },
+ {
+  "grupo": "G214",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G215",
+  "veredicto": "ok",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "«b, c y d describen ItemWriter, ItemReader e ItemProcessor»: la documentación del curso no define esas interfaces como «abstracción que representa la salida/entrada/procesamiento»; la frase viene de la documentación general de Spring Batch. Como la pregunta va a instructor, el impacto es bajo.",
+    "propuesta": "Suavizar: «b, c y d parecen describir ItemWriter, ItemReader e ItemProcessor, no Spring Batch en sí»."
+   }
+  ]
+ },
+ {
+  "grupo": "G215b",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G216",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G217",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G218",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G219",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G220",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G221",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G222",
+  "veredicto": "ok",
+  "hallazgos": []
+ }
+]

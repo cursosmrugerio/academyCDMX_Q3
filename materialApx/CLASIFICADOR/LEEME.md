@@ -29,49 +29,80 @@ La equivalencia enlace por enlace está en
 
 ## 1. APX: qué estudiar y en qué orden
 
-1. **Qué es APX:** `apx/general/APX Qué es.pdf` (1 página).
-2. **Presentaciones del curso**, en `apx/teoria/`:
-   - `Curse_APX_Online.pptx`: APX Online en 57 diapositivas, en español.
-   - `APX_Online.pptx`: APX Online en 20 diapositivas, la mayoría en inglés. Explica con más
-     detalle dos temas que la anterior solo menciona de pasada: la Operation Console y las
-     Credentials.
-   - `APX_BATCH.pptx.pdf`: APX Batch en 23 páginas.
-3. **APX Online**, en `apx/online/` y en este orden:
-   - Visión general: `APX Online Capabilities.pdf` y `2 - APX Online Components.pdf`.
-   - Transacción: `APX Online - Creación de Transacciones.pdf`.
-   - DTO: `APX Online - Creación DTO.pdf` y `APX Online - Extraer un DTO.pdf`.
-   - Librería: `APX Online - Trabajar con el componente Librería.pdf`,
-     `APX Online - Librerías simples.pdf` y `APX Online - Librerías MongoDB.pdf`.
-   - `Ejemplo de Creación de Transacción.pdf`, `Ejemplo de DTO.pdf` y `Creación de librería.pdf`
-     son de 1 página, en inglés, y resumen el comando `apx init` de cada componente.
-     **No es temario nuevo**: son extractos de las guías de arriba.
-   - Para repasar: mapas mentales `apx/mapas-mentales/APX ONLINE PT1` a `PT3`.
-4. **APX Batch**, en `apx/batch/` y en este orden:
-   - `APX Batch - Documentación.pdf` (introducción),
-   - `APX Batch - Conceptos por Lotes.pdf`,
-   - `APX Batch - Componentes del lote APX.pdf`,
-   - `Creación JOB en APX BATCH.pdf`.
-   - `Introducción APX Batch.pdf`, `Conceptos APX Batch.pdf` y `Componentes APX BATCH.pdf`
-     **repiten** el contenido de los tres primeros, en inglés o con otro formato. Úsalos
-     solo si te sirve verlo de otra forma.
-   - Para repasar: mapas mentales `apx/mapas-mentales/APX BATCH PT1` y `PT2`.
-5. **Despliegue de componentes:** `apx/general/AcademicosAPX.pdf` (97 páginas). Trata ramas,
-   pull requests, Sonar, Deploy Request, rollback y versiones. Léelo cuando ya conozcas
-   los componentes.
-6. **Practica con los exámenes de `apx/examenes/`** (ver el catálogo, §3):
-   - Practica en este orden: `08 - Teoría APX.docx` (34 preguntas, el `.docx` más corto
-     de esta carpeta), `05 - Diagnóstico APX.docx`, `07 - Diagnóstico APX 5.docx` y
-     `06 - Diagnóstico APX 3.docx`.
-   - **Al terminar los cuatro**, revisa en `Exámen Diagnóstico APX 3 (1).pdf`. Ahí están
-     casi todas las de `06` y cerca de la mitad de las de `07`.
-   - Las que no estén en ese PDF no tienen respuesta en ningún archivo. Compruébalas con la
-     documentación de `apx/` o pregúntale al instructor.
-   - **No uses `Examen Diagnóstico APX 4.pdf` para revisar respuestas.** Sus marcas son el
-     intento de alguien, y varias están mal (ver §3). Si lo usas para practicar, tapa las
-     marcas; de todos modos, la mayoría de sus preguntas ya están en `07`.
-   - Los exámenes mixtos de `java/` también traen preguntas de APX. Para encontrarlas,
-     usa [`INDICE-PREGUNTAS.md`](INDICE-PREGUNTAS.md), **menos `Java.pdf`**, que ya viene
-     resuelto y se deja para el repaso final de §2.
+En Moodle, la sección **«Ruta de estudio APX»** tiene este mismo recorrido, con una
+autoevaluación en las etapas 1 a 10: al fallar una pregunta te dice la respuesta y dónde estudiarla.
+Aquí está el mismo orden con los archivos de esta carpeta.
+
+Tres documentos los usan varias etapas; cada una te dice qué páginas o diapositivas leer:
+- `apx/teoria/Curse_APX_Online.pptx` (57 diapositivas, en español). En la lista, «Curso, diap. N»
+  significa esta presentación.
+- `apx/teoria/APX_Online.pptx` (20 diapositivas, casi toda en inglés). En la lista, «APX_Online,
+  diap. N».
+- `apx/general/AcademicosAPX.pdf` (97 páginas).
+
+1. **Qué es APX y cómo ejecuta una petición:** Curso, diap. 2; `apx/online/APX Online
+   Capabilities.pdf` (6 páginas, en inglés), y APX_Online, diap. 2 (el nombre en inglés).
+   Si el inglés te cuesta, Curso, diap. 18–20 y 30–32, traen en español el texto de las
+   págs. 2–5 de Capabilities; mira de todos modos en el PDF la pág. 1 (las 8 capacidades de
+   APX), los diagramas de las págs. 2–3 y la pág. 6 (servicios bancarios).
+2. **Componentes de APX Online** (transacción, librería, DTO y utilidades): Curso, diap. 3–9,
+   y AcademicosAPX, págs. 2–3 (qué componentes van en online y en batch).
+3. **Herramientas: entorno, APX CLI y consola:** Curso, diap. 33–35; AcademicosAPX, pág. 48
+   (qué es APX CLI), y APX_Online, diap. 12–20 (Operation Console y credenciales).
+4. **DTO:** `apx/online/APX Online - Creación DTO.pdf`, Curso, diap. 26 y 55–56, y
+   APX_Online, diap. 7 (diagrama del DTO entre transacción y librería). Va antes que la
+   transacción y la librería porque las dos lo usan como dependencia.
+5. **Transacción:** `apx/online/APX Online - Creación de Transacciones.pdf` y Curso,
+   diap. 10–17, 29 y 39–41.
+6. **Librería:** `apx/online/APX Online - Trabajar con el componente Librería.pdf`,
+   `APX Online - Librerías simples.pdf`, `APX Online - Librerías MongoDB.pdf` y, al final,
+   `APX Online - Extraer un DTO.pdf`, que supone que ya conoces la librería. Además,
+   Curso, diap. 27, 28 y 38.
+7. **Acceso a datos y excepciones:** Curso, diap. 21–25.
+8. **Logs, errores y estilo de código:** Curso, diap. 36–37 y 49.
+9. **Patrones y antipatrones:** Curso, diap. 42–48 y 50–54, y APX_Online, diap. 8–11 (Blob y
+   Contenedor mágico con diagramas y cómo refactorizarlos). Para repasar todo APX Online:
+   mapas mentales `apx/mapas-mentales/APX ONLINE PT1` a `PT3`.
+10. **APX Batch**, en `apx/batch/` y en este orden: `APX Batch - Documentación.pdf`,
+    `APX Batch - Conceptos por Lotes.pdf`, `APX Batch - Componentes del lote APX.pdf` y
+    `Creación JOB en APX BATCH.pdf`. Después, `apx/teoria/APX_BATCH.pptx.pdf` desde la
+    pág. 3. Para repasar: mapas mentales `APX BATCH PT1` y `PT2`.
+11. **Del código a producción:** AcademicosAPX, págs. 1, 4–47 y 49–97 (las demás ya las viste
+    en las etapas 2 y 3): ramas, pull requests, pipeline, despliegue y rollback. Léelo como contexto: los exámenes casi no lo preguntan.
+
+**Versiones repetidas (no hace falta leerlas):**
+- `apx/general/APX Qué es.pdf` es idéntico a Curso, diap. 2.
+- `2 - APX Online Components.pdf` es lo mismo que Curso, diap. 3–9, en inglés.
+- `Ejemplo de Creación de Transacción.pdf`, `Ejemplo de DTO.pdf` y `Creación de librería.pdf`
+  son extractos en inglés de las guías de las etapas 4 a 6.
+- `Introducción APX Batch.pdf`, `Conceptos APX Batch.pdf` y `Componentes APX BATCH.pdf`
+  repiten los tres primeros de la etapa 10, en inglés o en otro formato.
+- De `APX_Online.pptx`, las diapositivas 3 a 6 repiten la presentación del curso.
+
+Las guías en español de `apx/online/` y `apx/batch/` son traducción automática: «Fragmento» es
+Chunk, «Lector de artículos» es ItemReader, «Caparazón» es Shell, «servicios de descanso» son
+servicios REST… En Moodle, la descripción de cada documento trae las equivalencias. Para los tres documentos
+de Batch y los comandos `apx init`, la versión en inglés trae el término original.
+
+**Practicar.** Las 223 preguntas distintas de APX que hay en los exámenes de práctica están
+en las autoevaluaciones de la «Ruta de estudio APX» o en su página «Preguntas para resolver
+con el instructor». Si además quieres practicar con los exámenes originales de
+`apx/examenes/` (ver el catálogo, §3):
+- Practica en este orden: `08 - Teoría APX.docx` (34 preguntas, el `.docx` más corto de esta
+  carpeta), `05 - Diagnóstico APX.docx`, `07 - Diagnóstico APX 5.docx` y
+  `06 - Diagnóstico APX 3.docx`.
+- **Al terminar los cuatro**, revisa en `Exámen Diagnóstico APX 3 (1).pdf`. Ahí están casi
+  todas las de `06` y cerca de la mitad de las de `07`.
+- Las que no estén en ese PDF no tienen clave ahí. Unas pocas de `08` las resuelve
+  `java/Java.pdf` (el repaso final de §2); el resto no tiene clave en ningún archivo. La Ruta
+  de Moodle las responde con la documentación o las deja en «Preguntas para resolver con el
+  instructor».
+- **No uses `Examen Diagnóstico APX 4.pdf` para revisar respuestas.** Sus marcas son el
+  intento de alguien, y varias están mal (ver §3). Si lo usas para practicar, tapa las
+  marcas; de todos modos, la mayoría de sus preguntas ya están en `07`.
+- Los exámenes mixtos de `java/` también traen preguntas de APX. Para encontrarlas, usa
+  [`INDICE-PREGUNTAS.md`](INDICE-PREGUNTAS.md), **menos `Java.pdf`**, que ya viene resuelto y
+  se deja para el repaso final de §2.
 
 **Videos:** son 11 grabaciones de la «Capacitación APX Grupo 1», del 14-jun al 2-jul-2021.
 No se descargaron porque pesan 1.9 GB. Están en esta carpeta de Google Drive, y puede que
@@ -94,6 +125,9 @@ sabrás las respuestas de las simulaciones.
      `03 - Cuestionario APX V3.docx` y `04 - Simulación APX V4.docx`;
    - los quizzes: `01 - Quiz APX.docx`, `02 - Quiz Desarrollo APX 1.docx` y
      `03 - Quiz Desarrollo APX 2.docx`.
+
+   Las preguntas de APX de estas simulaciones y quizzes ya las viste resueltas en la Ruta
+   de estudio APX (§1); aquí cuenta sobre todo el Java.
 2. **Revisa** tus respuestas en los PDF resueltos:
    - `04 - Java Sesiones` en `Exámen Diagnóstico Java.pdf`, que es el mismo examen;
    - las simulaciones en `Java.pdf`.
@@ -105,7 +139,8 @@ sabrás las respuestas de las simulaciones.
 3. **Repaso final:** `java/Java.pdf`. Tiene 213 preguntas **resueltas**, casi siempre con
    la justificación. Aunque se llama «Java», su encabezado dice «Rep Examen APX»: es el
    repaso del examen. Trae 134 preguntas de Java, 38 de APX y 41 de herramientas. Ahora
-   estudia las preguntas que no habías visto en las simulaciones.
+   estudia las preguntas que no habías visto en las simulaciones. Sus 38 de APX ya están
+   en la Ruta de estudio APX (§1): en sus autoevaluaciones o en su página del instructor.
 
 ## 3. Catálogo de exámenes (19)
 

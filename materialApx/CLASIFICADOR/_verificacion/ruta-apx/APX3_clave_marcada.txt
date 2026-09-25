@@ -1,0 +1,788 @@
+=== página 1
+    Examen APX Certificación
+    1.¿Cuál definición de APX es incorrecta?
+[✔] ● Extended Platform Architecture
+    ● Extended Programming Architecture
+    ● Backend Extended Platform
+    ● Extended Java Backend Architecture
+    2.
+    ¿Qué es APX Online?
+    ● Basada en Java, diseñada y construida por BBVA con ámbito local para ser utilizada
+    en el Banco
+    ● Esta plataforma contiene capacidades Front y está dirigida a aplicaciones que
+    necesiten crear lógica de negocio sin acoplamiento con la presentación. Es un
+    Sistema de alto rendimiento, con fácil escalabilidad y disponibilidad garantizada
+    ● Ejecución en entornos normales tipo R2 es la misma que la arquitectura diseñada y
+    planteada para entornos Cloud. Las versiones que se generan son no duales por lo
+    que cambia el empaquetado de la Arquitectura y la estrategia de aprovisionamiento
+    de componentes aplicativos.
+[✔] ● Habilita los servicios bancarios transaccionales fuera del entorno de mainframe, pero
+[✔] brinda las mismas capacidades en el mundo distribuido, reduce los costos generales
+[✔] del sistema, se basa en tecnologías de código abierto, permite a los desarrolladores
+[✔] aprovechar todos los servicios extendidos provistos en la plataforma para construir
+[✔] servicios lo más rápido posible
+    3.
+    La Plataforma Extendida BackEnd Java APX nació con el requerimiento que pudiera
+    funcionar en colaboración con el MainFrame o stand-alone (independientemente).
+    Igualmente se pueden hacer uso de sus capacidades de Arquitectura Bancaría o no
+    utilizarlas cuando las aplicaciones se salgan de este modelo
+[✔] ● Verdadero
+    ● Falso
+    4.
+    Dentro de los casos de uso de la Arquitectura de APX y con el fin de estandarizar las
+    aplicaciones del banco se plantearon dos paradigmas compatibles con BBVA:
+    1. Backend Banca Tradicional
+    2. Servicios Distribuidos Backend
+[✔] ● Verdadero
+    ● Falso
+    5.
+    Las utilidades APX implementadas tanto para la arquitectura Online como para la
+    arquitectura Batch son:
+    ● Communication Manager: Se crea una librería con la capacidad de invocar a G.U.C
+    para el envío de notificaciones. Interbackend proxy: Se crea una librería con la
+    capacidad de invocar a los conectores IMS (para acceso a Host).
+[✔] ● Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y
+[✔] descomprimir archivos en zip. Generador de documentos: Se crea una librería con la
+[✔] capacidad de generar documentos.
+    6.
+=== página 2
+    Las utilidades APX implementadas únicamente para la arquitectura Online son:
+[✔] ● Communication Manager: Se crea una librería con la capacidad de invocar a G.U.C
+[✔] para el envío de notificaciones. Interbackend proxy: Se crea una librería con la
+[✔] capacidad de invocar a los conectores IMS (para acceso a Host).
+    ● Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y
+    descomprimir archivos en zip. Generador de documentos: Se crea una librería con la
+    capacidad de generar documentos
+    7.
+    La descripción de la Capa de Control es: Componente recibe la información necesaria para
+    hacer el distpach de la ejecución de transacciones. Se crea a la vez que la sesión de
+    contexto transaccional, para permitir que la arquitectura pueda ejecutar la lógica de
+    Negocio. Proporciona el ámbito transaccional por lo que es capaz de confirmar (commit) o
+    deshacer (rooll-back) ejecuciones. Este componente es el que gestiona la definición de
+    transacción de acuerdo con la petición y ejecuta las pre y post acciones relacionadas con la
+    lógica de negocio.
+[✔] ● Verdadero
+    ● Falso
+    8.
+    Estos módulos encapsulan toda la funcionalidad relacionada con las operaciones bancarias
+    como el diario o registro de operaciones. Hay dos puntos claves en relación con estos
+    servicios:
+    1. No deben afectar al rendimiento ejecución de la lógica de negocio por lo que el diario y el
+    registro de las operaciones han de usar colas internas para desacoplar su propia ejecución
+    de la ejecución de la lógica de negocio
+    2. Estos módulos son responsables de datos que pueden ser almacenados en el diario del
+    MainFrame o en el propio de la arquitectura. Por lo tanto, el servicio de diario tiene que ser
+    capaz de almacenar los datos del diario en ambos sitios.
+[✔] ● Verdadero
+    ● Falso
+    9.
+    De la lista siguiente marca 2 funcionalidades de servicios persistencia incluidas en APX
+    ● SFTP
+    ● PS9
+[✔] ● JDBC
+    ● JMS/RABBIT
+[✔] ● Two-Phase Commit
+    ● JNDI
+    10.
+    De la lista siguiente marca 2 funcionalidades de servicios conectores incluidos en APX
+[✔] ● Gestor de Eventos
+[✔] ● HTTP/HTTPs
+    ● JDBC
+    ● JMS/RABBIT
+    ● Two-Phase Commit
+    ● JNDI
+    11.
+=== página 3
+    De la lista siguiente marca 2 funcionalidades de servicios Core incluidos en APX
+    ● Soporte transaccional
+    ● Ejecución de reglas de negocio
+    ● Casos restringidos
+[✔] ● Thread Affinity
+[✔] ● Soporte Transaccional JTA/XA
+    ● Autorización y Perfilado
+    12.
+    En primer lugar, APX recibe la solicitud en uno de los protocolos físicos que admite (HTTP,
+    JMS, REST,). Luego, crea un identificador único para la
+    ________ y valide si los
+    encabezados de solicitud están bien formateados de acuerdo con el protocolo lógico
+    definido por Arquitectura
+    ● Pila de ejecución
+    ● Solicitud
+[✔] ● Transacción
+    ● Ejecución
+    13.
+    ¿Cuáles son los campos que definen a una transacción en APX?
+    (1 Punto)
+    ● Aplicación, versión, país, paquete descripción
+    ● Aplicación, dominio, país, paquete descripción
+[✔] ● Aplicación, transacción, versión, país, descripción
+    ● Aplicación, transacción, dominio, versión, país, descripción
+    14.
+    Son dos de los protocolos físicos que APX admite en una solicitud.
+[✔] ● JMS y REST
+    ● MQ y TCP
+    ● QP05 y MQ
+    ● AQPG y PS9
+    15.
+    ¿Cuáles son los protocolos físicos disponibles en APX Online? Selecciona 2
+[✔] ● HTTP/ SOAP
+[✔] ● HTTP/ REST / RESTFul (A través de Servicios Backend)
+    ● AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)
+    ● PS9
+    16.
+    ¿Cuáles son los protocolos lógicos disponibles en APX? Selecciona 2
+    ● HTTP/ SOAP
+[✔] ● PS9
+    ● HTTP/ REST / RESTFul (A través de Servicios Backend)
+[✔] ● AQPG (Formato Arquitectura Plataforma QP05: síncrono o asíncrono)
+    17.
+    La invocación síncrona no está permitida. En caso de que una transacción deba invocar a
+    otra, solo se puede hacer de forma asíncrona
+    ● Falso
+[✔] ● Verdadero
+    18.
+=== página 4
+    Selecciona al menos dos restricciones que se tienen en APX en la invocación entre
+    transacciones
+[✔] ● No se permite la invocación síncrona entre transacciones.
+    ● No se permite la invocación asíncrona entre transacciones
+    ● La invocación asíncrona entre transacciones es en casos de transacciones criticas
+[✔] ● La invocación asíncrona entre transacciones es casos de transacciones NO criticas
+[✔] ● Desde una transacción asíncrona no se puede invocar nuevamente a otra
+[✔] transacción asíncrona.
+    ● Desde una transacción asíncrona se puede invocar nuevamente a otra transacción
+    asíncrona.
+    19.
+    Un
+    ________ proporciona una solución a un problema de diseño. Debe cumplir con
+    diferentes características, como la efectividad al resolver problemas similares en ocasiones
+    anteriores. Por lo tanto, debe ser reutilizable, es decir, aplicable a diferentes problemas en
+    diferentes circunstancias
+    ● Metodología
+[✔] ● Patrón de Diseño
+    ● Anti patrón
+    ● Reutilización de código
+    20.
+    Un anti patrón es un diseño que conduce a una mala solución de un problema. Como lo son
+    el Blob y el contenedor mágico en librerías.
+[✔] ● Verdadero
+    ● Falso
+    21.
+    Se utilizará este patrón siempre que se requiera dividir un conjunto de datos en varios
+    subconjuntos y adicionalmente se necesite acceder a ellas de forma aislada.
+    El uso de este patrón es conveniente siempre para mejorar la eficiencia de consultas a
+    orígenes de datos variados, obteniendo únicamente lo que se necesita.
+    ● Blob
+    ● Contenedor mágico
+[✔] ● Paginación de Librerías
+    ● CRUD
+    22.
+    Este tipo de paginación es el que establece Arquitectura y Calidad como el
+    más eficiente,
+    tanto en consumo de recursos como en el tiempo de proceso para la consecución de la
+    información, lo que redunda en un menor tiempo de espera por parte del usuario final.
+[✔] ● Paginación en Librería
+    ● Paginación en Transacción
+    ● Paginación en Batch
+    ● Paginación en DTO
+    23.
+=== página 5
+    Este patrón suele representarse como una única librería que contiene la mayoría de la
+    funcionalidad y que otras librerías utilizan incorrectamente de apoyo. La clave del problema
+    es que puede contener un porcentaje muy elevado de responsabilidades dentro de la
+    solución a diseñar.
+    ● Contenedor Mágico
+[✔] ● Blob
+    ● Lava Flow
+    ● CRUD
+    24.
+    ¿Cómo solucionamos un Blob?
+    ● Mover la funcionalidad a la transacción reduciendo la carga en la librería.
+[✔] ● Mover el comportamiento a sus librerías relacionadas, reduciendo el acoplamiento
+[✔] entre librerías y simplificando los mantenimientos.
+    ● Moviendo la lógica a diferentes métodos y clases dentro de la misma librería.
+    ● Mover el comportamiento a DTOs relacionados, reduciendo el acoplamiento entre
+    los componentes y simplificando los mantenimientos.
+    25.
+    ¿Cuáles son ejemplos de Patrones de diseño para APX?
+    ● Paginación en transacciones, paginación en librerías, paginación en componentes
+    APX
+[✔] ● Paginación en librerías, CRUD en librerías, DTOs en componentes APX
+    ● Paginación en transacciones, CRUD en librerías, CRUD en componentes APX,
+    DTOs en componentes APX
+    ● Paginación en componentes APX. CRUD en librerías, DTOs en componentes APX
+    26.
+    APX?
+    ¿Qué patrones de la siguiente lista son obligatorios del Data Transfer Object (DTO) en
+    ● Se necesite una agrupación de datos simples en una clase con cierta funcionalidad
+    asociada.
+    ● Se requiera intercambiar información entre diferentes componentes en APX de
+    forma coherente, organizada y agrupada.
+    ● Implementar un Servicio Backend
+[✔] ● Todas las anteriores
+    ● Ninguna de las anteriores
+    27.
+    Selecciona dos aplicaciones que justifican el uso del patrón Data Transfer Object (DTO) es
+    obligatorio cuando
+    ● Se necesitan mapear demasiadas variables
+[✔] ● Se necesita una agrupación simple de datos basada en una funcionalidad asociada
+[✔] ● Desea intercambiar información entre diferentes componentes en APX de manera
+[✔] coherente, organizada y agrupada
+    ● Se hace conexión a Bases de datos relacionales
+    28.¿Cuál es la restricción al generar una jerarquía de clases DTO?
+    ● Que las librerías solo tengan parámetros de entrada
+[✔] ● Que las clases no tengan dependencias circulares entre ellas.
+    ● Que las agrupaciones no dependan entre ellas mismas
+    ● Que los patrones sean simples
+    29.
+=== página 6
+    Los patrones de diseño sirven de apoyo para la búsqueda de soluciones a problemas
+    comunes a la hora del desarrollo de software. De la siguiente lista, ¿cuál de los siguientes
+    es un patrón de diseño?
+    ● Paginación en transacciones
+    ● Paginación en librerías
+    ● CRUD en librerías
+    ● DTOs en componentes APX
+    ● A, B y C
+[✔] ● Todas las anteriores
+    ● Ninguna de las anteriores
+    30.
+    ¿Qué son los Patrones de diseño en APX?
+[✔] ● Diseño que sirve de apoyo para la búsqueda de soluciones a problemas comunes a
+[✔] la hora del desarrollo de software.
+    ● Patrón de diseño que invariablemente conduce a una mala solución para un
+    problema.
+    ● Diseño de software que tiene como objetivo el desarrollo único de código, es decir,
+    debe ser aplicable únicamente a una solución específica.
+    31.
+    ¿Cuál es el objetivo de trabajar con Patrones?
+    ● Los patrones de diseño sirven de apoyo para la búsqueda de soluciones a
+    problemas comunes a la hora del desarrollo de software.
+[✔] ● Brindar una solución a un problema de diseño. Para que una solución se pueda
+[✔] considerar un patrón debe cumplir con diferentes características, como la efectividad
+[✔] a la hora de resolver problemas similares en ocasiones anteriores. Por ende, debe
+[✔] ser reutilizable, es decir, aplicable a diferentes problemas en distintas circunstancias.
+    ● Estos componentes contienen información necesaria para la ejecución de la
+    Transacción en APX y cualquier modificación al respecto podría alterar su
+    comportamiento
+    ● a y b
+    ● a y c
+    32.
+    Este patrón suele representarse en una librería que contiene un solo método “execute” con
+    parámetros que actúan como filtros y que engloba diversas funcionalidades dispares en
+    función de sus parámetros de entrada
+[✔] ● Contenedor Mágico
+    ● CRUD
+    ● Paginación
+    ● Blob
+    33.
+    ¿Qué causas no corresponden al patrón Contenedor Mágico?
+    ● Reparto de responsabilidades incorrecto
+    ● Falta de cumplimiento de la arquitectura
+    ● Intervención demasiado limitada
+[✔] ● Desacoplamiento entre librerías
+    34.
+=== página 7
+    La aplicación de este anti patrón de diseño en los desarrollos, causará la búsqueda y
+    análisis de una mejor solución a un problema por medio de reingeniería
+    ● Paginación en transacciones
+[✔] ● Contenedor mágico
+    ● Paginación Mágica
+    ● Generador de Logs
+    35.
+    ¿Cuáles de las siguientes oraciones forman parte de las mejores prácticas establecidas
+    para acceder a Datos?
+[✔] ● Una UUAA puede acceder a datos de terceros a través de librerías APX que el
+[✔] dueño del dato proporcione.
+    ● En el caso de procesos batch no deben existir cesiones de ficheros entre UUAAs.
+    ● En el caso de bases de datos relacionales, deberá utilizarse JPA.
+[✔] ● No se debe manejar el objeto Datasource directamente.
+[✔] ● No se deben instanciar, ni abrir, ni cerrar explícitamente conexiones a Base de datos
+[✔] ● Una UUAA solo puede acceder a los datos que ella misma custodia
+    36.
+    ¿Qué nivel de profundidad es permitido al realizar invocaciones de librería a librería?
+[✔] ● Profundidades a 3 niveles: Transacción > Librería > Librería > Librería
+    ● Profundidades a 5 niveles: Transacción > Librería > Librería > Librería> Librería >
+    Librería
+    ● Profundidades a 7 niveles: Transacción > Librería > Librería > Librería> Librería >
+    Librería> Librería > Librería
+    ● Profundidades a 9 niveles: Transacción > Librería > Librería > Librería> Librería >
+    Librería> Librería > Librería> Librería > Librería
+    37.
+    librerías a la vez
+    ● 7
+    ● 15
+    ● 5
+[✔] ● 9
+    ● 12
+    Se debe evitar en una transacción o biblioteca, dentro de su lógica, invocar más de
+    ____
+    38.
+    ¿Cuál es el número máximo de librerías a invocar desde una transacción o librería?
+    ● 7 librerías
+    ● 3 librerías
+[✔] ● 9 librerías
+    ● 12 librerías
+    39.
+    No puede incluir
+    _______
+    o etiquetas similares. Estas anotaciones no reciben errores ni
+    advertencias en el compilador en el momento de la compilación
+[✔] ● @SuppressWarnings
+    ● @BlockWarnings
+    ● @LeaveWarnings
+    ● @ForbbidenWarnings
+    40.
+=== página 8
+    La creación de hilos o su gestión por las aplicaciones está permitida
+    ● Verdadero
+[✔] ● Falso
+    41.
+    Está prohibido poner las siguientes anotaciones de primavera en las clases de
+    implementación de las bibliotecas APX: @Component, @Service, @Controller y
+    @Repository, porque estas anotaciones causan conflictos en la resolución de classpath del
+    paquete de la biblioteca y tienen el efecto de que la biblioteca no exponer su servicio OSGi
+    ● @Component, @Service, @Controller, & ,@Bean
+[✔] ● @Component, @Service @Controller & @Repository
+    ● @Component, @Override, @Controller & @Repository
+    ● @Component, @Override, @Controller & @Configuration
+    42.
+    Está prohibido usar la propiedad " resolution: = 'optional' " en la definición de los paquetes
+    en el paquete de importación, ya que puede causar errores en la implementación de la
+    biblioteca y provocar fallas en otras bibliotecas que dependen de ella.
+[✔] Verdadero
+    Falso
+    43.
+    Las únicas excepciones que las aplicaciones pueden capturar y administrar son las
+    siguientes, típicas de APX:
+[✔] ● com.bbva.apx.exception.business.BusinessException
+    ● com.bbva.apx.exception.business.NullPointerException
+    ● com.bbva.apx.exception.business.IOException
+[✔] ● com.bbva.apx.exception.io.network.TimeoutException
+    44.
+    ¿Que Excepcion no está permitida en APX?
+    ● com.bbva.apx.exception.business.BusinessException
+    ● com.bbva.apx.exception.io.network.TimeoutException
+[✔] ● com.bbva.apx.exception.db.NullPointerException
+    ● com.bbva.apx.exception.db.IncorrectResultSizeException
+    ● com.bbva.apx.exception.db.NoResultException
+    ● com.bbva.apx.exception.db.TimeoutException
+    45.
+    La gestión de errores debe seguir el modelo definido por la Arquitectura. En caso de querer
+    mandar un aviso desde una librería o transacción, sea del tipo que sea, se usará el
+    método
+    .
+    ____
+[✔] ● addAdvice
+    ● addError
+    ● addSeverity
+    ● addWarning
+    46.
+    Método para fijar la severidad de un error.
+[✔] ● setSeverity
+    ● setLevel
+    ● setAdvice
+    ● setError
+    47.
+=== página 9
+    Que niveles de Logs existen dentro de APX
+    ● INFO, WARNING & ERROR.
+    ● TRACE, DEBUG, INFO, WARNING & ERROR.
+    ● DEBUG, TRACE WARNING & ERROR
+[✔] ● DEBUG, INFO, WARNING & ERROR.
+    48.
+    ¿Los niveles más comunes son DEBUG, INFO, WARNING y ERROR?
+[✔] ● Verdadero
+    ● Falso
+    49.
+    Para información de muy bajo nivel, solo útil para depurar la aplicación tanto en el desarrollo
+    como en el análisis de incidentes ¿A qué tipo de nivel de Log se refiere?
+    ● Trace
+    ● Info
+[✔] ● Debug
+    ● Low-Level
+    50.
+    Este nivel de Log tiene las siguientes características:
+    ● Paradas e inicios de servicios y sistemas.
+    ● Parámetros críticos o relevantes de configuración.
+    ● Inicio y fin de transacciones y operaciones completas.
+    ● Cambios del estado de las operaciones
+    1. Warning
+    2. Error
+[✔] 3. Info
+    4. Trace
+    51.
+    DEBUG, sirve para información de muy bajo nivel solo útil para el debug de la aplicación,
+    tanto en el desarrollo como en el análisis de incidencias
+    ● Paradas y arranques de servicios y sistemas
+    ● Parámetros críticos o relevantes de configuración
+    ● Comienzo y fin de transacciones y operaciones completas
+    ● Cambios de estado de operaciones
+    Verdadero
+[✔] Falso
+    52.
+    WARN, son situaciones que impiden la ejecución correcta de una operación o transacción,
+    pero sin afectar a otras operaciones o transacciones (error aislado o contenido)
+[✔] ● Verdadero
+    ● Falso
+    53.
+    ERROR, información de situaciones, que aún sin ser de error, si son anómalas o no
+    previstas, aunque el aplicativo tiene alternativas para solventarlas
+    ● Verdadero
+[✔] ● Falso
+    54.
+=== página 10
+    INFO, información de nivel superior que permita hacer un seguimiento de la ejecución
+    normal
+[✔] ● Verdadero
+    ● Falso
+    55.
+    La arquitectura APX maneja mensajes de errores
+    ● Falso
+[✔] ● Verdadero
+    de tipo fijos y variables
+    56.
+    Los partes de un campo variable definidos por la cadena
+    $NMM$ son
+    _
+    ● (N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo
+    informado en la variable (20 es el máximo)
+    ● (N es el orden de la variable literal (1 a 4), MM la longitud máxima del campo
+    informado en la variable (15 es el máximo)
+[✔] ● (N es el orden de la variable literal (1 o 2), MM la longitud máxima del campo
+[✔] informado en la variable (15 es el máximo)
+    ● (N es el orden de la variable literal (1 a 4), MM la longitud máxima del campo
+    informado en la variable (15 es el máximo)
+    57.
+    ¿Qué características ofrece la Arquitectura Batch?
+[✔] ● Soporte Multi-BBDD, usando fuentes de datos configurables
+[✔] ● Acceso a conectores y utilidades APX: acceso DB MongoDB, Elasticsearch, Neo4J,
+[✔] motor de reglas, creador de documentos, etc.
+    ● Ejecución de múltiples transacciones
+    ● Invocación a Servicios Web
+    58.
+    La arquitectura batch publica un conector WebService que no admite solicitudes para la
+    ejecución de procesos batch ejecutadas a través del portal de desarrollo. Las aplicaciones
+    que requieran la ejecución de procesos batch bajo demanda, también solicitan la ejecución
+    a través de esta interfaz WebService. Este último escenario únicamente se está
+    produciendo en entornos BBVA CIB.
+    ● Verdadero
+[✔] ● Falso
+    59.
+    ¿Quién es el responsable de iniciar un Job?
+    ● JobExecution
+    ● JobInstance
+[✔] ● JobLauncher
+    ● JobBegginer
+    60.
+    ¿Cuáles son los dos tipos de step que existen en Batch APX
+    ● Creator, Processor
+    ● Processor,Task
+    ● Chunk, Reader
+[✔] ● Chunk,Task
+    61.
+=== página 11
+    Las 3 principales partes de un task
+    ● Chunk, processing, output
+[✔] ● Input, processing, output
+    ● Input, load, processing, Output
+    ● Input, Load, Output
+    62.
+    En batch , cada step tiene
+    ● itemInput, itemProcessor y itemWriter
+[✔] ● itemReader, itemProcessor y itemWriter
+    ● itemReader, itemProcessor y item Output
+    63.
+    ¿Cuál es la ubicación de archivos temporales utilizados en Batch?
+    ● /fichtemporal/datent
+[✔] ● /fichtemcomp/datent
+    ● /temporalFiles/datent
+    ● /datentJobs/datent
+    64.
+    ¿Qué característica NO pertenece al BATCH?
+    ● Procesamiento generalmente grande volúmenes de información
+[✔] ● Interacción con usuario (directo)
+    ● Procesamiento normal en una ventana de lote fuera de línea
+    ● Requisitos no funcionales complejos
+    65.
+    Batch
+    Describe las Clases que implementan la lógica de cada uno de los steps en un
+    proceso
+    ● OPC, Processors, Readers
+[✔] ● Readers, Writers, Processors
+    ● Processors, UID, OPC
+    66.
+    Batch:
+    De la lista siguiente, indique cuales son las invocaciones restringidas en la Arquitectura
+[✔] ● Invocación WebServices, servicios REST
+[✔] ● Acceso a recursos externos vía HTTP
+[✔] ● Uso de Pre y Post Acciones
+    ● Escritura en Registro de Operaciones
+    ● Escritura en el Diario Electrónico.
+    ● a, b y c
+    ● a, c y d
+    ● Todas las anteriores
+    67.¿Cuál es el prefijo que debe utilizarse en la nomenclatura de los métodos que exponen
+    las librerías para ser consumidos?
+[✔] ● execute[Nombre
+[✔] _
+[✔] elegido
+[✔] _por
+[✔] _
+[✔] app] donde [Nombre
+[✔] _
+[✔] elegido
+[✔] _por
+[✔] _
+[✔] app] es opcional
+    ● dependency[[Nombre
+    _
+    elegido
+    _por
+    _
+    app] donde [Nombre
+    _
+    elegido
+    _por
+    _
+    app] es
+    opcional
+    ● execute[Nombre
+    _
+    elegido
+    _por
+    _
+    app] donde [Nombre
+    _
+    elegido
+    _por
+    _
+    app] es obligatorio
+    ● dependency[[Nombre
+    _
+    elegido
+    _por
+    _
+    app] donde [Nombre
+    _
+    elegido
+    _por
+    _
+    app] es
+    obligatorio
+=== página 12
+    68.
+    Estos tipos de librerías se pueden combinar entre sí para tener una librería con diferentes
+    capacidades o no elegir ninguno de las opciones anteriores.
+[✔] ● Online y Batch
+    ● Shell y JDBC
+    69.
+    Encapsula la lógica empresarial y el acceso a los datos. Publica su interfaz para que pueda
+    ser utilizada por terceros.
+    ● DTO
+    ● Transacción APX
+    ● Unidad funcional
+[✔] ● Librería APX
+    ● Capa de Acceso a Datos
+    70.
+    estándar
+    tipo XA.
+    ● JT3
+    ● JTX
+    ● JPA
+[✔] ● JTA
+    Para garantizar el comportamiento transaccional de APX, la arquitectura se basa en el
+    ____, por lo que los recursos administrados dentro de la transacción deben ser del
+    71.
+    El objeto
+    _______
+    no debe manejarse directamente. No debe crear instancias, abrir o cerrar
+    explícitamente conexiones a la base de datos.
+    ● Database
+    ● Conection
+[✔] ● Datasource
+    ● JDBC
+    72.
+    En las consultas a BBDD debe usar variables
+    base de datos.
+    ● Miembro
+[✔] ● Bind
+    ● Locales
+    ● Dynamic
+    _______ para no afectar el rendimiento de la
+    73.
+    Indica a JUnit que la propiedad que usa esta anotación es una simulación y, por lo tanto, se
+    inicializa como tal y es susceptible de ser inyectada por @InjectMocks.
+    ● Mockito
+[✔] ● Mock
+    ● Inject
+    ● InjectMock
+    74.https://www.occ.com.mx/empleo/oferta/13765964-it-specialist-ab-initio?ai=false&origin=u
+    nknown&page=1&rank=8&returnURL=%2Fempleos%2Fde-banamex%2Fbolsa-de-trabajo-b
+=== página 13
+    bva-bancomer%2F%238&sessionid=2b2d2fb6-e0d9-4481-941b-bec0358db20f&showseo=tr
+    ue&type=0&userid=&utm
+    _
+    channel=serp&utm
+    _
+    origin=web&uuid=b7052e6a-dcb6-4627-8ea4-
+    824deef63b65&widgetCompany=true
+    ¿Cuál de las siguientes opciones son las consideraciones para tener en cuenta en la
+    instalación en Entorno de Ejecución Local?
+    ● Descomprimir la carpeta arquitectura en la ruta raíz /, es probable que se requieran
+    permisos de administrador (sudo).
+    ● Dar permisos de ejecución a la carpeta y archivos del ENTORNO
+    LOCAL
+    APX:
+    _
+    _
+    sudo chmod -R 777 /ENTORNO
+    LOCAL
+    APX
+    _
+    _
+[✔] ● La instalación debe realizarse sobre un ordenador de sobremesa del BBVA con
+[✔] sistema operativo Windows o Linux.
+[✔] ● Las rutas y urls proporcionadas serán exclusivamente para un entorno local.
+    75.
+    necesaria
+    ● Chunk
+    ● JobLauncher
+    ● ItemWriter
+[✔] ● Task
+    En un Batch cual es el step donde el desarrollador introducira la logica empresarial
+    76.
+    Todo Acceso a los datos debe estar encapsulado en una biblioteca para facilitar la
+    reutilización y el control de acceso.
+    ● Falso
+[✔] ● Verdadero
+    77.
+    ______
+    fue creada para brindar una herramienta a los desarrolladores y administradores del
+    entorno para gestionar las operaciones en la plataforma
+    ● Atenea
+    ● Monitor APX
+[✔] ● Consola de Operaciones APX
+    ● Kibana
+    78.
+    Una de las acciones que realiza la Arquitectura APX previo a la ejecución de la lógica de
+    negocio es:
+    ● Validar errores
+    ● Escribir ROP
+[✔] ● Escribe Log de ejecucion
+    ● Se envía un evento con datos comerciales.
+    79.
+    Para mandar un aviso desde una librería o transacción, cualquiera que sea el tipo, el
+    método utilizado es
+    .
+    ____
+[✔] ● addAdvice
+    ● addError
+    ● addSeverity
+    ● addWarning
+=== página 14
+    80.
+    tratamiento.
+[✔] Verdadero
+    Falso
+    81.
+    Es una mala practica capturar excepciones genericas y esta totalmente prohibido su
+    ¿Quien gestiona la ejecución del Commit o Rollback para garantizar la transaccionalidad?
+    ● Las Base de Datos
+    ● La Logica Aplicativa
+[✔] ● La Arquitectura APX
+    ● La Arquitectura OSGI
+    82.
+    La comunicación de APX a otros servicios NO APX se realiza UNICAMENTE a traves de la
+    utilidad APX
+    _____
+    ● Certificados
+[✔] ● Conector API genérico (APICOnnector)
+    ● Conectores
+    ● JDBC
+    83.
+    La descripción de una transacción debe tener un significado técnico.
+    ● Verdadero
+[✔] ● Falso
+    84.
+    Es una contradiccion al usar el patron CRUD
+    ● Mantener todas las operaciones sobre la entidad encapsuladas en la librería.
+[✔] ● Tener varias librerias parciales para una unica entidad
+    ● Centralizar en una librería de todas las operaciones básicas sobre una entidad
+    ● Tener una implementación ligera, evitando extender la logica mas alla del objetivo de
+    la operación
+    85.
+    _______________, información de nivel superior que permita hacer un seguimiento de la
+    ejecución normal
+    ● WARNING
+[✔] ● INFO
+    ● ERROR
+    ● TRACE
+    86.
+    Una librería que no se despliega correctamente impide que los componentes que pueden
+    consumirla se instalen y activen correctamente. Cuanto mayor sea el numero de modulos
+    dependientes, mayor será la probabilidad de falla
+[✔] Verdadero
+    Falso
+=== página 15
+    87.
+    antes de.
+    Selecciona dos comunicaciones que deben ser validadas por el equipo de Arquitectura
+[✔] ● Comunicación de APX a servicios NO APX
+    ● Comunicacion con Elastic Search
+    ● Comunicacion con kibana
+[✔] ● Si la transaccion APX debe invocar a Mainframe mas de dos veces
+    88.
+    Verdadero
+[✔] Falso
+    89.
+    En cualquier caso se permite la creación de hilos o su gestión por parte de las aplicaciones.
+    Que características NO pertenecen al Batch?
+[✔] ● Interacción (directa) con el usuario
+    ● Generalmente procesa grandes volúmenes de información
+    ●
+    Requisitos complejos no funcionales
+    ● Trazabilidad de la información y ejecución
+    90.
+    Esta permitido que la aplicación modifique o informe una variable de entorno de la JVM.
+    (1 Punto)
+    Verdadero
+[✔] Falso
+    91.
+    En una transaccion cual es la estructura que contiene los paquetes que definen las clases
+    utilizadas para las pruebas unitarias de la transaccion.
+[✔] ● src\test\java
+    ● src\main\java
+    ● src\main\resources
+    ● src\test\resources
+    92.
+    En una libreria. ¿Cual es el archivo en donde se define la logica de negocio
+[✔] ● UUAAR000Impl
+    ● UUAAR001-app-osgi.xml y UUAAR001-app.xml
+    ● UUAAR001-arq-osgi.xml y UUAAR001-arc.xml
+    ● UUAAR000Abstract
+    93.
+    Tomada de forma aislada, una aplicación Batch es una aplicación independiente que se
+    ejecuta periódicamente para realizar una task/step (repitiendo n veces) y luego se cierra.
+    Esta única tarea suele tener 3 partes.
+    ● Chunk, processing, output
+[✔] ●
+[✔] ● Input, processing, output
+    ● Input, processing, Writer
+    ● Input, Load, Output
+=== página 16
+    94.
+    por
+    No está permitido generar
+    ______ para escribir de Logs. Tampoco se permite la escritura
+    ______, debe ser la arquitectura quien los escriba:
+[✔] ● Archivos propios / sysout
+    ● Archivos de control / system
+    ● Archivos propios / sysin
+    ● Archivos de lectura / sysout
+    95.
+    Los patrones de diseño apoyan la búsqueda de soluciones a problemas comunes en el
+    desarrollo de sofware. Los patrones de diseño adoptados al ecosistema APX son Blob in
+    libraries y Magic container in Librares
+    ● Verdadero
+[✔] ● Falso

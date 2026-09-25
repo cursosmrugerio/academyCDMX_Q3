@@ -1,0 +1,469 @@
+[
+ {
+  "grupo": "G001",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G002",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Cambio de tipo (V3-13 era «opción única»): es defendible, porque el enunciado dice «¿Cuál … son capacidades?» (plural) y la clave Java.pdf #165 marca b y c; la imagen de APX Online Capabilities.pdf, pág. 1, lo confirma (TRANSACTIONAL PROCESSING, BATCH PROCESSING, HOT DEPLOYMENT; comprobado en el PDF). Pero la retro no dice que hay dos respuestas correctas ni por qué «Todas» (a) es falsa.",
+    "propuesta": "Añadir a la retro: «Hay dos respuestas correctas (b y c); por eso «Todas las opciones son correctas» es falsa: d y e no son capacidades.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G003",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "Cambio de tipo (T08-31 era «opción única»): es defendible (pregunta «cuáles son verdaderas» y a y b lo son literalmente en APX Qué es.pdf, pág. 1; JPDF-159, con otro orden, da las mismas dos). La retro no aclara que son dos respuestas ni descarta c y e explícitamente.",
+    "propuesta": "Añadir a la retro: «Hay dos respuestas correctas (a y b). c describe otra cosa y «Ninguna» (e) es falsa.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G004",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro descarta b y c («no la sustituye»), pero no explica por qué d es incorrecta: su primera mitad es literal de la diap. 2 / Qué es pág. 1 y lo falso es «pero depende del Mainframe». Un alumno puede pensar que «Actúa como una extensión de la plataforma Mainframe» implica dependencia.",
+    "propuesta": "Añadir: «La d es falsa por ‹depende del Mainframe›: la clave APX3 #3 dice que APX puede funcionar en colaboración con el Mainframe o de forma independiente (stand-alone).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G005",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "Respaldo «contradictorio», pero no hay contradicción: la documentación solo da el nombre correcto (d) y la clave APX3 #1 marca a, que la documentación no contradice (a, b y c son todas nombres incorrectos). Es el mismo caso que R1 corrigió en G028/G047 (contradictorio → clave). Además, la nota dice «correctas = la opción que marca la clave», pero correctas está vacía.",
+    "propuesta": "respaldo: «clave» (sigue en instructor por las tres opciones defendibles); actualizar la primera frase de la nota."
+   }
+  ]
+ },
+ {
+  "grupo": "G006",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G007",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G008",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro afirma «No tiene capacidades Front», que ninguna fuente dice literalmente (solo «no acopladas al canal»). Remite solo a APX Qué es.pdf, pág. 1, pero lo de «reduce los costos» de la opción d sale del mapa APX ONLINE PT1 («disminuir los costos asociados»). No explica por qué a («ámbito local») es falsa.",
+    "propuesta": "Cambiar «No tiene capacidades Front» por «Es una arquitectura backend, no acoplada al canal (la presentación)». Añadir el mapa APX ONLINE PT1 como sitio de estudio de «reducir costos»."
+   }
+  ]
+ },
+ {
+  "grupo": "G009",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G010",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G011",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "respaldo «doc» con destino instructor. En R1, G088 y G132 se pasaron de «doc» a «contradictorio» exactamente por esa incoherencia; aquí no se aplicó igual. (La retro y la imagen de la pág. 1 sí están bien: comprobé las 8 capacidades en el PDF.)",
+    "propuesta": "respaldo: «contradictorio» (o el valor que se use para «doc parcial, ambigua»), igual que G088/G132."
+   }
+  ]
+ },
+ {
+  "grupo": "G012",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G013",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G014",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G015",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "respaldo «doc» con destino instructor (igual que G011): incoherente con el criterio que R1 aplicó a G088/G132. La retro es correcta (a = pág. 6; c = pág. 2 y diap. 18).",
+    "propuesta": "respaldo: «contradictorio»."
+   }
+  ]
+ },
+ {
+  "grupo": "G016",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G017",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G018",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G019",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G020",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G021",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G022",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G023",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G024",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G025",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G026",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G027",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G028",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "La nota sigue diciendo «Respaldo ‹contradictorio› porque… correctas = candidata de la clave», pero en v2 respaldo = «clave» y correctas está vacía. Es solo la nota interna; retro y destino están bien.",
+    "propuesta": "Reescribir la primera frase de nota_constructor para que refleje respaldo=clave y correctas vacía."
+   }
+  ]
+ },
+ {
+  "grupo": "G029",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G030",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G031",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G032",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respuesta",
+    "gravedad": "media",
+    "detalle": "Multi con a–e todas correctas, «Todas las opciones son correctas» incluida. Es lógicamente coherente, pero en Moodle (multi, 20 % por opción) el alumno que marca solo «Todas» (justo lo que da la clave Java.pdf #170) saca un 20 %, y el que marca a–d sin e saca un 80 %: se le califica mal a quien responde exactamente lo que dice la clave. R1 lo rechazó como «decisión de diseño», pero el efecto en la nota es real.",
+    "propuesta": "Pasar a tipo single con correcta e («Todas las opciones son correctas»), como la clave Java.pdf #170, y dejar en la retro que a–d son los cuatro tipos (AcademicosAPX.pdf, págs. 3 y 48). La alternativa es quitar la opción e y dejar la multi a–d."
+   }
+  ]
+ },
+ {
+  "grupo": "G033",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G034",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G035",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G036",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G037",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G038",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G039",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G040",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "grupo",
+    "gravedad": "baja",
+    "detalle": "La nota dice «b y d vienen de otras preguntas (conectores)», pero en el banco la b es «Ninguno»; las opciones copiadas de las preguntas de conectores son c (cics ps10) y d (invocar un batch). Solo es la nota interna; va a instructor.",
+    "propuesta": "Nota: «c y d vienen de otras preguntas (conectores)»."
+   }
+  ]
+ },
+ {
+  "grupo": "G041",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G042",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G043",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G044",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G045",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G046",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G047",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "La nota_constructor empieza con «correctas = candidata de la clave…», pero en v2 `correctas` está vacía (va a instructor). Es una nota interna (el alumno no la ve), pero confunde a quien revise.",
+    "propuesta": "Quitar «correctas = candidata de la clave» de la nota (ya está como «Candidata previa»)."
+   }
+  ]
+ },
+ {
+  "grupo": "G048",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "La nota_constructor empieza con «correctas = candidata de la clave…», pero en v2 `correctas` está vacía (va a instructor). Es una nota interna (el alumno no la ve), pero confunde a quien revise.",
+    "propuesta": "Quitar «correctas = candidata de la clave…» de la nota."
+   }
+  ]
+ },
+ {
+  "grupo": "G049",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G050",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G051",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "media",
+    "detalle": "b («Herramienta para administrar las dependencias de un proyecto APX») es una función real de APX CLI (apx add dep, APX Online - Trabajar con el componente Librería.pdf, págs. 3–4), y G050, del mismo paso, marca como correcta una definición de APX CLI que incluye «administrar dependencias». La retro no explica por qué b es incorrecta (solo lo dice la nota interna), así que el alumno puede concluir que la CLI no gestiona dependencias. La correcta d sí es inequívoca (clave Java.pdf #42).",
+    "propuesta": "Añadir a la retro: «La b describe solo una de sus funciones (apx add dep); la d es la definición completa.» Opcional: citar APX_Online.pptx, diap. 12, para la Operation Console (opción c)."
+   }
+  ]
+ },
+ {
+  "grupo": "G052",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G053",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G054",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "respaldo «doc» con destino instructor: la misma incoherencia que G011/G015 respecto al criterio de R1 (G088/G132). Retro comprobada: Docker en AcademicosAPX pág. 95 y .gitignore/git en la pág. 4.",
+    "propuesta": "respaldo: «contradictorio»."
+   }
+  ]
+ },
+ {
+  "grupo": "G055",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G056",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G057",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G058",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G059",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G060",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G061",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "retro",
+    "gravedad": "baja",
+    "detalle": "La retro no explica por qué la c («apx add dto …») es incorrecta. G058 (mismo paso, instructor) tiene «apx add dto» como candidata para agregar un DTO a una Deployment Unit, y AcademicosAPX pág. 48 dice que APX CLI permite «crear y añadir componentes… de tipo DTO a nuestros recursos». Así, c no es absurda. La respuesta b sí es inequívoca: es el comando literal de APX Online - Creación DTO.pdf, pág. 1.",
+    "propuesta": "Añadir: «‹apx add dto› no aparece en la documentación del curso; el comando documentado para crear un componente DTO es ‹apx init dto› (Creación DTO, pág. 1).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G062",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G063",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G064",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G065",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G066",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G067",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G182",
+  "veredicto": "corregir",
+  "hallazgos": [
+   {
+    "aspecto": "respaldo",
+    "gravedad": "baja",
+    "detalle": "La nota_constructor empieza con «correctas = candidata de la clave…», pero en v2 `correctas` está vacía (va a instructor). Es una nota interna (el alumno no la ve), pero confunde a quien revise. Por lo demás, está bien comprobado: el OCR de las diap. 14–16 muestra «Show Graph» solo en la vista de librerías.",
+    "propuesta": "Quitar «correctas = candidata de la clave (Falso)» de la nota o reformularlo como candidata."
+   }
+  ]
+ },
+ {
+  "grupo": "G183",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G184",
+  "veredicto": "ok",
+  "hallazgos": []
+ },
+ {
+  "grupo": "G185",
+  "veredicto": "ok",
+  "hallazgos": []
+ }
+]
