@@ -85,8 +85,8 @@ servicios REST… En Moodle, la descripción de cada documento trae las equivale
 de Batch y los comandos `apx init`, la versión en inglés trae el término original.
 
 **Practicar.** Las 223 preguntas distintas de APX que hay en los exámenes de práctica están
-en las autoevaluaciones de la «Ruta de estudio APX» o en su página «Preguntas para resolver
-con el instructor». Si además quieres practicar con los exámenes originales de
+en las autoevaluaciones de la «Ruta de estudio APX» o en su página «Preguntas sin respuesta
+confirmada». Si además quieres practicar con los exámenes originales de
 `apx/examenes/` (ver el catálogo, §3):
 - Practica en este orden: `08 - Teoría APX.docx` (34 preguntas, el `.docx` más corto de esta
   carpeta), `05 - Diagnóstico APX.docx`, `07 - Diagnóstico APX 5.docx` y
@@ -95,8 +95,8 @@ con el instructor». Si además quieres practicar con los exámenes originales d
   todas las de `06` y cerca de la mitad de las de `07`.
 - Las que no estén en ese PDF no tienen clave ahí. Unas pocas de `08` las resuelve
   `java/Java.pdf` (el repaso final de §2); el resto no tiene clave en ningún archivo. La Ruta
-  de Moodle las responde con la documentación o las deja en «Preguntas para resolver con el
-  instructor».
+  de Moodle las responde con la documentación o las deja en «Preguntas sin respuesta
+  confirmada».
 - **No uses `Examen Diagnóstico APX 4.pdf` para revisar respuestas.** Sus marcas son el
   intento de alguien, y varias están mal (ver §3). Si lo usas para practicar, tapa las
   marcas; de todos modos, la mayoría de sus preguntas ya están en `07`.
@@ -140,7 +140,7 @@ sabrás las respuestas de las simulaciones.
    la justificación. Aunque se llama «Java», su encabezado dice «Rep Examen APX»: es el
    repaso del examen. Trae 134 preguntas de Java, 38 de APX y 41 de herramientas. Ahora
    estudia las preguntas que no habías visto en las simulaciones. Sus 38 de APX ya están
-   en la Ruta de estudio APX (§1): en sus autoevaluaciones o en su página del instructor.
+   en la Ruta de estudio APX (§1): en sus autoevaluaciones o en su página «Preguntas sin respuesta confirmada».
 
 ## 3. Catálogo de exámenes (19)
 

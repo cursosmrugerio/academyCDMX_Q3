@@ -3778,13 +3778,16 @@
   "destino": "instructor",
   "fuente": "Java.pdf #125; AcademicosAPX.pdf · pág. 3",
   "cita": "d. apx init du-lib-u=\"TEST\" → correcto",
-  "retro": "Java.pdf #125 no trae «La respuesta correcta es…»: su explicación da por buena «apx init du-lib» porque nombra du-lib. Pero AcademicosAPX.pdf, pág. 3, dice que las unidades de despliegue son de online o de batch, y ningún documento del curso muestra ese comando. El instructor debe confirmar que existe.",
+  "retro": "Java.pdf #125 no trae «La respuesta correcta es…»: su explicación da por buena «apx init du-lib» porque nombra du-lib. Pero AcademicosAPX.pdf, pág. 3, dice que las unidades de despliegue son de online o de batch, y ningún documento del curso muestra ese comando. Con el material del curso no se puede confirmar que ese comando exista.",
   "nota_constructor": "Quitada la opción d por ser idéntica a c en el .docx V2-31. La clave de Java.pdf es su explicación («→ correcto»). Etapas mezcladas en origen; se deja paso 6. T08-25 (otra redacción) sin clave. R2: a instructor por decisión del responsable. La «clave» de Java.pdf #125 es una explicación con marcas ❌, no una clave oficial; AcademicosAPX pág. 3: solo UD online y batch; «apx init du-lib» no aparece en el curso. En JPDF-125 (5 opciones distintas) du-lib es la d; en V2-31 la d duplicaba a c y se quitó. Candidata previa (antes en correctas): c.",
   "cambios_r1": [
    "retro: aclara librería como tipo de recurso frente a UD online/batch"
   ],
   "cambios_r2": [
    "destino cuestionario → instructor; correctas vaciada (candidata c pasada a la nota); respaldo clave → contradictorio; retro reescrita sin afirmar respuesta (decisión del responsable, hallazgo R2)"
+  ],
+  "cambios_ruta": [
+   "25-sep: la página pasa a «Preguntas sin respuesta confirmada» (el instructor tampoco tiene la respuesta); se quita «El instructor debe confirmar»"
   ]
  },
  {

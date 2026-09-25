@@ -9,7 +9,8 @@ guía para el alumno es [`../../LEEME.md`](../../LEEME.md), §1.
 Publicado el 25-sep-2026 en el curso 7, sección «Ruta de estudio APX» (id 181, número 11):
 - 14 subsecciones (cmid 668–681) y 56 actividades (cmid 682–737).
 - 11 cuestionarios: 10 autoevaluaciones y el simulacro (cmid 724). Todos pesan 0 en el total del curso.
-- La página «Preguntas para resolver con el instructor» (cmid 725).
+- La página «Preguntas sin respuesta confirmada» (cmid 725). Al publicarse se llamaba «Preguntas para resolver con
+  el instructor»; el 25-sep se renombró porque tampoco el instructor tiene esas respuestas.
 - 168 preguntas en la categoría «Ruta de estudio APX» (id 69).
 
 El script, el plan y el ledger están en el repo `academia-cdmx26Q3`, en `moodle/build/27_*` y
@@ -63,7 +64,7 @@ de las guías en `crudos/verif-ruta-r*.md`.
 |---|---|
 | Únicas de APX | 223 (de 357 apariciones en 13 exámenes) |
 | En los cuestionarios de la ruta | 168: 132 con respaldo en la documentación y 36 solo en una clave |
-| En «Preguntas para resolver con el instructor» | 55: 28 sin respuesta en ningún archivo y 27 con fuentes que se contradicen o ambiguas |
+| En «Preguntas sin respuesta confirmada» | 55: 28 sin respuesta en ningún archivo y 27 con fuentes que se contradicen o ambiguas |
 
 ## Límites
 
