@@ -190,17 +190,17 @@ Falta confirmar con la empresa si hay que estudiarlos, y mientras tanto **no for
 del temario ni de los exámenes**. El motivo de cada uno está en su
 [README](otros/dudas/README.md).
 
-En esa carpeta también está `Banco de preguntas - Temas variados.docx`. **No trae
-preguntas:** solo tiene el enlace a un perfil de Educaplay con 152 actividades. Las únicas 3
-de APX ya están en `java/`, y el resto (Spark, IA, inglés, Oracle…) no es de este curso.
-
 ## 5. Sobre los enlaces originales
 
 - **No practiques en los formularios en línea.** Pueden registrar tu respuesta. Además, las
   simulaciones de Microsoft Forms tienen un límite de 90 minutos y se envían solas al
   acabarse el tiempo.
 - Al principio de cada `.docx` de examen, bajo el título, hay unas líneas («Formulario
-  original» o «Actividad original», «Enlazado desde»…) que solo dicen de dónde salió el
+  original» o «Actividad original», «Enlazado desde» o «Enlazada desde»…) que solo dicen de dónde salió el
   examen: **ignóralas**.
+- `Banco de preguntas - Temas variados.docx` **no trae preguntas**: solo tiene el enlace a
+  un perfil de Educaplay con 152 actividades. Solo 3 son de APX: los 3 quizzes, que ya están
+  en `java/`. Las demás (Spark, IA, inglés, Oracle…) no son de este curso y no se
+  descargaron. No hay nada pendiente sobre ellas.
 - Si alguien te manda un enlace y no sabes a qué archivo corresponde, búscalo en
   [`otros/enlaces-originales/README.md`](otros/enlaces-originales/README.md).

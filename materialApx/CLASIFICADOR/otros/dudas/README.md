@@ -108,14 +108,24 @@ Listas para copiar y enviar:
 
 ## Otro archivo en esta carpeta
 
+→ **25-sep-2026: ya no está aquí** (ver la nota de abajo).
+
 - `Banco de preguntas - Temas variados.docx`: la duda es otra. El documento **no trae
   preguntas**: solo tiene el enlace al perfil de Educaplay. Sus 3 quizzes de APX ya
   se descargaron (`5 - Quizzes Educaplay (APX)/`) y están clasificados en `java/`.
+
+→ **25-sep-2026:** `Banco de preguntas - Temas variados.docx` se movió a
+`otros/enlaces-originales/`. No hay nada que validar con la empresa: es solo un documento
+de enlaces, y dejarlo aquí hacía pensar que había un banco de preguntas pendiente. En esta
+carpeta quedan solo los 4 documentos de proceso de arriba.
 
 ## Origen
 
 - `Ether.pdf`, `Manual de Ether.pdf` y `Banco de preguntas…`: carpeta de Drive «Material
   de estudio - APX» (ver `INDICE.md`).
+
+  → **25-sep-2026:** `Banco de preguntas…` ya no está en esta carpeta: se movió a
+  `otros/enlaces-originales/` (ver la nota de arriba).
 - `Formación APX.pptx` y `Modificación de Componetes APX - PLATAFORM.docx`: carpeta de
   Drive «Material APX» (dueño gustav.mz.al), descargada el 25-sep-2026. Los dos archivos
   los creó «Muñoz, Gus» el 20-mar-2026. Los originales están en

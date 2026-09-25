@@ -1,6 +1,6 @@
 # Enlaces originales: no son exámenes nuevos
 
-Estos 4 archivos dicen **de dónde salió el material** de `CLASIFICADOR/`. No son exámenes
+Estos 5 archivos dicen **de dónde salió el material** de `CLASIFICADOR/`. No son exámenes
 nuevos ni hay que estudiarlos. Todo lo que enlazan **ya está descargado** en `apx/`, en
 `java/` o en `otros/dudas/`, o se decidió no descargarlo (ver abajo).
 
@@ -60,9 +60,16 @@ Es una nota que se escribió al descargar el material. Contiene:
   de [`LEEME.md`](../../LEEME.md)). Cuando dice «en esta carpeta», o cuando cita
   `RECURSOS-SIN-ACCESO.md`, se refiere a esa carpeta de fuera.
 
-## Otro documento de enlaces
+## `Banco de preguntas - Temas variados.docx` (1 enlace)
 
-`otros/dudas/Banco de preguntas - Temas variados.docx` solo trae el enlace a un perfil de
-Educaplay con 152 actividades. Las únicas 3 de APX ya están en `java/`: `01 - Quiz APX.docx`,
-`02 - Quiz Desarrollo APX 1.docx` y `03 - Quiz Desarrollo APX 2.docx`. El resto (Spark, IA,
-inglés, Oracle…) no es de este curso.
+A pesar de su nombre, **no trae preguntas**. Su único contenido es el enlace a un perfil de
+Educaplay («HR Mexico», https://www.educaplay.com/user/7909611-hr/) con 152 actividades.
+
+| Actividad de APX en Educaplay | Archivo | Carpeta |
+|---|---|---|
+| Quiz APX | `01 - Quiz APX.docx` | `java/` |
+| Quiz Desarrollo APX 1 | `02 - Quiz Desarrollo APX 1.docx` | `java/` |
+| Quiz Desarrollo APX 2 | `03 - Quiz Desarrollo APX 2.docx` | `java/` |
+
+Del perfil, solo estas 3 son de APX. Las demás (Spark, IA, inglés, Oracle…) no son de este
+curso y no se descargaron.

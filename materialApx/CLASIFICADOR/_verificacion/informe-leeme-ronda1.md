@@ -87,3 +87,8 @@ contestarlo, y varias están mal. El LEEME y `INDICE-PREGUNTAS.md` se corrigiero
 
 → **25-sep-2026, tras la ronda 3**: por lo mismo, los PDF con respuestas son **3, no 4** (la
 línea «Las respuestas solo están en 4 PDF» de arriba queda superada).
+
+→ **25-sep-2026:** el hallazgo 4 quedó resuelto. Con el acuerdo del usuario,
+`Banco de preguntas - Temas variados.docx` se movió de `otros/dudas/` a
+`otros/enlaces-originales/`.
+Su párrafo del LEEME pasó de §4 a §5.
