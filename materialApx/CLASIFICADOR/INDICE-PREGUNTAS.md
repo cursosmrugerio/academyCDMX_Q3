@@ -560,7 +560,7 @@ Preguntas donde el criterio decide, pero por poco. Si prefieres otra frontera, e
 
 ## Examen Diagnóstico APX 4.pdf
 
-`apx/examenes/Examen Diagnóstico APX 4.pdf` — Escaneo sin numeración: # = orden de aparición (dos preguntas por página, izq/der; las págs 9 y 12 tienen una sola). La pág 8 der no es una pregunta sino la explicación de la #15, y no se cuenta. Algunas páginas marcan la respuesta. La mayoría de sus preguntas están también en `07 - Diagnóstico APX 5.docx`.
+`apx/examenes/Examen Diagnóstico APX 4.pdf` — Capturas de pantalla sin numeración: # = orden de aparición (dos preguntas por página, izq/der; las págs 9 y 12 tienen una sola). La pág 8 der no es una pregunta sino la explicación de la #15, y no se cuenta. Trae marcadas las opciones que eligió alguien al contestarlo; **no son la clave**: al menos 8 de sus 20 marcas están mal (págs. 3, 4, 6, 8, 9, 11 y 12, verificado el 25-sep-2026). La mayoría de sus preguntas están también en `07 - Diagnóstico APX 5.docx`.
 
 | # | Tema | Ubicación | Enunciado (recorte) |
 |---|---|---|---|
