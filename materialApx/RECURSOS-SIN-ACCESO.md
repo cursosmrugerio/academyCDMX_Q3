@@ -4,7 +4,7 @@ Todo lo que **no se pudo descargar** a esta carpeta y **por qué**. Cada motivo 
 
 | # | Qué | Cuántos | Motivo en una línea |
 |---|---|---|---|
-| 1 | Carpeta de Drive «Material APX» | 1 carpeta | No está compartida con tu cuenta: Drive muestra «You need access» |
+| 1 | Carpeta de Drive «Material APX» | 1 carpeta | No está compartida con tu cuenta: Drive muestra «You need access» — **→ resuelto el 25-sep-2026** (ver §1) |
 | 2 | Documentos, presentaciones y archivos de Google citados dentro de los PDFs de Ether/APX | 9 | Google responde 403: solo los ve quien tenga permiso (dominio de BBVA) |
 | 3 | Google Doc citado en `Ether.pdf` | 1 | Borrado por su dueño (HTTP 410) |
 | 4 | Enlaces a la intranet de BBVA dentro de los documentos (PDF y PPTX) | 74 | Piden inicio de sesión corporativo de BBVA (72) o no existen fuera de la red de BBVA (2) |
@@ -17,6 +17,8 @@ Todo lo que **no se pudo descargar** a esta carpeta y **por qué**. Cada motivo 
 - **Dónde aparece:** `1 - Material de estudio - APX/Material Extraído.docx` (junto a «Material APX - parte 1», que sí se descargó completa en `2 - Material APX - parte 1/`).
 - **Motivo:** la carpeta **no está compartida** con tu cuenta ni es pública por enlace. Al abrirla, Google Drive muestra la pantalla **«You need access — Request access, or switch to an account with access»**.
 - **Cómo obtenerlo:** pulsa «Request access» en esa pantalla (le llega un correo al dueño), o pide el acceso a quien comparte el material (el dueño de las demás carpetas es `capacitacion.accn@gmail.com`). **No se envió la solicitud**, porque manda un mensaje en tu nombre.
+
+> **→ 25-sep-2026: resuelto.** El dueño (**gustav.mz.al@gmail.com**, no capacitacion.accn) compartió la carpeta con tu cuenta ese día. Contenía 2 archivos y ninguna subcarpeta; se descargaron desde Chrome con el mismo tamaño en bytes que reporta Drive, y están en `6 - Material APX (Drive gustav.mz.al)/` (detalle en `INDICE.md`). Los dos son capturas sin texto seleccionable. El OCR (`_datos-extraccion/ocr_material_apx_drive.txt`) muestra 3 URLs **dentro de las capturas**, que no son enlaces: `platform.bbva.com/global-e2e-components-governance/…` y `globaldevtools.bbva.com/je-mm-es-apps-apx/`, en dominios que ya se sabe que piden inicio de sesión corporativo de BBVA (§4; estas dos no se probaron), y un `docs.google.com/document/d/` cortado en la captura, sin ID, así que no se puede abrir.
 
 ## 2. Documentos de Google citados en los PDFs (HTTP 403)
 

@@ -12,6 +12,7 @@ https://drive.google.com/drive/folders/1WfToURb6X-jndXXUtduBLMKnD7FKTuzP
 | `3 - Cuestionarios (Google Forms)/` | Los 8 exámenes de Google Forms enlazados desde `LINKS.docx` y `Formularios APX.docx`, con preguntas, opciones e imágenes de código. |
 | `4 - Simulaciones (Microsoft Forms)/` | Las 4 simulaciones de Microsoft Forms enlazadas desde `Formularios APX.docx`, con preguntas, opciones e imágenes. |
 | `5 - Quizzes Educaplay (APX)/` | Los 3 quizzes de APX del perfil de Educaplay enlazado desde «Banco de preguntas», tomados de su versión imprimible oficial. |
+| `6 - Material APX (Drive gustav.mz.al)/` | Carpeta de Drive **«Material APX»** enlazada desde «Material Extraído» (dueño: gustav.mz.al; compartida contigo el 25-sep-2026). 2 archivos, descargados ese día. **Sí aporta contenido nuevo**: ninguna de sus 63 imágenes es igual a otra ya descargada, y lo que describen solo aparecía antes como títulos de enlaces a la intranet de BBVA en `Manual de Ether.pdf`. Los dos archivos son **puras imágenes** (capturas de documentación interna de BBVA sin texto seleccionable); su texto por OCR está en `_datos-extraccion/ocr_material_apx_drive.txt`. |
 | Nota | Dentro de `1 - …`, `Documentación APX/1 - APX Capabilities.pdf` y `APX ONLINE/APX Online Capabilities.pdf` también tienen el mismo texto (copias del mismo documento). `Material de apoyo/Banco de preguntas - Temas variados.docx` no trae preguntas: solo contiene el enlace al perfil de Educaplay, cuyos 3 quizzes de APX están en `5 - …`. |
 | `RECURSOS-SIN-ACCESO.md` | **Lo que no se pudo descargar y el motivo de cada cosa.** |
 | `VIDEOS-Y-ENLACES.md` | URLs de los 11 videos y tabla de los cuestionarios extraídos. |
@@ -167,10 +168,19 @@ https://drive.google.com/drive/folders/1WfToURb6X-jndXXUtduBLMKnD7FKTuzP
 | [02 - Quiz Desarrollo APX 1.docx](https://www.educaplay.com/learning-resources/21896295-quiz_desarrollo_apx.html) | 175.4 KB | generado desde la versión imprimible de Educaplay; 25 preguntas, 8 imágenes |
 | [03 - Quiz Desarrollo APX 2.docx](https://www.educaplay.com/learning-resources/21909314-quiz_desarrollo_apx_2.html) | 149.1 KB | generado desde la versión imprimible de Educaplay; 24 preguntas, 14 imágenes |
 
+### `6 - Material APX (Drive gustav.mz.al)/`
+
+Carpeta de Drive «Material APX»: https://drive.google.com/drive/folders/1o-N-5MqHf9NE6NvBrhqU7aPXCW30iQX5 (descargada el 25-sep-2026; 2 archivos, sin subcarpetas).
+
+| Archivo | Tamaño | Nota |
+|---|---|---|
+| [Formación APX.pptx](https://drive.google.com/file/d/1wvBIzQncBjA5UEB93i9xug3v7PXTIApC/view) | 3.5 MB | 13 diapositivas, todas imágenes (solo los números de página son texto). **1–4:** diagramas del proceso global de alta/modificación de componentes APX en JIRA (estados, roles, «Modificación Exprés»). **5–13:** propuesta **«To-Be» APX 1.0 con DevOps** (modelo híbrido) del área «Systems Engineering», por carriles de rol, con días estimados e «Iniciativas de mejora», varias marcadas «pendiente» o «no implementado»; subprocesos de pruebas y de liberación a producción. Cita métricas del Q1 2023. No trae aviso de geografía. |
+| [Modificación de Componetes APX - PLATAFORM.docx](https://drive.google.com/file/d/140aXpTDOFNeDyM1jyqDP0lEIwBrvGt6z/view) | 9.6 MB | 22 páginas con 40 capturas (sin texto seleccionable) de la guía de BBVA Platform «Modificación de componentes APX»: formulario de JIRA «APX Component Modification», tipos de modificación (Design / Code / Regularization), y tarea por tarea con su rol. **Capturas 1–37:** proceso global 1.0; su propio aviso dice que rige solo para España y Tenant Global y que México sigue el procedimiento local. **Últimas 3 capturas (38–40):** justamente **reglas locales de México** («Flujo APX 1.0»): documentos requeridos para el ticket, formato del título, país ancla MX y contenido de la descripción. |
+
 ## Números
 
-- Archivos: **67** (131.7 MB), sin contar índices, manifest ni `_datos-extraccion/`.
-- Descargados de Drive: 52: 50 archivos originales con el número exacto de bytes que reporta Drive, y 2 Google Docs exportados a .docx (Drive no da tamaño para documentos nativos; se verificó que el .docx abre). El inventario se cotejó carpeta por carpeta contra la vista de Drive (14 carpetas, mismos conteos).
+- Archivos: **69** (144.8 MB), sin contar índices, manifest ni `_datos-extraccion/`.
+- Descargados de Drive: 54: 52 archivos originales con el número exacto de bytes que reporta Drive, y 2 Google Docs exportados a .docx (Drive no da tamaño para documentos nativos; se verificó que el .docx abre). El inventario se cotejó carpeta por carpeta contra la vista de Drive (15 carpetas, mismos conteos). Los 2 de `6 - …` se bajaron el 25-sep-2026.
 - Cuestionarios convertidos a .docx: 15 (654 preguntas de examen, 205 imágenes). En los de Google Forms, las opciones «Otro» aparecen como «Otro: ____ (respuesta libre)»; el campo «Ingresa tu nombre completo» de las simulaciones de Microsoft Forms no se cuenta como pregunta.
 - Videos (solo URL): 11.
 

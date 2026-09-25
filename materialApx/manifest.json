@@ -773,6 +773,26 @@
    "url": "https://www.educaplay.com/learning-resources/21909314-quiz_desarrollo_apx_2.html",
    "preguntas": 24,
    "imagenes": 14
+  },
+  {
+   "ruta": "6 - Material APX (Drive gustav.mz.al)/Formación APX.pptx",
+   "drive_id": "1wvBIzQncBjA5UEB93i9xug3v7PXTIApC",
+   "origen": "Material APX",
+   "tipo": "original de Drive",
+   "bytes": 3645045,
+   "bytes_drive": 3645045,
+   "sha256": "c85b952d9b63a8a4e92ec9dd7e0383a352bee9d9f08c0a25fa0785f4962527a7",
+   "url": "https://drive.google.com/file/d/1wvBIzQncBjA5UEB93i9xug3v7PXTIApC/view"
+  },
+  {
+   "ruta": "6 - Material APX (Drive gustav.mz.al)/Modificación de Componetes APX - PLATAFORM.docx",
+   "drive_id": "140aXpTDOFNeDyM1jyqDP0lEIwBrvGt6z",
+   "origen": "Material APX",
+   "tipo": "original de Drive",
+   "bytes": 10032415,
+   "bytes_drive": 10032415,
+   "sha256": "9ca12638ee942e5eaf736db30406fffa8cb7d1cf771b6f6c0e0a819c9a56af7e",
+   "url": "https://drive.google.com/file/d/140aXpTDOFNeDyM1jyqDP0lEIwBrvGt6z/view"
   }
  ]
 }

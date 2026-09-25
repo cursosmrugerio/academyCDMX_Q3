@@ -1,0 +1,1792 @@
+# OCR (Vision de macOS, es-ES/en-US) de las imágenes de «6 - Material APX (Drive gustav.mz.al)/», 25-sep-2026
+# FILE<TAB>imagen<TAB>líneas  ·  L<TAB>texto reconocido
+## Formación APX.pptx (ppt/media/)
+FILE	image1.jpg	0
+FILE	image4.jpg	0
+FILE	image5.jpg	0
+FILE	image6.jpeg	0
+FILE	image7.png	0
+FILE	image8.png	0
+FILE	image9.png	0
+FILE	image10.jpg	0
+FILE	image11.png	57
+L	New
+L	Request
+L	Developer
+L	Pending
+L	Profiling
+L	Local Sec
+L	Blocked
+L	In waiting
+L	JIRA Under
+L	Construction
+L	Developer
+L	JIRA
+L	Designing
+L	Component
+L	Developer
+L	JIRA Ready to
+L	Integrate
+L	Loc. Rel Mnal
+L	Reviewing
+L	Quality
+L	OCT
+L	IRA Validating
+L	Design
+L	Local Gov
+L	Pending
+L	Release
+L	Candidate
+L	Validation
+L	Developer
+L	JIRA
+L	Pending
+L	Host Access
+L	APX Local Arch
+L	JIRA PMaaS
+L	Measurement
+L	PMaaS
+L	JIRA Pending
+L	Production
+L	Deployment
+L	Developer
+L	Executing
+L	Performance
+L	Test
+L	OCTA
+L	JIRA
+L	(Accessed from any task
+L	indicating the reason for
+L	closing or discarding)
+L	Closed
+L	Any Rol
+L	JIRA Ready to
+L	Production
+L	Deployment
+L	Loc. Rel Mngr
+L	JIRA
+L	Deployed
+L	Rel. Mngr
+FILE	image12.png	40
+L	Proceso de Modificación Express de Componentes APX : Tx, Librería
+L	Herramienta de gestión
+L	del proceso:
+L	Jira
+L	JIRA
+L	Flujo que permite al Desarrollador subir un correctivo a producción sin realizar intervenciones o validaciones de departamentos.
+L	Una vez subido el correctivo, el Desarrollador abrirá un nuevo Ticket para regularizar en Diseño las modificaciones llevadas a cabo.
+L	New
+L	Request
+L	Developer
+L	JIRA
+L	Under
+L	Construction
+L	Developer
+L	Integrate
+L	Loc. Rel Mngr
+L	JIRA Pending
+L	Release
+L	Candidate
+L	Validation
+L	Developer
+L	JIRA Ready to
+L	Production
+L	Deployment
+L	Loc. Rel Mngr
+L	JIRA
+L	JIRA
+L	Deployed
+L	Loc. Rel. Mngr
+L	Closed
+L	Developer
+L	(Accessed from any task
+L	indicating the reason for
+L	closing or discarding)
+L	Simbologia utilizada :
+L	Tarea a
+L	realizar
+L	Eiecutor
+L	Estado
+L	• Conector a otra tareal
+FILE	image13.png	72
+L	Proceso Global de Alta o Modificación de Componente APX
+L	Herramientas de soporte al proceso
+L	Diseño y Configuración del componente
+L	Developer
+L	Roles
+L	Soporte
+L	Request
+L	Construcción
+L	Construcción
+L	Componente
+L	Despliegue
+L	Validación
+L	Release
+L	Candidate
+L	Solicitud de
+L	implantación
+L	Diseño
+L	Componente
+L	Validación
+L	Local
+L	Diseño
+L	Revisión
+L	de
+L	Calidad
+L	5
+L	Configuración
+L	Acceso.
+L	Perfilado
+L	Transacción
+L	1.- El developer crea la solicitud de alta o modificación en Jira
+L	2.- Diseño del componente (transacción APX y librerías
+L	asociadas, librería)
+L	3. - Validación del diseño del componente
+L	4.- Revisión del diseño por parte de OCTA, si aplica
+L	5.- Configuración de acceso a Host, si aplica, y perfilado de
+L	pruebas
+L	10
+L	13
+L	Integración
+L	Componente
+L	Release
+L	Candidate
+L	Deployment
+L	Pruebas
+L	Rendimiento
+L	Pdte
+L	Implantación
+L	Desplegado
+L	6.- Lanzamiento de la Construcción desde
+L	Consola y con Bitbucket.
+L	El developer solicita la integración del
+L	componente vía Pull Request en Bitbucket y
+L	avanza el ticket en Jira.
+L	Construcción gobernada por Samuel.
+L	JIRA
+L	Jira
+L	GSheets
+L	Consola
+L	Bitbucket
+L	7.- El Release Manager realiza la integración y despliegue de la RC por entornos
+L	previos
+L	8.- El developer valida los cambios integrados en la RC y solicita pruebas de
+L	rendimiento
+L	9.- El Release Manager despliega el componente en OCTA para pruebas
+L	10.- Pruebas de Rendimiento
+L	11.- Validación final y solicitud de implantación
+L	12.- El Release Manager prepara el despliegue en producción
+L	13.- Componente desplegado en producción, se procede al cierre en Jira
+L	JIRA
+L	Jira
+L	Consola
+L	Bitbucket
+FILE	image14.png	33
+L	Proceso Global de Modificación Exprés de Componente APX
+L	Herramientas de soporte al proceso
+L	Developer
+L	Roles
+L	Soporte
+L	Construcción y Despliegue
+L	Request
+L	Petición
+L	Integración
+L	Validación
+L	Integrada
+L	2
+L	Construcción
+L	Componente
+L	Integración
+L	Servicio
+L	Pdte
+L	Implantación
+L	→ Desplegado
+L	1.- El developer crea la
+L	solicitud en Jira
+L	2. - Lanzamiento de la construcción del componente desde Consola y con Bitbucket
+L	3. - El developer solicita la integración de los cambios vía Pull Request en Bitbucket y avanza el ticket en Jira
+L	4. - El Release Manager realiza la integración y despliegue de la RC por entornos previos
+L	5.- El developer valida los cambios y solicita la implantación en producción vía Jira
+L	6.- El Release Manager despliega en producción
+L	7.- Componente desplegado en producción, se procede al cierre en Jira
+L	NOTA: En caso de que los cambios realizados afecten al diseño, posteriormente hay que hacer la regularización del diseño con un
+L	ticket de Modificación.
+L	JIRA
+L	Jira
+L	Consola
+L	Bitbucket
+FILE	image15.png	99
+L	Sustems Engineerins
+L	Proceso To-Be Alto nivel APX 1.0 con DevOps
+L	(Team de desarrollo)
+L	Desarrollo APX
+L	detectado.
+L	Análisis
+L	Q-1
+L	dependencias
+L	especialidad
+L	Decision
+L	Framework
+L	Y MSA
+L	Definir I/O
+L	Diseño
+L	Desarrollar
+L	componente
+L	APX
+L	Generar
+L	componentes
+L	2 3
+L	Codificar/
+L	componente
+L	Ejecutar pruebas
+L	unitarias
+L	Solicitar
+L	configuraciones
+L	perfilado TXN
+L	Desarrollo
+L	Q1
+L	Crear malla y
+L	Pruebas
+L	Liberación
+L	Crear scripts
+L	Ejecutar pruebas
+L	Liberación
+L	producción
+L	Desplegar
+L	ambientes
+L	Levantar
+L	depencencis
+L	Ambientar datos
+L	Fábrica de
+L	pruebas
+L	Servicio APX
+L	Gobierno
+L	APX
+L	Solutions
+L	Architect
+L	Crear/modif-
+L	análisis
+L	Certificar
+L	Atender
+L	configuraciones
+L	Perfilar TXN
+L	Ambientar datos
+L	Iniciativas de mejora
+L	Implementación flujo APX 1.0 y
+L	trazabilidad de la certificación
+L	del diseño desde JIRA (-1 dia)
+L	Consola Ether permite el acceso
+L	inmediato a la herramienta para
+L	nuevos desarrolladores,
+L	eliminando dependencia con
+L	Gobierno APX (-1 semana)
+L	autoservicio en la creación del
+L	espacio en Bitbucket derivado
+L	de la Consola Ether (-1 dia)
+L	Integrar equipo de Servicio APX
+L	al flujo Jira 1.0 compartiendo
+L	responsabilidades con Systems
+L	(Pendiente de implementar)
+L	Uso
+L	de consola
+L	Ether
+L	fomentar buenas prácticas en la
+L	codificación APX a través de
+L	Systems Academy (-2 dias)
+L	Uso
+L	de consola Ether
+L	fomentar buenas prácticas en la
+L	configuración
+L	de
+L	pruebas
+L	unitarias a través de Systems
+L	Academy (-1 dia)
+L	Integrar actividad de perfilado a
+L	JIRA con equipo de IAM y
+L	adopción del flujo APX
+L	1.0
+L	(Implementación en curso)
+L	Fast track para la atención de
+L	observaciones en relacion a la
+L	malla (No implementado)
+L	Paralelismo en las actividades
+L	de Ambientación en test y
+L	calidad (-4 dias)
+L	Operativización del nuevo
+L	proceso Global de Gestión de
+L	Cambios
+FILE	image16.png	92
+L	Systems Engineering
+L	Proceso To-Be APX 1.0 (Modelo Híbrido)
+L	Análisis
+L	0-1
+L	Prework
+L	Desarrollo
+L	detectado
+L	1. Sesión de
+L	entendimiento
+L	en Tech Review
+L	Ward
+L	2. Llenar
+L	Decision
+L	Framework
+L	(Team de desarrollo)
+L	Componente?
+L	Free?
+L	No (Lean o
+L	Crear
+L	Documento de
+L	Análisis (Lean o
+L	Deenl
+L	3. Creación /
+L	Modificación
+L	Diseño
+L	01
+L	modifica table?
+L	6. Desarrollar
+L	Tablas
+L	modelo de
+L	1 Pruebas
+L	4. Entender
+L	funcionamiento
+L	componentes a
+L	modificar
+L	S. Definir
+L	entradas, salidas
+L	y método de
+L	7. Generar
+L	insumos
+L	JIRA (Designing
+L	No
+L	¿Requiere alguna
+L	arquitectura?
+L	9. Generar
+L	Componentes
+L	APX
+L	1 hora
+L	11. Levantar
+L	petición de
+L	configuración
+L	10. Crear
+L	Bitbucket, Pipeli
+L	ne en Jenkins
+L	JIRA ILder
+L	En linea
+L	Iniciativas de Mejora
+L	Implementación flujo APX 1.0 y
+L	trazabilidad de la certificación
+L	del diseño desde JIRA (-1 dia)
+L	Consola Ether permite el acceso
+L	inmediato a la herramienta para
+L	nuevos desarrolladores,
+L	eliminando dependencia con
+L	Gobierno APX (-1 semana)
+L	Autoservicio en la creación del
+L	espacio en Bitbucket derivado
+L	de la Consola Ether (-1 día)
+L	Integrar equipo de Servicio APX
+L	al flujo Jira 1.0 compartiendo
+L	responsabilidades con Systems
+L	(Pendiente de implementar)
+L	Servicio
+L	APX
+L	Gobierno
+L	APX
+L	Solutions
+L	Architect
+L	8. Certificar
+L	Diseño APX
+L	› ¿Diseño ok?
+L	Catilogo global
+L	petición de
+L	configuración
+L	Site APX
+L	1 día
+L	Actividad Manual
+L	* Actividad Sistema
+L	• Actividad Semi- automática
+L	* Aduana APX
+L	•Aduana APX Optimizada
+L	Actividad Consola Ether a Estatus JIRA
+FILE	image17.png	81
+L	Proceso To-Be APX 1.0 (Modelo Híbrido)
+L	Desarrollo
+L	Iniciativas de Mejora
+L	19. Realizar
+L	corrección al
+L	código
+L	13.
+L	Modificar
+L	componente
+L	IDE APX
+L	(Team de desarrollo)
+L	15.
+L	Configurar
+L	Test Unit
+L	JIRA (Under
+L	Se configuran los
+L	(ambiente desarrollo)
+L	16. Ejecutar
+L	pruebas
+L	unitarias
+L	JIRA (Under
+L	17. Subir
+L	código a
+L	repositorio
+L	18.Compilar
+L	componente
+L	APX
+L	20. Desplegar
+L	código APX en
+L	amo. previos
+L	revisión de
+L	Uso de consola Ether y fomentar
+L	buenas
+L	prácticas
+L	en
+L	la
+L	codificación APX
+L	a traves de
+L	Systems Academy (-2 días)
+L	Uso de consola Ether y fomentar
+L	buenas
+L	prácticas
+L	en
+L	la
+L	configuración
+L	de
+L	pruebas
+L	unitarias a través de Systems
+L	Academy (-1 día)
+L	Integrar actividad de perfilado a
+L	JIRA con equipo de IAM y
+L	adopción del flujo APX
+L	1.0
+L	(Implementación en curso)
+L	14. Codificar
+L	componente
+L	JIRA (Under
+L	S cias
+L	Tiempo promedio en
+L	codificar con base en la
+L	Baja 10% = 5 dias
+L	Media 80% - 5 dise
+L	¡Perfilado TX
+L	21. Solicitar
+L	perfilado TX
+L	APX
+L	Excel/Drive/ JIRA
+L	0.5 dia
+L	pruebos
+L	IAM MX
+L	NEXTGEN
+L	Actividad Manual
+L	* Actividad Sistema & Actividad Semi- automática
+L	22. Perfilar
+L	TX APX
+L	Profilingi
+L	4 dise
+L	Listo para
+L	* Aduana APX 1
+L	• Aduana APX Optimizada
+L	Actividad Consola Ether 1 Estatus JIRA
+FILE	image18.png	69
+L	Proceso To-Be АРХ 1.0 (Modelo Híbrido)
+L	Diseño
+L	Q1
+L	S1-3
+L	Systems Engineering
+L	(Team de desarrollo)
+L	1.Crear/
+L	modificar
+L	Modelo de
+L	datos
+L	2 dias
+L	Q12023: Se atendieron 251 solotudes
+L	con un tiempo promedio de 4.8 cisa, el
+L	0% de esas solicitudes son de proyecto
+L	¿Reutilza
+L	5. Llenar
+L	Modificar
+L	Diccionario de
+L	Datos
+L	2. Usar namings
+L	existentes
+L	Datum
+L	6. Llenar /
+L	Modificar
+L	Plantilla de
+L	Concentrado
+L	1 dia
+L	3. Revisar
+L	modelo de datos
+L	terminado y
+L	solicitar VoRol
+L	7. Dar de alta
+L	ticket(s)
+L	New Naminas
+L	Jira / Service Des
+L	IAM MX
+L	NEXTGEN
+L	Gobierno
+L	Datio
+L	Gobierno
+L	Operacional
+L	4.Validar
+L	Modelo de
+L	datos y dar
+L	3 dita
+L	¿Namingsck?
+L	OK?
+L	Iniciativas de Mejora
+L	Difusión en Systems Academy
+L	de Checklist de buenas prácticas
+L	del Modelo de Datos (- 50% de
+L	retrabajos)
+L	Incrementar en XX% el número
+L	de developers Systems como
+L	Data Marshall expertos para
+L	autovalidación de Namings
+L	Se incorporó a la misma
+L	dependencia del Modelo de
+L	datos y se homologa
+L	8. Validar
+L	new Namings
+L	9. Cargar
+L	DATUM
+L	10. Validar,
+L	etiquetar y
+L	aprobar
+L	campos
+L	Actividad Manual * Actividad Sistema • Actividad Semi- automática
+L	Aduana APX Aduana APX Optimizada Actividad Consola Ether → Estatus JIRA
+FILE	image19.png	63
+L	Proceso To-Be APX 1.0 (Modelo Híbrido)
+L	Diseño
+L	Q1
+L	S1-3
+L	Iniciativas de Mejora
+L	IAM MX
+L	NEXTGEN
+L	IAAS
+L	Data Engineering
+L	Gobierno
+L	Operacional
+L	Systems Engineering
+L	(Team de desarrollo)
+L	14. Validar
+L	esquema y
+L	objetos
+L	15. Solicitar
+L	revisión de
+L	performance
+L	Service Desk
+L	1 Ticket por entorno
+L	9n 17.Solicitar C
+L	promoción tabla
+L	(test, calidad y
+L	OCTAL
+L	Service Dese
+L	19.Carga inicial
+L	de datos
+L	11. Actualizar
+L	repositorio
+L	Power Designer
+L	0.5 dire
+L	a12. Generar
+L	Script y
+L	levantar
+L	petición
+L	Practe/Mongo/ES
+L	ORACLE DDL (tablas) Y
+L	MONGO (colecciones)
+L	Elasticsearch (indices)
+L	- Registrar
+L	13.Crear
+L	esquema y
+L	obietos en
+L	desarrollo
+L	ORACLE 1 día (tablas)
+L	MONGO 3 dias (colecciones)
+L	Elastic Search (indices)
+L	Crear usuarios online y batch
+L	18. Promover
+L	tabla (test,
+L	calidad, OCTA)
+L	3 disc
+L	¿ Performance
+L	16. Validar
+L	Performance de
+L	la tabla
+L	1 cia
+L	Actividad Manual
+L	* Actividad Sistema & Actividad Semi- automática
+L	* Aduana APX 1
+L	• Aduana АРХ Optimizada l
+L	Actividad Consola Ether + Estatus JIRA
+FILE	image20.png	82
+L	Subproceso To-Be Pruebas APX 1.0 con DevOps
+L	Pruebas
+L	Systems Engineering
+L	(Team de desarrollo)
+L	1. Realizar
+L	pruebas
+L	funcionales y
+L	validar C204
+L	1 dia
+L	componente
+L	3. Solicitar
+L	integración a
+L	rama develop
+L	Bitbucket/JIRA
+L	(Ready to integrasel
+L	6.Realizar
+L	pruebas
+L	tuncionales
+L	Postman, Control
+L	release candidate
+L	2. Atender
+L	observaciones
+L	IDE APA
+L	5.Generar y
+L	promover
+L	rama release
+L	(Pending relasc
+L	candidate
+L	Regresa a Li
+L	componente
+L	9. Realizar
+L	Checklist DQ
+L	Deployment
+L	Quality
+L	Release
+L	Manager
+L	autocertificación
+L	4. Integrar a
+L	rama develop
+L	Bitbucket/ JIRA
+L	* (Beady to integrada).
+L	1 dia
+L	12 13
+L	¿Requiere
+L	certificación de
+L	pruebas?
+L	Batch/Titan?
+L	Batch
+L	¿Volumetria
+L	baja?
+L	10.Deployme
+L	nt Quality
+L	PMASI
+L	11. Deployme
+L	nt Quality
+L	JIRAJEscutiro
+L	7.Realizan
+L	pruebas
+L	integrales
+L	3-5 dias
+L	8. Generan
+L	rama Bugfix/
+L	Hotfix APX
+L	12. Realizar
+L	pruedas con
+L	usuario *
+L	13.Dar
+L	Vo.Bo*
+L	Corso la Ether
+L	1 dia
+L	Iniciativas de Mejo
+L	La eliminación de la
+L	autocertificación permite
+L	agilizar la integración de la
+L	Develop (-4 dias)
+L	Migrar el 100% de los
+L	componentes a la Consola E
+L	para que cumplan con los
+L	estándares más actual
+L	Integrar a JIRA checklist d
+L	y adopción del flujo APX
+L	(Implementación en curso)
+FILE	image21.png	57
+L	Subproceso To-Be Liberación a Producción АРХ 1.0 con DevOps
+L	Liberación a Producción
+L	Iniciativas de Mejora
+L	11. Capturar
+L	aplicativo
+L	2 horta
+L	CRQ y petición
+L	despliegue
+L	APX
+L	12.
+L	Documentar
+L	y solicitar
+L	Vo.Bo
+L	19. Atender
+L	observacione
+L	Operativización del nuevo
+L	proceso Global de Gestión de
+L	Cambios
+L	Director
+L	especialidad
+L	Change Lead
+L	Servicio APX
+L	Producción
+L	cambios MX
+L	Scrum
+L	(SM/PO)
+L	21. Dar
+L	seguimiento
+L	a la
+L	1 hora
+L	aprobado?
+L	20.
+L	Autorizar
+L	cambio
+L	14. Revisar y
+L	emitir Vo.Bo
+L	22. Instalar
+L	componentes
+L	a producción
+L	15. Adjuntar
+L	Vo.Bos
+L	Helic
+L	1 hora
+L	16. Solicitar
+L	Vo.Bo
+L	18. Solicitar
+L	autorización
+L	del cambio
+L	deployment,
+L	Actividad Manual
+L	17. Otorgar
+L	Vo.Bo
+L	Service Now
+L	1 hora
+L	* Actividad Sistema
+L	Actividad Semi- automática
+L	• Aduana APX Actividad Consola Ether → Estatus JIRA
+FILE	image22.png	59
+L	Stakeholder
+L	Release
+L	BEX Systems
+L	Subproceso To-Be Liberación a Producción АРХ 1.0 con DevOps
+L	Liberación a producción
+L	Engineering
+L	Manager
+L	Usuario Final
+L	32 Atender
+L	observaciones
+L	Service Now
+L	¿Pruebas
+L	26. Realizar
+L	pruebas de
+L	usuario *
+L	1 hora
+L	Q2
+L	31. Revisar
+L	Checklist de
+L	Validación
+L	Técnica
+L	27.Documentar
+L	resultado del
+L	cambio
+L	Service Now
+L	¿Documentación
+L	28.Cerrar
+L	tareas
+L	Service NowJIRA
+L	Si aplicó Plan de
+L	en el cierre de
+L	29. Cerrar el
+L	cambio
+L	Service Naw
+L	Iniciativas de Mejora
+L	Operativización del nuevo
+L	proceso Global de Gestión de
+L	Cambios
+L	30.Solicitar
+L	Vo.Bos
+L	Service Now
+L	La certificación para los procesos
+L	programados (Jobs/Malla),
+L	dependerá de la fecha de su
+L	23. Validar
+L	instalados
+L	Servicio APX
+L	Producción
+L	Cambios Mx
+L	24. Atender
+L	observacione
+L	¿Fallo por
+L	arquitectura?
+L	Actividad Semi- automátical
+L	25. Plan de
+L	retorno
+L	Aduana APX 2
+L	Aduana APX Optimizada
+L	1 Actividad Consola Ether d Estatus JIRA
+FILE	image23.png	40
+L	Subproceso To-Be Liberación a Producción АРХ 1.0 con DevOps
+L	Liberación a producción
+L	Q2
+L	Iniciativas de Mejora
+L	Release Manager
+L	Operativización del nuevo
+L	proceso Global de Gestión de
+L	Cambios
+L	OPs Systems
+L	Engineering
+L	34.Otorgar
+L	Vo.Bo de
+L	delegación
+L	Service Owner
+L	¿Canales
+L	críticos?
+L	¿Periodo de
+L	garantia
+L	finalizado?
+L	35.Otorgar
+L	Vo.Bo de
+L	cumplimiento /
+L	Service Now
+L	1 dio
+L	No
+L	Director
+L	aplicativo
+L	36.Otorgar
+L	Vo.Bo de
+L	cumplimiento /
+L	no afectación.
+L	Scrum
+L	34.Ejecutar
+L	periodo de
+L	garantía
+L	Actividad Manual
+L	* Actividad Sistema & Actividad Semi- automática
+L	* Aduana APX
+L	* Aduana APX Optimizada
+L	Actividad Consola Ether → Estatus JIRA
+## Modificación de Componetes APX - PLATAFORM.docx (word/media/)
+FILE	image1.png	11
+L	Objetivo
+L	El objetivo del documento es detallar el proceso, roles y tareas implicadas en la Modificación de
+L	Componentes APX (transacciones, librerías o DTOs).
+L	Se entiende por modificación de componente APX y será objeto de este análisis:
+L	• Transacciones APX y sus librerías asociadas
+L	• Librería de Infraestructura, de uso compartido entre transacciones
+L	• DTO común, de uso compartido entre librerías / transacciones
+L	• Componente batch (OB, librerías y DTOs asociados)
+L	Resaltamos que el proceso para modificar una transacción APX estará implementado en una instancia
+L	global de JIRA y será guiado a través de la Consola Ether. Esta herramienta gestiona el flujo de activos con
+L	visión E2E, desde su definición hasta su puesta en producción.
+FILE	image2.png	12
+L	Introducción
+L	El proceso de modificación de un componente APX está compuesto por un conjunto de tareas a ser
+L	desempeñadas por diferentes Roles. Todo el proceso está soportado en la herramienta JIRA Global y es
+L	homogéneo para todas las geografías.
+L	Se está trabajando en la integración entre JIRA y Consola Ether, lo que permitirá también transiciones
+L	automáticas en IIRA de determinados estados.
+L	Asimismo, existirá integración a nivel de comportamientos en diferentes momentos del ciclo de vida del
+L	componente, para validar la existencia de los correspondientes tickets en JIRA así como su estado.
+L	Para facilitar el entendimiento del proceso agrupamos las tareas en las siguientes fases principales:
+L	• Diseño
+L	• Construcción
+L	• Implantación
+FILE	image3.png	4
+L	Disclaimer
+L	Lo descrito en las siguientes secciones referentes al proceso global 1.0 se encuentra actualmente vigente
+L	sólo para las geografías de España y Tenant Global, para el desarrollo de componentes APX en México se
+L	debe seguir el procedimiento local.
+FILE	image4.png	13
+L	Diseño
+L	Crear Solicitud / New Request
+L	El Developer solicitará a través de JIRA Global la modificación de un recurso APX. En este proceso el tipo
+L	de activo podrá ser una Transacción, Librería o DTO común o de uso compartido por otras transacciones.
+L	Para ello, desplegará el menú BBVA Resources Request, seleccionando "APX Component Modification". A
+L	partir de este momento se genera una solicitud de modificación de un recurso APX, que irá recorriendo
+L	su correspondiente ciclo de vida.
+L	BBVA Resources Request •
+L	Type to search...
+L	APX component modification
+L	Resumen*
+L	Descripción*
+L	• Configurar Campos -
+FILE	image5.png	22
+L	Team Backlog
+L	Feature Link
+L	Type to search
+L	Modification Type*
+L	Geography*
+L	Choose an epic to assign this issue to.
+L	Ninguno
+L	Ninguno
+L	v
+L	• APX Global sheet template
+L	UUAA*
+L	Functional*
+L	Manager
+L	Please, type at least 3 characters
+L	Comience a escribir para obtener una lista de posibles coincidencias.
+L	If the user does not exist, register it here before.
+L	Ninguno
+L	Component Type*
+L	Transaction/Job Id
+L	Libraries
+L	DTOs
+L	Published API URL
+FILE	image6.png	72
+L	BB
+L	4d1c06dd.isolation.zscaler.com/profile/51531259-fab1-445e-9f78-692c0277ee5d/zpa-session/?controls_id=bd667667-7608-49b7-b6c...
+L	3 https://platform.bbva.com/global-e2e-components-governance/documentation/1zsxqNsYU8Go1hf2CipzY6iJ4GGfFIBkYYMM_Y‹
+L	= BBV^
+L	Platform
+L	Global E2E Components Governance
+L	> ASO
+L	<<
+L	Transaction/Job Id
+L	v APX
+L	Libraries
+L	v 1.0
+L	DTOs I
+L	• Procesos Globales
+L	Published API URL
+L	• Guía Procesos Globales
+L	Solution Model
+L	• Alta de componentes
+L	Link to Google Drive folder documentation
+L	• Modificación compon...
+L	Modificación Express Co...
+L	This Transaction, is*
+L	determined by a
+L	Host migration?
+L	Ninguno
+L	• Políticas y Validaciones
+L	Incidencias
+L	Enlazadas
+L	Incidencia
+L	relates to
+L	<
+L	> Roles
+L	OVERVIEW
+L	+
+L	Comience a escribir para buscar incidencias a enlazar. Si deja el campo en blanco, no se creará ningún enlace.
+L	› Batch
+L	Adjunto
+L	_ Suelte los archivos para adjuntarlos o explorar.
+L	› Enlaces útiles
+L	• Crear otra
+L	Crear
+L	Cancelar
+L	La información que se deberá rellenar en dicho formulario es:
+L	• Summary: Descripción corta asociada a la función del componente que se desea crear.
+L	• Description: Detalle funcional sobre el componente solicitado.
+L	• Team Backlog: Equipo que se encargará de desarrollar la funcionalidad.
+L	[GloMo CO] OTP-SMS QA webhook
+L	PSI • {* message":
+L	{"id®: "86656", "timestamp":17740197
+L	34000000000,"contentType": "applic
+L	ation/¡son*, data*:("document": "00...
+L	Roles
+L	Proceso
+L	Introducción
+L	Disclaimer
+L	Diseño
+L	Crear Solicitud / New
+L	Request
+L	Diseñar Componente /
+L	Designing Component
+L	Validar Diseño / Validating
+L	Design
+L	Revisar Calidad / Reviewing
+L	Quality
+L	Configuración acceso
+L	Backend Host / Pending Host
+L	Access
+L	Construcción
+L	Codificar Compo
+L	Under Constructi
+L	Perfilar Transacci
+L	Profiling
+FILE	image7.png	22
+L	Transaction/Job Id
+L	Libraries
+L	DTOs
+L	Published API URL
+L	Solution Model
+L	This Transaction, is*
+L	determined by a
+L	Host migration?
+L	Incidencias
+L	Enlazadas
+L	Incidencia
+L	Adjunto
+L	Link to Google Drive folder documentation
+L	Ninguno
+L	V
+L	relates to
+L	+
+L	Comience a escribir para buscar incidencias a enlazar. Si deja el campo en blanco, no se creará ningún enlace.
+L	(p Suelte los archivos para adjuntarlos o explorar.
+L	• Crear otra
+L	Crear
+L	Cancelar
+FILE	image8.png	18
+L	La información que se deberá rellenar en dicho formulario es:
+L	• Summary: Descripción corta asociada a la función del componente que se desea crear.
+L	• Description: Detalle funcional sobre el componente solicitado.
+L	• Team Backlog: Equipo que se encargará de desarrollar la funcionalidad.
+L	• Feature Link: Issue funcional que está relacionada con el componente a crear.
+L	• Modification Type: Es el tipo de modificación se hará sobre el componente, cuyos posibles valores
+L	son:
+L	• Design: se modificará el diseño del componente APX (Tx, Lib, DTO...). Es una modificación que
+L	afecta también a la construcción del componente.
+L	• Code: Se requiere modificar solamente el código del componente, no habiendo afectación en el
+L	diseño del mismo.
+L	• Regularization: sirve para alinear el diseño del componente АРХ con la implementación que ya se
+L	tiene realizada, típicamente tras una modificación express por un correctivo urgente que
+L	también afectaba al diseño. Para este tipo de modificaciones, el desarrollador debe cerrar el
+L	ticket una vez se llega a la etapa de construcción ('Under construction") con Resolution = Done.
+L	• Geography: País o Área de negocio que trae la necesidad.
+L	• Functional Manager: Persona de contacto de la iniciativa.
+L	• Component Type: tipo de componente АРХ a modificar. Los valores posibles son:
+FILE	image9.png	28
+L	• Component Type: tipo de componente APX a modificar. Los valores posibles son:
+L	If the user does not exist, register it here before.
+L	Component Type*
+L	v Ninguno
+L	Online transaction (and components)
+L	'ansaction/Job Id
+L	Batch process (and components)
+L	Online library
+L	Libraries
+L	Batch library
+L	Online and batch library
+L	DTOs
+L	Online DTO
+L	Batch DTO
+L	ublished API URL
+L	Online and batch DTO
+L	Calidias 1ladal
+L	• Transaction/Job Id: Nombre de la transacción APX (revisar política "Nomenclatura de componentes
+L	• Libraries: Librerías asociadas al componente (separadas por comas "") (revisar política
+L	"Nomenclatura de componentes APX").
+L	• DTOS: Listado de DTOs asociados (separadas por comas "").
+L	• Published API url: Dirección (url) del API publicado.
+L	• Solution Model: Modelo MSA (si no existe MSA se deberá adjuntar justificación).
+L	This Transaction, is determined by a Host migration?: Indicador (Si/No) para determinar si requiere
+L	de migración.
+L	• Linked Issues: Relación del ticket Jira con el listado de componentes asociados.
+L	• Issue: Ticket Jira con el listado de componentes asociados.
+L	• Attachment: Anexo de documentos relevantes, como el justificante en el caso de no existir MSA.
+FILE	image10.png	10
+L	Una vez rellena toda la información se deberá hacer clic en el botón Create.
+L	La solicitud de modificación de un Componente APX puede desencadenarse por los siguientes motivos:
+L	• Bajo el marco de proyecto de la SDA se detecta la necesidad de crear (y/o modificar) Componentes
+L	APX. El modelo donde se detalla la solución de arquitectura, tanto a nivel funcional como técnico,
+L	queda descrito en un documento conocido como MSA. Aquí resaltar que el MSA puede no entrar en
+L	detalle del número de las Componentes APX a ser creadas .
+L	• Evolutivos y correctivos, que no partiendo de un proyecto de la SDA, tengan la necesidad de
+L	modificar Componentes АРХ
+L	En el caso que sólo se requiera la modificación del código, el flujo se moverá de forma automática a
+L	"Under construction". En el resto de casos irá al estado de "designing Component".
+FILE	image11.png	15
+L	Diseñar Componente / Designing Component
+L	El Developer adapta el diseño técnico correspondiente a los metadatos del componente.
+L	Los datos necesarios para completar el nuevo diseño dependen del componente a modificar:
+L	• Transacción APX, su correspondiente Librería y DTOs
+L	Librería de infraestructura APX y sus DTOS
+L	• DTO de infraestructura
+L	Las hojas APX (transacciones, librerías, jobs y cadenas) de los componentes ya existentes a modificar
+L	deben estar presentes en la carpeta del Inbox Hojas APX dentro de la subcarpeta de la UUAA
+L	correspondiente. En caso de no estar disponibles en esta ruta, se debe buscar en el repositorio local de
+L	componentes de la geografía o bien contactar con el gobierno Local para revisar la ubicación de las
+L	mismas.
+L	En caso de tener un único diseño de componente APX el Developer debe indicar en el campo "Transaction
+L	& Libraries Design URL" el link a la Hoja Global APX que está modificando. En caso de que la solicitud se
+L	componga de varios componentes, el Developer debe enlazar las hojas APX Globales que ha diseñado a la
+L	solicitud utilizando los Links de JIRA (More >> Link >> Web Link):
+FILE	image12.png	60
+L	APX Global Processes / APXGP-109
+L	[KMOL] Nueva Librería KMOLR018
+L	Q Comment
+L	Assign
+L	More •
+L	Ready To Integrate
+L	Link
+L	Jira Issue
+L	Web Link
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	Labels:
+L	Geography:
+L	UUAA:
+L	Component Type:
+L	Transaction/Job Id:
+L	Libraries:
+L	Solution Model:
+L	This Transaction, is
+L	determined by a Host
+L	migration?:
+L	Definition of Done
+L	(DoD):
+L	Pending Profiling
+L	Workflow ~
+L	Peopl
+L	Assigi
+L	RI
+L	GIc
+L	KN
+L	On
+L	KN
+L	htt
+L	No
+L	Enter a URL to link this issue to
+L	URL*
+L	@ http:/|
+L	Enter the URL of the page to link
+L	Link Text*
+L	Comment
+L	Repor
+L	Functi
+L	Manag
+L	SD Su
+L	Votes
+L	Watch
+L	Dates
+L	Create
+L	Updat
+L	Devel
+L	Create
+L	a - Viewable by All Users
+L	Transaction &
+L	htt
+L	Libraries Design URL: eU
+L	• Description
+L	Link
+L	Cancel
+FILE	image13.png	31
+L	NOTA: Para el caso del diseño de JOBs, además de la propia hoja del JOB, es necesario incluir también el
+L	Web Link a la hoja de la cadena donde se ejecuta el JOB.
+L	Cuando el Developer tenga una propuesta de modificación del diseño de la transacción o librería, solicita
+L	la revisión del mismo a Gobierno Local transicionando en JIRA a la tarea de 'Validating Design".
+L	APX Global Processes / APXGP-16
+L	Modificación consulta de movimientos de cuentas •
+L	Q Comment
+L	Assign
+L	More •
+L	Validating Design
+L	Reviewing Quality
+L	Workflow •
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	• APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	DESIGNING COMPO...
+L	Unresolved
+L	Validating Design
+L	Definition of Done
+L	(DoD)
+L	0/2
+L	Hide Checked ***
+L	The component requires a third parties access certifications review.
+L	The component requires database credentials.
+L	Comment
+L	Diseño completado. Proceder a su validación.
+FILE	image14.png	18
+L	Validar Diseño / Validating Design
+L	Gobierno Local realiza la revisión del diseño del componente que ha sido modificado en el caso de que se
+L	trata de un diseño Global, garantizando que se dispone de toda la información necesaria para proceder
+L	con la codificación de la misma.
+L	En los casos en los que el diseño de los componentes APX así como su construcción son realizados por
+L	áreas de negocio globales, la validación será llevada a cabo por el área de Gobierno de las áreas globales.
+L	En el caso que la modificación del diseño sea sobre un componente Local, Local Governance no realiza la
+L	revisión del diseño del componente, aunque realiza otras tareas en este punto del flujo, como modificar la
+L	información del componente en el repositorio local. Es el equipo de Local Governance quien debe avanzar
+L	el ticket desde este estado.
+L	Local Governance podría solicitar a OCTA la revisión de la calidad de los componentes APX bajo
+L	determinados criterios establecidos por СТА, como por ejemplo cuando una transacción АРХ necesita
+L	realizar una invocación a más de dos transacciones Host.
+L	Resaltar que a modo de "Comentarios" en JIRA, Local Governance podría indicar el árbol de dependencias
+L	de llamadas entre transacciones de cara a facilitar la revisión de calidad a ser llevada a cabo por OCTA.
+L	En el caso de incluir una nueva transacción Host a ser invocada por una transacción APX ya existente, en
+L	este momento se realiza una modificación de los metadatos de los servicios que invocan a dicha
+L	transacción АРХ.
+FILE	image15.png	23
+L	APX Global Processes / APXGP-16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign More •
+L	Under Construction Pending Host Access
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	• АРХ Component Modification
+L	= Medium
+L	Workflow v
+L	Designing Component
+L	Stati
+L	Reviewing Quality
+L	Reso Closed
+L	Reviewing Quality
+L	Comment
+L	Comentarios relativos a las invocaciones a transaciones host y su árbol de
+L	dependencias, si se conoce.
+L	a - Viewable by All Users
+L	Reviewing Quality
+L	Cancel
+FILE	image16.png	35
+L	Cuando OCTA finalice su tarea, el equipo de Gobierno Local recibirá nuevamente la tarea con el dictamen,
+L	y en caso de poder proceder, transicionará en JIRA el ticket al estado "Pending Host Access".
+L	APX Global Processes / APXGP - 16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign
+L	More v
+L	Under Construction
+L	Pending Host Access
+L	Workflow ~
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	• APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	VALIDATING DESIGN
+L	Unresolved
+L	Pending Host Access
+L	Transaction &
+L	Libraries Design
+L	URL
+L	Definition of Done
+L	(DoD)
+L	https://docs.google.com/document/d/
+L	2/3 - ALL MANDATORY
+L	Hide Checked ***
+L	The number of Host Transactions calls does not exceeds the defined
+L	limit.*
+L	Service Metadata is valid. *
+L	Third parties communication.
+L	Comment
+L	Configurar accesos a Host.
+FILE	image17.png	11
+L	Revisar Calidad / Reviewing Quality
+L	СТА realiza la revisión de la calidad asociada a los componentes АРХ. Podrá determinar si está
+L	justificado el acceso a más de dos transacciones Host desde una transacción APX o por el contrario,
+L	solicitar una modificación del diseño para evitar penalizaciones en la calidad.
+L	OCTA puede recibir feedback tanto del área de Gobierno como de los Desarrolladores.
+L	Cuando esta tarea ha tenido lugar, OCTA emite el resultado de la revisión de la Calidad asociada al diseño
+L	de componentes y adjunta un informe detallado con el resultado obtenido cuando aplica.
+L	Los valores del resultado son:
+L	• Accepted with risk
+L	• Rejected
+L	• Does not appy
+FILE	image18.png	30
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	Validating Design
+L	APX Global Processes / APXGP -16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign More • Validating Design Designing Component
+L	• APX Component Modification
+L	= Medium
+L	Closed
+L	Status:
+L	Resolution:
+L	REVIEWING QUALITY
+L	Unresolved
+L	Design Quality*
+L	Review Result
+L	Attachment
+L	Accepted
+L	p Drop files to attach, or browse.
+L	Definition of Done
+L	(DoD)
+L	0/1
+L	Hide Checked
+L	...
+L	The URL required to call external services is valid.
+L	•
+L	Comment
+L	Dictamen favorable
+FILE	image19.png	8
+L	Configuración acceso Backend Host / Pending Host Access
+L	Cuando una transacción АРХ necesite invocar al mainframe (Host), el АРХ Local Architect de la geografía /
+L	área realiza la configuración de acceso entre la transacción APX y el Host, dando de alta los conectores
+L	(ficheros xml) con el descriptor de la transacción e implantándolo a través de la consola APX de operación.
+L	En el caso de que alguna librería asociada a la transacción APX necesite acceder a Host es necesario
+L	realizar una configuración adicional.
+L	La necesidad de realizar esta configuración ha quedado reflejada en el diseño correspondiente realizado
+L	a nivel de la librería.
+FILE	image20.png	15
+L	• Sub-Tasks
+L	1. Pending Host Access
+L	2. Pending Backend Security Operation
+L	TO DO
+L	TO DO
+L	APX Global Processes / APXGP-16 Modificación consulta de movimientos ... / APXGP-17
+L	Pending Host Access
+L	Closed
+L	Resolution*
+L	Comment
+L	Done
+L	Realizada las configuracion de conectores a Host.
+L	* b • Viewable by All Users
+L	Closed
+L	Cancel
+FILE	image21.png	15
+L	APX Global Processes / APXGP-16 Modificación consulta de movimientos de cuentas / APXGP-18
+L	Pending Backend Security Operation
+L	Closed
+L	Resolution*
+L	Comment
+L	Done
+L	Realizada configuración de seguridad de la transacción.
+L	a - Viewable by All Users
+L	Closed
+L	• Sub-Tasks
+L	1. • Pending Host Access
+L	2. • Pending Backend Security Operation
+L	Cancel
+L	CLOSED
+L	CLOSED
+FILE	image22.png	11
+L	Construcción
+L	Codificar Componente / Under Construction
+L	El Developer en esta tarea va a llevar a cabo las adaptaciones sobre el componente AP para adecuarlo al
+L	requerimiento.
+L	En esta tarea también se incluyen las pruebas unitarias sobre la transacción y librerías. El developer podrá
+L	iterar tantas veces entre construcción y pruebas como considere necesarias.
+L	En el caso de Transacciones, la construcción queda registrada en el Catálogo de Transacciones de la
+L	geografía / área correspondiente. Este paso es necesario para poder continuar a continuación con el
+L	perfilado de la transacción.
+L	El Developer solicita a través de JIRA el perfilado de la transacción APX en entornos previos, necesario
+L	para poder realizar las pruebas.
+FILE	image23.png	22
+L	APX Global Processes / APXGP - 16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign
+L	More •
+L	Ready To Integrate Pending Profiling Workflow ~
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	4 APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	UNDER CONSTRUCTI...
+L	Unresolved
+L	Pending Profiling
+L	Comment
+L	Se solicita el perfilado de la transacción KGSAT00101ES en entornos previos.
+L	b - Viewable by All Users
+L	Pending Profiling
+L	Cancel
+FILE	image24.png	36
+L	hinalizada la codificacion de la modificacion y realizadas las pruepas unitarias, el veveloper procede a
+L	solicitar la integración de su componente al equipo de Release Managers.
+L	Asimismo, deberá acceder a JIRA y transicionar el ticket al estado "Ready to Integrate".
+L	APX Global Processes / APXGP-16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign
+L	More v
+L	Ready To Integrate
+L	Pending Profiling
+L	Workflow •
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	• APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	UNDER CONSTRUCTI...
+L	Unresolved
+L	Ready To Integrate
+L	Origin branch
+L	Deployment Date
+L	Resource
+L	Definition of Done
+L	(DoD)
+L	https://globaldevtools.bbva.com/je-mm-es-apps-apx/
+L	17/Dec/20
+L	1/2 - ALL MANDATORY
+L	Consumer/petitioner Acceptance. *
+L	Transaction registered in Alhambra Console.
+L	Hide Checked ***
+L	•
+L	Comment
+L	Proceder con la integración.
+FILE	image25.png	6
+L	La información que se deberá rellenar en este formulario es:
+L	• Origin Branch: Nombre de la rama origen del componente
+L	• Deployment Date: Fecha de despliegue
+L	• Resource: Unidad de despliegue
+L	• Definition of Done: Requisitos que se deben cumplir para poder enviar el formulario.
+L	Comment: Comentarios adicionales por parte del Developer (Peticionario)
+FILE	image26.png	24
+L	Perfilar Transacción / Pending Profiling
+L	Seguridad Local puede realizar adaptaciones relativas al perfilado de la transacción APX (entornos
+L	previos) necesario para que el developer pueda realizar sus pruebas.
+L	La tarea de perfilado aplica a Transacciones APX, no a Librerías de infraestructura o DTOs comunes.
+L	Una vez realizado el perfilado de la transacción, el equipo de Seguridad transicionará en JIRA el ticket
+L	nuevamente al estado "Under Construction", para continuar con la codificación de la modificación del
+L	componente.
+L	APX Global Processes / APXGP - 16
+L	Modificación consulta de movimientos de cuentas
+L	' Edit
+L	• Details
+L	Type:
+L	Priority:
+L	Q Comment
+L	Assign
+L	More •
+L	Under Construction
+L	Closed
+L	% APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	PENDING PROFILING
+L	Unresolved
+FILE	image27.png	11
+L	Despliegue
+L	Integrar Componente / Ready to Integrate
+L	Una vez se tienen todas las peticiones de integración en la fecha límite marcada para la solicitud, el
+L	Release Manager revisa las peticiones y se procede con las integraciones de las Pull Request.
+L	En esta etapa se realizan las siguientes acciones:
+L	• Aprobación del Pull Request.
+L	• Generación de la Release Candidate (RC).
+L	• Generar la Release Version que se va a desplegar por los distintos entornos.
+L	• Desplegar la versión en los entornos previos (incluido el entorno de OCTA).
+L	Una vez finalizada la integración, el Release Manager transicionará el ticket JIRA al estado "Pending
+L	Release Candidate Validation".
+FILE	image28.png	29
+L	APX Global Processes / APXGP-16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign
+L	More •
+L	Pending Release Candid...
+L	Under Construction
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	Closed
+L	9 APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	READY TO INTEGRATE
+L	Unresolved
+L	Pending Release Candidate Validation
+L	Definition of Done
+L	(DoD)
+L	1/1 - COMPLETED
+L	• Versioning generated in POM. *
+L	...
+L	Comment
+L	Proceder con la validación de la RC
+L	• - Viewable by All Users
+L	Pending Release Candidate Validation
+L	Cancel
+FILE	image29.png	10
+L	Realizar pruebas Release Candidate / Pending Release Candidate
+L	Validation
+L	Una vez integrados los cambios en la rama Release Candidate, el Developer se encarga de obtener el
+L	V°B° del componente a los peticionarios correspondientes. Entre los peticionarios podrán estar: Product
+L	Owners, Consumidores, áreas de Auditoría, y en definitiva, usuarios finales encargados de certificar el
+L	componente y así poder continuar con la promoción del mismo por los entornos pre-productivos.
+L	Es responsabilidad del developer dar al menos su VºB° a la rama Release Candidate que va a ser llevada a
+L	los entornos pre-productivos hasta su llegada a producción.
+L	Antes de pasar a la siguiente tarea, el Developer debe proporcionar un conjunto de datos necesarios para
+L	determinar si las pruebas de performance se llevarán a cabo mediante PMaaS o intervendrá OCTA.
+FILE	image30.png	42
+L	Realizar Pruebas de Rendimiento / Executing Performance Test
+L	NO
+L	¿Aplica?
+L	SI
+L	NO
+L	Is it a new o
+L	modified TITAN
+L	access?
+L	NO
+L	Bajo
+L	Pending Release
+L	Candidate
+L	PMaaS
+L	Measurement
+L	¿ Volumetría?
+L	SI
+L	Alto
+L	¿Resultado
+L	OK?
+L	NO
+L	Executing
+L	Perfomance Test
+L	Pending Production
+L	Deployment
+L	Is it a component type=
+L	"Batch Process (and
+L	components)* or "Batch
+L	Library, OR&Online and
+L	Batch Library®?
+L	Cuando se finalice el paso por EEPP y las pruebas sean validadas (estado Pending Release Candidate
+L	Validation), el ticket deberá avanzar al siguiente paso que es determinar si aplica o no la realización de
+L	pruebas de medición o rendimiento, para ello se debe avanzar a PMaaS:
+L	• Edit
+L	Q Add comment
+L	Assign
+L	More v
+L	PMaaS
+L	Under Construction Workflow • Admin •
+L	Al realizar la transición se tendrá que cumplimentar el formulario, en el cual se determina si aplica o no
+L	realizar pruebas de calidad y de qué tipo, de forma que si la volumetría esperada en muy baja, baja o
+L	media el proceso transiciona a "PMaas Measurement". En el caso de que la volumetría sea alta o muy
+L	alta, el flujo mantiene el paso a Executing Performance Test sin ningún cambio.
+FILE	image31.png	10
+L	PMaaS Measurement
+L	Si la volumetría esperada en muy baja, baja o media el proceso transiciona a "PMaaS Measurement'. En la
+L	ayuda del estado encontraremos el link al portal de calidad. Seguiremos las instrucciones que nos indican
+L	y esperaremos a obtener el resultado de las pruebas:
+L	• Help
+L	® PMaaS Measurement
+L	Based on the information received, performance tests for this component can be carried out through PMaas autocertification tool. Please
+L	follow the instructions displaved at the followina link to get vour OCTA certification
+L	Si el resultado es aceptado, transicionará al estado Pending Production Deployment, en caso contrario
+L	transicionará a Executing Performance Test para que el equipo de Deployment Quality revise el resultado.
+FILE	image32.png	16
+L	Executing Performance Test
+L	En esta etapa del flujo OCTA procederá a evaluar la ejecución de las pruebas así como el tipo de pruebas
+L	de rendimiento Performance Tests a ser llevadas a cabo.
+L	Es importante remarcar que no es necesario abrir ningún tipo de petición nueva por fuera de este flujo a
+L	OCTA para la ejecución de los Tests. OCTA está totalmente integrado en el flujo JIRA actual.
+L	СТА ejecuta pruebas a nivel de transacción, librería АРХ y también componentes batch (librerías batch y
+L	jobs).
+L	Dependiendo de la volumetría de uso estimada podrá cambiar el tipo de pruebas a realizar, que serán
+L	mediciones (revisión de ejecuciones unitarias) o pruebas de volumen (de estrés, escalabilidad,
+L	estabilidad, etc.)
+L	OCTA emite el resultado de las pruebas, que puede ser bloqueante, y adjunta un informe detallado con el
+L	resultado obtenido, cuando aplica.
+L	Los valores del resultado son:
+L	• Accepted
+L	• Rejected
+L	• Does not apply
+FILE	image33.png	29
+L	Una vez finalizadas las pruebas, si procede, OCTA es el encargado de transicionar el ticket en JIRA al
+L	estado "Pending Production Deployment" indicando además el resultado de sus pruebas de performance.
+L	APX Global Processes / APXGP-9
+L	Recurso prueba APX
+L	Q Comment
+L	Assign
+L	More •
+L	Pending Production Dep
+L	Under Construction
+L	Closed
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	+ APX Component Request
+L	= Medium
+L	Status:
+L	Resolution:
+L	EXECUTING PERFOR...
+L	Unresolved
+L	Pending Production Deployment
+L	Performance Test*
+L	Result
+L	Attachment
+L	Accepted
+L	(† Drop files to attach, or browse.
+L	Comment
+L	Prueba satisfactora.
+L	a - Viewable by All Users
+FILE	image34.png	27
+L	Solicitar el Despliegue a Producción / Pending Production
+L	Deployment
+L	El Desarrollador da continuidad al proceso para poder avanzar con el proceso de despliegue en
+L	producción. En este punto deberá facilitar el código CRQ correspondiente a la autorización necesaria para
+L	el Despliegue.
+L	APX Global Processes / APXGP -16
+L	Modificación consulta de movimientos de cuentas
+L	Q Comment
+L	Assign
+L	More ~
+L	Ready To Production De...
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	Ready To Integrate
+L	Closed
+L	• APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	PENDING PRODUCTI...
+L	Unresolved
+L	Ready To Production Deployment
+L	CRQ code
+L	Comment
+L	CRQ12345678îîŚ
+FILE	image35.png	31
+L	Implantar en Producción / Ready to Production Deployment
+L	El Release Manager planifica el despliegue en producción (previa autorización del Technical Lead) en la
+L	fecha prevista según el Calendario de Planificaciones. Llegada la fecha, se procede a la gestión del pase al
+L	entorno de producción.
+L	El pase de los tickets JIRA al estado Deployed, mientras se implementa el automatismo desde la consola,
+L	será realizado de forma manual una vez implantados los componentes APX en producción.
+L	АРХ Global Processes / APGP-16
+L	Modificación consulta de movimientos de cuentas
+L	• Edit
+L	• Details
+L	Type:
+L	Priority:
+L	Q Comment
+L	Assign
+L	More • Deployed Closed
+L	• APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	READY TO PRODUCTI...
+L	Unresolved
+L	Deployed
+L	Definition of Done
+L	(DoD)
+L	3/3 - COMPLETED
+L	| Succesfull Implantation. *
+L	• Regression Production Test OK. *
+L	• Repo merged to Master Branch. *
+L	...
+L	Comment
+L	Versión desplegada correctamente. Actualizar repositorios locales de
+FILE	image36.png	29
+L	Desplegado / Deployed
+L	Gobierno Local una vez desplegado el componente/s, actualizará el estado del mismo en sus repositorios
+L	locales y procederá a cerrar el ticket (Resolution "Deployed"), hasta que se implemente el automatismo
+L	que permita cerrarlo de forma automática.
+L	APX Global Processes / APXGP-16
+L	Modificación consulta de movimientos de cuentas
+L	• Edit
+L	Q Comment
+L	Assign More w Ready To Production De. Closed
+L	• Details
+L	Type:
+L	Priority:
+L	• APX Component Modification
+L	= Medium
+L	Status:
+L	Resolution:
+L	DEPLOVED
+L	Unresolved
+L	Closed
+L	Resolution*
+L	Definition of Done
+L	(DoD)
+L	Deployed
+L	2/2 - COMPLETED
+L	Tx State updated in the catalogs. *
+L	• No conflicts found in the Metadata Validation.*
+L	...
+L	Comment
+L	Componente correctamente desplegado y acutalizado en repositorio.
+FILE	image37.png	9
+L	Cerrar Solicitud / Closed
+L	La petición queda cerrada y el estado del componente actualizado en Consola Ether.
+L	Cabe destacar que a lo largo de todo el proceso cualquier Rol y justificando el motivo puede llevar a cabo
+L	el cierre de un ticket:
+L	• Deployed. Servicio desplegado en producción correctamente
+L	• Cancelled. Se cancela la petición
+L	• Declined. No procede la petición
+L	• Duplicate. Petición duplicada
+L	• Done. Completado el objetivo de apertura del ticket
+FILE	image38.png	20
+L	Prerrequisitos - Ticket Jira
+L	§ IMPORTANTE: Es necesario incluir todos los documentos listados dependiendo del tipo de componente
+L	Requisitos Online (ASO)
+L	MSA / Documento de análisis
+L	Preview / API
+L	Hoja diseño de la transacción
+L	Hoja diseño de la librería(s)
+L	Requisitos Online (Evento)
+L	MSA / Documento de análisis
+L	EDD / Mapping / API evento
+L	Hoja diseño de la transacción
+L	Hoja diseño de la librería(s)
+L	Requisitos Batch
+L	MSA / Documento de análisis
+L	Hoja Malla/Folder
+L	Hoja JOB
+L	Hoja diseño de la librería(s)
+L	EI MSA / Documento de análisis debe
+L	contener representado el flujo del
+L	componente asociado
+FILE	image39.png	27
+L	Flujo АРХ 1.0
+L	Características Generales
+L	Las peticiones de certificación APX se levantan en el board global indicando como geografía México de acuerdo a la documentación global.
+L	La estructura del título del ticket será la siguiente:
+L	Para proyectos SDA vigentes: [SDATOOL-XXXXX] - [Nombre Corto del Proyecto] - [Identificador del componente principal: transacción o job]
+L	Proyectos no SDA: [NO-SDATOOL] - [Nombre Corto del Proyecto] - [Identificador del componente principal: transacción o job]
+L	Proyectos BaU: [BAU] - [Nombre Corto del Proyecto] - [Identificador del componente principal: transacción o job]
+L	• Es importante adjuntar el Feature en el que se está trabajando (sólo si aplica). Deberá adjuntarse en la sección "Feature Link" del ticket y si no se
+L	encuentra ahí la tarea o funcionalidad puede agregarse también como "Issue Links" de tipo "blocks".
+L	• El equipo de Gobierno de Diseño APX solo hace seguimiento de la petición en el estatus "Validating Design" del tablero. Los demás estatus y su
+L	movimiento en el tablero son responsabilidad del diseñador APX hasta su finalización.
+L	• No existe un estatus de bloqueo, en caso de tener comentarios del equipo de diseño, el ticket regresa "Designing Component" y al finalizar los ajustes, el
+L	developer lo moverá a "Validating Design" y la herramienta asignará al grupo de gobierno en automático.
+L	• Recuerda dar accesos de lectura a todos tus insumos y colocarlos en la sección de "Issue Links", no como archivos adjuntos.
+L	• En caso de Modificaciones:
+L	Los tickets que pasan a status "Under Construction" y sufran alguna modificación al diseño, pueden regresar al estatus "Designing
+L	Component" → "Validating Design" sin tener que levantar otro ticket. Solo debes indicar en amarrillo los cambios dentro de los insumos, en rojo
+L	lo que se elimina y anexar las copias de los diseños registrados en el inventario de Gobierno.
+L	Si no cuenta con ticket previo, debes levantar tu solicitud de Modificación (APX Component Modification) de tipo "Design" e indicar en
+L	amarrillo los cambios dentro de los insumos, en rojo lo que se elimina y anexar las copias de los diseños registrados en el inventario de Gobierno.
+L	En caso de Componentes Globales:
+L	Es importante verificar e indicar si el 1er país de despliegue (o país ancla) será MX. En caso contrario revisar lo siguiente:
+L	Los componentes deben venir previamente validados por el equipo del Tenant Global para poder ser inventariados de manera local.
+L	Es importante que verifiquen que la versión de la API con la que fue certificada por global (su último ticket con ellos) coincida con la versión de la
+L	API del ticket local que se pretende inventariar con México ya que los diseños y versiones deben coincidir.
+L	***Para apoyo sobre el llenado de plantillas, estructuras y políticas actuales de Diseño APX,
+L	no olvides consultar nuestra documentación en el Platform de Diseño APX Local***
+FILE	image40.png	21
+L	Descripción - Ticket Jira
+L	La descripción de ticket JIRA debe contener los siguiente:
+L	Contexto: Ej. Eliminar los campos userid y user.name de la transacción y librería, adicional se agregan campos opcionales en la respuesta. Este mismo tema
+L	se discutió en el workshop del día XX de XX.
+L	Tipo de actividad (aplica para solicitudes BaU, sino colocar N/A): Colocar el tipo de actividad a la que atiende la solicitud, estos pueden ser Incidencias,
+L	Correctivos, Auditorías, Evolutivos, etc.
+L	- AAPS / Canales consumidores: Ej. 10000056, 10000057.
+L	- Descripción corta del componente (Menos de 100 caracteres): Ej. Transacción para consultar el detalle de las ofertas de TDC en CRM.
+L	- API (API designer ó API Ether Catalogs), EDD o mapping (trx origen - trx destino): El link de la API en API designer debe de tener un estado:
+L	publishing/approved ó si es link de API Ether Catalogs debe de estar publicada. Si es un evento puedes poner la liga a tu EDD o mapping.
+L	- RegistryID (solo para ASO): Si existe poner el RegistrylD (SMC, SMG, etc), en caso contrario incluir N/A.
+L	- Ticket JIRA de diseño (solo para ASO): Si existe poner el Ticket JIRA con el cual se está trabajando el diseño del servicio ASO y su API, en caso contrario
+L	incluir N/A.
+L	- Nombre del Champion APX (de acuerdo a tu gremio): Se indicará el nombre del Champion APX.
+L	- Tipo de componente: Las opciones son ASO/Evento/Batch
+L	- Tipo de Evento (solo si aplica): Si el tipo de componente es Evento aqui debera colocarse si es: Evento de Negocio ó Evento Técnico ó Evento Legacy, si no
+L	aplica N/A
+L	Primer País de despliegue o País Ancla (aplica solo para componentes globales, para locales dejar N/A): Indicar si MX es el primer pais en donde se
+L	desplegará el componente o por el contrario si ya fue certificada previamente por otra geografía, indicarla al igual que el número de ticket.
+L	' IMPORTANTE: Mientras no muevas tu ticket al estatus "Validating Design" no es posible que el equipo de Gobierno
+L	trabaje en la certificación de tu ticket, recuerda siempre moverlo al estatus correcto.
