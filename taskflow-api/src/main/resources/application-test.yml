@@ -1,0 +1,25 @@
+# application-test.yml — perfil 'test' (se activa con @ActiveProfiles("test")). PROVISTO.
+#
+# Regla de S1D5, ahora con BD: los tests NO tocan los datos reales. El runtime usa H2 en ARCHIVO
+# (data/taskflow.mv.db); los @SpringBootTest usan H2 en MEMORIA, efímera y con esquema fresco, así
+# NADA se escribe en el archivo. D5 reutiliza este mismo perfil tal cual.
+#
+# ${random.uuid} en el nombre de la BD: cada contexto de Spring (el de los MockMvc y el de contextLoads
+# se cachean por separado) recibe una BD en memoria DISTINTA -> no se contaminan entre sí. DB_CLOSE_DELAY=-1
+# mantiene viva la BD mientras el contexto exista (aunque el pool cierre conexiones).
+#
+# NOTA: @DataJpaTest NO usa este perfil — trae su propia BD embebida (auto-reemplazo del datasource).
+# Este perfil es para la suite @SpringBootTest (MockMvc + el TaskServiceTest parchado + contextLoads).
+spring:
+  datasource:
+    url: jdbc:h2:mem:taskflow-test-${random.uuid};DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop   # crea el esquema al arrancar el contexto, lo BORRA al pararlo (efímero)
+    show-sql: false           # el log de los tests no se ahoga en SQL
+    open-in-view: false
+  h2:
+    console:
+      enabled: false

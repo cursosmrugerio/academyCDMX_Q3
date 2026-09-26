@@ -49,11 +49,9 @@ proyectosWeb/springWebFlux/Conceptos/notebook/
 **/data/*.mv.db
 **/data/*.trace.db
 
-# Llaves privadas de SSH. El material de AWS manda crear un key pair y guardar el
-# .pem FUERA del repo, pero basta con que alguien lo deje aqui una vez para que
-# quien clone se lleve una credencial ajena. El 11-sep-2026 aparecio un
-# taskflow-key.pem suelto dentro de taskflow-api/: sin rastrear, pero tampoco
-# ignorado, o sea que un `git add .` lo habria publicado.
+# Llaves privadas de SSH. Van siempre FUERA del repo, pero basta con que alguien
+# deje una aqui una vez para que quien clone se lleve una credencial ajena: sin
+# esta regla, un `git add .` la publicaria.
 *.pem
 *.ppk
 *.key

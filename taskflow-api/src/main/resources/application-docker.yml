@@ -1,0 +1,24 @@
+# application-docker.yml — perfil 'docker' (S3D2, MP-9). Se activa con SPRING_PROFILES_ACTIVE=docker,
+# que el compose inyecta en el servicio 'api'. Apunta a la Postgres del compose.
+#
+# Spring carga application.yml SIEMPRE y este archivo ENCIMA: solo sobreescribe lo que declara aquí;
+# el resto (server.port, jwt.expiration-ms, open-in-view...) se HEREDA del application.yml default.
+#
+# Perfiles del proyecto (ninguno pisa al otro):
+#   dev    = el default de siempre (application.yml, H2 en ARCHIVO) — desarrollo sin levantar nada
+#   docker = ESTE (Postgres del compose)                            — paridad con la entrega
+#   test   = application-test.yml (H2 en MEMORIA)                   — la suite, intacta de S2D4
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:db}:${DB_PORT:5432}/${DB_NAME:taskflow}   # defaults = compose ('db':5432/taskflow); otro Postgres se alcanza cambiando SOLO DB_HOST/DB_PORT/DB_NAME
+    username: ${DB_USER}                       # 12-factor: el ambiente inyecta; el yml documenta
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update    # dev con Docker; producción: validate + migraciones (Flyway) — eco de S2D4
+    show-sql: true        # visible durante el curso; en prod se apaga
+  h2:
+    console:
+      enabled: false      # en este perfil no hay H2 que consolear
+jwt:
+  secret: ${JWT_SECRET}   # la promesa de S2D5, pagada: el secret vive en el ambiente

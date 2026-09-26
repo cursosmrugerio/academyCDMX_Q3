@@ -1,0 +1,544 @@
+{
+  "info": {
+    "name": "TaskFlow API v2",
+    "description": "Coleccion del capstone TaskFlow v2.0 (S2D5): API REST asegurada con JWT. La coleccion tiene auth tipo Bearer a nivel coleccion con la variable {{token}}; el request 'Login' guarda el token con un script post-response, asi un solo login autentica TODA la coleccion. Variables: {{baseUrl}} = http://localhost:8080, {{token}} (se llena al hacer login). Flujo de demo (5 min): Register -> Login -> POST Project -> POST Task -> PATCH status DONE -> GET tasks del proyecto.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "description": "Registro y login. Estos endpoints son PUBLICOS (permitAll) y no llevan token.",
+      "item": [
+        {
+          "name": "POST Register (201)",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"demo\",\n  \"email\": \"demo@taskflow.dev\",\n  \"password\": \"demo123\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/register",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "register"
+              ]
+            },
+            "description": "Alta de usuario. 201 con UserResponse (SIN passwordHash). Username duplicado -> 409. El password se guarda hasheado (BCrypt)."
+          },
+          "response": []
+        },
+        {
+          "name": "POST Login (setea {{token}})",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"login 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "// Guarda el token a nivel coleccion: a partir de aqui TODA la coleccion queda autenticada.",
+                  "pm.collectionVariables.set(\"token\", pm.response.json().token);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"ana\",\n  \"password\": \"ana123\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ]
+            },
+            "description": "Login. 200 con { token }. El script post-response guarda {{token}}. Usuarios semilla: ana/ana123 (USER, owner del proyecto 1), luis/luis123 (USER), admin/admin123 (ADMIN). Password malo -> 401."
+          },
+          "response": []
+        },
+        {
+          "name": "GET Me (STRETCH)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/auth/me",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "me"
+              ]
+            },
+            "description": "STRETCH: datos del usuario del token (Authentication). Sin token -> 401."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "description": "CRUD de proyectos (hereda el Bearer {{token}} de la coleccion).",
+      "item": [
+        {
+          "name": "GET Projects",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/projects",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects"
+              ]
+            },
+            "description": "Todos los proyectos. Sin token -> 401; con token -> 200."
+          },
+          "response": []
+        },
+        {
+          "name": "GET Project por id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/projects/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects",
+                "1"
+              ]
+            },
+            "description": "Un proyecto por id. 200 con ProjectResponse; inexistente -> 404."
+          },
+          "response": []
+        },
+        {
+          "name": "POST Project (201, owner = usuario del token)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Proyecto de la demo\",\n  \"description\": \"Creado en la demo final\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/projects",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects"
+              ]
+            },
+            "description": "Crea un proyecto. 201 + Location. El owner NO viaja en el cuerpo: se toma del usuario del JWT (por eso el ownerId de la respuesta es el id del usuario logueado)."
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Project (200)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Plataforma TaskFlow (v2)\",\n  \"description\": \"Nombre y descripcion reemplazados\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/projects/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects",
+                "1"
+              ]
+            },
+            "description": "Reemplazo completo. Conserva id, owner y createdAt."
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Project (204 owner/ADMIN | 403 otro)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/projects/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects",
+                "1"
+              ]
+            },
+            "description": "Regla del capstone: solo ADMIN o el owner. Con el token de ana (owner del proyecto 1) o admin -> 204. Con el token de luis (ni owner ni admin) -> 403. Sin token -> 401."
+          },
+          "response": []
+        },
+        {
+          "name": "GET Tasks de un proyecto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/projects/1/tasks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects",
+                "1",
+                "tasks"
+              ]
+            },
+            "description": "Tareas de un proyecto (TaskResponse). Inexistente -> 404; existente sin tareas (prueba /projects/3/tasks) -> 200 con []."
+          },
+          "response": []
+        },
+        {
+          "name": "POST Task bajo proyecto (201)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Tarea de la demo\",\n  \"description\": \"Con assignee para poder completarla\",\n  \"priority\": \"HIGH\",\n  \"assigneeId\": 1,\n  \"dueDate\": \"2099-12-31\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/projects/1/tasks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects",
+                "1",
+                "tasks"
+              ]
+            },
+            "description": "Crea una tarea bajo el proyecto 1. 201 + Location: /tasks/{id}. Nace en TODO. Lleva assigneeId para poder pasarla a DONE luego."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Tasks",
+      "description": "CRUD de tareas (hereda el Bearer {{token}} de la coleccion).",
+      "item": [
+        {
+          "name": "GET Tasks",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tasks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tasks"
+              ]
+            },
+            "description": "Todas las tareas, ordenadas por urgencia (TaskResponse)."
+          },
+          "response": []
+        },
+        {
+          "name": "GET Tasks por status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tasks?status=DONE",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tasks"
+              ],
+              "query": [
+                {
+                  "key": "status",
+                  "value": "DONE",
+                  "description": "TODO | IN_PROGRESS | DONE (MAYUSCULAS)."
+                }
+              ]
+            },
+            "description": "Filtro opcional por estado."
+          },
+          "response": []
+        },
+        {
+          "name": "GET Task por id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tasks/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tasks",
+                "1"
+              ]
+            },
+            "description": "Una tarea por id. 200 con TaskResponse si existe."
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Task (200)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Endpoint de login (revisado)\",\n  \"description\": \"POST /auth/login con JWT\",\n  \"priority\": \"HIGH\",\n  \"assigneeId\": 2,\n  \"dueDate\": \"2030-12-31\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/tasks/3",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tasks",
+                "3"
+              ]
+            },
+            "description": "Actualiza la tarea completa: es el paso 4 de «un dia en la vida» (asignar responsable y fecha). title fuera de 3-120 -> 400; dueDate pasada SI se acepta aqui (la regla temporal solo vive en la creacion)."
+          },
+          "response": []
+        },
+        {
+          "name": "PATCH Task status DONE (200)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"DONE\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/tasks/1/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tasks",
+                "1",
+                "status"
+              ]
+            },
+            "description": "Cambia el estado. Con assignee -> 200; a DONE sin assignee (prueba /tasks/6/status) -> 422."
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Task (204)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tasks/9",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tasks",
+                "9"
+              ]
+            },
+            "description": "Borra una tarea. 204; inexistente -> 404."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Seguridad (tabla 401 vs 403)",
+      "description": "Los casos que cierran la tabla canonica del dia.",
+      "item": [
+        {
+          "name": "GET Projects SIN token (401)",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/projects",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects"
+              ]
+            },
+            "description": "Sin header Authorization -> 401 (fallo de AUTENTICACION: 'no se quien eres')."
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Project como luis (403)",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "// Loguea a luis (USER, no owner) SOLO para este request y guarda su token en {{token}}.",
+                  "const base = pm.collectionVariables.get(\"baseUrl\");",
+                  "pm.sendRequest({",
+                  "  url: base + \"/auth/login\",",
+                  "  method: \"POST\",",
+                  "  header: { \"Content-Type\": \"application/json\" },",
+                  "  body: { mode: \"raw\", raw: JSON.stringify({ username: \"luis\", password: \"luis123\" }) }",
+                  "}, function (err, res) {",
+                  "  if (!err) pm.collectionVariables.set(\"token\", res.json().token);",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/projects/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "projects",
+                "1"
+              ]
+            },
+            "description": "luis esta autenticado pero NO es owner del proyecto 1 ni ADMIN -> 403 (fallo de AUTORIZACION: 'se quien eres y NO puedes'). Por que 403 y no 401: la API SI sabe quien es luis. Tras correrlo, vuelve a correr Login para recuperar el token de ana."
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+# application.yml — config del proyecto (YAML: jerarquía por INDENTACIÓN de 2 espacios, nunca tabs).
+# HOY (S2D5) el archivo gana el bloque JWT (secret + expiración). La persistencia H2 en ARCHIVO viene
+# de D4: los datos sobreviven al reinicio.
+server:
+  port: 8080                 # el puerto donde escucha Tomcat
+
+spring:
+  application:
+    name: taskflow-api
+  main:
+    banner-mode: "off"       # sin el banner ASCII de Spring al arrancar (log más limpio)
+
+  # ---- Virtual threads (Java 21 / Loom) — AWARENESS de S3D5, AM-1 (Demo D3) ----
+  # La INVITACIÓN de la demo reactiva: con UNA línea, el pool de Tomcat deja de atarse a threads del SO
+  # (1 request = 1 virtual thread barato). Resuelve "muchos requests que solo esperan I/O" SIN reescribir
+  # a WebFlux — el código imperativo queda INTACTO. NO resuelve backpressure/streaming (eso sigue siendo
+  # territorio reactivo). Se deja COMENTADO a propósito (punto de dolor 11): el día de la demo no se
+  # estrena config; quien lo probó en AM-1 lo revirtió ANTES del freeze — nada nuevo entra al tag v3.0.
+  # threads:
+  #   virtual:
+  #     enabled: true
+
+  # ---- Persistencia (D4) ----
+  datasource:
+    # H2 en ARCHIVO: la BD es el archivo ./data/taskflow.mv.db (ruta relativa al working directory).
+    # La consola H2 usa ESTA URL, letra por letra (punto de dolor de D4).
+    url: jdbc:h2:file:./data/taskflow
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update       # dev local: ajusta el esquema sin borrar datos. Cambiaste una entidad
+                             # (HOY User gana password_hash) -> borra data/*.mv.db y deja resembrar.
+    show-sql: true           # el SQL generado se LEE, no se ignora (regla del día)
+    open-in-view: false      # la sesión JPA NO vive durante todo el request -> DTOs siempre.
+  h2:
+    console:
+      enabled: true          # consola web SQL en /h2-console (útil para ver la columna password_hash)
+      path: /h2-console
+
+# ---- Seguridad JWT (S2D5) ----
+# El JwtService PROVISTO lee estas dos claves. Ver la lectura guiada (MP-7).
+jwt:
+  # Secret de 64 chars (>= 256 bits): HS256 lo exige o lanza WeakKeyException (punto de dolor 11).
+  # EN PRODUCCIÓN esto NUNCA se commitea: va en una VARIABLE DE ENTORNO (se formaliza en S3 con
+  # 12-factor/Docker). Aquí en claro, a propósito, para que el día fluya.
+  secret: "cambiame-en-produccion-taskflow-jwt-secret-de-64-caracteres-min!"
+  # Vigencia del token en milisegundos: 3600000 = 1 hora. (La demo del instructor usa 60s a propósito
+  # para provocar el ExpiredJwtException del Error intencional 2; los alumnos dejan 1 h.)
+  expiration-ms: 3600000

@@ -1,0 +1,13 @@
+# .dockerignore — lo que NO viaja al build context (MP-5).
+#
+# El build context es TODO lo que 'docker build .' manda al daemon antes de leer
+# el Dockerfile; sin este archivo, el COPY arrastra basura y secretos, el build
+# se hace lento y —peor— pueden FUGARSE datos personales dentro de la imagen.
+# Verificable: mira "transferring context: X MB" en la primera línea del build.
+
+target/          # los .class y el jar viejo: se reconstruyen DENTRO de la etapa build
+data/            # la H2 en ARCHIVO con TUS datos de dev — jamás debe entrar a la imagen
+.git/            # todo el historial del repo: pesado e innecesario para ejecutar
+.idea/           # config de IntelliJ
+*.iml
+.env             # TUS secretos (credenciales, JWT_SECRET) — NUNCA en una imagen

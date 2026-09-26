@@ -1,0 +1,16 @@
+# Finales de linea, forzados a LF en los archivos que los contenedores leen.
+#
+# POR QUE: Git para Windows viene con core.autocrlf=true, asi que al clonar
+# convierte LF -> CRLF en los archivos de texto. Nadie lo pide y nadie lo ve.
+# En .env eso es veneno: docker compose mete el \r DENTRO del valor, y entonces
+#     JWT_SECRET=abc\r
+# firma los tokens con "abc\r". La API arranca sin quejarse y todo login
+# posterior devuelve 401 sin explicar por que. El .env.example ya avisa de que
+# el formato exige LF; esta linea hace que se cumpla sola, en vez de depender
+# de que cada quien lo lea.
+.env.example text eol=lf
+
+# Mismo criterio: el daemon de Docker lee estas dos, y un \r al final de una
+# instruccion se ha llevado por delante mas de un build.
+Dockerfile     text eol=lf
+.dockerignore  text eol=lf

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- spring-boot-starter-parent: el "padre" que GESTIONA las versiones de todas las dependencias
+         de Spring (por eso abajo casi ninguna lleva <version>) y la config de plugins. Línea 3.5.x
+         FIJADA para toda la S2/S3. -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.3</version>
+        <relativePath/> <!-- lo busca en el repositorio, no en un pom padre local -->
+    </parent>
+
+    <groupId>com.taskflow</groupId>
+    <artifactId>taskflow-api</artifactId>
+    <version>3.0.0</version>
+    <name>taskflow-api</name>
+    <description>TaskFlow API v3.0 - API REST de gestion de tareas por proyecto: JWT, JPA, validacion, Swagger, tests con gate de cobertura y contenedor Docker.</description>
+
+    <properties>
+        <!-- Java 21: seleccionado explícito en el wizard (no el default del sitio). -->
+        <java.version>21</java.version>
+        <!-- Versión CANÓNICA de jjwt fijada para todo el día (los 3 artefactos van a la par). -->
+        <jjwt.version>0.12.6</jjwt.version>
+    </properties>
+
+    <dependencies>
+        <!-- spring-boot-starter-web: Tomcat embebido + Spring MVC (@RestController/@GetMapping) +
+             Jackson (objeto <-> JSON). Viene desde S2D2. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- spring-boot-starter-validation: Hibernate Validator (jakarta.validation). Viene de S2D3. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- spring-boot-starter-data-jpa: JPA + Hibernate + Spring Data JPA. Viene de S2D4. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- spring-boot-starter-security: seguridad JWT stateless (S2D5). Auto-configura la
+             SecurityFilterChain; nuestro SecurityConfig sustituye cada default. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- h2: la base de datos del día a día. scope runtime porque el código nunca importa org.h2.*
+             (el driver se carga solo por ServiceLoader). Runtime = ARCHIVO; los tests = MEMORIA. -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- postgresql: driver JDBC de Postgres (S3D2, MP-9). scope RUNTIME por la MISMA razón que h2:
+             el código nunca importa org.postgresql.* — Hibernate elige el driver por la URL del perfil.
+             El swap H2->Postgres NO tocó una línea de Java: SOLO esta dependencia + el perfil 'docker'.
+             Eso compró JPA (eco de S2D4). Quien hizo el stretch de S2D4 ya la tenía descomentada. -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- jjwt (Java JWT) EN 3 ARTEFACTOS, TODOS 0.12.6 (la versión la fija la property, no el BOM). -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>${jjwt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>${jjwt.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>${jjwt.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- springdoc-openapi: Swagger UI + /v3/api-docs. Versión FIJADA a 2.8.9 (compatible con
+             Boot 3.5.x). Viene de S2D3. -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.8.9</version>
+        </dependency>
+
+        <!-- spring-boot-starter-test: JUnit 5 + AssertJ + Mockito + spring-test (MockMvc). scope test.
+             La versión de Mockito la MANDA el BOM de este starter (dolor #6): declarar mockito-core con
+             versión propia rompe con NoSuchMethodError/ByteBuddy. Se deja al BOM. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- spring-security-test: helpers de seguridad para tests (@WithMockUser...). El material usa el
+             patrón canónico "token real en el setup"; @WithMockUser se MENCIONA como alternativa legítima
+             en el slice (por eso la dependencia se conserva desde S2D5). -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- ============================================================================
+             TESTCONTAINERS — SOLO para el ANEXO del instructor (demo awareness de S3D2, PM-1).
+             Habilita TaskRepositoryPostgresIT (@Disabled): el @DataJpaTest de ayer contra un
+             Postgres REAL efímero, no H2. El BOM de Testcontainers lo GESTIONA el
+             spring-boot-starter-parent (por eso ninguna lleva <version>).
+             Coexisten con H2: los slices rápidos siguen en H2 (pirámide); la integración fiel,
+             contra la MISMA base que producción. Costo honesto: arranca en segundos, no ms.
+             ============================================================================ -->
+        <dependency>
+            <groupId>org.testcontainers</groupId>
+            <artifactId>junit-jupiter</artifactId>       <!-- @Testcontainers, @Container -->
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testcontainers</groupId>
+            <artifactId>postgresql</artifactId>          <!-- PostgreSQLContainer -->
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-testcontainers</artifactId>   <!-- @ServiceConnection (Boot 3.1+) -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- spring-boot-maven-plugin: 'mvn spring-boot:run' arranca la app; empaqueta el jar
+                 ejecutable. Hereda su config del parent. -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <!-- ==========================================================================
+         POR QUE JACOCO VIVE EN UN PERFIL Y NO EN <build>
+         JaCoCo instrumenta con un -javaagent que inyecta en ${argLine}. m2e NO
+         ejecuta prepare-agent, asi que dentro de Eclipse ${argLine} se queda sin
+         resolver y «Run As > JUnit Test» revienta. Mismo patron que el proyecto
+         `mockito` de este repo: !m2e.version activa el perfil en la TERMINAL y lo
+         desactiva dentro de Eclipse. Las dos vias corren los mismos 67 tests; solo
+         la terminal mide cobertura y aplica el gate.
+         ========================================================================== -->
+    <profiles>
+        <profile>
+            <id>cobertura</id>
+            <activation>
+                <property><name>!m2e.version</name></property>
+            </activation>
+            <build>
+                <plugins>
+                    <!-- ============================================================================
+                         JaCoCo — el quality gate. Versión FIJADA 0.8.12 (Java 21 OK).
+                         Un agente instrumenta el bytecode mientras corren los tests y anota qué se ejecutó.
+                         El gate vive en la fase VERIFY: `mvn test` NO lo corre; hace falta `mvn verify`
+                         -> target/site/jacoco/index.html + el check que FALLA por debajo del 70%.
+                         ============================================================================ -->
+                    <plugin>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
+                        <version>0.8.12</version>   <!-- versión FIJADA (Java 21 OK); no subir "a la última" sin verificar -->
+                        <configuration>
+                            <excludes>
+                                <!-- excluir es una decisión PÚBLICA en el pom, no un truco: solo arranque sin lógica -->
+                                <exclude>**/TaskflowApiApplication.class</exclude>
+                            </excludes>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <goals><goal>prepare-agent</goal></goals>   <!-- sin esto: "missing execution data file" -->
+                            </execution>
+                            <execution>
+                                <id>report</id>
+                                <phase>verify</phase>
+                                <goals><goal>report</goal></goals>          <!-- target/site/jacoco/index.html -->
+                            </execution>
+                            <execution>
+                                <id>check</id>
+                                <phase>verify</phase>                       <!-- el gate vive en VERIFY: mvn test no lo corre -->
+                                <goals><goal>check</goal></goals>
+                                <configuration>
+                                    <rules>
+                                        <rule>
+                                            <element>BUNDLE</element>
+                                            <limits>
+                                                <limit>
+                                                    <counter>LINE</counter>
+                                                    <value>COVEREDRATIO</value>
+                                                    <minimum>0.70</minimum>           <!-- la meta del capstone; el stretch añade BRANCH -->
+                                                </limit>
+                                            </limits>
+                                        </rule>
+                                    </rules>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <!-- ======================================================================
+             Test de repositorio contra un Postgres REAL (Testcontainers). Fuera de
+             la corrida normal: exige Docker levantado. Se pide explicitamente:
+                 mvn test -Ddocker.tests=true
+             Dos cosas hacen falta y ninguna es obvia:
+              · surefire no recoge *IT.java por defecto -> hay que incluirlo.
+              · api.version FIJADA: el cliente docker-java que arrastra Boot 3.5.x
+                negocia por debajo de la API minima de Docker moderno (Min API 1.40)
+                y las tres estrategias reciben HTTP 400 -> «Could not find a valid
+                Docker environment», que no dice nada de versiones. 1.41 la cumple
+                y la soporta cualquier Docker desde 20.10.
+             ====================================================================== -->
+        <profile>
+            <id>docker-it</id>
+            <activation>
+                <property><name>docker.tests</name></property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <includes>
+                                <include>**/*Test.java</include>
+                                <include>**/*Tests.java</include>
+                                <include>**/*IT.java</include>
+                            </includes>
+                            <systemPropertyVariables>
+                                <api.version>1.41</api.version>
+                            </systemPropertyVariables>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
