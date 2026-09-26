@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('tf.token', token);
             localStorage.setItem('tf.username', usernameInput.value);
 
-            // La spec no pide delay en el login, pero para consistencia del flujo de QE
-            // se puede añadir una pequeña pausa antes de redirigir
+            // El login no necesita delay, pero para que el flujo de las pruebas de UI sea
+            // consistente se puede añadir una pequeña pausa antes de redirigir
             setTimeout(() => {
                 window.location.href = '/projects.html';
             }, 500);
@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 errorDiv.dataset.testid = 'login-error';
                 // Contrato de la UI (superficie de localizadores): el texto del error de
                 // login es SIEMPRE exacto «Credenciales inválidas». No dependemos de la
-                // forma del cuerpo de error del API de cada alumno (unos devuelven
-                // {message}, otros el 401 pelón): el login solo puede fallar por credenciales.
+                // forma del cuerpo de error del API (puede traer {message} o ser un 401
+                // pelón): el login solo puede fallar por credenciales.
                 errorDiv.textContent = 'Credenciales inválidas';
                 errorContainer.appendChild(errorDiv);
             }, window.TF_CONFIG.delayMs);

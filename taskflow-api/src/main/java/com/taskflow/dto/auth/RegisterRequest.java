@@ -5,9 +5,9 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 /**
- * RegisterRequest — cuerpo de POST /auth/register (T5). El password en CLARO viaja UNA vez y muere
- * aquí: el service lo hashea con BCrypt y jamás se devuelve. Reusa Bean Validation de D3 (@Valid en el
- * controller -> 400 con detalle por campo si falla).
+ * RegisterRequest — cuerpo de POST /auth/register. El password en CLARO viaja UNA vez y muere
+ * aquí: el service lo hashea con BCrypt y jamás se devuelve. Usa Bean Validation como el resto de
+ * DTOs (@Valid en el controller -> 400 con detalle por campo si falla).
  */
 public record RegisterRequest(
 

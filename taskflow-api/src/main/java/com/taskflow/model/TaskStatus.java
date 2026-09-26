@@ -2,7 +2,7 @@ package com.taskflow.model;
 
 /**
  * TaskStatus — los 3 estados posibles de una tarea. Conjunto CERRADO que vigila el
- * compilador: nadie puede meter un "DONEE" como pasaba con los String mágicos de D1.
+ * compilador: nadie puede meter un "DONEE", como pasaría con String mágicos.
  *
  * Cada constante lleva su 'etiqueta' legible: un enum PUEDE tener campos y constructor.
  */

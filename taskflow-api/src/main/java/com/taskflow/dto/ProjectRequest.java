@@ -7,11 +7,11 @@ import jakarta.validation.constraints.Size;
 /**
  * ProjectRequest — el contrato de entrada para crear (POST) y reemplazar (PUT) un proyecto.
  *
- * Qué NO viaja aquí: 'id' (lo asigna el repositorio), 'ownerId' (hoy se fija al usuario semilla en
- * el service; en D5 saldrá del JWT) y 'createdAt' (lo pone el service al crear). El cliente solo
+ * Qué NO viaja aquí: 'id' (lo asigna el repositorio), 'ownerId' (el service lo toma del usuario
+ * autenticado, el del JWT) y 'createdAt' (lo pone el service al crear). El cliente solo
  * elige nombre y descripción.
  *
- * La regla 'name' 3-80 es NUEVA de la API (no viene de S1, donde Project no validaba el nombre):
+ * La regla 'name' 3-80 vive SOLO aquí (la entidad Project no valida el nombre):
  * @NotBlank + @Size, mensajes en español. Mismo patrón que TaskRequest.
  */
 public record ProjectRequest(

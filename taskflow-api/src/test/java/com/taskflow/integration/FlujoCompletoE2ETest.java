@@ -17,12 +17,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * FlujoCompletoE2ETest — el test de INTEGRACIÓN de verdad (S3D1, MP-9). @SpringBootTest levanta TODO el
- * contexto (JPA, seguridad, seeder, advice) y automatiza PARA SIEMPRE la demo de pareja del viernes:
+ * FlujoCompletoE2ETest — el test de INTEGRACIÓN de verdad. @SpringBootTest levanta TODO el contexto
+ * (JPA, seguridad, seeder, advice) y automatiza PARA SIEMPRE el recorrido completo de un usuario:
  * un solo test-viaje que prueba seguridad + advice + JPA + dominio JUNTOS, UNA vez. Esto es lo que el
  * slice ya NO necesita repetir (cada capa se prueba donde es barata; el flujo entero, una vez).
  *
- * Disciplina que QE S4 elevará a ley de CI: el test CREA SUS PROPIOS DATOS (register de un usuario nuevo)
+ * Disciplina que en CI es ley: el test CREA SUS PROPIOS DATOS (register de un usuario nuevo)
  * — no depende de la semilla. Corre sobre H2 en memoria (perfil test); @Transactional -> rollback.
  */
 @SpringBootTest

@@ -19,20 +19,20 @@ import java.time.Instant;
 import java.util.List;
 
 /**
- * GlobalExceptionHandler — el INTERCEPTOR GLOBAL de excepciones de la API (PM, MP-7). Centraliza en
- * un solo lugar lo que antes estaba disperso: el 404 a mano en dos controllers, el 400 default feo
- * de Boot, y la TaskValidationException dando 500.
+ * GlobalExceptionHandler — el INTERCEPTOR GLOBAL de excepciones de la API. Centraliza en un solo
+ * lugar lo que sin él queda disperso: el 404 a mano en cada controller, el 400 default feo de Boot,
+ * y la TaskValidationException dando 500.
  *
  * @RestControllerAdvice = @ControllerAdvice + @ResponseBody: cada método devuelve el cuerpo JSON
  * directo. Cada @ExceptionHandler ataja UN tipo (o una lista de tipos) y lo traduce al ErrorResponse
  * uniforme con su status. Spring elige el handler MÁS ESPECÍFICO declarado.
  *
- * Mapa de decisión de status (T4):
+ * Mapa de decisión de status:
  *   400 = el request está mal construido/formato   (Bean Validation, JSON malformado, tipo ilegible)
  *   404 = el recurso no existe
  *   422 = el request es impecable, pero el ESTADO del negocio dice "no" (regla de estado)
  *
- * Lección "el advice tragón" (error intencional #5): NO declaramos un handler de Exception.class
+ * Lección "el advice tragón": NO declaramos un handler de Exception.class
  * "por si acaso" — se tragaría los 400/404 que Spring ya lanza (HttpMessageNotReadableException,
  * NoResourceFoundException) y los volvería 500. Regla: maneja lo que CONOCES; deja que Spring
  * responda su default para lo que no. Si algún día declaras el genérico, declara TAMBIÉN explícitas
@@ -49,8 +49,8 @@ public class GlobalExceptionHandler {
 
     /**
      * 400 — reglas de dominio violadas al CREAR/EDITAR (título fuera de rango, projectId nulo,
-     * dueDate en el pasado al crear). Es la checked TaskValidationException de S1 subiendo desde
-     * Task.crear/constructor: el pendiente del pizarrón ("la fecha pasada debe dar 400") se paga aquí.
+     * dueDate en el pasado al crear). Es la checked TaskValidationException subiendo desde
+     * Task.crear/constructor: aquí es donde "la fecha pasada da 400".
      */
     @ExceptionHandler(TaskValidationException.class)
     public ResponseEntity<ErrorResponse> handleTaskValidation(TaskValidationException ex) {
@@ -59,7 +59,7 @@ public class GlobalExceptionHandler {
 
     /**
      * 400 con DETALLE POR CAMPO — falló @Valid en un @RequestBody (Bean Validation en la frontera).
-     * getFieldErrors() + stream map a "campo: mensaje" (streams de S1D4): el cuerpo default de Boot,
+     * getFieldErrors() + stream map a "campo: mensaje": el cuerpo default de Boot,
      * feo y sin detalle, se vuelve una lista accionable de qué campo falló y por qué.
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
@@ -83,7 +83,7 @@ public class GlobalExceptionHandler {
     /**
      * 422 — el request es sintácticamente impecable, pero el ESTADO del dominio no permite la
      * operación ("no DONE sin assignee"). TaskService.cambiarStatus tradujo la TaskValidationException
-     * de setStatus a esta TaskStateException. Es la distinción canónica del capstone frente al 400.
+     * de setStatus a esta TaskStateException. Es la distinción de diseño frente al 400.
      */
     @ExceptionHandler(TaskStateException.class)
     public ResponseEntity<ErrorResponse> handleState(TaskStateException ex) {
@@ -91,7 +91,7 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * 409 — username duplicado al registrar (MP-5). El request es válido, pero choca con el estado
+     * 409 — username duplicado al registrar. El request es válido, pero choca con el estado
      * actual del recurso (username único). AuthService.register lanza UsernameAlreadyExistsException.
      */
     @ExceptionHandler(UsernameAlreadyExistsException.class)
@@ -100,7 +100,7 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * 401 — credenciales inválidas en el login (MP-5). El AuthenticationManager lanza
+     * 401 — credenciales inválidas en el login. El AuthenticationManager lanza
      * BadCredentialsException DENTRO del controller /auth/login (endpoint público), así que SÍ llega
      * al advice (contraste con las excepciones del filtro JWT, que corren antes del DispatcherServlet
      * y este advice NO ve). No se filtra si falló el usuario o el password: mensaje genérico a propósito.
@@ -111,8 +111,8 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * STRETCH — 400 para un path variable de tipo ilegible: GET /tasks/abc (id no numérico) daba un
-     * 400 default sin cuerpo uniforme; aquí lo unificamos al ErrorResponse.
+     * 400 para un path variable de tipo ilegible: GET /tasks/abc (id no numérico) sin este handler da
+     * un 400 default sin cuerpo uniforme; aquí lo unificamos al ErrorResponse.
      */
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
     public ResponseEntity<ErrorResponse> handleTypeMismatch(MethodArgumentTypeMismatchException ex) {

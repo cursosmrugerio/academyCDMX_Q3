@@ -30,7 +30,7 @@ archivo en el repositorio para ver el contexto.
 5. **Convenciones.** DTO como `record`, mapper manual, lógica en el service y no en el controller,
    inyección por constructor, sin Lombok, sin manejador genérico de `Exception`.
 6. **Comentarios verdaderos.** Busca comentarios o Javadoc que afirmen algo que el código no hace o
-   que no es cierto de Spring (ejemplo real de esta semana: «se declara antes para que no lo capture
+   que no es cierto de Spring (ejemplo real: «se declara antes para que no lo capture
    `/tasks/{id}`»; en Spring MVC la ruta literal gana siempre, sin importar el orden).
 7. **Tests que prueban algo.** Para cada test nuevo: ¿fallaría si el código de producción estuviera
    mal? Un test que solo compara lo que devuelve un mock con lo mismo que se le dio al mock no prueba

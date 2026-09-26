@@ -31,21 +31,19 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 /**
- * TaskServiceTest — UNIT PURO con Mockito (S3D1, MP-1/MP-2/MP-3/MP-5). El renacimiento del parche
- * @SpringBootTest heredado de S2D4: aquí NO arranca Spring — la clase corre en MILISEGUNDOS.
+ * TaskServiceTest — UNIT PURO con Mockito: aquí NO arranca Spring — la clase corre en MILISEGUNDOS.
  *
- * Por qué Mockito HOY (narrativa AM-1): en S2D1 este mismo test usaba el InMemoryTaskRepository REAL
- * (un *fake*, rápido y determinista — era legítimo). S2D4 eliminó las clases InMemory*; desde entonces
- * TaskRepository es una interfaz cuya única implementación es un proxy de Spring Data respaldado por una
- * BD. Para volver a probar el service EN AISLAMIENTO ya no hay implementación de juguete que instanciar
+ * Por qué Mockito: TaskRepository es una interfaz cuya única implementación es un proxy de Spring Data
+ * respaldado por una BD. Un *fake* en memoria (rápido y determinista) también sería legítimo, pero no
+ * existe: para probar el service EN AISLAMIENTO no hay implementación de juguete que instanciar
  * -> por eso existe Mockito: el mock SUSTITUYE al fake cuando el colaborador real exige infraestructura.
  *
- * Reglas del día aplicadas:
- *   - @ExtendWith(MockitoExtension.class): sin ella, @Mock queda null (dolor #1).
+ * Reglas aplicadas:
+ *   - @ExtendWith(MockitoExtension.class): sin ella, @Mock queda null.
  *   - Los DATOS (Task) se construyen DE VERDAD con el constructor de rehidratación; SOLO el COLABORADOR
- *     (el repository) se mockea (tabla mockear/no-mockear, T3).
+ *     (el repository) se mockea.
  *   - MockitoExtension corre en strict-stubs: un when(...) que ningún camino usa FALLA la clase
- *     (UnnecessaryStubbingException, dolor #2) -> aquí cada stub tiene propósito.
+ *     (UnnecessaryStubbingException) -> aquí cada stub tiene propósito.
  */
 @ExtendWith(MockitoExtension.class)
 class TaskServiceTest {
@@ -103,7 +101,7 @@ class TaskServiceTest {
 
             service.cambiarStatus(1L, TaskStatus.DONE);
 
-            // ArgumentCaptor (MP-3): capturar el Task que VIAJÓ a save. El retorno no basta cuando lo que
+            // ArgumentCaptor: capturar el Task que VIAJÓ a save. El retorno no basta cuando lo que
             // importa es el OBJETO MUTADO que se persistió.
             ArgumentCaptor<Task> captor = ArgumentCaptor.forClass(Task.class);
             verify(repository).save(captor.capture());
@@ -123,7 +121,7 @@ class TaskServiceTest {
         @Test
         void cambiarStatus_sinAssignee_lanzaTaskStateExceptionYNoGuarda() {
             // Sin assignee, setStatus(DONE) lanza la checked; cambiarStatus la TRADUCE a TaskStateException.
-            // La traducción de S2D3 MP-9, ahora probada EN AISLAMIENTO (sin HTTP, sin BD).
+            // La traducción, probada EN AISLAMIENTO (sin HTTP, sin BD).
             Task sinAssignee = tarea(2L, "Sin responsable", null);
             when(repository.findById(2L)).thenReturn(Optional.of(sinAssignee));
 
@@ -159,7 +157,7 @@ class TaskServiceTest {
         }
     }
 
-    // ==================== S6, copilot/dia-2: listado de vencidas ====================
+    // ==================== Listado de vencidas ====================
 
     private static final LocalDate HOY = LocalDate.now();
 

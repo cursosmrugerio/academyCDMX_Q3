@@ -3,8 +3,8 @@
 > **Ejemplo, no el endpoint que te piden.** Todo este archivo implementa un endpoint inventado,
 > `GET /projects/{id}/carga`, que cuenta cuántas tareas de un proyecto tienen responsable y cuántas
 > no. Úsalo para copiar la **forma** (anotaciones, imports, nombres, estructura de los tests), no el
-> contenido. El código de este archivo compila y sus tests pasan contra `taskflow-api` (verificado el
-> 12-sep-2026 con Spring Boot 3.5.3).
+> contenido. El código de este archivo compila y sus tests pasan contra `taskflow-api` (verificado
+> con Spring Boot 3.5.3).
 
 Respuesta del ejemplo:
 

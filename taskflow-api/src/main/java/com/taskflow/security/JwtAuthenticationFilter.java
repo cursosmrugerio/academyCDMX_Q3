@@ -18,15 +18,15 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 /**
- * JwtAuthenticationFilter — la LÓGICA CENTRAL DEL DÍA (MP-8). Corre UNA vez por request
+ * JwtAuthenticationFilter — la LÓGICA CENTRAL de la autenticación JWT. Corre UNA vez por request
  * (OncePerRequestFilter) ANTES del UsernamePasswordAuthenticationFilter: si el request trae un
  * "Bearer <token>" válido, autentica al usuario en el SecurityContext para que el resto de la cadena
  * (autorización por URL y @PreAuthorize) lo vea.
  *
- * Contraste clave (Error intencional 3): este filtro corre ANTES del DispatcherServlet, así que el
- * @ControllerAdvice de D3 NO ve las excepciones que aquí se lancen. Por eso un token corrupto se
- * atrapa AQUÍ con try/catch y se responde 401 a mano — si no, el parser lanzaría y el usuario vería
- * un 500 en vez del 401 de la tabla canónica.
+ * Contraste clave: este filtro corre ANTES del DispatcherServlet, así que el
+ * @ControllerAdvice (GlobalExceptionHandler) NO ve las excepciones que aquí se lancen. Por eso un token
+ * corrupto se atrapa AQUÍ con try/catch y se responde 401 a mano — si no, el parser lanzaría y el
+ * usuario vería un 500 en vez del 401 que corresponde.
  */
 @Component
 public class JwtAuthenticationFilter extends org.springframework.web.filter.OncePerRequestFilter {
@@ -71,7 +71,7 @@ public class JwtAuthenticationFilter extends org.springframework.web.filter.Once
                 }
             }
         } catch (JwtException | UsernameNotFoundException e) {
-            // Error intencional 3: el advice NO ve esto (corremos antes del DispatcherServlet).
+            // OJO: el advice NO ve esto (corremos antes del DispatcherServlet).
             // Respondemos 401 JSON aquí mismo y CORTAMOS la cadena (no llamamos chain.doFilter).
             SecurityContextHolder.clearContext();
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);

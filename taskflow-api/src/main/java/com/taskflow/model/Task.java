@@ -17,34 +17,34 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 /**
- * Task — entidad central del dominio TaskFlow. ESTADO FINAL del Día 4 (persistida con JPA).
+ * Task — entidad central del dominio TaskFlow (persistida con JPA).
  *
- * La entidad ES la clase que YA teníamos (canónica S1, 8 campos): NO se escribió un "modelo nuevo",
- * se ANOTÓ el Task de D3. Novedades de HOY, todas por anotación:
+ * Es una clase de dominio normal (8 campos, validaciones, comportamiento): NO hay un "modelo de
+ * BD" aparte. Lo que la hace entidad, todo por anotación:
  *   - @Entity + @Table(name = "tasks"): esta clase mapea a la tabla TASKS.
- *   - @Id + @GeneratedValue(IDENTITY): el id lo asigna la BD (columna autoincremental). La secuencia
- *     manual del InMemoryTaskRepository (el Math.max de S1D3) MURIÓ: el id lo pone la BD y nadie más.
+ *   - @Id + @GeneratedValue(IDENTITY): el id lo asigna la BD (columna autoincremental). Nada de
+ *     secuencia manual en Java: el id lo pone la BD y nadie más.
  *   - @Enumerated(STRING) en status y priority: se guardan como TEXTO ('TODO'), NUNCA como ORDINAL
- *     (0,1,2): reordenar o insertar un enum corrompería datos históricos. El orden LOW,MED,HIGH de
- *     S1D3 es contrato del SORT (compareTo), no del almacenamiento.
- *   - relación @ManyToOne Task->Project (patrón "asociación de solo lectura"): la COLUMNA la sigue
- *     mandando el escalar 'projectId' (por eso Task.crear, TaskService, mappers y DTOs NO cambian);
+ *     (0,1,2): reordenar o insertar un enum corrompería datos históricos. El orden LOW,MED,HIGH
+ *     es contrato del SORT (compareTo), no del almacenamiento.
+ *   - relación @ManyToOne Task->Project (patrón "asociación de solo lectura"): la COLUMNA la
+ *     manda el escalar 'projectId' (por eso Task.crear, TaskService, mappers y DTOs hablan de projectId);
  *     el objeto 'project' solo NAVEGA. Frase ancla: "la columna manda; el objeto navega".
  *
- * Tensión JPA vs validaciones (paga de S1D2 MP-8, fijada por el apéndice del CAPSTONE): JPA rehidrata
+ * Tensión JPA vs validaciones: JPA rehidrata
  * por reflexión con un constructor sin args protegido, SIN pasar por las validaciones. Está bien:
  * Task.crear(...) sigue siendo el ÚNICO camino de CREACIÓN de negocio; JPA solo REHIDRATA datos que
- * ya existían (la misma distinción crear/rehidratar de siempre).
+ * ya existían (la distinción crear/rehidratar).
  *
  * OJO: las columnas persistentes NO pueden ser 'final' (JPA las escribe por reflexión tras el no-arg);
- * por eso title/description/projectId/dueDate perdieron el 'final' que traían de D3. La inmutabilidad
+ * por eso title/description/projectId/dueDate no son 'final'. La inmutabilidad
  * de negocio la sigue garantizando la ausencia de setters públicos para esos campos.
  */
 @Entity
 @Table(name = "tasks")
 public class Task implements Comparable<Task> {
 
-    // Reglas de longitud del título (del capstone).
+    // Reglas de longitud del título (regla de negocio).
     private static final int TITULO_MIN = 3;
     private static final int TITULO_MAX = 120;
 
@@ -80,7 +80,7 @@ public class Task implements Comparable<Task> {
     private LocalDate dueDate;                  // por convención -> columna DUE_DATE (camelCase->snake_case)
 
     /**
-     * Asociación de SOLO LECTURA hacia el proyecto (MP-8). Comparte la MISMA columna project_id con
+     * Asociación de SOLO LECTURA hacia el proyecto. Comparte la MISMA columna project_id con
      * el escalar de arriba, pero marcada insertable=false/updatable=false: no escribe la columna (el
      * escalar lo hace), solo permite NAVEGAR (task.getProject().getName()). LAZY: no se carga hasta
      * que se toca — y fuera de una sesión abierta, tocarla lanza LazyInitializationException (por eso
@@ -116,7 +116,7 @@ public class Task implements Comparable<Task> {
                     "El título debe tener entre " + TITULO_MIN + " y " + TITULO_MAX
                             + " caracteres; recibí " + title.length() + ": \"" + title + "\".");
         }
-        // Invariante 2: una tarea no puede existir sin proyecto (regla del capstone).
+        // Invariante 2: una tarea no puede existir sin proyecto (regla de negocio).
         if (projectId == null) {
             throw new TaskValidationException(
                     "Una tarea no puede existir sin proyecto (projectId == null).");
@@ -133,8 +133,8 @@ public class Task implements Comparable<Task> {
 
     /**
      * Factory de CREACIÓN de negocio: añade la regla temporal (dueDate no en el pasado) y delega en
-     * el constructor. id nace null, status nace TODO. Firma canónica S1 (apéndice del CAPSTONE-SPEC):
-     * la usan el mapper y el servicio tal cual — por eso NO cambia hoy pese a que Task ya sea @Entity.
+     * el constructor. id nace null, status nace TODO. La usan el mapper y el servicio tal cual: que
+     * Task sea @Entity no cambia esta firma.
      */
     public static Task crear(String title, String description, Priority priority,
                              LocalDate dueDate, Long projectId, Long assigneeId)
@@ -204,8 +204,8 @@ public class Task implements Comparable<Task> {
     // ---- Setters SOLO donde el dominio muta ----
 
     /**
-     * Cambia el estado aplicando la regla del capstone: no se puede pasar a DONE una tarea sin
-     * responsable (assigneeId). La regla vive AQUÍ, no en el servicio ni en el menú.
+     * Cambia el estado aplicando la regla de negocio: no se puede pasar a DONE una tarea sin
+     * responsable (assigneeId). La regla vive AQUÍ, no en el servicio ni en el controller.
      */
     public void setStatus(TaskStatus status) throws TaskValidationException {
         if (status == TaskStatus.DONE && assigneeId == null) {
@@ -224,7 +224,7 @@ public class Task implements Comparable<Task> {
         this.assigneeId = assigneeId;
     }
 
-    // ---- Identidad de ENTIDAD por id (S1D3 MP-6 = literalmente lo que hace JPA) ----
+    // ---- Identidad de ENTIDAD por id (literalmente lo que hace JPA) ----
 
     @Override
     public boolean equals(Object o) {

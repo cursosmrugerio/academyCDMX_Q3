@@ -77,14 +77,14 @@ public class TaskflowTools {
             String description,
             @McpToolParam(description = "prioridad: LOW, MED o HIGH", required = true)
             Prioridad priority,
-            @McpToolParam(description = "fecha límite con formato yyyy-MM-dd (por ejemplo 2026-09-30); "
+            @McpToolParam(description = "fecha límite con formato yyyy-MM-dd (por ejemplo 2026-10-30); "
                     + "no puede ser anterior a hoy; vacía = sin fecha", required = false)
             String dueDate) {
         NuevaTarea nueva = new NuevaTarea(title, description, priority, null, fecha(dueDate));
         return client.crearTarea(projectId, nueva);
     }
 
-    /** "2026-09-30" -> LocalDate; vacío o null -> sin fecha; cualquier otro formato -> error con ejemplo. */
+    /** "2026-10-30" -> LocalDate; vacío o null -> sin fecha; cualquier otro formato -> error con ejemplo. */
     private static LocalDate fecha(String texto) {
         if (texto == null || texto.isBlank()) {
             return null;
@@ -93,7 +93,7 @@ public class TaskflowTools {
             return LocalDate.parse(texto.trim());
         } catch (DateTimeParseException e) {
             throw new IllegalArgumentException(
-                    "dueDate debe tener el formato yyyy-MM-dd (por ejemplo 2026-09-30); recibí: " + texto, e);
+                    "dueDate debe tener el formato yyyy-MM-dd (por ejemplo 2026-10-30); recibí: " + texto, e);
         }
     }
 }

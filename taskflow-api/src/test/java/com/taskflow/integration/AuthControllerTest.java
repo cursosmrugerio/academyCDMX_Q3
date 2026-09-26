@@ -19,8 +19,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * AuthControllerTest — INTEGRACIÓN (register/login sobre el contexto completo). SON integración: tocan
- * seguridad + JPA + advice reales; por eso hoy VIVEN en integration/ (solo se mudó el paquete, el
- * contenido es el de S2D5). @SpringBootTest + MockMvc, perfil test (H2 en memoria), @Transactional.
+ * seguridad + JPA + advice reales; por eso VIVEN en integration/. @SpringBootTest + MockMvc, perfil
+ * test (H2 en memoria), @Transactional.
  */
 @SpringBootTest
 @AutoConfigureMockMvc

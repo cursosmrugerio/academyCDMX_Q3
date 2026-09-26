@@ -1,7 +1,7 @@
 {
   "info": {
-    "name": "TaskFlow API v2",
-    "description": "Coleccion del capstone TaskFlow v2.0 (S2D5): API REST asegurada con JWT. La coleccion tiene auth tipo Bearer a nivel coleccion con la variable {{token}}; el request 'Login' guarda el token con un script post-response, asi un solo login autentica TODA la coleccion. Variables: {{baseUrl}} = http://localhost:8080, {{token}} (se llena al hacer login). Flujo de demo (5 min): Register -> Login -> POST Project -> POST Task -> PATCH status DONE -> GET tasks del proyecto.",
+    "name": "TaskFlow API",
+    "description": "Coleccion de TaskFlow: API REST asegurada con JWT. La coleccion tiene auth tipo Bearer a nivel coleccion con la variable {{token}}; el request 'Login' guarda el token con un script post-response, asi un solo login autentica TODA la coleccion. Variables: {{baseUrl}} = http://localhost:8080, {{token}} (se llena al hacer login). Flujo de prueba rapido: Register -> Login -> POST Project -> POST Task -> PATCH status DONE -> GET tasks del proyecto.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "auth": {
@@ -119,7 +119,7 @@
           "response": []
         },
         {
-          "name": "GET Me (STRETCH)",
+          "name": "GET Me",
           "request": {
             "method": "GET",
             "header": [],
@@ -133,7 +133,7 @@
                 "me"
               ]
             },
-            "description": "STRETCH: datos del usuario del token (Authentication). Sin token -> 401."
+            "description": "Datos del usuario del token (Authentication). Sin token -> 401."
           },
           "response": []
         }
@@ -192,7 +192,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Proyecto de la demo\",\n  \"description\": \"Creado en la demo final\"\n}",
+              "raw": "{\n  \"name\": \"Proyecto de prueba\",\n  \"description\": \"Creado desde Postman\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -224,7 +224,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Plataforma TaskFlow (v2)\",\n  \"description\": \"Nombre y descripcion reemplazados\"\n}",
+              "raw": "{\n  \"name\": \"Plataforma TaskFlow (editado)\",\n  \"description\": \"Nombre y descripcion reemplazados\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -260,7 +260,7 @@
                 "1"
               ]
             },
-            "description": "Regla del capstone: solo ADMIN o el owner. Con el token de ana (owner del proyecto 1) o admin -> 204. Con el token de luis (ni owner ni admin) -> 403. Sin token -> 401."
+            "description": "Regla de negocio: solo ADMIN o el owner. Con el token de ana (owner del proyecto 1) o admin -> 204. Con el token de luis (ni owner ni admin) -> 403. Sin token -> 401."
           },
           "response": []
         },
@@ -296,7 +296,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"Tarea de la demo\",\n  \"description\": \"Con assignee para poder completarla\",\n  \"priority\": \"HIGH\",\n  \"assigneeId\": 1,\n  \"dueDate\": \"2099-12-31\"\n}",
+              "raw": "{\n  \"title\": \"Tarea de prueba\",\n  \"description\": \"Con assignee para poder completarla\",\n  \"priority\": \"HIGH\",\n  \"assigneeId\": 1,\n  \"dueDate\": \"2099-12-31\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -415,7 +415,7 @@
                 "3"
               ]
             },
-            "description": "Actualiza la tarea completa: es el paso 4 de «un dia en la vida» (asignar responsable y fecha). title fuera de 3-120 -> 400; dueDate pasada SI se acepta aqui (la regla temporal solo vive en la creacion)."
+            "description": "Actualiza la tarea completa (p. ej. asignar responsable y fecha). title fuera de 3-120 -> 400; dueDate pasada SI se acepta aqui (la regla temporal solo vive en la creacion)."
           },
           "response": []
         },
@@ -476,7 +476,7 @@
     },
     {
       "name": "Seguridad (tabla 401 vs 403)",
-      "description": "Los casos que cierran la tabla canonica del dia.",
+      "description": "Los casos que cierran la tabla 401 vs 403.",
       "item": [
         {
           "name": "GET Projects SIN token (401)",

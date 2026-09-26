@@ -5,7 +5,7 @@ import com.taskflow.model.TaskStatus;
 import java.util.Map;
 
 /**
- * ProjectSummaryResponse — contrato de salida de GET /projects/{id}/summary (versión de referencia de copilot/dia-4).
+ * ProjectSummaryResponse — contrato de salida de GET /projects/{id}/summary.
  *
  * byStatus trae siempre las tres claves de TaskStatus (TODO, IN_PROGRESS, DONE), aunque valgan 0.
  */

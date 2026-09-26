@@ -11,12 +11,12 @@ import com.taskflow.model.TaskStatus;
  * métodos estáticos: barato, visible y testeable. Es una clase de utilidades — constructor privado,
  * no se instancia.
  *
- * Mención 1 min (MP-2): MapStruct automatiza este mapeo en el mundo real; el capstone lo hace a mano
- * primero para ENTENDER el costo antes de esconderlo detrás de una librería.
+ * Alternativa: MapStruct automatiza este mapeo en el mundo real; aquí se hace a mano para
+ * ENTENDER el costo antes de esconderlo detrás de una librería.
  *
- * Nota clave "crear vs rehidratar" (paga en HTTP): aEntidadNueva pasa por la FACTORY Task.crear
+ * Nota clave "crear vs rehidratar": aEntidadNueva pasa por la FACTORY Task.crear
  * (aplica "dueDate no en el pasado"); aReemplazo pasa por el CONSTRUCTOR de rehidratación (permite
- * editar una tarea vieja con fecha ya pasada) — la misma distinción que releer el CSV en S1.
+ * editar una tarea vieja con fecha ya pasada).
  */
 public final class TaskMapper {
 
@@ -26,8 +26,8 @@ public final class TaskMapper {
 
     /**
      * POST: DTO de entrada + projectId del PATH -> entidad NUEVA por la factory de negocio.
-     * Task.crear fija status=TODO e id=null, y aplica la regla temporal de dueDate. Firma canónica
-     * del apéndice del capstone: crear(title, description, priority, dueDate, projectId, assigneeId).
+     * Task.crear fija status=TODO e id=null, y aplica la regla temporal de dueDate. Firma:
+     * crear(title, description, priority, dueDate, projectId, assigneeId).
      */
     public static Task aEntidadNueva(TaskRequest req, Long projectId) throws TaskValidationException {
         return Task.crear(req.title(), req.description(), req.priority(),

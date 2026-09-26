@@ -13,18 +13,19 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 /**
- * ReportService — los reportes, reescritos PARCIALMENTE con JUICIO en el integrador de S2D4.
+ * ReportService — los reportes, cada uno calculado donde conviene, con JUICIO.
  *
- * El entregable NO es "meter derived queries en todo": es DECIDIR, método por método, dónde manda la
- * BD y dónde mandan los streams. La regla del enunciado: cada método lleva UN comentario de una línea
- * justificando la decisión. Tres categorías:
+ * La idea NO es "meter derived queries en todo": es DECIDIR, método por método, dónde manda la
+ * BD y dónde mandan los streams. Los métodos de consulta llevan un comentario que justifica la
+ * decisión. Tres categorías:
  *   - DERIVED: el filtro/conteo lo hace la BD y viajan menos filas (buscarPorTitulo, porcentaje...).
  *   - MIXTO: la BD filtra, el stream ordena porque el orden es regla de DOMINIO, no del dialecto.
  *   - STREAMS: agrupaciones Map&lt;K, List&lt;Task&gt;&gt; que SQL GROUP BY no devuelve (da conteos);
  *     a esta escala la claridad gana. Nota honesta: con millones de filas se repiensa.
  *
- * repo es ahora el JpaRepository (proxy de Spring Data); el constructor no cambió una línea: sigue
- * recibiendo la INTERFAZ TaskRepository por inyección. Esa es la paga de programar contra el contrato.
+ * repo es el JpaRepository (proxy de Spring Data), pero el constructor recibe la INTERFAZ
+ * TaskRepository por inyección: no depende de qué implementación hay detrás. Esa es la paga de
+ * programar contra el contrato.
  */
 @Service
 public class ReportService {
@@ -65,8 +66,8 @@ public class ReportService {
     }
 
     /**
-     * Pendientes ordenadas por fecha (S1D4). Delega en la sobrecarga con POR_FECHA.
-     * mixto: el orden de los null (nullsLast) es regla de DOMINIO, no del dialecto — el comparator de S1D3 se queda.
+     * Pendientes ordenadas por fecha. Delega en la sobrecarga con POR_FECHA.
+     * mixto: el orden de los null (nullsLast) es regla de DOMINIO, no del dialecto — el comparator se queda en Java.
      */
     public List<Task> pendientesPorFecha() {
         return pendientes(TaskOrders.POR_FECHA);
@@ -82,7 +83,7 @@ public class ReportService {
 
     /**
      * % completadas: DONE respecto al total.
-     * derived: contar en la BD (countByStatus/count), no traer todo para contarlo; la trampa long/long de D1 sigue viva (* 100.0).
+     * derived: contar en la BD (countByStatus/count), no traer todo para contarlo; ojo con la trampa long/long (* 100.0).
      */
     public double porcentajeCompletadas() {
         long total = repo.count();
@@ -111,15 +112,15 @@ public class ReportService {
                 .count();
     }
 
-    // ==================== STRETCH (heredados de S1D4/D5) ====================
+    // ==================== Reportes extra ====================
 
-    /** STRETCH — Tareas por prioridad: mismo patrón de agrupación en stream. */
+    /** Tareas por prioridad: mismo patrón de agrupación en stream. */
     public Map<Priority, List<Task>> tareasPorPrioridad() {
         return repo.findAll().stream()
                 .collect(Collectors.groupingBy(Task::getPriority));
     }
 
-    /** STRETCH — Exportar títulos a una sola línea CSV con Collectors.joining(", "). */
+    /** Exportar títulos a una sola línea CSV con Collectors.joining(", "). */
     public String titulosCsv() {
         return repo.findAll().stream()
                 .map(Task::getTitle)

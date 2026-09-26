@@ -10,18 +10,18 @@ import java.time.LocalDate;
 
 /**
  * TaskRequest — el CONTRATO de ENTRADA para crear (POST) y reemplazar (PUT) una tarea. Es un record:
- * inmutable, constructor canónico, y Jackson lo entiende nativo (los records de S1D2 pagan aquí).
+ * inmutable, constructor canónico, y Jackson lo entiende nativo.
  *
- * Qué NO viaja aquí y por qué (decisiones de API fijadas por la spec):
+ * Qué NO viaja aquí y por qué (decisiones de diseño de la API):
  *   - 'id':        lo asigna el repositorio; el cliente no lo elige (si no, mass assignment).
  *   - 'status':    una tarea NACE en TODO; solo cambia por PATCH /tasks/{id}/status.
  *   - 'projectId': viene del PATH al crear (POST /projects/{projectId}/tasks); una tarea no se muda
  *                  de proyecto por PUT.
  * El DTO define EXACTAMENTE lo que el cliente puede tocar. La entidad Task nunca cruza el controller.
  *
- * Validación EN LA FRONTERA (AM-2): solo migran las reglas de FORMA. 'title' 3-120 pasa del
- * constructor de S1D2 a @NotBlank + @Size; 'priority' es obligatoria. Las reglas de CONTEXTO/ESTADO
- * NO migran: "dueDate no en el pasado" es solo AL CREAR (vive en Task.crear) y "no DONE sin assignee"
+ * Validación EN LA FRONTERA: aquí solo van las reglas de FORMA. 'title' 3-120 se repite del
+ * constructor de Task como @NotBlank + @Size; 'priority' es obligatoria. Las reglas de CONTEXTO/ESTADO
+ * NO van aquí: "dueDate no en el pasado" es solo AL CREAR (vive en Task.crear) y "no DONE sin assignee"
  * es de transición (vive en setStatus) — por eso 'dueDate' y 'assigneeId' van SIN anotaciones. La
  * doble validación del título (aquí y en el constructor) es defensa en profundidad, no redundancia.
  */

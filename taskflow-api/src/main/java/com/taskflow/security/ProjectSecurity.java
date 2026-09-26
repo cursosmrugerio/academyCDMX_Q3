@@ -6,8 +6,8 @@ import com.taskflow.repository.UserRepository;
 import org.springframework.stereotype.Component;
 
 /**
- * ProjectSecurity — el bean de autorización DATA-DRIVEN (MP-9). Un matcher de URL no puede saber quién
- * es el owner del proyecto 7 (eso es un DATO en la BD, no una ruta), así que la regla del capstone
+ * ProjectSecurity — el bean de autorización DATA-DRIVEN. Un matcher de URL no puede saber quién
+ * es el owner del proyecto 7 (eso es un DATO en la BD, no una ruta), así que la regla de negocio
  * "solo ADMIN u owner borra el proyecto" se expresa con @PreAuthorize invocando este bean:
  *
  *   @PreAuthorize("hasRole('ADMIN') or @projectSecurity.esOwner(#id, authentication.name)")

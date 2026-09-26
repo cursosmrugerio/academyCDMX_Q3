@@ -5,9 +5,8 @@ import java.time.LocalDate;
 /**
  * ProjectResponse — el contrato de salida de un proyecto.
  *
- * 'ownerId' (un Long) es la forma CANÓNICA del capstone; la entidad Project todavía modela 'User
- * owner' como OBJETO (se aplana a Long en D4 con JPA). El ProjectMapper hace el puente: deriva
- * ownerId con owner.id(). Así el JSON ya expone el contrato final aunque el dominio aún no lo sea.
+ * 'ownerId' es un Long, no un User anidado: el JSON referencia al dueño por su id. La entidad
+ * Project guarda ese mismo ownerId, así que ProjectMapper lo copia tal cual.
  */
 public record ProjectResponse(
         Long id,

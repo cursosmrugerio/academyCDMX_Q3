@@ -18,17 +18,17 @@ import java.util.Optional;
  * TaskService — la capa de negocio de las tareas. Orquesta; las reglas viven en Task (título 3-120,
  * projectId obligatorio, dueDate no en el pasado al crear, no DONE sin assignee).
  *
- * Evolución de HOY (S2D3) sobre el estado de D2:
- *   - crear(...) ya NO usa un projectId demo (murió el 1L): recibe el projectId del PATH y arma la
- *     entidad con el TaskMapper (que pasa por la factory Task.crear).
- *   - nacen reemplazar (PUT), eliminar (DELETE) y cambiarStatus (PATCH); completar(...) de D1 queda
- *     DELEGANDO en cambiarStatus (refactor de MP-9).
+ * Piezas clave:
+ *   - crear(...) recibe el projectId del PATH (no un id fijo) y arma la entidad con el TaskMapper
+ *     (que pasa por la factory Task.crear).
+ *   - reemplazar (PUT), eliminar (DELETE) y cambiarStatus (PATCH); completar(...) DELEGA en
+ *     cambiarStatus.
  *   - cambiarStatus TRADUCE la checked TaskValidationException que lanza setStatus a la unchecked
  *     TaskStateException -> el advice la mapea a 422. Sin tocar el dominio.
  *
  * La existencia del proyecto al crear (404) se valida en el controller (contra ProjectService): este
  * service no depende del repositorio de proyectos, y así el filtrado por proyecto vive solo en
- * ProjectService.tareasDe (promesa de D4: "no tocar TaskService").
+ * ProjectService.tareasDe.
  */
 @Service
 public class TaskService {
@@ -62,7 +62,7 @@ public class TaskService {
 
     /**
      * Elimina una tarea (DELETE): existe -> borra (204 en el controller); no existe -> TaskNotFound
-     * -> el advice responde 404. El findById previo hace explícito el "no existe" (Optional de S1D4).
+     * -> el advice responde 404. El findById previo hace explícito el "no existe" (vía Optional).
      */
     public void eliminar(Long id) {
         repository.findById(id)
@@ -87,7 +87,7 @@ public class TaskService {
     }
 
     /**
-     * Completa una tarea (la pasa a DONE). Tras MP-9 queda DELEGANDO en cambiarStatus(id, DONE): un
+     * Completa una tarea (la pasa a DONE). DELEGA en cambiarStatus(id, DONE): un
      * solo camino para "cambiar de estado", que además hereda la traducción a 422.
      */
     public Task completar(Long id) {
@@ -96,7 +96,7 @@ public class TaskService {
 
     /**
      * Lista todas las tareas ordenadas con la estrategia POR_URGENCIA (reuso LITERAL de la Strategy de
-     * S1): vencidas primero, luego prioridad HIGH->LOW, luego fecha ascendente (nulls al final).
+     * TaskOrders): vencidas primero, luego prioridad HIGH->LOW, luego fecha ascendente (nulls al final).
      */
     public List<Task> listar() {
         return repository.findAll().stream()
@@ -116,7 +116,7 @@ public class TaskService {
         return repository.findById(id);
     }
 
-    /** STRETCH — filtro por prioridad (?priority=): MISMO patrón que porEstado. */
+    /** Filtro por prioridad (?priority=): MISMO patrón que porEstado. */
     public List<Task> porPrioridad(Priority priority) {
         return repository.findAll().stream()
                 .filter(t -> t.getPriority() == priority)

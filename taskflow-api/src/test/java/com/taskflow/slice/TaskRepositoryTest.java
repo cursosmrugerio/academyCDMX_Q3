@@ -20,16 +20,16 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * TaskRepositoryTest — SLICE de JPA (@DataJpaTest). D4 lo estrenó; S3D1 lo PROFUNDIZA (MP-8).
+ * TaskRepositoryTest — SLICE de JPA (@DataJpaTest).
  *
  * @DataJpaTest arranca solo la capa JPA: H2 EN MEMORIA con esquema FRESCO por test (auto-reemplaza el
  * datasource), Hibernate y TestEntityManager. NO carga el DataSeeder ni los @Service: la BD empieza
  * VACÍA y cada test siembra lo suyo. Es transaccional -> rollback por test (aislamiento).
  *
- * Novedades de hoy:
+ * Técnicas que usa:
  *   - flush()+clear() para tests de MAPEO: sin ellos, releer devuelve el mismo objeto del caché de 1er
- *     nivel (el mapeo pudo estar roto y el test verde — el falso verde, dolor #11).
- *   - @Sql: escenarios grandes se DECLARAN en un script, no se construyen a mano (MP-8).
+ *     nivel (el mapeo pudo estar roto y el test verde — el falso verde).
+ *   - @Sql: escenarios grandes se DECLARAN en un script, no se construyen a mano.
  *   - @EnumSource: findByStatus probado para CADA estado con un solo método parametrizado.
  *
  * La FK task.project_id enseña ORDEN: persistir el Project ANTES que sus tareas.
@@ -56,10 +56,10 @@ class TaskRepositoryTest {
                 new Task(null, title, "desc", status, priority, projectId, assigneeId, due));
     }
 
-    // ==================== Tests base (D4, ≥6) ====================
+    // ==================== Tests base ====================
 
     @Test
-    void save_asignaId_yNoEsLaSecuenciaDeInMemory() throws TaskValidationException {
+    void save_asignaIdDesdeLaBaseDeDatos() throws TaskValidationException {
         Long pid = nuevoProyecto("Proyecto A");
 
         Task guardada = taskRepository.save(
@@ -124,13 +124,13 @@ class TaskRepositoryTest {
         assertThat(taskRepository.findByTitleContainingIgnoreCase("api")).hasSize(2);
     }
 
-    // ==================== S3D1: flush/clear, @Sql, @EnumSource ====================
+    // ==================== flush/clear, @Sql, @EnumSource ====================
 
     /**
-     * MP-8 (1) — la regla del mapeo: flush()+clear() ANTES de leer. persistFlushFind deja el objeto en el
+     * La regla del mapeo: flush()+clear() ANTES de leer. persistFlushFind deja el objeto en el
      * caché de 1er nivel; clear() lo DETACHA, así el findById siguiente hace el viaje REAL a SQL y valida
-     * que el @Enumerated(STRING) fue y volvió como texto. (En clase se rompe el mapeo a propósito para
-     * ver el falso verde; aquí queda la versión honesta.)
+     * que el @Enumerated(STRING) fue y volvió como texto. (Sin el clear(), un mapeo roto a propósito
+     * seguiría dando verde: el falso verde.)
      */
     @Test
     void mapeoDeStatus_sobreviveFlushYClear() throws TaskValidationException {
@@ -146,9 +146,9 @@ class TaskRepositoryTest {
     }
 
     /**
-     * MP-8 (2) — escenario DECLARATIVO con @Sql: 2 proyectos + 8 tareas cargadas por script. El filtro
+     * Escenario DECLARATIVO con @Sql: 2 proyectos + 8 tareas cargadas por script. El filtro
      * combinado assignee=10 AND status=TODO cae exactamente sobre las tareas 1 y 2 del script. Los ids
-     * fijos valen SOLO aquí (esquema fresco por test); jamás se asumen en otra clase (dolor #12).
+     * fijos valen SOLO aquí (esquema fresco por test); jamás se asumen en otra clase.
      */
     @Test
     @Sql("/sql/escenario-tareas.sql")
@@ -160,7 +160,7 @@ class TaskRepositoryTest {
     }
 
     /**
-     * Integrador (refactor c) — @EnumSource: findByStatus probado para CADA valor de TaskStatus en un
+     * @EnumSource: findByStatus probado para CADA valor de TaskStatus en un
      * solo método. Cada estado siembra su tarea y verifica que la derived query la trae (y solo esa).
      */
     @ParameterizedTest

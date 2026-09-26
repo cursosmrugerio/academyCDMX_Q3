@@ -10,17 +10,17 @@ import jakarta.persistence.Table;
 import java.time.LocalDate;
 
 /**
- * Project — un proyecto dueño de tareas, ESTADO FINAL del Día 4 (entidad JPA).
+ * Project — un proyecto dueño de tareas (entidad JPA).
  *
- * PAGA DE LA PROMESA DE S1D2 (MP-4): el 'User owner' (objeto) de D1/D3 se APLANÓ a 'Long ownerId'
- * — la forma CANÓNICA del capstone (id, name, description, ownerId, createdAt). "El repositorio/BD
- * guarda ids": lo que en el dominio de consola era un objeto, en la BD es una columna Long.
+ * El dueño se guarda como 'Long ownerId', no como un objeto User: forma (id, name, description,
+ * ownerId, createdAt). "El repositorio/BD guarda ids": la referencia al dueño, en la BD, es una
+ * columna Long.
  *
  * Como Task: @Entity + @Table(name = "projects"), @Id @GeneratedValue(IDENTITY), constructor no-arg
- * protegido para JPA. El id pasó de 'long' primitivo a 'Long' (envoltorio): un id nuevo es null hasta
- * que la BD lo asigna (el 0L de "aún sin id" del InMemory murió con el repositorio en memoria).
+ * protegido para JPA. El id es 'Long' (envoltorio), no 'long' primitivo: un id nuevo es null hasta
+ * que la BD lo asigna (sin valores mágicos como 0L para "aún sin id").
  *
- * ownerId NO gana @ManyToOne hoy (juicio, como assigneeId en Task): no navegamos al User dueño al
+ * ownerId NO lleva @ManyToOne (juicio, como assigneeId en Task): no navegamos al User dueño al
  * listar proyectos; con el id basta. Se mapea objeto cuando se NAVEGA, no cuando solo se REFERENCIA.
  */
 @Entity

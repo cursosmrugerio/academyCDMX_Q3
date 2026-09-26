@@ -38,7 +38,7 @@ Authorization: Bearer <token>
 
 > **Por qué no se reutiliza `ReportService.buscarPorTitulo`**, que hace casi lo mismo: habría que
 > inyectar `ReportService` en `TaskController`, y el slice `TaskControllerTest` (que no puedes tocar)
-> dejaría de arrancar. Medido el 12-sep: sus 10 tests fallan con `No qualifying bean of type
+> dejaría de arrancar. Medido: sus 10 tests fallan con `No qualifying bean of type
 > 'com.taskflow.service.ReportService'`. Es la regla «no agregues dependencias nuevas al constructor
 > de un controller que ya existe» de la skill `crear-endpoint-taskflow`.
 

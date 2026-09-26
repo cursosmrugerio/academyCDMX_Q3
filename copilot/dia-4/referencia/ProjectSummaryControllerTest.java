@@ -22,7 +22,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-/** Slice web de GET /projects/{id}/summary (versión de referencia de copilot/dia-4): solo el contrato HTTP. */
+/** Slice web de GET /projects/{id}/summary: solo el contrato HTTP. */
 @WebMvcTest(ProjectController.class)
 @AutoConfigureMockMvc(addFilters = false)   // la seguridad no se prueba en el slice; el 401 de esta ruta lo comprueba verificar.ps1
 class ProjectSummaryControllerTest {

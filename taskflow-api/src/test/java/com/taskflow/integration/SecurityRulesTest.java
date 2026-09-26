@@ -18,13 +18,13 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * SecurityRulesTest — INTEGRACIÓN: la seguridad se prueba DONDE VIVE (decisión canónica de S3D1: el
- * slice NO prueba seguridad — la prueba el contexto completo con token real). Patrón canónico: TOKEN
+ * SecurityRulesTest — INTEGRACIÓN: la seguridad se prueba DONDE VIVE (decisión de diseño: el
+ * slice NO prueba seguridad — la prueba el contexto completo con token real). Patrón: TOKEN
  * REAL en el setup (login vía MockMvc contra los usuarios semilla) con el helper tokenDe. NO se usa
- * @WithMockUser porque brincaría el filtro JWT, el artefacto que se construyó en S2D5.
+ * @WithMockUser porque brincaría el filtro JWT, justo la pieza que se quiere probar.
  *
  * Cierra la tabla 401 vs 403 con evidencia (sin token 401; con token 200; luis no-owner 403; owner/admin
- * 204). Hoy solo cambió de paquete (a integration/) y ganó el parametrizado de rutas protegidas.
+ * 204), más un parametrizado de rutas protegidas sin token.
  */
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -49,7 +49,7 @@ class SecurityRulesTest {
     }
 
     /**
-     * Integrador (refactor a) — rutas protegidas SIN token -> 401, en un solo parametrizado. Cada ruta
+     * Rutas protegidas SIN token -> 401, en un solo parametrizado. Cada ruta
      * es un test independiente en el reporte; añadir una ruta protegida = añadir un string, no un método.
      */
     @ParameterizedTest(name = "GET {0} sin token → 401")
@@ -89,7 +89,7 @@ class SecurityRulesTest {
     }
 
     /**
-     * STRETCH — token MANIPULADO: se altera un carácter de la firma. El parser lanza DENTRO del filtro
+     * Token MANIPULADO: se altera un carácter de la firma. El parser lanza DENTRO del filtro
      * JWT; el try/catch del filtro responde 401 (no 500).
      */
     @Test

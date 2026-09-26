@@ -31,11 +31,11 @@ import java.net.URI;
 import java.util.List;
 
 /**
- * ProjectController — la puerta HTTP de los proyectos. HOY (integrador) crece a CRUD completo, en
- * DTOs (ProjectRequest / ProjectResponse); las tareas de un proyecto salen como TaskResponse.
+ * ProjectController — la puerta HTTP de los proyectos: CRUD completo, en DTOs
+ * (ProjectRequest / ProjectResponse); las tareas de un proyecto salen como TaskResponse.
  *
  * Repetición deliberada del patrón de TaskController: mismos gestos (201 + Location, @Valid, 404 vía
- * orElseThrow -> advice). El lado Project cierra la tabla de endpoints del capstone (menos /auth/*).
+ * orElseThrow -> advice). Con el lado Project queda completa la tabla de endpoints de la API (menos /auth/*).
  */
 @RestController
 @Tag(name = "Projects", description = "CRUD de proyectos y sus tareas. Borrar un proyecto arrastra sus tareas (cascada).")
@@ -68,20 +68,20 @@ public class ProjectController {
     }
 
     /**
-     * GET /projects/{id}/tasks — las tareas de un proyecto como TaskResponse. Conserva la distinción
-     * de D2: proyecto inexistente -> 404 (orElseThrow); proyecto sin tareas -> 200 con []. El filtro
-     * ?status= es STRETCH (mismo enum que /tasks). Sigue delegando en ProjectService.tareasDe.
+     * GET /projects/{id}/tasks — las tareas de un proyecto como TaskResponse. Distinción clave:
+     * proyecto inexistente -> 404 (orElseThrow); proyecto sin tareas -> 200 con []. El filtro
+     * ?status= es opcional (mismo enum que /tasks). Delega en ProjectService.tareasDe.
      */
     @Operation(summary = "Lista las tareas de un proyecto",
-            description = "Tareas del proyecto como TaskResponse; 404 si el proyecto no existe, 200 con [] si no tiene tareas. Filtro opcional ?status= (stretch).")
+            description = "Tareas del proyecto como TaskResponse; 404 si el proyecto no existe, 200 con [] si no tiene tareas. Filtro opcional ?status=.")
     @GetMapping("/projects/{id}/tasks")
     public List<TaskResponse> getTareasDeProyecto(
             @PathVariable("id") Long id,
-            @RequestParam(name = "status", required = false) TaskStatus status) {   // status: STRETCH
+            @RequestParam(name = "status", required = false) TaskStatus status) {   // status: opcional
         projectService.buscarPorId(id)
                 .orElseThrow(() -> new ProjectNotFoundException(id));
         List<Task> tareas = projectService.tareasDe(id);
-        if (status != null) {                          // STRETCH: filtro opcional por estado
+        if (status != null) {                          // filtro opcional por estado
             tareas = tareas.stream().filter(t -> t.getStatus() == status).toList();
         }
         return tareas.stream().map(TaskMapper::aResponse).toList();
@@ -89,7 +89,7 @@ public class ProjectController {
 
     /**
      * POST /projects — 201 + Location a /projects/{id}. @Valid dispara Bean Validation (400 si falla).
-     * MP-9: el owner sale del JWT — el Authentication (inyectado por Spring Security) trae el username
+     * El owner sale del JWT — el Authentication (inyectado por Spring Security) trae el username
      * del token; el service lo resuelve a ownerId. El dueño es QUIEN crea, no una constante.
      */
     @Operation(summary = "Crea un proyecto",
@@ -119,7 +119,7 @@ public class ProjectController {
      * DELETE /projects/{id} — 204 No Content; 404 si no existe. Borra en cascada las tareas del
      * proyecto (regla "no Task sin Project").
      *
-     * MP-9: la regla del capstone EN SERIO. @PreAuthorize se evalúa ANTES del método: pasa si el
+     * La regla de negocio, aplicada: @PreAuthorize se evalúa ANTES del método: pasa si el
      * usuario es ADMIN o es el owner del proyecto (bean @projectSecurity, data-driven). Un USER que no
      * es owner -> 403 (la API SÍ sabe quién es, por eso 403 y no 401). Proyecto inexistente ->
      * esOwner devuelve true a propósito para que hable el 404 del servicio.

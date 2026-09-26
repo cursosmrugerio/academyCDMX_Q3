@@ -38,24 +38,24 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * TaskControllerTest — SLICE web (S3D1, MP-6). La promesa de S2D3 pagada: los @SpringBootTest lentos
- * del CRUD regresan a @WebMvcTest. Aquí NO se levanta JPA, ni el seeder, ni la seguridad real: solo la
+ * TaskControllerTest — SLICE web. El CRUD no necesita un @SpringBootTest lento: le basta
+ * @WebMvcTest. Aquí NO se levanta JPA, ni el seeder, ni la seguridad real: solo la
  * capa web (controller + advice + Jackson + validación). El service es un @MockitoBean.
  *
- * Las 3 anotaciones CANÓNICAS de la migración (bloque de T6/MP-6):
+ * Las 3 anotaciones CLAVE del slice:
  *   1. @WebMvcTest(TaskController.class) -> levanta SOLO la capa web de este controller.
- *   2. @MockitoBean del/los service(s) -> el colaborador ausente; el músculo de S2D2 (when(...)) vuelve.
+ *   2. @MockitoBean del/los service(s) -> el colaborador ausente, programado con when(...).
  *   3. @AutoConfigureMockMvc(addFilters = false) -> la seguridad NO se prueba en el slice: se prueba
  *      donde vive, en integration/. Sin esto, el slice aplica la seguridad default de Boot y TODO da 401.
  *
- * Tropiezo canónico (a): el slice ESCANEA los Filter @Component, y JwtAuthenticationFilter arrastra
+ * Tropiezo típico: el slice ESCANEA los Filter @Component, y JwtAuthenticationFilter arrastra
  * JwtService/JpaUserDetailsService al contexto -> "No qualifying bean of type 'JwtService'". Solución:
  * @MockitoBean JwtAuthenticationFilter (se mockea el filtro para que el slice no cargue sus dependencias).
  *
- * @Mock vs @MockitoBean (dolor #1): aquí HAY contexto Spring -> @MockitoBean (sustituye un bean). En
+ * @Mock vs @MockitoBean: aquí HAY contexto Spring -> @MockitoBean (sustituye un bean). En
  * unit/ NO hay Spring -> @Mock. Regla mecánica: ¿la clase tiene una anotación @...Test de Spring? -> bean.
  *
- * El token DESAPARECIÓ del test: ya no hay filtro que lo exija (addFilters = false).
+ * Aquí no hay token: ningún filtro lo exige (addFilters = false).
  */
 @WebMvcTest(TaskController.class)
 @AutoConfigureMockMvc(addFilters = false)
@@ -136,7 +136,7 @@ class TaskControllerTest {
     }
 
     /**
-     * Frontera de la API, ESPEJO del parametrizado de dominio (integrador, refactor b): títulos que
+     * Frontera de la API, ESPEJO del parametrizado de dominio (TaskValidationTest): títulos que
      * violan @NotBlank/@Size -> 400. La validación de forma vive en el slice; ni siquiera se llama al
      * service. 0 -> vacío; 1,2 -> cortos; 121 -> largo.
      */

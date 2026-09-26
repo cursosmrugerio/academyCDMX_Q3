@@ -23,7 +23,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
-/** Unit de ProjectService.resumen (versión de referencia de copilot/dia-4): sin Spring, tareas reales. */
+/** Unit de ProjectService.resumen: sin Spring, tareas reales. */
 @ExtendWith(MockitoExtension.class)
 class ProjectSummaryServiceTest {
 

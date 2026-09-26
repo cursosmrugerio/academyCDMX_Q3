@@ -6,7 +6,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 /**
  * TaskflowApiApplicationTests — el test de humo del cableo (contextLoads del Initializr). SON
- * integración (arranca TODO el contexto): hoy se muda a integration/ (integrador, paso 1).
+ * integración (arranca TODO el contexto): por eso vive en integration/.
  *
  * @ActiveProfiles("test"): H2 EN MEMORIA del perfil test — NO escribe en data/taskflow.mv.db.
  */

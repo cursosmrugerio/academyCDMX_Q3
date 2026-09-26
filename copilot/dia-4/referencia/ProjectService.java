@@ -24,20 +24,18 @@ import java.util.Optional;
  * ProjectService — la capa de negocio del lado Project. Cero HTTP aquí (el "no existe" se traduce con
  * orElseThrow -> ProjectNotFoundException; el advice le pone el 404).
  *
- * Cambios de HOY (S2D4) — y por qué la promesa del día NO lo cubre:
- *   - MP-4: el modelo Project se aplanó (User owner -> Long ownerId), así que 'crear' y 'reemplazar'
- *     manejan un ownerId (Long), no un objeto User. Antes 'crear' construía con 0L (convención del
- *     InMemory de "aún sin id"); ahora construye con null y la BD asigna el id (IDENTITY).
- *   - MP-6: 'tareasDe' cambió su stream-filter de findAll() por taskRepository.findByProjectId(id)
- *     — la nota de D3 ("en D4 esto se vuelve un query method") se paga AQUÍ. La promesa "no tocar el
- *     servicio" protege a TaskService (que no se tocó), no a ProjectService (que ya se tocó en MP-4).
+ * Dos decisiones que se ven aquí:
+ *   - Project guarda un ownerId (Long), no un objeto User, así que 'crear' y 'reemplazar' manejan
+ *     ese Long. 'crear' construye con id null y la BD asigna el id (IDENTITY).
+ *   - 'tareasDe' usa la derived query taskRepository.findByProjectId(id) en vez de filtrar findAll()
+ *     con un stream: el filtro lo hace la BD.
  */
 @Service
 public class ProjectService {
 
     private final ProjectRepository projectRepository;
     private final TaskRepository taskRepository;
-    private final UserRepository userRepository;   // D5: para resolver el owner desde el username del JWT
+    private final UserRepository userRepository;   // para resolver el owner desde el username del JWT
 
     public ProjectService(ProjectRepository projectRepository, TaskRepository taskRepository,
                           UserRepository userRepository) {
@@ -57,8 +55,8 @@ public class ProjectService {
     }
 
     /**
-     * Las tareas de un proyecto: MP-6 sustituye el stream-filter de D2 por la derived query
-     * taskRepository.findByProjectId(projectId) — el LIKE... perdón, el WHERE project_id = ? lo hace
+     * Las tareas de un proyecto, con la derived query taskRepository.findByProjectId(projectId):
+     * el WHERE project_id = ? lo hace
      * la BD (viajan solo las filas del proyecto). "no existe el proyecto" (404) lo decide el
      * controller con buscarPorId; ESTE método, si el proyecto existe pero no tiene tareas, devuelve
      * [] (-> 200 con []). No son lo mismo.
@@ -68,8 +66,8 @@ public class ProjectService {
     }
 
     /**
-     * Crea un proyecto (POST): el request trae name y description; el ownerId ya NO es una constante
-     * (murió el 1L fijo de D3) — se resuelve del USERNAME AUTENTICADO (el que puso el JWT en el
+     * Crea un proyecto (POST): el request trae name y description; el ownerId NO es una constante
+     * — se resuelve del USERNAME AUTENTICADO (el que puso el JWT en el
      * Authentication). El dueño no lo decide el cliente ni una semilla: es QUIEN llama. createdAt = hoy;
      * id == null -> la BD lo asigna (IDENTITY).
      */
@@ -97,8 +95,8 @@ public class ProjectService {
     /**
      * Elimina un proyecto (DELETE) con CASCADA MANUAL: borra primero sus tareas (regla "no Task sin
      * Project" — y además la FK task.project_id lo EXIGE: borrar el proyecto con tareas colgando daría
-     * una violación de integridad) y luego el proyecto. No existe -> 404. La regla owner/ADMIN llega
-     * en D5 (hoy queda abierto, documentado en el @Operation del controller).
+     * una violación de integridad) y luego el proyecto. No existe -> 404. La regla owner/ADMIN no
+     * vive aquí: la aplica el @PreAuthorize del controller antes de llegar a este método.
      */
     public void eliminar(Long id) {
         projectRepository.findById(id)

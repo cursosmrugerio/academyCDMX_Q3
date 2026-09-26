@@ -17,13 +17,13 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 /**
- * AuthService — el negocio de /auth (MP-5 register/login, MP-7 token real).
+ * AuthService — el negocio de /auth (register y login con JWT).
  *
  * register: si el username existe -> UsernameAlreadyExistsException (409 vía advice); si no, HASHEA el
  * password con BCrypt, guarda el User (rol USER por default) y devuelve UserResponse (SIN passwordHash).
  *
  * login: delega en el AuthenticationManager (verifica credenciales contra la tabla users con BCrypt);
- * credenciales malas -> BadCredentialsException (401 vía advice). Si pasan, emite el JWT real.
+ * credenciales malas -> BadCredentialsException (401 vía advice). Si pasan, emite el JWT.
  */
 @Service
 public class AuthService {
@@ -54,10 +54,9 @@ public class AuthService {
     }
 
     /**
-     * Login. El AuthenticationManager (PROVISTO en SecurityConfig) autentica con UsernamePassword;
+     * Login. El AuthenticationManager (definido en SecurityConfig) autentica con UsernamePassword;
      * si las credenciales fallan lanza BadCredentialsException (401). Si pasan, el principal es el
-     * UserDetails cargado por JpaUserDetailsService -> generateToken produce el JWT real (MP-7: aquí
-     * MURIÓ el stub "pendiente-jwt").
+     * UserDetails cargado por JpaUserDetailsService -> generateToken produce el JWT.
      */
     public AuthResponse login(LoginRequest request) {
         Authentication authentication = authenticationManager.authenticate(

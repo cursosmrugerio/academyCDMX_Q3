@@ -11,14 +11,12 @@ import java.util.Map;
 /**
  * InfoController — el endpoint más pequeño de la API, y el más útil al desplegar.
  *
- * Expone GET /info con {"app":"taskflow-api","version":"3.0.0"}: PÚBLICO (sin token) para que un
+ * Expone GET /info con {"version":"3.0.0","app":"taskflow-api"}: PÚBLICO (sin token) para que un
  * simple `curl http://<host>:8080/info` confirme QUÉ versión está viva ahí. Un healthcheck dice
  * "responde"; esto dice "responde Y es la versión que acabo de publicar", que es la pregunta real.
  *
- * FREEZE S3D5 (integrador, fase 1): nació en D4 como "3.0.0-rc1" (release candidate); hoy, en el code
- * freeze, se sube a "3.0.0" al taggear v3.0 — el bump PROMETIDO por D4, y la ÚNICA línea de Java que
- * cambia el día de la demo (excepción explícita a la regla de oro: es metadato de versión, no una
- * feature). Se deja como constante para que el test sea determinista, sin depender de config externa.
+ * La versión vive en una constante para que el test sea determinista, sin depender de config
+ * externa. Cambiarla es metadato de versión, no una feature.
  *
  * OJO seguridad: sin la línea permitAll("/info") en SecurityConfig, este endpoint hereda
  * anyRequest().authenticated() y responde 401 sin token — el curl del deploy fallaría. El test de
@@ -39,8 +37,8 @@ public class InfoController {
             description = "Público (sin token): lo consume el smoke test del deploy tras cada release.")
     @GetMapping("/info")
     public Map<String, String> info() {
-        // LinkedHashMap y no Map.of: el orden de las claves tiene que ser el mismo en cada arranque
-        // porque esta salida se copia literal en las guías (version primero, app después).
+        // LinkedHashMap y no Map.of: el orden de las claves es el mismo en cada arranque
+        // (version primero, app después), así la salida se puede comparar tal cual.
         Map<String, String> info = new java.util.LinkedHashMap<>();
         info.put("version", VERSION);
         info.put("app", APP);

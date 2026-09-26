@@ -31,16 +31,16 @@ import java.net.URI;
 import java.util.List;
 
 /**
- * TaskController — la PUERTA HTTP de las tareas. HOY se completa el CRUD y la entidad Task deja de
- * salir por la puerta: toda firma habla en DTOs (TaskRequest / TaskResponse).
+ * TaskController — la PUERTA HTTP de las tareas: CRUD completo, y la entidad Task NO sale por la
+ * puerta: toda firma habla en DTOs (TaskRequest / TaskResponse).
  *
- * Contrato de responsabilidades (T6): el controller traduce HTTP <-> dominio y delega. Novedad de
- * hoy: además de TaskService, inyecta ProjectService para el cableo Task↔Project (validar que el
+ * Contrato de responsabilidades: el controller traduce HTTP <-> dominio y delega. Además de
+ * TaskService, inyecta ProjectService para el cableo Task↔Project (validar que el
  * proyecto exista al crear una tarea bajo su path).
  *
  * La checked TaskValidationException se declara con throws y SUBE al GlobalExceptionHandler (que la
- * mapea a 400). No se atrapa aquí: contraste con la IOException de S1D5 (aquélla se manejaba en su
- * capa porque nadie más podía; ésta tiene un handler global esperándola).
+ * mapea a 400). No se atrapa aquí porque tiene un handler global esperándola: una excepción se
+ * maneja en la capa que PUEDE hacer algo con ella, y ésa es el advice.
  */
 @RestController
 @Tag(name = "Tasks", description = "CRUD de tareas: crear bajo un proyecto, leer, reemplazar, cambiar estado y borrar.")
@@ -54,9 +54,9 @@ public class TaskController {
         this.projectService = projectService;
     }
 
-    /** GET /tasks — todas o filtradas por ?status= / ?priority= (stretch). Devuelve TaskResponse. */
+    /** GET /tasks — todas o filtradas por ?status= / ?priority=. Devuelve TaskResponse. */
     @Operation(summary = "Lista tareas",
-            description = "Todas las tareas, o filtradas por ?status= / ?priority= (stretch). Devuelve TaskResponse.")
+            description = "Todas las tareas, o filtradas por ?status= / ?priority=. Devuelve TaskResponse.")
     @GetMapping("/tasks")
     public List<TaskResponse> getTasks(
             @RequestParam(name = "status", required = false) TaskStatus status,
@@ -64,7 +64,7 @@ public class TaskController {
         List<Task> tareas;
         if (status != null) {
             tareas = taskService.porEstado(status);
-        } else if (priority != null) {                 // STRETCH: mismo patrón que ?status=
+        } else if (priority != null) {                 // mismo patrón que ?status=
             tareas = taskService.porPrioridad(priority);
         } else {
             tareas = taskService.listar();

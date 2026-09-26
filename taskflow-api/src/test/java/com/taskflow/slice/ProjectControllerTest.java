@@ -33,17 +33,17 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * ProjectControllerTest — SLICE web (S3D1, MP-7). MISMO tratamiento canónico que TaskControllerTest:
+ * ProjectControllerTest — SLICE web. MISMO tratamiento que TaskControllerTest:
  * @WebMvcTest + @MockitoBean del service + addFilters=false + @MockitoBean del filtro JWT.
  *
  * La seguridad (owner/ADMIN en el DELETE, 401/403) NO se prueba aquí: vive en integration/SecurityRulesTest
  * con token real. En el slice solo se verifica el CONTRATO web (200/201/400/404 + JSON).
  *
- * Nota del principal (mención de MP-6): createProject lee el username del Authentication; con
+ * Nota del principal: createProject lee el username del Authentication; con
  * addFilters=false NO corre el filtro de seguridad que normalmente puebla request.getUserPrincipal(),
  * así que aquí se inyecta el principal directo en el request con .principal(...). (@WithMockUser sería
- * la alternativa cuando se quiere method security en el slice; el material canoniza addFilters=false y
- * deja la seguridad a integration/.)
+ * la alternativa cuando se quiere method security en el slice; aquí se elige addFilters=false y la
+ * seguridad se deja a integration/.)
  */
 @WebMvcTest(ProjectController.class)
 @AutoConfigureMockMvc(addFilters = false)

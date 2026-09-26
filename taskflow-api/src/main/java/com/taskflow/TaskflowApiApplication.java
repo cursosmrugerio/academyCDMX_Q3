@@ -7,13 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * TaskflowApiApplication — punto de entrada generado por Spring Initializr.
  *
  * @SpringBootApplication = @Configuration + @ComponentScan + @EnableAutoConfiguration. Lo que
- * importa HOY: @ComponentScan escanea el package de ESTA clase (com.taskflow) y TODOS sus
- * subpackages — por eso el dominio copiado y los @Repository/@Service/@Component viven bajo
+ * importa aquí: @ComponentScan escanea el package de ESTA clase (com.taskflow) y TODOS sus
+ * subpackages — por eso el dominio y los @Repository/@Service/@Component viven bajo
  * com.taskflow y el contenedor los encuentra sin configurar nada.
  *
  * El main "raro" de una línea no hace nada visible por sí mismo: SpringApplication.run levanta el
- * CONTENEDOR, construye y cablea los beans, y ejecuta los CommandLineRunner. Ese contenedor es el
- * que en S1 era el 'new' a mano del Main de la consola: Spring construye y cablea por ti.
+ * CONTENEDOR, construye y cablea los beans, y ejecuta los CommandLineRunner. Ese contenedor hace lo
+ * que en una app de consola sería el 'new' a mano en el main: Spring construye y cablea por ti.
  */
 @SpringBootApplication
 public class TaskflowApiApplication {

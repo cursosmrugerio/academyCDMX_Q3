@@ -14,7 +14,7 @@
   Imprime una línea [OK] o [FALLA] por comprobación. Termina con código 0 si todo pasó y 1 si no.
   Los mensajes que imprime van sin acentos a propósito: cuando la salida pasa por una tubería
   (Tee-Object, la terminal del agente) Windows la decodifica con otra página de códigos y una «ó» sale
-  como «�» (medido en la Windows de ensayo el 13-sep).
+  como «�» (medido en Windows).
   Los logs quedan en target/verificar-<puerto>-*.log (target/ no se versiona).
 
 .PARAMETER Puerto
@@ -155,7 +155,7 @@ try {
 
         # 4. Esperar a que termine la semilla. Spring Boot abre el puerto ANTES de correr DataSeeder
         #    (un CommandLineRunner): /info ya responde pero ana todavía no existe y el login da 401.
-        #    Medido en la Windows de ensayo el 13-sep. Se reintenta el login y luego se espera a la
+        #    Medido en Windows. Se reintenta el login y luego se espera a la
         #    última tarea que siembra (la 9); no se duerme un tiempo fijo.
         $auth = $null
         while (((Get-Date) - $inicio).TotalSeconds -lt $EsperaMaxSeg) {

@@ -5,14 +5,14 @@ import com.taskflow.model.Task;
 import java.util.Comparator;
 
 /**
- * TaskOrders — catálogo de ESTRATEGIAS de ordenamiento de tareas (MP-3, patrón Strategy).
+ * TaskOrders — catálogo de ESTRATEGIAS de ordenamiento de tareas (patrón Strategy).
  *
  * Cada constante es una estrategia empaquetada como VALOR (un {@link Comparator}) que se PASA a
- * quien ordena (el contexto: {@code sorted(...)} de los streams). Es el mismo patrón que ya usaron
- * en S1D3/D4 sin nombre: un Comparator es una estrategia, y sort/sorted es el contexto que la
- * recibe sin saber cuál le tocó. Aquí les damos NOMBRE y las juntamos en un solo lugar reutilizable.
+ * quien ordena (el contexto: {@code sorted(...)} de los streams). Todo Comparator es ya una
+ * estrategia aunque no se le llame así, y sort/sorted es el contexto que la recibe sin saber cuál
+ * le tocó. Aquí les damos NOMBRE y las juntamos en un solo lugar reutilizable.
  *
- * Se reutiliza tal cual en S2: {@code TaskService.listar()} de la API ordena con POR_URGENCIA.
+ * {@code TaskService.listar()} de la API ordena con POR_URGENCIA.
  *
  * Clase de utilidades: constructor privado (no se instancia — solo se usan sus constantes).
  */
@@ -23,7 +23,7 @@ public final class TaskOrders {
     }
 
     /**
-     * POR_FECHA — la estrategia "de siempre" (S1D4): dueDate ascendente, con las tareas SIN fecha
+     * POR_FECHA — la estrategia básica: dueDate ascendente, con las tareas SIN fecha
      * (dueDate null) al FINAL. nullsLast evita el NullPointerException al comparar una fecha null.
      */
     public static final Comparator<Task> POR_FECHA =
@@ -35,7 +35,7 @@ public final class TaskOrders {
             Comparator.comparing(Task::getTitle, String.CASE_INSENSITIVE_ORDER);
 
     /**
-     * POR_URGENCIA — la estrategia NUEVA de MP-3, encadenando comparing/thenComparing de S1D3:
+     * POR_URGENCIA — la estrategia compuesta, encadenando comparing/thenComparing:
      *   1) las VENCIDAS primero (estaVencida() == true antes que false),
      *   2) a igualdad, prioridad de mayor a menor (HIGH -> MED -> LOW),
      *   3) a igualdad, dueDate ascendente con las sin fecha al final.

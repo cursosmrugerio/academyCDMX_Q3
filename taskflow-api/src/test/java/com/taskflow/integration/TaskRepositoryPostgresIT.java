@@ -25,11 +25,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * TaskRepositoryPostgresIT — el mismo test de repositorio, contra un Postgres REAL.
  *
- * Es el MISMO @DataJpaTest de repositorio de S3D1 (TaskRepositoryTest), pero corriendo contra un
- * Postgres 16 REAL y EFÍMERO en lugar de H2. Cierra el círculo que S3D1 dejó abierto: "Testcontainers
- * llega mañana, cuando tengamos Docker" — y hoy ya tenemos Docker.
+ * Es el MISMO @DataJpaTest de repositorio que TaskRepositoryTest, pero corriendo contra un
+ * Postgres 16 REAL y EFÍMERO en lugar de H2.
  *
- * Mensaje del anexo: H2 nos sirvió para APRENDER y sigue siendo válida en slices rápidos (la pirámide);
+ * La idea: H2 es cómoda para APRENDER y sigue siendo válida en slices rápidos (la pirámide);
  * en la industria, la integración se prueba contra la MISMA base que producción. Costo honesto:
  * Testcontainers arranca en SEGUNDOS (levanta un contenedor), H2 en MILISEGUNDOS — por eso conviven.
  *
@@ -108,7 +107,7 @@ class TaskRepositoryPostgresIT {
 
     /**
      * El mapeo @Enumerated(STRING) va y vuelve como TEXTO también en Postgres. flush()+clear() fuerza el
-     * viaje REAL a SQL (sin caché de 1er nivel que mienta) — la misma lección de S3D1, otra base.
+     * viaje REAL a SQL (sin caché de 1er nivel que mienta) — la misma lección que en TaskRepositoryTest, otra base.
      */
     @Test
     void mapeoDeStatus_sobreviveFlushYClear_enPostgres() throws TaskValidationException {

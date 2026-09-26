@@ -11,13 +11,11 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 /**
- * User — usuario del sistema. Entidad JPA desde D4 (de record a clase). HOY (S2D5, MP-3) gana el
- * campo que faltaba: passwordHash.
+ * User — usuario del sistema (entidad JPA), con su passwordHash.
  *
- * @Table(name = "users") es OBLIGATORIO: 'USER' es palabra RESERVADA en H2 y Postgres (viene de D4).
+ * @Table(name = "users") es OBLIGATORIO: 'USER' es palabra RESERVADA en H2 y Postgres.
  *
- * PAGA DE LA DEUDA DE S1D2: allá se declaró "User omite passwordHash — se añade en S2D5 (seguridad)".
- * No fue olvido, fue diseño: un password no se modela hasta que se puede HASHEAR. El campo se llama
+ * Diseño: el password nunca se guarda en claro, solo su hash. El campo se llama
  * passwordHash (columna password_hash) y NO 'password' porque el nombre DOCUMENTA que ahí jamás vive
  * un password en claro — solo su hash BCrypt (prefijo $2a$/$2b$, salt automático).
  */
@@ -33,9 +31,9 @@ public class User {
     private String username;
 
     /**
-     * El HASH BCrypt del password (NUNCA el password en claro). @JsonIgnore es un cinturón extra
-     * (punto de dolor 8): aunque la disciplina de D3 dice "exponer siempre UserResponse, nunca la
-     * entidad", si alguien serializara un User por error, este campo NO viajaría al JSON.
+     * El HASH BCrypt del password (NUNCA el password en claro). @JsonIgnore es un cinturón extra:
+     * aunque la disciplina dice "exponer siempre UserResponse, nunca la entidad", si alguien
+     * serializara un User por error, este campo NO viajaría al JSON.
      */
     @JsonIgnore
     @Column(name = "password_hash")

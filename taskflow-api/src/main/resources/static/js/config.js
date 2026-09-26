@@ -2,7 +2,7 @@
 
 window.TF_CONFIG = {
     // Retraso artificial en milisegundos para simular latencia de red.
-    // Esto es crucial para los ejercicios de pruebas de UI con esperas explícitas (explicit waits).
+    // Esto es crucial para las pruebas de UI con esperas explícitas (explicit waits).
     // Un valor de 0 hace que la UI sea instantánea, útil para depuración manual.
     // El valor por defecto es 1500ms.
     // Se puede sobreescribir desde la consola del navegador para pruebas:

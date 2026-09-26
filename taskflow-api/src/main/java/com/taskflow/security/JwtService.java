@@ -12,8 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 /**
- * JwtService — el SERVICIO DE TOKENS. Es PROVISTO y COMPLETO: hoy se LEE y se USA, no se escribe
- * (MP-7, lectura guiada). Criptografía APLICADA no es objetivo del curso; usarla bien, sí. jjwt
+ * JwtService — el SERVICIO DE TOKENS. No implementa criptografía: la USA, y la usa bien. jjwt
  * (versión 0.12.6) hace el trabajo pesado; nosotros elegimos qué guardar y cómo validar.
  *
  * Un JWT tiene 3 partes separadas por puntos: header.payload.signature (base64url). El payload es
@@ -37,7 +36,7 @@ public class JwtService {
     public JwtService(@Value("${jwt.secret}") String secret,
                       @Value("${jwt.expiration-ms}") long expirationMs) {
         // Los bytes UTF-8 del secret son la clave simétrica. En prod el secret vive en una variable de
-        // entorno (S3, 12-factor), NUNCA en el yml commiteado.
+        // entorno (12-factor), NUNCA en el yml commiteado.
         this.key = io.jsonwebtoken.security.Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
         this.expirationMs = expirationMs;
     }
@@ -82,8 +81,8 @@ public class JwtService {
     }
 
     /**
-     * Parsea Y VERIFICA la firma. clockSkewSeconds(60) tolera 60 s de desfase de reloj (punto de dolor
-     * 4, típico en Windows): si el desfase es mayor, se arregla el RELOJ, no se sube el skew. Si la
+     * Parsea Y VERIFICA la firma. clockSkewSeconds(60) tolera 60 s de desfase de reloj (típico
+     * en Windows): si el desfase es mayor, se arregla el RELOJ, no se sube el skew. Si la
      * firma no cuadra o el token está corrupto/expirado, lanza una subclase de JwtException.
      */
     private Claims parseClaims(String token) {

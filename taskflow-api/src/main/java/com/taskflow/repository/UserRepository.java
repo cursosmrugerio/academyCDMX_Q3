@@ -6,11 +6,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
 /**
- * UserRepository — creado en el integrador de D4 (paso 1). "Mañana lo usa el login": ese mañana es HOY
- * (S2D5, MP-4). Gana dos derived queries que el mundo de auth necesita:
+ * UserRepository — el acceso a la tabla users. Dos derived queries que el mundo de auth necesita:
  *   - findByUsername:   lo usa JpaUserDetailsService (login) y ProjectSecurity (regla de owner).
  *   - existsByUsername: lo usa AuthService.register para rechazar duplicados (409) sin traer la fila.
- * La gramática es la misma de D4 (findBy/existsBy + propiedad): Spring Data escribe el SQL.
+ * La gramática es la misma que en TaskRepository (findBy/existsBy + propiedad): Spring Data escribe el SQL.
  */
 public interface UserRepository extends JpaRepository<User, Long> {
 

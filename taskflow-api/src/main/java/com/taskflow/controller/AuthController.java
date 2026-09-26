@@ -21,11 +21,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * AuthController — la puerta HTTP de la autenticación (MP-5). Bajo /auth (público en el filter chain).
+ * AuthController — la puerta HTTP de la autenticación. Bajo /auth (público en el filter chain).
  *   - POST /auth/register -> 201 con UserResponse (sin passwordHash).
  *   - POST /auth/login    -> 200 con AuthResponse(token).
- *   - GET  /auth/me       -> STRETCH: el UserResponse del usuario del token.
- * Delega TODO en AuthService; la validación de forma la dispara @Valid (400 vía el advice de D3).
+ *   - GET  /auth/me       -> el UserResponse del usuario del token.
+ * Delega TODO en AuthService; la validación de forma la dispara @Valid (400 vía el advice).
  */
 @RestController
 @RequestMapping("/auth")
@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
 
     private final com.taskflow.service.AuthService authService;
-    private final UserRepository userRepository;   // solo para el stretch /auth/me
+    private final UserRepository userRepository;   // solo para /auth/me
 
     public AuthController(com.taskflow.service.AuthService authService, UserRepository userRepository) {
         this.authService = authService;
@@ -60,10 +60,10 @@ public class AuthController {
     }
 
     /**
-     * STRETCH — GET /auth/me: devuelve el UserResponse del usuario del token. Resuelve el username
+     * GET /auth/me: devuelve el UserResponse del usuario del token. Resuelve el username
      * desde el Authentication (lo puso el JwtAuthenticationFilter); no recibe ningún id del cliente.
      */
-    @Operation(summary = "STRETCH: datos del usuario autenticado",
+    @Operation(summary = "Datos del usuario autenticado",
             description = "Lee el username del token (Authentication), no un id del cliente.")
     @GetMapping("/me")
     public UserResponse me(Authentication authentication) {

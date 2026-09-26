@@ -6,7 +6,7 @@
 
     <!-- spring-boot-starter-parent: el "padre" que GESTIONA las versiones de todas las dependencias
          de Spring (por eso abajo casi ninguna lleva <version>) y la config de plugins. Línea 3.5.x
-         FIJADA para toda la S2/S3. -->
+         FIJADA. -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -23,31 +23,31 @@
     <properties>
         <!-- Java 21: seleccionado explícito en el wizard (no el default del sitio). -->
         <java.version>21</java.version>
-        <!-- Versión CANÓNICA de jjwt fijada para todo el día (los 3 artefactos van a la par). -->
+        <!-- Versión de jjwt fijada en UN solo lugar (los 3 artefactos van a la par). -->
         <jjwt.version>0.12.6</jjwt.version>
     </properties>
 
     <dependencies>
         <!-- spring-boot-starter-web: Tomcat embebido + Spring MVC (@RestController/@GetMapping) +
-             Jackson (objeto <-> JSON). Viene desde S2D2. -->
+             Jackson (objeto <-> JSON). -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- spring-boot-starter-validation: Hibernate Validator (jakarta.validation). Viene de S2D3. -->
+        <!-- spring-boot-starter-validation: Hibernate Validator (jakarta.validation). -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- spring-boot-starter-data-jpa: JPA + Hibernate + Spring Data JPA. Viene de S2D4. -->
+        <!-- spring-boot-starter-data-jpa: JPA + Hibernate + Spring Data JPA. -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- spring-boot-starter-security: seguridad JWT stateless (S2D5). Auto-configura la
+        <!-- spring-boot-starter-security: seguridad JWT stateless. Auto-configura la
              SecurityFilterChain; nuestro SecurityConfig sustituye cada default. -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -62,10 +62,10 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- postgresql: driver JDBC de Postgres (S3D2, MP-9). scope RUNTIME por la MISMA razón que h2:
+        <!-- postgresql: driver JDBC de Postgres. scope RUNTIME por la MISMA razón que h2:
              el código nunca importa org.postgresql.* — Hibernate elige el driver por la URL del perfil.
-             El swap H2->Postgres NO tocó una línea de Java: SOLO esta dependencia + el perfil 'docker'.
-             Eso compró JPA (eco de S2D4). Quien hizo el stretch de S2D4 ya la tenía descomentada. -->
+             El swap H2->Postgres NO toca una línea de Java: SOLO esta dependencia + el perfil 'docker'.
+             Eso compra JPA. -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -92,7 +92,7 @@
         </dependency>
 
         <!-- springdoc-openapi: Swagger UI + /v3/api-docs. Versión FIJADA a 2.8.9 (compatible con
-             Boot 3.5.x). Viene de S2D3. -->
+             Boot 3.5.x). -->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -100,7 +100,7 @@
         </dependency>
 
         <!-- spring-boot-starter-test: JUnit 5 + AssertJ + Mockito + spring-test (MockMvc). scope test.
-             La versión de Mockito la MANDA el BOM de este starter (dolor #6): declarar mockito-core con
+             La versión de Mockito la MANDA el BOM de este starter: declarar mockito-core con
              versión propia rompe con NoSuchMethodError/ByteBuddy. Se deja al BOM. -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -108,9 +108,9 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- spring-security-test: helpers de seguridad para tests (@WithMockUser...). El material usa el
-             patrón canónico "token real en el setup"; @WithMockUser se MENCIONA como alternativa legítima
-             en el slice (por eso la dependencia se conserva desde S2D5). -->
+        <!-- spring-security-test: helpers de seguridad para tests (@WithMockUser...). Los tests usan el
+             patrón "token real en el setup"; @WithMockUser queda como alternativa legítima en el slice
+             (por eso la dependencia se conserva). -->
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
@@ -118,10 +118,9 @@
         </dependency>
 
         <!-- ============================================================================
-             TESTCONTAINERS — SOLO para el ANEXO del instructor (demo awareness de S3D2, PM-1).
-             Habilita TaskRepositoryPostgresIT (@Disabled): el @DataJpaTest de ayer contra un
-             Postgres REAL efímero, no H2. El BOM de Testcontainers lo GESTIONA el
-             spring-boot-starter-parent (por eso ninguna lleva <version>).
+             TESTCONTAINERS — SOLO para TaskRepositoryPostgresIT (perfil docker-it, más abajo):
+             el @DataJpaTest de TaskRepositoryTest contra un Postgres REAL efímero, no H2. El BOM de
+             Testcontainers lo GESTIONA el spring-boot-starter-parent (por eso ninguna lleva <version>).
              Coexisten con H2: los slices rápidos siguen en H2 (pirámide); la integración fiel,
              contra la MISMA base que producción. Costo honesto: arranca en segundos, no ms.
              ============================================================================ -->
@@ -158,9 +157,8 @@
          POR QUE JACOCO VIVE EN UN PERFIL Y NO EN <build>
          JaCoCo instrumenta con un -javaagent que inyecta en ${argLine}. m2e NO
          ejecuta prepare-agent, asi que dentro de Eclipse ${argLine} se queda sin
-         resolver y «Run As > JUnit Test» revienta. Mismo patron que el proyecto
-         `mockito` de este repo: !m2e.version activa el perfil en la TERMINAL y lo
-         desactiva dentro de Eclipse. Las dos vias corren los mismos 67 tests; solo
+         resolver y «Run As > JUnit Test» revienta. La salida: !m2e.version
+         activa el perfil en la TERMINAL y lo desactiva dentro de Eclipse. Las dos vias corren los mismos 67 tests; solo
          la terminal mide cobertura y aplica el gate.
          ========================================================================== -->
     <profiles>
@@ -208,7 +206,7 @@
                                                 <limit>
                                                     <counter>LINE</counter>
                                                     <value>COVEREDRATIO</value>
-                                                    <minimum>0.70</minimum>           <!-- la meta del capstone; el stretch añade BRANCH -->
+                                                    <minimum>0.70</minimum>           <!-- la meta: 70% de líneas; admite otro límite BRANCH -->
                                                 </limit>
                                             </limits>
                                         </rule>

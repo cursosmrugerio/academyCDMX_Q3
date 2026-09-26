@@ -21,11 +21,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 /**
- * ReportServiceTest — UNIT PURO con Mockito (S3D1, integrador paso 3: "cobertura guiada por el reporte").
+ * ReportServiceTest — UNIT PURO con Mockito (cobertura guiada por el reporte de JaCoCo).
  *
- * ReportService llevaba 2 semanas sin test DIRECTO en la API (los streams de S1D4). El reporte JaCoCo lo
- * delata en rojo; se cubre DONDE ES BARATO: un unit con @Mock TaskRepository. El Mockito de la mañana
- * paga aquí — porcentajeCompletadas esconde la trampa long/long de S1D1 (* 100.0 ANTES de dividir).
+ * Sin este test, ReportService (los streams del reporte) no tendría test DIRECTO y el reporte JaCoCo lo
+ * delataría en rojo; se cubre DONDE ES BARATO: un unit con @Mock TaskRepository. Ojo con
+ * porcentajeCompletadas: esconde la trampa long/long (* 100.0 ANTES de dividir).
  *
  * Los DATOS (Task) se construyen reales; solo el repositorio (colaborador) se mockea.
  */
@@ -74,7 +74,7 @@ class ReportServiceTest {
         Task b = tarea("Baja", TaskStatus.IN_PROGRESS, Priority.LOW, 1L);
         when(repo.findByStatusNot(TaskStatus.DONE)).thenReturn(List.of(b, a));
 
-        // POR_URGENCIA (reuso de la Strategy de S1): a igualdad de vencidas, HIGH antes que LOW.
+        // POR_URGENCIA (reuso de la Strategy de TaskOrders): a igualdad de vencidas, HIGH antes que LOW.
         List<Task> orden = service.pendientes(TaskOrders.POR_URGENCIA);
 
         assertThat(orden).containsExactly(a, b);
@@ -124,7 +124,7 @@ class ReportServiceTest {
     }
 
     @Test
-    void tareasPorPrioridad_yTitulosCsv_stretchCubiertos() {
+    void tareasPorPrioridad_yTitulosCsv() {
         when(repo.findAll()).thenReturn(List.of(
                 tarea("Uno", TaskStatus.TODO, Priority.HIGH, 1L),
                 tarea("Dos", TaskStatus.TODO, Priority.HIGH, 1L)));

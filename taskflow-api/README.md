@@ -1,8 +1,9 @@
 # `taskflow-api` — la API REST completa
 
-El proyecto grande del curso, en su estado final (**v3.0**). A diferencia del resto del
-repositorio —donde cada carpeta aísla **un** concepto— aquí conviven todos a la vez, que es
-como se los va a encontrar en un trabajo: REST, DTOs, validación, JPA, seguridad con JWT,
+El proyecto de referencia de la semana de GitHub Copilot: lo recibes **ya terminado**, en su
+versión **v3.0**, para leerlo, correrlo y trabajar sobre él con Copilot. A diferencia del resto
+del repositorio —donde cada carpeta aísla **un** concepto— aquí conviven todos a la vez, que es
+como te los vas a encontrar en un trabajo: REST, DTOs, validación, JPA, seguridad con JWT,
 manejo centralizado de errores, tests en tres niveles y un contenedor.
 
 ## Qué resuelve
@@ -119,7 +120,7 @@ todavía no aceptaba conexiones.
 
 ```bash
 curl http://localhost:8080/info
-# {"app":"taskflow-api","version":"3.0.0"}
+# {"version":"3.0.0","app":"taskflow-api"}
 ```
 
 O abre `http://localhost:8080/swagger-ui/index.html`, entra con `ana` / `ana123` en
@@ -181,7 +182,7 @@ Consola SQL en `/h2-console`.
 | Comando | Qué corre |
 |---|---|
 | `mvn test` | **67 tests**: unitarios, slices (`@WebMvcTest`, `@DataJpaTest`) e integración (`@SpringBootTest`) |
-| `mvn verify` | Los 67 **+ el gate de cobertura**: falla por debajo del 70% de líneas. Hoy va en 86.7% |
+| `mvn verify` | Los 67 **+ el gate de cobertura**: falla por debajo del 70% de líneas. Esta versión va en 86.7% |
 | `mvn test -Ddocker.tests=true` | **70**: añade `TaskRepositoryPostgresIT`, el mismo test de repositorio contra un Postgres 16 real y efímero (Testcontainers). Requiere Docker levantado |
 
 Informe de cobertura tras `mvn verify`: `target/site/jacoco/index.html`.
@@ -202,8 +203,8 @@ y te manda a revisar si el demonio está encendido, que no era el problema.
 ## Qué NO está aquí, a propósito
 
 - **Nada de despliegue en la nube**: la API corre en tu máquina (perfil `h2`) o con Docker Compose.
-- **Nada de CI/CD**: el pipeline de GitHub Actions y la publicación de la imagen no viajaron.
-- **Ninguna feature nueva**: comentarios en tareas, etiquetas y notificaciones son el backlog
+- **Nada de CI/CD**: no hay pipeline de GitHub Actions ni publicación de la imagen.
+- **Nada del backlog**: comentarios en tareas, etiquetas y notificaciones son el backlog
   del cliente, no parte de v3.0.
 - **Un frontend de verdad**: TaskFlow es una API. Lo que sirve en `http://localhost:8080/` es una
   UI estática mínima (login, proyectos, tareas) desde `src/main/resources/static/`, abierta en

@@ -1,12 +1,11 @@
-# docker-compose.yml canónico de TaskFlow (S3D2, PM-1) — api + Postgres.
+# docker-compose.yml de TaskFlow — api + Postgres.
 #
 # UN yml declarativo describe N contenedores; 'docker compose up -d --build' los
 # levanta a todos, en su red, con su volumen. Sustituye a N 'docker run' a mano.
 #
 # La RED implícita: compose crea una red donde cada servicio es alcanzable por su
 # NOMBRE. Por eso la API llega a Postgres con el host 'db' (NO 'localhost': dentro
-# del contenedor 'api', localhost es el propio 'api'). Esa es la mitad que faltaba
-# de la caja negra del 'docker run' de S2D4.
+# del contenedor 'api', localhost es el propio 'api').
 #
 # 12-factor (factor III): NINGÚN secreto vive aquí. Todo llega por variables desde
 # un .env local que NO se commitea (.gitignore lo cubre); .env.example documenta
@@ -15,7 +14,7 @@ services:
   api:
     build: .                       # construye la imagen desde el Dockerfile de esta carpeta
     image: taskflow-api            # nombra la imagen (sin esto sería '<carpeta>-api');
-                                   # cumple el Contrato con D3/D4 (imagen 'taskflow-api')
+                                   # queda un nombre fijo y predecible: 'taskflow-api'
     ports:
       - "8080:8080"                # publica el puerto de la API hacia tu host (Swagger)
     environment:
@@ -32,7 +31,7 @@ services:
     depends_on:
       db:
         condition: service_healthy   # espera a que 'db' esté LISTA (no solo arrancada):
-                                     # sin esto la API le gana la carrera a Postgres (Error #3)
+                                     # sin esto la API le gana la carrera a Postgres
   db:
     image: postgres:16
     environment:

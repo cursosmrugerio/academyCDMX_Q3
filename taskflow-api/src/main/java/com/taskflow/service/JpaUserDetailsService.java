@@ -9,13 +9,13 @@ import org.springframework.stereotype.Service;
 
 /**
  * JpaUserDetailsService — el punto donde Spring Security DEJA de inventar usuarios y consulta NUESTRA
- * tabla users (MP-4). Implementa el contrato UserDetailsService: loadUserByUsername -> UserDetails.
+ * tabla users. Implementa el contrato UserDetailsService: loadUserByUsername -> UserDetails.
  *
- * Termómetro del día (punto de dolor 9): en cuanto este bean queda registrado (@Service, dentro del
+ * Termómetro: en cuanto este bean queda registrado (@Service, dentro del
  * component scan), el password generado DESAPARECE de la consola. Si sigue saliendo, este bean no se
  * registró.
  *
- * hasRole/prefijo (punto de dolor 5): hasRole("ADMIN") espera la authority ROLE_ADMIN. El builder
+ * hasRole/prefijo: hasRole("ADMIN") espera la authority ROLE_ADMIN. El builder
  * .roles(role.name()) AÑADE el prefijo ROLE_ por nosotros — olvidarlo produce el "403 misterioso" con
  * un token válido.
  */

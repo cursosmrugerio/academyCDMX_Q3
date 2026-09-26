@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 
 /**
- * LoginRequest — cuerpo de POST /auth/login (T5). Solo username + password; el service delega en el
+ * LoginRequest — cuerpo de POST /auth/login. Solo username + password; el service delega en el
  * AuthenticationManager. Credenciales malas -> BadCredentialsException -> 401 vía el advice.
  */
 public record LoginRequest(

@@ -1,4 +1,4 @@
-# .dockerignore — lo que NO viaja al build context (MP-5).
+# .dockerignore — lo que NO viaja al build context.
 #
 # El build context es TODO lo que 'docker build .' manda al daemon antes de leer
 # el Dockerfile; sin este archivo, el COPY arrastra basura y secretos, el build

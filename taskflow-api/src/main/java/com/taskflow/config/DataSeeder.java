@@ -21,21 +21,19 @@ import java.time.LocalDate;
  * repositorios JPA, condicionada a count()==0 (con ddl-auto=update los datos SOBREVIVEN al reinicio;
  * sembrar en cada arranque duplicaría todo).
  *
- * CAMBIO DE HOY (S2D5, MP-3): los usuarios ganan passwordHash. Decisión canónica (punto de dolor 3):
+ * Los usuarios llevan passwordHash. Decisión de diseño:
  * sembrar con el PasswordEncoder INYECTADO (no data.sql con hashes a mano) — hashes siempre válidos y
  * el código DOCUMENTA los passwords de prueba. El mismo password produce hashes DISTINTOS cada vez
  * (salt) -> se verifica con matches(), jamás comparando strings.
  *
- * Usuarios semilla CANÓNICOS del día (los usan tests, demo y Postman):
+ * Usuarios semilla (los usan los tests y la colección de Postman):
  *   ana   / ana123   / USER  (id 1) — owner del proyecto 1
  *   luis  / luis123  / USER  (id 2) — owner del proyecto 2 (App Movil), NO del 1 -> por eso es el
  *                                    protagonista del 403: borrar el proyecto 1, que es de ana
  *   admin / admin123 / ADMIN (id 3) — puede borrar cualquier proyecto
- * Son los MISMOS ana/luis de la semilla D4 (ahora con passwordHash y ana pasa de ADMIN a USER, la
- * forma canónica) MÁS admin NUEVO — no se duplican usuarios. El proyecto 1 tiene ownerId = ana (id 1),
- * la base de la regla "solo owner o ADMIN borra el proyecto".
+ * El proyecto 1 tiene ownerId = ana (id 1), la base de la regla "solo owner o ADMIN borra el proyecto".
  *
- * IMPORTANTE al cambiar la entidad User (nueva columna password_hash): con ddl-auto=update, borra
+ * IMPORTANTE al cambiar una entidad (p.ej. añadir a User una columna como password_hash): con ddl-auto=update, borra
  * data/*.mv.db y deja que este seeder resiembre — si no, la columna vieja no cuadra.
  *
  * IDs por orden de inserción en BD fresca: users ana(1)/luis(2)/admin(3); projects 1..3; tasks 1..9.
@@ -47,7 +45,7 @@ public class DataSeeder implements CommandLineRunner {
     private final UserRepository userRepository;
     private final ProjectRepository projectRepository;
     private final TaskRepository taskRepository;
-    private final PasswordEncoder passwordEncoder;   // D5: para hashear los passwords semilla
+    private final PasswordEncoder passwordEncoder;   // para hashear los passwords semilla
 
     public DataSeeder(UserRepository userRepository, ProjectRepository projectRepository,
                       TaskRepository taskRepository, PasswordEncoder passwordEncoder) {
@@ -73,7 +71,7 @@ public class DataSeeder implements CommandLineRunner {
     }
 
     /**
-     * 3 usuarios CANÓNICOS con passwordHash (BCrypt vía el encoder inyectado): ana (id 1, USER, owner
+     * 3 usuarios semilla con passwordHash (BCrypt vía el encoder inyectado): ana (id 1, USER, owner
      * del proyecto 1), luis (id 2, USER), admin (id 3, ADMIN). En H2 se ve la columna password_hash
      * con prefijo $2a$.
      */
@@ -89,7 +87,7 @@ public class DataSeeder implements CommandLineRunner {
     /** 3 proyectos (ids 1..3). El proyecto 1 pertenece a ana (id 1); el 3 se queda SIN tareas. */
     private void sembrarProyectos() {
         projectRepository.save(new Project(null, "Plataforma TaskFlow",
-                "El backend REST del capstone", 1L, LocalDate.now().minusDays(30)));    // -> id 1, owner ana
+                "El backend REST de TaskFlow", 1L, LocalDate.now().minusDays(30)));    // -> id 1, owner ana
         projectRepository.save(new Project(null, "App Móvil",
                 "Cliente móvil que consume la API", 2L, LocalDate.now().minusDays(20))); // -> id 2, owner luis
         projectRepository.save(new Project(null, "Migración Legacy",

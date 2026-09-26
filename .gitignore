@@ -28,16 +28,8 @@ target/
 # porque .classpath las referencia y sin ellas el proyecto no compila al clonar.
 !**/lib/*.jar
 *.war
-# Excepcion: este WAR ya construido SI se versiona, para poder desplegarlo
-# en Tomcat directamente desde el repo sin tener que recompilar el proyecto.
-!proyectosWeb/proyectoWar/jsp-student-tracker-bonus-search/web-student-tracker-solution.war
 *.ear
 hs_err_pid*
-
-# Material de apoyo binario y pesado (PDF, PNG y MP4 de ~30 MB en total).
-# Se consulta al estudiar el tema, pero no es fuente: si entra al repo se queda
-# en la historia de git para siempre y el clon pesa eso de mas para todos.
-proyectosWeb/springWebFlux/Conceptos/notebook/
 
 # Secretos de ejecucion. taskflow-api/.env lo lee docker compose y lleva la
 # contrasena de Postgres y el JWT_SECRET reales. Lo que SI se versiona es
@@ -57,5 +49,5 @@ proyectosWeb/springWebFlux/Conceptos/notebook/
 *.key
 # Excepcion: las llaves del ejercicio de JWT SI se versionan. Son material
 # didactico generado para la practica (no protegen nada real) y sin ellas
-# 02-security-jwt no arranca al clonar.
+# el proyecto que las usa no arranca al clonar.
 !**/src/main/resources/certs/*.pem
