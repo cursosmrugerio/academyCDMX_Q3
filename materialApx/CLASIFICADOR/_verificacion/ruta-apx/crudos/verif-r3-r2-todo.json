@@ -1,0 +1,441 @@
+{
+ "metodo": "Detección propia de color: pypdf, content stream (rg + re + f) cruzado con la posición de cada fragmento de texto (visitor_text). APX3: 133 líneas amarillas (1,1,0) y 1 gris (0.8,0.8,0.8, #47 opción b). Java.pdf: solo verde (0,1,0), 302 líneas. Se estructuraron las 95 preguntas de APX3 y las 212 de Java.pdf; se mapearon las marcas al banco POR TEXTO (difflib) y por significado (TF-IDF de enunciado+opciones contra las 223 del banco, revisión manual de todos los candidatos). Casos reportados confirmados en imagen (sips): APX3 págs. 4, 5, 6, 9, 11; Java.pdf pág. 63. Temporales en scratchpad/verif-r2-todo/.",
+ "tarea1": [
+  {
+   "grupo": "G002",
+   "gravedad": "conocida",
+   "veredicto": "discrepancia",
+   "fuente": "java/Java.pdf #165",
+   "pagina": 263,
+   "marcado": [
+    "b. Procesamiento transaccional (verde)"
+   ],
+   "texto_pdf": "«La respuesta correcta es: b. Procesamiento transaccional y c. Procesamiento Batch»",
+   "banco": [
+    "b",
+    "c"
+   ],
+   "nota": "Ya conocida: verde solo b; texto b y c; banco b,c."
+  },
+  {
+   "grupo": "G178",
+   "gravedad": "media",
+   "veredicto": "discrepancia_por_significado",
+   "miembros": [
+    "T08-9"
+   ],
+   "enunciado_banco": "¿Qué patrón de diseño se utiliza cuando se requiera dividir un conjunto de datos en varios subconjuntos o páginas y acceder a ellas de forma aislada?",
+   "banco": {
+    "correctas": [
+     "b"
+    ],
+    "texto": "Paginación de transacciones",
+    "opciones": "a DTO en componentes APX · b Paginación de transacciones · c Builder · d Strategy"
+   },
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #21",
+   "pagina": 4,
+   "marcado": [
+    "Paginación de Librerías (amarillo)"
+   ],
+   "texto_clave": "«Se utilizará este patrón siempre que se requiera dividir un conjunto de datos en varios subconjuntos y adicionalmente se necesite acceder a ellas de forma aislada…» → Blob / Contenedor mágico / [Paginación de Librerías] / CRUD",
+   "explicacion": "Misma pregunta que APX3 #21 (y que G171, que el banco sí liga a #21 y califica «Paginacion de librerias»). La clave marca Paginación de LIBRERÍAS; G178 no tiene esa opción y califica Paginación de TRANSACCIONES. El banco no liga G178 a ninguna clave (fuente: diap. 50; la retro de G171 dice que la de transacciones «se define igual»). El instructor decide; hoy el banco califica con la variante que la clave no marca. Relacionado: APX3 #22 marca la paginación en librería como la más eficiente, y G177 (T08-10, ligado a #21) califica «Paginación en transacciones/librerías»."
+  },
+  {
+   "grupo": "G050",
+   "gravedad": "baja-media",
+   "veredicto": "discrepancia_por_significado",
+   "miembros": [
+    "D05-41"
+   ],
+   "enunciado_banco": "¿Qué es APX CLI?",
+   "banco": {
+    "correctas": [
+     "d"
+    ],
+    "texto": "Es un software diseñado para crear proyectos tipo APX, así como administrar dependencias con otras bibliotecas APX y administrar utilidades"
+   },
+   "fuente": "java/Java.pdf #42",
+   "pagina": 63,
+   "marcado": [
+    "d. Es una interfaz de línea de comandos para realizar operaciones sobre componentes APX (verde)"
+   ],
+   "no_marcado_en_clave": [
+    "a. Herramienta Web que permite crear el andamio de un proyecto APX",
+    "b. Herramienta para administrar las dependencias de un proyecto APX",
+    "c. Herramienta web … gestionar la configuración"
+   ],
+   "explicacion": "Misma pregunta que Java.pdf #42 (= G051, que el banco sí liga y califica d = línea de comandos). G050 no está ligado a ninguna clave. La respuesta de G050 no existe entre las opciones de la clave y reúne justo lo que la clave deja SIN marcar (crear el proyecto + administrar dependencias). No es una contradicción lógica (el resto de opciones de G050 son de otros componentes, y la retro de G051 admite que administrar dependencias es una de sus funciones), pero la clave no respalda el texto calificado. Confirmado en imagen pág. 63."
+  },
+  {
+   "grupo": "G147 / G149 (y G141)",
+   "gravedad": "baja",
+   "veredicto": "tension_por_significado",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #52 y #53",
+   "pagina": 9,
+   "marcado": [
+    "#52 «WARN, son situaciones que impiden la ejecución correcta de una operación o transacción, pero sin afectar a otras (error aislado o contenido)» → Verdadero",
+    "#53 «ERROR, información de situaciones que aún sin ser de error sí son anómalas o no previstas…» → Falso"
+   ],
+   "banco": {
+    "G147 LOGGER.warn": "c «advertencias o fallas no críticas… que no impiden que la aplicación continúe su flujo»",
+    "G149 LOGGER.error": "d «errores críticos que impiden que la aplicación funcione correctamente»",
+    "G141": "a Verdadero (= #52)"
+   },
+   "explicacion": "No es la misma pregunta, pero la clave #52 asigna a WARN «impide la ejecución correcta de una operación»; G149 (doc, calificada) asigna «impiden que la aplicación funcione correctamente» a ERROR. Con matiz (operación vs. aplicación) son compatibles; se reporta porque el banco califica a la vez G141 (clave) y G147/G149 (documentación), que definen WARN/ERROR con criterios distintos."
+  },
+  {
+   "grupo": "G148",
+   "gravedad": "baja",
+   "veredicto": "tension_por_significado",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #47",
+   "pagina": 9,
+   "marcado": [
+    "DEBUG, INFO, WARNING & ERROR (amarillo); TRACE, DEBUG, INFO, WARNING & ERROR (GRIS)"
+   ],
+   "banco": "G148 «¿Qué es el LOGGER.trace?» → c «máximo nivel de detalle»; G142 (#47) → d (sin TRACE)",
+   "explicacion": "El banco califica G142 = «los niveles que existen son DEBUG, INFO, WARNING y ERROR» y a la vez G148 presupone un nivel TRACE. Ya conocido como #47 vs #48; aquí se añade que G148 queda en tensión con G142."
+  },
+  {
+   "resumen": "Las demás calificadas con clave (144 grupos, además de G002) coinciden con lo marcado, mapeando por texto. Revisadas a mano las 30 con similitud baja o margen estrecho entre opciones (reformulaciones D05, V/F frente a opción múltiple, listas de excepciones, protocolos): todas coinciden. También coinciden por significado, aunque no estén ligadas a una clave: G173 (Java #31: 5000), G015 (APX3 #12), G004 y G007 (APX3 #2 / Java #159), G014 (APX3 #12), G045 y G063 (Java #104 / #160), G065 (APX3 #27), G069 (APX3 #87), G093 y G094 (APX3 #28), G133 (APX3 #35), G186 (APX3 #64 / #89), G196 y G213 (APX3 #62), G199 (APX3 #59), G215b (Java #137) y G017 (APX3 #78).",
+   "grupos_ok": [
+    "G001",
+    "G003",
+    "G005",
+    "G006",
+    "G008",
+    "G009",
+    "G010",
+    "G012",
+    "G013",
+    "G016",
+    "G019",
+    "G020",
+    "G021",
+    "G022",
+    "G023",
+    "G024",
+    "G026",
+    "G027",
+    "G028",
+    "G029",
+    "G030",
+    "G031",
+    "G032",
+    "G036",
+    "G037",
+    "G038",
+    "G041",
+    "G042",
+    "G044",
+    "G047",
+    "G048",
+    "G049",
+    "G051",
+    "G052",
+    "G053",
+    "G054",
+    "G055",
+    "G057",
+    "G062",
+    "G066",
+    "G067",
+    "G068",
+    "G072",
+    "G073",
+    "G075",
+    "G076",
+    "G077",
+    "G078",
+    "G079",
+    "G081",
+    "G083",
+    "G084",
+    "G085",
+    "G086",
+    "G089",
+    "G090",
+    "G095",
+    "G096",
+    "G097",
+    "G098",
+    "G099",
+    "G100",
+    "G101",
+    "G102",
+    "G103",
+    "G108",
+    "G109",
+    "G110",
+    "G112",
+    "G113",
+    "G116",
+    "G117",
+    "G119",
+    "G120",
+    "G121",
+    "G123",
+    "G124",
+    "G125",
+    "G126",
+    "G130",
+    "G131",
+    "G134",
+    "G135",
+    "G136",
+    "G137",
+    "G138",
+    "G139",
+    "G140",
+    "G141",
+    "G142",
+    "G143",
+    "G144",
+    "G145",
+    "G146",
+    "G150",
+    "G151",
+    "G152",
+    "G153",
+    "G155",
+    "G156",
+    "G157",
+    "G158",
+    "G159",
+    "G160",
+    "G161",
+    "G162",
+    "G165",
+    "G166",
+    "G168",
+    "G169",
+    "G170",
+    "G171",
+    "G172",
+    "G174",
+    "G176",
+    "G177",
+    "G179",
+    "G180",
+    "G181",
+    "G182",
+    "G183",
+    "G184",
+    "G185",
+    "G187",
+    "G188",
+    "G191",
+    "G192",
+    "G193",
+    "G197",
+    "G198",
+    "G200",
+    "G201",
+    "G202",
+    "G204",
+    "G206",
+    "G208",
+    "G209",
+    "G210",
+    "G211",
+    "G212",
+    "G214",
+    "G215",
+    "G218",
+    "G219"
+   ]
+  }
+ ],
+ "tarea2": [
+  {
+   "grupo": "G163",
+   "veredicto": "misma_pregunta_opciones_distintas",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #24 (pág. 5) y java/Java.pdf #46 (pág. 67)",
+   "marcado": [
+    "APX3 #24: «Mover el comportamiento a sus librerías relacionadas, reduciendo el acoplamiento…»",
+    "Java #46: «Realizar un refactoring del diseño entre las librerías involucradas… mover el comportamiento… a sus librerías relacionadas»"
+   ],
+   "opciones_banco": "a Dividiendo la clase en varias clases más pequeñas · b Aumentando atributos y métodos · c Una única clase controladora",
+   "letras_banco": null,
+   "explicacion": "Mismo enunciado («¿Cómo solucionamos el (antipatrón) BLOB?»), pero la respuesta de la clave no está entre las opciones de G163. La a se parece más a la opción que APX3 #24 deja SIN marcar («Moviendo la lógica a diferentes métodos y clases dentro de la misma librería»). La clave no permite calificarla."
+  },
+  {
+   "grupo": "G011",
+   "veredicto": "misma_pregunta_parcial",
+   "fuente": "java/Java.pdf #165",
+   "pagina": 263,
+   "marcado": [
+    "b. Procesamiento transaccional (verde); el texto añade c. Procesamiento Batch"
+   ],
+   "opciones_banco": "a Implementaciones en caliente de acceso a datos · b Procesamiento transaccional · c Integración con servicios de seguridad · d Monitoreo de procesamiento por lotes · e Interoperatibilidad de backends",
+   "letras_banco_confirmadas": [
+    "b"
+   ],
+   "explicacion": "«Capacidades de APX» = «¿Cuál… son capacidades ofrecidas en APX?». Solo coincide b (marcada). Las opciones de la clave «Cold Deployment» y «Sin integración con servicios de seguridad» van sin marca, lo que no permite afirmar a ni c. No basta para calificar la multi."
+  },
+  {
+   "grupo": "G189",
+   "veredicto": "pregunta_afin_parcial",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #57",
+   "pagina": 10,
+   "marcado": [
+    "Soporte Multi-BBDD, usando fuentes de datos configurables",
+    "Acceso a conectores y utilidades APX…"
+   ],
+   "letras_banco_confirmadas": [
+    "j (literal)",
+    "d (≈)"
+   ],
+   "explicacion": "Características de Batch: la clave cubre 2 de 10 opciones; el resto no aparece en ninguna clave."
+  },
+  {
+   "grupos": [
+    "G071",
+    "G082",
+    "G221",
+    "G222"
+   ],
+   "veredicto": "solo_definicion",
+   "fuente": "java/Java.pdf #122 (pág. 195) y #171 (pág. 267)",
+   "marcado": [
+    "retrocompatible = «el cambio garantiza que el software siga funcionando sin necesidad de modificaciones en el código que depende de él»"
+   ],
+   "explicacion": "Definición general, no la misma pregunta: permite deducir (no leer) G071 b, G082 c y G222 c; no decide G221."
+  },
+  {
+   "grupos": [
+    "G091",
+    "G092",
+    "G107"
+   ],
+   "veredicto": "afin_indirecta",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #42",
+   "pagina": 8,
+   "marcado": [
+    "Verdadero: prohibido resolution:='optional' en import-package"
+   ],
+   "explicacion": "No es la misma pregunta; G092 = No solo por deducción en dos pasos."
+  },
+  {
+   "grupos": [
+    "G033",
+    "G034"
+   ],
+   "veredicto": "afin_indirecta",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #6",
+   "pagina": 2,
+   "marcado": [
+    "Interbackend proxy: … conectores IMS (para acceso a Host)"
+   ],
+   "explicacion": "Apoya e («transacción de mainframe») de G034 por analogía; G033 (CICS) aún más débil."
+  },
+  {
+   "grupos": [
+    "G164"
+   ],
+   "veredicto": "afin_indirecta",
+   "fuente": "apx/examenes/Exámen Diagnóstico APX 3 (1).pdf #32",
+   "pagina": 6,
+   "explicacion": "Define el contenedor mágico (un solo «execute» con parámetros como filtro): contradice c («varios métodos») y apoya a. No es la misma pregunta."
+  },
+  {
+   "grupos": [
+    "G035",
+    "G039",
+    "G040",
+    "G043",
+    "G046",
+    "G058",
+    "G064",
+    "G080",
+    "G087",
+    "G088",
+    "G104",
+    "G132",
+    "G195",
+    "G203",
+    "G217"
+   ],
+   "veredicto": "sin_misma_pregunta_con_color",
+   "explicacion": "Revisadas contra las 95 de APX3 y las 212 de Java.pdf (TF-IDF + palabras clave: Document, CICS, IMS, getRequestHeader, barras, serial, JPA, hilos, monostep, import-package, apx add, etc.): ninguna tiene la misma pregunta marcada en color. Solo hay afinidades temáticas (Java #66 marca Document Manager como utilidad de Batch; APX3 #40/#88 prohíben hilos; APX3 #86; Java #125/#167 tratan comandos parecidos), que no deciden la respuesta."
+  }
+ ],
+ "tarea3": [
+  {
+   "conocida": true,
+   "pares": [
+    "APX3 #57 (Neo4J entre lo que ofrece Batch)",
+    "Java.pdf #66 (Neo4J sin verde entre utilidades de Batch)"
+   ],
+   "real": true
+  },
+  {
+   "conocida": true,
+   "pares": [
+    "APX3 #47",
+    "APX3 #48"
+   ],
+   "nota": "#47 lleva además gris en la opción con TRACE (pág. 9, confirmado)."
+  },
+  {
+   "conocida": true,
+   "pares": [
+    "Java.pdf #165 verde (solo b)",
+    "Java.pdf #165 texto (b y c)"
+   ],
+   "real": true,
+   "extra": "El verde de #165 también choca con las demás marcas de Java.pdf que dan APX Batch por supuesto: #160 (componentes de APX batch), #104, #137 y #66."
+  },
+  {
+   "pares": [
+    "APX3 #30 (pág. 6): marca «Diseño que sirve de apoyo para la búsqueda de soluciones a problemas comunes…» como lo que SON los patrones",
+    "APX3 #31 (pág. 6): «¿objetivo de trabajar con Patrones?» deja SIN marca «Los patrones de diseño sirven de apoyo para la búsqueda de soluciones…» y SIN marca «a y b»; marca solo «Brindar una solución a un problema de diseño… reutilizable»"
+   ],
+   "real": "probable (media)",
+   "explicacion": "#30 afirma que la opción a de #31 es cierta (y los enunciados de #29 y #95 la dan como premisa), pero #31 no la acepta ni dentro de «a y b». Puede defenderse como redacción (definición frente a objetivo), pero una lectura estricta de las dos marcas es incompatible. #31 no está en el banco (D06-49 se clasificó como no APX) y #30 sí (G176). Es el caso «objetivo de los patrones» del README, visto entre claves."
+  },
+  {
+   "pares": [
+    "APX3 #49 (pág. 9): muy bajo nivel, útil para depurar → Debug",
+    "APX3 #51 (pág. 9): «DEBUG, sirve para información de muy bajo nivel… para el debug» + 4 viñetas de INFO → Falso"
+   ],
+   "real": false,
+   "explicacion": "Aparente: #51 es Falso por las viñetas (características de INFO, = #50), no por la primera frase, que coincide con #49. Quien lea solo la frase ve una contradicción. Afecta a G135 y G136, calificadas."
+  },
+  {
+   "pares": [
+    "APX3 #66: marca a, b y c por separado",
+    "APX3 #66: deja SIN marca la opción «a, b y c»"
+   ],
+   "real": "interna (redacción)",
+   "explicacion": "Incoherencia dentro de la misma clave (pág. 11, confirmado). El banco resolvió quitando las opciones compuestas (G198; en G197 no existen)."
+  },
+  {
+   "pares": [
+    "APX3 #25 (sin marca las opciones con «Paginación en transacciones»)",
+    "APX3 #29 («Todas»: incluye «Paginación en transacciones»)",
+    "APX3 #21 / #22 (paginación de/en librerías)"
+   ],
+   "real": false,
+   "explicacion": "Compatible: las opciones de #25 sin marca fallan por «paginación/CRUD en componentes APX», no por «Paginación en transacciones». Pero el banco califica el mismo concepto de tres maneras: G171 → librerías, G177 → «transacciones/librerías», G178 → transacciones (ver tarea1)."
+  },
+  {
+   "pares": [
+    "APX3 #35: marca «Una UUAA puede acceder a datos de terceros a través de librerías APX»",
+    "APX3 #35: marca «Una UUAA solo puede acceder a los datos que ella misma custodia»"
+   ],
+   "real": false,
+   "explicacion": "Ya visto en r1: literalmente se excluyen, pero se reconcilian (acceso directo solo a lo propio, y a lo ajeno vía librerías del dueño)."
+  },
+  {
+   "pares": [
+    "APX3 #60/#61/#75 (steps Chunk y Task; el Task tiene input/processing/output)",
+    "APX3 #62 («cada step tiene itemReader, itemProcessor y itemWriter»)"
+   ],
+   "real": false,
+   "explicacion": "Redacción («cada step» cuando solo aplica al chunk)."
+  },
+  {
+   "revisados_sin_contradiccion": "#5/#6 frente a Java #66 (Document Manager en Batch); #14/#15/#16/#12 frente a Java #182 (protocolos); #17/#18; #26/#27 y Java #173/#34 (DTO); #36/#37/#38; #40/#88; #43/#44 (excepciones; r1); #45/#79; #46 frente a Java #106; #58/#66 frente a Java #66 (AP Connector y WebServices restringidos en Batch); #64/#89; #69 frente a Java #82; #76 frente a Java #98/#147; #82/#87; #2/#3 frente a Java #159; Java #16/#42/#169 (consolas); Java #119/#177/#179 y APX3 #92 (nomenclatura); Java #8/#167/#176 (JDBC Utility/config); Java #160/#170/#204/#104 (componentes por runtime); Java #80/#126b/#137/#174 (Spring Batch); Java #18/#46/#142 y APX3 #23/#24 (Blob)."
+  }
+ ]
+}

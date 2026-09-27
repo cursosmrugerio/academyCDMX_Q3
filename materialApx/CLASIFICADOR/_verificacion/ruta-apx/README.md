@@ -63,8 +63,10 @@ de las guías en `crudos/verif-ruta-r*.md`.
 | | Preguntas |
 |---|---|
 | Únicas de APX | 223 (de 357 apariciones en 13 exámenes) |
-| En los cuestionarios de la ruta | 168: 132 con respaldo en la documentación y 36 solo en una clave |
-| En «Preguntas sin respuesta confirmada» | 55: 28 sin respuesta en ningún archivo y 27 con fuentes que se contradicen o ambiguas |
+| En los cuestionarios de la ruta | 168: 132 con respaldo en la documentación y 36 solo en una clave. → 27-sep (ronda 3): **193**, 132 + **61** solo en una clave |
+| En «Preguntas sin respuesta confirmada» | 55: 28 sin respuesta en ningún archivo y 27 con fuentes que se contradicen o ambiguas. → 27-sep: **30** (24 + 6) |
+
+→ **27-sep, ronda 3:** el instructor decidió que la opción marcada en color es la correcta, y `Java.pdf` resultó tener también clave en **verde**. Lo que cambió, por qué y los hallazgos de la verificación (4 agentes, 2 rondas) están en [`cambios-r3.md`](cambios-r3.md). `banco-publicado-r2.json` es el banco del 25-sep; `banco-final.json` lo genera ahora `aplicar-r3.py`.
 
 ## Límites
 

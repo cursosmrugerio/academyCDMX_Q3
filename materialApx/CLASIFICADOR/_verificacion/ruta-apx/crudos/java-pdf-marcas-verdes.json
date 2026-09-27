@@ -1,0 +1,2546 @@
+{
+ "1": {
+  "pag": 1,
+  "head": "1. ¿Cuáles son los tipos de excepciones en Java?",
+  "G": [
+   [
+    1,
+    "a. Throwable"
+   ],
+   [
+    1,
+    "c. Checked"
+   ],
+   [
+    1,
+    "d. Unchecked"
+   ]
+  ]
+ },
+ "2": {
+  "pag": 1,
+  "head": "2. Unchecked Exceptions (no comprobadas):",
+  "G": [
+   [
+    2,
+    "a. git branch"
+   ],
+   [
+    2,
+    "b. git merge"
+   ],
+   [
+    2,
+    "d. git checkout"
+   ]
+  ]
+ },
+ "3": {
+  "pag": 2,
+  "head": "3. git checkout (o en versiones más nuevas git switch) → Se utiliza para",
+  "G": [
+   [
+    3,
+    "d. Representa cambios importantes o incompatibles con versiones anteriores, que pueden"
+   ],
+   [
+    3,
+    "afectar la compatibilidad."
+   ]
+  ]
+ },
+ "4": {
+  "pag": 4,
+  "head": "4. ¿Cuál de los siguientes componentes es parte de una solicitud HTTP?",
+  "G": [
+   [
+    4,
+    "d. URL, headers, cuerpo de la solicitud."
+   ]
+  ]
+ },
+ "5": {
+  "pag": 5,
+  "head": "5. ¿Cuál de las siguientes opciones describe correctamente un servicio",
+  "G": [
+   [
+    5,
+    "a. Una aplicación o componente que se comunica con otras aplicaciones a través de la red"
+   ],
+   [
+    5,
+    "utilizando protocolos estándar."
+   ]
+  ]
+ },
+ "6": {
+  "pag": 6,
+  "head": "6. ¿Cuál de las siguientes afirmaciones sobre el ciclo for mejorado",
+  "G": [
+   [
+    6,
+    "b. El ciclo for mejorado se puede utilizar con cualquier tipo de colección y matriz."
+   ]
+  ]
+ },
+ "7": {
+  "pag": 7,
+  "head": "7. ¿Cuál de las siguientes características es fundamental en una base de",
+  "G": [
+   [
+    7,
+    "d. Organización de datos en tablas con filas y columnas."
+   ]
+  ]
+ },
+ "8": {
+  "pag": 8,
+  "head": "8. ¿Cuál es el archivo utilizado para agregar la dependencia del JDBC",
+  "G": [
+   [
+    8,
+    "C. pom.xml"
+   ]
+  ]
+ },
+ "9": {
+  "pag": 9,
+  "head": "9. public class Test {",
+  "G": [
+   [
+    9,
+    "c. A java.lang.StackOverflowError is thrown."
+   ]
+  ]
+ },
+ "10": {
+  "pag": 11,
+  "head": "10. class Parent {",
+  "G": [
+   [
+    12,
+    "a. Child"
+   ]
+  ]
+ },
+ "11": {
+  "pag": 13,
+  "head": "11. ¿Cuál de las siguientes sentencias acerca del patrón de diseño",
+  "G": [
+   [
+    13,
+    "d. El patrón Singleton asegura que una clase tiene sólo una instancia y provee un punto"
+   ],
+   [
+    13,
+    "global de acceso a ella."
+   ]
+  ]
+ },
+ "12": {
+  "pag": 14,
+  "head": "12. What will be the result of the following code execution involving",
+  "G": [
+   [
+    15,
+    "c. 3"
+   ]
+  ]
+ },
+ "13": {
+  "pag": 16,
+  "head": "13. ¿Qué comando permite enviar una solicitud de transacción a un",
+  "G": [
+   [
+    16,
+    "c. apx send req --name="
+   ],
+   [
+    16,
+    "\"TESTT001-01-ES-test.json\""
+   ],
+   [
+    16,
+    "-y --details"
+   ]
+  ]
+ },
+ "14": {
+  "pag": 17,
+  "head": "14. public class Test {",
+  "G": [
+   [
+    18,
+    "f. BCF"
+   ]
+  ]
+ },
+ "15": {
+  "pag": 20,
+  "head": "15. What will be the output of the following code snippet?",
+  "G": [
+   [
+    21,
+    "a.Static method Static block Instance block Constructor"
+   ]
+  ]
+ },
+ "16": {
+  "pag": 21,
+  "head": "16. ¿Cual es la consola para la configuración de la aplicación en APX",
+  "G": [
+   [
+    21,
+    "b. APX Operation Console"
+   ]
+  ]
+ },
+ "17": {
+  "pag": 22,
+  "head": "17. public class StringInternExample {",
+  "G": [
+   [
+    23,
+    "a"
+   ]
+  ]
+ },
+ "18": {
+  "pag": 25,
+  "head": "18. Este patrón suele representarse como una única librería que",
+  "G": [
+   [
+    25,
+    "Blob"
+   ]
+  ]
+ },
+ "19": {
+  "pag": 26,
+  "head": "19. public class Test {",
+  "G": [
+   [
+    26,
+    "b. Hello"
+   ]
+  ]
+ },
+ "20": {
+  "pag": 28,
+  "head": "20. Dado el siguiente código:",
+  "G": [
+   [
+    29,
+    "e. [Mark]"
+   ]
+  ]
+ },
+ "21": {
+  "pag": 30,
+  "head": "21. ¿Cuál será el resultado de ejecutar el siguiente código?",
+  "G": [
+   [
+    31,
+    "c. Child"
+   ]
+  ]
+ },
+ "22": {
+  "pag": 32,
+  "head": "22. public class OverloadedMethods {",
+  "G": [
+   [
+    34,
+    "c. Constructor with int argument: 10 No-argument constructor No-argument calculate"
+   ],
+   [
+    34,
+    "method Calculate method with int argument: 5 Constructor with int argument: 20"
+   ],
+   [
+    34,
+    "No-argument calculate method Calculate method with int argument: 15"
+   ]
+  ]
+ },
+ "23": {
+  "pag": 36,
+  "head": "23. Which of the following is not a part of the Java Collections",
+  "G": [
+   [
+    36,
+    "c. Dictionary"
+   ]
+  ]
+ },
+ "24": {
+  "pag": 37,
+  "head": "24. Cual de los siguientes comandos de Maven se utiliza para compilar",
+  "G": [
+   [
+    37,
+    "d. mvn package"
+   ]
+  ]
+ },
+ "25": {
+  "pag": 38,
+  "head": "25. What is the result type when a short is subtracted from a",
+  "G": [
+   [
+    38,
+    "e. double"
+   ]
+  ]
+ },
+ "26": {
+  "pag": 39,
+  "head": "26. public class Test {",
+  "G": [
+   [
+    40,
+    "d. x = 4"
+   ]
+  ]
+ },
+ "27": {
+  "pag": 41,
+  "head": "27. ¿Cuál de las siguientes herramientas se utiliza principalmente para",
+  "G": [
+   [
+    41,
+    "b. Ninguna de las anteriores."
+   ]
+  ]
+ },
+ "28": {
+  "pag": 42,
+  "head": "28. ¿Qué puede suceder al intentar ejecutar el siguiente código para",
+  "G": [
+   [
+    43,
+    "a) Establece la conexión exitosamente e imprime \"Connection established successfully\""
+   ],
+   [
+    43,
+    "."
+   ]
+  ]
+ },
+ "29": {
+  "pag": 43,
+  "head": "29. public class OverloadedExample {",
+  "G": [
+   [
+    45,
+    "d.Constructor with argument called: Default No-argument constructor called Name: Default"
+   ],
+   [
+    45,
+    "Hello:Default Constructor with argument called: John Name: John Hi:John"
+   ]
+  ]
+ },
+ "30": {
+  "pag": 45,
+  "head": "30. In Java, which syntax is used to declare a method parameter that",
+  "G": [
+   [
+    45,
+    "d. ..."
+   ]
+  ]
+ },
+ "31": {
+  "pag": 46,
+  "head": "31. En JDBC APX cual es la cantidad máxima de resultados que permite",
+  "G": [
+   [
+    46,
+    "5000"
+   ]
+  ]
+ },
+ "32": {
+  "pag": 46,
+  "head": "32. Which statement about the following code is correct?",
+  "G": [
+   [
+    47,
+    "b. It will print \"Base constructor with message: Hello\" followed by \"Derived constructor\""
+   ],
+   [
+    47,
+    "."
+   ]
+  ]
+ },
+ "33": {
+  "pag": 49,
+  "head": "33. ¿Qué patrón de diseño es el más adecuado para garantizar que una",
+  "G": [
+   [
+    49,
+    "c. Singleton Pattern"
+   ]
+  ]
+ },
+ "34": {
+  "pag": 50,
+  "head": "34. ¿Cuál de los siguientes componentes de APX representa una",
+  "G": [
+   [
+    50,
+    "e. DTOs"
+   ]
+  ]
+ },
+ "35": {
+  "pag": 51,
+  "head": "35. Which of the following are reserved words in Java for exception",
+  "G": [
+   [
+    51,
+    "a. try, catch, finally, throw, throws"
+   ]
+  ]
+ },
+ "36": {
+  "pag": 53,
+  "head": "36. ¿Cuál es el propósito principal del archivo pom.xml en un proyecto",
+  "G": [
+   [
+    53,
+    "c. Para definir las dependencias del proyecto, la configuración de compilación y los"
+   ],
+   [
+    53,
+    "complementos."
+   ]
+  ]
+ },
+ "37": {
+  "pag": 54,
+  "head": "37. Which tool is used to package Java classes into a JAR (Java",
+  "G": [
+   [
+    54,
+    "e. jar"
+   ]
+  ]
+ },
+ "38": {
+  "pag": 55,
+  "head": "38. ¿Cuál de los siguientes fragmentos de código generará una",
+  "G": [
+   [
+    57,
+    "d"
+   ]
+  ]
+ },
+ "39": {
+  "pag": 59,
+  "head": "39. Which of the following operators are valid for boolean variables in",
+  "G": [
+   [
+    59,
+    "a. &&"
+   ],
+   [
+    59,
+    "b. |"
+   ],
+   [
+    59,
+    "e."
+   ],
+   [
+    59,
+    "=="
+   ]
+  ]
+ },
+ "40": {
+  "pag": 60,
+  "head": "40. public class LoopQuestion {",
+  "G": [
+   [
+    60,
+    "b. Count: 5"
+   ]
+  ]
+ },
+ "41": {
+  "pag": 61,
+  "head": "41. What is the output of the following program?",
+  "G": [
+   [
+    62,
+    "b. greater than - 6"
+   ]
+  ]
+ },
+ "42": {
+  "pag": 63,
+  "head": "42. ¿Qué es el APX CLI?",
+  "G": [
+   [
+    63,
+    "d. Es una interfaz de línea de comandos para realizar operaciones sobre componentes"
+   ],
+   [
+    63,
+    "APX."
+   ]
+  ]
+ },
+ "43": {
+  "pag": 64,
+  "head": "43. Which of the following statements about the Singleton pattern is true?",
+  "G": [
+   [
+    65,
+    "b. The Singleton pattern ensures that a class has only one instance and provides a global"
+   ],
+   [
+    65,
+    "point of access to it"
+   ]
+  ]
+ },
+ "44": {
+  "pag": 66,
+  "head": "44. ¿Cuáles dos de las siguientes opciones son funciones de la",
+  "G": [
+   [
+    66,
+    "b. Compila, empaqueta y ejecuta pruebas del componente en el que está ubicado."
+   ],
+   [
+    66,
+    "c. Despliega el componente APX en el enfoque APX Online en la región de España."
+   ]
+  ]
+ },
+ "45": {
+  "pag": 66,
+  "head": "45. ¿Cuál de las siguientes bases de datos NoSQL es conocida por su modelo",
+  "G": [
+   [
+    66,
+    "a. MongoDB"
+   ]
+  ]
+ },
+ "46": {
+  "pag": 67,
+  "head": "46. ¿Cómo solucionamos un Blob?",
+  "G": [
+   [
+    67,
+    "Realizar un refactoring del diseño entre las librerías involucradas. La clave es mover el"
+   ],
+   [
+    67,
+    "comportamiento de este antipatrón a sus librerías relacionadas, diferenciándose por las"
+   ],
+   [
+    68,
+    "entidades con las que trabajan, reduciendo el acoplamiento entre librerías y simplificando"
+   ],
+   [
+    68,
+    "los mantenimientos."
+   ]
+  ]
+ },
+ "47": {
+  "pag": 69,
+  "head": "47. ¿Cuál es la principal función del servidor de aplicaciones Jboss?",
+  "G": [
+   [
+    69,
+    "a. Proporcionar una plataforma para desplegar, ejecutar y gestionar aplicaciones"
+   ],
+   [
+    69,
+    "empresariales Java."
+   ]
+  ]
+ },
+ "48": {
+  "pag": 70,
+  "head": "48. ¿Cuál de los siguientes comandos de Git se utiliza para crear una",
+  "G": [
+   [
+    70,
+    "d. git checkout -b nombre_de_rama"
+   ]
+  ]
+ },
+ "49": {
+  "pag": 71,
+  "head": "49. ¿Cuáles de las siguientes excepciones deben ser chequeadas?",
+  "G": [
+   [
+    71,
+    "a. IOException"
+   ],
+   [
+    71,
+    "c. InterruptedException"
+   ]
+  ]
+ },
+ "50": {
+  "pag": 72,
+  "head": "50. In a Maven proyect which file is used to configure proyect",
+  "G": [
+   [
+    72,
+    "c. pom.xml"
+   ]
+  ]
+ },
+ "51": {
+  "pag": 74,
+  "head": "51. ¿Cuál será el resultado de intentar compilar y ejecutar el siguiente",
+  "G": [
+   [
+    75,
+    "d. Imprimirá los artículos ordenados por nombre."
+   ]
+  ]
+ },
+ "52": {
+  "pag": 77,
+  "head": "52. Dado el siguiente código",
+  "G": [
+   [
+    77,
+    "b. float"
+   ]
+  ]
+ },
+ "53": {
+  "pag": 78,
+  "head": "53. ¿Cuál de las siguientes anotaciones en JUnit se utiliza para indicar",
+  "G": [
+   [
+    79,
+    "a. @Before"
+   ]
+  ]
+ },
+ "54": {
+  "pag": 80,
+  "head": "54. import java.util.ArrayList;",
+  "G": [
+   [
+    80,
+    "b. true"
+   ]
+  ]
+ },
+ "55": {
+  "pag": 81,
+  "head": "55. In Java, which of the following is used to call a constructor from",
+  "G": [
+   [
+    82,
+    "d. this()"
+   ]
+  ]
+ },
+ "56": {
+  "pag": 83,
+  "head": "56. public class Test {",
+  "G": [
+   [
+    83,
+    "a. 1 2 3 4 5 6"
+   ]
+  ]
+ },
+ "57": {
+  "pag": 84,
+  "head": "57. public class Test {",
+  "G": [
+   [
+    85,
+    "a. 12432432 The co value = 8"
+   ],
+   [
+    86,
+    "x++;"
+   ]
+  ]
+ },
+ "58": {
+  "pag": 87,
+  "head": "58. Which of the following statements about ArrayList is true?",
+  "G": [
+   [
+    87,
+    "a. ArrayList allows duplicate elements."
+   ]
+  ]
+ },
+ "59": {
+  "pag": 88,
+  "head": "59. import java.time.LocalDateTime;",
+  "G": [
+   [
+    89,
+    "g. 12/03/96 23:55"
+   ]
+  ]
+ },
+ "60": {
+  "pag": 91,
+  "head": "60. ¿Cuál es el tipo de resultado cuando se resta un short de un double",
+  "G": [
+   [
+    91,
+    "e. double"
+   ]
+  ]
+ },
+ "61": {
+  "pag": 92,
+  "head": "61. ¿Cuál de los siguientes métodos de Mockito se utiliza para verificar",
+  "G": [
+   [
+    92,
+    "b. verify()"
+   ]
+  ]
+ },
+ "62": {
+  "pag": 93,
+  "head": "62. ¿Cuál de las siguientes afirmaciones es correcta sobre la aserción",
+  "G": [
+   [
+    93,
+    "b. Se utiliza para verificar que dos valores son iguales."
+   ]
+  ]
+ },
+ "63": {
+  "pag": 94,
+  "head": "63. import java.util.Arrays;",
+  "G": [
+   [
+    95,
+    "b. [2, 1, 3, 4]"
+   ]
+  ]
+ },
+ "64": {
+  "pag": 96,
+  "head": "64. class Exc1 extends Exception {}",
+  "G": [
+   [
+    97,
+    "b. La compilación falla"
+   ]
+  ]
+ },
+ "65": {
+  "pag": 98,
+  "head": "65. En Java, ¿cuál de las siguientes instrucciones es usada para llamar",
+  "G": [
+   [
+    98,
+    "d. this()"
+   ]
+  ]
+ },
+ "66": {
+  "pag": 99,
+  "head": "66. ¿Cuáles son las utilerías que pueden ser usadas en APX Batch?",
+  "G": [
+   [
+    99,
+    "a. JDBC Utility"
+   ],
+   [
+    99,
+    "c. Merge/Sort"
+   ],
+   [
+    99,
+    "e. Document Manager"
+   ]
+  ]
+ },
+ "67": {
+  "pag": 99,
+  "head": "67. What will be the output of the following code snippet?",
+  "G": [
+   [
+    101,
+    "b. Resource used Resource closed."
+   ]
+  ]
+ },
+ "68": {
+  "pag": 103,
+  "head": "68. En el contexto del patrón de diseño de Comando (Command Pattern),",
+  "G": [
+   [
+    103,
+    "c. Mantener la lógica de los objetos comando y ejecutar el comando solicitado en el"
+   ],
+   [
+    103,
+    "momento adecuado."
+   ]
+  ]
+ },
+ "69": {
+  "pag": 104,
+  "head": "69.¿Cuál es el propósito principal del patrón de paginación en el desarrollo de",
+  "G": [
+   [
+    105,
+    "Optimizar el rendimiento y la experiencia del usuario al dividir grandes conjuntos de"
+   ],
+   [
+    105,
+    "datos en páginas más pequeñas."
+   ]
+  ]
+ },
+ "70": {
+  "pag": 105,
+  "head": "70. public class NestedLoopTest {",
+  "G": [
+   [
+    107,
+    "a"
+   ]
+  ]
+ },
+ "71": {
+  "pag": 109,
+  "head": "71. ¿Cuál es la salida del siguiente código?",
+  "G": [
+   [
+    109,
+    "c. Se genera una excepción en tiempo de ejecución."
+   ]
+  ]
+ },
+ "72": {
+  "pag": 110,
+  "head": "72. Which of the following lines of code correctly uses a method from the",
+  "G": [
+   [
+    110,
+    "a. String result ="
+   ],
+   [
+    110,
+    "\"banana\""
+   ],
+   [
+    110,
+    ".replace('a'"
+   ],
+   [
+    110,
+    ","
+   ],
+   [
+    110,
+    "'e');"
+   ]
+  ]
+ },
+ "73": {
+  "pag": 111,
+  "head": "73. Consider the following Java Code:",
+  "G": [
+   [
+    113,
+    "b. Sound Roar Bark Growl"
+   ]
+  ]
+ },
+ "74": {
+  "pag": 115,
+  "head": "74. APX proporciona a las aplicaciones las utilidades para ejecutar una",
+  "G": [
+   [
+    115,
+    "Falso"
+   ]
+  ]
+ },
+ "75": {
+  "pag": 116,
+  "head": "75. Resultado de la operacion 9 | 4",
+  "G": [
+   [
+    116,
+    "13 --> System.out.println( 9| 4);"
+   ]
+  ]
+ },
+ "76": {
+  "pag": 116,
+  "head": "76. Which of the following are valid ways to initialize a boolean variable in",
+  "G": [
+   [
+    116,
+    "b. boolean flag = true;"
+   ],
+   [
+    117,
+    "d. boolean flag = false;"
+   ]
+  ]
+ },
+ "77": {
+  "pag": 117,
+  "head": "77. Which is the primary purpose of the pom.xml file in a Maven project?",
+  "G": [
+   [
+    117,
+    "c. To define the project's dependencies, build configuration, and plugins."
+   ]
+  ]
+ },
+ "78": {
+  "pag": 118,
+  "head": "78. public class Test {",
+  "G": [
+   [
+    119,
+    "b. ACD"
+   ]
+  ]
+ },
+ "79": {
+  "pag": 120,
+  "head": "79. En Java, ¿qué sintaxis es usada para declarar un parámetro en un método",
+  "G": [
+   [
+    120,
+    "b. ..."
+   ]
+  ]
+ },
+ "80": {
+  "pag": 121,
+  "head": "80. ¿Qué es un Job en el contexto de Spring Batch?",
+  "G": [
+   [
+    121,
+    "b. Una entidad que encapsula todo el proceso por lotes, configurada a través de un archivo"
+   ],
+   [
+    121,
+    "XML o una configuración basada en Java."
+   ]
+  ]
+ },
+ "81": {
+  "pag": 122,
+  "head": "81. Give",
+  "G": [
+   [
+    123,
+    "f. double"
+   ]
+  ]
+ },
+ "82": {
+  "pag": 125,
+  "head": "82. ¿Cuál de los siguientes componentes de APX encapsula la lógica",
+  "G": [
+   [
+    125,
+    "a. Librerías"
+   ]
+  ]
+ },
+ "83": {
+  "pag": 125,
+  "head": "83. Which of the following statements accurately describe the relationships",
+  "G": [
+   [
+    126,
+    "Inheritance represents an \"is-a\" relationship where one class derives from another class."
+   ],
+   [
+    126,
+    "Composition represents a \"has-a\" relationship where one class contains an instance of"
+   ],
+   [
+    126,
+    "another class."
+   ],
+   [
+    126,
+    "Both inheritance and composition can be used together to model complex relationships."
+   ],
+   [
+    126,
+    "Usage (or association) represents a \"uses-a\" relationship where one class uses methods or"
+   ],
+   [
+    126,
+    "instances of another class."
+   ],
+   [
+    126,
+    "Composition should be preferred over inheritance to promote code reuse and flexibility."
+   ]
+  ]
+ },
+ "84": {
+  "pag": 127,
+  "head": "84. import java.io.Closeable;",
+  "G": [
+   [
+    128,
+    "b. Resource used Resource closed."
+   ]
+  ]
+ },
+ "85": {
+  "pag": 130,
+  "head": "85.¿Cuál es el comando en Windows para listar el contenido de un",
+  "G": [
+   [
+    130,
+    "d. dir"
+   ]
+  ]
+ },
+ "86": {
+  "pag": 130,
+  "head": "86. What are the modifiers that a nested class can have?",
+  "G": [
+   [
+    131,
+    "h. All the options are correct."
+   ]
+  ]
+ },
+ "87": {
+  "pag": 131,
+  "head": "87. import java.util.*;",
+  "G": [
+   [
+    133,
+    "Apple: 3 Banana: 2 Cherry: 1"
+   ]
+  ]
+ },
+ "88": {
+  "pag": 135,
+  "head": "88. What will be the output of the following code snippet?",
+  "G": [
+   [
+    136,
+    "A's constructor B's constructor C's constructor"
+   ]
+  ]
+ },
+ "89": {
+  "pag": 138,
+  "head": "89. What will be the output of the following code snippet?",
+  "G": [
+   [
+    139,
+    "c. true true false false"
+   ]
+  ]
+ },
+ "90": {
+  "pag": 141,
+  "head": "90. import java.sql.Connection;",
+  "G": [
+   [
+    142,
+    "b. It will print the name of the user with id 1."
+   ]
+  ]
+ },
+ "91": {
+  "pag": 143,
+  "head": "91. ¿Cuáles de las siguientes son herramientas necesarias para desarrollar",
+  "G": [
+   [
+    143,
+    "c. Artifactory"
+   ],
+   [
+    143,
+    "d. Maven"
+   ],
+   [
+    143,
+    "e. JDK"
+   ]
+  ]
+ },
+ "92": {
+  "pag": 144,
+  "head": "92. public class Test {",
+  "G": [
+   [
+    144,
+    "d. message"
+   ]
+  ]
+ },
+ "93": {
+  "pag": 146,
+  "head": "93. ¿Cuál de las siguientes afirmaciones confirma correctamente los paquetes",
+  "G": [
+   [
+    148,
+    "c"
+   ]
+  ]
+ },
+ "94": {
+  "pag": 149,
+  "head": "94. public class Test implements Runnable {",
+  "G": [
+   [
+    151,
+    "O d. La salida nunca puede contener el valor 30."
+   ]
+  ]
+ },
+ "95": {
+  "pag": 153,
+  "head": "95. public class OverloadedStaticMethods {",
+  "G": [
+   [
+    155,
+    "d"
+   ]
+  ]
+ },
+ "96": {
+  "pag": 156,
+  "head": "96. ¿Cuál de las siguientes opciones se utiliza principalmente para la",
+  "G": [
+   [
+    156,
+    "a. Jenkins"
+   ]
+  ]
+ },
+ "97": {
+  "pag": 158,
+  "head": "97. import java.util.ArrayList;",
+  "G": [
+   [
+    159,
+    "a. Apple Banana Cherry Size: 3 Contains 'Banana': true Element at index 1: Banana"
+   ]
+  ]
+ },
+ "98": {
+  "pag": 160,
+  "head": "98. Todo el acceso a los datos debe estar encapsulado en una transacción",
+  "G": [
+   [
+    161,
+    "Falso"
+   ]
+  ]
+ },
+ "99": {
+  "pag": 161,
+  "head": "99. Given:",
+  "G": [
+   [
+    162,
+    "e. Compilation fails on line 3."
+   ]
+  ]
+ },
+ "100": {
+  "pag": 163,
+  "head": "100. ¿Cuál de las siguientes ramas en Gitflow se utiliza para aplicar",
+  "G": [
+   [
+    163,
+    "c. hotfix"
+   ]
+  ]
+ },
+ "101": {
+  "pag": 164,
+  "head": "101. import java.util.Arrays;",
+  "G": [
+   [
+    165,
+    "c. [apple]"
+   ]
+  ]
+ },
+ "102": {
+  "pag": 165,
+  "head": "102. class ABC {",
+  "G": [
+   [
+    166,
+    "d. public char met() { return '2'; }"
+   ]
+  ]
+ },
+ "103": {
+  "pag": 167,
+  "head": "103. class CA {",
+  "G": [
+   [
+    168,
+    "a. message middle end"
+   ]
+  ]
+ },
+ "104": {
+  "pag": 170,
+  "head": "104. Una transacción APX es la unidad aplicativa que se ejecutará en APX",
+  "G": [
+   [
+    170,
+    "Falso"
+   ]
+  ]
+ },
+ "105": {
+  "pag": 170,
+  "head": "105. ¿Cuál es la función principal del JDK (Java Development Kit)?",
+  "G": [
+   [
+    171,
+    "d. Ofrecer herramientas necesarias para compilar, depurar y ejecutar aplicaciones Java."
+   ]
+  ]
+ },
+ "106": {
+  "pag": 171,
+  "head": "106. ¿Cuál es el propósito del método setSeverity() en el manejo de una",
+  "G": [
+   [
+    171,
+    "b. Establecer la gravedad de la notificación generada por la transacción"
+   ]
+  ]
+ },
+ "107": {
+  "pag": 172,
+  "head": "107. import java.util.function.*;",
+  "G": [
+   [
+    173,
+    "e. true 10 FUNCTIONAL Hello, World!"
+   ]
+  ]
+ },
+ "108": {
+  "pag": 174,
+  "head": "108. public class Test {",
+  "G": [
+   [
+    175,
+    "a. ticgameTAC"
+   ]
+  ]
+ },
+ "109": {
+  "pag": 176,
+  "head": "109. Which of the following packages in Java do not need to be explicitly",
+  "G": [
+   [
+    176,
+    "b. java.lang"
+   ]
+  ]
+ },
+ "110": {
+  "pag": 177,
+  "head": "110. Which of the following statements correctly describes an immutable",
+  "G": [
+   [
+    177,
+    "d. An immutable object does not allow any changes to its state after it is created."
+   ]
+  ]
+ },
+ "111": {
+  "pag": 178,
+  "head": "111. What will be the output of the following code snippet?",
+  "G": [
+   [
+    179,
+    "c. MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY"
+   ]
+  ]
+ },
+ "112": {
+  "pag": 179,
+  "head": "112. enum Days {",
+  "G": [
+   [
+    180,
+    "e. 1111"
+   ]
+  ]
+ },
+ "113": {
+  "pag": 182,
+  "head": "113. Cuando se asigna un byte a un carácter en Java, ¿cuál es el tipo de",
+  "G": [
+   [
+    182,
+    "b. int"
+   ]
+  ]
+ },
+ "114": {
+  "pag": 182,
+  "head": "114. Dado:",
+  "G": [
+   [
+    183,
+    "c. 20"
+   ]
+  ]
+ },
+ "115": {
+  "pag": 184,
+  "head": "115. abstract class Animal {",
+  "G": [
+   [
+    185,
+    "a. The Dog barks"
+   ]
+  ]
+ },
+ "116": {
+  "pag": 187,
+  "head": "116. public class Test {",
+  "G": [
+   [
+    188,
+    "c. Hello Heo dlroW olleH"
+   ]
+  ]
+ },
+ "117": {
+  "pag": 189,
+  "head": "117. ¿Cuál es la salida del siguiente código?",
+  "G": [
+   [
+    190,
+    "b. Running Problem Stopping"
+   ]
+  ]
+ },
+ "118": {
+  "pag": 192,
+  "head": "118. Which two options are true about the default constructor?",
+  "G": [
+   [
+    192,
+    "b. The compiler creates a default constructor if the class does not have a no-arg"
+   ],
+   [
+    192,
+    "constructor defined."
+   ],
+   [
+    192,
+    "d. The default constructor is c"
+   ],
+   [
+    192,
+    "reated only when the class has no constructors defined."
+   ]
+  ]
+ },
+ "119": {
+  "pag": 192,
+  "head": "119. ¿Cuál es la nomenclatura correcta para un componente de tipo librería?",
+  "G": [
+   [
+    192,
+    "c. TESTRO01"
+   ]
+  ]
+ },
+ "120": {
+  "pag": 193,
+  "head": "120. boolean x = true;",
+  "G": [
+   [
+    193,
+    "b. False"
+   ]
+  ]
+ },
+ "121": {
+  "pag": 194,
+  "head": "121. Which file is used to configure user-specific settings in Maven?",
+  "G": [
+   [
+    194,
+    "b. settings.xml"
+   ]
+  ]
+ },
+ "122": {
+  "pag": 195,
+  "head": "122. ¿Qué significa que un cambio en el software sea retrocompatible?",
+  "G": [
+   [
+    195,
+    "b. El cambio garantiza que el software siga funcionando sin necesidad de modificaciones"
+   ],
+   [
+    195,
+    "en el código que depende de él."
+   ]
+  ]
+ },
+ "123": {
+  "pag": 195,
+  "head": "123. Given the following classes, which line of code correctly creates an",
+  "G": [
+   [
+    196,
+    "a. Dog dog = new Dog();"
+   ],
+   [
+    196,
+    "b. Animal dog = new Dog();"
+   ]
+  ]
+ },
+ "124": {
+  "pag": 196,
+  "head": "124. ¿Qué declaraciones inicializan correctamente una variable booleana en",
+  "G": [
+   [
+    196,
+    "c. boolean c = (7 >= 7);"
+   ],
+   [
+    196,
+    "d. boolean e = (10 > 5 && 2 < 1);"
+   ],
+   [
+    197,
+    "f. boolean a = (3 < 6);"
+   ]
+  ]
+ },
+ "125": {
+  "pag": 197,
+  "head": "125. En APX CLI, ¿cual opcion permite crear un proyecto Maven con una",
+  "G": [
+   [
+    198,
+    "d. apx init du-lib-u="
+   ],
+   [
+    198,
+    "\"TEST\" (-c="
+   ],
+   [
+    198,
+    "\"000\") d="
+   ],
+   [
+    198,
+    "\"New Deployment Unit Library\""
+   ],
+   [
+    198,
+    "-y"
+   ]
+  ]
+ },
+ "126": {
+  "pag": 198,
+  "head": "126. ¿Qué es ENTORNO LOCAL APX?",
+  "G": [
+   [
+    198,
+    "d. Es un entorno para que los desarrolladores prueben y depuren sus transacciones y job."
+   ],
+   [
+    199,
+    "c. Un objeto de dominio que encapsula una fase independiente y secuencial de un trabajo"
+   ],
+   [
+    199,
+    "por lotes."
+   ]
+  ]
+ },
+ "127": {
+  "pag": 199,
+  "head": "127. ¿Qué métodos de anulación (Override) son válidos para las siguientes",
+  "G": [
+   [
+    200,
+    "c. void display() { System.out.println(\"InChild\"); }"
+   ],
+   [
+    200,
+    "d. public void display() { System.out.println(\"Child\"); }"
+   ]
+  ]
+ },
+ "128": {
+  "pag": 201,
+  "head": "128. Which of the following class declarations is not correct?",
+  "G": [
+   [
+    201,
+    "d. abstract final class Person ()"
+   ]
+  ]
+ },
+ "129": {
+  "pag": 202,
+  "head": "129. Given the following code snippet, what will be the output of the",
+  "G": [
+   [
+    202,
+    "d. true false true"
+   ]
+  ]
+ },
+ "130": {
+  "pag": 203,
+  "head": "130. Which method in java.lang.Object should be overridden if the hashcode()",
+  "G": [
+   [
+    203,
+    "d. equals()"
+   ]
+  ]
+ },
+ "131": {
+  "pag": 204,
+  "head": "131. ¿Cuál será el resultado de compilar y ejecutar el siguiente fragmento de",
+  "G": [
+   [
+    207,
+    "c"
+   ]
+  ]
+ },
+ "132": {
+  "pag": 208,
+  "head": "132. ¿Cuál es el comando en Bash para cambiar el directorio actual a",
+  "G": [
+   [
+    208,
+    "b. cd"
+   ]
+  ]
+ },
+ "133": {
+  "pag": 209,
+  "head": "133. Which three of the following options are considered bad practices in",
+  "G": [
+   [
+    209,
+    "a. Ignoring exceptions instead of handling them properly."
+   ],
+   [
+    209,
+    "b. Using empty and undocumented catch blocks."
+   ],
+   [
+    209,
+    "c. Duplicating code."
+   ]
+  ]
+ },
+ "134": {
+  "pag": 210,
+  "head": "134. ¿Qué clase puede proveer las siguientes capacidades?: no permitir",
+  "G": [
+   [
+    210,
+    "b. LinkedHashSet"
+   ]
+  ]
+ },
+ "135": {
+  "pag": 210,
+  "head": "135. ¿Cuántas veces se ejecutará la instrucción println más interna en el",
+  "G": [
+   [
+    211,
+    "c. 24 veces"
+   ]
+  ]
+ },
+ "136": {
+  "pag": 212,
+  "head": "136. Given:",
+  "G": [
+   [
+    212,
+    "d. void method() {}"
+   ]
+  ]
+ },
+ "137": {
+  "pag": 212,
+  "head": "137. ¿Cuál de las siguientes opciones es verdadera acerca de Spring Batch?",
+  "G": [
+   [
+    213,
+    "e. Marco de trabajo para lotes diseñado para permitir el desarrollo de aplicaciones por"
+   ],
+   [
+    213,
+    "lotes."
+   ]
+  ]
+ },
+ "138": {
+  "pag": 213,
+  "head": "138. Dado el siguiente código:",
+  "G": [
+   [
+    214,
+    "d. false"
+   ]
+  ]
+ },
+ "139": {
+  "pag": 215,
+  "head": "139. public class Test {",
+  "G": [
+   [
+    216,
+    "f. BC"
+   ]
+  ]
+ },
+ "140": {
+  "pag": 218,
+  "head": "140. public class Test {",
+  "G": [
+   [
+    219,
+    "d. ABCX"
+   ]
+  ]
+ },
+ "141": {
+  "pag": 221,
+  "head": "141. Which statement is true about the following code?",
+  "G": [
+   [
+    222,
+    "a. The program will print \"Drawing a circle\" followed by \"This is a shape\""
+   ],
+   [
+    222,
+    "."
+   ]
+  ]
+ },
+ "142": {
+  "pag": 223,
+  "head": "142. ¿Cuál es un antipatrón de Binary Large Object (BLOB)?",
+  "G": [
+   [
+    223,
+    "Una librería compuesta de sola clase con gran cantidad de funcionalidad."
+   ]
+  ]
+ },
+ "143": {
+  "pag": 224,
+  "head": "143. Which of the following code snippets will result in a compilation error",
+  "G": [
+   [
+    226,
+    "Opción b"
+   ]
+  ]
+ },
+ "144": {
+  "pag": 227,
+  "head": "144. ¿Cuál de los siguientes fragmentos de código implementa correctamente",
+  "G": [
+   [
+    230,
+    "a"
+   ],
+   [
+    230,
+    "c"
+   ],
+   [
+    230,
+    "d"
+   ]
+  ]
+ },
+ "145": {
+  "pag": 230,
+  "head": "145. public class Test {",
+  "G": [
+   [
+    230,
+    "d. long"
+   ]
+  ]
+ },
+ "146": {
+  "pag": 231,
+  "head": "146. In Java, which class is the superclass of all errors and exceptions?",
+  "G": [
+   [
+    231,
+    "e. Throwable"
+   ]
+  ]
+ },
+ "147": {
+  "pag": 231,
+  "head": "147. Todo el acceso a los datos debe estar encapsulado en una biblioteca para",
+  "G": [
+   [
+    232,
+    "verdadero"
+   ]
+  ]
+ },
+ "148": {
+  "pag": 232,
+  "head": "148. ¿Cuál es la característica que comparten Array y Arraylist?",
+  "G": [
+   [
+    232,
+    "Es posible que tengan valores duplicados."
+   ]
+  ]
+ },
+ "149": {
+  "pag": 233,
+  "head": "149. abstract class Animal {",
+  "G": [
+   [
+    234,
+    "d. The Dog barks"
+   ]
+  ]
+ },
+ "150": {
+  "pag": 234,
+  "head": "150. ¿Cuál será el resultado del siguiente fragmento de código?",
+  "G": [
+   [
+    237,
+    "c"
+   ]
+  ]
+ },
+ "151": {
+  "pag": 239,
+  "head": "151. ¿Cuál de las siguientes opciones es una herramienta de comprensión y",
+  "G": [
+   [
+    240,
+    "d. Maven"
+   ]
+  ]
+ },
+ "152": {
+  "pag": 240,
+  "head": "152. import java.util.Arrays;",
+  "G": [
+   [
+    242,
+    "d. [70, 50, 30, 20]"
+   ]
+  ]
+ },
+ "153": {
+  "pag": 242,
+  "head": "153. public class NestedForLoopTest {",
+  "G": [
+   [
+    243,
+    "c. 159"
+   ]
+  ]
+ },
+ "154": {
+  "pag": 245,
+  "head": "154. En el contexto de Maven. ¿Cuál es la función principal del archivo",
+  "G": [
+   [
+    245,
+    "b. Configurar la información del repositorio local y remoto, así como las credenciales y"
+   ],
+   [
+    245,
+    "perfiles de usuario."
+   ]
+  ]
+ },
+ "155": {
+  "pag": 246,
+  "head": "155. abstract class Animal {",
+  "G": [
+   [
+    247,
+    "a. Animals make noise"
+   ]
+  ]
+ },
+ "156": {
+  "pag": 249,
+  "head": "156. ¿Cuál de las siguientes afirmaciones sobre la palabra clave throw es",
+  "G": [
+   [
+    249,
+    "d. Se utiliza para generar una excepción manualmente."
+   ]
+  ]
+ },
+ "157": {
+  "pag": 250,
+  "head": "157. ¿Cuál de las siguientes anotaciones es verdadera acerca de la siguiente",
+  "G": [
+   [
+    251,
+    "a) ElectricCar myCar = new ElectricCar(); System.out.println(myCar.type); // Salida:"
+   ],
+   [
+    251,
+    "ElectricCar"
+   ]
+  ]
+ },
+ "158": {
+  "pag": 252,
+  "head": "158. Which of the following statements correctly identifies checked and",
+  "G": [
+   [
+    253,
+    "b. IOException is a checked exception, and NullPointerException is an unchecked"
+   ],
+   [
+    253,
+    "exception."
+   ]
+  ]
+ },
+ "159": {
+  "pag": 254,
+  "head": "159. ¿Cuáles de las siguientes opciones son verdaderas acerca de APX?",
+  "G": [
+   [
+    254,
+    "c. Ofrece una alternativa confiable para el desarrollo de transacciones no acopladas al"
+   ],
+   [
+    254,
+    "canal."
+   ],
+   [
+    254,
+    "e. Extensión de la Arquitectura Backend que brinda las mismas capacidades en el mundo"
+   ],
+   [
+    254,
+    "distribuido"
+   ]
+  ]
+ },
+ "160": {
+  "pag": 254,
+  "head": "160. ¿Cuáles son los tipos de componentes en APX batch?",
+  "G": [
+   [
+    255,
+    "a. Librerías"
+   ],
+   [
+    255,
+    "b. Jobs"
+   ],
+   [
+    255,
+    "d. DTOs"
+   ]
+  ]
+ },
+ "161": {
+  "pag": 255,
+  "head": "161. What is the output of the following program?",
+  "G": [
+   [
+    255,
+    "b. greater than - 6"
+   ]
+  ]
+ },
+ "162": {
+  "pag": 257,
+  "head": "162. public class Test implements Runnable {",
+  "G": [
+   [
+    259,
+    "d. The code outputs 1 3 4 2."
+   ],
+   [
+    259,
+    "f. The code runs to completion."
+   ]
+  ]
+ },
+ "163": {
+  "pag": 259,
+  "head": "163. ¿Cuáles son palabras reservadas para manejo de excepciones en",
+  "G": [
+   [
+    259,
+    "d. try, catch, finally, throw, throws"
+   ]
+  ]
+ },
+ "164": {
+  "pag": 260,
+  "head": "164. ¿Cuál de las siguientes implementaciones de código utiliza",
+  "G": [
+   [
+    262,
+    "c)"
+   ],
+   [
+    262,
+    "d)"
+   ]
+  ]
+ },
+ "165": {
+  "pag": 263,
+  "head": "165. ¿Cuál de las siguientes opciones son capacidades ofrecidas en",
+  "G": [
+   [
+    263,
+    "b. Procesamiento transaccional."
+   ]
+  ]
+ },
+ "166": {
+  "pag": 263,
+  "head": "166. hat will happen when you try to compile the following code?",
+  "G": [
+   [
+    264,
+    "c. Compilation error."
+   ]
+  ]
+ },
+ "167": {
+  "pag": 265,
+  "head": "167. ¿Cuáles de las siguientes opciones son archivos configurados por APX",
+  "G": [
+   [
+    265,
+    "a. library-arc-osgi.xml"
+   ],
+   [
+    265,
+    "b. library-arc.xml"
+   ],
+   [
+    265,
+    "e. pom.xml"
+   ]
+  ]
+ },
+ "168": {
+  "pag": 265,
+  "head": "168. Con la \"APX Operation Console\", sólo se pueden ver grafos de",
+  "G": [
+   [
+    266,
+    "Falso"
+   ]
+  ]
+ },
+ "169": {
+  "pag": 266,
+  "head": "169. ¿Cual opción es verdadera acerca de \"APX Operation Console\"?",
+  "G": [
+   [
+    266,
+    "a. Herramienta web que proporciona a los desarrolladores y administradores gestionar la"
+   ],
+   [
+    266,
+    "configuración, verificación de componentes de la aplicación o busqueda de jobs"
+   ],
+   [
+    266,
+    "ejecutados o en ejecución"
+   ]
+  ]
+ },
+ "170": {
+  "pag": 267,
+  "head": "170. ¿Cuáles son los tipos de componentes en APX?",
+  "G": [
+   [
+    267,
+    "c. Todas las opciones son correctas"
+   ]
+  ]
+ },
+ "171": {
+  "pag": 267,
+  "head": "171. ¿Qué significa que un cambio en el software sea retrocompatible?",
+  "G": [
+   [
+    267,
+    "a. El cambio garantiza que el software siga funcionando sin necesidad de modificaciones"
+   ],
+   [
+    267,
+    "en el código que depende de él."
+   ]
+  ]
+ },
+ "172": {
+  "pag": 268,
+  "head": "172. ¿Qué comando en Bash se utiliza para copiar archivos de un lugar a otro?",
+  "G": [
+   [
+    268,
+    "c. cp"
+   ]
+  ]
+ },
+ "173": {
+  "pag": 269,
+  "head": "173. ¿Cuál es el propósito principal de un objeto de transferencia de datos",
+  "G": [
+   [
+    269,
+    "b. Transferir datos entre diferentes capas o niveles de una aplicación."
+   ]
+  ]
+ },
+ "174": {
+  "pag": 269,
+  "head": "174. ¿Cuál es la función principal de JobRepository en Spring Batch?",
+  "G": [
+   [
+    269,
+    "b. Proporcionar un mecanismo de persistencia para todas las operaciones CRUD"
+   ],
+   [
+    269,
+    "relacionadas con JobLauncher, Job y Step."
+   ]
+  ]
+ },
+ "175": {
+  "pag": 270,
+  "head": "175. class Ot {",
+  "G": [
+   [
+    271,
+    "d. red green"
+   ]
+  ]
+ },
+ "176": {
+  "pag": 272,
+  "head": "176. ¿Cuál es el archivo generado por el comando 'apx config'?",
+  "G": [
+   [
+    272,
+    "e. config.yaml"
+   ]
+  ]
+ },
+ "177": {
+  "pag": 272,
+  "head": "177. ¿Cuál es la nomenclatura correcta para un componente de tipo",
+  "G": [
+   [
+    272,
+    "a. TESTT001-01-MX"
+   ]
+  ]
+ },
+ "178": {
+  "pag": 273,
+  "head": "178. Which of the following are valid ways to initialize an array in Java?",
+  "G": [
+   [
+    273,
+    "b. int[] arr = {1, 2, 3};"
+   ],
+   [
+    273,
+    "c. int[] arr = new int[] {1, 2, 3};"
+   ],
+   [
+    273,
+    "d. int[] arr = new int[3];"
+   ]
+  ]
+ },
+ "179": {
+  "pag": 274,
+  "head": "179. ¿Cuál es la nomenclatura y la ruta de creación de un archivo que sigue el",
+  "G": [
+   [
+    274,
+    "c. [UUAA]T[CODE]-[VERSION]-[COUNTRY].xmly se crea en la ruta src/main/resources/."
+   ]
+  ]
+ },
+ "180": {
+  "pag": 274,
+  "head": "180. What are the types of exceptions in Java?",
+  "G": [
+   [
+    274,
+    "d. All the options are correct."
+   ]
+  ]
+ },
+ "181": {
+  "pag": 275,
+  "head": "181. Dado el siguiente código:",
+  "G": [
+   [
+    276,
+    "d. The code runs with no output."
+   ]
+  ]
+ },
+ "182": {
+  "pag": 276,
+  "head": "182. ¿Cuáles son los protocolos físicos que admite en APX?",
+  "G": [
+   [
+    276,
+    "b.JMS"
+   ],
+   [
+    276,
+    "d.REST"
+   ],
+   [
+    276,
+    "e.HTTP"
+   ]
+  ]
+ },
+ "183": {
+  "pag": 276,
+  "head": "183. Which of the following are unchecked exceptions?",
+  "G": [
+   [
+    277,
+    "a. ArrayIndexOutOfBoundsException"
+   ],
+   [
+    277,
+    "c. RuntimeException"
+   ],
+   [
+    277,
+    "d. NumberFormatException"
+   ],
+   [
+    277,
+    "e. IllegalArgumentException"
+   ]
+  ]
+ },
+ "184": {
+  "pag": 277,
+  "head": "184. ¿Cual de las siguientes opciones de vida de Maven se encarga de",
+  "G": [
+   [
+    277,
+    "a. compile"
+   ]
+  ]
+ },
+ "185": {
+  "pag": 278,
+  "head": "185. ¿Cuál de las siguientes herramientas incluidas en el JDK se utiliza para",
+  "G": [
+   [
+    278,
+    "d. jconsole"
+   ]
+  ]
+ },
+ "186": {
+  "pag": 279,
+  "head": "186. ¿Cuál de las siguientes herramientas proporciona análisis de calidad del",
+  "G": [
+   [
+    279,
+    "d. SonarQube"
+   ]
+  ]
+ },
+ "187": {
+  "pag": 279,
+  "head": "187. Dado el siguiente código:",
+  "G": [
+   [
+    280,
+    "e. void method() { }"
+   ]
+  ]
+ },
+ "188": {
+  "pag": 280,
+  "head": "188. ¿Cuál de los siguientes métodos de Mockito se utilizan conjuntamente",
+  "G": [
+   [
+    280,
+    "d. when() & thenReturn()"
+   ]
+  ]
+ },
+ "189": {
+  "pag": 281,
+  "head": "189. abstract class Animal {",
+  "G": [
+   [
+    282,
+    "a. Compilation fails."
+   ]
+  ]
+ },
+ "190": {
+  "pag": 283,
+  "head": "190. Which of the following lines of code correctly appends a string to a",
+  "G": [
+   [
+    283,
+    "b. StringBuilder sb = new StringBuilder(\"Hello\"); sb.append(\" World\");"
+   ]
+  ]
+ },
+ "191": {
+  "pag": 283,
+  "head": "191. The image shows a multiple-choice question about the java -jar command,",
+  "G": [
+   [
+    284,
+    "b. The java -jar command ignores the CLASSPATH environment variable and command-line"
+   ],
+   [
+    284,
+    "classpath settings."
+   ],
+   [
+    284,
+    "d. The java -jar command requires the JAR file to have a META-INF/MANIFEST.MF file"
+   ],
+   [
+    284,
+    "specifying the main class."
+   ],
+   [
+    284,
+    "e. The java -jar command can only be used to execute JAR files that are executable JARs,"
+   ],
+   [
+    284,
+    "i.e., those that contain the META-INF/MANIFEST.MF file with the Main-Class attribute."
+   ]
+  ]
+ },
+ "192": {
+  "pag": 284,
+  "head": "192. Which two statements are true?",
+  "G": [
+   [
+    284,
+    "d. An abstract class can implement an interface."
+   ],
+   [
+    285,
+    "e. An abstract class can be extended by a concrete class."
+   ]
+  ]
+ },
+ "193": {
+  "pag": 285,
+  "head": "193. ¿Cuál es el propósito principal de la anotación @Test en JUnit?",
+  "G": [
+   [
+    285,
+    "b. Marcar un método como un método de prueba."
+   ]
+  ]
+ },
+ "194": {
+  "pag": 286,
+  "head": "194. Una transacción es un conjunto de operaciones que se ejecutan como un",
+  "G": [
+   [
+    286,
+    "Verdadero"
+   ]
+  ]
+ },
+ "195": {
+  "pag": 286,
+  "head": "195. ¿Cuál es la rama principal de Gitflow en la que se integran las nuevas",
+  "G": [
+   [
+    286,
+    "b. release"
+   ]
+  ]
+ },
+ "196": {
+  "pag": 287,
+  "head": "196. ¿Cuál de los siguientes comandos de Maven se utiliza para compilar un",
+  "G": [
+   [
+    287,
+    "b. mvn package"
+   ]
+  ]
+ },
+ "197": {
+  "pag": 287,
+  "head": "197. Which design pattern allows you to compose objects into tree structures",
+  "G": [
+   [
+    287,
+    "b. Composite"
+   ]
+  ]
+ },
+ "198": {
+  "pag": 288,
+  "head": "198. ¿Cuál es el significado del acrónimo CRUD en el contexto del desarrollo",
+  "G": [
+   [
+    288,
+    "a. Create, Read, Update, Delete."
+   ]
+  ]
+ },
+ "199": {
+  "pag": 289,
+  "head": "199. import java.util.stream.Stream;",
+  "G": [
+   [
+    291,
+    "a. 2"
+   ]
+  ]
+ },
+ "200": {
+  "pag": 292,
+  "head": "200. ¿Cuál es la principal función de JFrog Artifactory en un entorno de",
+  "G": [
+   [
+    292,
+    "d. Gestionar y almacenar artefactos de software, como dependencias y bibliotecas, en un"
+   ],
+   [
+    292,
+    "repositorio."
+   ]
+  ]
+ },
+ "201": {
+  "pag": 292,
+  "head": "201. Which of the following lines of code correctly defines the main method in",
+  "G": [
+   [
+    292,
+    "d. public static void main(String[] args) {}"
+   ]
+  ]
+ },
+ "202": {
+  "pag": 293,
+  "head": "202. hat will be the result of attempting to compile and run the following code",
+  "G": [
+   [
+    294,
+    "a. Compilation error due to recursive constructor calls."
+   ]
+  ]
+ },
+ "203": {
+  "pag": 294,
+  "head": "203. abstract class Vehicle {",
+  "G": [
+   [
+    296,
+    "Car started Vehicle stopped Bike started Vehicle stopped"
+   ]
+  ]
+ },
+ "204": {
+  "pag": 296,
+  "head": "204. ¿Cuáles son los tipos de componentes en APX Online?",
+  "G": [
+   [
+    296,
+    "a. Librerías"
+   ],
+   [
+    296,
+    "d. DTOs"
+   ],
+   [
+    296,
+    "e. Transacciones"
+   ]
+  ]
+ },
+ "205": {
+  "pag": 296,
+  "head": "205. ¿Cuál es el patrón de diseño que permite a un objeto cambiar su estado",
+  "G": [
+   [
+    297,
+    "State Pattern"
+   ]
+  ]
+ },
+ "206": {
+  "pag": 297,
+  "head": "206. Which two statements are true?",
+  "G": [
+   [
+    297,
+    "a. A class that is abstract cannot be instantiated or turned into an object (instance)."
+   ],
+   [
+    297,
+    "c. If a class has abstract methods, then it must be specified as an abstract class."
+   ]
+  ]
+ },
+ "207": {
+  "pag": 298,
+  "head": "207. ¿Cuál de las siguientes herramientas es la más adecuada para el",
+  "G": [
+   [
+    298,
+    "b. Jira"
+   ]
+  ]
+ },
+ "208": {
+  "pag": 299,
+  "head": "208. ¿Cuál es el objetivo de la clase abstracta de la transacción APX?",
+  "G": [
+   [
+    299,
+    "a. Recuperar información de solicitud HTTP."
+   ],
+   [
+    299,
+    "b. Agregar parámetros del cuerpo de la respuesta."
+   ],
+   [
+    299,
+    "e. Separar las operaciones relacionadas con los parámetros de entrada y salida de la"
+   ],
+   [
+    299,
+    "lógica de la transacción."
+   ]
+  ]
+ },
+ "209": {
+  "pag": 299,
+  "head": "209. ¿Cuál es el propósito del plugin maven-surefire-plugin y en qué etapa del",
+  "G": [
+   [
+    299,
+    "c. Ejecutar pruebas unitarias durante la etapa de 'test'"
+   ],
+   [
+    299,
+    "."
+   ]
+  ]
+ },
+ "210": {
+  "pag": 300,
+  "head": "210. ¿Cuál es el propósito principal de OSGi (Open Service Gateway",
+  "G": [
+   [
+    300,
+    "a. Gestionar dependencias y permitir el despliegue dinámico de módulos en aplicaciones"
+   ],
+   [
+    300,
+    "Java."
+   ]
+  ]
+ },
+ "211": {
+  "pag": 300,
+  "head": "211. ¿Cuál será el resultado del siguiente fragmento de código?",
+  "G": [
+   [
+    302,
+    "d. Bark"
+   ]
+  ]
+ },
+ "212": {
+  "pag": 302,
+  "head": "212. What are the modifiers that can precede a toplevel class declaration?",
+  "G": [
+   [
+    302,
+    "b. abstract"
+   ],
+   [
+    302,
+    "c. strictfp"
+   ],
+   [
+    302,
+    "f. public"
+   ],
+   [
+    302,
+    "h. final"
+   ]
+  ]
+ }
+}

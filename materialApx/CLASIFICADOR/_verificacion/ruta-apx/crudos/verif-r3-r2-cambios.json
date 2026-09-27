@@ -1,0 +1,366 @@
+{
+ "verificador": "ronda 2 adversarial r3 (27-sep-2026)",
+ "alcance": "27 preguntas de cambios-r3.json + retoque G002 + plan 27_ruta_estudio_apx.json",
+ "metodo": "Páginas de la clave extraídas con pypdf, pasadas a PNG con sips y miradas una a una (APX3 págs. 1-5, 7-12, 15; Java.pdf págs. 46, 66, 99, 143, 197-198, 212-213, 263, 265-266, 272, 299). Documentos: texto (pypdf, XML de pptx en el orden de presentation.xml) y OCR con Vision de los PDF de imagen y de las imágenes de los pptx. Plan comparado con plan-r2.json por hash.",
+ "grupos": {
+  "G002": {
+   "fuente": "Java.pdf #165 (retoque de retro)",
+   "verificado": "Java.pdf pág. 263: verde solo en b; el texto dice «b. Procesamiento transaccional y c. Procesamiento Batch». El añadido es cierto. En el plan solo cambian retro y hash.",
+   "hallazgos": []
+  },
+  "G005": {
+   "fuente": "APX3 #1",
+   "tipo": "single",
+   "correctas": [
+    "a"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p1: a amarilla. APX_Online.pptx diap. 2 da «Extended Java Backend Architecture»: cierto.",
+   "hallazgos": []
+  },
+  "G028": {
+   "fuente": "APX3 #11",
+   "tipo": "multi",
+   "correctas": [
+    "d",
+    "e"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p3 (#11): d y e amarillas. Sin «Core» en texto ni OCR del curso: cierto.",
+   "hallazgos": []
+  },
+  "G047": {
+   "fuente": "APX3 #5",
+   "tipo": "single",
+   "correctas": [
+    "b"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p1 (#5): b amarilla. Compresión solo en APX Batch - Documentación.pdf pág. 1 (y en Introducción APX Batch, omitido, también Batch): cierto.",
+   "hallazgos": []
+  },
+  "G048": {
+   "fuente": "APX3 #6",
+   "tipo": "single",
+   "correctas": [
+    "a"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p2 (#6): a amarilla. Batch Documentación pág. 3: «envío de comunicación al cliente mediante Communication Manager»: cierto.",
+   "hallazgos": []
+  },
+  "G068": {
+   "fuente": "APX3 #17",
+   "tipo": "single",
+   "correctas": [
+    "d"
+   ],
+   "quitar_opciones": [
+    "e"
+   ],
+   "verificado": "APX3 p3 (#17): Verdadero amarillo; #18 también marca «No se permite la invocación síncrona». Quitar e no rompe la pregunta (quedan b, c, d; d correcta). Diap. 39–40 solo asíncronas; ninguna otra diap. habla de síncronas: cierto.",
+   "hallazgos": [
+    {
+     "gravedad": "baja",
+     "que": "«Se quitó la opción «No se», que venía cortada en el examen»: no está demostrado que venga cortada; en el docx original es literalmente «e) No se», junto a «a) No conozco la respuesta» (puede ser «No sé»).",
+     "evidencia": "05 - Diagnóstico APX.docx, pregunta 28: a) No conozco la respuesta … e) No se.",
+     "arreglo": "«Se quitó la opción «No se» (ambigua: «no sé» o una frase incompleta).» La quita en sí es correcta: no era la marcada."
+    }
+   ]
+  },
+  "G085": {
+   "fuente": "APX3 #87",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "d"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p15 (#87): a y d amarillas; enunciado truncado «antes de.» confirmado. Diap. 28 y 29: cierto.",
+   "hallazgos": []
+  },
+  "G089": {
+   "fuente": "Java.pdf #125",
+   "tipo": "single",
+   "correctas": [
+    "c"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p197–198 (#125): d «apx init du-lib» verde y «✅ Respuesta correcta: d»; en el banco es c (du-lib): bien. AcademicosAPX pág. 3 (OCR): «dos tipos de unidades de despliegue, las de online y las de batch»; Librería.pdf pág. 1: «apx init lib»: cierto.",
+   "hallazgos": []
+  },
+  "G103": {
+   "fuente": "APX3 #68",
+   "tipo": "single",
+   "correctas": [
+    "a"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p12 (#68): a amarilla. AcademicosAPX pág. 8 (OCR): librerías multiruntime Online/Batch; Librerías simples pág. 1: sin utilidades → librería simple: cierto.",
+   "hallazgos": []
+  },
+  "G109": {
+   "fuente": "APX3 #35",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "d",
+    "e",
+    "f"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p7 (#35): a, d, e, f amarillas. Diap. 21: datos propios/terceros, Datasource, conexiones, JDBC (no JPA); «cesión de ficheros» no aparece en el curso: cierto.",
+   "hallazgos": []
+  },
+  "G130": {
+   "fuente": "APX3 #40",
+   "tipo": "single",
+   "correctas": [
+    "c"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p8 (#40): Falso amarillo → c «No». Batch Documentación pág. 2: multithreading: cierto.",
+   "hallazgos": [
+    {
+     "gravedad": "baja",
+     "que": "La fuente (APX3 #40) es un enunciado distinto («La creación de hilos o su gestión por las aplicaciones está permitida»), igual que en G015/G197/G173, pero la retro no la llama «afín». La deducción sí es directa y la retro cita el enunciado.",
+     "evidencia": "Imagen APX3 pág. 8 (#40: Falso). antes_r3 la llamaba «pregunta afín».",
+     "arreglo": "Opcional: «por una pregunta afín» por coherencia."
+    }
+   ]
+  },
+  "G141": {
+   "fuente": "APX3 #52",
+   "tipo": "single",
+   "correctas": [
+    "a"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p9 (#52): Verdadero amarillo. Diap. 36 WARN «no impiden que la aplicación continúe»: cierto.",
+   "hallazgos": []
+  },
+  "G142": {
+   "fuente": "APX3 #47",
+   "tipo": "single",
+   "correctas": [
+    "d"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p9 (#47): d amarilla, b gris. Barrido de las 16 págs.: el gris solo en la pág. 9. Diap. 36 LOGGER.trace; #48 «más comunes»: cierto.",
+   "hallazgos": []
+  },
+  "G143": {
+   "fuente": "APX3 #47 y #48",
+   "tipo": "single",
+   "correctas": [
+    "d"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p9 (#47 d amarilla, #48 Verdadero amarillo) → d. Diap. 36: cierto.",
+   "hallazgos": []
+  },
+  "G172": {
+   "fuente": "APX3 #22",
+   "tipo": "single",
+   "correctas": [
+    "a"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p4 (#22): a amarilla. Diap. 50 y 51 con la misma frase: cierto.",
+   "hallazgos": []
+  },
+  "G182": {
+   "fuente": "Java.pdf #168",
+   "tipo": "single",
+   "correctas": [
+    "b"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p265–266 (#168): Falso verde y «Falso ✅». APX_Online.pptx: diap. 14 (transacciones, sin Show Graph), 15 (librerías, Show Graph), 16 (árbol de dependencias): cierto.",
+   "hallazgos": []
+  },
+  "G187": {
+   "fuente": "APX3 #57",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "b"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p10 (#57): a y b amarillas. Batch Documentación pág. 1 (multi-BD, acceso a utilidades) y lista de Componentes del lote pág. 1 sin Neo4J: cierto; Java.pdf #66 d Neo4J sin verde: cierto.",
+   "hallazgos": [
+    {
+     "gravedad": "baja",
+     "que": "La retro repite «Ojo:» dos veces seguidas.",
+     "evidencia": "«…no incluye Neo4J. Ojo: la clave de otro examen (Java.pdf #66)…»",
+     "arreglo": "Unir: «…no incluye Neo4J, y la clave de otro examen (Java.pdf #66) tampoco lo marca: las dos claves se contradicen.»"
+    }
+   ]
+  },
+  "G197": {
+   "fuente": "APX3 #66 (afín)",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "c",
+    "h"
+   ],
+   "quitar_opciones": [
+    "b"
+   ],
+   "verificado": "Afín a APX3 #66 (p11: a, b, c amarillas) con correspondencia uno a uno (c=WebServices/REST, a=HTTP, h=pre/post): deducción directa. Imagen de Batch Documentación pág. 1: «Invocación restringida de» solo contiene WebServices y HTTP; «Utilidades inherentes… / Compresión» es otro apartado: cierto. Quitar b (GUC) no toca las correctas.",
+   "hallazgos": []
+  },
+  "G198": {
+   "fuente": "APX3 #66",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "b",
+    "c"
+   ],
+   "quitar_opciones": [
+    "f",
+    "g",
+    "h"
+   ],
+   "verificado": "APX3 p11 (#66): a, b, c amarillas por separado. Quitar f/g/h deja 5 opciones con a, b, c correctas: no se rompe. Batch Documentación pág. 1: cierto.",
+   "hallazgos": []
+  },
+  "G049": {
+   "fuente": "Java.pdf #176",
+   "tipo": "single",
+   "correctas": [
+    "e"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p272 (#176): e config.yaml verde. «apx config» no aparece en texto ni OCR del curso: cierto.",
+   "hallazgos": []
+  },
+  "G052": {
+   "fuente": "Java.pdf #44",
+   "tipo": "multi",
+   "correctas": [
+    "b",
+    "c"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p66 (#44): b y c verdes. «apx deploy local» no aparece; diap. 35 entorno local: cierto.",
+   "hallazgos": []
+  },
+  "G054": {
+   "fuente": "Java.pdf #91",
+   "tipo": "multi",
+   "correctas": [
+    "c",
+    "d",
+    "e"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p143 (#91): c, d, e verdes. Diap. 33–34 Maven, JDK, Artifactory; AcademicosAPX (OCR) gitignore, Bitbucket, gitflow: cierto.",
+   "hallazgos": []
+  },
+  "G073": {
+   "fuente": "Java.pdf #208",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "b",
+    "e"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p299 (#208): a, b, e verdes; letras bien. Ver hallazgo sobre la cita de getParameter/addParameter.",
+   "hallazgos": [
+    {
+     "gravedad": "media",
+     "que": "La retro atribuye getParameter/addParameter a «APX Online - Creación de Transacciones.pdf, págs. 2 y 8», pero ese PDF no los contiene. Están en la presentación del curso (Curse_APX_Online.pptx), diap. 11 (getParameter) y 16 (addParameter), que la retro anterior (antes_r3) sí citaba y la de r3 perdió.",
+     "evidencia": "Texto (pypdf) y OCR (Vision) de las 8 págs. de Creación de Transacciones: 0 apariciones de getParameter/addParameter; la pág. 2 (imagen revisada) solo dice que se regenera la transacción abstracta y la pág. 8 que la transacción hereda de la clase abstracta. OCR de ppt/media/image17.png (diap. 11): «return (String) getParameter(\"accountNumber\")»; image9.png (diap. 16): «this.addParameter(\"accounts\", field)».",
+     "arreglo": "«La documentación solo muestra que la clase abstracta contiene getParameter/addParameter (la presentación del curso, Curse_APX_Online.pptx, diap. 11 y 16) y que la transacción hereda de ella (APX Online - Creación de Transacciones.pdf, págs. 2 y 8).»"
+    }
+   ]
+  },
+  "G212": {
+   "fuente": "Java.pdf #66",
+   "tipo": "multi",
+   "correctas": [
+    "a",
+    "c",
+    "e"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p99 (#66): a, c, e verdes. Componentes del lote pág. 1 incluye «Conector API»; APX3 #57 incluye Neo4J: cierto.",
+   "hallazgos": []
+  },
+  "G215": {
+   "fuente": "Java.pdf #137",
+   "tipo": "single",
+   "correctas": [
+    "e"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p212–213 (#137): e verde. Batch Documentación pág. 2 (definición) y Conceptos por Lotes pág. 1 (Job contenedor de pasos): cierto.",
+   "hallazgos": []
+  },
+  "G219": {
+   "fuente": "Java.pdf #31",
+   "tipo": "single",
+   "correctas": [
+    "c"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p46 (#31): 5000 verde (c en el banco). Sin límite de resultados en texto ni OCR del curso: cierto.",
+   "hallazgos": []
+  },
+  "G015": {
+   "fuente": "APX3 #12 (afín)",
+   "tipo": "single",
+   "correctas": [
+    "c"
+   ],
+   "quitar_opciones": [],
+   "verificado": "APX3 p3 (#12): Transacción amarilla. Diap. 18 y Capabilities págs. 2 y 6: citas ciertas. Ver hallazgo sobre la deducción.",
+   "hallazgos": [
+    {
+     "gravedad": "media",
+     "que": "Deducción «afín» no directa. APX3 #12 es un hueco en la frase de la pila de ejecución («crea un identificador único para la ____» → Transacción), que copia Capabilities pág. 2; no responde «¿Qué es Identificador único (UID)?». El UID como servicio (Capabilities pág. 6: «Unique identifier for transaction/job execution»; «UID Generator» en las imágenes) respalda la opción a, que queda calificada con 0.",
+     "evidencia": "Imagen APX3 pág. 3 (#12: Transacción amarilla, Ejecución sin marcar). Capabilities pág. 6 (texto). clasif-todas D05-42: respuesta_doc «a — identifica de forma única una ejecución». antes_r3: «contradictorio… Se pide una sola respuesta».",
+     "arreglo": "Devolverla a «Preguntas sin respuesta confirmada», o dar 1.0 a a y a c (Moodle lo permite en opción única) y que la retro lo explique."
+    }
+   ]
+  },
+  "G173": {
+   "fuente": "Java.pdf #31 (afín)",
+   "tipo": "single",
+   "correctas": [
+    "c"
+   ],
+   "quitar_opciones": [],
+   "verificado": "Java.pdf p46 (#31): 5000 verde. Diap. 50–51: cita cierta. Ver hallazgo sobre la equivalencia.",
+   "hallazgos": [
+    {
+     "gravedad": "media",
+     "que": "Deducción «equivalente» no directa. «Máximo de resultados por paginación» (tamaño de página) no es lo mismo que Java.pdf #31 («En JDBC APX… cantidad máxima de resultados que permite obtener la consulta antes de que se deba paginar»), y las opciones son otras (1, 10000). La propia documentación citada (diap. 50–51) dice que el tamaño del bloque lo calcula cada aplicación, lo que va contra un máximo fijo.",
+     "evidencia": "Imagen Java.pdf pág. 46 (#31: 5000 en verde). Curse_APX_Online.pptx diap. 50–51 (texto). antes_r3: «Ninguna clave responde esta pregunta».",
+     "arreglo": "Devolverla a la página del instructor, o decir en la retro que la clave es de otra pregunta y que el curso no fija ese máximo (ya lo dice) y aceptar que es una extrapolación."
+    }
+   ]
+  }
+ },
+ "plan": {
+  "verificado": "195 preguntas = 168 de r2 + las 27; 167 hash iguales; G002 cambia solo retro y hash. Las 27: opciones y enunciado iguales al banco, fracciones bien (single 1.0/0.0; multi ±1/n con n = nº correctas, 0.3333333), cada una solo en quiz-e{paso} y en su categoría, ninguna en pag-instructor (28 bloques «Qué dicen las fuentes», = 28 instructor del banco: 23 ninguno + 5 contradictorio). Conteos: intro 195/28 (223); guías 29/11/13/8/15/17/26/24/20/32, y 1/7/0/2/3/6/1/0/2/4/2 en la página, todo cuadra con el banco; el póster (sha f2ffc94c… = archivo) repite esos números.",
+  "hallazgos": [
+   {
+    "gravedad": "media",
+    "que": "Los textos dicen que la diferencia entre los dos grupos es que en las 28 «con el material del curso no se puede confirmar su respuesta», así que dan a entender que las 195 calificadas sí están confirmadas. Ahora 27 se califican solo con la clave del examen, varias contra la documentación (G141, G048, G142, G005, G015, G173), y ninguna etiqueta ni guía menciona la clave.",
+    "evidencia": "Intro «Cómo usar esta ruta»: «195 en las autoevaluaciones y 28 en Preguntas sin respuesta confirmada (con el material del curso no se puede confirmar su respuesta)». Póster: «el material no confirma su respuesta». Ningún label del plan contiene «clave».",
+    "arreglo": "Añadir a la intro (y al póster): «27 de las autoevaluaciones se califican con la respuesta marcada en los exámenes de práctica; su retroalimentación avisa cuando la documentación dice otra cosa.» Y en la página: «…ni la documentación ni las claves de los exámenes confirman su respuesta»."
+   },
+   {
+    "gravedad": "baja",
+    "que": "Criterio de «afín» desigual: G015/G173 entran por claves de otra pregunta, pero G163 (Blob) sigue fuera aunque APX3 #24 y Java.pdf #46 marcan «mover el comportamiento a sus librerías relacionadas», que es lo que pide su opción a.",
+    "evidencia": "Imagen APX3 pág. 5 (#24); Java.pdf pág. 67 (#46).",
+    "arreglo": "Decidir un criterio único para las claves afines y aplicarlo igual (o sacar G015/G173, o valorar G163)."
+   }
+  ]
+ }
+}

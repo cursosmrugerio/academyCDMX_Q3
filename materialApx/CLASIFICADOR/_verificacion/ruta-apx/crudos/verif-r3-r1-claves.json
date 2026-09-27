@@ -1,0 +1,293 @@
+[
+ {
+  "grupo": "G005",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 1 (#1)",
+  "opciones_amarillas_textos": [
+   "Extended Platform Architecture"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G028",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 págs. 2-3 (#11; enunciado y opciones en pág. 3)",
+  "opciones_amarillas_textos": [
+   "Thread Affinity",
+   "Soporte Transaccional JTA/XA"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G047",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 1 (#5)",
+  "opciones_amarillas_textos": [
+   "Compresión/Descompresión: ... Generador de documentos: ..."
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": false,
+  "hallazgos": [
+   {
+    "gravedad": "alta",
+    "que": "Afirmación literalmente falsa en la retro: «Compresión/Descompresión solo aparece en APX Batch - Documentación.pdf, pág. 1». También aparece en apx/batch/Introducción APX Batch.pdf, pág. 1 (PDF de imagen, en inglés). El fondo (solo sale en documentación de Batch) sí es cierto; la clave y la letra están bien.",
+    "evidencia": "OCR (Vision) de 'Introducción APX Batch.pdf' pág. 1: «• Restricted invocation of: ... • Utilities inherent to the APX Architecture. • Compression/Decompression.»",
+    "arreglo_propuesto": "«...Compresión/Descompresión solo aparece en la documentación de Batch (APX Batch - Documentación.pdf, pág. 1; Introducción APX Batch.pdf, pág. 1).»"
+   }
+  ]
+ },
+ {
+  "grupo": "G048",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 págs. 1-2 (#6; opciones en pág. 2)",
+  "opciones_amarillas_textos": [
+   "Communication Manager: ... Interbackend proxy: ..."
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G068",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 3 (#17; además #18 en págs. 3-4 marca «No se permite la invocación síncrona entre transacciones»)",
+  "opciones_amarillas_textos": [
+   "Verdadero (a «La invocación síncrona no está permitida...»)"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "media",
+    "que": "La pregunta ahora se califica, pero conserva la opción truncada «e) No se», que puede leerse como «No se [permite]» (= la correcta d) o como «No sé». Un alumno que la elija por el primer sentido queda mal calificado.",
+    "evidencia": "banco-final G068 opciones: b Si / c Dependiendo el desarrollo / d No se permite la invocación sincrónica / e No se. D05-28 original trae la misma «e) No se».",
+    "arreglo_propuesto": "Quitar la opción e (como se hizo con «No conozco la respuesta»), o dejarla y avisar en la retro."
+   },
+   {
+    "gravedad": "baja",
+    "que": "Deducción desde pregunta afín: #17 habla de una transacción que invoca a otra; el enunciado del banco no dice «entre transacciones». Es directa y además la respalda #18; no se considera extrapolación.",
+    "evidencia": "APX3 págs. 3-4",
+    "arreglo_propuesto": "Ninguno necesario."
+   }
+  ]
+ },
+ {
+  "grupo": "G085",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 15 (#87)",
+  "opciones_amarillas_textos": [
+   "Comunicación de APX a servicios NO APX",
+   "Si la transaccion APX debe invocar a Mainframe mas de dos veces"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G089",
+  "clave_confirmada": true,
+  "pagina_pdf": "Java.pdf págs. 197-198 (#125; en verde, «✅ Respuesta correcta: d. apx init du-lib...»)",
+  "opciones_amarillas_textos": [
+   "d. apx init du-lib-u=\"TEST\" (-c=\"000\") d=\"New Deployment Unit Library\" -y  (= opción c del banco)"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "media",
+    "que": "La retro r3 quitó el aviso de contradicción que tenía antes_r3 y no avisa que la documentación dice otra cosa (contra la regla del propio cambios-r3: «Si la documentación dice otra cosa, se avisa en la retroalimentación»). AcademicosAPX.pdf pág. 3 dice que solo hay dos tipos de unidades de despliegue (online y batch), y el comando que documenta el curso para crear una librería es «apx init lib», no «apx init du-lib».",
+    "evidencia": "AcademicosAPX.pdf pág. 3 (imagen): «Existen dos tipos de unidades de despliegue, las de online y las de batch...». online/Creación de librería.pdf (imagen) y 'APX Online - Trabajar con el componente Librería.pdf' pág. 1: «apx init lib -u=\"TEST\" -c=\"001\" -d=\"New Library\" -y».",
+    "arreglo_propuesto": "Añadir: «Ojo: el curso documenta `apx init lib` para crear una librería (Creación de librería.pdf) y AcademicosAPX.pdf, pág. 3, solo habla de unidades de despliegue online y batch.»"
+   },
+   {
+    "gravedad": "baja",
+    "que": "«su explicación da por buena» se queda corto: Java.pdf #125 sí trae la respuesta explícita («✅ Respuesta correcta: d.») y resaltada en verde. (antes_r3 decía que no traía «La respuesta correcta es…», lo cual era engañoso.)",
+    "evidencia": "Java.pdf pág. 198",
+    "arreglo_propuesto": "«Java.pdf #125 da como respuesta correcta «apx init du-lib» ...»"
+   }
+  ]
+ },
+ {
+  "grupo": "G103",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 12 (#68)",
+  "opciones_amarillas_textos": [
+   "Online y Batch"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "media",
+    "que": "La retro r3 presenta AcademicosAPX pág. 8 como respaldo y omite el aviso que tenía antes_r3: el enunciado («se pueden combinar entre sí ... o no elegir ninguno») describe las utilidades del asistente de librerías, y la documentación dice que sin añadir utilidades se genera una librería simple, lo que encaja con JDBC/Shell (utilidades), no con runtimes. Viola la regla «si la documentación dice otra cosa, se avisa». La afirmación sobre la pág. 8 en sí es cierta.",
+    "evidencia": "AcademicosAPX.pdf pág. 8 (imagen): «Librerías multiruntime ... desplegar ... de forma dual, es decir, en ambos runtimes» (cierto). 'APX Online - Librerías simples.pdf' pág. 1: «Si no se agrega ninguna de las utilidades con APX CLI, se generará una biblioteca de utilidades simple». 'APX Batch - Componentes del lote APX.pdf' pág. 1 lista Jdbc y Caparazón (Shell) como utilidades.",
+    "arreglo_propuesto": "Añadir: «Ojo: la frase «o no elegir ninguno» corresponde a las utilidades del asistente (APX Online - Librerías simples.pdf, pág. 1), y JDBC y Shell son utilidades; el examen espera a.»"
+   }
+  ]
+ },
+ {
+  "grupo": "G109",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 7 (#35)",
+  "opciones_amarillas_textos": [
+   "Una UUAA puede acceder a datos de terceros a través de librerías APX que el dueño del dato proporcione.",
+   "No se debe manejar el objeto Datasource directamente.",
+   "No se deben instanciar, ni abrir, ni cerrar explícitamente conexiones a Base de datos",
+   "Una UUAA solo puede acceder a los datos que ella misma custodia"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "baja",
+    "que": "a y f, tomadas por separado, se contradicen («solo ... la que ella misma custodia» vs «puede acceder a datos de terceros»); la diap. 21 las da en una sola frase. La clave marca ambas; la retro es fiel.",
+    "evidencia": "Curse_APX_Online.pptx diap. 21",
+    "arreglo_propuesto": "Opcional: aclarar en la retro que la diap. 21 las une en una sola regla."
+   }
+  ]
+ },
+ {
+  "grupo": "G130",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 págs. 7-8 (#40; opciones en pág. 8); #88 en pág. 15 también marca Falso",
+  "opciones_amarillas_textos": [
+   "Falso (a «La creación de hilos o su gestión por las aplicaciones está permitida»)"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "baja",
+    "que": "Deducción desde pregunta afín («Los hilos son permitidos…» vs creación/gestión de hilos por las aplicaciones). La retro lo reconoce y señala que e es defendible; con la regla del instructor es aceptable.",
+    "evidencia": "APX3 pág. 8; APX Batch - Documentación.pdf pág. 2 (multithreading) verificado",
+    "arreglo_propuesto": "Ninguno necesario."
+   }
+  ]
+ },
+ {
+  "grupo": "G141",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 9 (#52)",
+  "opciones_amarillas_textos": [
+   "Verdadero"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G142",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 págs. 8-9 (#47; opciones en pág. 9)",
+  "opciones_amarillas_textos": [
+   "DEBUG, INFO, WARNING & ERROR."
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "media",
+    "que": "En #47 la opción b «TRACE, DEBUG, INFO, WARNING & ERROR.» tiene un resaltado GRIS (no amarillo). Con la regla «amarillo = correcta» la clave es d, pero la marca gris no la registra la transcripción APX3_clave_marcada.txt ni la retro, y es justo la opción que coincide con la documentación (diap. 36 documenta LOGGER.trace). El instructor debería saberlo al decidir.",
+    "evidencia": "Imagen de APX3 pág. 9: fondo gris en la 2.ª viñeta de #47, amarillo en la 4.ª. APX3_clave_marcada.txt línea 390 sin marca.",
+    "arreglo_propuesto": "Avisar al instructor; si se mantiene d, opcional añadir a la retro que en el examen TRACE aparece marcada en gris."
+   }
+  ]
+ },
+ {
+  "grupo": "G143",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 9 (#47 y #48)",
+  "opciones_amarillas_textos": [
+   "#48: Verdadero («¿Los niveles más comunes son DEBUG, INFO, WARNING y ERROR?»)",
+   "#47: DEBUG, INFO, WARNING & ERROR."
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "baja",
+    "que": "Misma marca gris en TRACE de #47 (ver G142). Aquí no afecta: #48 da directamente «más comunes» = DEBUG, INFO, WARNING y ERROR, que es la d del banco.",
+    "evidencia": "APX3 pág. 9",
+    "arreglo_propuesto": "Ninguno."
+   }
+  ]
+ },
+ {
+  "grupo": "G172",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 4 (#22)",
+  "opciones_amarillas_textos": [
+   "Paginación en Librería"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G182",
+  "clave_confirmada": true,
+  "pagina_pdf": "Java.pdf págs. 265-266 (#168; «Falso» en verde y «Falso ✅»)",
+  "opciones_amarillas_textos": [
+   "Falso"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G187",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 10 (#57)",
+  "opciones_amarillas_textos": [
+   "Soporte Multi-BBDD, usando fuentes de datos configurables",
+   "Acceso a conectores y utilidades APX: acceso DB MongoDB, Elasticsearch, Neo4J, motor de reglas, creador de documentos, etc."
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": []
+ },
+ {
+  "grupo": "G197",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 11 (#66)",
+  "opciones_amarillas_textos": [
+   "Invocación WebServices, servicios REST",
+   "Acceso a recursos externos vía HTTP",
+   "Uso de Pre y Post Acciones"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "media",
+    "que": "No es «la misma pregunta con otra redacción»: D05-19 tiene tres distractores (b GUC, d Compresión/Descompresión, g Utilidades inherentes) que NO están en APX3 #66, así que la clave no dice nada de ellos. Que sean incorrectos se apoya en la documentación (d y g: APX Batch - Documentación.pdf pág. 1 los pone como viñeta aparte, no bajo «Invocación restringida de») y, para GUC, en APX Batch - Documentación.pdf pág. 3 (Batch usa Communication Manager). Pero la G048 (clave APX3 #6) enseña que Communication Manager/GUC es «únicamente Online», lo que haría defendible marcar GUC como restringida en Batch. Las letras a, c, h sí apuntan a los tres textos amarillos.",
+    "evidencia": "APX3 pág. 11 (#66 opciones: WebServices/REST, HTTP, Pre y Post, Registro de Operaciones, Diario Electrónico, compuestas). Imagen de APX Batch - Documentación.pdf pág. 1: «Utilidades inherentes a la Arquitectura APX» es viñeta de primer nivel, con «Compresión/Descompresión» debajo.",
+    "arreglo_propuesto": "Cambiar «la misma pregunta con otra redacción» por «pregunta afín», y añadir: «GUC, compresión y utilidades inherentes no están en esa clave; la documentación (pág. 1) no las pone como invocaciones restringidas.» Valorar quitar la opción b (GUC) por su choque con G048."
+   }
+  ]
+ },
+ {
+  "grupo": "G198",
+  "clave_confirmada": true,
+  "pagina_pdf": "APX3 pág. 11 (#66)",
+  "opciones_amarillas_textos": [
+   "Invocación WebServices, servicios REST",
+   "Acceso a recursos externos vía HTTP",
+   "Uso de Pre y Post Acciones"
+  ],
+  "letras_banco_correctas": true,
+  "retro_ok": true,
+  "hallazgos": [
+   {
+    "gravedad": "baja",
+    "que": "Quitar f, g, h es correcto: las restantes a–e son exactamente las cinco primeras de APX3 #66 y del D06-9, en el mismo orden; la compuesta «a, b y c» NO está en amarillo, las tres sueltas sí. La pregunta queda como multi 3 de 5 sin opciones que se solapen; no queda rota. La retro es fiel (pre/post acciones solo aparecen en APX Online Capabilities.pdf y el mapa mental Online).",
+    "evidencia": "APX3 pág. 11; clasif-todas D06-9",
+    "arreglo_propuesto": "Ninguno."
+   }
+  ]
+ }
+]

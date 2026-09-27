@@ -73,15 +73,12 @@
   "destino": "cuestionario",
   "fuente": "APX Online Capabilities.pdf · pág. 1 (imagen)",
   "cita": "TRANSACTIONAL PROCESSING … HOT DEPLOYMENT … BATCH PROCESSING",
-  "retro": "Hay dos respuestas correctas (b y c), aunque en el examen original figuraba como de opción única: APX ofrece procesamiento transaccional y procesamiento Batch. «Todas» (a) es falsa: el despliegue es «Hot», no «Cold», y APX sí se integra con los servicios de seguridad. Estúdialo en APX Online Capabilities.pdf, págs. 1 y 4. Ojo: en la clave (Java.pdf #165) el resaltado verde marca solo b, pero su texto dice «b y c».",
+  "retro": "Hay dos respuestas correctas (b y c), aunque en el examen original figuraba como de opción única: APX ofrece procesamiento transaccional y procesamiento Batch. «Todas» (a) es falsa: el despliegue es «Hot», no «Cold», y APX sí se integra con los servicios de seguridad. Estúdialo en APX Online Capabilities.pdf, págs. 1 y 4.",
   "nota_constructor": "tipo_origen «single», pero la clave de Java.pdf #165 marca b y c, así que es «multi». La cita sale de la imagen de la pág. 1 del PDF (8 recuadros de capacidades), que no tiene OCR en corpus/: la comprobé abriendo el PDF original. «Cold Deployment» se descarta porque la imagen dice «HOT DEPLOYMENT».",
   "cambios_r1": [],
   "cambios_r2": [
    "retro: dice que hay dos respuestas correctas (b y c; en el examen original era de opción única) y por qué «Todas» es falsa (decisión del responsable)"
-  ],
-  "cambios_r3_retro": {
-   "antes": "Hay dos respuestas correctas (b y c), aunque en el examen original figuraba como de opción única: APX ofrece procesamiento transaccional y procesamiento Batch. «Todas» (a) es falsa: el despliegue es «Hot», no «Cold», y APX sí se integra con los servicios de seguridad. Estúdialo en APX Online Capabilities.pdf, págs. 1 y 4."
-  }
+  ]
  },
  {
   "grupo": "G003",
@@ -211,14 +208,12 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "a"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #1",
-  "cita": "Extended Platform Architecture (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 1, resaltada en amarillo). La documentación solo da el nombre correcto de APX, «Extended Java Backend Architecture» (APX_Online.pptx, diap. 2): con ese criterio b y c tampoco serían nombres de APX, pero el examen espera a.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX_Online.pptx · diap. 2",
+  "cita": "The APX Architecture or Extended Java Backend Architecture was created with the aim of being an extension of the Backend Architecture",
+  "retro": "La documentación (APX_Online.pptx, diap. 2; Curse_APX_Online.pptx, diap. 2) solo da el nombre correcto: «Extended Java Backend Architecture» (opción d). Las otras tres (a, b y c) no aparecen, así que las tres serían incorrectas. La clave APX3 #1 marca solo a.",
   "nota_constructor": "correctas vacía (instructor); la clave APX3 #1, no validada, marca a. Respaldo «contradictorio» (R2 lo confirma). Se pide una sola respuesta, pero la documentación deja tres opciones incorrectas. En D07-16 las opciones están en otro orden («Extended Platform Architecture» es su d). Candidata previa (antes en correctas): a.",
   "cambios_r1": [
    "correctas vaciada por ir a instructor (candidata a pasada a la nota)"
@@ -228,19 +223,7 @@
   ],
   "cambios_ruta": [
    "«APX Qué es.pdf» no se sube (idéntico a la diap. 2 del curso): cita cambiada a Curse_APX_Online.pptx, diap. 2"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #1 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX_Online.pptx · diap. 2",
-   "cita": "The APX Architecture or Extended Java Backend Architecture was created with the aim of being an extension of the Backend Architecture",
-   "retro": "La documentación (APX_Online.pptx, diap. 2; Curse_APX_Online.pptx, diap. 2) solo da el nombre correcto: «Extended Java Backend Architecture» (opción d). Las otras tres (a, b y c) no aparecen, así que las tres serían incorrectas. La clave APX3 #1 marca solo a."
-  }
+  ]
  },
  {
   "grupo": "G006",
@@ -1155,15 +1138,12 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "d",
-   "e"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
   "fuente": "APX3 #11",
-  "cita": "Thread Affinity; Soporte Transaccional JTA/XA (resaltadas)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 11, resaltadas en amarillo): Thread Affinity y Soporte Transaccional JTA/XA. La documentación del curso no clasifica servicios «Core». Ojo: «Soporte transaccional» (a) se parece a la e, pero la clave solo marca la e.",
+  "cita": "Thread Affinity; Soporte Transaccional JTA/XA",
+  "retro": "La clave APX3 #11 marca Thread Affinity (d) y Soporte Transaccional JTA/XA (e). La documentación no clasifica servicios «Core»; la autorización se delega en librerías de seguridad lógica no acopladas a la arquitectura (APX Online Capabilities.pdf, pág. 4). No se califica porque «Soporte transaccional» (a) y «Soporte Transaccional JTA/XA» (e) son casi iguales.",
   "nota_constructor": "Respaldo «contradictorio» (R2) porque la pregunta es ambigua: «Soporte transaccional» (a) y «Soporte Transaccional JTA/XA» (e) son casi iguales y marcar a como incorrecta puede enseñar algo falso; correctas vacía (instructor). La clave APX3 #11 no contradice la documentación. Candidata previa (antes en correctas): d, e.",
   "cambios_r1": [
    "respaldo contradictorio → clave (no hay contradicción con la documentación)",
@@ -1172,19 +1152,7 @@
   ],
   "cambios_r2": [
    "respaldo clave → contradictorio (pregunta ambigua: a y e casi iguales); retro sin el aviso de clave, que afirmaba una respuesta"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #11 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "APX3 #11",
-   "cita": "Thread Affinity; Soporte Transaccional JTA/XA",
-   "retro": "La clave APX3 #11 marca Thread Affinity (d) y Soporte Transaccional JTA/XA (e). La documentación no clasifica servicios «Core»; la autorización se delega en librerías de seguridad lógica no acopladas a la arquitectura (APX Online Capabilities.pdf, pág. 4). No se califica porque «Soporte transaccional» (a) y «Soporte Transaccional JTA/XA» (e) son casi iguales."
-  }
+  ]
  },
  {
   "grupo": "G029",
@@ -1977,14 +1945,12 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "b"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
   "fuente": "APX3 #5",
-  "cita": "Compresión/Descompresión … Generador de documentos (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 5, resaltada en amarillo). La documentación no dice qué utilidades son comunes a Online y Batch: Compresión/Descompresión solo aparece en la documentación de Batch (APX Batch - Documentación.pdf, pág. 1).",
+  "cita": "Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y descomprimir archivos en zip.",
+  "retro": "La clave APX3 #5 marca b, pero la documentación no dice qué utilidades son comunes: Compresión/Descompresión solo aparece en APX Batch (APX Batch - Documentación.pdf, pág. 1) y el creador de documentos, en ambas. Se revisa junto con G048, cuya clave contradice la documentación.",
   "nota_constructor": "Candidata de la clave APX3 #5: b (correctas vacía, instructor). Va en pareja con G048, cuya clave contradice la documentación. Además, la compresión no figura entre las utilidades Online (Curse diap. 7), lo que choca con «tanto Online como Batch». R2: respaldo clave → contradictorio. Candidata previa (antes en correctas): b.",
   "cambios_r1": [
    "respaldo contradictorio → clave (la contradicción es de la pareja G048)",
@@ -1993,19 +1959,7 @@
   ],
   "cambios_r2": [
    "respaldo clave → contradictorio (la documentación sitúa Compresión/Descompresión solo en Batch, contra el «tanto Online como Batch» de la clave); retro sin el aviso de clave"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #5 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX3 #5",
-   "cita": "Compresión/Descompresión: Se crea una librería con la capacidad de comprimir y descomprimir archivos en zip.",
-   "retro": "La clave APX3 #5 marca b, pero la documentación no dice qué utilidades son comunes: Compresión/Descompresión solo aparece en APX Batch (APX Batch - Documentación.pdf, pág. 1) y el creador de documentos, en ambas. Se revisa junto con G048, cuya clave contradice la documentación."
-  }
+  ]
  },
  {
   "grupo": "G048",
@@ -2026,33 +1980,19 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "a"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #6",
-  "cita": "Communication Manager … Interbackend proxy (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 6, resaltada en amarillo). Ojo: APX Batch - Documentación.pdf, pág. 3, pone un ejemplo de Batch que usa Communication Manager, lo que no cuadra con «únicamente Online».",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX Batch - Documentación.pdf · pág. 3",
+  "cita": "Lote impulsado por eventos: activación por evento entrante, envío de comunicación al cliente mediante Communication Manager.",
+  "retro": "La clave APX3 #6 marca a (Communication Manager e Interbackend proxy solo en Online). Pero APX Batch - Documentación.pdf, pág. 3, pone un ejemplo de Batch que usa Communication Manager, lo que contradice el «únicamente Online». Interbackend solo figura en las utilidades Online.",
   "nota_constructor": "Candidata de la clave APX3 #6 (correctas vacía, instructor), contradicha en parte por la documentación. Candidata previa (antes en correctas): a.",
   "cambios_r1": [
    "correctas vaciada por ir a instructor (candidata a pasada a la nota)"
   ],
   "cambios_r2": [
    "nota: quitado «correctas = candidata de la clave» (correctas está vacía)"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #6 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX Batch - Documentación.pdf · pág. 3",
-   "cita": "Lote impulsado por eventos: activación por evento entrante, envío de comunicación al cliente mediante Communication Manager.",
-   "retro": "La clave APX3 #6 marca a (Communication Manager e Interbackend proxy solo en Online). Pero APX Batch - Documentación.pdf, pág. 3, pone un ejemplo de Batch que usa Communication Manager, lo que contradice el «únicamente Online». Interbackend solo figura en las utilidades Online."
-  }
+  ]
  },
  {
   "grupo": "G049",
@@ -2085,29 +2025,15 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "e"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #176",
-  "cita": "e. config.yaml (resaltada en verde)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #176, resaltada en verde). La documentación del curso no menciona el comando «apx config».",
+  "correctas": [],
+  "respaldo": "ninguno",
+  "destino": "instructor",
+  "fuente": null,
+  "cita": null,
+  "retro": "La documentación no menciona el comando «apx config» ni el archivo que genera, y Java.pdf #176 no trae la respuesta.",
   "nota_constructor": "Se corrigen las ligaduras «ﬁ».",
   "cambios_r1": [],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #176 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "ninguno",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": null,
-   "cita": null,
-   "retro": "La documentación no menciona el comando «apx config» ni el archivo que genera, y Java.pdf #176 no trae la respuesta."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G050",
@@ -2222,32 +2148,17 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "b",
-   "c"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #44",
-  "cita": "b y c (resaltada en verdes)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #44, resaltadas en verde): compila, empaqueta y ejecuta las pruebas del componente (b) y lo despliega en APX Online en la región de España (c). La documentación del curso no describe «apx deploy local»; solo el entorno local (la presentación del curso, Curse_APX_Online.pptx, diap. 35).",
+  "correctas": [],
+  "respaldo": "ninguno",
+  "destino": "instructor",
+  "fuente": null,
+  "cita": null,
+  "retro": "La documentación no describe el comando «apx deploy local» ni sus parámetros; solo describe el entorno local (la presentación del curso, Curse_APX_Online.pptx, diap. 35). Java.pdf #44 no trae la respuesta.",
   "nota_constructor": "",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #44 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "ninguno",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": null,
-   "cita": null,
-   "retro": "La documentación no describe el comando «apx deploy local» ni sus parámetros; solo describe el entorno local (la presentación del curso, Curse_APX_Online.pptx, diap. 35). Java.pdf #44 no trae la respuesta."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G053",
@@ -2321,16 +2232,12 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "c",
-   "d",
-   "e"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #91",
-  "cita": "Artifactory, Maven, JDK (resaltadas en verde)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #91, resaltadas en verde): Artifactory, Maven y JDK. Coincide con la presentación del curso (Curse_APX_Online.pptx), diap. 33–34. Git se usa en todo el ciclo (AcademicosAPX.pdf), pero la clave no lo cuenta como herramienta para desarrollar componentes.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "Curse_APX_Online.pptx · diap. 33",
+  "cita": "Apache Maven es una herramienta de gestión y comprensión de proyectos de software.",
+  "retro": "La presentación del curso (Curse_APX_Online.pptx), diap. 33–34, presenta Maven, JDK y Artifactory. Git no se nombra como herramienta, pero se usa en todo el ciclo (.gitignore, repositorio Bitbucket, ramas: AcademicosAPX.pdf, págs. 4, 25–36 y 48). Docker solo aparece en AcademicosAPX.pdf, pág. 95, como imágenes que revisa Chimera. No hay clave.",
   "nota_constructor": "Candidatas: c, d, e. a (Git) es discutible. Java.pdf #91 no trae clave. Candidata previa (antes en correctas): c, d, e. R2: respaldo doc → contradictorio por coherencia con destino instructor (Git y Docker discutibles; sin clave: pregunta ambigua).",
   "cambios_r1": [
    "retro: corrige «Docker no aparece» (sale en AcademicosAPX pág. 95, Chimera) y amplía el respaldo de Git",
@@ -2338,19 +2245,7 @@
   ],
   "cambios_r2": [
    "respaldo doc → contradictorio (destino instructor; Git y Docker discutibles; sin clave: pregunta ambigua)"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #91 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "Curse_APX_Online.pptx · diap. 33",
-   "cita": "Apache Maven es una herramienta de gestión y comprensión de proyectos de software.",
-   "retro": "La presentación del curso (Curse_APX_Online.pptx), diap. 33–34, presenta Maven, JDK y Artifactory. Git no se nombra como herramienta, pero se usa en todo el ciclo (.gitignore, repositorio Bitbucket, ramas: AcademicosAPX.pdf, págs. 4, 25–36 y 48). Docker solo aparece en AcademicosAPX.pdf, pág. 95, como imágenes que revisa Chimera. No hay clave."
-  }
+  ]
  },
  {
   "grupo": "G055",
@@ -2878,33 +2773,19 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "b"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #168",
-  "cita": "Falso",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #168: Falso). Ojo: en APX_Online.pptx (diap. 14–16) el botón «Show Graph» solo se ve en la vista de librerías.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX_Online.pptx · diap. 15 (imagen)",
+  "cita": "Provided Dependencies … Show Graph",
+  "retro": "Java.pdf #168 marca Falso. Las capturas de APX_Online.pptx (diap. 14–16) solo muestran «Show Graph» en la vista de librerías; la de transacciones no lo tiene y la de DTOs no aparece. El texto de la diap. 12 no habla de grafos.",
   "nota_constructor": "Candidata de la clave Java.pdf #168: Falso (correctas vacía, instructor). La evidencia visual apunta más bien a Verdadero, y ninguna fuente lo dice de forma explícita. Candidata previa (antes en correctas): b.",
   "cambios_r1": [
    "correctas vaciada por ir a instructor (candidata b pasada a la nota)"
   ],
   "cambios_r2": [
    "nota: quitado «correctas = candidata de la clave» (correctas está vacía)"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #168 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX_Online.pptx · diap. 15 (imagen)",
-   "cita": "Provided Dependencies … Show Graph",
-   "retro": "Java.pdf #168 marca Falso. Las capturas de APX_Online.pptx (diap. 14–16) solo muestran «Show Graph» en la vista de librerías; la de transacciones no lo tiene y la de DTOs no aparece. El texto de la diap. 12 no habla de grafos."
-  }
+  ]
  },
  {
   "grupo": "G183",
@@ -3056,17 +2937,19 @@
    [
     "d",
     "No se permite la invocación sincrónica"
+   ],
+   [
+    "e",
+    "No se"
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "d"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #17",
-  "cita": "La invocación síncrona no está permitida… (Verdadero, resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 17, resaltada en amarillo: «La invocación síncrona no está permitida. En caso de que una transacción deba invocar a otra, solo se puede hacer de forma asíncrona» → Verdadero). La presentación del curso (Curse_APX_Online.pptx), diap. 39–40, solo trata las invocaciones asíncronas. Se quitó la opción «No se» (equivale a «No sé»).",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX3 #18",
+  "cita": "No se permite la invocación síncrona entre transacciones.",
+  "retro": "Las claves APX3 #17 y #18, de preguntas afines, dicen que no se permite la invocación síncrona entre transacciones; este enunciado no dice «entre transacciones», así que no se califica. El curso solo trata las invocaciones asíncronas (la presentación del curso, Curse_APX_Online.pptx, diap. 39–40).",
   "nota_constructor": "Quitada a (No conozco). La clave viene de preguntas afines (APX3 #17 V/F y #18), no de esta misma. La opción e «No se» parece «No sé»; se conserva por no ser de formulario, pero conviene que el instructor la revise. El corpus no prohíbe la síncrona ni lo contradice. R1: a instructor; candidata de la clave afín: d. Valorar añadir «[entre transacciones]» al enunciado. R2: respaldo clave → contradictorio por coherencia con destino instructor (enunciado ambiguo).",
   "cambios_r1": [
    "destino cuestionario → instructor (enunciado sin «entre transacciones»; clave de preguntas afines)",
@@ -3075,20 +2958,7 @@
   ],
   "cambios_r2": [
    "respaldo clave → contradictorio (enunciado ambiguo: no dice «entre transacciones»); retro sin el aviso de clave"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #17 (decisión del instructor 27-sep: la opción marcada en color es la correcta)",
-   "quitadas las opciones e"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX3 #18",
-   "cita": "No se permite la invocación síncrona entre transacciones.",
-   "retro": "Las claves APX3 #17 y #18, de preguntas afines, dicen que no se permite la invocación síncrona entre transacciones; este enunciado no dice «entre transacciones», así que no se califica. El curso solo trata las invocaciones asíncronas (la presentación del curso, Curse_APX_Online.pptx, diap. 39–40)."
-  }
+  ]
  },
  {
   "grupo": "G069",
@@ -3290,33 +3160,17 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "b",
-   "e"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #208",
-  "cita": "a, b y e (resaltadas en verde)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #208, resaltadas en verde): recuperar la información de la solicitud, agregar los parámetros de la respuesta y separar las operaciones de entrada y salida de la lógica. La documentación solo muestra que la clase abstracta se regenera al tocar los parámetros y que la transacción hereda de ella (APX Online - Creación de Transacciones.pdf, págs. 2 y 8), y los métodos getParameter y addParameter en la presentación del curso (Curse_APX_Online.pptx), diap. 11 y 16.",
+  "correctas": [],
+  "respaldo": "ninguno",
+  "destino": "instructor",
+  "fuente": null,
+  "cita": null,
+  "retro": "La documentación del curso no enuncia el objetivo de la clase abstracta. Solo muestra que se regenera al tocar los parámetros, que contiene getParameter/addParameter y que la transacción hereda de ella (APX Online - Creación de Transacciones.pdf, págs. 2 y 8; la presentación del curso, Curse_APX_Online.pptx, diap. 11 y 16). Sin clave.",
   "nota_constructor": "CORRIGE clasif-todas: JPDF-208 daba e como respuesta «doc», pero es una inferencia sin cita que la diga. tipo multi porque V3-14 es «selección múltiple» (Java.pdf #208 no trae clave). Probable e.",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #208 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "ninguno",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": null,
-   "cita": null,
-   "retro": "La documentación del curso no enuncia el objetivo de la clase abstracta. Solo muestra que se regenera al tocar los parámetros, que contiene getParameter/addParameter y que la transacción hereda de ella (APX Online - Creación de Transacciones.pdf, págs. 2 y 8; la presentación del curso, Curse_APX_Online.pptx, diap. 11 y 16). Sin clave."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G074",
@@ -3777,15 +3631,12 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "d"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
   "fuente": "APX3 #87",
-  "cita": "Comunicación de APX a servicios NO APX; invocar a Mainframe más de dos veces (resaltadas)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 87, resaltadas en amarillo). La presentación del curso (Curse_APX_Online.pptx) pide validación del Arquitecto si se invoca Mainframe más de una vez (diap. 29) y exige el APIConnector para servicios NO APX (diap. 28). El enunciado viene cortado así en el examen («antes de.»).",
+  "cita": "Comunicación de APX a servicios NO APX",
+  "retro": "La clave APX3 #87 marca a y d. La presentación del curso (Curse_APX_Online.pptx) pide validación del Arquitecto si se invoca Mainframe más de una vez, con un máximo de dos (diap. 29), y exige el APIConnector para servicios NO APX sin hablar de validación (diap. 28). El enunciado está truncado («antes de.»).",
   "nota_constructor": "Enunciado truncado ya en el original («antes de.», igual en APX3). Para a el corpus no menciona validación. La diap. 29 es incoherente («máximo de dos» / «más de una vez»). R1: a instructor; candidata de la clave: a, d.",
   "cambios_r1": [
    "destino cuestionario → instructor (enunciado truncado; a solo por clave; d choca con diap. 29)",
@@ -3793,19 +3644,7 @@
    "respaldo clave → contradictorio",
    "retro reescrita para instructor"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #87 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "APX3 #87",
-   "cita": "Comunicación de APX a servicios NO APX",
-   "retro": "La clave APX3 #87 marca a y d. La presentación del curso (Curse_APX_Online.pptx) pide validación del Arquitecto si se invoca Mainframe más de una vez, con un máximo de dos (diap. 29), y exige el APIConnector para servicios NO APX sin hablar de validación (diap. 28). El enunciado está truncado («antes de.»)."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G086",
@@ -3934,14 +3773,12 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "c"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #125",
-  "cita": "✅ Respuesta correcta: d (apx init du-lib)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #125 marca como correcta «apx init du-lib»). Ojo: la documentación del curso no muestra ese comando: AcademicosAPX.pdf, pág. 3, dice que las unidades de despliegue son de online o de batch, y para crear una librería enseña «apx init lib» (APX Online - Trabajar con el componente Librería.pdf, pág. 1).",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "Java.pdf #125; AcademicosAPX.pdf · pág. 3",
+  "cita": "d. apx init du-lib-u=\"TEST\" → correcto",
+  "retro": "Java.pdf #125 no trae «La respuesta correcta es…»: su explicación da por buena «apx init du-lib» porque nombra du-lib. Pero AcademicosAPX.pdf, pág. 3, dice que las unidades de despliegue son de online o de batch, y ningún documento del curso muestra ese comando. Con el material del curso no se puede confirmar que ese comando exista.",
   "nota_constructor": "Quitada la opción d por ser idéntica a c en el .docx V2-31. La clave de Java.pdf es su explicación («→ correcto»). Etapas mezcladas en origen; se deja paso 6. T08-25 (otra redacción) sin clave. R2: a instructor por decisión del responsable. La «clave» de Java.pdf #125 es una explicación con marcas ❌, no una clave oficial; AcademicosAPX pág. 3: solo UD online y batch; «apx init du-lib» no aparece en el curso. En JPDF-125 (5 opciones distintas) du-lib es la d; en V2-31 la d duplicaba a c y se quitó. Candidata previa (antes en correctas): c.",
   "cambios_r1": [
    "retro: aclara librería como tipo de recurso frente a UD online/batch"
@@ -3951,19 +3788,7 @@
   ],
   "cambios_ruta": [
    "25-sep: la página pasa a «Preguntas sin respuesta confirmada» (el instructor tampoco tiene la respuesta); se quita «El instructor debe confirmar»"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #125 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "Java.pdf #125; AcademicosAPX.pdf · pág. 3",
-   "cita": "d. apx init du-lib-u=\"TEST\" → correcto",
-   "retro": "Java.pdf #125 no trae «La respuesta correcta es…»: su explicación da por buena «apx init du-lib» porque nombra du-lib. Pero AcademicosAPX.pdf, pág. 3, dice que las unidades de despliegue son de online o de batch, y ningún documento del curso muestra ese comando. Con el material del curso no se puede confirmar que ese comando exista."
-  }
+  ]
  },
  {
   "grupo": "G090",
@@ -4521,31 +4346,17 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "a"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #68",
-  "cita": "Online y Batch (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 68, resaltada en amarillo). Online y Batch son los runtimes que se combinan en las librerías multiruntime (AcademicosAPX.pdf, pág. 8). Ojo: «o no elegir ninguna» encaja más con las utilidades del asistente de librerías: sin utilidades se genera una librería simple (APX Online - Librerías simples.pdf, pág. 1), y Shell y JDBC son utilidades.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": null,
+  "cita": null,
+  "retro": "APX3 #68 marca «Online y Batch» (runtimes de las librerías multiruntime, AcademicosAPX.pdf, pág. 8). Pero la documentación del curso dice que sin añadir utilidades se genera una librería simple (APX Online - Librerías simples.pdf, pág. 1), lo que encaja mejor con utilidades como Shell y JDBC.",
   "nota_constructor": "Enunciado sin contexto («Estos tipos»). La clave dice a; el corpus apunta más bien a b (el runtime no puede dejar de elegirse). clasif-todas ya la marcaba ambigua.",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #68 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": null,
-   "cita": null,
-   "retro": "APX3 #68 marca «Online y Batch» (runtimes de las librerías multiruntime, AcademicosAPX.pdf, pág. 8). Pero la documentación del curso dice que sin añadir utilidades se genera una librería simple (APX Online - Librerías simples.pdf, pág. 1), lo que encaja mejor con utilidades como Shell y JDBC."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G104",
@@ -4792,36 +4603,19 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "d",
-   "e",
-   "f"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #35",
-  "cita": "a, d, e y f (resaltadas)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 35, resaltadas en amarillo): a, d, e y f. La presentación del curso (Curse_APX_Online.pptx), diap. 21, las recoge y dice JDBC, no JPA, para BD relacionales (c es falsa). La b (cesiones de ficheros entre UUAAs en batch) no aparece en el curso y la clave no la marca.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "Curse_APX_Online.pptx · diap. 21",
+  "cita": "una UUAA solo puede acceder a los datos que posee y a los datos de terceros a través de las bibliotecas APX",
+  "retro": "La presentación del curso (Curse_APX_Online.pptx), diap. 21, recoge a, d, e y f (datos propios y de terceros mediante librerías del dueño, Datasource, conexiones) y dice JDBC, no JPA, para BD relacionales (c). La b (cesiones de ficheros entre UUAAs en batch) no aparece en el curso: solo la clave APX3 #35 la deja sin marcar.",
   "nota_constructor": "Coincide con la clave APX3 #35. b (sin cesiones de ficheros entre UUAAs en batch) no aparece en el corpus y la clave no la marca; se trata como distractor (duda: podría ser una norma real no recogida en el curso). R1: pedir al instructor que confirme que b (sin cesiones de ficheros entre UUAAs en batch) no es una norma vigente. R2: a instructor por decisión del responsable. La exclusión de b solo la da la clave APX3 #35 (no validada); b podría ser una norma real que la diap. 21 omite. Vuelve a cuestionario solo si el instructor confirma que b no es norma. Candidata previa (antes en correctas): a, d, e, f.",
   "cambios_r1": [
    "retro: avisa de que la exclusión de b solo la respalda la clave APX3 #35"
   ],
   "cambios_r2": [
    "destino cuestionario → instructor; correctas vaciada (candidata a, d, e, f pasada a la nota); respaldo doc → contradictorio; retro reescrita sin afirmar respuesta (decisión del responsable, hallazgo R2)"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #35 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "Curse_APX_Online.pptx · diap. 21",
-   "cita": "una UUAA solo puede acceder a los datos que posee y a los datos de terceros a través de las bibliotecas APX",
-   "retro": "La presentación del curso (Curse_APX_Online.pptx), diap. 21, recoge a, d, e y f (datos propios y de terceros mediante librerías del dueño, Datasource, conexiones) y dice JDBC, no JPA, para BD relacionales (c). La b (cesiones de ficheros entre UUAAs en batch) no aparece en el curso: solo la clave APX3 #35 la deja sin marcar."
-  }
+  ]
  },
  {
   "grupo": "G110",
@@ -5715,31 +5509,17 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "c"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #40 (afín)",
-  "cita": "La creación de hilos o su gestión por las aplicaciones está permitida → Falso (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen, por una pregunta afín (Diagnóstico APX 3, pregunta 40, resaltada en amarillo: «La creación de hilos o su gestión por las aplicaciones está permitida» → Falso). Ojo: APX Batch - Documentación.pdf, pág. 2, menciona el procesamiento multithreading como estrategia de Batch, así que «Depende donde se usará» (e) también sería defendible; el examen espera c.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX3 #40; APX Batch - Documentación.pdf · pág. 2",
+  "cita": "Falso",
+  "retro": "La clave APX3 #40, de una pregunta afín, marca Falso a que las aplicaciones creen o gestionen hilos. Este enunciado es más amplio («Los hilos son permitidos…») y APX Batch - Documentación.pdf, pág. 2, lista el «Procesamiento simultáneo por lotes/en línea (multithreading)» como estrategia de procesamiento, así que «Depende donde se usará» (e) también es defendible.",
   "nota_constructor": "Quitada d (No conozco). El corpus solo menciona multithreading como estrategia batch, sin relación. R2: a instructor por decisión del responsable. Mismo caso que G068: el enunciado no dice «por las aplicaciones»; clave de pregunta afín (APX3 #40/#88). Candidata previa (antes en correctas): c.",
   "cambios_r1": [],
   "cambios_r2": [
    "destino cuestionario → instructor; correctas vaciada (candidata c pasada a la nota); respaldo clave → contradictorio; retro reescrita sin afirmar respuesta (decisión del responsable, hallazgo R2)"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #40 (afín) (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX3 #40; APX Batch - Documentación.pdf · pág. 2",
-   "cita": "Falso",
-   "retro": "La clave APX3 #40, de una pregunta afín, marca Falso a que las aplicaciones creen o gestionen hilos. Este enunciado es más amplio («Los hilos son permitidos…») y APX Batch - Documentación.pdf, pág. 2, lista el «Procesamiento simultáneo por lotes/en línea (multithreading)» como estrategia de procesamiento, así que «Depende donde se usará» (e) también es defendible."
-  }
+  ]
  },
  {
   "grupo": "G131",
@@ -6128,31 +5908,17 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "a"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #52",
-  "cita": "Verdadero (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 52, resaltada en amarillo). Ojo: la presentación del curso (Curse_APX_Online.pptx), diap. 36, define WARN como fallas no críticas que no impiden que la aplicación continúe; «impiden la ejecución correcta» se parece más a su definición de ERROR.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "Curse_APX_Online.pptx · diap. 36",
+  "cita": "LOGGER.warn (String msg, Object ... args): Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo.",
+  "retro": "La clave APX3 #52 marca Verdadero, pero el curso define WARN como fallas no críticas que no impiden que la aplicación continúe su flujo (la presentación del curso, Curse_APX_Online.pptx, diap. 36); «impiden la ejecución correcta» se parece a la definición de ERROR.",
   "nota_constructor": "Contradicción documentación/clave. El examen parece intercambiar las definiciones de WARN y ERROR (ver G137).",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #52 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "Curse_APX_Online.pptx · diap. 36",
-   "cita": "LOGGER.warn (String msg, Object ... args): Imprime advertencias o fallas no críticas de la aplicación, que no impiden que la aplicación continúe su flujo.",
-   "retro": "La clave APX3 #52 marca Verdadero, pero el curso define WARN como fallas no críticas que no impiden que la aplicación continúe su flujo (la presentación del curso, Curse_APX_Online.pptx, diap. 36); «impiden la ejecución correcta» se parece a la definición de ERROR."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G142",
@@ -6181,31 +5947,17 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "d"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #47",
-  "cita": "DEBUG, INFO, WARNING & ERROR (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 47, resaltada en amarillo): DEBUG, INFO, WARNING y ERROR. Ojo: en ese examen la opción b (con TRACE) tiene además un resaltado gris, el único de todo el examen; la presentación del curso (Curse_APX_Online.pptx), diap. 36, documenta también LOGGER.trace, y otra pregunta de la misma clave (la 48) llama a esos cuatro «los más comunes».",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "Curse_APX_Online.pptx · diap. 36",
+  "cita": "LOGGER.trace (String msg, Object ... args): Imprime información con el máximo nivel de detalle.",
+  "retro": "El curso documenta cinco métodos: LOGGER.trace, debug, info, warn y error (la presentación del curso, Curse_APX_Online.pptx, diap. 36), lo que corresponde a b. La clave APX3 #47 marca d (sin TRACE). Las fuentes se contradicen.",
   "nota_constructor": "Contradicción documentación/clave.",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #47 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "Curse_APX_Online.pptx · diap. 36",
-   "cita": "LOGGER.trace (String msg, Object ... args): Imprime información con el máximo nivel de detalle.",
-   "retro": "El curso documenta cinco métodos: LOGGER.trace, debug, info, warn y error (la presentación del curso, Curse_APX_Online.pptx, diap. 36), lo que corresponde a b. La clave APX3 #47 marca d (sin TRACE). Las fuentes se contradicen."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G143",
@@ -6235,14 +5987,12 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "d"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #47 y #48",
-  "cita": "DEBUG, INFO, WARNING & ERROR (resaltada); «los más comunes son DEBUG, INFO, WARNING y ERROR» → Verdadero",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3: la pregunta 48 marca Verdadero a «Los niveles más comunes son DEBUG, INFO, WARNING y ERROR», y la 47 marca esa misma lista). La presentación del curso (Curse_APX_Online.pptx), diap. 36, documenta además LOGGER.trace, sin decir cuáles son los más comunes.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX3 #48",
+  "cita": "Verdadero",
+  "retro": "El curso documenta cinco niveles (LOGGER.trace, debug, info, warn y error: la presentación del curso, Curse_APX_Online.pptx, diap. 36) sin decir cuáles son los más comunes. La clave APX3 #48 dice que los más comunes son DEBUG, INFO, WARNING y ERROR, y APX3 #47 da esa misma lista, sin TRACE, como los niveles que existen.",
   "nota_constructor": "CORRIGE clasif-todas: D07-35 daba b como respuesta «doc», pero el corpus no habla de niveles «más comunes» (lista cinco sin jerarquía), así que no lo contradice: se usa APX3 #48 (V/F afín). D05-40 con otras opciones. R1: a instructor junto con G142; candidata de la clave: d.",
   "cambios_r1": [
    "destino cuestionario → instructor (gemela de G142; b defendible con diap. 36)",
@@ -6250,19 +6000,7 @@
    "respaldo clave → contradictorio",
    "retro reescrita para instructor"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #47 y #48 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX3 #48",
-   "cita": "Verdadero",
-   "retro": "El curso documenta cinco niveles (LOGGER.trace, debug, info, warn y error: la presentación del curso, Curse_APX_Online.pptx, diap. 36) sin decir cuáles son los más comunes. La clave APX3 #48 dice que los más comunes son DEBUG, INFO, WARNING y ERROR, y APX3 #47 da esa misma lista, sin TRACE, como los niveles que existen."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G144",
@@ -7434,31 +7172,17 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "a"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #22",
-  "cita": "Paginación en Librería (resaltada)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 22, resaltada en amarillo). Ojo: la presentación del curso (Curse_APX_Online.pptx) usa esta misma frase para la paginación en transacciones (diap. 50) y en librerías (diap. 51).",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "Curse_APX_Online.pptx · diap. 50–51; APX3 #22",
+  "cita": "Este tipo de paginación es el que establece Arquitectura y Calidad como el más eficiente",
+  "retro": "La documentación usa exactamente esta frase tanto para la paginación en transacciones (diap. 50) como para la paginación en librerías (diap. 51) de la presentación del curso (Curse_APX_Online.pptx), así que no permite elegir entre a y b. La clave APX3 #22 marca «Paginación en Librería».",
   "nota_constructor": "Doc ambigua entre a y b; la clave elige a. Propuesta: aceptar a y b, o reformular la pregunta.",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #22 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "Curse_APX_Online.pptx · diap. 50–51; APX3 #22",
-   "cita": "Este tipo de paginación es el que establece Arquitectura y Calidad como el más eficiente",
-   "retro": "La documentación usa exactamente esta frase tanto para la paginación en transacciones (diap. 50) como para la paginación en librerías (diap. 51) de la presentación del curso (Curse_APX_Online.pptx), así que no permite elegir entre a y b. La clave APX3 #22 marca «Paginación en Librería»."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G173",
@@ -7697,15 +7421,12 @@
   "destino": "cuestionario",
   "fuente": "Curse_APX_Online.pptx · diap. 50",
   "cita": "Se utilizará este patrón siempre que se requiera dividir un conjunto de datos en varios subconjuntos o páginas",
-  "retro": "Dividir un conjunto de datos en subconjuntos o páginas accesibles de forma aislada es el patrón de paginación; entre las opciones figura la paginación de transacciones. Builder y Strategy no son patrones del curso. Ver la presentación del curso (Curse_APX_Online.pptx), diap. 50. Ojo: en la clave de otro examen (Diagnóstico APX 3, pregunta 21) esta misma definición está marcada como «Paginación de librerías»; la presentación usa la misma definición para las dos (diap. 50–51).",
+  "retro": "Dividir un conjunto de datos en subconjuntos o páginas accesibles de forma aislada es el patrón de paginación; entre las opciones figura la paginación de transacciones. Builder y Strategy no son patrones del curso. Ver la presentación del curso (Curse_APX_Online.pptx), diap. 50.",
   "nota_constructor": "La misma definición vale para librerías (diap. 51), que aquí no es opción. APX3 #21 (otras opciones) marca librerías; no contradice.",
   "cambios_r1": [
    "retro: nombres de documento normalizados (presentación del curso / nombre completo del PDF)"
   ],
-  "cambios_r2": [],
-  "cambios_r3_retro": {
-   "antes": "Dividir un conjunto de datos en subconjuntos o páginas accesibles de forma aislada es el patrón de paginación; entre las opciones figura la paginación de transacciones. Builder y Strategy no son patrones del curso. Ver la presentación del curso (Curse_APX_Online.pptx), diap. 50."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G179",
@@ -7930,34 +7651,19 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "b"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #57",
-  "cita": "a y b (resaltadas)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 57, resaltadas en amarillo): a y b. APX Batch - Documentación.pdf, pág. 1, confirma el soporte multi-BD y el acceso a utilidades; la lista de utilidades de APX Batch - Componentes del lote APX.pdf, pág. 1, no incluye Neo4J. Ojo: la clave de otro examen (Java.pdf #66) no marca Neo4J entre las utilidades de Batch; las dos claves se contradicen en ese punto.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX Batch - Documentación.pdf · pág. 1; APX3 #57",
+  "cita": "Soporte para múltiples bases de datos mediante fuentes de datos configurables.",
+  "retro": "APX Batch - Documentación.pdf (pág. 1) confirma a (soporte multi-BD) y el acceso a utilidades y recursos del sistema, pero la lista de utilidades de APX Batch - Componentes del lote APX.pdf (pág. 1) no incluye Neo4J ni Elasticsearch (este solo sale en el Shell Script Launcher, APX_BATCH.pptx.pdf, pág. 15). La clave APX3 #57 marca a y b.",
   "nota_constructor": "Corrige clasif (a, b «coinciden»): b incluye Neo4J, ausente de la lista de utilidades de APX Batch (APX Batch - Componentes del lote APX pág. 1) y marcado como no utilidad en G212. Propuesta: a y b si el instructor acepta Neo4J; si no, reformular b. R2: Elasticsearch tampoco está en la lista de utilidades Batch (solo en el Shell Script Launcher, APX_BATCH.pptx.pdf pág. 15); c no figura y d es invocación restringida.",
   "cambios_r1": [
    "nota: remitida a APX Batch - Componentes del lote APX"
   ],
   "cambios_r2": [
    "retro: nombra documentos y páginas; añade que Elasticsearch tampoco está en la lista de utilidades Batch"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #57 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "APX Batch - Documentación.pdf · pág. 1; APX3 #57",
-   "cita": "Soporte para múltiples bases de datos mediante fuentes de datos configurables.",
-   "retro": "APX Batch - Documentación.pdf (pág. 1) confirma a (soporte multi-BD) y el acceso a utilidades y recursos del sistema, pero la lista de utilidades de APX Batch - Componentes del lote APX.pdf (pág. 1) no incluye Neo4J ni Elasticsearch (este solo sale en el Shell Script Launcher, APX_BATCH.pptx.pdf, pág. 15). La clave APX3 #57 marca a y b."
-  }
+  ]
  },
  {
   "grupo": "G188",
@@ -8360,6 +8066,10 @@
     "Acceso a recursos externos a través de HTTP."
    ],
    [
+    "b",
+    "GUC"
+   ],
+   [
     "c",
     "Servicios web de invocación, servicios de descanso."
    ],
@@ -8377,34 +8087,17 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "c",
-   "h"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #66 (afín)",
-  "cita": "WebServices/REST; recursos externos vía HTTP; Pre y Post Acciones (resaltadas)",
-  "retro": "Respuesta tomada de la clave del examen, por una pregunta afín (Diagnóstico APX 3, pregunta 66, marca en amarillo WebServices/REST, acceso HTTP a recursos externos y uso de pre y post acciones). APX Batch - Documentación.pdf, pág. 1, solo lista los dos primeros; «servicios de descanso» es la traducción automática de servicios REST. Compresión/Descompresión y las utilidades inherentes a la arquitectura son otro apartado de esa página, no invocaciones restringidas. Se quitó la opción «GUC», que la clave no contempla.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX Batch - Documentación.pdf · pág. 1; APX3 #66",
+  "cita": "Invocación restringida de: Invocación WebServices, Servicios de descanso. Acceso a recursos externos vía HTTP.",
+  "retro": "Según APX Batch - Documentación.pdf, pág. 1, las invocaciones restringidas son solo WebServices/REST («servicios de descanso») y el acceso HTTP a recursos externos (a y c); compresión y utilidades inherentes son otro apartado. La clave APX3 #66 (misma idea) añade el uso de pre y post acciones (h).",
   "nota_constructor": "Corrige clasif (daba a, c, d, g): en la imagen del PDF «Utilidades inherentes a la Arquitectura APX / Compresión» es un punto aparte, no parte de «Invocación restringida». Quitadas e y f (formulario). Doc: a, c; clave análoga: a, c, h.",
   "cambios_r1": [],
   "cambios_r2": [
    "retro: nombra el documento y la página"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #66 (afín) (decisión del instructor 27-sep: la opción marcada en color es la correcta)",
-   "quitadas las opciones b"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "APX Batch - Documentación.pdf · pág. 1; APX3 #66",
-   "cita": "Invocación restringida de: Invocación WebServices, Servicios de descanso. Acceso a recursos externos vía HTTP.",
-   "retro": "Según APX Batch - Documentación.pdf, pág. 1, las invocaciones restringidas son solo WebServices/REST («servicios de descanso») y el acceso HTTP a recursos externos (a y c); compresión y utilidades inherentes son otro apartado. La clave APX3 #66 (misma idea) añade el uso de pre y post acciones (h)."
-  }
+  ]
  },
  {
   "grupo": "G198",
@@ -8434,37 +8127,32 @@
    [
     "e",
     "Escritura en el Diario Electrónico."
+   ],
+   [
+    "f",
+    "a, b y c"
+   ],
+   [
+    "g",
+    "a, c y d"
+   ],
+   [
+    "h",
+    "Todas las anteriores"
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "b",
-   "c"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "APX3 #66",
-  "cita": "a, b y c (resaltadas por separado)",
-  "retro": "Respuesta tomada de la clave del examen (Diagnóstico APX 3, pregunta 66, resaltadas en amarillo): a, b y c. En el examen había además las opciones «a, b y c», «a, c y d» y «Todas las anteriores»; se quitaron porque la clave marca las tres por separado. APX Batch - Documentación.pdf, pág. 1, solo lista a y b; el uso de pre y post acciones (c) no aparece para Batch en el curso.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX Batch - Documentación.pdf · pág. 1; APX3 #66",
+  "cita": "Invocación restringida de: Invocación WebServices, Servicios de descanso. Acceso a recursos externos vía HTTP.",
+  "retro": "APX Batch - Documentación.pdf, pág. 1, solo lista como invocaciones restringidas los WebServices/REST y el acceso HTTP a recursos externos (a y b). La clave APX3 #66 marca a, b y c por separado (no la compuesta f); el uso de pre y post acciones (c) el curso no lo menciona para Batch.",
   "nota_constructor": "Doc: a, b; clave: a, b, c (= f). Con las compuestas f/g/h la pregunta es confusa como multirrespuesta.",
   "cambios_r1": [],
   "cambios_r2": [
    "retro: nombra el documento y la página; precisa que la clave marca a, b y c por separado"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave APX3 #66 (decisión del instructor 27-sep: la opción marcada en color es la correcta)",
-   "quitadas las opciones f, g, h"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "APX Batch - Documentación.pdf · pág. 1; APX3 #66",
-   "cita": "Invocación restringida de: Invocación WebServices, Servicios de descanso. Acceso a recursos externos vía HTTP.",
-   "retro": "APX Batch - Documentación.pdf, pág. 1, solo lista como invocaciones restringidas los WebServices/REST y el acceso HTTP a recursos externos (a y b). La clave APX3 #66 marca a, b y c por separado (no la compuesta f); el uso de pre y post acciones (c) el curso no lo menciona para Batch."
-  }
+  ]
  },
  {
   "grupo": "G199",
@@ -9019,16 +8707,12 @@
    ]
   ],
   "tipo": "multi",
-  "correctas": [
-   "a",
-   "c",
-   "e"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #66",
-  "cita": "JDBC Utility, Merge/Sort, Document Manager (resaltadas en verde)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #66, resaltadas en verde): JDBC Utility, Merge/Sort y Document Manager. Ojo, dos avisos: la lista de utilidades de Batch (APX Batch - Componentes del lote APX.pdf, pág. 1) incluye también el Conector API («AP Connector», b), y la clave de otro examen (Diagnóstico APX 3, pregunta 57) sí incluye Neo4J entre lo que ofrece Batch. Las dos claves se contradicen en Neo4J.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX Batch - Componentes del lote APX.pdf · pág. 1",
+  "cita": "Lista de utilidades que se pueden utilizar en APX Batch: Jdbc Creador de documentos Normas Caparazón Conector API Fusionar/ordenar MongoDB",
+  "retro": "La lista de utilidades de APX Batch (APX Batch - Componentes del lote APX.pdf, pág. 1) incluye Jdbc, Creador de documentos, Conector API y Fusionar/ordenar (Merge/Sort), pero no Neo4J ni Document Manager. La opción b dice «AP Connector» en el original, y la clave APX3 #57 (otra pregunta) incluye Neo4J en Batch.",
   "nota_constructor": "Quitado el prefijo de letra duplicado («a. », «b. »…). R1: se restaura «AP Connector» (original de V2-2 y JPDF-66); probable errata de «API Connector». Candidata según la documentación: a, b, c si el instructor confirma la errata. Java.pdf #66 sin clave. APX3 #57 menciona Neo4J en Batch (ver G187). El equivalente es traducción automática: Normas = Rules, Caparazón = Shell, Fusionar/ordenar = Merge/sort.",
   "cambios_r1": [
    "opción b restaurada al original «AP Connector» (la corrección cambiaba qué opción es correcta)",
@@ -9039,19 +8723,7 @@
    "cita nueva, literal del equivalente en español",
    "retro reescrita para instructor y remitida al equivalente disponible"
   ],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #66 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "multi",
-   "correctas": [],
-   "fuente": "APX Batch - Componentes del lote APX.pdf · pág. 1",
-   "cita": "Lista de utilidades que se pueden utilizar en APX Batch: Jdbc Creador de documentos Normas Caparazón Conector API Fusionar/ordenar MongoDB",
-   "retro": "La lista de utilidades de APX Batch (APX Batch - Componentes del lote APX.pdf, pág. 1) incluye Jdbc, Creador de documentos, Conector API y Fusionar/ordenar (Merge/Sort), pero no Neo4J ni Document Manager. La opción b dice «AP Connector» en el original, y la clave APX3 #57 (otra pregunta) incluye Neo4J en Batch."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G213",
@@ -9182,14 +8854,12 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "e"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #137",
-  "cita": "e (resaltada en verde)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #137, resaltada en verde): es la definición de Spring Batch (APX Batch - Documentación.pdf, pág. 2). Ojo: a también es cierta en sí misma (un Job contiene steps: APX Batch - Conceptos por Lotes.pdf, pág. 1), pero el examen espera e.",
+  "correctas": [],
+  "respaldo": "contradictorio",
+  "destino": "instructor",
+  "fuente": "APX Batch - Documentación.pdf · pág. 2; APX Batch - Conceptos por Lotes.pdf · pág. 1",
+  "cita": "Spring Batch es un marco de trabajo por lotes completo y liviano diseñado para permitir el desarrollo de aplicaciones por lotes sólidos",
+  "retro": "Dos opciones son defendibles: e reproduce la definición de Spring Batch (APX Batch - Documentación.pdf, pág. 2) y a también es cierta, pues en Spring Batch un Job es un contenedor de steps (APX Batch - Conceptos por Lotes.pdf, pág. 1). b, c y d parecen describir ItemWriter, ItemReader e ItemProcessor, no Spring Batch.",
   "nota_constructor": "Corrige clasif (daba e sin reservas). Propuesta: aceptar a y e, o quitar a. Sin clave (Java.pdf #137 sin respuesta). QZ1-14 (miembro) sí tiene respuesta única con sus propias opciones. R1: QZ1-14 pasa a G215b.",
   "cambios_r1": [
    "QZ1-14 sacado a G215b (tiene opciones propias y respuesta única)",
@@ -9197,19 +8867,7 @@
   ],
   "cambios_r2": [
    "retro: «describen» → «parecen describir» (la documentación del curso no define así esas interfaces)"
-  ],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #137 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "contradictorio",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": "APX Batch - Documentación.pdf · pág. 2; APX Batch - Conceptos por Lotes.pdf · pág. 1",
-   "cita": "Spring Batch es un marco de trabajo por lotes completo y liviano diseñado para permitir el desarrollo de aplicaciones por lotes sólidos",
-   "retro": "Dos opciones son defendibles: e reproduce la definición de Spring Batch (APX Batch - Documentación.pdf, pág. 2) y a también es cierta, pues en Spring Batch un Job es un contenedor de steps (APX Batch - Conceptos por Lotes.pdf, pág. 1). b, c y d parecen describir ItemWriter, ItemReader e ItemProcessor, no Spring Batch."
-  }
+  ]
  },
  {
   "grupo": "G215b",
@@ -9402,29 +9060,15 @@
    ]
   ],
   "tipo": "single",
-  "correctas": [
-   "c"
-  ],
-  "respaldo": "clave",
-  "destino": "cuestionario",
-  "fuente": "Java.pdf #31",
-  "cita": "5000 (resaltada en verde)",
-  "retro": "Respuesta tomada de la clave del examen (Java.pdf #31, resaltada en verde: 5000). La documentación del curso no da ningún límite de resultados para JDBC.",
+  "correctas": [],
+  "respaldo": "ninguno",
+  "destino": "instructor",
+  "fuente": null,
+  "cita": null,
+  "retro": "La documentación no da ningún límite de resultados para JDBC: solo menciona métodos de jdbcUtils que reciben argumentos «y paginate» (APX_BATCH.pptx.pdf, pág. 10). Java.pdf #31 recoge la pregunta sin respuesta.",
   "nota_constructor": "Quitada f «Opción 2» (residuo de Microsoft Forms). Sin respaldo en ningún archivo.",
   "cambios_r1": [],
-  "cambios_r2": [],
-  "cambios_r3": [
-   "instructor → cuestionario con la clave Java.pdf #31 (decisión del instructor 27-sep: la opción marcada en color es la correcta)"
-  ],
-  "antes_r3": {
-   "destino": "instructor",
-   "respaldo": "ninguno",
-   "tipo": "single",
-   "correctas": [],
-   "fuente": null,
-   "cita": null,
-   "retro": "La documentación no da ningún límite de resultados para JDBC: solo menciona métodos de jdbcUtils que reciben argumentos «y paginate» (APX_BATCH.pptx.pdf, pág. 10). Java.pdf #31 recoge la pregunta sin respuesta."
-  }
+  "cambios_r2": []
  },
  {
   "grupo": "G220",

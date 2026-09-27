@@ -1,0 +1,468 @@
+{
+ "tarea1": [
+  {
+   "grupo": "G049",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #176",
+   "pagina": 272,
+   "evidencia": "Pregunta idéntica (JPDF-176 es su único miembro). Resaltada en verde solo «e. config.yaml». Verificado en imagen de la pág. 272.",
+   "letras_banco": [
+    "e"
+   ]
+  },
+  {
+   "grupo": "G052",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #44",
+   "pagina": 66,
+   "evidencia": "Mismas opciones que JPDF-44. Verde: «b. Compila, empaqueta y ejecuta pruebas…» y «c. Despliega… en la región de España». a y d sin marca. Verificado en imagen pág. 66.",
+   "letras_banco": [
+    "b",
+    "c"
+   ]
+  },
+  {
+   "grupo": "G054",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #91",
+   "pagina": 143,
+   "evidencia": "Mismas opciones que JPDF-91. Verde: c Artifactory, d Maven, e JDK; Git y Docker sin marca. Verificado en imagen pág. 143. Coincide con la candidata del constructor.",
+   "letras_banco": [
+    "c",
+    "d",
+    "e"
+   ]
+  },
+  {
+   "grupo": "G073",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #208",
+   "pagina": 299,
+   "evidencia": "Mismas opciones. Verde: a «Recuperar información de solicitud HTTP», b «Agregar parámetros del cuerpo de la respuesta», e «Separar las operaciones…». c «Todas» y d «Unir…» sin marca. Verificado en imagen pág. 299. OJO: la candidata del constructor era solo e; la clave dice a+b+e.",
+   "letras_banco": [
+    "a",
+    "b",
+    "e"
+   ]
+  },
+  {
+   "grupo": "G212",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #66",
+   "pagina": 99,
+   "evidencia": "Mismas opciones que JPDF-66. Verde: a JDBC Utility, c Merge/Sort, e Document Manager. b AP Connector y d Neo4J sin marca. Verificado en imagen pág. 99. OJO: la candidata del constructor era a,b,c; la clave excluye AP Connector e incluye Document Manager. Choca con APX3 #57 (ver tarea2).",
+   "letras_banco": [
+    "a",
+    "c",
+    "e"
+   ]
+  },
+  {
+   "grupo": "G215",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #137",
+   "pagina": 212,
+   "evidencia": "Mismas opciones que JPDF-137. Verde solo «e. Marco de trabajo para lotes diseñado para permitir el desarrollo de aplicaciones por lotes» (línea continúa en pág. 213). a sin marca. Verificado en imágenes págs. 212-213.",
+   "letras_banco": [
+    "e"
+   ]
+  },
+  {
+   "grupo": "G219",
+   "veredicto": "clave_misma_pregunta",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #31",
+   "pagina": 46,
+   "evidencia": "Mismas opciones que JPDF-31 (1000/2000/5000/4000/3000). Verde: «5000». Verificado en imagen pág. 46.",
+   "letras_banco": [
+    "c"
+   ]
+  },
+  {
+   "grupo": "G173",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #31",
+   "pagina": 46,
+   "evidencia": "«Máximo de resultados por paginación» (D05-3: 1/2000/5000/10000/1000) es muy probablemente la misma pregunta que G219 recortada; Java.pdf #31 marca 5000. Se deduce c si se acepta que es la misma cifra (máximo antes de paginar en JDBC APX). Candidata a fusionarse con G219.",
+   "letras_banco": [
+    "c"
+   ]
+  },
+  {
+   "grupo": "G015",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #12 (amarillo) + Curse_APX_Online.pptx",
+   "pagina": 3,
+   "evidencia": "APX3 #12 (pág. 3): «crea un identificador único para la ____» → marcada «Transacción»; «Ejecución» y «Solicitud» NO marcadas. Curse_APX_Online.pptx: «Es un identificador único para la transacción». La clave discrimina justo entre a (ejecución) y c (transacción) de G015 → c. Es el mismo hecho con otra redacción (definición vs. completar); en el banco G016 (APX3 #12) ya se califica c.",
+   "letras_banco": [
+    "c"
+   ]
+  },
+  {
+   "grupo": "G011",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #165",
+   "pagina": 263,
+   "evidencia": "«¿Cuál… son capacidades ofrecidas en APX?»: verde solo «b. Procesamiento transaccional»; el texto escrito dice «b y c (Procesamiento Batch)» y la justificación afirma que APX sí se integra con servicios de seguridad. Apoya b (Procesamiento transaccional) y, por la justificación, c (Integración con servicios de seguridad) de G011; no decide a, d, e.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G163",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #24 (amarillo) + Java.pdf #46 y #142",
+   "pagina": 5,
+   "evidencia": "APX3 #24 marca «Mover el comportamiento a sus librerías relacionadas…» y deja SIN marca «Moviendo la lógica a diferentes métodos y clases dentro de la misma librería». La justificación de Java.pdf #142 (pág. 223) dice «refactorizar la clase, distribuyendo la funcionalidad en varias clases más cohesivas» (apoya a). No decide: la opción a de G163 está entre ambas redacciones.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G164",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #32 (amarillo)",
+   "pagina": 6,
+   "evidencia": "APX3 #32 define Contenedor Mágico: librería con un solo método «execute» cuyos parámetros actúan como filtros y engloba funcionalidades dispares según los parámetros de entrada. Apoya a («Un campo de entrada no debe usarse para que la transacción haga cosas funcionalmente diferentes»). Deducción razonable, no literal.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G034",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #6 (amarillo)",
+   "pagina": 2,
+   "evidencia": "APX3 #6 marca «Interbackend proxy: … invocar a los conectores IMS (para acceso a Host)». Apoya e («invocar una transacción de mainframe») de IMSConnect. Indirecto.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G033",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #6 (amarillo), por analogía",
+   "pagina": 2,
+   "evidencia": "Solo por analogía con el conector IMS (acceso a Host): apoyaría e. Débil.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G189",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #57 (amarillo)",
+   "pagina": 10,
+   "evidencia": "APX3 #57 (Arquitectura Batch) marca «Soporte Multi-BBDD, usando fuentes de datos configurables» (= j literal) y «Acceso a conectores y utilidades APX» (≈ d). No cubre el resto de opciones de G189.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G092",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #42 (amarillo)",
+   "pagina": 8,
+   "evidencia": "APX3 #42: prohibido «resolution:=optional» en import-package. Si (G091 b) declarar la dependencia opcional hace opcionales los paquetes de import-package, entonces G092 = No (c). Cadena de dos pasos con un eslabón sin clave.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G091",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #42 (amarillo)",
+   "pagina": 8,
+   "evidencia": "Mismo hecho de APX3 #42 (optional en import-package); apoya b solo indirectamente.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G107",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #42 (amarillo)",
+   "pagina": 8,
+   "evidencia": "APX3 #42 habla de «la definición de los paquetes en el paquete de importación» (import-package) como lo que resuelve dependencias; apoya e débilmente.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G082",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #122 y #171",
+   "pagina": 195,
+   "evidencia": "Definición marcada (verde y texto): retrocompatible = el software dependiente sigue funcionando sin modificaciones. Cambiar el tipo de un parámetro rompe a quien lo consume → c. Deducción directa desde la definición, no clave literal.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G071",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #122 y #171",
+   "pagina": 195,
+   "evidencia": "Misma definición: agregar campo de entrada obligatorio / modificar tipo rompen a los consumidores → b (No retrocompatibles). Deducción, no clave.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G222",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #122 y #171",
+   "pagina": 195,
+   "evidencia": "Misma definición: agregar campo opcional, volver opcional un obligatorio, lógica interna no rompen consumidores → c. (El punto «salida opcional → obligatoria» es discutible.) Deducción.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G221",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #122 y #171",
+   "pagina": 195,
+   "evidencia": "Solo la definición general; las opciones de G221 están mal formadas. No decide.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G058",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #125 (justificación, no clave)",
+   "pagina": 198,
+   "evidencia": "La justificación de #125 describe «apx add dto …» como «Añadir DTO». Ya estaba en la nota del constructor. No es clave de esta pregunta.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G087",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #125",
+   "pagina": 197,
+   "evidencia": "#125 marca «apx init du-lib…» para CREAR una unidad de despliegue librería; G087 pregunta por AGREGAR una librería a una DU. Apoya b solo por contraste. No decide.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G088",
+   "veredicto": "clave_afin",
+   "fuente": "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) #167 y #8",
+   "pagina": 265,
+   "evidencia": "#167 (archivos que configura APX CLI al agregar JDBC Utility: library-arc-osgi.xml, library-arc.xml, pom.xml) y #8 (pom.xml). No resuelven -y ni mayúsculas del nombre.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G043",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #57 + APX_Online.pptx",
+   "pagina": 10,
+   "evidencia": "APX3 #57 menciona «motor de reglas» como utilidad; APX_Online.pptx lista «Rules Engine Libraries». Apoya a por eliminación; Drools no aparece en ninguna fuente.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G132",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #35 (amarillo)",
+   "pagina": 7,
+   "evidencia": "APX3 #35 deja SIN marca «En el caso de bases de datos relacionales, deberá utilizarse JPA». No decide entre a y d.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G195",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #40 y #88 (amarillo)",
+   "pagina": 8,
+   "evidencia": "Solo establecen que crear/gestionar hilos no está permitido. No deciden la alternativa.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G203",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #40 y #88 (amarillo)",
+   "pagina": 8,
+   "evidencia": "Ídem: prohíben hilos pero no dan el porqué. No decide.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G104",
+   "veredicto": "clave_afin",
+   "fuente": "APX3 #86 (amarillo)",
+   "pagina": 14,
+   "evidencia": "APX3 #86: una librería mal desplegada impide instalar a sus dependientes. No decide entre c y e.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G035",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "APX3 #5 habla de «Generador de documentos», pero APX_Online.pptx separa «Document Manager» y «Document Creator»: no es el mismo componente. Sin clave.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G039",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "getRequestHeader no aparece en APX3 ni en Java.pdf.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G040",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "Sin equivalente en APX3/Java.pdf.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G046",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "«API de código de barras» no aparece en APX3 ni Java.pdf.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G064",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "serialVersion no aparece en APX3 ni Java.pdf.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G080",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "Sin equivalente con clave.",
+   "letras_banco": null
+  },
+  {
+   "grupo": "G217",
+   "veredicto": "sin_clave",
+   "fuente": null,
+   "pagina": null,
+   "evidencia": "Monostep no aparece en ninguna fuente con clave.",
+   "letras_banco": null
+  }
+ ],
+ "tarea2": [
+  {
+   "preguntas": [
+    "Java.pdf #165 (resaltado verde)",
+    "Java.pdf #165 (texto «La respuesta correcta es»)",
+    "banco G002"
+   ],
+   "fuentes": [
+    "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…)"
+   ],
+   "contradiccion_real": true,
+   "explicacion": "Misma pregunta, misma fuente, dos claves distintas: el verde marca SOLO «b. Procesamiento transaccional» (pág. 263, verificado en imagen); el texto debajo dice «b. Procesamiento transaccional y c. Procesamiento Batch». Es la única discrepancia verde/texto en las 38+ preguntas APX de Java.pdf. El banco G002 (cuestionario) califica b+c siguiendo el texto; con la regla «lo resaltado es la respuesta» sería solo b, lo que a su vez chocaría con todas las claves que tratan APX Batch como parte de APX (APX3 #57/#60, Java.pdf #66/#160). Lo más probable: resaltado incompleto. Decide el instructor."
+  },
+  {
+   "preguntas": [
+    "APX3 #57 (banco G187, califica a+b)",
+    "Java.pdf #66 (banco G212, verde a,c,e)"
+   ],
+   "fuentes": [
+    "APX3 (amarillo) pág. 10",
+    "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) pág. 99"
+   ],
+   "contradiccion_real": true,
+   "explicacion": "APX3 #57 marca como característica de la Arquitectura Batch «Acceso a conectores y utilidades APX: acceso DB MongoDB, Elasticsearch, Neo4J, motor de reglas…». Java.pdf #66 («¿utilerías que pueden ser usadas en APX Batch?», multi) marca JDBC, Merge/Sort y Document Manager y deja SIN marca «d. Neo4J». Una clave dice que Batch da acceso a la utilidad Neo4J; la otra, que Neo4J no es utilería usable en Batch. Si G212 pasa a cuestionario con a,c,e, el banco calificaría ambas cosas a la vez. (AP Connector sin marca en #66 SÍ es coherente con APX3 #66 y #82.)"
+  },
+  {
+   "preguntas": [
+    "APX3 #47 (banco G142: existen DEBUG, INFO, WARNING, ERROR)",
+    "APX3 #48 (banco G144: los MÁS COMUNES son esos cuatro = V)",
+    "banco G143 (D07-35 «más comunes», mismas opciones que #47)"
+   ],
+   "fuentes": [
+    "APX3 pág. 9"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "No es contradicción lógica estricta («los más comunes son X» es trivialmente cierto si X son todos), pero la tensión es real y hay evidencia nueva: en la imagen de la pág. 9 la opción «TRACE, DEBUG, INFO, WARNING & ERROR» de #47 está resaltada en GRIS (no amarillo), es decir, el autor del examen dejó una segunda marca justo en la opción con TRACE. Además, D07-35 (Diagnóstico APX 5) hace la MISMA pregunta con las mismas opciones pero como «más comunes», lo que sugiere que #47 es una re-redacción. Por la regla del amarillo, #47 = d; recomiendo no calificar G142 o redactarlo como «más comunes» (G143)."
+  },
+  {
+   "preguntas": [
+    "APX3 #52 (banco G141: WARN = «impiden la ejecución correcta… (error aislado o contenido)» = V)",
+    "APX3 #53 (banco G137: ERROR = «aún sin ser de error, sí son anómalas…» = F)",
+    "APX3 #47 (solo 4 niveles)"
+   ],
+   "fuentes": [
+    "APX3 pág. 9"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "No se contradicen literalmente, pero forman un conjunto incoherente: con solo 4 niveles (#47), DEBUG = bajo nivel (#49) e INFO = nivel superior (#50/#54/#85), la descripción «anómalas pero no error» no puede ser de ERROR (#53) y WARN ya recibió la de «error aislado» (#52), así que esa descripción queda sin nivel y ERROR sin definición. La propia redacción de #52 dice «error aislado» y se la asigna a WARN; en la convención habitual esa es la definición de ERROR y la de #53 la de WARN (las dos están cruzadas). G141 se califica con respaldo «clave» solamente: riesgo alto de enseñar algo falso."
+  },
+  {
+   "preguntas": [
+    "Java.pdf #137 (banco G215: verde solo e)",
+    "Java.pdf #80 (Job encapsula todo el proceso por lotes)",
+    "Java.pdf #126b (Step = fase independiente de un trabajo)"
+   ],
+   "fuentes": [
+    "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) págs. 121, 199, 212-213"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "#137 no marca «a. Marco de trabajo basado en jobs y steps», aunque #80 y #126b dan por hecho que Spring Batch se estructura en Jobs y Steps. Es pregunta de respuesta única («la mejor»), así que no es contradicción, pero si G215 se califica como single=e, quien elija a queda penalizado con algo que otras claves afirman."
+  },
+  {
+   "preguntas": [
+    "APX3 #43 (únicas capturables: BusinessException, io.network.TimeoutException)",
+    "APX3 #44 (no permitida: db.NullPointerException; implica db.IncorrectResultSize/NoResult/Timeout permitidas)",
+    "banco G125 (7 capturables)"
+   ],
+   "fuentes": [
+    "APX3 pág. 8"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "Aparente: «las únicas… son las siguientes» se refiere a la lista completa de la documentación; #43 solo ofrece 4 opciones y 2 son inventadas. Leída en su contexto no excluye las db.*. Redacción."
+  },
+  {
+   "preguntas": [
+    "APX3 #35 opción «Una UUAA puede acceder a datos de terceros a través de librerías…» (marcada)",
+    "APX3 #35 opción «Una UUAA solo puede acceder a los datos que ella misma custodia» (marcada)"
+   ],
+   "fuentes": [
+    "APX3 pág. 7"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "Dos opciones marcadas en la misma pregunta que, literalmente, se excluyen («solo sus datos» vs «también de terceros»). En la norma son complementarias (directo solo lo propio; lo ajeno vía librería del dueño). Redacción; G109 las califica juntas y G157 da «Sí» a terceros."
+  },
+  {
+   "preguntas": [
+    "APX3 #29 (Todas: incluye «Paginación en transacciones» como patrón)",
+    "APX3 #25 (sin marca las opciones que incluyen «Paginación en transacciones»)"
+   ],
+   "fuentes": [
+    "APX3 págs. 5-6"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "Las opciones sin marca de #25 fallan por otros elementos («paginación/CRUD en componentes APX»), no por «Paginación en transacciones». Compatible; G181 califica las cuatro."
+  },
+  {
+   "preguntas": [
+    "APX3 #62 (cada step tiene itemReader, itemProcessor, itemWriter)",
+    "APX3 #60 (tipos de step: Chunk y Task)",
+    "APX3 #75 (la lógica va en el step Task)"
+   ],
+   "fuentes": [
+    "APX3 págs. 10-11, 13"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "#62 generaliza a «cada step» algo que solo aplica al chunk; un Task (tasklet) no tiene reader/processor/writer. Imprecisión de redacción, no contradicción entre respuestas."
+  },
+  {
+   "preguntas": [
+    "APX3 #20/#32/#34 (Contenedor Mágico es antipatrón)",
+    "Java.pdf #18 (justificación: «Contenedor mágico no es un patrón reconocido»)"
+   ],
+   "fuentes": [
+    "APX3 págs. 4, 6-7",
+    "java/Java.pdf (resaltado VERDE en el contenido; mismo archivo que «1 - Material de estudio - APX/Material de apoyo/Java.pdf», md5 8e30b9b6…) pág. 25"
+   ],
+   "contradiccion_real": false,
+   "explicacion": "La frase de Java.pdf está en la justificación, no en la respuesta marcada (Blob, coherente con APX3 #23). No es clave contra clave, pero conviene no citar esa justificación."
+  }
+ ],
+ "otras_fuentes_con_clave": [
+  {
+   "fuente": "CLASIFICADOR/java/Java.pdf — RESALTADO VERDE",
+   "evidencia": "318 líneas con fondo verde (detector de color sobre el render de PDFKit, sin amarillo). En todas las preguntas que traen además «La respuesta correcta es», el verde coincide con el texto, salvo #165 (APX) y #39/#49 (Java, texto truncado). Da clave a preguntas sin texto de respuesta: #31, #44, #66, #91, #137, #176, #208 (7 del banco que están en «instructor») y confirma #159, #160, #204, #167, etc. Verificado en imagen, págs. 46, 66, 99, 143, 212-213, 263, 272, 299. Lista completa pregunta→líneas verdes: scratchpad verif-r1-resto/java_green.json.",
+   "alcance": "APX y Java"
+  },
+  {
+   "fuente": "CLASIFICADOR/java/Exámen Diagnóstico Java.pdf (escaneado, 47 págs.)",
+   "evidencia": "Es la vista «viewscore» de un Google Forms calificado (17/10/22, «Java Examen»): trae «Respuesta correcta» y palomitas verdes en las opciones correctas (ej. pág. 3). OCR (Vision) sin preguntas APX: solo Java; única cercana, «What is the DTO pattern used for?» (pág. 27), que no está entre las 37.",
+   "alcance": "solo Java; no afecta al banco APX"
+  },
+  {
+   "fuente": "APX3 pág. 9 — resaltado GRIS",
+   "evidencia": "Además del amarillo, la opción «TRACE, DEBUG, INFO, WARNING & ERROR» de #47 lleva fondo gris. No es clave según la regla (solo amarillo), pero indica duda del autor (ver tarea2).",
+   "alcance": "APX3 #47"
+  },
+  {
+   "fuente": "Sin clave (revisados)",
+   "evidencia": "docx de 3-Cuestionarios, 4-Simulaciones, 5-Educaplay, apx/examenes y java/: sin w:highlight ni sombreado (solo color 666666 en «(opción única)»). _datos-extraccion/*.json (Google Forms, MS Forms, Educaplay): sin campos de respuesta correcta. Banco de preguntas - Temas variados.docx, Formularios APX.docx, LINKS.docx, Material Extraído.docx: solo enlaces. Examen Diagnóstico APX 4.pdf: marcas de alumno (excluido por instrucción). Ether.pdf/Manual de Ether/Capabilities: colores de documentación, no exámenes.",
+   "alcance": "—"
+  }
+ ],
+ "nota_banco_vs_verde": "Cruce de TODOS los miembros JPDF del banco contra el verde: coinciden todos los de «cuestionario» salvo G002 (JPDF-165). Los 7 de «instructor» con miembro JPDF tienen clave verde (tarea1)."
+}
