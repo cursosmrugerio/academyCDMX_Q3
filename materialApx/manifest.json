@@ -793,6 +793,42 @@
    "bytes_drive": 10032415,
    "sha256": "9ca12638ee942e5eaf736db30406fffa8cb7d1cf771b6f6c0e0a819c9a56af7e",
    "url": "https://drive.google.com/file/d/140aXpTDOFNeDyM1jyqDP0lEIwBrvGt6z/view"
+  },
+  {
+   "ruta": "otros/APX.pdf",
+   "drive_id": null,
+   "origen": "otros/ (añadido el 10-oct-2026, origen no documentado)",
+   "tipo": "descarga de Studocu (Google Form contestado)",
+   "bytes": 514199,
+   "bytes_drive": null,
+   "sha256": "fb1cc32cd4d83fae14395615b5b9a37d221989ac19fa38719e6e6acfa73a7ff3",
+   "url": null,
+   "preguntas": 254
+  },
+  {
+   "ruta": "otros/Java.pdf",
+   "drive_id": null,
+   "origen": "otros/ (añadido el 10-oct-2026, origen no documentado)",
+   "tipo": "exportación de Google Docs",
+   "bytes": 2552187,
+   "bytes_drive": null,
+   "sha256": "d45635da3947578fbabe4d6c057db9d6ae7e8ff188b1408c4c40c32f00561d3a",
+   "url": null,
+   "preguntas": 212,
+   "mismo_texto_que": [
+    "1 - Material de estudio - APX/Material de apoyo/Java.pdf"
+   ]
+  },
+  {
+   "ruta": "otros/MiGuiaAPX 2.pdf",
+   "drive_id": null,
+   "origen": "otros/ (añadido el 10-oct-2026, origen no documentado)",
+   "tipo": "PDF hecho con LaTeX",
+   "bytes": 7185409,
+   "bytes_drive": null,
+   "sha256": "1f85eda7da0aecae57fcd1ddadd2bb1a25be28691169b13ff5ca235b7297cbbc",
+   "url": null,
+   "preguntas": 212
   }
  ]
 }
