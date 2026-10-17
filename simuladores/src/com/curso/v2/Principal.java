@@ -5,14 +5,14 @@ interface a{
 }
 
 class b{
-	private void ejectuar() {
+	private void ejecutar() {
 	}
 }
 
 class c extends b implements a{
 	@Override
 	public void ejecutar() {
-		//super.ejectuar();
+		//super.ejecutar();
 	}	
 }
 

@@ -7,12 +7,12 @@ interface A{
 }
 
 class B{
-	void ejectuar() {
+	void ejecutar() {
 		System.out.println("Clase");
 	}
 }
 
-class C extends B implements A{
+class C extends B implements A{ //NO COMPILA: acceso mas debil (B.ejecutar es de paquete, A.ejecutar es public)
 	
 }
 
@@ -21,10 +21,10 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		C c = new C();
-		c.ejectuar();
+		c.ejecutar();
 		
 //		A a = new C();
-//		a.ejectuar();
+//		a.ejecutar();
 
 	}
 
